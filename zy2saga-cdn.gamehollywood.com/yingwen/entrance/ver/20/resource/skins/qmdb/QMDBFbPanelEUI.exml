@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QMDBFbPanelEUI" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b13ea96" />
+	<e:Group right="0" verticalCenter="33" x="550" y="603">
+		<e:Image x="0" y="0" source="qmdb_zycs_tdi"/>
+		<e:Label text="Chest Refresh:" x="10" y="17" size="20" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xFFFFFF"/>
+		<e:Label id="lbBXtime" text="48s" x="131" y="17" size="20" scaleX="1" scaleY="1" fontFamily="Times" textColor="0x13ee22"/>
+		<e:Label text="Gathered:" x="24" y="46" size="20" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xFFFFFF"/>
+		<e:Label id="lbCount" text="0/20" x="106" y="47" size="20" scaleX="1" scaleY="1" fontFamily="Times" textColor="0x13EE22"/>
+		<e:Label text="Time Remain:" x="4" y="84" size="20" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" text="29:48" x="120" y="85" size="20" scaleX="1" scaleY="1" fontFamily="Times" textColor="0x13EE22"/>
+		<e:Label id="lbReward" text="Obtained Rewards" x="12" y="109" size="20" scaleX="1" scaleY="1" fontFamily="Times" textColor="0x13EE22"/>
+	</e:Group>
+	<e:Group bottom="210" horizontalCenter="0" width="258" touchThrough="true" x="231" y="750">
+		<e:Label id="lbShowReward1" text="Output Preview" x="18" y="300" size="20" fontFamily="Times" textColor="0x13EE22"/>
+		<e:Label id="lbShowReward2" text="Output Preview" x="159" y="300" size="20" fontFamily="Times" textColor="0x13EE22"/>
+		<e:Group id="group1" x="34" y="0">
+		<e:Image x="0" y="0" source="qmdb_zycs_tips0"/>
+		<e:Image x="9" y="16" source="qmdb_zycs_tips1"/>
+		<e:Image x="142" y="0" source="qmdb_zycs_tips0"/>
+		<e:Image x="151" y="16" source="qmdb_zycs_tips1"/>
+		</e:Group>
+		<e:Button id="btnBox1" label="Button" x="0" y="155" icon="qmdb_zycs_box1" skinName="Btn0Skin"/>
+		<e:Button id="btnBox2" label="Button" x="141" y="155" icon="qmdb_zycs_box2" skinName="Btn0Skin"/>
+	</e:Group>
+	<e:Group id="collectionGroup" horizontalCenter="4" verticalCenter="26" visible="false" x="252" y="599">
+		<e:Image y="-9" touchEnabled="false" source="kfsd_zycs_sq2" x="51"/>
+		<e:Group id="groupMask" y="0" scaleX="1" scaleY="1" x="60">
+		<e:Image id="imgBoxBar" touchEnabled="false" source="kfsd_zycs_jdt" y="0" x="0"/>
+		</e:Group>
+		<e:Image y="104" touchEnabled="false" source="kfsd_zycs_wzd" x="0"/>
+		<e:Image y="7" touchEnabled="false" x="67" source="kfsd_zycs_sq1"/>
+		<e:Label id="lbBoxTime" y="108" text="Collecting" fontFamily="Times" size="20" lineSpacing="0" textAlign="center" textColor="0x13EE12" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

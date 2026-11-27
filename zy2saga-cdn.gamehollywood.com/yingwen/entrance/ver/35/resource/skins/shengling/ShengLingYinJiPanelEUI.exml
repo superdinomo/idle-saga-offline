@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengLingYinJiPanelEUI" width="720" height="1134" currentState="normal" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="normal,max" >
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0" width="720" height="1134">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image touchEnabled="false" x="13" y="42" source="shengling_zycs_bg2_jpg"/>
+		<e:Group id="groupEff" y="354" width="524" height="266" x="98">
+			<e:Group id="groupMc" width="0" height="0" y="125" x="262">
+				<e:Component id="yinJi0" y="0" x="0" skinName="ShengLingYinJiItemEUI" scaleX="0.8" scaleY="0.8" anchorOffsetX="60" anchorOffsetY="62" visible="false"/>
+				<e:Component id="yinJi1" y="0" skinName="ShengLingYinJiItemEUI" scaleX="0.8" scaleY="0.8" x="0" anchorOffsetX="60" anchorOffsetY="62" visible="false"/>
+				<e:Component id="yinJi2" y="0" skinName="ShengLingYinJiItemEUI" scaleX="0.9" scaleY="0.9" x="0" anchorOffsetX="60" anchorOffsetY="62" visible="false"/>
+				<e:Component id="yinJi3" y="0" skinName="ShengLingYinJiItemEUI" x="0" scaleX="1" scaleY="1" anchorOffsetX="60" anchorOffsetY="62" visible="false"/>
+				<e:Component id="yinJi4" y="0" skinName="ShengLingYinJiItemEUI" x="0" scaleX="1" scaleY="1" anchorOffsetX="60" anchorOffsetY="62" visible="false"/>
+				<e:Component id="yinJi5" y="0" skinName="ShengLingYinJiItemEUI" scaleX="0.9" scaleY="0.9" x="0" anchorOffsetX="60" anchorOffsetY="62" visible="false"/>
+			</e:Group>
+			<e:Image id="imgL1" y="120" x="-4" source="qianghua_zycs_kuang4" width="108" height="112" alpha="0.01" visible="false"/>
+			<e:Image id="imgL2" y="40" source="qianghua_zycs_kuang4" x="106" width="108" height="112" alpha="0.01" visible="false"/>
+			<e:Image id="imgR2" y="40" source="qianghua_zycs_kuang4" width="108" height="112" x="310" alpha="0.01" visible="false"/>
+			<e:Image id="imgR1" y="120" source="qianghua_zycs_kuang4" width="108" height="112" x="420" alpha="0.01" visible="false"/>
+
+
+
+
+
+
+
+
+			<e:Component id="yinJi6" y="131" skinName="ShengLingYinJiItemEUI" x="-35"/>
+
+			<e:Component id="yinJi7" y="-15" skinName="ShengLingYinJiItemEUI" scaleX="1" scaleY="1" x="10"/>
+			<e:Component id="yinJi8" y="-130" skinName="ShengLingYinJiItemEUI" scaleX="1" scaleY="1" x="125"/>
+			<e:Component id="yinJi9" y="-130" skinName="ShengLingYinJiItemEUI" scaleX="1" scaleY="1" x="279"/>
+			<e:Component id="yinJi10" y="-15" skinName="ShengLingYinJiItemEUI" scaleX="1" scaleY="1" x="394"/>
+			<e:Component id="yinJi11" y="131" skinName="ShengLingYinJiItemEUI" x="439"/>
+		</e:Group>
+
+		<e:Scroller id="scroller" y="53" width="703" x="9" height="138">
+		<e:List id="list" itemRendererSkinName="ShengLingItemEUI">
+			<e:layout>
+			<e:HorizontalLayout gap="-25"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+		<e:Image y="179" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="198" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+
+
+		<e:Group y="623" width="192" horizontalCenter="0">
+			<e:Image source="pubilc_zycs_hengdikuang" left="-20" right="-20" scale9Grid="24,6,144,42"/>
+			<e:Image id="imgName" source="shengling_zycs_t1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Button id="btnTaoZhuang" x="615" y="223" skinName="Btn0Skin" icon="shengling_zycs_tz"/>
+
+
+		<e:Button id="btnHuanHua" y="608" skinName="Btn0Skin" icon="shenqi_zycs_hh" x="504"/>
+		<e:Image id="imgSyz" y="609" source="jh_zycs_syz" x="479"/>
+
+		<e:Group id="groupBarAll" x="125" y="684">
+			<e:Image y="0" source="shengling_zycs_jd1" x="9"/>
+			<e:Group id="groupBar" y="-13" x="9"/>
+			<e:Image y="11" source="shengling_zycs_jd2" x="0"/>
+			<e:Image y="9" x="90" source="shengling_zycs_kd"/>
+			<e:Image y="9" x="160" source="shengling_zycs_kd"/>
+			<e:Image y="9" source="shengling_zycs_kd" x="234"/>
+			<e:Image y="9" source="shengling_zycs_kd" x="308"/>
+			<e:Image y="9" source="shengling_zycs_kd" x="378"/>
+		</e:Group>
+		<e:Button id="helpBtn" x="606" y="680" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+
+		<e:Image y="723" x="11" scale9Grid="310,77,93,96" source="em_zycs_k5" height="163"/>
+		<e:Image y="741" source="liuguang_zycs_huawen" scaleX="-1" x="594"/>
+		<e:Image y="741" source="liuguang_zycs_huawen" x="126"/>
+		<e:Image y="738" x="313" source="shengling_zycs_yjsx"/>
+		<e:Image y="800" source="qianghua_zycs_next" x="346" visible.max="false"/>
+
+
+
+
+
+
+
+		<e:Label id="lbCurAttr" text="M99 Lv.99\nM99 Lv.99\nM99 Lv.99\nM99 Lv.99" y="775" size="20" fontFamily="Times" textAlign="left" x="145" lineSpacing="5" textColor="0xcdc8be" x.max="263"/>
+		<e:Label id="lbNextAttr" text="M99 Lv.99" y="775" size="20" fontFamily="Times" textAlign="left" x="434" lineSpacing="5" textColor="0x13ee22" visible.max="false"/>
+		<e:Group id="groupConsu" y="889" horizontalCenter="0" visible.max="false">
+			<e:Label text="Cost: " size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="0" y="6"/>
+		<e:Image id="imgConsu" y="0" x="60" source="zycs_341102"/>
+		<e:Label id="lbConsu" text="0/1" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="100" y="6"/>
+		</e:Group>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="929" x="286" label="Imprint Advancement" visible.max="false"/>
+		<e:Image id="imgYml" touchEnabled="false" y="918" source="bxsb_zycs_ymj" x="299" visible.normal="false"/>
+
+	</e:Group>
+
+</e:Skin>

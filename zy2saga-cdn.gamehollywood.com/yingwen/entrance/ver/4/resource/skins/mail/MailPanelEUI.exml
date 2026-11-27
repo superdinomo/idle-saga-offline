@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MailPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Group horizontalCenter="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="42" touchEnabled="false" source="yj_zycs_bg_jpg" x="12"/>
+	<e:Scroller id="mailScroller" height="894" y="80" width="682" x="19">
+		<e:List id="mailList" itemRendererSkinName="MailItemEUI" useVirtualLayout="false">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			<!--
+				
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+	<e:Label id="noMailTip" text="There's no mail now." y="479" size="26" fontFamily="Times" textAlign="left" verticalAlign="justify" horizontalCenter="0" textColor="0xe6dcb8"/>
+	<e:Button y="1006" label="Claim All" id="allReceiveBtn"  skinName="BtnMin1_1" x="294"/>
+</e:Group>
+	
+</e:Skin>

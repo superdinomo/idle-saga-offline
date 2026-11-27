@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TianShiShengDunPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134" states="normal,max">
+	<w:Config id="1586b3cda3a" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="42" x="13" source="tssd_zycs_bg_jpg" />
+	<e:Image y="163" source="tssd_zycs_fz_png" x="122" />
+	<e:Image y="192" source="tssd_zycs_gzd_png" x="148" />
+	<e:Image y="966" source="bxsb_zycs_ymj" x="299" visible.normal="false"/>
+	<e:Group y="642" horizontalCenter="0">
+		<e:Image id="imgStage" x="0" y="0" fillMode="clip" source="zuji_zycs_1"/>
+		<e:Image x="3" y="77" source="tssd_zycs_tssd"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="78" anchorOffsetY="0" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="93.5" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower0" x="88" y="0" text="6666" font="powernum_fnt"/>
+		<e:layout>
+		<e:HorizontalLayout gap="6" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupMc2" width="0" height="0" x="0" y="0"/>
+	<e:Group id="groupStar" x="148" y="181">
+		<e:Image y="0" source="shenmo_zycs_zhu_03" x="187" />
+		<e:Image x="308" y="42" source="shenmo_zycs_zhu_03" />
+		<e:Image x="372" y="135" source="shenmo_zycs_zhu_03" />
+		<e:Image x="375" y="252" source="shenmo_zycs_zhu_03" />
+		<e:Image x="311" y="347" source="shenmo_zycs_zhu_03" />
+		<e:Image x="187" y="390" source="shenmo_zycs_zhu_03" />
+		<e:Image x="63" y="347" source="shenmo_zycs_zhu_03" />
+		<e:Image x="0" y="252" source="shenmo_zycs_zhu_03" />
+		<e:Image x="1" y="135" source="shenmo_zycs_zhu_03" />
+		<e:Image x="66" y="42" source="shenmo_zycs_zhu_03" />
+		<e:Image id="imgStar0" x="192" y="5" source="shenmo_zycs_zhu_01" />
+		<e:Image y="47" id="imgStar1" x="313" source="shenmo_zycs_zhu_01" />
+		<e:Image y="140" id="imgStar2" x="377" source="shenmo_zycs_zhu_01" />
+		<e:Image y="257" id="imgStar3" x="380" source="shenmo_zycs_zhu_01" />
+		<e:Image y="352" id="imgStar4" x="316" source="shenmo_zycs_zhu_01" />
+		<e:Image x="192" y="395" id="imgStar5" source="shenmo_zycs_zhu_01" />
+		<e:Image y="352" id="imgStar6" x="68" source="shenmo_zycs_zhu_01" />
+		<e:Image x="5" y="257" id="imgStar7" source="shenmo_zycs_zhu_01" />
+		<e:Image x="6" y="140" id="imgStar8" source="shenmo_zycs_zhu_01" />
+		<e:Image x="71" y="47" id="imgStar9" source="shenmo_zycs_zhu_01" />
+	</e:Group>
+	<e:Component id="shuxingitem1" y="124" x="605" skinName="TianShiShengDunPanelItemEUI" />
+	<e:Component id="shuxingitem2" y="224" x="605" skinName="TianShiShengDunPanelItemEUI" />
+	<e:Component id="shuxingitem3" y="324" x="605" skinName="TianShiShengDunPanelItemEUI" />
+	<e:Image y="669" source="shenyu_zycs_di" scale9Grid="87,34,524,204" height="228" x="11" />
+	<e:Image x="344" y="715" source="qianghua_zycs_next" visible.max="false" />
+	<e:Label id="labelAttr" x="123" y="691" size="24" text="Most" fontFamily="Times" textAlign="left"
+	         lineSpacing="8" horizontalCenter.max="0" x.normal="123"  textColor="0xe3d7be"/>
+	<e:Label id="labelAttrNext" y="691" size="24" text="0\n0\n0" fontFamily="Times"
+	         textAlign="right" lineSpacing="8" visible.max="false"  textColor="0x13ee22" right="182"/>
+	<e:Group id="groupJiantou" x="540" y="690" visible.max="false">
+		<e:Image fillMode="repeat" source="public_zycs_lj" />
+		<e:Image fillMode="repeat" source="public_zycs_lj" />
+		<e:Image fillMode="repeat" source="public_zycs_lj" />
+		<e:layout>
+			<e:VerticalLayout gap="7" />
+		</e:layout>
+	</e:Group>
+	<e:Scroller id="scroller" y="789" x="71">
+		<e:List id="listSkill" currentState="disabled" useVirtualLayout="false" allowMultipleSelection="true"
+		        itemRendererSkinName="TianShiShengDunPanelItemEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="27" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupConsume" x="150" y="952">
+		<e:RadioButton id="radiobtn1" label="" x="0" y="0" skinName="RadioButtonEUI"/>
+		<e:RadioButton id="radiobtn2" label="" x="182" y="0" skinName="RadioButtonEUI"/>
+		<e:RadioButton id="radiobtn3" label="" x="364" y="0" skinName="RadioButtonEUI"/>
+		<e:Label id="lbitem1" x="65" y="6" size="20" text="99/1" fontFamily="Times" textColor="0xAF9B73" textAlign="left"/>
+		<e:Label id="lbitem2" x="248" y="6" size="20" text="99/1" fontFamily="Times" textColor="0xAF9B73" textAlign="left"/>
+		<e:Label id="lbitem3" x="428" y="6" size="20" text="99/1" fontFamily="Times" textColor="0xAF9B73" textAlign="left"/>
+		<e:Image x="31" y="0" source="zycs_310066"/>
+		<e:Image x="214" y="0" source="zycs_310067"/>
+		<e:Image x="394" y="0" source="zycs_310068"/>
+	</e:Group>
+	<e:Button id="btnUp" y="1001" skinName="BtnMin1_1" visible.max="false"  label="Increase" x="286"/>
+	<e:Group id="groupMc" width="0" height="0" x="0" y="0"/>
+	<e:Group id="groupOpen" y="42" scrollEnabled="true" x="13" width="694" height="1050" visible="false">
+		<e:Image  source="tssd_zycs_bg_jpg"/>
+		<e:Image y="199" source="tssd_zycs_dun_png" x="78" />
+		<e:Image id="imgbg1" y="323" source="tssd_zycs_m3_png" x="10" />
+		<e:Image id="imgbg2" y="323" source="tssd_zycs_m2_png" x="348" />
+		<e:Button id="btnAct" skinName="BtnMin1_1" y="959"  label="Unlock" x="273"/>
+		<e:Image id="imgAct" y="884" source="tssd_zycs_jhmsz" x="164" />
+	</e:Group>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\T_天使圣盾\T-天使圣盾1.jpg" y="-47" locked="true" visible="false"/>-->
+</e:Skin>

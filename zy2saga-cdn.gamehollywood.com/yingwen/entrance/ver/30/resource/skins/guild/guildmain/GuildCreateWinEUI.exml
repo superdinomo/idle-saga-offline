@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildCreateWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Image y="29"  source="zhanmeng_zycs_zm" x="334"/>
+		<e:Button id="closeBtn" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Image width="209" x="394" y="162" source="public_zycs_shurukuang" scale9Grid="14,3,91,21" height="27"/>
+		<e:Label id="time" text="Please enter the guild name" y="162" fontFamily="Times" size="24" scaleX="1" scaleY="1" textColor="0xe5d3b5" right="342"/>
+		<e:TextInput id="textInput" y="162" width="209" height="27" maxChars="6" enabled="true" skinName="skins.TextInputSkin" left="390"/>
+		<e:Image id="selectBmp" x="22" y="268" source="zhanmeng_zycs_jx02_png"/>
+		<e:Group id="group1" x="22" y="268">
+			<e:Image x="0" y="0" source="zhanmeng_zycs_jx03_png"/>
+			<e:Label id="labelName1" text="Lv.1 Guild" y="47" fontFamily="Times" size="24" x="36" multiline="true" textAlign="left" lineSpacing="4" textColor="0xe5d3b5"/>
+			<e:Label id="labelVip1" text="(SVIP1 can create)" y="111" fontFamily="Times" size="24" x="36" multiline="true" textAlign="left" lineSpacing="4" textColor="0x23becd"/>
+			<e:Label id="labelCount1" text="0" y="149" fontFamily="Times" size="24" x="36" multiline="true" textAlign="left" lineSpacing="4" textColor="0xe5d3b5" width="266" wordWrap="true"/>
+			<e:Label id="labelCost1" text="0" y="266" fontFamily="Times" size="24" x="36" multiline="true" textAlign="left" lineSpacing="4" textColor="0xe5d3b5" width="266" wordWrap="true"/>
+		</e:Group>
+		<e:Group id="group2" y="268" x="364">
+			<e:Image y="0" x="0" source="zhanmeng_zycs_jx03_png"/>
+			<e:Label id="labelName2" text="Lv.2 Guild" y="47" fontFamily="Times" size="24" x="33" multiline="true" textAlign="left" lineSpacing="4" textColor="0xe5d3b5"/>
+			<e:Label id="labelVip2" text="(SVIP4 can create)" y="111" fontFamily="Times" size="24" x="29" multiline="true" textAlign="left" lineSpacing="4" textColor="0x23BECD"/>
+			<e:Label id="labelCount2" text="Easy" y="149" fontFamily="Times" size="24" x="33" multiline="true" textAlign="left" lineSpacing="4" textColor="0xe5d3b5" width="266"/>
+			<e:Label id="labelCost2" text="Create" y="266" fontFamily="Times" size="24" x="35" multiline="true" textAlign="left" lineSpacing="4" textColor="0xe5d3b5" width="266" wordWrap="true"/>
+		</e:Group>
+		<e:Button id="btnCreat" skinName="BtnMin1_1" y="725" x="294" label="Create"/>
+	</e:Group>
+
+</e:Skin>

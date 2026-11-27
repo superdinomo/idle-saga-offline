@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LiXianWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_greybg2" width="100%" height="100%" scale9Grid="2,2,16,16"/>
+	<e:Group verticalCenter="9" width="720" height="882" horizontalCenter="0">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="lx_zycs_bg_jpg"/>
+		<e:Image y="-16" horizontalCenter="-1.5" source="zhaunsheng_zycs_bt2"/>
+		<e:Image y="14" source="js_zycs_lx" horizontalCenter="-1"/>
+		<e:Image y="292" horizontalCenter="-0.5" source="qianghua_zycs_next"/>
+		<e:Button id="closeBtn" label="" x="637" y="-1" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Group id="groupKa" x="427" y="82" width="261" height="183">
+			<e:Image y="6" touchEnabled="false" x="0" source="cg_zycs_dk1"/>
+			<e:Image y="6" touchEnabled="false" source="cg_zycs_dk1" x="134"/>
+			<e:Image y="121" touchEnabled="false" x="15" source="cg_zycs_dk"/>
+			<e:Image y="121" touchEnabled="false" source="cg_zycs_dk" x="149"/>
+			<e:Image y="128" touchEnabled="false" source="cg_zycs_sy" horizontalCenter="-67"/>
+			<e:Image y="128" touchEnabled="false" source="cg_zycs_sy" horizontalCenter="67"/>
+			<e:Button id="btnYueka" label="" skinName="Btn0Skin" icon="cg_zycs_yuek" y="0" x="2"/>
+			<e:Button id="btnZhiZun" label="" skinName="Btn0Skin" icon="cg_zycs_tq" y="0" x="136"/>
+			<e:Label id="lbYueka" text="Unlock" y="159" fontFamily="Times" size="22" textAlign="center" x="11" textColor="0x11F51C" width="109" wordWrap="true"/>
+			<e:Label id="lbZhuZun" text="Unlock" y="159" fontFamily="Times" size="22" textAlign="center" x="144" textColor="0x11F51C" width="110" wordWrap="true"/>
+		</e:Group>
+		<e:Label y="216" text="(Can accumulate up to 20 hours of Offline Resources)" fontFamily="Times" size="22" x="45" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" lineSpacing="5" textColor="0x13ee22" width="361" wordWrap="true"/>
+		<e:Label id="lbOldLevel" y="299" text="Current Level" fontFamily="Times" size="24" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" lineSpacing="5" horizontalCenter="-135" textColor="0xe3d7be"/>
+		<e:Label id="lbCurLevel" y="299" text="Current Level" fontFamily="Times" size="24" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" lineSpacing="5" textColor="0x13EE22" horizontalCenter="121"/>
+		<e:Label id="lbTimer" y="158" text="Time" fontFamily="Times" size="46" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" lineSpacing="5" textColor="0xFF9B0F" horizontalCenter="-137"/>
+		<e:Label y="95" text="Offline" fontFamily="Times" size="46" x="156" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" lineSpacing="5" textColor="0xff9b0f"/>
+		<e:Image touchEnabled="false" y="356" source="shenqi_zycs_di4" x="10" scale9Grid="87,20,524,120" height="304"/>
+	<e:Scroller width="497" height="289" x="111" y="360" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="listItem" x="-1" y="-1" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" height="95"
+		        width="423">	
+			<e:layout>
+				<e:TileLayout paddingLeft="15" paddingRight="15" paddingTop="15" horizontalGap="21" verticalGap="13"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+		<e:Button id="btnOk" y="724" label="Claim" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" horizontalCenter="-0.5"/>
+	</e:Group>
+</e:Skin>

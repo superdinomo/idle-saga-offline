@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YYMS2PanelEUI" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="1134">
+	<e:Group id="group" x="0" y="0" width="720" height="1134">
+		<e:Image x="0" y="0" height="1132" touchEnabled="false" source="public_zycs_dikuang" width="720"
+		         scale9Grid="71,59,52,18" />
+		<e:Image x="13" y="44" touchEnabled="false" scale9Grid="88,64,2,3"  source="yyms_zycs_bg2_jpg"/>
+		<e:Image y="-64" touchEnabled="false" pixelHitTest="true" x="-2" source="dljl_zycs_k_png" />
+		<e:Image touchEnabled="false" pixelHitTest="true" y="-12" horizontalCenter="0"
+		          source="bt_zycs_zsmiaosha"/>
+			<e:List id="listTab" itemRendererSkinName="YYMS2TabItemEUI" y="60" horizontalCenter="0">
+				<e:layout>
+					<e:HorizontalLayout gap="56" />
+				</e:layout>
+				<!--
+				-->
+			</e:List>
+		<e:Group id="groupBoxEff" width="0" height="0" y="435" horizontalCenter="0"/>
+		<e:Image id="imgBoxName" y="254"  horizontalCenter="0" source="yyms_zycs_s101"/>
+		<e:Image id="imgBoxTips" x="524" y="263"  source="zsms_zycs_10000"/>
+		<e:Image id="imgBox"  bottom="614" horizontalCenter="0" source="yyms2_zycs_box1"/>
+			<e:Button id="btnLeft" label="" x="136" y="467" skinName="Btn0Skin" icon="zuji_zycs_jiantou" scaleY="1" scaleX="-1" />
+		<e:Button id="btnRight" label="" x="584" y="467" skinName="Btn0Skin" icon="zuji_zycs_jiantou" />
+		<e:Image x="122" y="603" source="liuguang_zycs_huawen" />
+		<e:Image x="312" y="602"  source="yyms_zycs_lbnr"/>
+		<e:Image x="599" y="603" source="liuguang_zycs_huawen" scaleX="-1" />
+		<e:Scroller horizontalCenter="0" y="624">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout gap="12"  paddingLeft="6" paddingTop="6" paddingBottom="40"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupRechargeBtn" y="791" width="306" horizontalCenter="0">
+			<e:Label id="labelYuanjia" text="Original Price: $60" y="0" fontFamily="Times" size="20" textColor="0xe3d7be" horizontalCenter="0"/>
+			<e:Image y="6" source="zhuansheng_zycs_rx" scaleX="0.3" scaleY="0.5" horizontalCenter="0"/>
+			<e:Button id="btnRecharge2" y="27" label="$15 Deal" skinName="BtnMin1_17" horizontalCenter="0"/>
+			<e:Button id="btnRecharge1" y="27" label="$6 Deal" skinName="BtnMin1_17" horizontalCenter="0"/>
+			<e:Button id="btnRecharge0" y="27" label="$1 Deal" skinName="BtnMin1_17" horizontalCenter="0"/>
+		</e:Group>
+		<e:Button id="btnGet" y="818" label="Claim" skinName="BtnMin1_17" horizontalCenter="0"/>
+		<e:Image id="imgYLQ" source="fl_zycs_ylq" y="800" x="295"/>
+		<e:Label id="labelDesc" text="(Deal Pack won't be counted towards the 1st Top-up amount. The acquired Vouchers won't affect the daily acquire limit)" y="891" fontFamily="Times" size="20" textColor="0xE3D7BE" width="648" horizontalCenter="0" textAlign="center" wordWrap="true"/>
+		<e:Button id="btnRechargeAll" label="$18 Deal" y="981" x="510" skinName="BtnMin1_17" />
+		<e:Label id="labelYGMAll" text="Purchased" y="1004" fontFamily="Times" size="24" textColor="0xFFFFFF" x="565"/>
+		<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+	</e:Group>
+</e:Skin>

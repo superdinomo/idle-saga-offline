@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActQingMingRankTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1280">
+	<e:Group id="group" width="720" height="1280" horizontalCenter="-2" verticalCenter="-1" touchEnabled="false">
+		<e:Group width="433" height="141" y="240" x="144">
+			<e:Image id="imgBg" touchEnabled="true" y="0" x="0" source="jsdd_zycs_maopao" />
+			<e:Label id="lbDec" fontFamily="Times" size="20" text="Ranking Ace RewardsRanking Ace RewardsRanking Ace RewardsRanking Ace RewardsRanking A" y="55" x="132" textColor="0xcdc8be"
+			         textAlign="left"  width="285" height="75" verticalAlign="middle"/>
+			<e:Image id="imgClick" touchEnabled="true" source="mianui_zycs_kp" y="0" width="100%" height="100%" x="0" alpha="0.01" />
+			<e:Button id="closeBtn0" label="" x="407" y="43" skinName="Btn0Skin" icon="mainui_zycs_x" />
+		</e:Group>
+	</e:Group>
+</e:Skin>

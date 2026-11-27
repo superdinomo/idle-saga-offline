@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KlmPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1054" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+
+	<e:Image id="imgBg" y="39"  source="klm_zycs_di1_jpg" x="12"/>
+
+
+
+
+	<e:Image y="656.67" anchorOffsetY="0" height="153"  horizontalCenter="-91" anchorOffsetX="0" source="public_zycs_dk01" scale9Grid="300,23,119,15"/>
+	<e:Group id="groupBoss" x="273" y="587"/>
+
+	<e:Group width="480" height="109" x="26" y="684.67" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Scroller id="Scrollerlist0" y="-7" anchorOffsetX="0" anchorOffsetY="0" x="0"
+		            scrollPolicyH="on" scrollPolicyV="off" >
+			<e:List id="listReward" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingLeft="0" paddingRight="0" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Image x="124" y="69" anchorOffsetY="0" anchorOffsetX="0"
+	         scale9Grid="123,8,27,18"  source="public_zycs_di01"/>
+	<e:Label id="lbName" y="73" text="0" fontFamily="Times" size="24" lineSpacing="0" textColor="0xff9b0f"  horizontalCenter="-87"/>
+	<e:Label y="121" text="Remaining HP" fontFamily="Times" size="24" x="57" lineSpacing="0"  textColor="0xe6dcb8"/>
+	<e:Label id="lbDesc" y="160" text="Elimination grants Konton’s Gate Rage" fontFamily="Times" size="22" x="38" lineSpacing="0"  textColor="0xe6dcb8"/>
+	<e:Image y="189" source="public_zycs_jlylk"  x="121"/>
+	<e:Group y="208" horizontalCenter="-81">
+		<e:Image source="public_zycs_zdl" x="1"/>
+		<e:BitmapLabel id="bitPower" x="118" text="12" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:ProgressBar id="barhp" x="256" y="113" value="100" anchorOffsetX="0" anchorOffsetY="0"
+	               skinName="ProgressBarEUI1" slideDuration="0" />
+
+	<e:Label id="timeTxt" y="874" text="0" fontFamily="Times" size="20" lineSpacing="0" textColor="0xAF9B73"
+	          horizontalCenter="-91"/>
+	<e:Label id="lbLv" y="874" text="0" fontFamily="Times" size="20" lineSpacing="0"
+	         textColor="0xf01414"  horizontalCenter="-91"/>
+	<e:Image y="630" x="222" source="qm_zycs_dlyl"/>
+	<e:Group id="groupChallenge" x="195" y="813">
+		<e:Button id="challengeBtn" label="Challenge" anchorOffsetX="0" anchorOffsetY="0"
+		          y="42" scaleX="1" scaleY="1" x="0"  skinName="BtnMin1_1" icon=""/>
+		<e:Label id="labelConsume" text="0" y="5" size="22" fontFamily="Times" textAlign="left" verticalAlign="middle"
+		         textColor="0xFFFFFF"  horizontalCenter="0"/>
+		<e:Image id="imgConsume" x="7" y="-2" width="34" height="34"  source=""/>
+		<e:Label id="labelTime" text="0" y="5" size="22" fontFamily="Times" textAlign="center" verticalAlign="middle" textColor="0xff0000" horizontalCenter="0"/>
+	</e:Group>
+
+
+
+	<e:Image x="530" y="686" source="klm_zycs_k2"/>
+	<e:Component id="guaJiZhuShouGoto" touchEnabled="true" skinName="GuaJiZhuShouGotoEUI" x="375" y="808" currentState="emo" width="78" height="82"/>
+	<e:Image x="560" y="673" source="tssy_zycs_lian" fillMode="repeat" height="58"/>
+	<e:Image x="627" y="673" source="tssy_zycs_lian" height="58" fillMode="repeat"/>
+	<e:Component id="kunDunEff" x="546" y="704" scaleX="1" scaleY="1" skinName="KlmBarEffEUI"/>
+	<e:Image y="94" anchorOffsetY="0" right="19" source="fb_zycs_tybg_png" scale9Grid="77,37,16,3" height="587"/>
+	<e:Scroller x="505" y="122" height="536" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" width="199">
+		<e:List id="list" itemRendererSkinName="KlmPanelItemEUI" anchorOffsetX="0" anchorOffsetY="0" x="-72" y="0">
+		<e:layout>
+			<e:VerticalLayout gap="-12"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="labelSetting" y="907" text="Boss Reminder Settings" fontFamily="Times" size="24" textColor="0x5AC832" touchEnabled="true" x="464"/>
+	<!--<e:Image scale9Grid="77,37,16,3" anchorOffsetY="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神庙BOSS\S-神庙boss1.jpg" y="-47" x="0" locked="true"/>-->
+
+
+</e:Skin>

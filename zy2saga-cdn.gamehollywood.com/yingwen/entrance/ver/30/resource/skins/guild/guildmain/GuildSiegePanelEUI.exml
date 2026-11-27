@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildSiegePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" xmlns:euiextension="euiextension.*" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="34" source="zhanmeng_zycs_di1_jpg"/>
+	<e:Image y="84" height="243" source="qianghua_zycs_kuang4" scale9Grid="34,38,30,23" width="678" x="21"/>
+	<e:Image pixelHitTest="true" source="hddt_zycs_bsk1" x="26" y="150"/>
+	<e:Image id="imgHead" pixelHitTest="true" y="168" x="46" source=""/>
+	<e:Image x="150" y="106" fillMode="scale" source="public_zycs_btkuang"/>
+	<e:Image x="157" y="112" fillMode="scale" source="zhanmeng_zycs_zmrq"/>
+	<e:Button id="helpBtn" x="290" y="105" skinName="Btn0Skin" icon="zs_zycs_wenhao"/>
+	<e:Image x="161" y="153" fillMode="scale" source="zhanmeng_zycs_time"/>
+	<e:Label text="09:30-22:00" y="153" fontFamily="Times" size="20" textAlign="center" x="214" textColor="0x5ac832"/>
+	<e:Image x="160" y="222" source="zhanmeng_zycs_jl"/>
+	<e:Label id="countTxt" text="Challenge Attempts: 1/6" y="166" fontFamily="Times" size="20" textAlign="left" textColor="0x5ac832" right="33"/>
+	<e:Label id="countTime" text="Remaining Monsters of this round: 1/6 (Refresh after 29:24)" y="293" fontFamily="Times" size="20" textAlign="left" textColor="0xafaaa0" x="59"/>
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="185" height="94" x="220">
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="btnEnter" y="197" x="551" skinName="BtnMin1_1mid" label="Challenge"/>
+</e:Skin>

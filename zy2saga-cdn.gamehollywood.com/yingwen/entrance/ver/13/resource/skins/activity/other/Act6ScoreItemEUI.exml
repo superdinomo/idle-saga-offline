@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act6ScoreItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="462" height="122">
+	<e:Image x="0" y="0" source="qianghua_zycs_kuang4" scale9Grid="35,28,31,40" width="462" height="122"/>
+	<e:Label id="lbDec" fontFamily="Times" size="22" text="Claim when this round of Gratitude reaches 3000 (2750/3000)" textColor="0xCDC8BE" textAlign="left" y="4" x="8" width="436" wordWrap="true"/>
+	<e:Scroller scrollPolicyH="off" x="21" y="51" scaleX="0.7" scaleY="0.7">
+		<e:List id="list0" itemRendererSkinName="ItemSkin" x="-2.86" y="2.86">
+		
+			
+		
+		<e:layout>
+			<e:HorizontalLayout gap="15"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="imgYlq" x="323" source="public_zycs_ylq" y="36"/>
+
+
+
+
+
+</e:Skin>

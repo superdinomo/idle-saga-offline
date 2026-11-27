@@ -1,0 +1,53 @@
+<e:Skin class="ShenMoEquipShopPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="43" touchEnabled="false" scale9Grid="88,64,2,3" x="13"  source="smzb_zycs_bg2_jpg"/>
+	<e:Image y="88" touchEnabled="false" scale9Grid="88,64,2,3" x="11" source="cbzb_zycs_by_png"/>
+	<e:Scroller y="91" x="12" width="175" height="944">
+		<e:List id="listRankLevel" itemRendererSkinName="ShenMoEquipShopPanelTitleItemEUI">
+			<e:ArrayCollection>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="" scrollPolicyH="off" scrollPolicyV="on" y="96" x="199" anchorOffsetX="0" width="494" anchorOffsetY="0" height="983">
+		<e:List id="listItem" itemRendererSkinName="ShenMoEquipShopPaneltemEUI" anchorOffsetY="0" height="780" anchorOffsetX="0"
+		        width="157">
+			<e:ArrayCollection>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout horizontalGap="13"  verticalGap="9"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="542" y="51">
+		<e:Image x="0" y="0" source="zycs_310028"/>
+		<e:Image y="2" touchEnabled="false" x="30" source="public_zycs_shurukuang" anchorOffsetX="0"/>
+		<e:Label id="lbCount" text="0" x="35" y="5" size="22" textColor="0xe6dcb8" fontFamily="Times"/>
+	</e:Group>
+</e:Skin>

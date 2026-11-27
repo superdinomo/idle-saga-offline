@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossRewardWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="462" height="122">
+	<e:Image x="0" y="0" source="qianghua_zycs_kuang4" scale9Grid="35,28,31,40" width="462" height="122"/>
+	<e:Label id="lbDec" fontFamily="Times" size="20" text="Available to claim when points reach 200 (100/200)" textColor="0xCDC8BE" textAlign="center" y="10" x="16"/>
+	<e:Scroller scrollPolicyH="off" x="34" y="48" scaleX="0.7" scaleY="0.7">
+		<e:List id="list0" itemRendererSkinName="ItemSkin">
+		
+			
+		
+		<e:layout>
+			<e:HorizontalLayout gap="15"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="imgYlq" x="324" source="public_zycs_ylq" y="21"/>
+	<e:Button id="btnSend" label="Claim" skinName="BtnMin1_1mid" verticalCenter="0" x="323"/>
+
+
+
+
+
+</e:Skin>

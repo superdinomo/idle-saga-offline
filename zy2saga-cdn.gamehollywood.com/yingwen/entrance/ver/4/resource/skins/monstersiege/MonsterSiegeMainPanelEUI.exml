@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterSiegeMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" x="13" source="mwwc_zycs_bg2_jpg"/>
+	<e:Label size="22" text="How to Play:" fontFamily="Times" x="27" verticalAlign="justify" stroke="1" strokeColor="0x000000" y="53" textColor="0xf5ee65"/>
+	<e:Label id="lbDesc" size="18" text="The monsters of Excellent Land are plotting an invasion. Some monsters have appeared  at the east gate of the main city. Warriors, go and defend against the attack of the monsters!" fontFamily="Times" x="27" verticalAlign="justify" stroke="1" strokeColor="0x000000" y="81" width="650" anchorOffsetX="0" textColor="0xffffff" lineSpacing="5"/>
+	<e:Label id="lbTimer" size="20" text="Event Time: 10:00 - 22:00 daily" fontFamily="Times" x="27" verticalAlign="justify" stroke="1" strokeColor="0x000000" y="147" textColor="0x13ee22"/>
+	<e:Image y="585" x="11" anchorOffsetY="0" scale9Grid="296,95,99,35" source="mwwc_zycs_tc4"/>
+	<e:Button id="btnRank" label="Score Rank" y="363" anchorOffsetY="0" x="597" icon="mwwc_zycs_jfph" skinName="Btn0Skin"/>
+	<e:Button id="btnLog" label="Score Rank" y="472" anchorOffsetY="0" x="597" skinName="Btn0Skin" icon="mwwc_zycs_tbtzjl"/>
+	<e:Image height="37" width="289" touchEnabled="false" y="611" x="257" source="public_zycs_di01" scale9Grid="95,4,52,29"/>
+	<e:Label size="20" text="My Points: " fontFamily="Times" verticalAlign="justify" stroke="1" strokeColor="0x000000" scaleX="1" scaleY="1" y="619" x="57" textColor="0xffffff"/>
+	<e:Label id="lbScore" size="20" text="0" fontFamily="Times" verticalAlign="justify" stroke="1" strokeColor="0x000000" scaleX="1" scaleY="1" y="619" x="151" textColor="0x13ee22"/>
+	<e:Label size="20" text="Point Pack Rewards (Resets at 0:00 every Monday)" fontFamily="Times" strokeColor="0x000000" y="619" textColor="0xff9b0f" textAlign="left" x="192"/>
+	<e:ProgressBar id="bar" x="56.3" y="688" anchorOffsetX="0" width="601" value="100" skinName="ProgressBarEUI21"/>
+	<e:Scroller id="scrollerReward" width="554" y="653" x="83" anchorOffsetX="0" anchorOffsetY="0" height="130" bounces="false">
+		<e:List id="listReward" itemRendererSkinName="MonsterSiegeBoxEUI" y="-1">
+	<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="25" paddingLeft="15"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnLeft" label="Button" y="673" skinName="Btn0Skin" icon="zycs_zyzl_qieye" x="73" width="64" scaleX="-1"/>
+	<e:Button id="btnRight" label="Button" y="673" skinName="Btn0Skin" icon="zycs_zyzl_qieye" x="645" width="64"/>
+	<e:Label id="lbCount" text="Remaining Challenge Attempts: 2/3 (Recovers one time after 99 seconds)" y="815" size="20" fontFamily="Times" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Button id="btnGoto" label="Go Now" y="850" anchorOffsetY="0" skinName="BtnMin1_1" icon="" horizontalCenter="-0.5"/>
+	<!--<e:Image x="0" y="-47" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\M_魔物围城\M-魔物围城.jpg" locked="true" visible="false"/>-->
+	
+</e:Skin>

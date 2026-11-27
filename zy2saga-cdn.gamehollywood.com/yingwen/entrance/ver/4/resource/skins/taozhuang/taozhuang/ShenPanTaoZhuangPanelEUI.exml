@@ -1,0 +1,69 @@
+<e:Skin class="ShenPanTaoZhuangPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1134" width="720" states="noact,act,max">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang"
+	         anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" />
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" y="43" scale9Grid="20,17,34,21"
+	         source="taozhuang_zycs_taozhuangdi_jpg" x="13" />
+	<e:Image y="49" source="public_zycs_jlylk"  horizontalCenter="0"/>
+	<e:Group id="groupPower" y="65" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl" />
+		<e:BitmapLabel id="bitPower" x="87" text="1111123132" font="powernum_fnt" y="0" />
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Image y="433" source="qianghua_zycs_diwen1" x="164" />
+	<e:Label id="lbname" text="0" y="437" size="24" anchorOffsetX="0" textAlign="center" fontFamily="Times"
+	         textColor="0xFF9400" horizontalCenter="0" />
+	<e:Group id="groupItems" x="23" y="93">
+		<e:Component id="shenPanTaoZhuangItem0" y="0" x="0" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" />
+		<e:Component id="shenPanTaoZhuangItem2" y="159" x="0" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" />
+		<e:Component id="shenPanTaoZhuangItem3" y="318" x="0" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" />
+		<e:Component id="shenPanTaoZhuangItem4" y="477" x="0" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true"
+		             name="RING2" />
+		<e:Component id="shenPanTaoZhuangItem8" x="0" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" name="WEAPON2"
+		             y="636" />
+		<e:Component id="shenPanTaoZhuangItem1" y="0" x="537" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" />
+		<e:Component id="shenPanTaoZhuangItem6" y="159" x="537" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" />
+		<e:Component id="shenPanTaoZhuangItem7" y="318" x="537" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" />
+		<e:Component id="shenPanTaoZhuangItem5" y="477" x="537" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" />
+		<e:Component id="shenPanTaoZhuangItem9" y="636" x="537" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="true" />
+	</e:Group>
+	<e:Group y="566" x="142">
+		<e:Image y="0" source="qianghua_zycs_diwen2" />
+		<e:Image id="imgArrow" x="236" y="53" source="qianghua_zycs_next" visible.noact="false" visible.max="false" />
+		<e:Label id="lbstrengthenlv" text="0" y="24" size="20" fontFamily="Times" textAlign="left" x="41"
+		         horizontalCenter.noact="0" horizontalCenter.max="0" x.act="41" textColor="0xe3d7be" />
+		<e:Label id="lbattr" text="0" x="41" y="62" size="20" fontFamily="Times" textAlign="left" horizontalCenter.noact="0"
+		         horizontalCenter.max="0" x.act="41" textColor="0xe3d7be" />
+		<e:Label id="lbstrengthenlvNext" text="Rating:999999999" x="290" y="24" size="20" fontFamily="Times"
+		         visible.noact="false" visible.max="false" textColor="0xe3d7be" />
+		<e:Label id="lbNextAttr" text="0" x="290" y="62" size="20" fontFamily="Times" textColor="0x5AC832"
+		         visible.noact="false" visible.max="false" />
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image height="164" y="722" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="392" x="164" />
+	<e:Image x="179" y="757" source="qianghua_zycs_xiaohuacailiao" />
+	<e:Group id="groupxh" width="290" height="126" y="740" touchEnabled="false" x="215" visible.max="false">
+		<e:List id="listConsume" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingLeft="15" paddingRight="15"
+				                    paddingTop="15" paddingBottom="15" />
+			</e:layout>
+		</e:List>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="6" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Component id="shenPanTaoZhuangItem" y="284" skinName="ShenPanTaoZhuangItemEUI" touchEnabled="false" x="291" />
+	<e:Button id="btnOk" label="Cast" y="908" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" visible.max="false"
+	          skinName="BtnMin1_1" icon="" x="285" />
+	<e:Label text="This Gear has been forged to the highest level" y="804" fontFamily="Times" size="20" textColor="0x5ac832" horizontalCenter="6"
+	         visible.noact="false" visible.act="false" />
+	<!--<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3"
+	             source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_审判套装\S-审判套装1-打造.jpg" y="-45" />
+	-->
+</e:Skin>

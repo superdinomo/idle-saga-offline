@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjBossDamgeRankWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group horizontalCenter="0" width="553" height="678" verticalCenter="0">
+		<e:Image x="0" y="0" touchEnabled="false" source="gjs_zycs_bg6_jpg" height="678" scale9Grid="69,573,415,10"/>
+
+		<e:Image id="imgTitle" y="11" horizontalCenter="0" source="zz_zycs_shpm"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" right="0"/>
+
+		<e:Scroller y="104" height="411" width="488" x="33">
+			<e:List id="listRank" itemRendererSkinName="GjBossDamgeRankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+
+
+		<e:Label text="Ranking" fontFamily="Times" size="20" x="52" textAlign="center" y="75" textColor="0xff9b0f"/>
+		<e:Label text="Player Name" fontFamily="Times" size="20" x="207" textAlign="center" textColor="0xFF9B0F" y="75"/>
+		<e:Label id="lbDesc" text="Please go to the battle zone to view the real-time DMG ranking" fontFamily="Times" size="24" textAlign="center" horizontalCenter="0" y="285" textColor="0x13ee22" width="422" wordWrap="true"/>
+		<e:Label text="Boss Fight DMG" fontFamily="Times" size="20" x="383" textAlign="center" textColor="0xFF9B0F" y="75"/>
+
+		<e:Label id="lbRank" text="My Ranking: 0" fontFamily="Times" size="20" x="60" textAlign="center" y="530" textColor="0xf5e65a"/>
+		<e:Label id="lbNum" text="Damage: 0" fontFamily="Times" size="20" x="333" textAlign="center" y="530" textColor="0xff9b0f"/>
+		<e:Label text="At 18:00 on Saturday, 27 teams will be formed based on the damage ranking, and the top players will be appointed as team leaders." fontFamily="Times" size="18" textAlign="center" y="557" x="25" textColor="0xcdc8be" width="510" wordWrap="true"/>
+		<e:Label text="(The Battle Zone ranking is refreshed instantly, the server ranking is refreshed every half an hour)" fontFamily="Times" size="18" textAlign="center" y="595" horizontalCenter="0.5" textColor="0x00ff00" width="510" wordWrap="true"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleSignUpPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="34" touchEnabled="false" x="13" source="ldsz_zycs_bg1_jpg"/>
+	<e:Label text="Registered Guilds:" y="36" fontFamily="Times" size="20" x="23" textColor="0xf5e65a"/>
+
+
+
+
+	<e:Group x="23" y="61">
+		<e:Label text="(During the sign-up, Guild ranking refreshes at" y="0" fontFamily="Times" size="19" x="144" textColor="0xffffff"/>
+		<e:Label text="10 a.m." y="3" fontFamily="Times" size="19" x="442" textColor="0x13ee22"/>
+		<e:Label text="and" y="2" fontFamily="Times" size="19" x="535" textColor="0xffffff"/>
+		<e:Label text="10 p.m." y="6" fontFamily="Times" size="19" x="581" textColor="0x13ee22"/>
+		<e:Label text="daily)" y="25" fontFamily="Times" size="19" x="0" textColor="0xffffff" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+
+	<e:Scroller y="87" height="704" width="692" x="14">
+		<e:List id="listRank" itemRendererSkinName="GuildBattleSignUpItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="8"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="824" source="ldsz_zycs_wdzm" x="313"/>
+	<e:Image y="825" source="liuguang_zycs_huawen" scaleX="-1" x="599"/>
+	<e:Image y="825" source="liuguang_zycs_huawen" x="122"/>
+	<e:Image y="855" x="66" source="ldsz_zycs_tb1"/>
+	<e:Image y="854" x="432" source="ldsz_zycs_tb2"/>
+	<e:Label id="lbRoleName" text="Leader: Miracle xXMoo MoralityXx" y="858" fontFamily="Times" size="24" x="101" textColor="0xffffff"/>
+	<e:Label id="lbCount" text="Guild Members: 2" y="858" fontFamily="Times" size="24" x="458" textColor="0xffffff"/>
+	<e:Label text="Guild Total CP" y="891" fontFamily="Times" size="24" x="316" textColor="0xffffff"/>
+	<e:Image y="890" x="287" source="ldsz_zycs_tb3"/>
+	<e:Image y="916" source="public_zycs_jlylk" x="202"/>
+	<e:Group y="928" horizontalCenter="0.5">
+
+		<e:BitmapLabel id="totalPower" x="88" y="0" text="678889" letterSpacing="-7" font="powernum1_fnt"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Label id="lbTips1" text="Only Guild Leader or Vice Leader can register" y="1014" fontFamily="Times" size="20" textColor="0xf01414" horizontalCenter="0"/>
+	<e:Label id="lbTips2" text="You have registered for other territory, unable to register again" y="1050" fontFamily="Times" size="20" textColor="0xF01414" horizontalCenter="0"/>
+	<e:Label id="lbTips3" text="No guild has signed up yet" y="398" fontFamily="Times" size="24" textColor="0xF01414" horizontalCenter="0"/>
+	<e:Button id="btnSend" y="1037" label="Territory Registration" skinName="BtnMin1_1mid" x="300"/>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_领地圣战\L-领地圣战-领地报名.jpg" y="-45" locked="true"/>-->
+</e:Skin>

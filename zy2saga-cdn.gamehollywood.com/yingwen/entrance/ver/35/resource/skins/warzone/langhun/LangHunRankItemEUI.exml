@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="639" height="118">
+	<e:Image width="100%" bottom="0" source="ldsz_zycs_fgx1"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="20" textAlign="center" textColor="0xcdc8be" horizontalCenter="-246" y="49"/>
+	<e:Image id="imgRank" verticalCenter="0" horizontalCenter="-247" source="phb_zycs_no1"/>
+	<e:Label id="lbXwyd" text="Vacant" fontFamily="Times" size="20" x="121" textAlign="center" y="49" textColor="0xe3d7be"/>
+	<e:Label id="lbName" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="20" x="121" textAlign="center" y="34" textColor="0xf5e65a"/>
+	<e:Label id="lbScore" text="Wolf Soul: 9998" fontFamily="Times" size="20" x="121" textAlign="center" y="71" textColor="0xe3d7be"/>
+	<e:List id="list" itemRendererSkinName="ItemSkin" right="-5" scaleX="0.8" scaleY="0.8" verticalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="14" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>	
+</e:Skin>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MeiRiFbPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134" >
+	<w:Config id="1586bf85aa4" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image height="768" touchEnabled="false" y="42" width="694" x="13" source="public_zycs_greybg0" scale9Grid="2,2,16,16"/>
+	<e:Scroller y="61" x="22" width="676" height="739">
+		<e:List id="list" itemRendererSkinName="MeiRiFbItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="17"/>
+			</e:layout>
+			
+				
+					
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupDesc" y="822" horizontalCenter="0">
+		<e:Label text="(Challenge All, Raid All grant the " size="22" fontFamily="Times" y="0" textColor="0xC0B8A1" textAlign="center" x="0"/>
+		<e:Label text="Highest Record" size="22" fontFamily="Times" y="0" textAlign="center" x="10" textColor="0xffbb29"/>
+		<e:Label text="’s rewards)" size="22" fontFamily="Times" y="0" textColor="0xC0B8A1" textAlign="center" x="20"/>
+		<e:layout>
+			<e:HorizontalLayout gap="1"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnSend" skinName="BtnMin1_1" y="856" x="161" label="Challenge All"/>
+	<e:Button id="btnSaoDang" skinName="BtnMin1_1" y="856" label="Raid All" x="411"/>
+</e:Skin>

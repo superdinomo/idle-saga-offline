@@ -1,0 +1,68 @@
+<e:Skin class="ShengbeiWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group id="group" width="720" height="1016" verticalCenter="0" horizontalCenter="0">
+		<e:Image x="0" y="0" height="1016" touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_dikuang" width="720"/>
+		<e:Image y="42" source="bxsb_zycs_bg_jpg" horizontalCenter="0"/>
+		<e:Image y="-16" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Image id="imgTitle" y="14" source="bxsb_zycs_bt" horizontalCenter="0"/>
+		<e:Button id="btnShuxing" label="Button" x="46" y="62" skinName="Btn0Skin" icon="bxsb_zycs_sx"/>
+		<e:Button id="closeBtn" label="" x="637" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="80" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group id="groupPower" y="95" touchThrough="true" touchEnabled="false" horizontalCenter="0">
+			<e:Image x="0" y="2" source="public_zycs_zdl"/>
+			<e:BitmapLabel id="bmpLabelPower" x="116" y="0" text="12" font="powernum_fnt"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupItem" y="147" width="720" x="0" height="433">
+			<e:Component id="item0" x="133" y="13" skinName="ShengbeiWinItemEUI"/>
+			<e:Component id="item1" x="60" y="145" skinName="ShengbeiWinItemEUI"/>
+			<e:Component id="item2" x="103" y="312" skinName="ShengbeiWinItemEUI"/>
+			<e:Component id="item3" x="495" y="13" skinName="ShengbeiWinItemEUI"/>
+			<e:Component id="item4" x="568" y="145" skinName="ShengbeiWinItemEUI"/>
+			<e:Component id="item5" x="524" y="312" skinName="ShengbeiWinItemEUI"/>
+		</e:Group>
+		<e:Group id="groupBei" x="262" y="211">
+			<e:Image id="imgShengbei" x="0" y="0" source="bxsb_zycs_sb_png" touchEnabled="true"/>
+			<e:Image id="imgStone0" x="14" y="50" source="bxsb_zycs_syx0" scaleX="1" scaleY="1"/>
+			<e:Image x="131" y="55" id="imgStone1" source="bxsb_zycs_syx1" scaleX="1" scaleY="1"/>
+			<e:Image x="86" y="217" id="imgStone2" source="bxsb_zycs_syx2" scaleX="1" scaleY="1"/>
+			<e:Image x="49" y="281" id="imgStone3" source="bxsb_zycs_syx3" scaleX="1" scaleY="1"/>
+			<e:Image x="89" y="290" id="imgStone4" source="bxsb_zycs_syx4" scaleX="1" scaleY="1"/>
+			<e:Image x="123" y="280" id="imgStone5" source="bxsb_zycs_syx5" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="groupShengbei" y="581" width="700" height="370" horizontalCenter="0" x="10" scaleX="1" scaleY="1">
+			<e:Image x="117" y="17" source="liuguang_zycs_huawen" scaleX="1" scaleY="1"/>
+			<e:Image y="13" scaleX="1" scaleY="1" source="bxsb_zycs_stsx" horizontalCenter="0"/>
+			<e:Image x="593" y="17" source="liuguang_zycs_huawen" scaleX="-1" scaleY="1"/>
+			<e:Image x="94" y="191" source="liuguang_zycs_huawen"/>
+			<e:Image y="190" scaleX="1" scaleY="1" source="bxsb_zycs_zsjn" horizontalCenter="0"/>
+			<e:Image x="608" y="191" source="liuguang_zycs_huawen" scaleX="-1"/>
+			<e:Label id="labelBeiAttr1" text="ATK" y="58" size="24" fontFamily="Times" textAlign="left" x="152" scaleX="1" scaleY="1" textColor="0xe6dcb8" lineSpacing="15"/>
+			<e:Label id="labelBeiAttr2" text="ATK" y="58" size="24" fontFamily="Times" textAlign="left" x="392" scaleX="1" scaleY="1" textColor="0xe6dcb8" lineSpacing="15"/>
+			<e:Image x="79" y="237" source="public_zycs_daojukuang_01"/>
+			<e:Image id="imgSkillIcon" x="86" y="242" source="public_zycs_daojukuang_01" width="80" height="80"/>
+			<e:Label id="labelSkillName" text="Skill Name" y="235" size="24" fontFamily="Times" textAlign="left" x="189" scaleX="1" scaleY="1" textColor="0xff9b0f"/>
+			<e:Label id="labelSkillDesc" text="0" y="267" size="20" fontFamily="Times" textAlign="left" x="190" textColor="0xFF9B0F" scaleX="1" scaleY="1" width="443" wordWrap="true"/>
+		</e:Group>
+		<e:Group id="groupStone" y="581" width="700" height="370" horizontalCenter="0" x="20" scaleX="1" scaleY="1">
+			<e:Image x="117" y="17" source="liuguang_zycs_huawen" scaleX="1" scaleY="1"/>
+			<e:Image y="13" scaleX="1" scaleY="1" source="bxsb_zycs_stsx" horizontalCenter="0"/>
+			<e:Image x="593" y="17" source="liuguang_zycs_huawen" scaleX="-1" scaleY="1"/>
+			<e:Label id="labelStoneName" text="Name" y="60" size="22" fontFamily="Times" textAlign="left" lineSpacing="15" textColor="0xff9b0f" horizontalCenter="0"/>
+			<e:Image x="78" y="112" source="zbrl_zycs_xx"/>
+			<e:Label id="labelStoneAttr1" text="It has" x="115" y="114" size="20" fontFamily="Times" textAlign="left" lineSpacing="12" textColor="0xe6dcb8"/>
+			<e:Image x="78" y="180" source="zbrl_zycs_xx"/>
+			<e:Label id="labelStoneAttr2" text="It has" x="115" y="182" size="20" fontFamily="Times" textAlign="left" lineSpacing="12" textColor="0xe6dcb8"/>
+			<e:Group id="groupUp" x="276" y="252">
+				<e:Label id="labelComsume" text="0/1" y="5" size="24" fontFamily="Times" textAlign="left" lineSpacing="15" textColor="0xf01414" left="78"/>
+				<e:Image id="imgConsume" y="0" source="zycs_321004" right="82"/>
+				<e:Button id="btnUp" label="Inlaid" y="50" skinName="BtnMin1_1"/>
+				<e:Button id="btnUp1" label="Upgrade" y="50" skinName="BtnMin1_1"/>
+			</e:Group>
+			<e:Image id="imgMax" y="289" source="bxsb_zycs_ymj" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

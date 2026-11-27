@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouYingJiEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:PriceIcon="PriceIcon.*" xmlns:ns1="*" states="normal,max,noact,damonnoact,tupo"  width="720" height="1054">
+	<w:Config id="1586b1db4d0" />
+	<e:Image x="0" y="0" height="1054" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" source="sshq_zycs_bg5_jpg" x="13"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="66" horizontalCenter="0">
+		<e:Image x="0" y="1" source="mianui_zycs_zhandouli2"/>
+		<e:BitmapLabel id="bmpLabelPower" x="88" y="0" text="11111" font="powernum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbName" text="Cryptid Name" y="113" size="22" fontFamily="Times" textColor="0xe6dcb8" horizontalCenter="0" visible="false"/>
+	<e:Group id="groupMc"/>
+	<e:Group id="groupEntity" width="0" height="0" y="457" x="355"/>
+	<e:Group y="104" horizontalCenter="0.5">
+		<e:Image source="pubilc_zycs_hengdikuang" scale9Grid="25,15,137,20" y="0" left="-20" right="-20"/>
+		<e:Group y="16" horizontalCenter="0">
+			<e:Image id="imgStage" y="1" x="0" source="jl_zycs_10"/>
+			<e:Image id="imgName" x="29" y="0" source="ss_zycs_title10"/>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupStar" y="437" anchorOffsetX="0" width="510" anchorOffsetY="0" height="112" horizontalCenter="0">
+		<e:Image id="starbg1" y="0" x="0" source="ss_zycs_yjfw1_a" visible.noact="false" visible.damonnoact="false"/>
+		<e:Image id="starbg2" y="3" x="4" source="ss_zycs_yjfw1" visible="false"/>
+		<e:Image id="star_1" y="7" x="4" source="ss_zycs_yj1"/>
+		<e:Image id="star_2" y="33" x="57" source="ss_zycs_yj2"/>
+		<e:Image id="star_3" y="49" x="108" source="ss_zycs_yj3"/>
+		<e:Image id="star_4" y="54" x="162" source="ss_zycs_yj4"/>
+		<e:Image id="star_5" y="62" x="214" source="ss_zycs_yj5"/>
+		<e:Image id="star_6" y="61" x="264" source="ss_zycs_yj6"/>
+		<e:Image id="star_7" y="50" x="315" source="ss_zycs_yj7"/>
+		<e:Image id="star_8" y="49" x="366" source="ss_zycs_yj8"/>
+		<e:Image id="star_9" y="33" x="411" source="ss_zycs_yj9"/>
+		<e:Image id="star_10" y="3" x="466" source="ss_zycs_yj10"/>
+	</e:Group>
+	<e:Image id="arrow" x="343" y="618" source="qianghua_zycs_next" visible.noact="false" visible.max="false" visible.damonnoact="false"/>
+	<e:Label text="Activate Stats" y="567" textColor="0xff9b0f" size="24" fontFamily="Times" text.tupo="Breakthrough Stats" text.normal="Upgrade Stats" text.max="Max Level" x="312"/>
+	<e:Label id="labelAttr" x="123" size="22" text="Stats:\nStats:\nStats:\nStats:" fontFamily="Times" textAlign="left" lineSpacing="11"  horizontalCenter.noact="0" horizontalCenter.max="0" horizontalCenter.damonnoact="0" left.normal="123" left.tupo="123" textColor="0xcdc8be" verticalCenter="127.5"/>
+	<e:Group x="412" verticalCenter="126.5">
+		<e:Label id="labelAttrNext" x="0" size="22" text="Stats:\nStats:\nStats:\nStats:" fontFamily="Times" textAlign="right" lineSpacing="11" visible.max="false" visible.noact="false" visible.damonnoact="false" textColor="0x13ee23" y="1"/>
+		<e:Group id="groupJiantou" x="51" y="0" visible.max="false" visible.noact="false" visible.damonnoact="false">
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:layout>
+			<e:VerticalLayout gap="7"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="4" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="745.31" horizontalCenter="0" visible.damonnoact="false" visible.max="false">
+		<e:Label id="labelItemCount0" text="Cost: " y="15" size="24" fontFamily="Times" x="48" textAlign="left" verticalAlign="middle" textColor="0xE6DCB8"/>
+		<e:Image id="imgItem" x="0" y="0" visible.max="false" visible.damonnoact="false" source="" width="28" height="28"/>
+		<e:Label id="labelItemCount" text="0" y="5" size="24" fontFamily="Times" x="38" textAlign="left" verticalAlign="middle" visible.max="false" visible.damonnoact="false" textColor="0xe6dcb8"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnUp" y="784" visible.max="false" x="299" visible.damonnoact="false"  label.noact="Unlock" label.normal="Upgrade" label.tupo="Breakthrough" label="Upgrade" skinName="BtnMin1_1mid"/>
+	<e:Button id="leftBtn" y="920" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" scaleX="-1" x="78"/>
+	<e:Button id="rightBtn" y="920" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" x="642"/>
+	<e:Label text="Activate Cryptid to activate Imprint" y="784" size="20" textColor="0xf01414" fontFamily="Times" visible.normal="false" visible.max="false" visible.noact="false" visible.tupo="false" horizontalCenter="0"/>
+	<e:Scroller id="tabScroller" y="872" height="139" width="570" x="75" anchorOffsetY="0">
+		<e:List id="tabList" useVirtualLayout="true" itemRendererSkinName="ShenShouCultureNavItemEUI">
+		<e:ArrayCollection>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="6"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<!--<e:Image touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神兽\S-神兽-印记2.jpg" y="-47" visible="false"/>-->
+</e:Skin>

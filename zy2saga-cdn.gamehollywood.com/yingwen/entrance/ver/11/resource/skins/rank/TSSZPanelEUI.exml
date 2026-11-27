@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TSSZPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Group id="group" x="0" y="0">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+		<e:Image x="12" y="39"  source="tssz_zycs_bg_jpg"/>
+		<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+		<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="tssz_zycs_title"/>
+		<e:Group id="groupMC" width="1" height="1" x="366" y="403"/>
+		<e:Image y="78" fillMode="scale" touchEnabled="false" horizontalCenter="-5.5" source="tssz_zycs_msz"/>
+		<e:Label id="labelTime" text="Countdown: 2D 22H 59M 59S" y="135" size="30" fontFamily="Times" textColor="0xe3d7be" horizontalCenter="0"/>
+		<e:Group y="396" horizontalCenter="0">
+			<e:Image y="0" touchEnabled="false" x="0" source="pubilc_zycs_hengdikuang"/>
+			<e:Image id="imgName" touchEnabled="false" source="shenqi_zycs_113" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image y="445" source="lyg_zycs_zldi" horizontalCenter="0"/>
+		<e:Group y="449" horizontalCenter="0">
+			<e:Image x="43" y="14" source="lyg_zycs_zl" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="bmpPower" x="136" y="6" font="lygnum_fnt" text="1500000" letterSpacing="-6"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnHelp" x="632" y="465" icon="zs_zycs_wenhao" skinName="Btn0Skin"/>
+		<e:Group y="514" x="17">
+			<e:Image y="0" source="public_zycs_cjx" width="690" x="0"/>
+			<e:Label text="Ranking" x="82" y="7" size="20" textColor="0xFF9B0F" fontFamily="Times"/>
+			<e:Image y="2" x="208" source="public_zycs_sjx" />
+			<e:Label text="Info" x="314.22" y="7" size="20" fontFamily="Times" textColor="0xFF9B0F"/>
+			<e:Image y="2" x="461" source="public_zycs_sjx" />
+			<e:Label text="CP" x="547.22" y="7" size="20" fontFamily="Times" textColor="0xFF9B0F"/>
+		</e:Group>
+		<e:Scroller y="548" scrollPolicyH="off" width="688" height="406" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="TSSZPanelItemEUI" useVirtualLayout="true">
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			<!--
+				
+					
+					
+					
+					
+				
+			-->
+			</e:List>
+		</e:Scroller>
+		<e:Group y="962" horizontalCenter="0" width="548">
+			<e:Label id="labelMyRank" text="My Ranking: Not listed" y="0" size="24" textAlign="left" fontFamily="Times" x="0" textColor="0xe3d7be"/>
+			<e:Label id="labelDesc" text="Wrong Class, unable to show CP and Ranking" size="24" textAlign="left" fontFamily="Times" horizontalCenter="0" textColor="0xf01414"/>
+			<e:Label id="labelMyPower" text="My CP: 606060" y="0" size="24" textAlign="left" fontFamily="Times" x="355" textColor="0xE3D7BE"/>
+		</e:Group>
+
+			<e:Scroller id="scrollerTab" y="1017" height="68" horizontalCenter="0" width="468" scrollPolicyV="auto">
+		<e:List id="listTab" useVirtualLayout="false" anchorOffsetX="0" width="583" anchorOffsetY="0" height="55" itemRendererSkinName="TSSZPanelTabItemEUI">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+				<!--
+				
+					
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+	</e:Group>
+</e:Skin>

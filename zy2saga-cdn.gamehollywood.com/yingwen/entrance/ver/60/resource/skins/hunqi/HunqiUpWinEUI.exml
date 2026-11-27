@@ -1,0 +1,54 @@
+<e:Skin class="HunqiUpWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720" states="act,up,max" >
+	<w:Config id="1586b1383e3" />
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-45">
+		<e:Image source="erjijiemiankuang_png" scale9Grid="90,75,540,738"  y="1"/>
+		<e:Image y="30" source="hq_zycs_hq"  horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="" x="637" y="14" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Group y="113" x="13">
+			<e:Image y="0" x="0" source="zhanmeng_zycs_juxing01" />
+			<e:Component id="itemConsume" y="35" x="118" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" width="90"
+			             height="90" />
+			<e:Group x="233" y="51">
+				<e:Label id="labelName" text="Item Name" x="0" y="0" fontFamily="Times" size="22" anchorOffsetX="0" textAlign="left" textColor="0xcd8cff"/>
+				<e:Label id="labelLv" text="Lv.0" x="110" y="1" fontFamily="Times" size="22" anchorOffsetX="0" textAlign="left" textColor="0xcd8cff"/>
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Label text="Collect:" x="233" y="91" fontFamily="Times" size="22" textAlign="left" lineSpacing="4"
+			         textColor="0xaf9b73" />
+			<e:ProgressBar id="progressBar" x="303" y="94" skinName="ProgressBarEUI11" width="165"  slideDuration="0"/>
+		</e:Group>
+		<e:Group x="127" y="290" height="133">
+			<e:Image x="0" y="3" source="liuguang_zycs_huawen" />
+			<e:Image x="185" y="0" source="hq_zycs_cgsx" />
+			<e:Image x="466" y="3" source="liuguang_zycs_huawen" scaleX="-1" />
+			<e:Image x="215" y="95" source="sksk_zycs_jt" rotation="-90" />
+			<e:Label id="labelNormalAttrCur" text="0" x="13" y="36" fontFamily="Times" size="20" lineSpacing="10" />
+			<e:Label id="labelNormalAttrNext" text="0" x="307" y="35" fontFamily="Times" size="20" lineSpacing="10"  visible.max="false"/>
+			<e:Label id="labelMax" text="Maxed out" x="308" y="65" fontFamily="Times" size="20" lineSpacing="10" textColor="0x5ac832" visible.act="false" visible.up="false"/>
+		</e:Group>
+		<e:Group x="127" y="426" height="289" width="466">
+			<e:Image x="0" y="3" source="liuguang_zycs_huawen" />
+			<e:Image x="184" y="0" source="hq_zycs_djsx" />
+			<e:Image x="466" y="3" source="liuguang_zycs_huawen" scaleX="-1" />
+			<e:Scroller width="466" height="248" x="0" y="40">
+				<e:List id="listLianhua" x="0" y="0" width="100%" height="100%" itemRendererSkinName="HunqiUpWinItemEUI">
+					<!--
+						
+							
+							
+							
+							
+						
+					-->
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="btnAct" y="752" skinName="BtnMin1_1" x="286"  visible.up="false" visible.max="false" label="Unlock"/>
+		<e:Button id="btnUp" y="752" skinName="BtnMin1_1" x="286"  visible.act="false" visible.max="false" label="Upgrade"/>
+		<e:Label id="labelHowGet" text="Source" x="471" y="788" size="20" fontFamily="Times" textColor="0x5ac832"  visible.max="false"/>
+		<e:Image y="715" source="npc_zycs_k" x="84" />
+	</e:Group>
+</e:Skin>

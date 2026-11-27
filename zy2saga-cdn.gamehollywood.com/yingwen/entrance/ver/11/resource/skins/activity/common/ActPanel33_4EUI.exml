@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel33_4EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="41" x="13" source="qqsh_zycs_bg4_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="204" source="public_zycs_cjx" x="13" height="34" width="694"/>
+	<e:Image y="207" x="155" source="public_zycs_sjx"/>
+	<e:Image y="207" x="360" source="public_zycs_sjx"/>
+	<e:Group x="34" y="173">
+		<e:Label y="0" text="Time Remain:" fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xe3d7be"/>
+		<e:Label id="lbTime" y="1" text="0" fontFamily="Times" size="20" x="144.5" lineSpacing="10" textColor="0x13ee22"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="Ranking" size="20" fontFamily="Times" y="211" x="66" textColor="0xFF9B0F"/>
+	<e:Label text="Name" size="20" fontFamily="Times" y="211" x="239" textColor="0xFF9B0F"/>
+	<e:Label text="Rewards" size="20" fontFamily="Times" y="211" x="512" textColor="0xFF9B0F"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="qqsh_zycs_shpm"/>
+	<e:Scroller y="237" height="550" scrollPolicyH="off" width="694" x="13" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ActItem33_4EUI">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbRank" text="The 50th Place: s5.Miracle xXMoo MoralityXx" fontFamily="Times" size="24" y="798" textAlign="center" textColor="0xCDC8BE" x="52"/>
+	<e:Label id="lbValue" text="Spent Dia: 988" fontFamily="Times" size="24" y="798" textAlign="center" textColor="0xCDC8BE" x="470"/>
+	<e:Label id="lbRankMy" text="My Rank: The 2nd Place" size="24" fontFamily="Times" y="833" x="52" textColor="0xFF9B0F"/>
+	<e:Label id="lbValueMy" text="Spent Dia: 988" size="24" fontFamily="Times" y="833" x="470" textColor="0xFF9B0F"/>
+	<e:Label text="Ranking Rewards will be issued via mails" fontFamily="Times" size="24" y="1056" textAlign="center" textColor="0xCDC8BE" horizontalCenter="0"/>
+	<e:Label id="lbDec" text="Gift Chocolate, Rose, and Perfume to gain Gift Charm Points" y="875" size="24" textAlign="center" fontFamily="Times" textColor="0x13EE22" horizontalCenter="0"/>
+	<e:Button id="btnHelp" x="631" y="862" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Label id="lbDabiaoDec" text="Claim when points reach 200!" y="920" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="27"/>
+	<e:Label id="lbDabiaoValue" text="（4/10）" y="941" size="24" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" horizontalCenter="264"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" y="958" x="32">
+		<e:List id="listRewar" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="12"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnLink" label="Go" y="979" x="551" skinName="BtnMin1_1"/>
+	<e:Button id="btnGet" label="Claim" y="979" x="551" skinName="BtnMin1_2"/>
+	<e:Image id="imgYlq" source="public_zycs_ylq" x="564" y="969"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

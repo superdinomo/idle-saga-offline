@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem40_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="80" height="81">
+	<w:Config id="1586bd49103"/>
+	<e:Group id="group" width="80" height="81" anchorOffsetX="40" anchorOffsetY="40" y="40" x="40">
+		<e:Component id="item" x="0" y="0" skinName="ItemSkin" scaleX="0.851" scaleY="0.851"/>
+		<e:Group id="groupNum" anchorOffsetX="31" anchorOffsetY="20" y="20" x="31">
+			<e:Image x="0" y="4" scale9Grid="2,2,16,16" source="hddt_zycs_xhdbbj"/>
+			<e:BitmapLabel id="bmpNum" x="48" y="3" text="2" letterSpacing="-1" font="xhdbnum2_fnt"/>
+		</e:Group>
+		<e:Image id="img" x="0" y="0" scale9Grid="2,2,16,16" source="hddt_zycs_xhdbk"/>
+	</e:Group>
+</e:Skin>

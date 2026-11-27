@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SmsdPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" source="kfsd_zycs_bg_jpg" x="13" y="39"/>
+	<e:Group id="groupBoss" x="484" y="442"/>
+	<e:Image x="442" y="80" anchorOffsetY="0" anchorOffsetX="0" source="kfsd_zycs_bsxx"/>
+	<e:Image y="110" source="public_zycs_sd" x="408"/>
+	<e:Label id="lbBossLv" y="109" text="Lv.669" fontFamily="Times" size="24" lineSpacing="0" textAlign="center" x="319" width="342" textColor="0xe3d7be"/>
+	<e:Image y="446" source="public_zycs_jlylk" horizontalCenter="130.5"/>
+
+	<e:Group y="464" horizontalCenter="123">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Image y="507" x="435" source="kfsd_zycs_jpdl"/>
+
+	<e:Group y="531" scaleX="0.71" scaleY="0.71" horizontalCenter="123.5" width="469" height="239">
+		<!--<e:Scroller scrollPolicyH="on" scrollPolicyV="off" >-->
+			<e:List id="listReward" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="4" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15" verticalGap="21" horizontalGap="21"/>
+				</e:layout>
+				
+					
+						
+						
+						
+						
+						
+						
+					
+				
+			</e:List>
+		<!--</e:Scroller>-->
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbTips" y="701" text="Rebirth level too high. Killing drop no rewards." fontFamily="Times" size="17" lineSpacing="0" textAlign="left" textColor="0xF01414" x="267"/>
+	<e:Image y="938" touchEnabled="false" width="682" source="em_zycs_fgx" x="19"/>
+	<e:Group y="720" horizontalCenter="124">
+		<e:Label id="lbLv" y="8" text="Master II or above can spend" fontFamily="Times" size="17" lineSpacing="0" textAlign="left" x="0" textColor="0xe3d7be"/>
+		<e:Image x="188" y="0" source="zycs_320030"/>
+		<e:Label id="lbSvip" y="18" text="Enter, SVIP6 enter for free" fontFamily="Times" size="17" lineSpacing="0" textAlign="left" x="10" textColor="0xe3d7be"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="challengeBtn" label="Go Now" y="751" x="405" skinName="BtnMin1_2"/>
+	<e:CheckBox id="checkBox0" x="580" y="768" skinName="CheckBoxEUI" label="Follow"/>
+	<e:CheckBox id="checkBox1" y="903" skinName="CheckBoxEUI" label="Auto-challenge" x="52"/>
+	<e:Label id="labelDesc" y="902" text="(Activate Premium Privilege to unlock)" fontFamily="Times" size="24" lineSpacing="0" textAlign="left" x="249" textColor="0xf01414"/>
+	<e:Scroller id="scrollerBoss" y="54" height="746" x="11" width="256">
+		<e:List id="list" useVirtualLayout="false" itemRendererSkinName="SmsdBossItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="-8"/>
+		</e:layout>
+			
+				
+					
+					
+					
+					
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scroller" y="824" x="58" width="604" height="64">
+		<e:List id="tabList" useVirtualLayout="false" itemRendererSkinName="SmsdTabItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+			
+				
+					
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnLeft" y="831" skinName="Btn0Skin" icon="zycs_zyzl_qieye" scaleX="-0.8" scaleY="0.8" x="57"/>
+	<e:Button id="btnRight" y="831" skinName="Btn0Skin" icon="zycs_zyzl_qieye" scaleX="0.8" scaleY="0.8" x="663"/>
+	<e:Button id="helpBtn" x="638" y="893" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="helpBtn0" x="651" y="455" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+</e:Skin>

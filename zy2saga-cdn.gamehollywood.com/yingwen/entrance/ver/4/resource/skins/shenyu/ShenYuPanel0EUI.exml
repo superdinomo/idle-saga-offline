@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYuPanel0EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134" states="normal,max" >
+	<w:Config id="1586b13ea96"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3"/>
+	<e:Image y="43" touchEnabled="false" x="14" source="shenyu_zycs_jh_jpg"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="61" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="bmpLabelPower" x="88" y="0" text="11111" font="powernum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="nextAttrImg0" y="725" anchorOffsetY="0" anchorOffsetX="0" x="583" source="public_zycs_lj" visible="false"/>
+	<e:Image id="nextAttrImg1" y="753" anchorOffsetY="0" anchorOffsetX="0" x="583" source="public_zycs_lj" visible="false"/>
+	<e:Image y="688" anchorOffsetY="0" anchorOffsetX="0" x="179" source="qianghua_zycs_xiaohuacailiao"/>
+	<e:Group id="groupWing" width="0" height="0" y="450" x="355"/>
+	<e:Label id="nameTxt" y="133" text="Thunder Feather T1 Lv.0" fontFamily="Times" size="24" textColor="0xdc9632" horizontalCenter="0" x="264"/>
+	<e:Image y="516" anchorOffsetY="0" anchorOffsetX="0" x="287" source="shenyu_zycs_shenyushuxingtisheng"/>
+	<e:Image y="619" anchorOffsetY="0" anchorOffsetX="0" x="344" source="qianghua_zycs_next" visible.max="false"/>
+	<e:Label id="currLvTxt" y="573" text="Lv.0" fontFamily="Times" size="24" textColor="0xdc9632" horizontalCenter.max="0" horizontalCenter="-137"/>
+	<e:Label id="nextLvTxt" y="573" text="Lv.1" fontFamily="Times" size="24" textColor="0xdc9632" visible.max="false" right="191"/>
+	<e:Label id="currAttrTxt" y="609" text="DEF: 0\nDEF Success Rate: 0" fontFamily="Times" size="24" verticalAlign="middle" lineSpacing="11" textColor="0xe6dcb8" horizontalCenter.max="0" right="407"/>
+	<e:Label id="nextAttrTxt" y="609" text="189\n17" fontFamily="Times" size="24" verticalAlign="middle" lineSpacing="11" textColor="0x13ee22" visible.max="false" right="191"/>
+	<e:Group id="consumeGroup" x="212" y="689" anchorOffsetX="0" width="344" anchorOffsetY="0" height="98" visible.max="false">
+		<e:Image y="34" anchorOffsetY="0" anchorOffsetX="0" x="113" scale9Grid="17,13,8,4" source="public_zycs_shurukuang"/>
+		<e:Label id="lbcoin" text="" x="114" y="37" size="20" anchorOffsetX="0" width="86" textAlign="center" fontFamily="Times" scaleX="1" scaleY="1" textColor="0xf5e65a"/>
+		<e:Label text="Cost: " y="39" size="18" anchorOffsetX="0" textAlign="center" fontFamily="Times" scaleX="1" scaleY="1" x="64" textColor="0xf5e65a"/>
+		<e:Image x="194" y="32" source="zycs_320001"/>
+		<e:Component id="consume1" y="17" x="260" scaleX="0.7" scaleY="0.7" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true"/>
+	</e:Group>
+	<e:Button id="sendBtn" label="Upgrade" y="821" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1mid" horizontalCenter="0" visible.max="false"/>
+	<e:Label y="828" text="Max Level" fontFamily="Times" size="24" verticalAlign="middle" lineSpacing="11" textColor="0xf01414" horizontalCenter="0" visible.normal="false"/>
+	<!--<e:Image y="-47" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神羽\S-神羽-进化.jpg" locked="true" visible="false"/>-->
+</e:Skin>

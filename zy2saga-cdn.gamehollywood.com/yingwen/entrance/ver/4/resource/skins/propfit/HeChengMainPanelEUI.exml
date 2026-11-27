@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeChengMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:ViewStack id="viewStack" y="0" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_fgqy" y="1010" x="13" visible="false"/>
+	<e:TabBar id="tab" anchorOffsetX="0" height="80" y="1011" horizontalCenter="0" itemRendererSkinName="BtnTab5ZYCSSkin">
+			
+			
+				
+				
+				
+				
+				
+			
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="13" paddingTop="0"/>
+		</e:layout>
+	</e:TabBar>
+
+</e:Skin>

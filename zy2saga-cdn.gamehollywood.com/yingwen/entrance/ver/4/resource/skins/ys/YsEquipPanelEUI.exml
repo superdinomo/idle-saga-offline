@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsEquipPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="42" x="13" source="ys_zycs_bg3_jpg"/>
+	<e:Image id="imgIcon" y="221" source="ys_zycs_ysjl0_png" horizontalCenter="0.5" visible="false"/>
+	<e:TabBar id="listTab" selectedIndex="0" y="59" itemRendererSkinName="YsTabItemEUI" x="37">
+		<e:layout>
+		<e:HorizontalLayout gap="6"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<e:Image y="179" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="196" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Group id="groupFuling" x="126" y="403">
+		<e:Image source="ys_zycs_flsx" x="187" y="-133"/>
+		<e:Button id="helpBtnFuling" x="-110" y="-450" skinName="Btn0Skin" icon="zs_zycs_wenhao"/>
+		<e:Scroller id="scroller" y="-86" width="400" x="33" height="411">
+		<e:List id="listAttr" itemRendererSkinName="YsFulingAttrItemEUI">
+			<e:layout>
+			<e:VerticalLayout gap="9"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+		<e:Group id="groupConsu" y="350" x="99">
+		<e:Image x="0" y="0" source="zycs_320002"/>
+		<e:Label id="lbConsu" text="50" y="16" fontFamily="Times" size="24" textAlign="left" x="11" textColor="0xEBDCB4"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+		<e:Button id="btnFuling" skinName="BtnMin1_1" y="390" x="54" label="Soulbound"/>
+		<e:Button id="btnFulingAll" skinName="BtnMin1_1" y="390" x="264" label="Fast Soulbind"/>
+		<e:Label id="btnGet" text="Acquire Soulbind Scroll" size="20" fontFamily="Times" textAlign="center" textColor="0x13EE22" x="-103" y="455"/>
+		<e:Label id="btnHecheng" text="Soulbind Merge" size="20" fontFamily="Times" textAlign="center" textColor="0x13ee22" x="430" y="451"/>
+	</e:Group>
+	<e:Component id="item0" y="225" x="22" skinName="YsEquipItemEUI"/>
+	<e:Component id="item2" y="363" x="22" skinName="YsEquipItemEUI"/>
+	<e:Component id="item3" y="502" x="22" skinName="YsEquipItemEUI"/>
+	<e:Component id="item4" y="640" x="22" skinName="YsEquipItemEUI"/>
+	<e:Component id="item1" y="225" skinName="YsEquipItemEUI" x="559"/>
+	<e:Component id="item6" y="363" skinName="YsEquipItemEUI" x="559"/>
+	<e:Component id="item7" y="502" skinName="YsEquipItemEUI" x="559"/>
+	<e:Component id="item5" y="640" skinName="YsEquipItemEUI" x="559"/>
+
+
+
+
+
+	<e:Button id="btnEquip" skinName="BtnMin1_1" y="793" x="286" label="Equip All"/>
+	<e:TabBar id="tabToggle" selectedIndex="0" y="888" itemRendererSkinName="YsEquipTabItemEUI" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="34"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

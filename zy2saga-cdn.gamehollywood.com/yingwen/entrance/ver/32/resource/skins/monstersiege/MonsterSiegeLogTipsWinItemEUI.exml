@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterSiegeLogTipsWinItemEUI" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="109">
+	<e:Label id="lbTime" text="Time: 2020-06-15 19:21" fontFamily="Times" size="20" x="389" y="16" textColor="0xe2d7be"/>
+	<e:Label id="lbResult" text="Attacked Successfully" fontFamily="Times" size="20" x="19" textColor="0x13ee22" y="16"/>
+	<e:Label id="lbTargerName" y="44" text="Attack Target" fontFamily="Times" size="20" x="19" textColor="0xe2d7be"/>
+	<e:Label id="lbScore" text="Points Gained:999" size="20" fontFamily="Times" x="19" stroke="1" textAlign="left" y="72" textColor="0xe2d7be"/>
+	<e:Image width="100%" x="0" height="2" source="zs_zycs_fengexian" bottom="0" y="104"/>
+
+
+
+
+
+</e:Skin>

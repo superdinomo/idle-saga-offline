@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoZhiLingPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134" states="level,max,rank">
+	<w:Config id="1586b3cda3a" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="43"  source="smzl_zycs_bg1_jpg" x="13"/>
+	<e:Component id="panelYuan" skinName="ShenMoZhiLingYuanPanelEUI" anchorOffsetX="0" y="51" horizontalCenter="0" touchEnabled="false" touchChildren="false"/>
+	<e:Button id="btnMiJing" y="323" label="Avatar Morph" x="52" icon="smzl_zycs_slmj" skinName="Btn0Skin"/>
+	<e:Image y="49" anchorOffsetY="0" source="public_zycs_jlylk"  horizontalCenter="0"/>
+	<e:Group y="68" horizontalCenter="1">
+		<e:Image x="0" y="1"  source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower0" x="88" y="0" text="6666" font="powernum_fnt" />
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgStage" y="234" fillMode="clip" source="zuji_zycs_1"  horizontalCenter="-263"/>
+	<e:Group id="groupMc2" width="0" height="0" x="0" y="0"/>
+	<e:Image id="imgTitle" y="275" source="tssd_zycs_tssd"  horizontalCenter="-262.5"/>
+	<e:Component id="shuxingitem1" y="144" x="610" skinName="TianShiShengDunPanelItemEUI" />
+	<e:Component id="shuxingitem2" y="254" x="610" skinName="TianShiShengDunPanelItemEUI" />
+	<e:Component id="shuxingitem3" y="363" x="610" skinName="TianShiShengDunPanelItemEUI" />
+	<e:Image y="631" source="shenyu_zycs_di" scale9Grid="87,34,524,204" height="196" x="10"  anchorOffsetY="0"/>
+	<e:Image x="343" source="qianghua_zycs_next" visible.max="false"  verticalCenter="165"/>
+	<e:Label id="labelAttr" size="24" text="Most\nMost\nMost\nMost\nMost" fontFamily="Times" textAlign="left"           lineSpacing="8" horizontalCenter.max="0" x.level="123"  textColor="0xe3d7be" verticalCenter="165" right="402"/>
+	<e:Group verticalCenter="165" x="410">
+		<e:Label id="labelAttrNext" y="0" size="24" text="0\n0\n0\n0\n0" fontFamily="Times" textAlign="right" lineSpacing="8" x="0" visible.max="false" textColor="0x13ee22"/>
+		<e:Group id="groupJiantou" x="107" y="0" visible.max="false">
+			<e:Image fillMode="repeat" id="imgJt0" source="public_zycs_lj"/>
+			<e:layout>
+			<e:VerticalLayout gap="7"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupConsume" height="37" y="869" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible.max="false">
+		<e:Label id="lbConsumeName" text="Cost: " y="10" fontFamily="Times" size="24" x="120" textColor="0xffffff"/>
+		<e:Image id="imgConsume" x="120" y="10" width="34" height="34" source="zycs_310024"/>
+		<e:Label id="lbConsume" text="0" y="10" size="24" fontFamily="Times" x="120" textAlign="left" verticalAlign="middle" textColor="0xFFFFFF"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnUp" y="910" skinName="BtnMin1_1" icon="" visible.max="false"  visible.rank="false" x="285" label.level="Upgrade" label="Upgrade"/>
+	<e:Button id="btnUpRank" y="910" skinName="BtnMin1_1" icon="" visible.max="false" visible.level="false" icon.rank="" label="Advance" label.rank="Advance" x="285"/>
+	<e:Group id="groupMc" width="0" height="0" x="0" y="0"/>
+	<e:Label text="Max Level" y="893" size="24" textColor="0xf01414" fontFamily="Times" horizontalCenter="0" visible.level="false" visible.rank="false"/>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\A_暗黑魔灵\A-暗黑魔灵.jpg" y="-45" visible="false"/>-->
+</e:Skin>

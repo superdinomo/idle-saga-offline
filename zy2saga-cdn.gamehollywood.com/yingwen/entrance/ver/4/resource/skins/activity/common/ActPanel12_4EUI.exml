@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel12_4EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134"  width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" x="13" source="hddt_zycs_xbbg_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt"/>
+	<e:Image id="imgTitle0" y="66" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_day1160"/>
+	<e:Image id="imgDec" y="851" touchEnabled="false" horizontalCenter="0.5" source="hddt_zycs_xb1160"/>
+	<e:Image y="925" touchEnabled="false" source="hddt_zycs_msz" x="115"/>
+
+
+
+
+	<e:Group y="225" x="25">
+		<e:Label y="0" text="Time Remain:" fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xefd98d"/>
+		<e:Label id="lbTime" y="0" text="0" fontFamily="Times" size="20" x="100" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Label text="Event Description:" y="200" size="20" fontFamily="Times" x="25" textColor="0xefd98d"/>
+
+
+	<e:Label id="lbDesc" text="During the Labor Day event, gear hunt chance is x5. Don’t miss out on this great opportunity!" y="194" size="18" fontFamily="Times" textAlign="left" textColor="0x13ee22" x="312" width="386"/>
+	<e:Group id="groupMC0" x="210" y="425"/>
+	<e:Group x="510" y="425" id="groupMC1"/>
+	<e:Group x="210" y="520" id="group0"/>
+	<e:Group id="group1" x="510" y="520"/>
+	<e:Group x="210" y="795" id="group2"/>
+	<e:Group x="510" id="group3" y="795"/>
+	<e:Image touchEnabled="false" y="291" x="253" source="hddt_zycs_jp"/>
+	<e:Image touchEnabled="false" y="291" source="hddt_zycs_jp" x="549"/>
+	<e:Image id="imgIcon0" touchEnabled="false" horizontalCenter="-150" source="hddt_zycs_up1_1_png" verticalCenter="-133"/>
+	<e:Image id="imgIcon1" touchEnabled="false" horizontalCenter="150" source="hddt_zycs_up1_1_png" verticalCenter="-133"/>
+	<e:Image id="imgIcon2" touchEnabled="false" horizontalCenter="-150" source="hddt_zycs_up1_1_png" verticalCenter="136"/>
+	<e:Image id="imgIcon3" touchEnabled="false" horizontalCenter="150" source="hddt_zycs_up1_1_png" verticalCenter="136"/>
+	<e:Image id="imgName0" touchEnabled="false" y="546" source="hddt_zycs_n3_2_png" horizontalCenter="-150"/>
+	<e:Image touchEnabled="false" source="hddt_zycs_n3_2_png" y="546" id="imgName1" horizontalCenter="150"/>
+	<e:Image touchEnabled="false" y="801" id="imgName2" source="hddt_zycs_n3_3_2_png" horizontalCenter="-150"/>
+	<e:Image touchEnabled="false" y="801" id="imgName3" source="hddt_zycs_n3_3_2_png" horizontalCenter="150"/>
+	<e:Button id="btn" y="996" label="Go" skinName="BtnMin1_17" horizontalCenter="-1"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

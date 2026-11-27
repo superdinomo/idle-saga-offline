@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TouXianPanelTaskItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="0,1,2"  height="74" width="698">
+	<e:Image y="0" x="0" anchorOffsetY="0" source="tx_zycs_diwen"/>
+	<e:Image id="imgBg" source="tx_zycs_dikuang2" y="2"/>
+	<e:Image x="13" y="5" source="tx_zycs_xianhunzhi"/>
+	<e:Label id="lbName" text="GGGGGGGGGGGGGGGGGGGGGGG" x="116" y="10" size="24" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" height="22" textAlign="center" textColor="0xe6dcb8"/>
+	<e:Label id="lbRewardValue" text="100" y="41" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" horizontalCenter="-320" textColor="0xe6dcb8"/>
+	<e:ProgressBar id="proValue" x="115" y="44" anchorOffsetX="0" width="280" skinName="ProgressBarEUI11"/>
+	<e:Image source="zycs_320002" x="490" y="32"/>
+	<e:Label id="lbYb" text="100" y="39" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" x="528" textColor="0xe6dcb8"/>
+	<e:Button id="btnOk" label="Claim" visible.0="false" visible.2="false" x="579" skinName="BtnMin1_1small" y="24"/>
+	<e:Button id="btnGoto" label="Go" visible.1="false" visible.2="false" x="579" skinName="BtnMin1_1asmall" y="24"/>
+	<e:Image id="imgMeiRiReward" x="593" visible.0="false" visible.1="false" source="lilian_zycs_ylq1" verticalCenter="7.5"/>
+</e:Skin>

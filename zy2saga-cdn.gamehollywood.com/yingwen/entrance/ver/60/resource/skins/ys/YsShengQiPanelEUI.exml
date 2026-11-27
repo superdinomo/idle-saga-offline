@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsShengQiPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="max,up,act" >
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="42" x="13" source="yssq_zycs_bg1_jpg"/>
+	<e:Group id="groupEntity" width="0" height="0" horizontalCenter="0" verticalCenter="-119"/>
+	<e:Image id="imgIcon" source="yssq_zycs_n1_png" verticalCenter="-139.5" horizontalCenter="0" visible.up="false" visible.max="false" visible.act="false"/>
+
+	<e:Group y="606" horizontalCenter="0">
+		<e:Image source="pubilc_zycs_hengdikuang" left="-20" right="-20"/>
+		<e:Image id="imgName" source="yssq_zycs_n1" y="16" horizontalCenter="-0.5"/>
+	</e:Group>
+	<e:TabBar id="listTab" selectedIndex="0" y="59" itemRendererSkinName="YsTabItemEUI" x="37">
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<e:Component id="itemSkill" y="248" x="599" touchEnabled="true" skinName="SkillPassivityNameItemEUI"/>
+
+	<e:Image y="179" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="197" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Group id="groupLv" y="659" x="248">
+		<e:Image y="0" source="zycs_sm_lvdi" x="0" scale9Grid="58,4,49,28" width="225"/>
+		<e:Image source="yssq_zycs_wjh" y="5" visible.max="false" visible.up="false" horizontalCenter="0"/>
+		<e:Group y="6" anchorOffsetY="0" horizontalCenter="0" visible.act="false">
+			<e:Image source="shenqi_zycs_jie"/>
+		<e:BitmapLabel id="bmpJie" text="1" font="shenmonum_fnt"/>
+
+
+
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="4"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image y="697" x="11" scale9Grid="310,77,93,96" source="em_zycs_k5" height="153" anchorOffsetY="0"/>
+	<e:Image y="729" source="liuguang_zycs_huawen" scaleX="-1" x="614"/>
+	<e:Image y="729" source="liuguang_zycs_huawen" x="106"/>
+	<e:Image y="726" source="shenqi_zycs_sxjc" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" horizontalCenter="0" verticalCenter="230.5">
+		<e:layout>
+		<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:DataGroup>
+
+<e:Scroller scaleX="0.7" scaleY="0.7" scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" verticalCenter="330" visible.max="false" horizontalCenter="0">
+				<e:List id="listConsume" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object null=""/>
+						</e:Array>
+					</e:ArrayCollection>
+				
+					
+					
+					
+				
+				</e:List>
+			</e:Scroller>
+
+	<e:Button id="btnUp" skinName="BtnMin1_1" y="941" x="286" label="Level up" visible.max="false" visible.act="false"/>
+	<e:Button id="btnAct" skinName="BtnMin1_1" y="941" x="286" label="Unlock" visible.up="false" visible.max="false"/>
+	<e:Image id="imgYml" touchEnabled="false" y="879" source="bxsb_zycs_ymj" x="299" visible.up="false" visible.act="false"/>
+	<!--<e:Image x="0" touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_元素圣器\Y-元素圣器.jpg" y="-47" locked="true" visible="false"/>-->
+
+</e:Skin>

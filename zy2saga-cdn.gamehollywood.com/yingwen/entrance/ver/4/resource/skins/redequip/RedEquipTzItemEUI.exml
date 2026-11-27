@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipTzItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="120">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgSelect" source="zhsz_zycs_di" x="-59" y="40"/>
+
+	<e:Image id="imgStar" y="24" horizontalCenter="0" source="zhsz_zycs_c2"/>
+
+	<e:BitmapLabel id="bmpLv" text="l99" y="164" font="zhsznum_fnt" letterSpacing="0" horizontalCenter="0"/>
+	<e:Image id="imgName" y="138" horizontalCenter="0" source="zhsz_zycs_a0"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="90" y="20"/>
+	<e:Group id="groupMc" width="0" height="0" y="60" x="60"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossZhaoHuanTipsWinEUI" width="720" height="1265" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group id="group" width="720" height="1280" y="0" horizontalCenter="0" touchEnabled="false">
+		<e:Group id="groupDesc" verticalCenter="-206" x="135" y="342" scaleX="1" scaleY="1" width="450">
+			<e:Image id="imgBg" x="0" y="0" touchEnabled="false" scale9Grid="88,64,2,3" source="zh_zycs_d1"/>
+			<e:Label id="lbDesc" text="Player summoned Scarlet Boss " y="68" fontFamily="Times" size="20" textAlign="center" horizontalCenter="0" textColor="0xffffff"/>
+			<e:Label id="lbGoto" text="Assitance" y="105" fontFamily="Times" size="20" textColor="0x11f51c" textAlign="center" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

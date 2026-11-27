@@ -1,0 +1,55 @@
+<e:Skin class="TianMoEquipUpRankPanelEUI" currentState="normal" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="max,normal" width="720" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" scale9Grid="20,17,34,21"
+	         y="43" x="13"  source="dlsz_zycs_bg_jpg"/>
+	<e:Image y="49" source="public_zycs_jlylk"   horizontalCenter="0"/>
+	<e:Group id="groupPower" y="67" horizontalCenter="1">
+		<e:Image x="0" y="2" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="powerBmp" x="75" y="0" text="100" font="powernum_fnt"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Component id="equipItem0" x="31" y="268" skinName="TianMoEquipUpLevelItemEUI" />
+	<e:Component id="equipItem1" x="568" y="268" skinName="TianMoEquipUpLevelItemEUI" />
+	<e:Component id="equipItem2" x="31" y="465" skinName="TianMoEquipUpLevelItemEUI" />
+	<e:Component id="equipItem3" x="568" y="465" skinName="TianMoEquipUpLevelItemEUI" />
+	<e:Image id="imgIcon" y="257" scaleX="0.7" scaleY="0.7" source=""  horizontalCenter="0"/>
+	<e:Image id="imgNameBg" y="366" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-166" source="public_zycs_jx1" rotation="90" scale9Grid="17,3,105,24" height="32"/>
+	<e:Image id="imgName" anchorOffsetX="0" anchorOffsetY="0" x="182"  y="365" source=""/>
+	<e:Image x="344" y="730" visible.max="false" source="qianghua_zycs_next" />
+	<e:Label text="Current Stats" x="173" y="686" size="20" fontFamily="Times" textColor="0xff9b0f" horizontalCenter.max="0"           x.normal="177" />
+	<e:Label id="lbCurAttr" text="0" x="145" y="716" size="20" fontFamily="Times" horizontalCenter.max="0"           textColor="0xe6dcb8" x.normal="150" />
+	<e:Label text="Next Level Stats" x="461" y="686" size="20" fontFamily="Times" textColor="0xff9b0f" visible.max="false" />
+	<e:Label id="lbNextAttr" x="418" y="716" size="20" fontFamily="Times" textColor="0x5ac832" text="0"
+	         visible.max="false" />
+	<e:Label text="Fallen Gear Lv:" y="852" fontFamily="Times" size="20" x="297" visible.max="false"           textColor="0xe6dcb8" />
+	<e:Image y="849" width="127" scale9Grid="6,6,3,3" x="476" anchorOffsetX="0" visible.max="false"           source="public_zycs_shurukuang" />
+	<e:Label id="lbLevel" text="0" y="851" fontFamily="Times" size="20" textColor="0xAF9B73" x="483" visible.max="false"           />
+	<e:Group height="50" y="839" anchorOffsetX="0" anchorOffsetY="0" x.normal="110" x.max="110" visible.max="false"           width="185" x="109">
+		<e:Label id="lbConsumeName" text="Cost: " y="13" fontFamily="Times" size="20" x="6" textColor="0xe6dcb8" />
+		<e:Image y="10" x="55" anchorOffsetX="0" visible.max="false" source="public_zycs_shurukuang" width="127" />
+		<e:Image id="imgConsume" x="69" y="5" source="zycs_320003" width="34" height="34" />
+		<e:Label id="lbConsume" text="0" y="13" size="20" fontFamily="Times" x="105" textAlign="left" verticalAlign="middle"
+		         textColor="0xFFFFFF" width="92" />
+	</e:Group>
+	<e:Label id="lbDesc" text="already reached the highest tier" y="911" fontFamily="Times" size="20" textColor="0x5ac832"           visible.normal="false" x="290"  horizontalCenter.max="0"/>
+	<e:Button id="btnOk" label="Upgrade" y="910" anchorOffsetX="0" anchorOffsetY="0" visible.max="false"
+	          skinName="BtnMin1_1" icon=""  horizontalCenter="-0.5"/>
+	<e:Group id="groupStar" height="48" y="606" anchorOffsetX="0" anchorOffsetY="0" visible.normal="false"           horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="571" horizontalCenter="0">
+		<e:Image x="0" y="0" source="fm_zycs_sxcgl" visible.max="false" visible.normal="false" />
+		<e:BitmapLabel id="bitlbRota" x="147.5" y="2.5" text="1%" visible.normal="false"                  visible.max="false"  font="fmnum_zycs_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<!--<e:Image x="0" y="-45" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\D_堕落神装\D-堕落神装2.jpg" locked="true" visible="false"/>-->
+</e:Skin>

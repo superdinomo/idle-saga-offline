@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Pk3v3RankResultItemEUI" currentState="min" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="694" height="40" states="min,max"  height.max="85">
+	<e:Image id="imgBg" visible.min="false" source="txzz_zycs_d2"/>
+	<e:Image id="imgLine" x="0" visible.max="false" source="em_zycs_fgx" width="100%" bottom="0"/>
+	<e:Label id="lbRank" size="20" text="0" fontFamily="Times" textAlign="center" width="104" verticalCenter="0" x="14" textColor="0xffffff"/>
+	<e:Image id="imgRank" source="jjc_zycs_no1" verticalCenter="0.5" horizontalCenter="-281"/>
+	<e:Label id="lbName" size="20" text="正正正正正正正" fontFamily="Times" textAlign="center" x="154" textColor="0xf5e654" verticalCenter="0"/>
+	<e:Label id="lbScore" size="20" text="Points" fontFamily="Times" textAlign="center" x="424" textColor="0xff9b0f" verticalCenter="0"/>
+
+
+</e:Skin>

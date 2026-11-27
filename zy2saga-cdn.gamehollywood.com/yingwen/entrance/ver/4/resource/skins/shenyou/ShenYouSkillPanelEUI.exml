@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouSkillPanelEUI" width="720" height="1134" currentState="normal" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="max,normal" >
+	<w:Config id="15d981d06da" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="42" x="12" source="shenyou_zycs_bg2_jpg"/>
+	<e:Group id="groupItems" y="106" width="570" height="393" x="0" width.normal="706" height.normal="434">
+		<e:Component id="item0" y="-11" touchEnabled="true" skinName="ShenYouSkillPanelItemEUI" x="147"/>
+		<e:Component id="item1" y="71" touchEnabled="true" skinName="ShenYouSkillPanelItemEUI" x="43"/>
+		<e:Component id="item2" y="203" touchEnabled="true" skinName="ShenYouSkillPanelItemEUI" x="43"/>
+		<e:Component id="item3" y="292" touchEnabled="true" skinName="ShenYouSkillPanelItemEUI" x="147"/>
+		<e:Component id="item4" y="-11" touchEnabled="true" skinName="ShenYouSkillPanelItemEUI" x="441"/>
+		<e:Component id="item5" y="71" touchEnabled="true" skinName="ShenYouSkillPanelItemEUI" x="545"/>
+		<e:Component id="item6" y="203" touchEnabled="true" skinName="ShenYouSkillPanelItemEUI" x="545"/>
+		<e:Component id="item7" y="292" touchEnabled="true" skinName="ShenYouSkillPanelItemEUI" x="441"/>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupMc" width="0" height="0" y="410" x="300"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="65" horizontalCenter="0" x="265">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Group id="groupBuy" y="543" horizontalCenter="-3" x="269">
+		<e:Label id="lbYiXue" text="Learned Skills:2/2" y="0" size="24" textAlign="center" fontFamily="Times" x="0" textColor="0xe3d7be"/>
+		<e:Button id="btnSkillBuy" y="0" icon="public_zycs_button_jia1" skinName="Btn0Skin" x="52"/>
+		<e:layout>
+		<e:HorizontalLayout gap="5" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbLockDesc" text="(Star-up to T20 for an extra skill slot)" y="576.88" size="20" textAlign="center" fontFamily="Times" horizontalCenter="0" textColor="0x13ee22" x="205"/>
+	<e:Label id="lbSkillName" text="Skill Name" y="607" size="24" textAlign="center" fontFamily="Times" textColor="0xe5e65a" horizontalCenter="0" x="312"/>
+	<e:Image y="610" source="liuguang_zycs_huawen" scaleX="-1" x="617"/>
+	<e:Image y="610" source="liuguang_zycs_huawen" x="111"/>
+	<e:Label id="lbCurAttr" text="Current Stats\nCurrent Stats" size="20" textAlign="left" fontFamily="Times" textColor="0xe3d7be" x="149" verticalCenter="202" lineSpacing="8" y="746"/>
+	<e:Label id="lbDesc" text="Current Stats" size="20" textAlign="center" fontFamily="Times" textColor="0xE3D7BE" horizontalCenter="0" y="650" x="320"/>
+	<e:Image y="751" source="qianghua_zycs_next" horizontalCenter="0.5" x="344"/>
+	<e:Label id="lbNextAttr" text="Next Level Stats" size="20" textAlign="left" fontFamily="Times" textColor="0xe3d7be" x="429" verticalCenter="201" lineSpacing="8" y="758"/>
+	<e:Button id="btnSend" y="938" label="Learn" horizontalCenter="0.5" visible.max="false" skinName="BtnMin1_1" x="286"/>
+	<e:Group y="895" horizontalCenter="0" visible.max="false" x="336">
+		<e:Image id="imgConsumeIcon" x="0" y="0" source="zycs_320001" width="32" height="32"/>
+		<e:Label id="lbConsumeCount" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgYml" touchEnabled="false" y="904" source="bxsb_zycs_ymj" x="299" visible.normal="false"/>
+
+	<!--<e:Image x="0" y="-47" touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神佑\S-神佑系统-技能1.jpg"/>-->
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleSignUpItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="692" height="140">
+	<e:Image source="ldsz_zycs_di1" x="0" y="3"/>
+	<e:Image id="imgRank" x="3" y="4" source="ldsz_zycs_n1"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="24" x="1" width="53" textAlign="center" y="9" textColor="0xffffff"/>
+	<e:Label id="lbGuildName" text="S999.Guild Name" y="11" fontFamily="Times" size="24" x="55" textColor="0xe3d7be"/>
+	<e:Image y="45" x="52" source="ldsz_zycs_tb1"/>
+	<e:Image y="44" x="418" source="ldsz_zycs_tb2"/>
+	<e:Image y="87" x="54" source="ldsz_zycs_tb4"/>
+	<e:Image y="89" x="415" source="ldsz_zycs_tb3"/>
+	<e:Label id="lbRoleName" text="Leader: Miracle xXMoo MoralityXx" y="48" fontFamily="Times" size="24" x="87" textColor="0xe3d7be"/>
+	<e:Label id="lbLevel" text="Guild Level: 2" y="90" fontFamily="Times" size="24" x="87" textColor="0xe3d7be"/>
+	<e:Label id="lbCount" text="Guild Members: 2" y="48" fontFamily="Times" size="24" x="444" textColor="0xe3d7be"/>
+	<e:Label id="lbCompare" text="CP Gap: High" y="90" fontFamily="Times" size="24" x="444" textColor="0xe3d7be"/>
+	<e:Image id="imgBm" x="607" source="ldsz_zycs_bm" y="-1"/>
+	
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_领地圣战\L-领地圣战-领地报名.jpg" y="-45" locked="true" visible="false"/>-->
+</e:Skin>

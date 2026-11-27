@@ -1,0 +1,13 @@
+{"file":"tianmonum.png","frames":{
+"0":{"x":32,"y":0,"w":12,"h":16,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"1":{"x":0,"y":40,"w":8,"h":16,"offX":2,"offY":0,"sourceW":12,"sourceH":16},
+"2":{"x":0,"y":20,"w":11,"h":16,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"3":{"x":30,"y":20,"w":11,"h":16,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"4":{"x":0,"y":0,"w":12,"h":16,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"5":{"x":45,"y":38,"w":11,"h":15,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"6":{"x":16,"y":0,"w":12,"h":16,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"7":{"x":48,"y":19,"w":12,"h":15,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"8":{"x":48,"y":0,"w":12,"h":15,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"9":{"x":15,"y":20,"w":11,"h":16,"offX":0,"offY":0,"sourceW":12,"sourceH":16},
+"l":{"x":12,"y":40,"w":9,"h":14,"offX":0,"offY":0,"sourceW":9,"sourceH":14},
+"r":{"x":25,"y":40,"w":9,"h":14,"offX":0,"offY":1,"sourceW":9,"sourceH":16}}}

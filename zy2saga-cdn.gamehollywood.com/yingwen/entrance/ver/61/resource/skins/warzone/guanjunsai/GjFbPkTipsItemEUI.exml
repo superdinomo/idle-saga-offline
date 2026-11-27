@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPkTipsItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="120" height="125" states="boss,mons" >
+
+	<e:Image y="0" x="25" source="gjs_btx" source.mons="gjs_btx2" x.mons="25" y.mons="9"/>
+	<e:Image id="imgIcon" y="16" x="30" width="60" height="60" source=""/>
+
+	<e:Group x="0" y="85">
+		<e:Image source="public_zycs_jx1" x="0" width="120" top="-4" bottom="-4" scale9Grid="17,3,105,24"/>
+		<e:Label id="lbDec" text="Name Name Name" size="18" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xff9b0f" width="104" wordWrap="true" x="8" y="3"/>
+	</e:Group>
+
+
+</e:Skin>

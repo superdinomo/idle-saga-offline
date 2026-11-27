@@ -1,0 +1,26 @@
+<e:Skin class="WCStageActTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1280">
+    <e:Image source="public_zycs_greybg2" width="100%" height="100%" />
+    <e:Image source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0" />
+    <e:Image source="public_zycs_greybg2" width="100%" height="100%" />
+    <e:Group width="720" height="505" horizontalCenter="0" verticalCenter="0">
+        <e:Image y="-50" source="jl_zycs_jhzs_png" x="159" />
+        <e:Image y="13" source="tssd_zycs_jjcg" x="300" />
+        <e:Image y="484" source="jl_zycs_dz_png" x="103" />
+        <e:Group id="groupMC" y="327" width="0" height="0" x="360" />
+
+
+			<e:Group y="555" horizontalCenter="0">
+				<e:Image y="88" source="pubilc_zycs_hengdikuang" left="-20" right="-20"/>
+				<e:Group y="100" horizontalCenter="0">
+					<e:Image id="imgStage" x="49" y="0" fillMode="clip" source="zuji_zycs_1"/>
+					<e:Image id="imgName" source="msbd_zycs_name1" y="172" x="0"/>
+					<e:layout>
+					<e:HorizontalLayout verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+    </e:Group>
+    <e:Image id="backGround" source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0" alpha="0.01"
+             locked="true" />
+</e:Skin>

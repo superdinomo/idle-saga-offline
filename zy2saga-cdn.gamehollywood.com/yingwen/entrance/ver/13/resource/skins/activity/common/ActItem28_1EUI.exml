@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem28_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="142" width="693">
+	<w:Config id="1586bdedfef" />
+	<e:Image x="0"  y="0" source="jzdh_zycs_di"/>
+	<e:Image x="400" source="jzdh_zycs_dh" y="58"/>
+	<e:CheckBox id="checkBoxTiXing" x="563" y="15" skinName="CheckBoxEUI" label="" />
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="16" right="305">
+		<e:List id="list" itemRendererSkinName="ActItem28_1MinEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="11"  paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			<!--<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>-->
+		</e:List>
+	</e:Scroller>
+	<e:Component id="itemIcon" x="460" skinName="ItemSkin"  scaleX="0.87" scaleY="0.87" y="28"/>
+	<e:Button id="btnDuiHuan" label="Exchange Now" x="564" y="51"  skinName="BtnMin1_2mid" width="113" height="45"/>
+	<e:Image id="imgYdh" x="571" y="40" source="hfdh_zycs_ydh"/>
+	<e:Label id="labelMax" text="Exchange Limit: 9999" y="110" fontFamily="Times" size="18" textColor="0xcdc8be"  right="7"/>
+	<e:Label text="Red Dot" y="10" fontFamily="Times" size="18" x="600" textColor="0xCDC8BE"  width="81"/>
+</e:Skin>

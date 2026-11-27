@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleTimeWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group id="group" horizontalCenter="0" y="330">
+		<e:Image touchEnabled="true" source="ldsz_zycs_djsdi"/>
+		<e:Image touchEnabled="true" source="ldsz_zycs_daojishi" y="11" horizontalCenter="0"/>
+		<e:BitmapLabel id="bmpTime" text="99" letterSpacing="0" font="ldszdjsnum_fnt" horizontalCenter="190" y="9"/>
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

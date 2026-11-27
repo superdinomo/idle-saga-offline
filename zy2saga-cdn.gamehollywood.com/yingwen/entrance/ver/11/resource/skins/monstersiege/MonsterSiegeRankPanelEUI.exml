@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MonsterSiegeRankPanelEUI" width="720" currentState="noTop1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134" states="top1,noTop1" >
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" x="13" source="mwwc_zycs_bg1_jpg"/>
+	<e:Image id="imgNameBg" touchEnabled="false" y="466" source="public_zycs_jx1" height="31" scale9Grid="61,18,13,4" anchorOffsetY="0" visible.noTop1="false" x="292" visible="false"/>
+	<e:Label id="lbName" text="S1. First of the World" y="469" fontFamily="Times" size="24" textColor="0xF5E65A" visible.noTop1="false" x="295" visible="false"/>
+	<e:Image id="imgXwyd" y="257" source="ldsz_zycs_xwyd" visible.top1="false" x="288"/>
+	<e:Group id="groupEntity" width="0" height="0" y="464" horizontalCenter="0"/>
+	<e:Image y="497" x="23" source="jh_zycs_xz"/>
+
+
+
+
+
+
+
+
+	<e:Scroller width="690" height="496" x="16" y="540" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="MonsterSiegeRankPanelListItemEUI">
+		<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>-->
+			<e:layout>
+				<e:VerticalLayout gap="-8"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbRank" text="My Rank: " size="24" fontFamily="Times" y="1054" horizontalCenter="-217" textColor="0xf2e32a"/>
+	<e:Label id="lbScore" text="Current Points:" size="24" fontFamily="Times" y="1054" x="404" textColor="0xff9b0f"/>
+	<e:Label id="lbDesc" text="The ranking rewards will be issued via mail at 22:05 of every Sunday" size="22" fontFamily="Times" x="65" textColor="0xf2e32a" verticalCenter="-55" width="613"/>
+
+	<!--<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\M_魔物围城\M-魔物围城-积分排行.jpg" y="-47" x="0" visible="false"/>-->
+
+
+</e:Skin>

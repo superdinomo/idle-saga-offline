@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DaShiTaskTzWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1280">
+    <e:Group width="720" horizontalCenter="0" verticalCenter="0">
+        <e:Image x="0" y="0" touchEnabled="false"
+                  source="dsrw_zycs_bg2_jpg"/>
+			<e:Image y="526" source="hddt_zycs_yljl" scaleX="0.8" horizontalCenter="-1"/>
+
+        <e:Image y="-16" scale9Grid="56,7,80,44" source="zhaunsheng_zycs_bt2" x="223" />
+        <e:Image id="imgTitle" y="13" horizontalCenter="0"  source="dsrw_zycs_rwtz"/>
+        <e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637" />
+			<e:Group id="groupEntity" width="0" height="0" y="320" x="360"/>
+
+			<e:Scroller y="554" horizontalCenter="0">
+				<e:List id="list" itemRendererSkinName="ItemSkin">
+					<e:layout>
+						<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+					</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+
+
+
+			<e:Label text="Rules: " size="22" fontFamily="Times" y="354" x="40" textColor="0xf5e65a"/>
+
+			<e:Label id="lbDec" text="How to Play\nHow to Play" size="20" fontFamily="Times" y="378" x="39" textColor="0xffffff" width="644" wordWrap="true" anchorOffsetX="0"/>
+			<e:Label id="lbPower" text="Recommended CP: 999" fontFamily="Times" size="30" textAlign="center" y="700" textColor="0xf01414" x="243"/>
+			<e:CheckBox id="checkBox0" x="215" y="745" skinName="CheckBoxEUI" label="Seckill Boss:"/>
+			<e:Image id="imgItem" y="742" x="385" source="zycs_760001"/>
+			<e:Label id="lbCount" text="0/3" fontFamily="Times" size="24" textAlign="center" y="747" textColor="0xCDC8BE" x="420"/>
+			<e:Button id="btnTz" skinName="BtnMin1_1" y="793" label="Challenge" x="286"/>
+
+
+    </e:Group>
+</e:Skin>

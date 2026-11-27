@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel1_7EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" x="13" source="hddt_zycs_zmlc_jpg"/>
+	<e:Group x="33" y="200">
+		<e:Label y="0" text="Time Remain:" fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" y="1" text="0" fontFamily="Times" size="20" x="141" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbDescBase" y="220" text="Top-up Diamond Page" fontFamily="Times" size="18" x="33" textColor="0xFFFFFF" width="660"/>
+	<e:Scroller width="668" y="265" x="27" scrollPolicyH="off" height="659" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ActItem1_7EUI" anchorOffsetY="0" height="669" x="0" y="-8">
+		
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-5" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cblc" horizontalCenter="0.5"/>
+	<e:Button id="btnSend" y="981" label="Unlock" x="508" skinName="BtnMin1_17"/>
+	<e:Image id="imgYjh" x="536" y="975" source="public_zycs_yijihuo"/>
+</e:Skin>

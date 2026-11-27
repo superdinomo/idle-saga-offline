@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BuySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586bde6cc9"/>
+	<e:Group width="552" height="492" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="-1" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image source="btz_zycs_gm_png" horizontalCenter="0" y="9"/>
+	<e:Component id="itemIcon" y="103.2" x="86.8" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true"/>
+	<e:Button id="buyBtn" label="Purchase" y="363" skinName="BtnMin1_1" horizontalCenter="0.5"/>
+		<e:Group x="192" y="100">
+			<e:Image id="textBG" x="0" anchorOffsetY="0" source="public_zycs_btkuang" width="280" top="-5" bottom="-5" scale9Grid="37,5,225,30"/>
+			<e:Label id="itemName" text="0" fontFamily="Times" size="22" textColor="0xBCAF96" x="11" width="300" visible="true" verticalCenter="0"/>
+		</e:Group>
+		<e:Group y="240.17" x="104">
+			<e:Image id="sub10Btn" x="0" y="1" scaleX="1" scaleY="1" anchorOffsetY="0" source="public_zycs_jians"/>
+			<e:Image id="sub1Btn" x="61" y="1" anchorOffsetY="0" source="public_zycs_j"/>
+			<e:Image id="inputback" y="3" width="128" height="38" x="108" scale9Grid="6,6,3,3" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="public_zycs_shurukuang"/>
+			<e:Image id="add1Btn" x="239" y="0.83" anchorOffsetY="0" source="public_zycs_jia"/>
+			<e:Image id="add10Btn" x="285" anchorOffsetY="0" source="public_zycs_jias"/>
+			<e:Label id="numLabel" text="0" x="132.84" y="10.85" size="20" fontFamily="Times" anchorOffsetX="0" width="89" anchorOffsetY="0" height="19" textAlign="center"/>
+		</e:Group>
+		<e:Component id="unitPrice" y="172" skinName="PriceIconSkin" x="197" scaleX="1" scaleY="1"/>
+		<e:Component id="allPrice" y="289" skinName="PriceIconSkin" x="275" scaleX="1" scaleY="1"/>
+	<e:Label text="Total Price:" x="171" y="293" size="20" fontFamily="Times" textColor="0xaf9b73"/>
+		<e:Label id="lbDesc" text="0" x="212" y="212" size="20" fontFamily="Times" textColor="0xcdc8be"/>
+	</e:Group>
+</e:Skin>

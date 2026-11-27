@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipLvPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="42" x="13" source="zhsz_zycs_bg1_jpg"/>
+	<e:Image y="742" source="shenqi_zycs_sxjc" x="288"/>
+	<e:Group id="groupMc" y="395" width="0" height="0" x="360">
+	</e:Group>
+
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="66" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Button id="btnDashi" label="" y="149" skinName="Btn0Skin" icon="zhsz_zycs_zhyl" x="176"/>
+
+
+	<e:Component id="comDaShi" y="44" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" x="10" visible="false"/>
+	<e:Label id="lbDaShi" text="Footprint Master - T0" y="154" fontFamily="Times" size="20" textColor="0xFFD862" textAlign="center" verticalAlign="middle" horizontalCenter="-276" visible="false"/>
+	<e:Component id="item0" y="66" x="23" skinName="RedEquipLvItemEUI"/>
+	<e:Component id="item2" y="201" x="23" skinName="RedEquipLvItemEUI"/>
+	<e:Component id="item3" y="337" x="23" skinName="RedEquipLvItemEUI"/>
+	<e:Component id="item4" y="472" x="23" skinName="RedEquipLvItemEUI"/>
+	<e:Component id="item8" y="607" x="23" skinName="RedEquipLvItemEUI"/>
+	<e:Component id="item1" y="66" skinName="RedEquipLvItemEUI" x="560"/>
+	<e:Component id="item6" y="201" skinName="RedEquipLvItemEUI" x="560"/>
+	<e:Component id="item7" y="337" skinName="RedEquipLvItemEUI" x="560"/>
+	<e:Component id="item5" y="472" skinName="RedEquipLvItemEUI" x="560"/>
+	<e:Component id="item9" y="607" skinName="RedEquipLvItemEUI" x="560"/>
+	<e:Component id="itemSub0" y="572" x="149" skinName="RedEquipLvItemSubEUI"/>
+	<e:Component id="itemSub1" y="588" x="234" skinName="RedEquipLvItemSubEUI"/>
+	<e:Component id="itemSub2" y="598" skinName="RedEquipLvItemSubEUI" x="324"/>
+	<e:Component id="itemSub3" y="588" skinName="RedEquipLvItemSubEUI" x="415"/>
+	<e:Component id="itemSub4" y="572" skinName="RedEquipLvItemSubEUI" x="500"/>
+
+
+
+
+
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="792" horizontalCenter="0">
+		<e:layout>
+		<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:DataGroup>
+
+
+
+
+	<e:Group id="groupConsu" y="900" horizontalCenter="0.5">
+		<e:Label text="Cost:" fontFamily="Times" size="24" textAlign="left" textColor="0xcdc8be" y="4"/>
+		<e:Image id="imgConsu" source="zycs_320001" x="63"/>
+		<e:Label id="lbConsu" text="0" fontFamily="Times" size="24" textAlign="left" textColor="0xcdc8be" x="103" y="4"/>
+
+	</e:Group>
+	<e:Button id="btnSend" skinName="BtnMin1_1" y="937" label="Level up" x="286"/>
+	<e:Label id="btnGet" text="Source" fontFamily="Times" size="24" textAlign="left" y="963" x="497" textColor="0x13ee22"/>
+	<e:Image id="imgYml" touchEnabled="false" y="910" source="bxsb_zycs_ymj" x="299"/>
+
+</e:Skin>

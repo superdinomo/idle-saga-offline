@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjBetItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="510" height="199">
+	<w:Config id="15d981d06da"/>
+	<e:Image source="public_zycs_tsk1" height="100%" y="0" scale9Grid="9,9,54,58" width="100%" x="0"/>
+	<e:Component id="item0" touchEnabled="true" y="0" x="33" skinName="GjBetSubItemEUI"/>
+
+
+
+	<e:Component id="item1" touchEnabled="true" y="0" x="203" skinName="GjBetSubItemEUI"/>
+
+
+
+	<e:Component id="item2" touchEnabled="true" y="0" x="373" skinName="GjBetSubItemEUI"/>
+
+
+
+
+
+
+
+</e:Skin>

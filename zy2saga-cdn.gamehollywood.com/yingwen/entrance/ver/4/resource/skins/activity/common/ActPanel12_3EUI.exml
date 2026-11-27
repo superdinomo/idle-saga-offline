@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel12_3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134"  width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="40" x="13" source="hddt_zycs_hfdlkh_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt"/>
+
+
+
+
+	<e:Group y="63" horizontalCenter="0">
+		<e:Label y="0" text="Event Countdown:" fontFamily="Times" size="24" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" y="0" text="0" fontFamily="Times" size="24" x="100" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Label text="Event Content: Within the event time, all rewards of the aforementioned mode will be doubled!" y="279" size="18" fontFamily="Times" horizontalCenter="0.5" textColor="0xffffff" width="555"/>
+	<e:Label text="(The extra rewards of Coin Talent won’t be counted towards the highest record)" y="313" size="18" fontFamily="Times" textColor="0x13ee22" width="551" x="82"/>
+	<e:Label id="lbDesc" text="Within event period\nWithin event period\nWithin event period" y="954" size="20" fontFamily="Times" horizontalCenter="0" textAlign="center" textColor="0xe3d7be" lineSpacing="16" width="624" wordWrap="true"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

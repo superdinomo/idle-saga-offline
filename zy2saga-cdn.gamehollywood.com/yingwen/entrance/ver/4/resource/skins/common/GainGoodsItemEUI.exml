@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GainGoodsItemEUI" height="134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="90">
+	<e:Label id="desc" y="107" text="0" fontFamily="Times" size="20" touchEnabled="false" textColor="0x23CA23" width="120" horizontalCenter="0" wordWrap="true" textAlign="center"/>
+	<e:Image y="17" touchEnabled="false" source="djts_zycs_djtbk" horizontalCenter="0.5"/>
+	<e:Image id="imgIcon" y="10" touchEnabled="false" horizontalCenter="1" source=""/>
+	<e:Image id="imgTj" y="2" source="djts_zycs_tjbq" horizontalCenter="0"/>
+</e:Skin>

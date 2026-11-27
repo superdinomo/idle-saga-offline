@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoFuWenPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="110" height="125">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" y="0" horizontalCenter="0" source="fuwen_zycs_kuang01_01"/>
+	<e:Image id="imgIcon" source="" horizontalCenter="0.5" verticalCenter="-11"/>
+	<e:Label id="lbName" y="82" size="18" fontFamily="Times" textColor="0xDFD1B5" textAlign="center" text="Name NNNNNNNNNNNN"  horizontalCenter="0" width="123" height="40"/>
+	<e:Group y="139" horizontalCenter="0">
+	</e:Group>
+
+</e:Skin>

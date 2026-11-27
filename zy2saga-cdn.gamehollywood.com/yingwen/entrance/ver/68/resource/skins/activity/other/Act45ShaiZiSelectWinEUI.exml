@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act45ShaiZiSelectWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group id="group" width="552" horizontalCenter="0" verticalCenter="0" height="395">
+		<e:Image
+		          y="0" x="0" source="tzmg_zycs_bj_jpg"/>
+		<e:Image y="94" source="tzmg_zycs_xzds" horizontalCenter="0"/>
+		<e:Button id="closeBtn0" label="" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao"  x="469"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0"  source="tzmg_zycs_yktz"/>
+		<e:Scroller id="scroller" y="136" scrollPolicyH="off" scrollPolicyV="on" x="45">
+			<e:List id="list" itemRendererSkinName="Act45ShaiZiSelectWinItemEUI">
+				<e:layout>
+					<e:HorizontalLayout gap="-1"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnSend" label="Confirm" y="274" skinName="BtnMin1_1" x="305"/>
+		<e:Button id="closeBtn" label="Cancel" y="274" x="98" skinName="BtnMin1_1a"/>
+	</e:Group>
+</e:Skin>

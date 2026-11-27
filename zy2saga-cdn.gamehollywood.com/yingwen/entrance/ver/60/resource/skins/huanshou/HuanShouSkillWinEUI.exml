@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouSkillWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b13ea96" />
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" x="0" source="shenqi_zycs_bg3_jpg"/>
+		<e:Image y="-3" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="151"/>
+		<e:Image y="13" horizontalCenter="0" source="hs_zycs_jnsj"/>
+
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="0"/>
+		<e:Image y="91" source="public_zycs_jlylk" horizontalCenter="7"/>
+		<e:Group y="108" horizontalCenter="10.5">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+
+		<e:Label id="lbC" text="Current Effect" y="177" size="24" textAlign="left" fontFamily="Times" x="55" textColor="0xFFC835"/>
+		<e:Group x="55" y="204">
+			<e:Label id="lbAttr" text="This Eudemon's Stats+2%\nThis Eudemon's Stats+2%" y="0" size="20" textAlign="left" fontFamily="Times" x="0" lineSpacing="3" textColor="0xe3d7be"/>
+			<e:Label id="lbAttrDecL" text="All stats of this Eudemon +1%\nAll stats of this Eudemon " y="0" size="20" textAlign="left" fontFamily="Times" x="0" lineSpacing="3" textColor="0x13ee22"/>
+			<e:layout>
+				<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbN" text="Effect of next level" y="295" size="24" textAlign="left" fontFamily="Times" x="55" textColor="0xFFC835"/>
+		<e:Group x="55" y="322">
+			<e:Label id="lbAttr0" text="+99\n+999" y="0" size="20" textAlign="left" fontFamily="Times" x="0" lineSpacing="3" textColor="0x9b9b9b"/>
+			<e:Label id="lbAttrDecL0" text="All stats of this Eudemon +1%\nAll stats of this Eudemon " y="0" size="20" fontFamily="Times" x="0" textColor="0x9b9b9b" lineSpacing="3"/>
+			<e:layout>
+				<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:Group>
+
+		<e:Component id="item" x="61" y="56" skinName="HuanShouSkillItemEUI"/>
+		<e:Label id="lbName" text="Eudemon Awaken" y="62" size="24" textAlign="left" fontFamily="Times" x="179" textColor="0xe3d7be"/>
+
+
+		<e:Label id="lbDec" text="Eudemon Skill will be passed on to the next deployed Eudemon" y="327" size="20" textAlign="left" fontFamily="Times" horizontalCenter="1" textColor="0xe3d7be" width="433" wordWrap="true" visible="false"/>
+		<e:Group id="groupConsu" y="425" horizontalCenter="0.5">
+
+			<e:Image id="imgConsu" source="zycs_320001" x="0"/>
+			<e:Label id="lbConsu" text="0" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="40" y="4"/>
+		</e:Group>
+		<e:Label id="lbYmj" text="Max Level" y="480" size="24" textAlign="left" fontFamily="Times" horizontalCenter="0" textColor="0xf01414"/>
+		<e:Button id="btnUp" y="460" skinName="BtnMin1_1" label="Unlock" x="202"/>
+	</e:Group>
+</e:Skin>

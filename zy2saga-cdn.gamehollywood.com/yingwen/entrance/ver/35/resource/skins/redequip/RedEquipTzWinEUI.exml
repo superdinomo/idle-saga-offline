@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipTzWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="erjijiemiankuang_png"/>
+		<e:Image y="756" source="role_zycs_tb2" horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+		<e:Group y="29" horizontalCenter="0">
+			<e:Image id="imgTitle" source="zhsz_zycs_z4"/>
+			<e:BitmapLabel id="bitLevel" font="qhnum_fnt" text="0r" letterSpacing="0"/>
+
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image y="95" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="113" horizontalCenter="0">
+			<e:Image x="0" y="1" source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" y="4" text="6666" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Label text="Parts:" fontFamily="Times" size="24" textAlign="left" y="196" x="114" textColor="0xE3D7BE"/>
+		<e:Label id="lbPos" text=" Helmet, Necklace, Bracer, Bracelet, Belt, Boots" fontFamily="Times" size="22" textAlign="left" y="196" textColor="0xe3d7be" x="172"/>
+		<e:Group y="256.16" x="135">
+			<e:Group x="0" y="0">
+				<e:Label text="Effect 1:" fontFamily="Times" size="22" textAlign="left" y="0" x="0" textColor="0xe3d7be"/>
+				<e:Label id="lbDec0" text="2 pieces of Gear reach T50 (3/2)" fontFamily="Times" size="22" textAlign="left" y="0" x="84" textColor="0xE3D7BE"/>
+				<e:Label text="HP +2000000" fontFamily="Times" size="22" textAlign="left" y="28" x="84" id="lbAttr0" textColor="0xe3d7be" lineSpacing="3"/>
+				<e:Group id="groupJt0" x="334" y="27">
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:layout>
+						<e:VerticalLayout gap="2"/>
+					</e:layout>
+				</e:Group>
+				<e:Label id="lbNAttr0" text="2000000\n2000000\n2000000\n2000000\n2000000" fontFamily="Times" size="22" textAlign="left" y="28" x="354" textColor="0xE3D7BE" lineSpacing="3"/>
+			</e:Group>
+			<e:Group x="0" y="117">
+				<e:Label text="Effect 2:" fontFamily="Times" size="22" textAlign="left" y="0" x="0" textColor="0xe3d7be"/>
+				<e:Label id="lbDec1" text="2 pieces of Gear reach T50 (3/2)" fontFamily="Times" size="22" textAlign="left" y="0" x="84" textColor="0xE3D7BE"/>
+				<e:Label text="Current Stats" fontFamily="Times" size="22" textAlign="left" y="28" x="84" id="lbAttr1" textColor="0xe3d7be" lineSpacing="3"/>
+				<e:Group id="groupJt1" x="334" y="27">
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:layout>
+					<e:VerticalLayout gap="2"/>
+					</e:layout>
+				</e:Group>
+				<e:Label text="Next Level Stats" fontFamily="Times" size="22" textAlign="left" y="28" x="354" id="lbNAttr1" textColor="0xE3D7BE" lineSpacing="3"/>
+			</e:Group>
+			<e:Group x="0" y="238">
+				<e:Label text="Effect 3:" fontFamily="Times" size="22" textAlign="left" y="0" x="0" textColor="0xe3d7be"/>
+				<e:Label id="lbDec2" text="2 pieces of Gear reach T50 (3/2)" fontFamily="Times" size="22" textAlign="left" y="0" x="84" textColor="0xE3D7BE"/>
+				<e:Label text="Current Stats" fontFamily="Times" size="22" textAlign="left" y="28" x="84" id="lbAttr2" textColor="0xe3d7be" lineSpacing="3"/>
+				<e:Group id="groupJt2" x="334" y="27">
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:Image source="mianui_zycs_jt"/>
+					<e:layout>
+					<e:VerticalLayout gap="2"/>
+					</e:layout>
+				</e:Group>
+				<e:Label text="Next Level Stats" fontFamily="Times" size="22" textAlign="left" y="28" x="354" id="lbNAttr2" textColor="0xE3D7BE" lineSpacing="3"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="20"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbTips" text="Unlock next level of Scarlet Gear after activating all effects" fontFamily="Times" size="24" textAlign="left" y="787" textColor="0xf01414" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

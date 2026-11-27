@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:ViewStack id="viewStack" y="0" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+	<e:TabBar id="tab" anchorOffsetX="0" height="80" y="963" horizontalCenter="0" itemRendererSkinName="BtnTab5ZYCSSkin">
+		<!--<e:ArrayCollection>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+			</e:ArrayCollection>-->
+		<e:layout>
+			<e:TileLayout requestedColumnCount="5" verticalGap="14"/>
+		</e:layout>
+	</e:TabBar>
+	<!--<e:Image x="0" y="-46" touchEnabled="false"  source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\X_寻宝\L-灵器寻宝-装备寻宝.jpg" locked="true" visible="false"/>-->
+
+</e:Skin>

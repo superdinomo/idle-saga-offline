@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LangHunBossItem2EUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="up,down"  width="130" height="144">
+	<e:Image x="0" y="0" source="ldsz_zycs_bosskuang"/>
+	<e:Image x="0" y="0" visible.up="false" source="gd_zycs_bsxz" visible.down="false" visible="false"/>
+	<e:Image id="imgHaeh" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image x="0" y="106" source="public_zycs_jx1" width="130"/>
+	<e:Image id="imgTime" source="gd_zycs_mzd" width="79" x="26" verticalCenter="-3.5" height="44"/>
+	<e:Label id="nameTxt" y="111" text="Avatar's Circle" fontFamily="Times" size="20" textAlign="center" horizontalCenter="0" textColor="0xe6dcb8"/>
+	<e:Image id="imgName" horizontalCenter="0.5" source="lhzd_zycs_92001" verticalCenter="48" scaleX="0.7" scaleY="0.9"/>
+	<e:Label id="labTime" text="0" fontFamily="Times" size="24" textAlign="center" horizontalCenter="0" textColor="0xf01414" y="57"/>
+	<e:BitmapLabel id="bitNum" y="47" text="9" letterSpacing="-5" horizontalCenter="0.5" font="czhbnum1_fnt"/>
+
+
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiPkTipsItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="479" height="87">
+	<w:Config id="1586b13ea96" />
+	<e:Image bottom="0" source="zs_zycs_fengexian" scale9Grid="312,0,27,2" width="100%"/>
+
+
+	<e:Group id="group" x="13" y="22" width="171">
+		<e:Image y="0" x="0" source="zylts_zycs_z3"/>
+		<e:BitmapLabel id="bmpNum" text="1" letterSpacing="-1" font="zyltsnum_fnt" y="10" horizontalCenter="-61.5"/>
+		<e:Label id="lbName" fontFamily="Times" size="18" y="0" text="Mysterious Challenger" textAlign="center" x="51" textColor="0xffffff"/>
+		<e:Label id="lbPower" fontFamily="Times" size="20" y="30" text="CP: 90000k" textAlign="center" x="51" textColor="0xff9b0f"/>
+	</e:Group>
+	<e:Group id="group0" x="247" y="22" width="171">
+		<e:Image y="0" x="0" source="zylts_zycs_z3"/>
+		<e:BitmapLabel id="bmpNum0" text="8" letterSpacing="-1" font="zyltsnum_fnt" y="10" horizontalCenter="-61.5"/>
+		<e:Label id="lbName0" fontFamily="Times" size="18" y="0" text="Mysterious Challenger" textAlign="center" x="51" textColor="0xFFFFFF"/>
+		<e:Label id="lbPower0" fontFamily="Times" size="20" y="30" text="CP: 90000k" textAlign="center" x="51" textColor="0xFF9B0F"/>
+	</e:Group>
+
+
+</e:Skin>

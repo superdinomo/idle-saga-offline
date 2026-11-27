@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NewFunctionOpenItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="97" height="98">
+	<w:Config id="1586b13ea96"/>
+	<e:Group id="gourp1" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" width="100%" height="100%">
+		<e:Image id="imgOpenIcon" scaleX="1" scaleY="1" y="0" source="zyzl_icon_201_a_png" horizontalCenter="0" width="92" height="92"/>
+		<e:Image id="imgOpenName" scaleX="1" scaleY="1" y="65" horizontalCenter="0" source="zyzl_zycs_title201_a_png"/>
+	</e:Group>
+</e:Skin>

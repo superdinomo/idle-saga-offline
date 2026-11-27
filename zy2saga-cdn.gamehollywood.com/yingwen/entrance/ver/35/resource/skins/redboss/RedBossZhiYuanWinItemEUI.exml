@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossZhiYuanWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" source="qianghua_zycs_kuang4" anchorOffsetX="0" anchorOffsetY="0" width="663" height="146" scale9Grid="42,35,18,19"/>
+	<e:Group x="22" y="12">
+		<e:Image y="0" x="0" source="hddt_zycs_bsk1"/>
+		<e:Image id="imgBossIcon" source="" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="lbLastName" y="14" text="Summoner: Player Name" fontFamily="Times" size="24" lineSpacing="0" textColor="0xE3D7BE" x="150"/>
+	<e:Label id="lbZhiYuanCount" y="45" text="Assisted Players: " fontFamily="Times" size="24" lineSpacing="0" x="150" textColor="0xe3d7be"/>
+	<e:Label id="lbTime" y="76" text="Time Left:" fontFamily="Times" size="24" lineSpacing="0" textColor="0xE3D7BE" x="150"/>
+	<e:ProgressBar id="barhp" x="153" y="115" value="100" anchorOffsetX="0" anchorOffsetY="0" slideDuration="0" skinName="ProgressBarEUI11" width="345"/>
+	<e:Button id="btnChallenge" label="Support" anchorOffsetX="0" anchorOffsetY="0" x="523" y="47" skinName="BtnMin1_2mid"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

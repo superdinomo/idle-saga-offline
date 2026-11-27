@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RelicPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3"/>
+	<e:Image y="42" anchorOffsetX="0" anchorOffsetY="0"
+	          x="13" source="hjbd_zycs_bg_jpg"/>
+	<e:Image y="73" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-3.5" source="hjbd_zycs_ts"/>
+	<e:Component id="relicItem1" x="103" y="130" skinName="RelicItemEUI" />
+	<e:Component id="relicItem2" x="476" y="191" skinName="RelicItemEUI"/>
+	<e:Component id="relicItem3" x="54" y="369" skinName="RelicItemEUI"/>
+	<e:Component id="relicItem4" x="497" y="490" skinName="RelicItemEUI"/>
+	<e:Component id="relicItem5" x="216" y="627" skinName="RelicItemEUI"/>
+	<e:Group id="groupBar" x="154" y="848"/>
+	<e:Image y="790" anchorOffsetX="0" anchorOffsetY="0" source="hjbd_zycs_gwdj" x="97"/>
+	<e:Label id="lbLevel" text="Lv.999" y="768" size="24" fontFamily="Times" textColor="0xff9b0f" horizontalCenter="-197"/>
+	<e:ProgressBar id="bar" y="848" horizontalCenter="-0.5" skinName="ProgressBarEUI22" maximum="5"/>
+	<e:Button id="btnBox" label="Coin Inspiration" icon="hjbd_zycs_bx" x="500" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin" scaleX="1" scaleY="1" y="844"/>
+	<e:Button id="helpBtn" x="225" y="-44" skinName="Btn0Skin" icon="zs_zycs_wenhao"/>
+	<!--<e:Image y="-47" anchorOffsetX="0" anchorOffsetY="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\H_黄金部队\H-黄金魔王.jpg" x="0" locked="true" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RongLianPanelEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3cc8ef" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" anchorOffsetY="0"/>
+	<e:Image y="34" touchEnabled="false" scale9Grid="88,64,2,3" anchorOffsetY="0" source="zbrl_zycs_bg_jpg" horizontalCenter="0"/>
+	<e:Image height="463" y="131" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="677" x="22" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller id="itemsScroller" width="673" height="464" y="127" anchorOffsetY="0" x="25" anchorOffsetX="0">
+		<e:List id="itemList" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="RongLianPanelItemEUI">
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+		<e:layout>
+			<e:TileLayout requestedColumnCount="5" paddingLeft="15" paddingTop="15" verticalGap="22" horizontalGap="43" paddingRight="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="50" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group id="groupPower" y="67" horizontalCenter="0">
+		<e:Image x="0" y="1" source="mianui_zycs_zhandouli2"/>
+		<e:BitmapLabel id="totalPower" x="87" text="1111123132" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image fillMode="scale" y="614" x="65" source="zbrl_zycs_xx"/>
+	<e:Image fillMode="scale" source="zbrl_zycs_xx" y="657" x="65"/>
+	<e:Image fillMode="scale" y="828" source="zbrl_zycs_di" horizontalCenter="0"/>
+	<e:Group y="851" horizontalCenter="0">
+		<e:Image fillMode="scale" y="0" source="zbrl_zycs_level" x="0"/>
+		<e:BitmapLabel y="12" text="l" x="192" font="rlnum_fnt" letterSpacing="-18"/>
+		<e:BitmapLabel id="bitLevel" y="2" text="0" x="182" font="rlnum_fnt" letterSpacing="-18"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbDesc1" text="Auto-select Legendary and below Low Rating Gear, please proceed to smelt." x="96" y="614" size="20" fontFamily="Times" textColor="0xe6dcb8" width="555"/>
+	<e:Label id="lbDesc2" text="1-Star or above Gear are rarer, please go to [Forge]-[Forge]-[Salvage Gear]\n to perform  salvage" x="96" y="658" size="20" fontFamily="Times" textColor="0xE6DCB8" lineSpacing="5" width="551"/>
+	<e:ProgressBar id="progressExp" y="753" skinName="ProgressBarEUI12" width="389" x="165" height="32"/>
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="918" source="public_zycs_di01" scale9Grid="140,12,8,8" width="664" height="60" x="28"/>
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="937" horizontalCenter="0">
+		<e:layout>
+		<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+		</e:layout>
+		
+		
+			
+			
+		
+		
+	</e:DataGroup>
+	<e:Button id="buyRongLian" label="Smelt All" y="1002" skinName="BtnMin1_1" horizontalCenter="-0.5"/>
+	<e:Group id="groupMC" width="0" height="0" x="0" y="0"/>
+	<e:Group id="groupMC1" width="0" height="0" x="10" y="10"/>
+</e:Skin>

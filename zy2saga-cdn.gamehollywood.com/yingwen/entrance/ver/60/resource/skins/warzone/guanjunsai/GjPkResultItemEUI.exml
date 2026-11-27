@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjPkResultItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="504" width="159">
+	<w:Config id="15d981d06da"/>
+	<e:Image id="imgWin" y="0" touchEnabled="false" source="gjs_tb_sl" x="5"/>
+	<e:ProgressBar id="barHp" value="80" y="66" touchEnabled="false" maximum="100" skinName="bar8Skin" x="5"/>
+	<e:Image y="56" touchEnabled="false" x="0" source="gjs_hj"/>
+
+	<e:Group y="109" width="86" x="37">
+		<e:Image y="0" touchEnabled="false" x="0" source="gjs_tb_zdtxk"/>
+		<e:Image id="imgIcon" x="4" y="3" touchEnabled="false" source="gjs_zh7"/>
+		<e:Image id="imgZd" touchEnabled="false" y="62" source="gjs_zhandui" x="4"/>
+	</e:Group>
+	<e:Label id="lbTeam" text="s9999.皇德耀·哈哈" size="18" textAlign="center" fontFamily="Times" touchEnabled="false" y="204" textColor="0xf5e65a" horizontalCenter="0" width="168"/>
+	<e:Label id="lbType" text="(Team Red)" size="22" textAlign="center" fontFamily="Times" touchEnabled="false" y="233" textColor="0xe3d7be" horizontalCenter="0"/>
+
+	<e:Image id="imgIconBg" y="316" x="50" source="mianui_zycs_touxiangkuang_02"/>
+	<e:Image id="imgRole" y="319" source="myzt_zycs_tx1" x="55"/>
+	<e:Image id="imgMvp" y="308" touchEnabled="false" x="5" source="gjs_mvp"/>
+	<e:Label id="lbName" text="s9999.皇德耀世哈哈" size="18" textAlign="center" fontFamily="Times" touchEnabled="false" y="388" textColor="0xff9b0f" horizontalCenter="0"/>
+	<e:Label text="Obtain Fire Crystal: " size="18" textAlign="center" fontFamily="Times" touchEnabled="false" y="425" textColor="0xE3D7BE" horizontalCenter="0"/>
+	<e:Group y="448" horizontalCenter="0">
+		<e:Image y="0" touchEnabled="false" x="0" source="gjs_hj"/>
+		<e:Label id="lbHuoJing" text="9999" size="18" textAlign="center" fontFamily="Times" touchEnabled="false" y="6" x="26" textColor="0x13ee22"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+</e:Skin>

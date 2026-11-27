@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" source="csys_zycs_bg_jpg" x="13"/>
+	<e:Image y="665" source="shenyu_zycs_di" scale9Grid="87,34,524,204" height="181" x="11"/>
+	<e:Label text="Survive in the center of the map or take out other players to earn points" x="45" y="97" size="24" textAlign="left" fontFamily="Times" textColor="0xe5d3b5" width="637" wordWrap="true"/>
+	<e:Label text="Get points to climb higher, better rewards in higher floor" x="45" y="148" size="24" textAlign="left" fontFamily="Times" textColor="0xe5d3b5"/>
+	<e:Label id="countTxt" text="Enter Competitive Mode during 12:15 to 12:25 and 19:30 to 19:40 for ranking rewards" y="793" size="20" textAlign="center" fontFamily="Times" width="594" textColor="0x5ac832" horizontalCenter="0"/>
+	<e:Button id="rewardBtn" icon="csys_zycs_jl" x="595" y="469" skinName="Btn0Skin"/>
+	<e:Label text="Competitive Mode" x="45" y="226" size="24" textAlign="left" fontFamily="Times" textColor="0xe5d3b5"/>
+	<e:Label text="Regular Mode" x="45" y="308" size="24" textAlign="left" fontFamily="Times" textColor="0xe5d3b5"/>
+	<e:Label text="Any time except for the 15 minutes before the Competitive Mode" x="45" y="340" size="24" textAlign="left" fontFamily="Times" textColor="0x11f51c"/>
+	<e:Label id="timerTxt0" text="Noon 12:15 - 12:25" x="45" y="253" size="24" textAlign="left" fontFamily="Times" textColor="0xeacb67"/>
+	<e:Label text="Evening 19:30 - 19:40" x="45" y="277" size="24" textAlign="left" fontFamily="Times" id="timerTxt1" textColor="0xeacb67"/>
+	<e:Scroller id="scroller" y="691" scrollPolicyH="on" scrollPolicyV="off" height="94" width="457" x="132">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="27"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="helpBtn" x="144" y="56" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="enterBtn" y="863" skinName="BtnMin1_1" label="Enter" x="286"/>
+	<e:Image y="66" fillMode="scale" touchEnabled="false" x="45" source="csys_zycs_hdgz"/>
+	<e:Image y="201" fillMode="scale" touchEnabled="false" x="45" source="csys_zycs_hdsj"/>
+	<e:Image y="628" anchorOffsetX="0" fillMode="scale" touchEnabled="false" source="csys_zycs_zjjl" x="301"/>
+</e:Skin>

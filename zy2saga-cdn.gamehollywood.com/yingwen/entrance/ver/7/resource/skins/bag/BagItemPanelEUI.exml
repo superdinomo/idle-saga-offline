@@ -1,0 +1,16 @@
+<e:Skin class="BagItemPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image fillMode="scale" source="bag_zycs_diwen" y="219" x="21" />
+	<e:Label id="lbTips" text="There's no item now, please continue playing to get items." y="195" fontFamily="Times" size="24" textColor="0xFFFFFF" textAlign="left" horizontalCenter="0.5"/>
+	<e:Scroller id="itemGoodsScroller" width="720" height="990" y="48">
+		<e:List id="itemListGoods" scrollEnabled="true"
+		        useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="5" paddingLeft="65" paddingRight="24" paddingTop="21" verticalGap="34"
+				              horizontalGap="33" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

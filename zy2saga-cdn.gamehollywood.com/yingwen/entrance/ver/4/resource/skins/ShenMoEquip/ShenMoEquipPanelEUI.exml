@@ -1,0 +1,34 @@
+<e:Skin class="ShenMoEquipPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="720" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" y="43" source="smzb_zycs_bg1_jpg" x="13"/>
+	<e:Image id="imgWing" touchEnabled="false" fillMode="clip" source="" horizontalCenter="0" verticalCenter="-120"/>
+	<e:Image y="49" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="67" horizontalCenter="1">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="1111123132" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupItems" x="8" y="142" width="685" height="720" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Component id="shenMoEquipItem0" y="168" x="77" currentState="max" skinName="ShenMoEquipItemEUI" touchEnabled="true" height="220" width="153"/>
+		<e:Component id="shenMoEquipItem1" y="26" x="300" currentState="min"  skinName="ShenMoEquipItemEUI"     
+		             touchEnabled="true" />
+		<e:Component id="shenMoEquipItem2" y="168" x="276" currentState="max"  skinName="ShenMoEquipItemEUI" touchEnabled="true" height="220" width="153"/>
+		<e:Component id="shenMoEquipItem3" y="254" x="497" currentState="min"  skinName="ShenMoEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="shenMoEquipItem4" y="438" x="102" currentState="min"  skinName="ShenMoEquipItemEUI"      touchEnabled="true" />
+		<e:Component id="shenMoEquipItem5" y="438" x="300"  currentState="min" skinName="ShenMoEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="shenMoEquipItem6" y="597" x="300"  currentState="min" skinName="ShenMoEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="shenMoEquipItem7" y="597" x="102" currentState="min"  skinName="ShenMoEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="shenMoEquipItem8" y="69" x="497" currentState="min"  skinName="ShenMoEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="shenMoEquipItem9" y="438" x="497"  currentState="min" skinName="ShenMoEquipItemEUI" touchEnabled="true"/>
+	</e:Group>
+	<e:Button id="btnAttr" label="" y="102" icon="smzb_zycs_tzxq" skinName="Btn0Skin" x="56"/>
+	<e:Button id="btnShop" label="" y="102" icon="smzb_zycs_dhzb" skinName="Btn0Skin" x="559"/>
+	
+	<e:Label id="lbTuJing" y="937" text="Salvage Dark Gear" fontFamily="Times" size="24" touchEnabled="true" right="25" textColor="0x13ee22"/>
+	<e:Image id="redPointFengJie" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="688" y="924"/>
+		<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\A_暗黑魔灵\A-暗黑魔灵-魔灵装备.jpg" y="-45" locked="true"/>-->
+
+</e:Skin>

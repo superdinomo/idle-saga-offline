@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoginAwardPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586d1506c8" />
+	<e:Group x="0" y="0" width="720" height="1134">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image x="13" y="41" touchEnabled="false" source="dljl_zycs_bg_jpg"/>
+		<e:Group id="groupMcIcon" x="360" y="549">
+		</e:Group>
+		<e:Image x="0" y="24" touchEnabled="false" source="dljl_zycs_k2_png"/>
+		<e:Image x="-2" y="-56" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="dljl_zycs_k_png" pixelHitTest="true"/>
+		<e:Image id="imgTitle" y="-5" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="dljl_zycs_dljl" horizontalCenter="0.5"/>
+		<e:Image y="102" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" horizontalCenter="1" source="dljl_zycs_v3jl"/>
+		<e:BitmapLabel id="bmpLabelDay" y="180" anchorOffsetX="0" anchorOffsetY="0" text="14" letterSpacing="-10" font="dljlnum_fnt" horizontalCenter="-81"/>
+		<e:Image y="632" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" horizontalCenter="0" source="public_zycs_dk01" height="200" scale9Grid="273,25,158,11"/>
+		<e:Image y="663" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="liuguang_zycs_huawen" x="122"/>
+		<e:Image y="662" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="dljl_zycs_xbtz" x="312"/>
+		<e:Image y="663" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="liuguang_zycs_huawen" scaleX="-1" x="599"/>
+		<e:Button id="btnLeft" y="962" label="" x="106" icon="zuji_zycs_jiantou" skinName="Btn0Skin" scaleX="-1" visible="false"/>
+		<e:Button id="btnRight" y="911" label="" x="618" icon="zuji_zycs_jiantou" skinName="Btn0Skin" visible="false"/>
+		<e:Scroller id="menuScroller" width="680" y="945" scrollPolicyH="on" scrollPolicyV="off" horizontalCenter="0">
+			<e:List id="menuList" x="1" itemRendererSkinName="LoginAwardPanelItemEUI" y="1" scrollEnabled="true" useVirtualLayout="false">
+		
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="itemScroller" y="694" horizontalCenter="0.5">
+			<e:List id="awardList" itemRendererSkinName="ItemSkin" scrollEnabled="true" useVirtualLayout="true">
+		
+					<e:layout>
+				<e:HorizontalLayout paddingRight="12" paddingBottom="12" paddingTop="12" gap="23" paddingLeft="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnGetAward" label="Claim" y="853" enabled="true" skinName="BtnMin1_2" x="283"/>
+		<e:Image id="imgYlq" touchEnabled="false" source="fl_zycs_ylq" y="843" x="299"/>
+		<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+	</e:Group>
+</e:Skin>

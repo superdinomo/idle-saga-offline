@@ -1,0 +1,43 @@
+<e:Skin class="SkillPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134" >
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" anchorOffsetX="0" anchorOffsetY="0" source="skill_zycs_bg_jpg" x="13"/>
+	<e:Image y="48" source="public_zycs_jlylk"   horizontalCenter="0"/>
+		<e:Group id="groupPower" y="66" horizontalCenter="1">
+		<e:Image x="0" y="2" source="public_zycs_zdl" />
+		<e:BitmapLabel id="bmpLabelPower" x="75" y="0" text="100" font="powernum_fnt" />
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Button id="helpBtn" x="531" y="58" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Group id="group" y="142" anchorOffsetX="0" anchorOffsetY="0" width="720" horizontalCenter="0">
+		<e:Component id="skillItem0" skinName="SkillPanelItemEUI" anchorOffsetX="0" x="193"/>
+		<e:Component id="skillItem1" skinName="SkillPanelItemEUI" anchorOffsetX="0" x="385"/>
+		<e:Component id="skillItem2" skinName="SkillPanelItemEUI" anchorOffsetX="0" x="539" y="177"/>
+		<e:Component id="skillItem3" skinName="SkillPanelItemEUI" anchorOffsetX="0" x="538" y="357"/>
+		<e:Component id="skillItem4" skinName="SkillPanelItemEUI" anchorOffsetX="0" x="385" y="535"/>
+		<e:Component id="skillItem5" skinName="SkillPanelItemEUI" anchorOffsetX="0" x="193" y="535"/>
+		<e:Component id="skillItem6" skinName="SkillPanelItemEUI" anchorOffsetX="0" x="40" y="356"/>
+		<e:Component id="skillItem7" skinName="SkillPanelItemEUI" anchorOffsetX="0" x="40" y="178"/>
+		<e:Label id="labelSkillName" text="Skill Name Lv.1" y="250" fontFamily="Times" size="24" horizontalCenter="0"/>
+		<e:Label id="labelDesc" text="0" y="306" fontFamily="Times" size="20" anchorOffsetX="0" width="248" anchorOffsetY="0" textAlign="center" x="236"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupConsume" y="904" horizontalCenter="-127">
+		<e:Image x="0" y="0" source="zycs_320027"/>
+		<e:Label id="labelConsume" text="999/999" y="2" fontFamily="Times" size="24" textColor="0xffffff" x="39"/>
+	</e:Group>
+	<e:Button id="btnUp" y="938" label="Upgrade" anchorOffsetX="0" anchorOffsetY="0" enabled="true" x="162" skinName="BtnMin1_1a"/>
+	<e:Button id="btnOneKey" y="938" label="Fast Upgrade" anchorOffsetX="0" anchorOffsetY="0" enabled="true" skinName="BtnMin1_1" x="410"/>
+	<e:Scroller id="scrollerTab" y="1019" height="64" x="203" width="311" visible="false">
+		<e:List id="listTab" useVirtualLayout="false" anchorOffsetX="0" width="583" anchorOffsetY="0" height="55" itemRendererSkinName="BtnTab3ZYCSSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

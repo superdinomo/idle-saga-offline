@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiAwardRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="639" height="112">
+	<e:Image id="imgBg" y="0" source="zylts_zycs_k1"/>
+	<e:Image width="100%" bottom="0" source="zs_zycs_fengexian" height="4"/>
+
+	<e:Image id="imgRank" y="12" x="22" source="zylts_zycs_g1"/>
+	<e:Label id="lbRank" text="No.1" fontFamily="Times" size="20" x="22" textAlign="center" y="16" textColor="0xff9b0f"/>
+
+	<e:Label id="lbXwyd" text="Vacant" fontFamily="Times" size="20" x="22" textAlign="center" y="57" textColor="0xffffff"/>
+	<e:Label id="lbName" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="20" x="22" textAlign="center" y="40" textColor="0xffffff"/>
+	<e:Label id="lbCount" text="Defended Rounds: 99998" fontFamily="Times" size="20" x="22" textAlign="center" y="64" textColor="0xffffff"/>
+	<e:Label id="lbKill" text="Total Kill: 99998" fontFamily="Times" size="20" x="22" textAlign="center" y="88" textColor="0xFFFFFF"/>
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="-2" right="0">
+		<e:layout>
+		<e:HorizontalLayout gap="14" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>-->
+	</e:List>	
+</e:Skin>

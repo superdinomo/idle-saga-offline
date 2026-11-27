@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPipeiTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="613" height="584" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="gjs_zycs_bg16_jpg"/>
+
+
+		<e:Button id="closeBtn" label="" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao" x="529"/>
+		<e:Image id="imgTitle" y="11" horizontalCenter="0.5" source="btz_gjs_zdxx_png"/>
+		<e:Component id="item0" touchEnabled="true" y="114" skinName="GjFbPipeiTipsItemEUI" horizontalCenter="-187"/>
+		<e:Component id="item1" skinName="GjFbPipeiTipsItemEUI" touchEnabled="true" y="114" horizontalCenter="0"/>
+		<e:Component id="item2" skinName="GjFbPipeiTipsItemEUI" touchEnabled="true" y="114" horizontalCenter="187"/>
+		<e:Button id="btnSend" y="460" label="Confirm" skinName="BtnMin1_1" horizontalCenter="0"/>
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

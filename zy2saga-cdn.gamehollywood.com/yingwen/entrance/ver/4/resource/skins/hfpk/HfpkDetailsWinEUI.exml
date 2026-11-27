@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkDetailsWinEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="553" height="450" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="public_zycs_dikuang" width="100%" height="100%" scale9Grid="74,59,37,17"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+		<e:Image source="public_zycs_tsk1" height="264" y="70" scale9Grid="9,9,54,58" width="479" x="36"/>
+		<e:Image y="158" source="ldsz_zycs_fgx" x="51"/>
+
+
+
+
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source="btz_zycs_ckdj_png"/>
+		<e:Label id="lbLkL" text="Bye" size="24" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" x="101" y="90"/>
+		<e:Label id="lbNameL" text="Miracle xXMoo MoralityXx" y="77" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" horizontalCenter="-151.5"/>
+		<e:Label id="lbPowerL" fontFamily="Times" size="20" y="103" text="CP: 99.9B" textAlign="center" horizontalCenter="-151.5" textColor="0xcdc8be"/>
+		<e:Label id="lbBetL" fontFamily="Times" size="20" y="130" text="(Already Bet)" textAlign="center" textColor="0x13EE22" x="75"/>
+		<e:Label text="VS" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" x="267" y="92"/>
+		<e:Label id="lbLkR" text="Bye" size="24" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" x="404" y="90"/>
+		<e:Label id="lbNameR" text="Miracle xXMoo MoralityXx" y="77" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" horizontalCenter="150.5"/>
+		<e:Label id="lbPowerR" fontFamily="Times" size="20" y="103" text="CP: 99.9B" textAlign="center" horizontalCenter="151.5" textColor="0xcdc8be"/>
+		<e:Label id="lbBetR" fontFamily="Times" size="20" y="130" text="(Already Bet)" textAlign="center" textColor="0x13EE22" x="378"/>
+		<e:Scroller scrollPolicyH="off" y="173" x="98">
+			<e:List id="list" itemRendererSkinName="HfpkDetailsItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="13"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object s="null"/>
+						<e:Object s="null"/>
+						<e:Object s="null"/>
+						<e:Object s="null"/>
+						<e:Object s="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

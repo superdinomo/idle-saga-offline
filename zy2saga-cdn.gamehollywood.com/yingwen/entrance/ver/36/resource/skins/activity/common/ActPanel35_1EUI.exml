@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel35_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="41" x="12" source="hddt_zycs_cjzpbg_jpg"/>
+	<e:Label id="lbDec2" text="One free Draw for every $4.99 top-up" y="1060" size="22" textAlign="center" fontFamily="Times" width="706" textColor="0x13ee22" x="5"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" x="278" source="hddt_zycs_cjzp"/>
+	<e:Group x="25" y="62">
+		<e:Image id="img0" y="78" pixelHitTest="true" touchEnabled="false" x="230" source="hddt_zycs_cjxz" rotation="-30"/>
+		<e:Image y="62" pixelHitTest="true" touchEnabled="false" x="375" id="img1" source="hddt_zycs_cjxz"/>
+		<e:Image y="120" pixelHitTest="true" touchEnabled="false" x="508" id="img2" rotation="30" source="hddt_zycs_cjxz"/>
+		<e:Image y="235" pixelHitTest="true" touchEnabled="false" x="594" id="img3" rotation="60" source="hddt_zycs_cjxz"/>
+		<e:Image y="378" pixelHitTest="true" touchEnabled="false" x="611" id="img4" rotation="90" source="hddt_zycs_cjxz"/>
+		<e:Image y="510" pixelHitTest="true" touchEnabled="false" x="553" id="img5" rotation="120" source="hddt_zycs_cjxz"/>
+		<e:Image y="598" pixelHitTest="true" touchEnabled="false" x="438" id="img6" rotation="150" source="hddt_zycs_cjxz"/>
+		<e:Image y="616" pixelHitTest="true" touchEnabled="false" x="293" id="img7" rotation="180" source="hddt_zycs_cjxz"/>
+		<e:Image y="560" pixelHitTest="true" touchEnabled="false" x="158" id="img8" rotation="210" source="hddt_zycs_cjxz"/>
+		<e:Image y="443" pixelHitTest="true" touchEnabled="false" x="70" id="img9" rotation="240" source="hddt_zycs_cjxz"/>
+		<e:Image y="299" pixelHitTest="true" touchEnabled="false" x="55" id="img10" rotation="270" source="hddt_zycs_cjxz"/>
+		<e:Image y="165" pixelHitTest="true" touchEnabled="false" x="113" id="img11" rotation="300" source="hddt_zycs_cjxz"/>
+	</e:Group>
+	<e:Group x="43" y="81">
+		<e:Group id="itemG0" x="271" y="50">
+			<e:Component id="item0" y="0" skinName="ItemSkin" x="0"/>
+			<e:BitmapLabel id="itemCount0" x="4" y="3" font="cjzpnum_fnt" text="9995" letterSpacing="-2" touchEnabled="false"/>
+		</e:Group>
+		<e:Component id="item1" y="68" skinName="ItemSkin" x="382"/>
+		<e:Component id="item2" y="155" skinName="ItemSkin" x="477"/>
+		<e:Component id="item3" y="270" skinName="ItemSkin" x="506"/>
+		<e:Component id="item4" y="380" skinName="ItemSkin" x="476"/>
+		<e:Component id="item5" y="472" skinName="ItemSkin" x="381"/>
+		<e:Group id="itemG6" x="271" y="494">
+			<e:Component id="item6" y="0" skinName="ItemSkin" x="0"/>
+			<e:BitmapLabel id="itemCount6" x="4" y="3" font="cjzpnum_fnt" text="9995" letterSpacing="-2" touchEnabled="false"/>
+		</e:Group>
+		<e:Component id="item7" y="472" skinName="ItemSkin" x="160"/>
+		<e:Component id="item8" y="381" skinName="ItemSkin" x="61"/>
+		<e:Component id="item9" y="270" skinName="ItemSkin" x="32"/>
+		<e:Component id="item10" y="155" skinName="ItemSkin" x="64"/>
+		<e:Component id="item11" y="63" skinName="ItemSkin" x="162"/>
+	</e:Group>
+	<e:Image y="188" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cjtj" horizontalCenter="0"/>
+	<e:Image y="634.17" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cjdj" horizontalCenter="0"/>
+	<e:Image y="834.17" pixelHitTest="true" touchEnabled="false" x="50" source="hddt_zycs_cjxjz"/>
+	<e:Image id="pointer" y="392" pixelHitTest="true" touchEnabled="false" x="360" source="hddt_zycs_cjjt" anchorOffsetX="63.5" anchorOffsetY="198" rotation="0"/>
+	<e:Group id="groupLog" width="428" height="93" x="146" y="690" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Label id="btnWeight" text="Rate Disclosure" y="1030" size="24" textAlign="left" fontFamily="Times" x="32" textColor="0x13EE22"/>
+	<e:Label id="lbDec" text="6 Lucky Point for every $1 top-up (Lucky Points reset daily)" y="815" size="22" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" x="121" width="501"/>
+	<e:ProgressBar id="barExp" slideDuration="0" value="2" maximum="2" y="859" x="142" skinName="ProgressBarEUI12" anchorOffsetX="0" width="458"/>
+	<e:Button id="btnBox" y="828" x="613" icon="hddt_zycs_cjbx" skinName="Btn0Skin"/>
+	<e:Label id="lbTime" text="Event Countdown: 12:12:12" y="903.17" size="24" textAlign="center" fontFamily="Times" textColor="0xcdc8be" width="376" x="175" visible="false"/>
+	<e:Button id="btnOne" label="Draw x1" y="954" x="133" skinName="BtnMin1_1"/>
+	<e:Button id="btnTen" label="Draw x10" y="954" x="426" skinName="BtnMin1_2"/>
+	<e:Group y="1030" horizontalCenter="0">
+		<e:Label text="Left Attempts:" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="0" y="3"/>
+		<e:Label id="lbConsumeTen" text="10 times" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="26" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="-1"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="btnLog" text="My Records" y="1033" size="22" textAlign="left" fontFamily="Times" x="593" textColor="0x13ee22"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Pk3v3LinkPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134" states="open,close" >
+    <w:Config id="15af9c70173" />
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="44" touchEnabled="false" x="13" source="txzz_zycs_bg1_jpg"/>
+	<e:Label text="Rules: " x="26" y="61" size="22" textAlign="left" fontFamily="Times" lineSpacing="3" textColor="0xF5E65A"/>
+	<e:Label id="lbDec" text="Ending Countdown of This Season: \nH M S Try" x="23" y="90" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" lineSpacing="3" width="667" wordWrap="true"/>
+	<e:Button id="btnRank" y="430" icon="txzz_zycs_txpm2" skinName="Btn0Skin" x="597"/>
+	<e:Label id="lbDecTime" text="Event Time: \n20:00 - 20:30 daily" x="21" y="472" size="24" textAlign="left" fontFamily="Times" lineSpacing="4" textColor="0x13EE22" visible.close="false"/>
+	<e:Label id="lbDecTime2" text="Daily \n20:00-20:30" y="948" fontFamily="Times" size="24" horizontalCenter="0" textColor="0x13ee22" visible.open="false" textAlign="center" lineSpacing="5"/>
+	<e:Image y="528" source="public_zycs_dk03" horizontalCenter="0" scale9Grid="86,22,522,6" height="397"/>
+	<e:Image y="555" source="hddt_zycs_yljl" horizontalCenter="0"/>
+	<e:Image x="93" y="556" source="liuguang_zycs_huawen"/>
+	<e:Image x="625" y="556" source="liuguang_zycs_huawen" scaleX="-1"/>
+	<e:Scroller y="579" scrollPolicyH="off" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="20" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="705" source="smsz_zycs_czjl" x="312"/>
+	<e:Image x="119" y="706" source="liuguang_zycs_huawen"/>
+	<e:Image x="599" y="706" source="liuguang_zycs_huawen" scaleX="-1"/>
+	<e:ProgressBar id="progBar" y="844" value="10" slideDuration="0" skinName="ProgressBarEUI12" width="608" x="56" maximum="10"/>
+	<e:Component id="item0" y="752" skinName="CampWarMainBoxItemEUI" x="92"/>
+	<e:Component id="item1" y="752" skinName="CampWarMainBoxItemEUI" x="210"/>
+	<e:Component id="item2" y="752" skinName="CampWarMainBoxItemEUI" x="384"/>
+	<e:Component id="item3" y="752" skinName="CampWarMainBoxItemEUI" x="597"/>
+
+	<e:Label id="lbPkCount" text="Attempts: 10/10" y="949" fontFamily="Times" size="24" textColor="0xE3D7BE" horizontalCenter="0" visible.close="false"/>
+
+	<e:Button id="btnSend" y="1006" label="Match" skinName="BtnMin1_2" x="286"/>
+	<e:Button id="btnLink" y="1006" label="Go to Battle Zone" skinName="BtnMin1_2" x="286"/>
+	<e:Button id="btnHelp" x="660" y="982" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+
+</e:Skin>

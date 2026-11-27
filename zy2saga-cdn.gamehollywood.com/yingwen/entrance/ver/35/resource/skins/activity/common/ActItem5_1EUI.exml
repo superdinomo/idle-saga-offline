@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem5_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Label id="lbDec" text="Claim rewards when total top-up reaches $1" x="5" fontFamily="Times" size="20" y="18" textAlign="left" textColor="0xcdc8be"/>
+	<e:Label id="lbValue" text="0/6" fontFamily="Times" size="20" y="34" textAlign="center" textColor="0xcdc8be" horizontalCenter="240"/>
+	<e:Label id="lbCount" text="Event Attempts: 0/6" fontFamily="Times" size="20" y="132" textAlign="center" textColor="0xCDC8BE" horizontalCenter="240"/>
+	<e:Scroller x="16" scrollPolicyH="off" scrollPolicyV="off" y="59">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="18"/>
+			</e:layout>
+			
+				
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="499" y="70" label="Claim" skinName="BtnMin1_2"/>
+	<e:Button id="btnLink" x="499" y="70" label="Top Up" skinName="BtnMin1_1a"/>
+	<e:Image id="imgYlq" x="511" source="public_zycs_ylq" y="54"/>
+</e:Skin>

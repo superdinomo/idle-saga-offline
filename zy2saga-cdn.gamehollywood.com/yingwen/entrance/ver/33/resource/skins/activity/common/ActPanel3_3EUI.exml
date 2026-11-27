@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel3_3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" x="13" y="42" source="hddt_zycs_khbg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_qmkh" verticalCenter="-544.5" horizontalCenter="0.5"/>
+	<e:Label y="124" text="Event Descriptions: Complete the specific quest during the event period to gain points" fontFamily="Times" size="20" x="33" textColor="0xffffff" width="651"/>
+	<e:Label id="labelTime" y="146" text="Time Remain" fontFamily="Times" size="20" lineSpacing="10" textColor="0xffffff" right="26"/>
+	<e:Scroller id="scrollerTask" width="159" y="203" height="860" x="19" scrollPolicyH="off">
+		<e:List id="listTask" itemRendererSkinName="ActItem3_3TaskEUI">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="20"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scrollerAward" width="512" y="183" height="860" x="187" scrollPolicyH="off">
+		<e:List id="listAward" itemRendererSkinName="ActItem3_3EUI">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="labelSee" text="View Quests" x="233" y="1051" fontFamily="Times" size="24" textColor="0x13ee22" touchEnabled="true"/>
+	<e:Label id="labelHighdian" text="Points: 0" x="453" y="1051" fontFamily="Times" size="24" textColor="0xffffff"/>
+
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ChengHaoAttrItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="attrTxt" text="Stats:" size="18" fontFamily="Times" x="0" y="0" textColor="0xcdc8be"/>
+</e:Skin>

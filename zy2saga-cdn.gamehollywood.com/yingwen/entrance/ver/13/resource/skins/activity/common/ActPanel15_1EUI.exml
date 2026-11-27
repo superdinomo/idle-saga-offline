@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel15_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134"  width="720" states="max,normal" >
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="40" touchEnabled="false" x="13" source=""/>
+	<e:Group x="28" y="678">
+		<e:Label y="0" text="Time Remain:" fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" y="0" text="0" fontFamily="Times" size="20" x="144" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-2" pixelHitTest="true" touchEnabled="false" id="imgTitle" source="jz_zycs_title2" horizontalCenter="0.5"/>
+	<e:Group y="70" anchorOffsetX="0" width="678" anchorOffsetY="0" x="21">
+		<e:Component id="item0" y="-6" skinName="ActItemReward15_1EUI" x="38"/>
+		<e:Component id="item1" y="-6" skinName="ActItemReward15_1EUI" x="178"/>
+		<e:Component id="item2" y="-6" skinName="ActItemReward15_1EUI" x="321"/>
+		<e:Component id="item3" y="-6" skinName="ActItemReward15_1EUI" x="464"/>
+		<e:Component id="item4" y="133" skinName="ActItemReward15_1EUI" x="464"/>
+		<e:Component id="item5" y="274" skinName="ActItemReward15_1EUI" x="464"/>
+		<e:Component id="item6" y="415" skinName="ActItemReward15_1EUI" x="464"/>
+		<e:Component id="item7" y="415" skinName="ActItemReward15_1EUI" x="321"/>
+		<e:Component id="item8" y="415" skinName="ActItemReward15_1EUI" x="178"/>
+		<e:Component id="item9" y="415" skinName="ActItemReward15_1EUI" x="38"/>
+		<e:Component id="item10" y="274" skinName="ActItemReward15_1EUI" x="38"/>
+		<e:Component id="item11" y="133" skinName="ActItemReward15_1EUI" x="38"/>
+	</e:Group>
+	<e:CheckBox id="checkBoxPass" y="675" skinName="CheckBoxEUI" label="Skip Animation" x="511"/>
+	<e:Group x="19" y="707" scrollEnabled="true" width="687" height="263">
+		<e:Scroller id="taskScroller" scrollPolicyH="off" scrollPolicyV="off" width="687" y="0" anchorOffsetX="0" anchorOffsetY="0" height="263" x="0">
+			<e:List id="taskList" itemRendererSkinName="ActItemTask15_1EUI" width="679" x="1" y="-1">
+			
+				
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" paddingLeft="5" paddingRight="5" paddingTop="5" paddingBottom="5" horizontalGap="6" verticalGap="11"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="taskScroller1" scrollPolicyH="off" scrollPolicyV="off" width="687" y="0" anchorOffsetX="0" anchorOffsetY="0" height="263" x="0">
+			<e:List id="taskList1" itemRendererSkinName="ActItemTask15_1EUI" width="679" x="1" y="-1">
+			
+				
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" paddingLeft="5" paddingRight="5" paddingTop="5" paddingBottom="5" horizontalGap="6" verticalGap="11"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="btnLeft" label="" y="339" skinName="Btn0Skin" icon="zycs_zyzl_qieye" rotation="180" anchorOffsetX="77" anchorOffsetY="70" x="11" scaleX="0.8" scaleY="0.8"/>
+	<e:Button id="btnRight" label="" y="339" skinName="Btn0Skin" icon="zycs_zyzl_qieye" x="648" scaleX="0.8" scaleY="0.8"/>
+	<e:Group y="988" horizontalCenter="0" visible.max="false">
+		<e:Image id="imgConsumeIcon" y="1" pixelHitTest="true" touchEnabled="false" x="0" source="zycs_321004" width="20" height="20"/>
+		<e:Label id="lbConsumeCount" text="10/1" y="0" fontFamily="Times" size="24" textColor="0xFFFFFF" textAlign="center" x="24"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnSend" label="Watering" y="1019" horizontalCenter="0" skinName="BtnMin1_2mid" visible.max="false"/>
+	<e:Image id="imgShu" bottom="641" horizontalCenter="0" source=""/>
+	<e:Image id="imgShu1" bottom="641" horizontalCenter="0" source=""/>
+	<e:Group id="groupMC" width="0" height="0" horizontalCenter="0" verticalCenter="-207"/>
+	<e:Label id="lbMaxDesc" text="The sapling you planted has finally grown bigger" y="1014" size="22" fontFamily="Times" textColor="0x13ee22" horizontalCenter="0" visible.normal="false"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<!--<e:Image x="0" y="-47" touchEnabled="false"  source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\寻宝\x寻宝-装备寻宝(1).jpg" locked="true" visible="false"/>-->
+
+</e:Skin>

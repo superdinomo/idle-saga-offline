@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoEquipShopPanelTitleItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down,disabled"  width="175" height="89">
+	<e:Image x="0" anchorOffsetY="0" anchorOffsetX="0" y="0" source="cbzb_zycs_xz2" visible.down="false"/>
+	<e:Image x="-1" anchorOffsetY="0" anchorOffsetX="0" y="0" source="cbzb_zycs_xz0" visible.up="false"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="cbzb_zycs_xz1" visible.up="false"/>
+	<e:Group x="23" y="32" x.down="25">
+		<e:BitmapLabel id="bmpNum" y="0" text="66" font="ahmlnum2_fnt" horizontalCenter="-23" x.down="36" horizontalCenter.down="-19"/>
+		<e:Image id="imgName" anchorOffsetY="0" anchorOffsetX="0" x.down="6" y="0" source="smzb_zycs_jzb" scale9Grid="16,2,42,19" width="118" x="0"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="131" y="1" source="mainui_zycs_hongdian"/>	
+	
+</e:Skin>

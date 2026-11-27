@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenglingPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" height="1054" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" touchEnabled="false" x="13" source="chengjiu_zycs_di_jpg"/>
+	<e:Image y="93" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="113" horizontalCenter="0">
+		<e:Image x="0" source="mianui_zycs_zhandouli"/>
+		<e:BitmapLabel id="DisplayPower" x="88" text="6967" font="powernum_fnt"/>
+	</e:Group>
+	<e:Image x="86" y="593" source="chengjiu_zycs_juxing_01"/>
+	<e:Image y="744" source="qianghua_zycs_diwen2" width="689" x="16" height="146"/>
+	<e:Image y="803" source="qianghua_zycs_next" x="343"/>
+	<e:Image y="188" source="chengjiu_zycs_juxing_03" x="422"/>
+	<e:Image x="471" y="229" source="chengjiu_zycs_shenghuijiacheng"/>
+	<e:Image id="icon" x="30" y="169" source="achieve_zycs_pattern1_png"/>
+	<e:Label id="currAttr" y="274" text="Most\nMost" fontFamily="Times" size="20" x="487" textAlign="left" touchEnabled="false" textColor="0xaf9b73" lineSpacing="12"/>
+	<e:Image y="401" touchEnabled="false" source="zs_zycs_fengexian" width="140" x="473"/>
+	<e:Label y="453" text="Automatically activates every 10 levels" fontFamily="Times" size="20" x="472" textAlign="left" touchEnabled="false" textColor="0xaf9b73"/>
+	<e:Label id="currAttr0" y="761" text="Most" fontFamily="Times" size="20" x="161" textColor="0xAFAAA0" textAlign="left" touchEnabled="false" lineSpacing="12"/>
+	<e:Label id="currAttr1" y="761" text="7\n5" fontFamily="Times" size="20" x="425" textAlign="left" touchEnabled="false" textColor="0x5ac832" lineSpacing="12"/>
+	<e:Image y="904" touchEnabled="false" x="302" source="zycs_320012"/>
+	<e:Label id="consuTxt" y="911" text="0/5" fontFamily="Times" size="20" textColor="0xAFAAA0" textAlign="center" touchEnabled="false" x="345"/>
+	<e:Image x="495" y="416" source="chengjiu_zycs_xiageshenghui"/>
+	<e:Group y="597" horizontalCenter="-124.5">
+		<e:BitmapLabel id="lvBmp" y="3" text="0" right="77" font="qianghuanum1_fnt"/>
+		<e:Image y="0" right="0" source="chengjiu_zycs_jsh"/>
+	</e:Group>
+	<e:ProgressBar id="barbc" slideDuration="0" skinName="ProgressBarEUI2" value="1" maximum="2" y="678" x="96"/>
+	<e:Button id="sendBtn" y="943" skinName="BtnMin1_1" x="294" label="Upgrade"/>
+
+
+</e:Skin>

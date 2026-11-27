@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouHuanHuaPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group id="group" x="0" y="0" width="720" height="1134">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image id="imgBg" touchEnabled="false" x="13" y="42" source="shenyou_zycs_bg1_jpg"/>
+		<e:Group id="groupMc" width="0" height="0" y="380" horizontalCenter="0"/>
+
+		<e:Group y="485" horizontalCenter="0">
+			<e:Image source="pubilc_zycs_hengdikuang" left="-20" right="-20" scale9Grid="24,6,144,42"/>
+			<e:Image id="imgName" y="17" source="shenyou_zycs_mz6" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="65" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+
+		<e:Group id="groupLv" y="107" x="276" width="168" height="36">
+			<e:Image y="0" source="zycs_sm_lvdi" x="0"/>
+			<e:Group y="7" anchorOffsetY="0" horizontalCenter="0.5">
+				<e:Image source="shenqi_zycs_jie"/>
+				<e:BitmapLabel id="bmpLv" x="0" text="66" y="0" font="shenmonum_fnt"/>
+
+				<e:layout>
+					<e:HorizontalLayout gap="4" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnGengHuan" y="433" skinName="Btn0Skin" icon="zycs_jl_genghuan" x="526"/>
+		<e:Image id="imgSyz" y="437" x="491" source="jh_zycs_syz"/>
+		<e:Label id="lbActDec" text="Obtain from event. After activation, CP +1000" y="541" size="24" textAlign="center" fontFamily="Times" width="690" textColor="0xFFFFFF" x="15"/>
+		<e:Image y="571" source="shenyou_zycs_msz" horizontalCenter="6.5"/>
+		<e:BitmapLabel id="bitHuDun" text="0%" y="569" font="shenyounum_fnt" left="417"/>
+
+
+
+
+
+
+
+		<e:Image source="shenqi_zycs_di3" x="11" scale9Grid="87,10,524,63" height="118" y="603"/>
+		<e:Label id="btnAttr" text="Total Bonus" x="600" y="575" size="20" textAlign="left" fontFamily="Times" textColor="0x11F51C"/>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="620" horizontalCenter="0">
+			<e:layout>
+				<e:TileLayout verticalGap="11" horizontalGap="30"  requestedColumnCount="2"/>
+			</e:layout>
+		</e:DataGroup>
+		<e:Image height="124" y="736" scale9Grid="28,33,9,12" source="qianghua_zycs_kuang4" width="392" x="164"/>
+		<e:Image y="749" x="185" source="qianghua_zycs_xiaohuacailiao"/>
+		<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="248" y="743" scaleX="0.9" scaleY="0.9">
+			<e:List id="listConsume" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnSend" y="774"  x="415" label="Upgrade" skinName="BtnMin1_1mid"/>
+
+		<e:Image id="imgYml" touchEnabled="false" y="758" source="bxsb_zycs_ymj" x="300"/>
+		<e:Scroller id="scroller" y="881" width="684" height="125" horizontalCenter="0">
+			<e:List id="listIcon" itemRendererSkinName="ShenYouHuanHuaPanelItemEUI">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="0" gap="-8"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group x="57" y="831" visible="false">
+			<e:Button id="btnLeft" y="0" skinName="Btn0Skin" icon="zycs_zyzl_qieye" scaleX="-0.8" scaleY="0.8" x="0"/>
+			<e:Button id="btnRight" y="0" skinName="Btn0Skin" icon="zycs_zyzl_qieye" scaleX="0.8" scaleY="0.8" x="606"/>
+		</e:Group>
+	</e:Group>
+	<!--<e:Image x="0" y="-47" touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神佑\S-神佑系统-幻化.jpg" locked="true" visible="false"/>-->
+</e:Skin>

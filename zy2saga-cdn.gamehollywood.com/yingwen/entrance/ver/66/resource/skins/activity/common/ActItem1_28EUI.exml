@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem1_28EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="668" height="164">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Label id="lbDec" text="Claim the rewards when Gratitude reaches 5000" x="18" fontFamily="Times" size="20" y="20" textAlign="left" textColor="0xffffff"/>
+	<e:Label id="lbValue" text="(0/6)" fontFamily="Times" size="24" y="45" textAlign="center" textColor="0xcdc8be" horizontalCenter="249"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="20" y="44">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="14" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="523" y="82" label="Claim" skinName="BtnMin1_2mid"/>
+	<e:Button id="btnLink" x="523" y="82" label="Go to " skinName="BtnMin1_1amid"/>
+	<e:Image id="imgYlq" x="520" source="public_zycs_ylq" y="72"/>
+</e:Skin>

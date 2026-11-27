@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FootEquipFenJiePanelEUI" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="866">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="720" x="0" y="0">
+		<e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+
+
+
+
+		<e:Image y="92" source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="534" width="629" x="49"/>
+		<e:Image y="574" source="zuji_zycs_fjdi" horizontalCenter="3.5"/>
+		<e:Scroller y="97" x="55" width="620" height="475" anchorOffsetY="0" scrollPolicyV="auto" scrollPolicyH="off">
+			<e:List id="list" itemRendererSkinName="FootEquipFenJiePanelItemEUI">
+			<e:ArrayCollection>
+			
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+			
+</e:ArrayCollection>
+				<e:layout>
+					<e:TileLayout requestedColumnCount="5" horizontalGap="32" paddingLeft="12" paddingTop="12" paddingRight="12" verticalGap="12"/>
+				</e:layout>
+
+			</e:List>
+		</e:Scroller>
+
+
+		<e:Label id="btnHeCheng" text="Go to Merge" y="693" size="24" fontFamily="Times" textAlign="center" x="554" textColor="0x13EE22"/>
+		<e:Image id="imgQuality" x="186" source="zuji_zycs_zujik" scale9Grid="2,3,2,2" height="37" anchorOffsetX="0" width="176" bottom="245"/>
+		<e:Image x="329" scale9Grid="2,3,2,2" anchorOffsetX="0" source="zuji_zycs_sxk" y="615" scaleY="-1" touchEnabled="false"/>
+		<e:Label id="lbCurQuality" text="All Color" y="590" size="24" textColor="0xE3D7BE" fontFamily="Times" x="196" touchEnabled="false"/>
+		<e:Group id="groupQuality" width="176" x="186" bottom="245" visible="false">
+			<e:Image width="100%" height="100%" x="0" y="0" source="zuji_zycs_zujik" scale9Grid="2,3,2,2"/>
+			<e:Label id="lbAllQuality" text="All Color" y="7" size="24" textColor="0xe3d7be" fontFamily="Times" horizontalCenter="5"/>
+			<e:Image anchorOffsetX="0" source="zuji_zycs_fgx" y="42"/>
+			<e:Scroller x="0" width="169" anchorOffsetY="0" scrollPolicyV="auto" scrollPolicyH="off" top="38">
+				<e:List id="listQuality" itemRendererSkinName="FootEquipFenJiePanelQualitySaiXuanEUI">
+				<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout gap="-6"/>
+					</e:layout>
+
+				</e:List>
+			</e:Scroller>
+			<e:Image id="imgQualityClose" x="142" source="zuji_zycs_sxk" scale9Grid="2,3,2,2" anchorOffsetX="0" bottom="6" touchEnabled="true"/>
+		</e:Group>
+		<e:Image id="imgStar" x="403" source="zuji_zycs_zujik" scale9Grid="2,3,2,2" height="37" anchorOffsetX="0" width="165" y="584"/>
+		<e:Label id="lbCurStar" text="1-Star and below" y="590" size="24" textColor="0xE3D7BE" fontFamily="Times" x="413" touchEnabled="false"/>
+		<e:Image x="534" scale9Grid="2,3,2,2" anchorOffsetX="0" source="zuji_zycs_sxk" scaleY="-1" bottom="252" touchEnabled="false"/>
+		<e:Group id="groupStar" width="165" x="403" bottom="245" visible="false">
+			<e:Image width="100%" height="100%" x="0" y="0" source="zuji_zycs_zujik" scale9Grid="2,3,2,2"/>
+			<e:Label id="lbAllStar" text="All Star Level" y="7" size="24" textColor="0xE3D7BE" fontFamily="Times" horizontalCenter="5"/>
+			<e:Image anchorOffsetX="0" y="42" source="zuji_zycs_fgx" width="136"/>
+			<e:Scroller y="38" x="0" anchorOffsetY="0" scrollPolicyV="auto" scrollPolicyH="off" width="165">
+			<e:List id="listStar" itemRendererSkinName="FootEquipFenJiePanelStarSaiXuanEUI">
+				<e:ArrayCollection>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:VerticalLayout gap="-6"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Image id="imgStarClose" x="131" source="zuji_zycs_sxk" scale9Grid="2,3,2,2" anchorOffsetX="0" bottom="7" touchEnabled="true"/>
+		</e:Group>
+
+
+
+
+
+	</e:Group>
+	<e:Group y="634" horizontalCenter="5">
+		<e:Label text="Obtain" y="5" size="20" fontFamily="Times" textColor="0xE6DCB8" x="0" scaleX="1" scaleY="1"/>
+		<e:Image id="imgItemIcon" x="43" y="0" width="32" height="32" source="zycs_360042"/>
+		<e:Label id="lbCount" text="0/1" y="15" size="20" fontFamily="Times" x="5" scaleX="1" scaleY="1" textColor="0x13ee22"/>
+		<e:layout>
+		<e:HorizontalLayout gap="6" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnSend" y="672" label="Salvage" horizontalCenter="6" skinName="BtnMin1_1mid"/>
+
+</e:Skin>

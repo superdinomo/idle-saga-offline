@@ -1,0 +1,69 @@
+<e:Skin class="ShenShouCulturePanelEUI" currentState="max" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720" height="1134" states="normal,max,act,otherPlay"  height.act="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" height.act="1134"/>
+	<e:Image y="43" x="13" source="sshq_zycs_bg2_jpg"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="65" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image x="0" y="1" source="mianui_zycs_zhandouli2"/>
+		<e:BitmapLabel id="power" x="88" text="6666" y="0" font="powernum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="633" x="344" source="qianghua_zycs_next" visible.act="false" visible.max="false"/>
+	<e:Group id="groupEntity" width="0" height="0" y="460" x="360"/>
+	<e:Component id="shuxingitem1" y="113" x="596" skinName="ShenShouAttrDanItemEUI" visible.act="false" visible.otherPlay="false"/>
+	<e:Component id="shuxingitem2" y="216" x="596" skinName="ShenShouAttrDanItemEUI" visible.act="false" visible.otherPlay="false"/>
+	<e:Label id="nameTxt" text="Golden Drakling Lv.5" fontFamily="Times" size="24" y="113" textAlign="center" textColor="0xCDC8BE" horizontalCenter="0"/>
+	<e:Group id="groupActAttr" y="531" horizontalCenter="0.5">
+		<e:Image y="0" source="ss_zycs_dk" x="0"/>
+		<e:BitmapLabel id="bitAtrAttr" y="1" text="+8.8%" font="shenyounum_fnt" horizontalCenter="74.5" letterSpacing="-4"/>
+	</e:Group>
+	<e:Label text="Activate Stats" fontFamily="Times" size="24" y="569" textAlign="center" textColor="0xff9b0f" text.normal="Upgrade Stats" text.max="Max Level" x.max="324" horizontalCenter="0"/>
+
+
+	<e:Label id="labelAttr1" y="605" text="Stats:\nStats:\nStats:\nStats:" fontFamily="Times" size="22" x="141" textColor="0xAFAAA0" textAlign="left" touchEnabled="false" lineSpacing="7" horizontalCenter.act="0" x.normal="141" horizontalCenter.max="0"/>
+	<e:Group x="463" y="603">
+		<e:Label id="labelAttr2" y="2" text="Stats:\nStats:\nStats:\nStats:" fontFamily="Times" size="22" x="0" textAlign="right" touchEnabled="false" lineSpacing="7" x.act="280" x.max="280" visible.act="false" textColor="0x13ee22" visible.max="false"/>
+		<e:Group id="groupJiantou" x="72" y="0" visible.max="false" visible.act="false">
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image fillMode="repeat" source="public_zycs_lj" x="10" y="10"/>
+			<e:layout>
+			<e:VerticalLayout gap="4"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="3"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="zuheBtn" x="39" y="101" skinName="Btn0Skin" icon="ss_zycs_ssjb"/>
+	<e:Button id="upBtn" y="768" skinName="BtnMin1_1" icon="" visible.max="false" visible.otherPlay="false" label="Upgrade" label.act="Unlock" label.normal="Upgrade" horizontalCenter="0"/>
+	<e:Label id="consuTxt" text="Cost: xxxx 0/1" fontFamily="Times" size="24" y="736" textAlign="center" visible.max="false" visible.otherPlay="false" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Label text="The stats of multiple cryptids can be stacked" fontFamily="Times" size="18" y="840" textAlign="center" textColor="0xe3d7be" visible.max="false" horizontalCenter="0"/>
+	<e:Scroller id="tabScroller" y="872" height="139" width="570" x="75" anchorOffsetY="0">
+		<e:List id="tabList" itemRendererSkinName="ShenShouCultureNavItemEUI">
+				
+<e:ArrayCollection>
+			
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		
+
+	
+</e:ArrayCollection>
+<e:layout>
+			<e:HorizontalLayout  gap="6"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="leftBtn" y="920" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" scaleX="-1" x="78"/>
+	<e:Button id="rightBtn" y="920" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" x="642"/>
+	<!--<e:Image y="-47" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神兽\S-神兽-培养.jpg" x="0" locked="true" visible="false"/>-->
+</e:Skin>

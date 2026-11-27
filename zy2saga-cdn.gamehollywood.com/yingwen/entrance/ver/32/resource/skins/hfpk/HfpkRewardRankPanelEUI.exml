@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkRewardRankPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image fillMode="clip" y="42" x="13" source="hwbz_zycs_bg_jpg"/>
+		<e:Image x="0" y="-3" height="1142" touchEnabled="false" source="phb_zycs_k" width="720" scale9Grid="0,121,720,43" locked="true"/>
+		<e:Image y="25" source="hfdfs_zycs_mcphb" x="277"/>
+		<e:Image id="none" y="172" source="llcz_zycs_xydw" x="190"/>
+		<e:Group id="groupMc" width="0" height="0" y="457" x="365"/>
+		<e:Image y="497" x="23" source="jh_zycs_xz"/>
+		<e:Label text="Ranking rewards will be issued via mails upon the end of the match" y="505" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" x="64" textColor="0xf5e65a"/>
+		<e:Button id="btnMobai" y="458" x="593" label="Go Worship" skinName="BtnMin1_1small"/>
+		<e:Scroller y="543" x="31" width="670" height="487">
+			<e:List id="list" itemRendererSkinName="HfpkRewardRankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object s="null"/>
+						<e:Object s="null"/>
+						<e:Object s="null"/>
+						<e:Object s="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

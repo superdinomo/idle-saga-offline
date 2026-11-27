@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChiBangEquipItemEUI1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="up,down"  width="130" height="142">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgSelect" x="0" y="0" visible.up="false" source="public_zycs_xuanzhong"/>
+	<e:Image id="imgBg" source="public_zycs_daojukuang_01" y="19" x="18"/>
+	<e:Image id="imgColor" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_pinzhi_02" x="19" y="19"/>
+	<e:Image id="imgIcon" horizontalCenter="0" source="" verticalCenter="-5"/>
+	<e:BitmapLabel id="bitlbLevel" y="24" text="r12" touchEnabled="false" font="tianmonum_fnt" letterSpacing="-3" x="23"/>
+	<e:Image id="imgPlus1" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_jh1" horizontalCenter="0" verticalCenter="-7"/>
+	<e:Label id="lvRank" text="T2 Flying Feather" size="16" fontFamily="Times" textColor="0xFF9B0F" horizontalCenter="0" y="120"/>
+
+</e:Skin>

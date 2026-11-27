@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DaShiTaskPanelEUI" width="720" height="1134" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,max" >
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0" width="720">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image id="imgBg" touchEnabled="false" y="42" x="13" source="dsrw_zycs_bg1_jpg"/>
+		<e:Group id="groupEntity" width="0" height="0" y="590" x="360"/>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="65" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Group id="groupLv" y="108" horizontalCenter="0">
+			<e:Image y="0" source="pubilc_zycs_hengdikuang" left="-20" right="-20" scale9Grid="24,6,144,42"/>
+			<e:Group y="16" anchorOffsetY="0" horizontalCenter="0.5">
+				<e:Image source="dsrw_zycs_ds"/>
+				<e:Image source="dsrw_zycs_jie"/>
+				<e:BitmapLabel id="bmpLv" x="0" text="19" y="0" font="dsrwnum_fnt"/>
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+
+
+			</e:Group>
+		</e:Group>
+
+		<e:Image y="666" source="dsrw_zycs_fssx" horizontalCenter="0"/>
+		<e:Image y="667" source="liuguang_zycs_huawen" scaleX="-1" x="618"/>
+		<e:Image y="667" source="liuguang_zycs_huawen" x="102"/>
+		<e:Image id="imgAttr" y="730" source="qianghua_zycs_next" x="344" visible.max="false"/>
+		<e:Label id="lbCurAttr" text="M99 Lv.99" y="702" size="20" fontFamily="Times" textAlign="left" lineSpacing="5" textColor="0xEBDCB4" horizontalCenter.max="0" right.normal="406" x="235"/>
+		<e:Label id="lbNextAttr" text="M99 Lv.99\nM99 Lv.99" y="702" size="20" fontFamily="Times" textAlign="left" x="434" lineSpacing="5" textColor="0x13EE22" visible.max="false"/>
+		<e:Label id="lbDec" text="Master Suppression: High Tier Master players' DMG to Low Tier Master players is increased by 10%" fontFamily="Times" size="18" textColor="0xE6DCB8" y="819" horizontalCenter="0.5" width="612" wordWrap="true" textAlign="center"/>
+		<e:Label text="Complete all 6 Master Challenges to increase Master tier" fontFamily="Times" size="22" y="868" horizontalCenter="0.5" textColor="0xe6dcb8"/>
+		<e:Scroller y="899" x="65">
+			<e:List id="listBar" itemRendererSkinName="BtnTab11Skin">
+			<e:layout>
+				<e:HorizontalLayout gap="-3"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="taskScroller" y="959" horizontalCenter="0" visible.max="false">
+			<e:List id="taskList" itemRendererSkinName="DaShiTaskItemEUI">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object s="null"/>
+						<e:Object s="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnFs" skinName="BtnMin1_1" y="1010" x="286" label="Advance" visible="false"/>
+		<e:Button id="btnTz" skinName="BtnMin1_1" y="1010" label="Challenge" x="286" visible="false"/>
+		<e:Label id="lbTz" text="Current quest is completed, can do Master Challenge" fontFamily="Times" size="22" textColor="0x13EE22" y="971" horizontalCenter="0.5" visible="false"/>
+		<e:Label id="lbFs" text="Current quest is completed, can do Master Challenge" fontFamily="Times" size="22" textColor="0x13EE22" y="971" horizontalCenter="0.5" visible="false"/>
+		<e:Label id="lbWc" text="Master Challenge Completed" fontFamily="Times" size="22" textColor="0x13EE22" y="1001" horizontalCenter="1" visible="false"/>
+		<e:Image id="imgYmj" touchEnabled="false" y="980" source="bxsb_zycs_ymj" x="299" visible.normal="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JJCMCItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   width="258" height="367">
+	<w:Config id="15b806387d2"/>
+	<e:Group x="0" y="0">
+		<e:Group id="groupMC" width="0" height="0" y="230" touchEnabled="false" touchChildren="false" x="129"/>
+		<e:Image y="280" fillMode="scale" source="public_zycs_jlylk"  height="35" scale9Grid="300,19,49,27" horizontalCenter="0" width="247"/>
+		<e:Label id="lbName" text="Miracle xXMoo MoralityXx" width="258" textAlign="center" size="24" y="0" fontFamily="Times" textColor="0xf5e65a" x="0"/>
+		<e:BitmapLabel id="bmpRank" y="282" text="1111m" horizontalCenter="0" font="jjcnum_fnt" letterSpacing="-6"/>
+		<e:Label id="lbPower" text="CP: 9998" width="258" textAlign="center" size="20" y="315" fontFamily="Times" textColor="0xcdc8be" x="0"/>
+		<e:Group id="groupPrice" y="335" horizontalCenter="0">
+			<e:Label text="Rewards:" x="0" y="7" fontFamily="Times" size="20" textAlign="left" textColor="0xcdc8be"/>
+			<e:Image id="iconImg" touchEnabled="false" x="50" y="0" source="zycs_320002"/>
+			<e:Label id="lbPrice" text="999" x="87" y="7" fontFamily="Times" size="20" textAlign="left" textColor="0xCDC8BE"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image id="imgClick" y="0" fillMode="scale" x="0" width="100%" height="100%" alpha="0.01" source="jjc_zycs_dz1" locked="true"/>	
+</e:Skin>

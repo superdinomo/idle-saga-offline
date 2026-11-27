@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipSqWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image touchEnabled="false" source="zhsz_zycs_bg2_jpg"/>
+		<e:Button id="closeBtn" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470"/>
+		<e:Group y="13" horizontalCenter="0">
+			<e:Image id="imgTitle" source="zhsz_zycs_z3"/>
+
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image y="55" source="public_zycs_jlylk"  horizontalCenter="0"/>
+		<e:Group y="73" horizontalCenter="0">
+			<e:Image x="0" y="1" source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" y="4" text="6666" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Label id="lbCurLv" text="Current Stage: Lv.1 (Not activated)" fontFamily="Times" size="20" textAlign="left" y="136" x="52" textColor="0xe3d7be"/>
+
+		<e:Label id="lbCurNeed" text="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" fontFamily="Times" size="20" textAlign="left" y="171" textColor="0xe3d7be" x="52" width="454" wordWrap="true"/>
+
+
+
+
+
+
+
+
+		<e:Group x="52" y="215">
+			<e:Group x="0" y="0">
+				<e:Label text="Skil Effect: " fontFamily="Times" size="20" textAlign="left" y="0" x="0" textColor="0xe3d7be"/>
+				<e:Label id="lbCurAttr" text="Current Skill Effect" fontFamily="Times" size="20" textAlign="left" y="0" textColor="0xe3d7be" width="360" x="95"/>
+			</e:Group>
+			<e:Group id="groupNext" x="0" y="108">
+				<e:Label id="lbNextNeed" text="Upgrade Condition: Scarlet Sword and Scarlet Armor reach T20" fontFamily="Times" size="20" textAlign="left" y="0" x="0" textColor="0xe3d7be" width="456"/>
+				<e:Label text="Skil Effect: " fontFamily="Times" size="20" textAlign="left" y="48" x="0" textColor="0xe3d7be"/>
+				<e:Label id="lbNextAttr" text="Next Level Skill Effect" fontFamily="Times" size="20" textAlign="left" y="48" x="93" textColor="0xe3d7be" width="366"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="25"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

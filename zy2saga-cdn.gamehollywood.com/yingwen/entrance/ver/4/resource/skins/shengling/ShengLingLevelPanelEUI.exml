@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengLingLevelPanelEUI" width="720" height="1134" currentState="normal" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="normal,max" >
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0" width="720" height="1134">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image touchEnabled="false" x="13" y="42" source="shengling_zycs_bg1_jpg"/>
+		<e:Image id="imgQuan" y="280" source="shengling_zycs_jd1_png" x="151"/>
+		<e:Group id="groupMc" width="0" height="0" y="478" x="360"/>
+		<e:Scroller id="scroller" y="53" x="9" width="703" height="138">
+			<e:List id="list" itemRendererSkinName="ShengLingItemEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="-25"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="179" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="198" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Image y="245" source="public_zycs_di01" x="217"/>
+		<e:Group y="252" horizontalCenter="0.5">
+			<e:Image y="0" x="0" source="shengling_zycs_chong"/>
+			<e:BitmapLabel id="bpmC" x="61" text="6" y="19" font="shenglingnum_fnt"/>
+			<e:Image y="10" x="10" source="shengling_zycs_ji"/>
+
+			<e:BitmapLabel id="bpmJ" x="71" text="6" y="29" font="shenglingnum_fnt"/>
+
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+
+
+		<e:Group y="695" horizontalCenter="0">
+			<e:Image y="0" source="pubilc_zycs_hengdikuang" left="-20" right="-20"/>
+			<e:Image id="imgName" source="shengling_zycs_t1" y="15" horizontalCenter="0"/>
+		</e:Group>
+		<e:Component id="comDaShi" y="240" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" x="546"/>
+		<e:Label id="lbDaShi" text="Footprint Master - T0" y="358" fontFamily="Times" size="20" textColor="0xFFD862" textAlign="center" verticalAlign="middle" right="30" wordWrap="true" width="142"/>
+
+
+
+
+
+
+
+		<e:Image y="739" x="11" scale9Grid="310,77,93,96" source="em_zycs_k5" height="163"/>
+		<e:Image y="757" source="liuguang_zycs_huawen" scaleX="-1" x="594"/>
+		<e:Image y="757" source="liuguang_zycs_huawen" x="126"/>
+		<e:Image y="754" source="shengling_zycs_flsx" x="313"/>
+		<e:Image y="816" source="qianghua_zycs_next" x="346" visible.max="false"/>
+		<e:Label id="lbCurAttr" text="M99 Lv.99" y="791" size="20" fontFamily="Times" textAlign="left" x="145" lineSpacing="5" textColor="0xcdc8be" x.max="263"/>
+		<e:Label id="lbNextAttr" text="M99 Lv.99\nM99 Lv.99" y="791" size="20" fontFamily="Times" textAlign="left" x="434" lineSpacing="5" textColor="0x13ee22" visible.max="false"/>
+
+		<e:Group id="groupConsu" y="901" horizontalCenter="0">
+			<e:Label text="Cost: " size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="0" y="6"/>
+			<e:Image y="0" x="60" source="zycs_340401"/>
+			<e:Label id="lbConsu" text="0/1" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="100" y="6"/>
+		</e:Group>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="941"  x="286" label="Soulbound"/>
+
+		<e:Image id="imgYml" touchEnabled="false" y="930" source="bxsb_zycs_ymj" x="299" visible.normal="false"/>
+		<e:Label id="lbActDec" text="XX Spirit reach MX Lv.X to unlock" y="957" size="24" fontFamily="Times" textAlign="left" horizontalCenter="0" textColor="0xf01414"/>
+	</e:Group>
+</e:Skin>

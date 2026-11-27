@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShopGoodsWarnEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<w:Config id="1586bddbcf0"/>
+	<e:Group id="bgGroup" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-50" horizontalCenter="0.5" width="553">
+		<e:Image y="0" x="0" source="sjhj_zycs_di_jpg" scale9Grid="69,380,414,26" height="100%"/>
+		<e:Label id="lbDesc" text="0" x="248" y="218" size="20" fontFamily="Times" textColor="0xCDC8BE"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="16" source="djts_zycs_tszt" x="250"/>
+		<e:Label id="titleTxt" y="67" text="Insufficient materials, obtain it through the following methods" fontFamily="Times" size="20" horizontalCenter="0" textColor="0xFF9B0F" width="455"/>
+		<e:Image y="108" source="hd_zycs_scgm" x="226"/>
+		<e:Image y="112" source="liuguang_zycs_huawen" x="40"/>
+		<e:Image y="112" source="liuguang_zycs_huawen" scaleX="-1" x="507"/>
+		<e:Image y="255" scale9Grid="6,6,3,3" anchorOffsetY="0" source="hd_zycs_di" horizontalCenter="0" x="214"/>
+		<e:Component id="itemIcon" x="120" y="141" skinName="ItemSkin" scaleX="1" scaleY="1"/>
+		<e:Button id="buyBtn" label="Purchase" y="351" x="319" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1"/>
+		<e:Button id="topUpBtn" label="Top Up" y="352" anchorOffsetX="0" anchorOffsetY="0" x="119" skinName="BtnMin1_1"/>
+		<e:Label id="numLabel" text="0" y="260" size="24" fontFamily="Times" width="89" textAlign="center" textColor="0xAF9B73" horizontalCenter="0" x="229"/>
+		<e:Component id="unitPrice" x="242" y="178" skinName="PriceIconSkin" scaleX="1" scaleY="1"/>
+		<e:Button id="add10Btn" label="" x="390" y="251" skinName="Btn0Skin" icon="public_zycs_jias"/>
+		<e:Button id="add1Btn" label="" x="342" y="251" skinName="Btn0Skin" icon="public_zycs_jia"/>
+		<e:Button id="sub10Btn" label="" x="99" y="251" skinName="Btn0Skin" icon="public_zycs_jians"/>
+		<e:Button id="sub1Btn" label="" x="163" y="251" skinName="Btn0Skin" icon="public_zycs_j"/>
+		<e:Group y="301" horizontalCenter="0">
+			<e:Label y="4" textColor="0xA89C88" text="Total Price:" fontFamily="Times" size="20" x="0" scaleX="1" scaleY="1"/>
+			<e:Component id="allPrice" x="96" y="0" skinName="PriceIconSkin" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="listGroup" x="16" touchEnabled="false" anchorOffsetX="0" width="523" top="45" bottom="44">
+		<e:Group id="listGroupTxt" touchEnabled="false" anchorOffsetX="0" width="496" horizontalCenter="0" y="368">
+			<e:Image id="imgTitle" y="9" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="hd_zycs_qttj"/>
+			<e:Image y="12" source="liuguang_zycs_huawen" x="12"/>
+			<e:Image y="12" source="liuguang_zycs_huawen" scaleX="-1" x="483"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" top="403" bottom="0">
+			<e:List id="gainList" itemRendererSkinName="GainGoodsItemEUI" horizontalCenter="0">
+			
+				
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:TileLayout horizontalGap="35" horizontalAlign="center" requestedColumnCount="4"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+		</e:Group>
+		<e:Label id="itemName" text="0" x="248" y="151" fontFamily="Times" size="20" textColor="0x20C528" textAlign="left" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+	</e:Group>	
+</e:Skin>

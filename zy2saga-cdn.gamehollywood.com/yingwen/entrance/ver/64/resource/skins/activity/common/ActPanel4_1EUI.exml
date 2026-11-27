@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel4_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="41" source="hddt_zycs_bg_jpg" x="13"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_kfhd" horizontalCenter="0"/>
+	<e:Image id="imgTitle" y="47" fillMode="scale" touchEnabled="false" x="16" source="hddt_zycs_kfcb1_png"/>
+	<e:Button id="btnRank" y="90" x="540" icon="hddt_zycs_bd" skinName="Btn0Skin"/>
+	<e:Label text="Time Remain:" y="228" size="20" textAlign="left" fontFamily="Times" x="55" textColor="0xefd98d"/>
+	<e:Label id="lbTime" text="1 1:1:1" y="228" size="20" textAlign="left" fontFamily="Times" x="198" textColor="0x13ee22"/>
+	<e:Component id="itemTop1" y="285" x="13" skinName="ActItem4_1To1EUI"/>
+	<e:Component id="itemTop2" x="374" y="273" skinName="ActItem4_1To2EUI"/>
+	<e:Component id="itemTop3" x="374" y="466" skinName="ActItem4_1To2EUI"/>
+	<e:Component id="itemTop4" y="660" x="374" skinName="ActItem4_1To2EUI"/>
+	<e:Label id="lbRank" text="My Ranking: Not listed" y="858" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="105"/>
+	<e:Label id="lbPower" text="My CP: 9998" y="858" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="399"/>
+	<e:Label id="lbDabiaoDec" text="Claimable when Fairy Training reaches Lv.10!" y="919" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="27"/>
+	<e:Label id="lbDabiaoValue" text="（4/10）" y="935" size="24" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" width="160" x="544"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" y="957" x="32">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="12"/>
+		</e:layout>
+		
+			
+			
+			
+			
+		
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnLink" label="Go" y="978" x="551" skinName="BtnMin1_1"/>
+	<e:Button id="btnGet" label="Claim" y="978" x="551" skinName="BtnMin1_2"/>
+	<e:Button id="btnHelp" x="631" y="850" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Image id="imgYlq" source="public_zycs_ylq" x="564" y="963"/>
+	<e:Label text="Ranking Rewards will be issued via mails" y="1062" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="240"/>
+</e:Skin>

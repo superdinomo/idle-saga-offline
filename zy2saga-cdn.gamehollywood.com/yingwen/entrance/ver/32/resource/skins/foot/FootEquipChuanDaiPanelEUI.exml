@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FootEquipChuanDaiPanelEUI" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="866">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="720" x="0" y="0">
+		<e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="92" source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="594" width="629" x="49"/>
+		<e:Scroller id="scroller" y="102" x="54" width="620" height="575">
+			<e:List id="list" itemRendererSkinName="FootEquipChuanDaiItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="5"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+
+			</e:List>
+		</e:Scroller>
+		<e:Label text="Capacity:" y="693" size="24" fontFamily="Times" textAlign="center" x="56" textColor="0xff9b0f"/>
+		<e:Label id="lbCount" text="200/200" y="693" size="24" fontFamily="Times" textAlign="center" x="148" textColor="0xffffff"/>
+		<e:Label id="btnHeCheng" text="Go to Merge" y="693" size="24" fontFamily="Times" textAlign="center" x="540" textColor="0x13ee22"/>
+	</e:Group>
+</e:Skin>

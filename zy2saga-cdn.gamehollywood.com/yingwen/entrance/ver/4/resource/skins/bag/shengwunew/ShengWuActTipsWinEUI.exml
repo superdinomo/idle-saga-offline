@@ -1,0 +1,27 @@
+<e:Skin class="ShengWuActTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720" height="1280">
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%"/>
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0"/>
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%"/>
+	<e:Group width="720" height="505" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="-50" x="159" source="jl_zycs_jhzs_png"/>
+		<e:Image y="13" source="jl_zycs_jhcg" x="300"/>
+		<e:Image y="337" x="99" source="jl_zycs_dz_png"/>
+		<e:Image y="484" source="public_zycs_jlylk" x="202"/>
+		<e:Group id="groupEntity" y="300" x="360" width="0" height="0"/>
+		<e:Image id="imgIcon" y="134" source="sw_zycs_ng1_png" horizontalCenter="0"/>
+		<e:Image y="152" x="96" source="shenqi_zycs_di1"/>
+		<e:Image id="imgName" verticalCenter="-7" source="sw_zycs_n1" horizontalCenter="-235.5"/>
+
+		<e:Group y="503" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="totalPower" text="100" y="4" x="118" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+
+	</e:Group>
+	<e:Image id="backGround" source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0" alpha="0.01" locked="true"/>
+
+</e:Skin>

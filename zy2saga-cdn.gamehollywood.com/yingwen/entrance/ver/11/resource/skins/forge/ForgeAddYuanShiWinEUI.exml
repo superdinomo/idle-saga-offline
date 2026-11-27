@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ForgeAddYuanShiWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="max,normal" >
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" height="571" width="531" horizontalCenter="0" verticalCenter="0">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" width="531" source="shenqi_zycs_bg3_jpg"/>
+		<e:Image y="12" horizontalCenter="-0.5" source="zhuijia_zycs_bt"/>
+		<e:Image y="186" horizontalCenter="-0.5" source="zhuijia_zycs_zlsx"/>
+		<e:Button id="closeBtn" label="" x="441" y="-7" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Component id="itemTarget" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="70" y="60"/>
+		<e:Label id="lbName" text="Originite Name" y="60" fontFamily="Times" size="22" x="187" textColor="0xe6dcb8"/>
+		<e:Label id="lbUseCount" text="Salvaged: 0" y="96" fontFamily="Times" size="22" x="187" textColor="0xe6dcb8"/>
+		<e:Label id="lbHaveCount" text="Own Amount: 0" y="130" fontFamily="Times" size="22" x="187" textColor="0xe6dcb8"/>
+		<e:Image x="27" y="191" source="liuguang_zycs_huawen"/>
+		<e:Image y="191" source="liuguang_zycs_huawen" scaleX="-1" x="505"/>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItem1EUI" y="226" x="81">
+			<e:layout>
+			<e:TileLayout verticalGap="11" horizontalGap="-12" requestedColumnCount="1"/>
+			</e:layout>
+			
+			
+				
+				
+			
+			
+		</e:DataGroup>
+		<e:Button id="btnOneKey" label="Smelt All" y="443" skinName="BtnMin1_1" horizontalCenter="4" visible.max="false"/>
+		<e:Label text="You've forged it to the maximum" y="461" fontFamily="Times" size="22" horizontalCenter="4.5" textColor="0xFF9B0F" visible.normal="false"/>
+		<e:Label text="(Increase the reinforce level to raise the forge limit)" y="490" fontFamily="Times" size="22" horizontalCenter="4.5" textColor="0xf01414" visible.normal="false"/>
+	</e:Group>
+</e:Skin>

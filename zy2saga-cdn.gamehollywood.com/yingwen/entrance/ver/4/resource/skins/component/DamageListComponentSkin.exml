@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DamageListComponentSkin" currentState="max" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="275" height="236" states="max,min" >
+	<e:Group id="dpsGroup1" y="0" x="0" width="275" touchEnabled.min="false">
+		<e:Group x="0" y="0" y.min="209" width="275">
+			<e:Image x="0" y="0" anchorOffsetX="0" touchEnabled="false" source="xt_zycs_bt1" width="275"/>
+			<e:Image id="imgTitle" y="4" anchorOffsetX="0" touchEnabled="false" source="llcz_zycs_shpm" horizontalCenter="1"/>
+			<e:Image id="btnQueHuan" x="250" y="4" source="xt_zycs_jtx" source.min="xt_zycs_jt"/>
+		</e:Group>
+		<e:Group id="dpsGroup" x="0" y="26" width="275" visible.min="false">
+		<e:Image x="0" y="0" anchorOffsetX="0" touchEnabled="false" scaleX="1" scaleY="1" source="xt_zycs_bt2" scale9Grid="0,0,0,0" width="275" anchorOffsetY="0" height="209"/>
+			<e:Label id="desTxt" text="" y="161" size="16" anchorOffsetX="0" textAlign="center" fontFamily="Times" textColor="0xFF9B0F" stroke="1" horizontalCenter="0" width="277"/>
+		<e:List id="list" anchorOffsetX="0" x="0" y="4" width="275" height="122" itemRendererSkinName="DamageListItemSkin">
+			<e:layout>
+			<e:VerticalLayout gap="1"/>
+			</e:layout>
+		</e:List>
+			<e:Group id="groupMyHurt" x="32" y="131">
+				<e:Image y="0" anchorOffsetX="0" touchEnabled="false" scaleX="1" scaleY="1" scale9Grid="0,0,0,0" anchorOffsetY="0" source="qm_zycs_jx" x="0"/>
+		<e:Label id="myDpsTxt" y="7" text="0" fontFamily="Times" size="18" anchorOffsetX="0" textAlign="left" touchEnabled="false" textColor="0x00ff00" stroke="1" strokeColor="0x192305" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

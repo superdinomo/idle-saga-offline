@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YZZHTaskPanelEUI" currentState="s0" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1134" width="720" states="s0,s1,s2"> 
+	<w:Config id="1586be3c5b0" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="42" touchEnabled="false" horizontalCenter="1.5"  source="yzsh_zycs_bg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" y="-58" touchEnabled="false" pixelHitTest="true" horizontalCenter="0" />
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="yzsh_zycs_jdrw"
+	         source.s1="yzsh_zycs_sjtz1"  source.s2="yzsh_zycs_shjy2"/>
+	<e:Label id="lbJieDuanEndTime" text="Ending Time of This Stage’s Quest:" y="68" fontFamily="Times" size="18" visible.s1="false" textColor="0xe3d7be" visible.s2="false" x="55"/>
+	<e:Label id="lbSaiJiEndTime" text="Ending Time of This Season’s Quest:" y="68" fontFamily="Times" size="18" visible.s0="false" textColor="0xe3d7be" visible.s2="false" x="55"/>
+	<e:Label id="lbExpEndTime" text="Badge EXP Claim Ending Time:" y="68" fontFamily="Times" size="18" textColor="0xE3D7BE" visible.s0="false" visible.s1="false" x="55"/>
+	<e:Scroller id="scroller1" height="610" y="92" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off"
+	            scrollPolicyV="on" visible.s1="false" visible.s2="false" horizontalCenter="-2.5">
+		<e:List id="list1" itemRendererSkinName="YZZHTaskPaneTaskItemEUI" useVirtualLayout="true" y="-1" anchorOffsetY="0"
+		        height="602">
+			<e:ArrayCollection>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout paddingLeft="5" paddingTop="5" paddingBottom="5" gap="5" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scroller2" height="610" y="92" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="on" horizontalCenter="-2.5" visible.s0="false" visible.s2="false">
+		<e:List id="list2" itemRendererSkinName="YZZHTaskPaneTaskItemEUI" useVirtualLayout="true" y="-1" anchorOffsetY="0" height="602">
+		<e:ArrayCollection>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout paddingLeft="5" paddingTop="5" paddingBottom="5" gap="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scrollerExp" height="610" y="92" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="on" horizontalCenter="-2.5" visible.s0="false" visible.s1="false">
+		<e:List id="listExp" itemRendererSkinName="YZZHTaskPaneTaskItemEUI" useVirtualLayout="true" y="-1" anchorOffsetY="0" height="602">
+		<e:ArrayCollection>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout paddingLeft="5" paddingTop="5" paddingBottom="5" gap="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="710" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="yzsh_zycs_k1_png"/>
+	<e:Image y="741" pixelHitTest="true" touchEnabled="false" x="500" source="yzsh_zycs_jddj"/>
+	<e:Image y="738" pixelHitTest="true" touchEnabled="false" x="41" source="yzsh_zycs_jyd"/>
+	<e:BitmapLabel id="bitLevel" text="1" y="762" letterSpacing="-2" font="yzshnum2_fnt" scaleX="0.8" scaleY="0.8" horizontalCenter="187"/>
+	<e:Label id="lbUpLevelDesc" text="Upgrade to [specific level] to claim all level rewards" y="739" fontFamily="Times" size="20" horizontalCenter="-33" textColor="0xE6DCB8" width="362"/>
+	<e:ProgressBar id="progressExp" y="777" skinName="ProgressBarEUI19" x="152" scaleX="0.9"/>
+	<e:Button id="btnBuyLevel" label="Purchase Level" y="754" x="600" skinName="BtnMin1_2small"/>
+	<e:Label text="Stage EXP:" y="68" fontFamily="Times" size="18" textColor="0xE6DCB8" x="481" visible.s1="false"  visible.s2="false"/>
+	<e:Label text="EXP:" y="68" fontFamily="Times" size="18" textColor="0xE6DCB8" x="481" visible.s0="false"  visible.s2="false"/>
+	<e:Label text="Badge EXP:" y="68" fontFamily="Times" size="18" textColor="0xE6DCB8" x="481" visible.s1="false" visible.s0="false"/>
+	<e:Label id="lbExp" text="100/11200" y="68" fontFamily="Times" size="18" x="574" visible.s1="false"
+	         textColor="0x13ee22"  visible.s2="false"/>
+	<e:Label id="lbTaskCount" text="0/72" y="68" fontFamily="Times" size="18" x="574" visible.s0="false"
+	         textColor="0x13ee22"  visible.s2="false" x.s1="589"/>
+	<e:Label id="lbExpCouont" text="0/72" y="68" fontFamily="Times" size="18" x="574" textColor="0x13EE22" visible.s0="false" visible.s1="false" x.s2="600" y.s2="68"/>
+	<e:TabBar id="tabType" y="842" itemRendererSkinName="BtnTabYZZHZYCSEUI" horizontalCenter="-1.5">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"  gap="26"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Object source="yzsh_zycs_jdtz" />
+			<e:Object source="yzsh_zycs_sjtz" />
+			<e:Object source="yzsh_zycs_shjy" />
+		</e:ArrayCollection>
+	</e:TabBar>
+</e:Skin>

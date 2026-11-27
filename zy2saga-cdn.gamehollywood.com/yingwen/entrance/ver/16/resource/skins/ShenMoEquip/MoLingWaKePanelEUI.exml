@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MoLingWaKePanelEUI" width="720" height="1134" currentState="uplevel" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="wake,uplevel,max" >
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0" width="720" height="1134">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image id="imgBg" touchEnabled="false" x="13" y="43" source="mljx_zycs_bg_jpg"/>
+
+
+
+
+
+
+		<e:Image y="49" source="public_zycs_jlylk" horizontalCenter="0.5"/>
+		<e:Image y="51" source="mljx_zycs_kuang" x="17"/>
+		<e:Group y="67" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Scroller id="" scrollPolicyH="off" scrollPolicyV="on" y="56" x="23" anchorOffsetX="0" anchorOffsetY="0" height="644">
+			<e:List id="listItem" itemRendererSkinName="MoLingWaKePanelItemEUI" anchorOffsetY="0" anchorOffsetX="0" y="-1">
+			<e:ArrayCollection>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="-3"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+		<e:Image y="108" source="zycs_sm_lvdi" x="276"/>
+		<e:Group y="116" anchorOffsetY="0" horizontalCenter="0.5" visible.wake="false">
+			<e:BitmapLabel id="bmpLv" x="0" text="l6666" y="0" font="shenmonum_fnt"/>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="imgJueXing" source="mljx_zycs_wjx" y="114" horizontalCenter="0"  visible.uplevel="false" visible.max="false"/>
+		<e:Image id="imgIcon" y="114" source="mljx_zycs_a1_png" horizontalCenter="0" visible="false"/>
+		<e:Group id="groupMC" width="0" height="0" y="360" x="390"/>
+
+
+
+
+
+		<e:Component id="itemSkill" y="525" x="576" touchEnabled="true" skinName="SkillPassivityNameItemEUI"/>
+		<e:Label id="btnAttr" text="Total Bonus" x="591" y="692" size="20" textAlign="left" fontFamily="Times" textColor="0x11F51C" rotation="359.06"/>
+		<e:Image y="652" source="zycs_sm_lvdi" width="200" scale9Grid="76,4,3,28" horizontalCenter="41"/>
+		<e:Image id="imgName" y="655" source="mljx_zycs_n1" horizontalCenter="40.5"/>
+
+
+		<e:Image y="697" source="shenqi_zycs_sxjc" x="286"/>
+		<e:Image y="700" source="liuguang_zycs_huawen" scaleX="-1" x="613"/>
+		<e:Image y="700" source="liuguang_zycs_huawen" x="103"/>
+
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" horizontalCenter="0" verticalCenter="218">
+			<e:layout>
+				<e:TileLayout verticalGap="10" horizontalGap="30"  requestedColumnCount="2"/>
+			</e:layout>
+		</e:DataGroup>
+		<e:Scroller scaleX="0.8" scaleY="0.8" scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" horizontalCenter="-1.5" verticalCenter="318.5" visible.max="false">
+			<e:List id="listConsume" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnWaKe" skinName="BtnMin1_1" x="286" y="932"  label="Awaken" visible.uplevel="false" visible.max="false"/>
+		<e:Button id="btnUpLevel" skinName="BtnMin1_1" x="286" y="932" label="Upgrade" visible.wake="false" visible.max="false"/>
+		<e:Image id="imgYml" touchEnabled="false" y="876" source="bxsb_zycs_ymj" x="299" visible.uplevel="false" visible.wake="false"/>
+		<e:Button id="helpBtn" x="661" y="950" skinName="Btn0Skin" icon="jl_zycs_wenhao"  visible="false"/>
+
+
+		<!--<e:Image touchEnabled="false" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\M_魔灵觉醒\M-魔灵觉醒.jpg" y="-45" locked="true"/>-->
+	</e:Group>
+</e:Skin>

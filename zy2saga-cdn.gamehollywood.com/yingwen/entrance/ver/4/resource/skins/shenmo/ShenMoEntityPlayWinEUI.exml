@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoEntityPlayWinEUI" width="720" height="1280" currentState="role" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="shenmo,role" >
+	<w:Config id="1586b13ea96"/>
+	<e:Group id="group" height="882" width="723" horizontalCenter="0" verticalCenter="0">
+	<e:Image y="0"  anchorOffsetX="0" anchorOffsetY="0" scale9Grid="120,73,396,17" x="0" source="shenmo_zycs_jinengdikuang_png"/>
+		<e:Button id="closeBtn" label="" x="639" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="283,9,9,69" source="shenmo_zycs_kuang" y="624" x="11"/>
+	<e:Image id="imgtitle" x="250" y="7" anchorOffsetX="0" fillMode="scale" touchEnabled="false" includeInLayout="false" source=""/>
+		<e:Group x="362" y="511" scaleX="0.7" scaleY="0.7">
+			<e:Group id="groupDonw1" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupDonw2" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupMiddle" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupTop1" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupTop2" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+		</e:Group>
+		<e:Image y="602" anchorOffsetX="0" source="shenmo_zycs_biaotilan" horizontalCenter="0"/>
+		<e:Label id="lbName" text="0" y="623" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" size="24" textColor="0xFF9B0F" horizontalCenter="0.5"/>
+		<e:Label id="lbDesc" text="To Week" y="667" fontFamily="Times" size="22" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="6" textColor="0xaf9b73" x="70" width="595"/>
+		<e:Label id="lbDesc2" text="To Week" y="701" fontFamily="Times" size="24" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="6" textColor="0xaf9b73" x="224" visible="false"/>
+		<e:Label id="lbCD" text="0s" y="762" fontFamily="Times" size="24" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="6" textColor="0xAF9B73" x="224" y.role="762" x.role="224" visible="false"/>
+		<e:Label text="Skill Effect: " x="113" y="701" size="24" textColor="0xff9b0f" fontFamily="Times" visible="false"/>
+		<e:Label text="Skill CD: " x="113" y="762" size="24" textColor="0xFF9B0F" fontFamily="Times" x.role="113" y.role="762" visible="false"/>
+		<e:Label text="Skill Description: " x="113" y="667" size="24" textColor="0xFF9B0F" fontFamily="Times" text.shenmo="Avatar Skill: " visible="false"/>
+</e:Group>
+</e:Skin>

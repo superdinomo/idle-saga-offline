@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeChengListWinEUI" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280" states="oneKey,normal" >
+	<e:Group horizontalCenter="0" verticalCenter="0" width="720" height="875">
+		<e:Image id="imgBg1" y="9" anchorOffsetX="0" anchorOffsetY="0" source="hc_zycs_bg1_jpg" x="0"/>
+		<e:Button id="closeBtn" label="" x="638" y="9" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_tyts" x="235"/>
+		<e:Image y="17" source="hc_zycs_hcbt" x="335"/>
+		<e:Image y="86" source="hc_zycs_hcyl" x="381"/>
+		<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="93" x="187" source="liuguang_zycs_huawen"/>
+		<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="93" x="673" scaleX="-1" source="liuguang_zycs_huawen"/>
+		<e:Scroller id="ScrollerlistFit" width="141" height="594" x="43" y="82" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="auto" scrollPolicyH="off">
+			<e:List id="listFitItem" x="-1" y="-1" itemRendererSkinName="BtnTab5ZYCSSkin" anchorOffsetX="0" anchorOffsetY="0" height="118" width="570">
+			
+				
+					
+					
+				
+			
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Component id="fitItem" skinName="ItemSkin" touchEnabled="true" y="261" x="382"/>
+		<e:Image y="385" source="public_zycs_di01" x="291"/>
+		<e:Label id="lbName" text="0" y="391" size="20" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Times" verticalAlign="middle" horizontalCenter="73.5"/>
+		<e:Label text="Tap on the materials icon to view the acquiring source" y="607" size="20" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Times" verticalAlign="middle" x="254" textColor="0x888786" width="348" wordWrap="true"/>
+		<e:Image y="465" x="410" source="qianghua_zycs_next" rotation="-90"/>
+		<e:Image height="123" y="477" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="372" x="243" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Scroller anchorOffsetX="0" maxWidth="429" anchorOffsetY="0" scaleX="1" scaleY="1" y="479" height="121" horizontalCenter="67.5">
+			<e:List id="listConsume" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+			
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:HorizontalLayout gap="23" horizontalAlign="center" verticalAlign="middle" paddingLeft="15" paddingRight="15"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group y="696" width="344" x="178">
+			<e:Button skinName="Btn0Skin" id="btnMin" x="0" y="1" scaleX="1" scaleY="1" anchorOffsetY="0" icon="public_zycs_min"/>
+			<e:Button skinName="Btn0Skin" id="btnSub" x="69" y="1" anchorOffsetY="0" icon="public_zycs_j"/>
+			<e:Image id="inputback" y="5" width="128" height="38" x="118" scale9Grid="6,6,3,3" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="public_zycs_shurukuang"/>
+			<e:Button skinName="Btn0Skin" id="btnAdd" x="251" anchorOffsetY="0" icon="public_zycs_jia" y="1"/>
+			<e:Button skinName="Btn0Skin" id="btnMax" x="306" anchorOffsetY="0" icon="public_zycs_max" y="1"/>
+			<e:Label id="lbNum" text="0" y="15" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" height="19" textAlign="center" horizontalCenter="10"/>
+		</e:Group>
+		<e:Button id="btnFit" label="Combine" y="761" skinName="BtnMin1_2" x="286" x.oneKey="130"/>
+		<e:Button id="btnOneKey" label="Quick Combine" y="761" skinName="BtnMin1_2" x="441" visible.normal="false"/>
+	</e:Group>
+</e:Skin>

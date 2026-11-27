@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleLingdiAwardPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" x="0" y="0" />
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" y="53" source="ldsz_zycs_ldjlbg_jpg" horizontalCenter="0"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_fgqy" y="971" x="13" anchorOffsetY="0" height="121"/>
+	<e:Image y="78" source="ldsz_zycs_jldi2" horizontalCenter="0"/>
+	<e:Image y="83" source="dfwz_zycs_phjl" x="312" />
+	<e:Button id="helpBtn" x="225" y="-46" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Scroller y="142" height="814" anchorOffsetY="0" width="692" horizontalCenter="0">
+		<e:List id="listRank" itemRendererSkinName="GuildBattleLingdiAwardItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="15"/>
+			</e:layout>
+
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+
+
+
+
+	<e:Label text="Ranking rewards will be issued via mail upon the end of the event" fontFamily="Times" size="24" textAlign="center" y="981" textColor="0xCDC8BE"  horizontalCenter="0"/>
+	<e:TabBar id="tab" selectedIndex="0" y="1025" itemRendererSkinName="BtnTab5ZYCSSkin" horizontalCenter="0" x="167">
+		<e:layout>
+			<e:HorizontalLayout gap="10" />
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+</e:Skin>

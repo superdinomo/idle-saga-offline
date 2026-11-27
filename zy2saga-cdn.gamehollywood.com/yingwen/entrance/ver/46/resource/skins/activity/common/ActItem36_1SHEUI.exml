@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem36_1SHEUI" currentState="hasPlayer" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="168" states="noPlayer,hasPlayer"  height="142">
+	<w:Config id="1586bd49103"/>
+	<e:Image y="4" source="sjhj_zycs_tx" horizontalCenter="0" visible.noPlayer="false"/>
+	<e:Image id="imgHead" y="11" width="76" height="76" source="mianui_zycs_zhanshi0" horizontalCenter="0" visible.noPlayer="false"/>
+	<e:Label id="lbName" text="S19. Max Kuhl" y="101" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" visible.noPlayer="false" horizontalCenter="0"/>
+	<e:Label id="lbTiaoJian" text="Reach 999 to be on the ranking" size="20" textAlign="center" fontFamily="Times" horizontalCenter="0" visible.hasPlayer="false" verticalCenter.noPlayer="0" verticalCenter="15" textColor="0xf5e65a"/>
+	<e:Label id="lbValue" text="Total Gift Points: 999" y="122" size="20" textAlign="left" fontFamily="Times" textColor="0xF5E65A" visible.noPlayer="false" horizontalCenter="0"/>
+</e:Skin>

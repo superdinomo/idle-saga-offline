@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3502a7" />
+	<e:Group id="group" width="518" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-7" y="195">
+		<e:Image id="background" x="0" bottom="0" top="0"  source="tips_zycs_bg_png" width="518" scale9Grid="120,777,232,50"/>
+		<e:Group x="0" bottom="19" top="0" width="518">
+			<e:Group x="0" y="0" anchorOffsetX="0" width="518" height="568">
+				<e:Group id="groupEntity" y="210" horizontalCenter="0">
+					<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+				<e:Image id="imgQuality" y="0" anchorOffsetX="0" x="0" source="public_zycs_SSS"/>
+				<e:Image y="62" anchorOffsetY="0" source="public_zycs_jlylk" horizontalCenter="0.5"/>
+				<e:Group y="76" horizontalCenter="0.5">
+					<e:Image x="0" y="0" source="public_zycs_zdl"/>
+					<e:BitmapLabel id="totalPower" x="86" y="4" text="100" font="powernum_fnt"/>
+					<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+				<e:Image y="15" anchorOffsetY="0" source="tips_zycs_di" horizontalCenter="0.5"/>
+				<e:Label id="lbName" text="Gear Name" y="23" fontFamily="Times" size="24" textColor="0xf5ffff" anchorOffsetX="0"
+				         textAlign="left"  horizontalCenter="0"/>
+				<e:Image y="411" scale9Grid="275,23,215,13" anchorOffsetY="0" horizontalCenter="-7" height="162" source="tips_zycs_diwen"/>
+				<e:Image y="435" x="220" source="ss_zycs_sssx"/>
+				<e:Label id="lbAttr" y="462" text="Max ATK" fontFamily="Times" size="20" touchEnabled="false" lineSpacing="5" verticalAlign="middle" horizontalCenter="0" textColor="0xe6dcb8"/>
+			<e:Group y="388" id="groupActAttr" horizontalCenter="0.5">
+					<e:Image y="0" source="ss_zycs_dk" x="0"/>
+					<e:BitmapLabel id="bitAtrAttr" y="1" text="+8.8%" font="shenyounum_fnt" horizontalCenter="74.5" letterSpacing="-4"/>
+				</e:Group>
+			</e:Group>
+				<e:Group id="groupDesc" x="10" y="216" anchorOffsetX="0" width="518" scaleX="1" scaleY="1" height="210">
+					<e:Group x="0" y="0" width="518" height="183">
+						<e:Group y="14" horizontalCenter="0.5">
+							<e:Image y="11" x="71" source="tips_zycs_zqjb2"/>
+							<e:BitmapLabel id="totalPower1" x="86" y="4" text="100" font="powernum_fnt"/>
+							<e:layout>
+							<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+							</e:layout>
+						</e:Group>
+						<e:Scroller id="scroller" y="41" height="176" anchorOffsetY="0" horizontalCenter="0">
+							<e:List id="list" useVirtualLayout="false" itemRendererSkinName="ShenShouItemEUI">
+	<e:layout>
+									<e:HorizontalLayout gap="-7"/>
+								</e:layout>
+						</e:List>
+					</e:Scroller>
+						<e:layout>
+							<e:BasicLayout/>
+						</e:layout>
+					</e:Group>
+					<e:layout>
+						<e:VerticalLayout paddingLeft="0" paddingRight="0"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			<e:Group width="518" y="11" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="31">
+				<e:Image y="2" scale9Grid="35,0,91,4" anchorOffsetX="0" width="562" scaleX="1" scaleY="1" source="zs_zycs_fengexian" x="0"/>
+				<e:Label  text="[Source]" y="16" size="20" fontFamily="Times" horizontalCenter="0" textColor="0xe6dcb8"/>
+				<e:Label id="lbtujin" text="Purchase Ultimate\n Fairy Drawing acquirement" y="41" size="22" textColor="0xFF9B0F" fontFamily="Times"   textAlign="center" anchorOffsetY="0" horizontalCenter="0"/>
+			</e:Group>
+		
+	
+	</e:Group>
+</e:Group>
+</e:Skin>

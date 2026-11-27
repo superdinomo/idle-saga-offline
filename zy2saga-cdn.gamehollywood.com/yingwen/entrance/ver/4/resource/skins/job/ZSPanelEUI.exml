@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZSPanelEUI" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="max,normal" >
+	<w:Config id="15cd443b5ac"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" source="zhaunsheng_zycs_bg_jpg" x="12"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group id="groupPower" y="62" horizontalCenter="0">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="999" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:BitmapLabel id="bitNextLevel" y="132" font="zhuansnum_fnt" text="1c1z" visible.max="false" horizontalCenter="120"/>
+	<e:BitmapLabel id="bitCurLevel" y="132" font="zhuansnum_fnt" text="wzs" horizontalCenter="-122" x.max="178" y.max="132"/>
+	<e:BitmapLabel y="134" font="zhuansnum_fnt" text="wzs" x="422" visible.max="false" visible.normal="false"/>
+	<e:Image x="335" y="132" source="qianghua_zycs_next"/>
+	<e:Image x="401" y="132" source="zhuansheng_zycs_yidashangxian" visible.normal="false"/>
+	<e:Image x="112" y="206" source="liuguang_zycs_huawen"/>
+	<e:Image x="618" y="206" source="liuguang_zycs_huawen" scaleX="-1"/>
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="203" source="zhuansheng_zycs_sx" horizontalCenter="4"/>
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="235" source="public_zycs_di01" scale9Grid="140,12,8,8" width="664" height="111" x="28"/>
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="244" horizontalCenter="0.5">
+		<e:layout>
+		<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="1"/>
+		</e:layout>
+		
+		
+			
+			
+			
+		
+		
+	</e:DataGroup>
+	<e:Group id="groupZS" x="16" y="372" anchorOffsetY="0" height="300" anchorOffsetX="0" width="341">
+		<e:Image id="imgZssBg" y="28" anchorOffsetX="0" anchorOffsetY="0" source="zhuansheng_zycs_dk_png" x="87" width="170" height="209"/>
+		<e:Image id="imgZsShi" y="38" anchorOffsetX="0" anchorOffsetY="0" source="" horizontalCenter="0"/>
+		<e:Label text="Ignore Rebirth Quest and perform Rebirth directly" y="239" size="20" fontFamily="Times" textColor="0x5ac832" horizontalCenter="0.5" width="314"/>
+		<e:Label id="lbZsShiCount" text="Currently Owned: 0/1" y="281" size="22" fontFamily="Times" textColor="0xe6dcb8" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Group id="groupCS" x="363" y="374" anchorOffsetX="0" width="344" anchorOffsetY="0" height="291">
+		<e:Label id="lbLockLevel" text="M1 R1" y="17" size="24" fontFamily="Times" x="128" textColor="0xf5e65a"/>
+		<e:Component id="itemCsReward1" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="12" y="70" visible="false"/>
+		<e:Label id="lbCsRewardName1" text="Skill GemAdfhfsdhfhhedfhdhsdhsdfhdrh" y="49" size="20" fontFamily="Times" x="113" textColor="0xff9b0f" width="208"/>
+		<e:Image id="imgSkillIconBG" x="2" source="fuwen_zycs_kuang01_01" y="62" width="96" height="96"/>
+		<e:Image id="imgSkillIcon" width="85" height="85" x="8" y="68" source=""/>
+		<e:Label id="lbCsRewardDesc1" text="Skill Description" y="89" size="18" fontFamily="Times" x="113" textColor="0xe6dcb8" width="218"/>
+		<e:Component id="itemCsReward2" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="5" y="179" scaleX="1" scaleY="1"/>
+		<e:Label text="New Appearance:" y="201" size="24" fontFamily="Times" x="113" textColor="0xe6dcb8"/>
+		<e:Label id="lbCsRewardName2" text="New Appearance" y="232" size="24" fontFamily="Times" textColor="0xF5E65A" x="113" />
+		<e:Label id="lbCsRewardDesc2" text="New Appearance Description" y="265" size="24" fontFamily="Times" textColor="0xF5E65A" x="99" visible.normal="false" visible="false"/>
+		<e:Label id="lbCsDesc" text="M1 R1" y="281" size="22" fontFamily="Times" textColor="0xe6dcb8" horizontalCenter="0"/>
+	</e:Group>
+	<e:Scroller id="taskScroller" scrollPolicyH="off" scrollPolicyV="off" width="687" y="723" horizontalCenter="7.5" anchorOffsetX="0" anchorOffsetY="0" height="263" visible.max="false">
+		<e:List id="taskList" itemRendererSkinName="ZSPanelTaskItemEUI" width="679">
+					
+			
+				
+				
+				
+				
+			
+		
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" paddingLeft="5" paddingRight="5" paddingTop="5" paddingBottom="5" horizontalGap="6" verticalGap="11"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnOk" label="Rebirth" y="1011" skinName="BtnMin1_1" x="288" visible.max="false"/>
+	<e:Image y="1021" source="zhaunsheng_zycs_zsymj" horizontalCenter="0" visible.normal="false"/>
+</e:Skin>

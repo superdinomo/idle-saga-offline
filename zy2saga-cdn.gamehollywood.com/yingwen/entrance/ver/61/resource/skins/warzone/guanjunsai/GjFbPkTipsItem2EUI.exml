@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPkTipsItem2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="120" height="110">
+
+
+	<e:Image id="imgIcon" y="0" source="gjs_dby_1" x="16"/>
+
+	<e:Label id="lbDec" text="Name Name Name" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" y="80" horizontalCenter="0" textColor="0xff9b0f"/>
+
+
+</e:Skin>

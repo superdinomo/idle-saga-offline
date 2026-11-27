@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBossTeamItemEUI" currentState="member" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="member,invitation"  width="258" height="315">
+	<w:Config id="1586b362dfe"/>
+	<e:Image source="jjc_zycs_dz2" y="92" x="40"/>
+	<e:Group id="groupMC" y="207" width="0" height="0" x="133" visible.invitation="false"/>
+	<e:Button id="quitBtn" label="" x="111" skinName="Btn0Skin" icon="zhanmeng_zycs_X" includeIn="member" y="213"/>
+	<e:Image id="teamTab" x="5" y="0" includeIn="member" source="zm_zycs_dz"/>
+	<e:Label id="nameTxt" text="Miracle xXMoo MoralityXx gained" fontFamily="Times" size="24" y="291" textAlign="center" includeIn="member" textColor="0xf5e65a" horizontalCenter="3"/>
+	<e:Label id="levelTxt" text="0" fontFamily="Times" size="24" y="42" textAlign="center" includeIn="member" width="177" x="43" textColor="0xe5d3b5"/>
+	<e:Button id="invitationBtn" includeIn="invitation" y="91" x="72" label="Initiate Invitation" skinName="BtnMin1_1mid"/>
+	<e:Image y="254" fillMode="scale" source="public_zycs_jlylk"  height="35" scale9Grid="300,19,49,27" includeIn="member" width="242" horizontalCenter="0"/>
+	<e:Group y="259" horizontalCenter="4">
+		<e:Image id="powerImg" x="0" y="1" anchorOffsetX="0" anchorOffsetY="0" includeIn="member" source="mianui_zycs_zhandouli"/>
+		<e:BitmapLabel id="DisplayPower" x="88" y="1" text="666" includeIn="member" font="powernum_fnt"/>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,79 @@
+<e:Skin class="YZZHRewardViewWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group width="693" height="903" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" scale9Grid="90,70,15,6" source="yzsh_zycs_djyl_png" x="0" />
+		<e:Group x="94" y="91">
+			<e:Image y="3" scale9Grid="9,9,54,58" source="liuguang_zycs_huawen" x="0" />
+			<e:Image y="0" x="204" source="yzsh_zycs_jpjl" />
+			<e:Image y="3" source="liuguang_zycs_huawen" scale9Grid="9,9,54,58" x="506" scaleX="-1" />
+		</e:Group>
+		<e:Scroller y="140" scrollPolicyH="off" height="300" width="590" horizontalCenter="0.5">
+			<e:List id="list1" itemRendererSkinName="ItemSkin" y="1">
+				<e:layout>
+					<e:TileLayout horizontalGap="24" verticalGap="13" requestedColumnCount="5" paddingLeft="12" paddingRight="12"
+					              paddingTop="12" paddingBottom="12" />
+				</e:layout>
+				<!--<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>-->
+			</e:List>
+		</e:Scroller>
+		<e:Group y="464" horizontalCenter="0.5">
+			<e:Image y="3" source="liuguang_zycs_huawen" x="0" />
+			<e:Image y="0" x="204" source="yzsh_zycs_ptjl" />
+			<e:Image y="3" source="liuguang_zycs_huawen" x="506" scaleX="-1" />
+		</e:Group>
+		<e:Scroller y="500" scrollPolicyH="off" height="300" width="590" horizontalCenter="0.5">
+			<e:List id="list2" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout horizontalGap="24" verticalGap="13" paddingLeft="12" paddingRight="12" paddingTop="12" />
+				</e:layout>
+				<!--<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>-->
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnGotoAct" label="Unlock" y="816" skinName="BtnMin1_2" x="271" />
+		<e:Label id="lbAct" text="Badge Activated" y="836" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" textColor="0x13EE22" horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="" x="602" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+	</e:Group>
+</e:Skin>

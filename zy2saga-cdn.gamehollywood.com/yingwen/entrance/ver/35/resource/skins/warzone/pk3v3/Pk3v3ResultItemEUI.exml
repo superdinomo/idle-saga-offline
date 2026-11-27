@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Pk3v3ResultItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+
+	<e:Label id="lbName" y="-4" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="0" textColor="0xf5e65a" width="210"/>
+	<e:Label id="lbScore" text="Points: 99999" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="0" y="36" textColor="0xe3d7be"/>
+
+
+	<e:Label id="lbKill" y="56" text="Kills: 10" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="0" textColor="0xe3d7be"/>
+	<e:Label id="lbCaiji" y="56" text="Collect: 10" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="89" textColor="0xE3D7BE"/>
+</e:Skin>

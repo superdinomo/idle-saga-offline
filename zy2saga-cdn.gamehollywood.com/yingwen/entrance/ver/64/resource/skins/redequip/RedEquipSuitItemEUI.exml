@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipSuitItemEUI" width="676" height="159" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" width="676" horizontalCenter="0" anchorOffsetY="0" height="158">
+		<e:Image width="676" y="38" source="qianghua_zycs_kuang4" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="34,43,31,18" height="117"/>
+		<e:Group x="46" y="45">
+			<e:Label id="lbCount" text="Be equipped with 2 pieces" x="0" y="0" fontFamily="Times" size="24" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xcdc8be"/>
+			<e:Label id="lbQuality" text="(Uncommon/Rare/Epic/Legendary/Divine) " x="260" y="0" fontFamily="Times" size="24" textColor="0x777572" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="or above Glyph, Scarlet Gear" x="0" y="29" fontFamily="Times" size="24" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xcdc8be"/>
+			<e:Label id="lbAtrr" text="Total Stats Increased (999999/99999/99999/99999/99999)" x="0" y="59" fontFamily="Times" size="24" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xcdc8be"/>
+			<e:layout>
+				<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="imgTitle" y="6" anchorOffsetY="0" anchorOffsetX="0" source="zhzh_zycs_tz2" horizontalCenter="0"/>
+		<e:Image id="imgQuallity" y="45" x="12" scaleX="1" scaleY="1" source="zhzh_zycs_pz1"/>
+	</e:Group>
+</e:Skin>

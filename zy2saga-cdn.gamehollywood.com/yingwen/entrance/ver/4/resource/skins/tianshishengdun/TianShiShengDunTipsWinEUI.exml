@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TianShiShengDunTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b3502a7"/>
+	<e:Group id="group" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="public_zycs_daojukuang_01" x="52" y="43"/>
+		<e:Image y="0" x="0" source="shenqi_zycs_bg3_jpg"/>
+		<e:Label id="lbCur" text="N/A" y="180" size="24" textAlign="left" fontFamily="Times" textColor="0xE5D3B5" width="441" x="56"/>
+		<e:Label id="lbName" text="Skill Name Lv.0" y="62" size="24" fontFamily="Times" textAlign="center" x="180" textColor="0xE5D3B5"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="12" source="shenqi_zycs_bt1" x="228"/>
+		<e:Image y="91" source="public_zycs_jlylk" horizontalCenter="35"/>
+		<e:Group y="106" x="179">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="bitPower" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="imgBG" source="public_zycs_daojukuang_01" y="58" x="52"/>
+		<e:Image id="imgIcon" width="84" height="84" x="57" y="61" source="emzx_zycs_bf1"/>
+		<e:Label id="lbDesc" text="Demon Heart TX Activation" fontFamily="Times" size="24" y="459" horizontalCenter="0.5" textColor="0xe3d7be"/>
+	</e:Group>
+</e:Skin>

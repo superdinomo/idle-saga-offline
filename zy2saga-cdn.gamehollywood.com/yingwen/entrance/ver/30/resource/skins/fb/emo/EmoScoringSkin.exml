@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EmoScoringSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Button id="btnClose" label="" x="623" skinName="Btn0Skin" icon="public_zycs_lkfb" bottom="165" visible="false"/>
+	<e:Group touchEnabled="false" anchorOffsetX="0" width="720" y="0" right="1">
+		<e:Group id="groupJiaCheng" x="587" y="402" height="70" anchorOffsetX="0" width="126" scaleX="1" scaleY="1">
+			<e:Image width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="equip_zycs_di" scale9Grid="8,8,54,50" visible="false"/>
+			<e:Label id="lbjiacheng" text="0" y="23" size="20" textColor="0x5ac832" textAlign="right" fontFamily="Times" lineSpacing="5" right="1"/>
+			<e:Label id="lbMoney1" text="0" y="23" size="20" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" fontFamily="Times" verticalAlign="middle" textColor="0xffffff" width="170" right="105" visible="false"/>
+			<e:Label id="lbMoney2" text="0" y="49" size="20" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Times" verticalAlign="middle" textColor="0xffffff" width="170" textAlign="right" right="105" visible="false"/>
+		</e:Group>
+		<e:Group id="groupGuwu" width="82" height="86" x="615" y="448" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="btnCoinGuWu" label="Coin Inspiration" icon="em_zycs_zdgwtb" x="0" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Button id="btnexp" label="Coin Inspiration" icon="em_zycs_db" x="618" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin" y="284" visible="false"/>
+		<e:Group id="groupExp" width="50" x="609" y="282" visible="false">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" source="public_zycs_greybg2" scale9Grid="2,2,16,16" width="40" height="27" x="-1" y="1" visible="false"/>
+		</e:Group>
+		<e:Button id="btntsxl" label="Diamond Inspiration" icon="em_zycs_tsxl" x="617" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin" y="458" visible="false"/>
+		<e:Group id="groupShouYi" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" y="81" right="-1">
+			<e:Image id="helpBg" y="2" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" fillMode="repeat" source="em_zycs_jx3" right="0" scale9Grid="84,15,25,18" height="110"/>
+			<e:Group y="12" horizontalCenter="3">
+				<e:Label id="lbTimeDesc" y="0" text="Dungeon Countdown:" fontFamily="Times" size="20" touchEnabled="false" textAlign="center" scaleX="1" scaleY="1" lineSpacing="5" x="-1" textColor="0xffe58b" wordWrap="true" width="120" verticalAlign="middle"/>
+				<e:BitmapLabel id="bmpTime" y="0" font="rwnum_fnt" x="157" text="600s" letterSpacing="-3"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="helpTxt" y="63" text="Total Gain" fontFamily="Times" size="20" touchEnabled="false" textAlign="left" scaleX="1" scaleY="1" lineSpacing="5" textColor="0xffe58b" horizontalCenter="0"/>
+			<e:BitmapLabel id="countBmp" y="84" font="rwnum_fnt" text="12345679" letterSpacing="-3" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupScore" bottom="134" height="151" width="435" horizontalCenter="-27">
+		<e:Image x="57" y="10" anchorOffsetX="0" anchorOffsetY="0" source="em_zycs_jx1"/>
+		<e:Image x="3" y="-5" anchorOffsetX="0" anchorOffsetY="0" source="em_zycs_cd1"/>
+		<e:Image id="imgYuan" y="28" anchorOffsetX="0" anchorOffsetY="0" source="em_zycs_cd2" x="30"/>
+		<e:Image id="imgMyScore" y="64" anchorOffsetX="0" anchorOffsetY="0" source="em_zycs_sss" horizontalCenter="-132"/>
+		<e:Group x="161" verticalCenter="7.5" anchorOffsetX="0" width="280">
+			<e:Label id="lbmubiao" text="0" x="0" y="0" size="20" fontFamily="Times" lineSpacing="5" textColor="0xf5e65a" width="261"/>
+			<e:Label id="lbdesc" text="0" x="0" y="47" size="20" fontFamily="Times" textColor="0xf5e65a"/>
+			<e:Label id="lbcurjisha" text="0" size="20" fontFamily="Times" textAlign="left" anchorOffsetY="0" scaleX="1" scaleY="1" anchorOffsetX="0" verticalAlign="top" x="0" textColor="0x5ac832" y="69"/>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbmyscore" text="0" x="172" y="110" size="24" fontFamily="Times" textColor="0x5ac832" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarTeamInviteWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image height="896" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+
+		<e:Image y="-2" touchEnabled="false" source="chibang_zycs_biaoti_di" x="235"/>
+		<e:Image y="11" source="btz_zycs_yqdy_png" horizontalCenter="0"/>
+		<e:Button id="closeBtn0" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+		<e:Scroller id="scroller" y="78" height="631" x="21" width="678">
+			<e:List id="list" itemRendererSkinName="CampWarTeamInviteItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="5"/>
+				</e:layout>
+
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="Only show the online player of the same faction" y="732" size="24" textAlign="left" fontFamily="Times" textColor="0xff9b0f" horizontalCenter="0"/>
+
+		<e:Button id="btnInvite" y="769" label="Invite All" skinName="BtnMin1_1" x="286"/>
+		<e:Button id="btnChange" label="" icon="hwbz_zycs_hyp" touchEnabled="true" skinName="Btn0Skin" y="740" x="597"/>
+		<e:Label id="lbCd" text="Cooldown: 5s" y="822" size="20" textAlign="left" fontFamily="Times" textColor="0xf01414" x="590"/>
+
+
+
+	</e:Group>
+</e:Skin>

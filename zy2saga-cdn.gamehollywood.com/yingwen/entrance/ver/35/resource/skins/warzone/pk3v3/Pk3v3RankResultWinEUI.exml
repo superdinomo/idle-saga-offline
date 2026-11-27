@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Pk3v3RankResultWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+
+	<e:Group width="720" horizontalCenter="0" height="1003" verticalCenter="0">
+
+		<e:Image touchEnabled="false" x="0" y="0" source="txzz_zycs_bg6_jpg"/>
+		<e:Image y="-16" scale9Grid="56,7,80,44" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Image y="431" scale9Grid="56,7,80,44" source="txzz_zycs_d1" x="13"/>
+		<e:Group id="groupMc" width="0" height="0" y="398" x="367"/>
+		<e:Image id="imgTitle" y="13" horizontalCenter="0" source="txzz_zycs_txzzbt"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637"/>
+
+		<e:Component id="item" y="438" skinName="Pk3v3RankResultItemEUI" currentState="max" x="13" height="85"/>
+		<e:Scroller id="scroller" height="347" y="533" x="13" width="694">
+			<e:List id="list" itemRendererSkinName="Pk3v3RankResultItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbRank" text="My Ranking: 9998" y="884" size="24" fontFamily="Times" x="175" textColor="0xf5e65a"/>
+		<e:Label id="lbScore" text="Points: 9998" y="884" size="24" fontFamily="Times" textColor="0xFF9B0F" x="395"/>
+		<e:Label text="Rewards will be issued via mail upon the end of competition." y="919" size="24" fontFamily="Times" horizontalCenter="0" textColor="0x13ee22"/>
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TouXianPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="13" y="42" touchEnabled="false" source="touxian_zycs_bg_jpg"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group id="groupPower" y="63" horizontalCenter="0">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="1111123132" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="170" y="122">
+		<e:Image x="0" y="0" touchEnabled="false" source="hq_zycs_jie"/>
+		<e:BitmapLabel id="bitRank" y="38" font="hqnum_fnt" text="1" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image y="105" touchEnabled="false" source="tx_zycs_zhuangshi" horizontalCenter="0.5"/>
+	<e:Group id="groupName" y="123" x="360"/>
+	<e:Image y="456" touchEnabled="false" source="tx_zycs_fenge" horizontalCenter="-21.5"/>
+	<e:Image y="158" id="star0" x="234" source="tx_zycs_xing1"/>
+	<e:Image id="star1" y="158"  source="tx_zycs_xing1" x="310"/>
+	<e:Image y="158" id="star2" source="tx_zycs_xing1" x="385"/>
+	<e:Image y="158" id="star3" source="tx_zycs_xing1" x="459"/>
+	<e:Component id="comRankBarEff" y="199" scaleX="1" scaleY="1" skinName="TouXianBarEffEUI" horizontalCenter="0.5"/>
+	<e:Group y="332" horizontalCenter="0">
+		<e:Image y="0" x="46" source="tx_zycs_xianhunzhi"/>
+		<e:Label id="lbValue" text="Angel Point" y="8" fontFamily="Times" size="24" textColor="0xe6dcb8" x="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbNextName" text="T2 Archangel" y="112" fontFamily="Times" size="20" textColor="0xff9b0f" horizontalCenter="230"/>
+	<e:Component id="itemNextRewerd" x="557" y="143" skinName="ItemSkin" scaleX="0.65" scaleY="0.65"/>
+	<e:Image id="imgNextRewerd" y="156" x="549" source="lilian_zycs_ylq1" touchEnabled="false"/>
+	<e:Label id="lbYaZhiDesc" text="Title Suppression: Title of higher level will deal 10% more damage to title of lower level" fontFamily="Times" size="20" horizontalCenter="1" textColor="0xe6dcb8" verticalCenter="-175" width="669"/>
+	<e:Label text="Title Stats" y="436" fontFamily="Times" size="24" x="136" textColor="0xe6dcb8"/>
+	<e:Label text="Daily Benefit" y="436" fontFamily="Times" size="24" x="483" textColor="0xe6dcb8"/>
+	<e:Scroller x="352" y="466">
+		<e:List id="listMeiRiReward" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" height="106">
+		
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="5" paddingTop="5" paddingRight="5" paddingBottom="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnMeiRiReward" y="497" x="580" label="Claim" skinName="BtnMin1_1mid"/>
+	<e:Image id="imgMeiRiReward" y="506" x="602" source="lilian_zycs_ylq1"/>
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItem1EUI" y="474" horizontalCenter="-176">
+		<e:layout>
+		<e:TileLayout verticalGap="10" requestedColumnCount="1" horizontalGap="6"/>
+		</e:layout>
+		
+		
+			
+			
+			
+		
+		
+	</e:DataGroup>
+	<e:Button id="btnLeft" label="" y="237" icon="zuji_zycs_jiantou" skinName="Btn0Skin" scaleX="-1" x="97"/>
+	<e:Button id="btnRight" label="" y="237" icon="zuji_zycs_jiantou" skinName="Btn0Skin" x="619"/>
+	<e:Scroller id="scroller" x="12" width="690" height="507" y="575" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="list" itemRendererSkinName="TouXianPanelTaskItemEUI" useVirtualLayout="true" y="-1">
+				
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			<e:layout>
+			<e:VerticalLayout paddingLeft="5" paddingTop="5" paddingBottom="5" gap="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

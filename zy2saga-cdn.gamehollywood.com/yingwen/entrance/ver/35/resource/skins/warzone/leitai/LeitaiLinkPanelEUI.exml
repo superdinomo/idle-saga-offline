@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiLinkPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+    <w:Config id="15af9c70173" />
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="34" source="zylts_zycs_bg2_jpg"/>
+	<e:Image touchEnabled="false" y="637" source="zylts_zycs_hdjl" horizontalCenter="0" width="118"/>
+	<e:Label id="lbDec" text="Ending Countdown of This Season: H M S\nTry" x="29" y="48" size="22" textAlign="left" fontFamily="Times" textColor="0xffffff" lineSpacing="3" width="659" wordWrap="true"/>
+
+	<e:Button id="btnScoreRank" y="434" icon="zylts_zycs_m2" skinName="Btn0Skin" x="603"/>
+	<e:Button id="btnAwardRank" y="508" icon="zylts_zycs_m1" skinName="Btn0Skin" x="608"/>
+	<e:Scroller y="661" scrollPolicyH="off" x="127">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="20" verticalGap="20" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupNotOpen" y="928" horizontalCenter="0" visible="false">
+		<e:Label text="Sign-up Time：" x="0" y="0" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xFFFFFF"/>
+		<e:Label text="From 9:00 to 20:30 every Sunday" y="24" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" horizontalCenter="0" textColor="0x13ee22"/>
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupSignUp" y="928" x="239" visible="false">
+		<e:Label text="Point Stage：" x="0" y="0" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xffffff"/>
+		<e:Label text="From 20:30 to 20:42" x="110" y="0" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0x13EE22"/>
+	</e:Group>
+	<e:Group id="groupScoreEnd" y="928" x="223" visible="false">
+		<e:Label text="Defender Stage starts at " x="0" y="0" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xFFFFFF"/>
+		<e:Label text="20:43" x="110" y="0" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0x13EE22"/>
+		<e:Label text="" x="10" y="10" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xFFFFFF"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupPk" y="928" horizontalCenter="0">
+		<e:Label id="lbPkTime" text="Point Stage: 20:30-20:40" y="0" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xffffff" horizontalCenter="0"/>
+		<e:Label id="lbPkCount" text="Remaining 10 Matches" y="24" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" horizontalCenter="0" textColor="0xffffff"/>
+	</e:Group>
+	<e:Group id="groupEnd" y="928" horizontalCenter="0.5" visible="false">
+		<e:Label text="This week’s Defender Contest has ended!" x="110" y="0" size="22" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xffffff"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+
+
+	<e:Button id="btnSignUp" y="1009" label="Sign Up" skinName="BtnMin1_2" x="286"/>
+	<e:Button id="btnLink" y="1009" label="Go to Battle Zone" skinName="BtnMin1_2" x="286"/>
+	<e:Label id="lbYbm" text="Signed Up" x="329" y="1026" size="24" textAlign="left" fontFamily="Times" textColor="0xf01414"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarTeamCreateItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" height="356" states="state0,state1"  width="258">
+	<e:Image fillMode="scale" source="public_zycs_jlylk"  height="41" visible.state1="false" horizontalCenter="0" scale9Grid="97,13,126,35" y="278"/>
+
+	<e:Image id="imgIcon" touchEnabled="false" y="16" source="smsz_zycs_bg5_png" x="68" visible.state0="false"/>
+	<e:Group id="groupMC" y="228" x="129" visible.state1="false"/>
+	<e:Image id="imgCaptain" y="14" fillMode="scale" x="30" source="smsz_zycs_dui2" visible.state1="false"/>
+	<e:Image id="imgPos" fillMode="scale" source="smsz_zycs_dy2" x="33" y="20"/>
+
+
+	<e:Button id="btnDel" y="222" label="Disband" skinName="BtnMin1_1small" x="80"/>
+	<e:Button id="btnAdd" y="85" icon="smsz_zycs_txk" skinName="Btn0Skin" x="100" visible.state0="false"/>
+	<e:Label id="lbName" y="286" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" textColor="0xf5e65a" visible.state1="false" horizontalCenter="0"/>
+	<e:Label id="lbPower" y="318" text="CP: 99999" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" textColor="0xf5e65a" visible.state1="false" horizontalCenter="0"/>
+
+</e:Skin>

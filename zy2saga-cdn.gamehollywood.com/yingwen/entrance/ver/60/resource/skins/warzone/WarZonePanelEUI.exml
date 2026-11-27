@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WarZonePanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+		<e:Image touchEnabled="false" x="13" y="34" source="zylts_zycs_bg1_jpg"/>
+		<e:Button id="btnLeitai" x="437" y="186" skinName="WarZoneBtnEUI0"/>
+		<e:Button id="btnGjs" x="402" y="427" skinName="WarZoneBtnEUI1"/>
+		<e:Button id="btn1" x="402" y="661" skinName="WarZoneBtnEUI2" visible="false"/>
+		<e:Button id="btnLangHun" x="109" y="434" skinName="WarZoneBtnEUI3"/>
+		<e:Button id="btn3" x="89" y="806" skinName="WarZoneBtnEUI4" visible="false"/>
+		<e:Button id="btnPk3v3" x="69" y="148" skinName="WarZoneBtnEUI5"/>
+		<e:Button id="btnShop" y="980" icon="zylts_zycs_m3" skinName="Btn0Skin" x="592"/>
+		<e:Group id="groupEff" x="0" y="0" width="720" height="1134" touchChildren="false" touchEnabled="false" locked="true">
+			<!--<e:Image id="imgYun0" touchEnabled="false" x="293" y="244" source="zylts_zycs_yun_png" locked="true"/>
+			<e:Image touchEnabled="false" x="-297" y="674" source="zylts_zycs_yun_png" id="imgYun1" locked="true"/>-->
+		</e:Group>
+	</e:Group>
+</e:Skin>

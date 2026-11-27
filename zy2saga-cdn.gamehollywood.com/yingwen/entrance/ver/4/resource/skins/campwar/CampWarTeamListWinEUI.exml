@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarTeamListWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0" height="896">
+		<e:Image height="896" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="smsz_zycs_bg2_jpg"/>
+
+		<e:Image y="-16" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Image y="9" source="btz_zycs_dwlb_png" horizontalCenter="0"/>
+
+		<e:Button id="closeBtn0" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+
+
+
+		<e:Group x="21" y="76">
+			<e:Scroller id="scroller" y="0" x="0" width="678" anchorOffsetY="0" maxHeight="637">
+				<e:List id="list" itemRendererSkinName="CampWarTeamListItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="8"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+					<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+			<e:Group x="4" y="645" width="674">
+				<e:Image touchEnabled="false" y="13" anchorOffsetY="0" source="smsz_zycs_zjzy" x="136"/>
+				<e:Button id="btnCreateTeam" y="62" skinName="BtnMin1_1" label="Create Team" x="263"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Component id="com_Chat" skinName="ChatMainSkin1" x="0" y="898"/>
+
+
+
+
+	</e:Group>
+</e:Skin>

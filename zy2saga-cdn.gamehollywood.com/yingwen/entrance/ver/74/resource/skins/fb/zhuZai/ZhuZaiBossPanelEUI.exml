@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuZaiBossPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<w:Config id="16092bf64f4"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="43" anchorOffsetX="0" anchorOffsetY="0" source="sjbs_zycs_bg2_jpg" x="13"/>
+	<e:Group id="groupItem" x="14" y="77" width="701" height="747" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Component id="zhuZaiBossItem0" skinName="ZhuZaiBossItemEUI" scaleX="1" scaleY="1"/>
+		<e:Component id="zhuZaiBossItem1"  skinName="ZhuZaiBossItemEUI" scaleX="1" scaleY="1"/>
+		<e:Component id="zhuZaiBossItem2" skinName="ZhuZaiBossItemEUI" scaleX="1" scaleY="1"/>
+		<e:Component id="zhuZaiBossItem3" skinName="ZhuZaiBossItemEUI" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="8" verticalGap="6"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbTime" text="0" y="823" fontFamily="Times" size="24" textAlign="center" textColor="0xe6dcb8" horizontalCenter="0"/>
+	<e:Label id="lbIntoCD" text="0" y="823" fontFamily="Times" size="24" textAlign="center" textColor="0xAF9B73" horizontalCenter="0"/>
+	<e:Button id="btnInTo" y="865" label="Enter Challenge" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" icon="" x="285"/>
+	<e:Label id="lbReward" y="882.5" text="Rewards Preview" fontFamily="Times" size="24" lineSpacing="0" textColor="0x00FF00" x="530"/>
+
+	<!--<e:Image y="-47" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_世界BOSS\S-世界BOSS.jpg" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjBetWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="553" horizontalCenter="0" verticalCenter="0" height="905">
+		<e:Image source="gjs_zycs_bg27_jpg" scale9Grid="69,369,415,45" height="905"/>
+		<e:Image y="-5" horizontalCenter="1" source="chibang_zycs_biaoti_di"/>
+
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="11" horizontalCenter="0" source="btz_gjs_jc_png"/>
+		<e:Label id="lbLun" text="Round 1" size="22" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" y="74" horizontalCenter="0"/>
+		<e:Scroller scrollPolicyH="off" y="102" width="510" x="22" height="605">
+			<e:List id="list" itemRendererSkinName="GjBetItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="3"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:TabBar id="tab" y="714" selectedIndex="0" horizontalCenter="0.5" itemRendererSkinName="BtnTab3ZYCSSkin">
+			<e:layout>
+			<e:HorizontalLayout gap="21"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+		<e:Group y="778" horizontalCenter="1">
+			<e:Label text="Guess made: obtain Battle Zone Coin" x="6" y="4" size="20" fontFamily="Times"/>
+			<e:Image x="0" y="0" source="zycs_320031"/>
+			<e:Label id="lbNun" text="x1000" x="36" y="4" size="20" fontFamily="Times"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label text="Regardless of the result, all diamonds spent will be returned in the end" y="815" size="20" fontFamily="Times" horizontalCenter="0.5" width="486" wordWrap="true" textAlign="center"/>
+	</e:Group>
+</e:Skin>

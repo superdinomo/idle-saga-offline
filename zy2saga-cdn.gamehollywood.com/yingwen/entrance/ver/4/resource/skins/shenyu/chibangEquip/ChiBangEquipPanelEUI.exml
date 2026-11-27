@@ -1,0 +1,39 @@
+<e:Skin class="ChiBangEquipPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="720" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" y="42" horizontalCenter="0" source="shenyu_zycs_zb_jpg"/>
+	<e:Group id="groupMc" width="0" height="0" y="424" horizontalCenter="0"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="65" horizontalCenter="1">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="11111" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnRank" label="" y="86" icon="shenyu_zycs_zbjj" skinName="Btn0Skin" x="36"/>
+	<e:Image y="329" source="shenyu_zycs_ym" horizontalCenter="12.5" visible="false"/>
+	<e:Group width="0" height="0" y="400" horizontalCenter="0" id="groupMC"/>
+	<e:Group id="groupItems" x="23" y="166" width="675" height="463">
+		<e:Component id="chiBangEquipItem0" y="13" x="111" skinName="ChiBangEquipItemEUI"     
+		             touchEnabled="true" />
+		<e:Component id="chiBangEquipItem1" y="195" x="30" skinName="ChiBangEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="chiBangEquipItem2" y="374" x="111" skinName="ChiBangEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="chiBangEquipItem3" y="15" x="470" skinName="ChiBangEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="chiBangEquipItem4" y="195" x="551" skinName="ChiBangEquipItemEUI"      touchEnabled="true" />
+		<e:Component id="chiBangEquipItem5" y="374" x="470" skinName="ChiBangEquipItemEUI" touchEnabled="true"/>
+	</e:Group>
+	<e:Image y="741" source="liuguang_zycs_huawen" x="127"/>
+	<e:Image y="741" source="liuguang_zycs_huawen" scaleX="-1" x="593"/>
+	<e:Image y="676" scaleX="-1" source="public_zycs_di01" horizontalCenter="0"/>
+	<e:Image y="738" anchorOffsetY="0" source="cbzb_zycs_jc" horizontalCenter="0"/>
+	<e:Button id="btnDetail" label="" y="728" icon="role_zycs_xiangxi" skinName="Btn0Skin" x="585" scaleX="0.8" scaleY="0.8"/>
+		<e:List id="listAttr" itemRendererSkinName="ChiBangEquipAttrEUI" y="773" horizontalCenter="0" >
+		<e:layout>
+			<e:TileLayout horizontalGap="7" verticalGap="24"/>
+		</e:layout>
+		</e:List>
+	<e:Label id="lbTuJing" y="968" text="Acquire Feather Gear" fontFamily="Times" size="24" textColor="0x5AC832" touchEnabled="true" right="34"/>
+	<e:Label id="lbWingName" y="680" text="Acquire Wings Gear" fontFamily="Times" size="24" touchEnabled="true" horizontalCenter="0" textColor="0xcd8cff"/>
+	<!--<e:Image anchorOffsetY="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神羽\S-神羽-装备.jpg" x="0" y="-47" locked="true" visible="false"/>-->
+</e:Skin>

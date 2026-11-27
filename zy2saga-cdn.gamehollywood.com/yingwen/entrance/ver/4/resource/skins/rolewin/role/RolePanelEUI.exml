@@ -1,0 +1,47 @@
+<e:Skin class="RolePanelEUI" currentState="own" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="otherPlay,own"  height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" x="13" y="12"
+	          source="role_zycs_bg_jpg" locked="true"/>
+	<e:Group id="groupEntity" width="0" height="0" y="630" x="360"/>
+	<e:Group id="groupMeilin" width="0" height="0" y="328" x="485"/>
+	<e:Image y="817" touchEnabled="false" source="role_zycs_di2" anchorOffsetY="0" horizontalCenter="0" height="273" scale9Grid="86,47,520,3"/>
+	<e:Image y="947" touchEnabled="false" anchorOffsetY="0" height="135" source="role_zycs_di1" scale9Grid="17,28,13,7" anchorOffsetX="0" width="652" x="34"/>
+	<e:Image y="47" source="public_zycs_jlylk" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:Group y="61" horizontalCenter="0">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="88" y="0" text="678889" font="powernum_fnt" letterSpacing="-1"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnAttr" label="" y="46" icon="role_zycs_xiangxi" skinName="Btn0Skin" x="503" scaleX="1" scaleY="1"/>
+	<e:Group y="98" anchorOffsetY="0" height="652" anchorOffsetX="0" width="624" x="59">
+		<e:Component id="item0" y="40" skinName="RoleEquipItemEUI" anchorOffsetX="0" x="0"/>
+		<e:Component id="item1" y="40" skinName="RoleEquipItemEUI" anchorOffsetX="0" touchEnabled="true" x="510"/>
+		<e:Component id="item6" y="161" skinName="RoleEquipItemEUI" anchorOffsetX="0" x="510"/>
+		<e:Component id="item2" y="161" x="0" skinName="RoleEquipItemEUI" anchorOffsetX="0" touchEnabled="true"/>
+		<e:Component id="item7" y="292" skinName="RoleEquipItemEUI" anchorOffsetX="0" x="510"/>
+		<e:Component id="item3" y="292" x="0" skinName="RoleEquipItemEUI" anchorOffsetX="0"/>
+		<e:Component id="item5" y="417" skinName="RoleEquipItemEUI" anchorOffsetX="0" x="510"/>
+		<e:Component id="item4" y="418" x="0" skinName="RoleEquipItemEUI" anchorOffsetX="0"/>
+		<e:Component id="item8" y="558" skinName="RoleEquipItemRingEUI" anchorOffsetX="0" x="-1"/>
+		<e:Component id="item9" y="558" skinName="RoleEquipItemRingEUI" anchorOffsetX="0" right="20"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnOneKeyEquip" y="736" label="Equip All" horizontalCenter="1.5" skinName="BtnMin1_2"/>
+	<e:Button id="btnZhaoCaiLong" label="" y="621" skinName="Btn0Skin" icon="role_zycs_hjsl" x="184"/>
+	<e:Button id="btnZLXZ" label="" y="621" skinName="Btn0Skin" icon="role_zycs_zlxz" x="430"/>
+	<e:Button id="btnShengbei" label="" y="621" skinName="Btn0Skin" icon="role_zycs_bxsb" x="309"/>
+	<e:Button id="btnTaoZhuang" label="" y="845" skinName="Btn0Skin" icon="role_zycs_zbtz" x="60"/>
+	<e:Button id="btnZhuangBan" label="" y="845" skinName="Btn0Skin" icon="role_zycs_zhuangban" x="193"/>
+	<e:Button id="btnShenJie" label="" y="845" skinName="Btn0Skin" icon="role_zycs_sj" x="325"/>
+	<e:Button id="btnFruit" label="" y="845" skinName="Btn0Skin" icon="role_zycs_guoshi" x="457"/>
+	<e:Button id="btnShengLing" label="" y="845" skinName="Btn0Skin" icon="role_zycs_shengling" x="590"/>
+	<e:Button id="btnShenQi" label="" y="946" skinName="Btn0Skin" icon="role_zycs_shenqi" x="59"/>
+	<e:Button id="btnWing" label="" y="952" skinName="Btn0Skin" icon="role_zycs_cb" x="219"/>
+	<e:Button id="btnSz" label="" y="952" skinName="Btn0Skin" icon="role_zycs_sz" x="389"/>
+	<e:Button id="btnMeiLin" label="" y="952" icon="role_zycs_meilinzhishu" skinName="Btn0Skin" x="549"/>
+</e:Skin>

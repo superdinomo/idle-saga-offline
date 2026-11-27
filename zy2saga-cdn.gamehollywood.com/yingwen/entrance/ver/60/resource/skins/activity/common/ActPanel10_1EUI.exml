@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel10_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" x="13" source="fl_zycs_dlbg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt"/>
+	<e:Label y="229" text="Time Remain:" fontFamily="Times" size="20" x="53" lineSpacing="10" textColor="0xefd98d"/>
+	<e:Label id="lbTime" y="229" text="0" fontFamily="Times" size="20" x="198" lineSpacing="10" textColor="0x13ee22"/>
+	<e:Scroller width="668" y="265" height="666" x="27" scrollPolicyH="off">
+		<e:List id="list" itemRendererSkinName="ActItem10_1EUI">
+		<!--
+			
+			
+			
+			
+			
+			
+		-->
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" y="981" label="Unlock" x="508" skinName="BtnMin1_17"/>
+	<e:Image id="imgYjh" x="536" y="975" source="public_zycs_yijihuo"/>
+</e:Skin>

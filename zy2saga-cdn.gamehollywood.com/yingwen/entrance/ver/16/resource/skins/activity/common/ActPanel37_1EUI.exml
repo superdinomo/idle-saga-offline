@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel37_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" pixelHitTest="true" touchEnabled="false" source="qqsh_zycs_bg5_jpg" horizontalCenter="0"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_zsml" horizontalCenter="0"/>
+	<e:Label id="lbTime" text="Event Countdown: 12:12:12" y="174" size="20" textAlign="left" fontFamily="Times" x="30" textColor="0xffffff"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="233" horizontalCenter="0">
+		<e:List id="list1" itemRendererSkinName="ActItem37_1_1EUI" y="1">
+			<e:layout>
+				<e:HorizontalLayout gap="31"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="415" x="28">
+		<e:List id="list2" itemRendererSkinName="ActItem37_1_2EUI">
+		<e:layout>
+			<e:HorizontalLayout gap="20"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="665" horizontalCenter="0">
+		<e:List id="list3" itemRendererSkinName="ActItem37_1_3EUI">
+		<e:layout>
+			<e:HorizontalLayout gap="20"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" label="Refresh" anchorOffsetX="0" horizontalCenter="0.5" y="928" skinName="BtnMin1_1"/>
+	<e:Label id="lbLog" text="Gift Record" x="584" y="958" size="24" fontFamily="Times" textColor="0x13EE22"/>
+	<e:Label text="Own Gifting Item" x="33" y="1022" size="20" fontFamily="Times"/>
+	<e:Label id="lbItem" text="Item Name: 10" x="33" y="1060" size="20" fontFamily="Times" visible="false"/>
+	<e:Label id="lbMeiLi" text="Gifted Charm:1000" y="1021" size="20" fontFamily="Times" right="29"/>
+	<e:Group id="groupItems" y="1049" x="29">
+		<e:Group y="0" x="0">
+		<e:Image id="imgConsume0" x="0" y="0" source="zycs_340036"/>
+		<e:Label id="lbJiFen0" text="Exploration Point: 10" y="4" size="24" fontFamily="Times" x="35" textColor="0xE3D7BE"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+		</e:Group>
+		<e:Group y="0" x="173">
+		<e:Image id="imgConsume1" x="0" y="0" source="zycs_340036"/>
+		<e:Label id="lbJiFen1" text="Exploration Point: 1000000" y="4" size="24" fontFamily="Times" x="35" textColor="0xE3D7BE"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+		</e:Group>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="14"/>
+		</e:layout>
+	</e:Group>
+	<!--<e:Image pixelHitTest="true" touchEnabled="false" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\Q_鹊桥守护\Q-鹊桥守护-赠送魅力.jpg" y="-47"/>-->
+</e:Skin>

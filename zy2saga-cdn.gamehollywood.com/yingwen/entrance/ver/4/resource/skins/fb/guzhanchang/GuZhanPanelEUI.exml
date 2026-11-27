@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuZhanPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134" states="s1,s2">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="imgBg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="17,12,41,25" y="43" x="13" source="gzc_zycs_bg_jpg" />
+	<e:Image x="49" y="56" source="ygzc_zycs_hdgz" />
+	<e:Label id="lbTimeDesc" text="Event is available during 20:40 - 21:00" x="48" y="216" size="20" scaleX="1" scaleY="1" textAlign="left"
+	         fontFamily="Times" textColor="0xe6dcb8" />
+	<e:Button id="btnDropLog" x="607" label="Drop Records" anchorOffsetY="0" anchorOffsetX="0" y="141" icon="ygzc_zycs_hdph"
+	          skinName="Btn0Skin" />
+	<e:Image y="193" anchorOffsetX="0" fillMode="scale" touchEnabled="false" x="49" source="ygzc_zycs_hdsj" />
+	<e:Label id="lbDesc" text="Final Blow\nFinal Blow\nFinal Blow" y="81" size="18" fontFamily="Times" x="49" textColor="0xe6dcb8"  width="555"/>
+	<e:Image y="386" anchorOffsetX="0" fillMode="scale" touchEnabled="false" x="29" source="ygzc_zycs_ptgq" />
+	<e:Image y="386" anchorOffsetX="0" fillMode="scale" touchEnabled="false" x="375" source="ygzc_zycs_jygq" />
+	<e:Image y="498" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" source="ygzc_zycs_jlxq" x="301" />
+	<e:Image y="535" anchorOffsetY="0" anchorOffsetX="0" source="shenmo_zycs_kuang" horizontalCenter="0" height="154"
+	         scale9Grid="315,54,70,100" />
+	<e:Scroller y="569" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:List id="listReward" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="ItemSkin" x="1">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image x="28" y="691" source="qianghua_zycs_kuang4" scale9Grid="36,30,17,38" anchorOffsetX="0" width="665"
+	         anchorOffsetY="0" height="127" width.s2="395" horizontalCenter.s2="0" />
+	<e:Image x="46" y="706" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" x.s2="180" source="ygzc_zycs_mrjl" />
+	<e:Component id="itemReward" y="709" x="83" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x.s2="223" />
+	<e:Label id="lbRewardDesc" text="Monsters Eliminated of the Day" x="181" fontFamily="Times" size="24" anchorOffsetX="0" textAlign="left"
+	         textColor="0xe6dcb8" x.s2="321" verticalCenter="184"  width="217"/>
+	<e:Group id="groupReward" x="406" y="702" anchorOffsetX="0" width="275" anchorOffsetY="0" height="103"
+	         visible.s2="false">
+		<e:Component id="itemReward1" y="5" x="31" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" />
+		<e:Button id="btnBuyReward" label="Buy" y="43" anchorOffsetX="0" anchorOffsetY="0" x="148" icon=""
+		          skinName="BtnMin1_1small" />
+		<e:Component id="priceIcon" skinName="PriceIconSkin" scaleX="1" scaleY="1" x="149" y="6" />
+		<e:Image x="0" y="4" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" source="ygzc_zycs_ewjl" />
+	</e:Group>
+	<e:Button id="btnIntoFuben" label="Enter Challenge" y="846" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" icon=""
+	          horizontalCenter="0" />
+	<e:Label text="Event is available during 19:10 - 19:30" size="20" scaleX="1" scaleY="1" textAlign="left" fontFamily="Times"
+	         textColor="0x5AC832" horizontalCenter="0"  y="822"/>
+	<!--<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="17,12,41,25"
+	             source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\G_古战场\X-新古战场.jpg" y="-47" locked="true" />
+	-->
+</e:Skin>

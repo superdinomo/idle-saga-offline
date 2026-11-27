@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DaZaoTabItemSubEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down,disabled,select,none,noOpen"   width="137" height="47">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" horizontalCenter="0" verticalCenter="0" source.select="craft_zycs_btn3" source="craft_zycs_btn3a" source.none="craft_zycs_btn3a" source.noOpen="craft_zycs_btn3b"/>
+	<e:Label id="lbName" text="1-Star Gear (99)" size="16" fontFamily="Times" verticalCenter="0" touchEnabled="false" horizontalCenter="0" textColor.select="0xffebc8" textColor="0xc99865" textColor.noOpen="0x888786" width="118"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="120" y="-5" source="mainui_zycs_hongdian"/>
+</e:Skin>

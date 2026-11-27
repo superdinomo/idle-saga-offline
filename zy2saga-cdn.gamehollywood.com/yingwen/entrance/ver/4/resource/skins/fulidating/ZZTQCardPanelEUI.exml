@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZZTQCardPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" source="zztq_zycs_bg_jpg" x="13"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" source="zztq_zycs_title" horizontalCenter="0"/>
+	<e:Image y="70" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="88" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="184" source="zztq_zycs_zztq_png" x="209"/>
+	<e:Image y="579" source="zztq_zycs_zstq" x="261"/>
+	<e:Image y="403" source="zztq_zycs_msz" x="118"/>
+	<e:Image x="418" y="407" source="zycs_320002"/>
+	<e:Image x="544" y="407" source="zycs_320030"/>
+	<e:Image y="475" source="zztq_zycs_msz2" x="110"/>
+	<e:Image y="642" x="101" source="zbrl_zycs_xx"/>
+	<e:Image y="682" source="zbrl_zycs_xx" x="101"/>
+	<e:Image y="722" source="zbrl_zycs_xx" x="101"/>
+	<e:Image y="762" source="zbrl_zycs_xx" x="101"/>
+	<e:Image y="804" source="zbrl_zycs_xx" x="101"/>
+	<e:Image y="844" source="zbrl_zycs_xx" x="101"/>
+	<e:Group x="132" y="641">
+		<e:Label text="Activate Premium Rare Title" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="0"/>
+		<e:Label text="[Premium Privilege]" y="0" fontFamily="Times" size="20" textAlign="center" x="235" textColor="0x13ee22"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="132" y="681">
+		<e:Label text="AFK" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="0"/>
+		<e:Label text="Auto-challenge" y="0" fontFamily="Times" size="20" textAlign="center" x="48" textColor="0x13ee22"/>
+		<e:Label text="Multiplayer Boss, Cross-server Boss, Boss Homestead" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="left" x="159" width="312"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="132" y="722">
+		<e:Label text="AFK" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="0"/>
+		<e:Label text="Auto Smelt" y="0" fontFamily="Times" size="20" textColor="0x13EE22" textAlign="center" x="48"/>
+		<e:Label text="extra gear in Bag" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="144"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="132" y="762">
+		<e:Label text="Challenge All, Raid All" y="0" fontFamily="Times" size="20" textAlign="center" x="0" textColor="0x13ee22"/>
+		<e:Label text="Trial Dungeon" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="194"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="132" y="803">
+		<e:Label text="AFK EXP, Coin" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="0"/>
+		<e:Label text="+10%" y="0" fontFamily="Times" size="20" textColor="0x13EE22" textAlign="center" x="145"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="132" y="843">
+		<e:Label text="HP Boosted" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="0"/>
+		<e:Label text="5%" y="0" fontFamily="Times" size="20" textColor="0x13EE22" textAlign="center" x="96"/>
+		<e:Label text=", DEF Boost" y="0" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="120"/>
+		<e:Label text="5%" y="0" fontFamily="Times" size="20" textColor="0x13EE22" textAlign="center" x="224"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="Get bonus earlier if you buy earlier~ Privilege is lifelong!" y="912" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" horizontalCenter="0" width="622"/>
+	<e:Label text="(The received Vouchers won't affect the daily acquire limit)" y="957" fontFamily="Times" size="20" textAlign="center" textColor="0x13ee22" horizontalCenter="0.5" width="583"/>
+	<e:Button id="tszfBtn" y="1009" skinName="BtnMin1_2" x="286" label="88"/>
+</e:Skin>

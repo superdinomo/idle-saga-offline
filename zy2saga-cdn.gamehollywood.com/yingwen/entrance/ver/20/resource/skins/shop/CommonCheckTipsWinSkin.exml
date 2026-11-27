@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CommonCheckTipsWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="552" height="492">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="15" source="chibang_zycs_tishi" x="249"/>
+		<e:Label id="lbContent" minHeight = "100" text="0" fontFamily="Times" size="22" width="468" textAlign="center" lineSpacing="7" verticalAlign="middle" top="72" bottom="237" textColor="0xe3d7be" horizontalCenter="0" wordWrap="true"/>
+		<e:CheckBox id="checkBoxs" label="Dismiss reminder this time" skinName="CheckBoxEUI" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="287" horizontalCenter="0"/>
+	<e:Button id="btnOk" label="Confirm" anchorOffsetX="0" anchorOffsetY="0" y="360" skinName="BtnMin1_1" x="331"/>
+	<e:Button id="closeBtn" label="Cancel" anchorOffsetX="0" anchorOffsetY="0" x="88" y="360" skinName="BtnMin1_1a"/>
+	</e:Group>
+</e:Skin>

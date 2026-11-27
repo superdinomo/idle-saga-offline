@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkMyPkLogItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="678" height="126">
+	<e:Image x="0" y="0" source="qianghua_zycs_kuang4" scale9Grid="32,28,36,43" width="678" height="126"/>
+	<e:Label id="lbGroup" text="Team Gabriel 16 to 8" size="20" fontFamily="Times" textColor="0xE3D7BE" x="17" y="22"/>
+	<e:Label id="lbDec" text="S1.Miracle xXMoo MoralityXx VS S1.Miracle xXMoo MoralityXx" size="20" fontFamily="Times" textColor="0xe3d7be" y="52" x="17"/>
+
+	<e:Label id="lbResult" text="Match Result: Victory" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" x="17" y="80"/>
+	<e:Button id="btnSend" label="View" x="541" skinName="BtnMin1_1small" width="120" height="48" y="39"/>
+
+
+</e:Skin>

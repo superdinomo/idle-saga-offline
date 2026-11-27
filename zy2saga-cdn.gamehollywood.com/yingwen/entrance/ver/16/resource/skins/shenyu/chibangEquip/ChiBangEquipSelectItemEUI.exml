@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChiBangEquipSelectItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="687">
+	<e:Image id="imgbg" width="688" height="239" x="-2" y="0" anchorOffsetX="0" source="qianghua_zycs_kuang4" scale9Grid="28,33,38,12"/>
+	<e:Image id="imgTipIcon" x="467" y="54" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" source="public_zycs_lj"/>
+	<e:Component id="chiBangEquipItem" x="21" y="21" skinName="ItemSkin"/>
+	<e:Image x="159" y="9.5" anchorOffsetX="0" source="public_zycs_di01"/>
+	<e:Label id="lbName" text="0" x="166" y="14.5" size="24" fontFamily="Times" textColor="0xE0E0E0" anchorOffsetX="0" width="284" anchorOffsetY="0" height="24" textAlign="center"/>
+	<e:Label id="lbScore" text="0" x="163" y="61" size="20" fontFamily="Times" textColor="0xb1a854"/>
+	<e:Label id="lbrank" text="0" x="163" y="92" size="20" fontFamily="Times" textColor="0x806e52"/>
+	<e:Label id="lbArrt" text="0" x="163" y="128" size="20" fontFamily="Times" anchorOffsetY="0" wordWrap="false" anchorOffsetX="0" textColor="0xcdc8be" lineSpacing="5"/>
+	<e:Button id="btnEquip" label="Equip" x="546" y="143" name="equip" height="55" width="120" skinName="BtnMin1_1" icon=""/>
+	<e:Image id="imgDress" y="-2" x="599" source="equip_zycs_yizhuangbei"/>
+	<e:Image x="117" y="119" source="role_zycs_x" scale9Grid="32,0,98,4"/>
+</e:Skin>

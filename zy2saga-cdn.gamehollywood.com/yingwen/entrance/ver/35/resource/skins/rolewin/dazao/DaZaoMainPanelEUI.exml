@@ -1,0 +1,25 @@
+<e:Skin class="DaZaoMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Group id="groupPanel" x="12" y="42">
+		<e:Component id="equipItem5" x="0" y="0" scaleX="1" scaleY="1" skinName="DaZaoFenJiePanelEUI"/>
+	</e:Group>
+	<e:Image x="202" y="39.33" touchEnabled="false" anchorOffsetX="-1.67" source="public_zycs_k1" width="1048" scale9Grid="54,64,8,3" height="194" rotation="90" anchorOffsetY="0"/>
+	<e:Scroller id="itemScroller" width="164" x="29" y="62" scrollPolicyH="off" maxHeight="1025" height="1025" anchorOffsetX="0">
+		<e:List id="itemList" itemRendererSkinName="DaZaoTabItemEUI" useVirtualLayout="false">
+			
+				
+					
+					
+					
+					
+				
+			
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

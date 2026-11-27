@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel23_4EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" height="1280" width="720">
+	<e:Group horizontalCenter="0" height="434" width="720" verticalCenter="0">
+		<e:Image id="imgBg" y="0" touchEnabled="false" scale9Grid="88,64,2,3" source="hddt_zycs_mrsc_png" horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="" x="663" y="83" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:Scroller y="213" scrollPolicyH="auto" horizontalCenter="99">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:ArrayCollection>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				</e:ArrayCollection>
+		
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" gap="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnGoRecharge" label="Top-up any amount" y="354" x="362" skinName="BtnMin1_19"/>
+		<e:Button id="btnGet" label="Claim" y="354" x="362" skinName="BtnMin1_19"/>
+	</e:Group>
+</e:Skin>

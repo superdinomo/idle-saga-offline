@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WarZoneFbPanelEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group y="459" right="0">
+		<e:Group id="groupPk3v3">
+			<e:Button id="btnPk3v3" icon="mianui_zycs_txzz" y="11" scaleX="1" scaleY="1" skinName="Btn0Skin" x="24"/>
+			<e:Group id="groupPk3v3Time" x="0" y="104">
+			<e:Image y="0" source="qjzl_zycs_jx" x="0"/>
+			<e:Label id="lbPk3v3" text="End at 21:00" size="20" fontFamily="Times" textColor="0x13EE22" y="5" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+
+		<e:Group id="groupLeitai">
+			<e:Button id="btnLeitai" icon="mianui_zycs_zyzq" y="14" scaleX="1" scaleY="1" skinName="Btn0Skin" horizontalCenter="0"/>
+			<e:Group id="groupLeitaiTime" x="0" y="104">
+				<e:Image y="0" source="qjzl_zycs_jx" x="0"/>
+				<e:Label id="lbLeitai" text="End at 21:00" size="20" fontFamily="Times" textColor="0x13ee22" y="5" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupLanghun">
+			<e:Button id="btnLanghun" icon="mianui_zycs_lhzd" y="3" scaleX="1" scaleY="1" skinName="Btn0Skin" x="20"/>
+			<e:Group id="groupLanghunTime" x="0" y="104">
+			<e:Image y="0" source="qjzl_zycs_jx" x="0"/>
+			<e:Label id="lbLanghun" text="End at 21:00" size="20" fontFamily="Times" textColor="0x13EE22" y="5" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupGjs">
+			<e:Button id="btnGjs" icon="mianui_zycs_zdgjs" y="0" scaleX="1" scaleY="1" skinName="Btn0Skin" horizontalCenter="0"/>
+			<e:Group id="groupGjsTime" x="0" y="127">
+			<e:Image y="0" source="qjzl_zycs_jx" x="0"/>
+			<e:Label id="lbGjs" text="End at 21:00" size="20" fontFamily="Times" textColor="0x13EE22" y="5" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+
+	</e:Group>
+
+</e:Skin>

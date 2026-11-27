@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CheckBoxEUI" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" currentState="up" xmlns:e="http://ns.egret.com/eui">
+    <e:Image y="0" x="0" x.disabledAndSelected="0" y.disabledAndSelected="0"  source.upAndSelected="zuji_zycs_gouxuan02" source.downAndSelected="zuji_zycs_gouxuan02" source.disabledAndSelected="zuji_zycs_gouxuan02" source.up="zuji_zycs_gouxuan01" source.down="zuji_zycs_gouxuan01" source.disabled="zuji_zycs_gouxuan01" source="zuji_zycs_gouxuan01"/>
+    <e:Label id="labelDisplay" size="24" textAlign="center" verticalAlign="middle" fontFamily="Times"
+     x="33" text="0" y="1" textColor="0xcdc8b1"/>
+	<e:Image id="redPoint" right="-10" top="-10" source="mainui_zycs_hongdian" visible="false"/> </e:Skin>

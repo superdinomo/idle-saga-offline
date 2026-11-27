@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkBetItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group y="6" horizontalCenter="0">
+		<e:Image y="0" source="sjhj_zycs_tx" x="0"/>
+		<e:Image id="imgIcon" y="8" source="mianui_zycs_zhanshi0" width="76" height="76" x="10"/>
+	</e:Group>
+
+	<e:Label id="lbName" fontFamily="Times" size="20" y="102" text="GGGGGGGGGGG" textAlign="center" horizontalCenter="0" x="172" textColor="0xebdcb4" width="171"/>
+	<e:Label id="lbLk" fontFamily="Times" size="24" y="120" text="Bye" textAlign="center" horizontalCenter="0" x="182" textColor="0xEBDCB4"/>
+	<e:Label id="lbPower" fontFamily="Times" size="20" y="145" text="CP: 99.9B" textAlign="center" textColor="0xF5E654" horizontalCenter="0.5" x="172"/>
+	<e:Group id="group" y="173" horizontalCenter="0">
+		<e:Image touchEnabled="false" top="3" left="0" x="0" y="5" source="zycs_320002"/>
+		<e:Label id="lbZs" size="20" fontFamily="Times" textAlign="left" text="0" x="35" touchEnabled="false" y="4" textColor="0xEBDCB4"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbYxz" fontFamily="Times" size="20" y="222" text="Already Bet" textAlign="center" horizontalCenter="0" x="182" textColor="0xf01414"/>
+	<e:Button id="btnBet" y="212" label="Bet" horizontalCenter="0" skinName="BtnMin1_2small"/>
+
+</e:Skin>

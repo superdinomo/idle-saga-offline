@@ -1,0 +1,57 @@
+<e:Skin class="GemPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134"
+        width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" y="43" scale9Grid="20,17,34,21"
+	         x="13"  source="bs_zycs_di_jpg"/>
+	<e:Image y="49" source="public_zycs_jlylk"  horizontalCenter="0"/>
+	<e:Group id="groupPower" y="64" horizontalCenter="0">
+		<e:Image x="0" y="2" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="powerBmp" x="75" y="0" text="100" font="powernum_fnt"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="110"  horizontalCenter="0" source="qianghua_zycs_diwen1"/>
+	<e:Image id="imgPos" y="114"  source="" horizontalCenter="2.5"/>
+<e:Component id="equipItem" y="304" skinName="GemEquipItemEUI" touchEnabled="false" x="291"/>
+	<e:Group id="groupItems" x="23" y="132">
+		<e:Component id="equipItem0" y="0" x="0" skinName="GemEquipItemEUI"     
+		             touchEnabled="true" />
+		<e:Component id="equipItem2" y="159" x="0" skinName="GemEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem3" y="318" x="0" skinName="GemEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem4" y="477" x="0" skinName="GemEquipItemEUI" touchEnabled="true" name="RING2"/>
+		<e:Component id="equipItem8" x="0" skinName="GemEquipItemEUI" touchEnabled="true" name="WEAPON2" y="636"/>
+		<e:Component id="equipItem1" y="0" x="537" skinName="GemEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem6" y="159" x="537" skinName="GemEquipItemEUI"      touchEnabled="true" />
+		<e:Component id="equipItem7" y="318" x="537" skinName="GemEquipItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem5" y="477" x="537" skinName="GemEquipItemEUI"      touchEnabled="true" />
+		<e:Component id="equipItem9" y="636" x="537" skinName="GemEquipItemEUI" touchEnabled="true"/>
+	</e:Group>
+	<e:Group id="groupGem" y="524" anchorOffsetX="0" anchorOffsetY="0" height="120" width="376" horizontalCenter="6">
+		<e:Component id="gemItem1" y="11" skinName="GemItemEUI" anchorOffsetX="0" touchEnabled="false" x="28" scaleX="1" scaleY="1"/>
+		<e:Component id="gemItem2" y="13" skinName="GemItemEUI" anchorOffsetX="0" touchEnabled="false" x="119" scaleX="1" scaleY="1"/>
+		<e:Component id="gemItem3" y="13" skinName="GemItemEUI" anchorOffsetX="0" touchEnabled="false" x="209" scaleX="1" scaleY="1"/>
+		<e:layout>
+		<e:HorizontalLayout gap="-5"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="789" source="qianghua_zycs_diwen2" anchorOffsetX="0" horizontalCenter="0.5"/>
+	<e:Label id="lbLevel" text="Gem Level: 99" y="452" size="24" fontFamily="Times"  textColor="0xe6dcb8" horizontalCenter="0"/>
+	<e:Label id="lbGem" text="Glowing Gem" y="673" size="30" fontFamily="Times"  textColor="0xf5e65a" horizontalCenter="0"/>
+	<e:Group id="groupAttr" width="340" height="116" y="802" anchorOffsetX="0" anchorOffsetY="0" x="190">
+		<e:Component id="gemAttr1" y="21" anchorOffsetX="0" touchEnabled="false" x="34" skinName="GemDescItemEUI" scaleX="1" scaleY="1"/>
+		<e:Component id="gemAttr2" y="59" skinName="GemDescItemEUI" anchorOffsetX="0" touchEnabled="false" x="34" scaleX="1" scaleY="1"/>
+		<e:Component id="gemAttr3" y="98" skinName="GemDescItemEUI" anchorOffsetX="0" touchEnabled="false" x="34" scaleX="1" scaleY="1"/>
+		<e:layout>
+		<e:TileLayout verticalGap="-3"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnOneKeyUpLevel" label="Fast Upgrade" y="986" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" x="190"/>
+	<e:Button id="btnOneKey" label="Inlaid All" y="986" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" x="381"/>
+	<e:Button id="btnadd" label="" y="152" skinName="Btn0Skin" icon="gem1_zycs_json.bs_zycs_jc" scaleX="0.8" scaleY="0.8" horizontalCenter="0.5" visible="false"/>
+	<e:Component id="comRankBarEff" y="149" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" horizontalCenter="0.5"/>
+	<e:Label id="lbRank" text="Gem Master T0" y="265" fontFamily="Times" size="22" textColor="0xFFD862" textAlign="center" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" horizontalCenter="0.5"/>
+	<e:Component id="actRedPointGoto" y="969" x="560" skinName="ActRedPointGotoEUI" touchEnabled="true"/>
+</e:Skin>

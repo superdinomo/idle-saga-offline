@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem36_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" scale9Grid="88,65,529,55" source="jsdd_zycs_pmdi"/>
+	<e:Label id="lbRank" text="The 4th Place" fontFamily="Times" size="24" textAlign="left" y="10" textColor="0xf5e65a" x="90"/>
+	<e:Image id="imgRank" y="10" x="84" source="qqsh_zycs_pm2"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="10" y="37.6" scaleX="0.9" scaleY="0.9">
+		<e:List id="list1" itemRendererSkinName="ItemSkin" y="-1.25">
+			<e:layout>
+				<e:HorizontalLayout gap="6" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="2"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object />
+					<e:Object />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="12" horizontalCenter="208">
+		<e:Image y="0" x="21" source="qqsh_zycs_shjl"/>
+		<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="0" y="41" scaleX="0.9" scaleY="0.9">
+			<e:List id="list2" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="6" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="2"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:layout>
+			<e:VerticalLayout verticalAlign="middle" horizontalAlign="center" gap="-5"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

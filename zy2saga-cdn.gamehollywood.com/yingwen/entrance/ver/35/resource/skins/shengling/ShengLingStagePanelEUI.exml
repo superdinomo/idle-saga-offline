@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengLingStagePanelEUI" width="720" height="1134" currentState="normal" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="normal,max" >
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image touchEnabled="false" x="13" y="42" source="shengling_zycs_bg3_jpg"/>
+		<e:Group id="groupMc" width="0" height="0" y="401" x="360"/>
+		<e:Scroller id="scroller" y="53" x="9" width="703" height="138">
+		<e:List id="list" itemRendererSkinName="ShengLingItemEUI">
+			<e:layout>
+			<e:HorizontalLayout gap="-25"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+		<e:Image y="179" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="197" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Image y="248" source="public_zycs_di01" x="217"/>
+		<e:Group y="256" horizontalCenter="0.5">
+			<e:Image y="10" x="10" source="shengling_zycs_jie"/>
+			<e:BitmapLabel id="bpmJ" x="71" text="6" y="29" font="shenglingnum_fnt"/>
+
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+
+
+
+		<e:Image y="577" x="11" source="em_zycs_k5" height="312" scale9Grid="310,77,93,96"/>
+
+
+		<e:Group y="543" horizontalCenter="0">
+			<e:Image y="0" source="pubilc_zycs_hengdikuang" left="-20" right="-20"/>
+			<e:Image id="imgName" source="shengling_zycs_t1" y="15" horizontalCenter="0"/>
+		</e:Group>
+
+		<e:Image y="608" source="shengling_zycs_zsjn" x="313"/>
+		<e:Image y="611" source="liuguang_zycs_huawen" scaleX="-1" x="594"/>
+		<e:Image y="611" source="liuguang_zycs_huawen" x="126"/>
+
+		<e:Image y="668" x="346" source="qianghua_zycs_next" visible.max="false"/>
+		<e:Label id="lbCurSkillName" text="M99 Lv.99" y="638" size="20" fontFamily="Times" textAlign="left" x="102" lineSpacing="5" textColor="0xff9b0f" x.max="240"/>
+		<e:Label id="lbNextSkillName" text="M99 Lv.99" y="638" size="20" fontFamily="Times" textAlign="left" x="415" lineSpacing="5" textColor="0xff9b0f" visible.max="false"/>
+		<e:Label id="lbCurSkill" text="M99 Lv.99" y="667" size="20" fontFamily="Times" textAlign="left" x="102" lineSpacing="5" textColor="0xcdc8be" width="240" x.max="240"/>
+		<e:Label id="lbNextSkill" text="M99 Lv.99" y="667" size="20" fontFamily="Times" textAlign="left" x="415" lineSpacing="5" textColor="0xcdc8be" width="240" visible.max="false"/>
+
+
+		<e:Image y="747" source="shengling_zycs_jjsx" x="312"/>
+		<e:Image y="750" source="liuguang_zycs_huawen" scaleX="-1" x="594"/>
+		<e:Image y="750" source="liuguang_zycs_huawen" x="126"/>
+
+		<e:Image y="809" x="346" source="qianghua_zycs_next" visible.max="false"/>
+		<e:Label id="lbCurAttr" text="Min ATK: 140000" y="784" size="20" fontFamily="Times" textAlign="left" x="145" lineSpacing="5" textColor="0xcdc8be" x.max="263"/>
+		<e:Label id="lbNextAttr" text="M99 Lv.99" y="784" size="20" fontFamily="Times" textAlign="left" x="434" lineSpacing="5" textColor="0x13ee22" visible.max="false"/>
+		<e:Group id="groupConsu" y="899" horizontalCenter="0" visible.max="false">
+		<e:Image id="imgConsu" y="0" x="0" source="zycs_341701"/>
+		<e:Label id="lbConsu" text="0/1" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="40" y="6"/>
+		</e:Group>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="936" x="286" label="Advance" visible.max="false"/>
+		<e:Image id="imgYml" touchEnabled="false" y="925" source="bxsb_zycs_ymj" x="299" visible.normal="false"/>
+
+	</e:Group>
+
+</e:Skin>

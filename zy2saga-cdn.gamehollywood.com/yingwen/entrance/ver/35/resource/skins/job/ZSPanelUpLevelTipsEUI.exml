@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZSPanelUpLevelTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" verticalCenter="29" width="720" horizontalCenter="0" height="528">
+		<e:Image id="background" x="0" anchorOffsetY="0" y="0" source="zhuansheng_zycs_zsdi_png"/>
+		<e:Group id="groupMC" width="0" height="0" y="52" x="198"/>
+		<e:Image id="imgJob" source="zycs_zsjob2_png" x="216" verticalCenter="-88.5"/>
+		<e:Image id="imgTitle" y="-42" source="zhuansheng_zycs_zscg_png" x="12"/>
+		<e:Button id="closeBtn" label="" x="665" y="9" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:Group id="groupZsLevel" x="0" y="94">
+			<e:Image y="0" x="35" source="zhuansheng_zycs_xinxi"/>
+			<e:BitmapLabel id="bitNextLevel" y="6" font="zhuansnum_fnt" text="15c1z" left="232"/>
+			<e:BitmapLabel id="bitCurLevel" y="6" font="zhuansnum_fnt" text="15c1z" right="235"/>
+		</e:Group>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItem1EUI" y="153" horizontalCenter="-152">
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+			
+			
+				
+				
+				
+			
+			
+		</e:DataGroup>
+		<e:Group id="groupItem" x="63" y="249" width="233">
+			<e:Label text="Obtained Secrets" y="5" size="20" fontFamily="Times" x="-20" textColor="0xffffff"/>
+			<e:Image x="0" source="fuwen_zycs_kuang01_01" y="30"/>
+			<e:Image id="imgSkillIcon" width="85" height="85" x="6" y="36" source=""/>
+			<e:Label id="lbSkillName" text="Skill Gem" y="131" size="24" fontFamily="Times" textColor="0xFF9B0F" horizontalCenter="-69.5"/>
+			<e:Label text="Artifact Gained" y="5" size="20" fontFamily="Times" x="143" textColor="0xffffff"/>
+			<e:Component id="item2" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="157" y="32"/>
+			<e:Label id="lbItem2Name" text="Skill Gem" y="131" size="24" fontFamily="Times" textColor="0xFF9B0F" horizontalCenter="87"/>
+		</e:Group>
+		<e:Group id="groupBtn" x="293" y="444">
+			<e:Label id="lbTimer" text="Automatically closed after 7 seconds" y="64" size="20" fontFamily="Times" scaleX="1" scaleY="1" textColor="0x5ac832" x="-93"/>
+			<e:Button id="closeBtn0" y="0" label="Confirm" skinName="BtnMin1_1" x="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

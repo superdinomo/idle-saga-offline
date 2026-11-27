@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel26_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134"  width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="1" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="40" x="14" source="hddt_zycs_tqdh_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt"/>
+
+	<e:Image touchEnabled="false" source="public_zycs_fgqy" y="1010" x="13" pixelHitTest="true"/>
+
+	<e:Label y="175" text="Event Time:" fontFamily="Times" size="20" x="53" lineSpacing="10" textColor="0xFFFFFF"/>
+	<e:Label id="lbTime" y="175" text="0" fontFamily="Times" size="20" x="153" lineSpacing="10" textColor="0x13EE22"/>
+
+	<e:Scroller id="scroller" height="739" scrollPolicyH="off" scrollPolicyV="auto" y="214" x="21" width="678" anchorOffsetY="0">
+		<e:List id="list" scrollEnabled="false" itemRendererSkinName="ActItem26_1EUI" useVirtualLayout="false">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2" horizontalGap="6" verticalGap="7"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+
+
+
+
+	<e:Group id="groupItems" y="966" right="23">
+		<e:Group y="0" x="0">
+			<e:Image id="imgConsume1" x="0" y="0" source="zycs_340036"/>
+			<e:Label id="lbJiFen1" text="Exploration Point: 10" y="4" size="24" fontFamily="Times" x="35" textColor="0xe3d7be"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="0" x="173">
+			<e:Image id="imgConsume2" x="0" y="0" source="zycs_340036"/>
+			<e:Label id="lbJiFen2" text="Exploration Point: 1000000" y="4" size="24" fontFamily="Times" x="35" textColor="0xe3d7be"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="14"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnhuoqutjing" y="1020" label="Get Items" horizontalCenter="0.5" skinName="BtnMin1_1"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+
+
+
+</e:Skin>

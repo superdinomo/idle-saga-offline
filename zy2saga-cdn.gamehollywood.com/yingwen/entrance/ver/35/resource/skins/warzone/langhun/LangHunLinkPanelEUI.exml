@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunLinkPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+    <w:Config id="15af9c70173" />
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="42" source="lhzd_zycs_bg1_jpg"/>
+	<e:Image touchEnabled="false" y="642" source="lhzd_zycs_hdjl" horizontalCenter="0"/>
+	<e:Label text="Rules: " x="30" y="54" size="22" textAlign="left" fontFamily="Times" lineSpacing="3" textColor="0xf5e65a"/>
+	<e:Label id="lbDec" text="Ending Countdown of This Season: H M S\nTry" x="27" y="87" size="20" textAlign="left" fontFamily="Times" textColor="0xffffff" lineSpacing="3" width="671" wordWrap="true"/>
+	<e:Button id="btnRank" y="459" icon="lhzd_zycs_c1" skinName="Btn0Skin" x="596"/>
+	<e:Button id="btnAward" y="570" icon="lhzd_zycs_c2" skinName="Btn0Skin" x="596"/>
+	<e:Scroller y="681" scrollPolicyH="off" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="20" verticalGap="20" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupNotOpen" y="948" horizontalCenter="0" visible="false">
+		<e:Label text="Open" x="0" y="0" size="24" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0x13ee22"/>
+		<e:Label text="from 20:30 to 21:00" y="24" size="24" textAlign="left" fontFamily="Times" lineSpacing="5" horizontalCenter="0" textColor="0x13ee22"/>
+		<e:Label text="every Tuesday" x="10" y="10" size="24" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0x13ee22"/>
+		<e:layout>
+		<e:HorizontalLayout gap="4"/>
+		</e:layout>
+	</e:Group>
+
+
+	<e:Group id="groupPk" y="948" horizontalCenter="0">
+		<e:Label text="The Wolf Soul Fight has begun" y="0" size="24" textAlign="left" fontFamily="Times" lineSpacing="5" horizontalCenter="0" textColor="0x13ee22"/>
+
+	</e:Group>
+
+
+
+	<e:Button id="btnSend" y="1006" label="Enter" skinName="BtnMin1_2" x="286"/>
+	<e:Button id="btnLink" y="1006" label="Go to Battle Zone" skinName="BtnMin1_2" x="286"/>
+	<e:Label id="lbYjs" text="The Wolf Soule Fight is over!" y="998" size="24" textAlign="left" fontFamily="Times" textColor="0xf01414" horizontalCenter="0"/>
+</e:Skin>

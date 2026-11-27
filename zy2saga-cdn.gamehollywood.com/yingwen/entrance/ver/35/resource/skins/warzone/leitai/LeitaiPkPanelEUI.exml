@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiPkPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+    <w:Config id="15af9c70173" />
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="34" source="zylts_zycs_bg3_jpg"/>
+	<e:Image touchEnabled="false" source="public_zycs_greybg1" scale9Grid="2,2,16,16" width="697" x="12" height="754" y="77"/>
+	<e:Image touchEnabled="false" y="963" source="ldsz_zycs_fgx" horizontalCenter="0" width="715" scale9Grid="209,0,21,5"/>
+	<e:Label text="The diamonds spent in this mode won't be counted towards the Top-up event" fontFamily="Times" size="20" textAlign="left" textColor="0xCDC8BE" y="46" x="30"/>
+	<e:Scroller scrollPolicyH="off" horizontalCenter="0.5" height="754" y="77">
+		<e:List id="list" itemRendererSkinName="LeitaiPkItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="10"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" horizontalCenter="0.5" source="ldsz_zycs_fgx1" scale9Grid="284,0,37,2" width="702" y="830" height="3"/>
+	<e:ProgressBar id="progBar" y="874" value="1" slideDuration="0" maximum="8" skinName="ProgressBarEUI2" width="664" x="28"/>
+	<e:Image x="86" y="868" source="zylts_zycs_z4"/>
+	<e:Image x="168" y="868" source="zylts_zycs_z4"/>
+	<e:Image x="249" y="868" source="zylts_zycs_z4"/>
+	<e:Image x="331" y="868" source="zylts_zycs_z4"/>
+	<e:Image x="413" y="868" source="zylts_zycs_z4"/>
+	<e:Image x="494" y="868" source="zylts_zycs_z4"/>
+	<e:Image x="576" y="868" source="zylts_zycs_z4"/>
+	<e:Image id="imgStar0" x="94" y="871" source="zylts_zycs_z1"/>
+	<e:Image x="176" y="871" id="imgStar1" source="zylts_zycs_z1"/>
+	<e:Image x="257" y="871" id="imgStar2" source="zylts_zycs_z2"/>
+	<e:Image x="339" y="871" id="imgStar3" source="zylts_zycs_z2"/>
+	<e:Image x="421" y="871" id="imgStar4" source="zylts_zycs_z1"/>
+	<e:Image x="502" y="871" id="imgStar5" source="zylts_zycs_z1"/>
+	<e:Image x="584" y="871" id="imgStar6" source="zylts_zycs_z1"/>
+	<e:Group x="98" y="841">
+		<e:Label text="1v2" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="0" y="0"/>
+		<e:Label text="1v3" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="82" y="0"/>
+		<e:Label text="1v4" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="164" y="0"/>
+		<e:Label text="1v5" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="246" y="0"/>
+		<e:Label text="1v6" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="328" y="0"/>
+		<e:Label text="1v7" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="410" y="0"/>
+		<e:Label text="1v8" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="492" y="0"/>
+	</e:Group>
+	<e:Group x="86" y="932">
+		<e:Label text="20:43" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" y="0" x="0"/>
+		<e:Label text="20:45" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" y="0" x="82"/>
+		<e:Label text="20:47" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" y="0" x="164"/>
+		<e:Label text="20:49" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" y="0" x="245"/>
+		<e:Label text="20:51" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" y="0" x="327"/>
+		<e:Label text="20:53" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" y="0" x="409"/>
+		<e:Label text="20:55" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" y="0" x="491"/>
+	</e:Group>
+	<e:Group x="29" y="1059">
+
+		<e:Label text="Double diamonds" fontFamily="Times" size="20" textAlign="left" textColor="0x13ee22"/>
+		<e:Label text=" for successful bets, " fontFamily="Times" size="20" textAlign="left" textColor="0xCDC8BE"/>
+		<e:Label text="full rebate for unsuccessful bets" fontFamily="Times" size="20" textAlign="left" textColor="0x13ee22"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbLun" text="Round 1: 1v2" fontFamily="Times" size="20" textAlign="left" y="990" x="28" textColor="0xcdc8be"/>
+	<e:Label id="lbCount" text="Remaining Bet Attempts This Round: 3/3" fontFamily="Times" size="20" textAlign="left" y="1025" x="28" textColor="0xcdc8be"/>
+	<e:Button id="btnScoreRank" y="986" icon="zylts_zycs_m2" skinName="Btn0Skin" x="502"/>
+	<e:Button id="btnAwardRank" y="973" icon="zylts_zycs_m1" skinName="Btn0Skin" x="606"/>
+</e:Skin>

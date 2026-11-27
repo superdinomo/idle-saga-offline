@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoEquipPanelItem1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="95" height="124">
+	<w:Config id="1586b362dfe"/>
+	<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Label id="lbName" text="Item Name" y="96" size="18" fontFamily="Times" horizontalCenter="-0.5" width="134" textAlign="center" height="40"/>
+
+</e:Skin>

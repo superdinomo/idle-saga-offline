@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WCLevelPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="41" touchEnabled="false" source="msbd_zycs_bg1_jpg" x="13"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="65" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Label id="btnAttr" text="Total Bonus" x="604" y="82" size="20" textAlign="left" fontFamily="Times" textColor="0x11F51C"/>
+	<e:Component id="comDaShi" y="749" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" x="33"/>
+	<e:Label id="lbDaShi" text="Footprint Master - T0" y="845" fontFamily="Times" size="20" textColor="0xFFD862" textAlign="center" verticalAlign="middle" width="166" x="23"/>
+	<e:Label id="lbCuAttr" text="Current Stats" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" textColor="0xE3D7BE" x="202" width="490" top="746"/>
+	<e:Label id="lbNextNeed" text="Next Stage" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" textColor="0xE3D7BE" x="202" width="490" top="790"/>
+	<e:Label id="lbNextAttr" text="Next Tier Stats" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" textColor="0xE3D7BE" x="202" width="490" top="834"/>
+
+
+	<e:Scroller id="scroller" y="120" height="607" x="30" width="659">
+		<e:List id="list" itemRendererSkinName="WCLevelItemEUI">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="3" horizontalGap="22" verticalGap="12"/>
+			</e:layout>
+
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:TabBar id="tab" y="894" selectedIndex="0" itemRendererSkinName="WCLevelTabItemEUI" x="21" width="675">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="1"/>
+		</e:layout>
+	</e:TabBar>
+
+</e:Skin>

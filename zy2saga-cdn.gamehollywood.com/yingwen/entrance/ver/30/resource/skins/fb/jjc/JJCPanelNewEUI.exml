@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JJCPanelNewEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="41" source="jjc_zycs_di_jpg"/>
+	<e:Button id="btnShop" label="Honor Shop" x="460" y="54" icon="jjc_zycs_rysd" skinName="Btn0Skin"/>
+	<e:Button id="btnReward" label="Settlement Rewards" x="561" y="54" icon="jjc_zycs_jljs" skinName="Btn0Skin"/>
+	<e:Image fillMode="clip" source="jjc_zycs_dz1" y="223" x="269"/>
+	<e:Image fillMode="clip" y="353" x="48" source="jjc_zycs_dz2"/>
+	<e:Image fillMode="clip" y="443" x="489" source="jjc_zycs_dz3"/>
+	<e:Component id="item1" y="238" x="11" skinName="JJCMCItemEUI"/>
+	<e:Component id="item0" y="127" skinName="JJCMCItemEUI" x="231"/>
+	<e:Component id="item2" y="238" skinName="JJCMCItemEUI" x="451"/>
+	<e:Image y="603" source="jjc_zycs_wzd1" horizontalCenter="0.5" width="494"/>
+	<e:Image x="11" height="165" y="727" source="zz_zycs_dadi" scale9Grid="149,57,32,342" width="694"/>
+	<e:Label id="lbCount" text="Challenge Attempts: 10/10" x="202" y="618" size="24" fontFamily="Times" textColor="0xe6dcb8"/>
+	<e:Button id="btnBuyCount" label="" x="472" y="607" skinName="Btn0Skin" icon="public_zycs_jia"/>
+	<e:Button id="btnRefresh" label="Refresh Opponents" y="659" skinName="BtnMin1_1" anchorOffsetX="0" horizontalCenter="2.5"/>
+	<e:Button id="btnRank" label="" x="573" y="735" skinName="Btn0Skin" icon="jjc_zycs_phb"/>
+	<e:Button id="btnCD" x="420" skinName="Btn0Skin" icon="jlts_zycs_right" y="674"/>
+	<e:Component id="guaJiZhuShouGoto" touchEnabled="true" skinName="GuaJiZhuShouGotoEUI" x="548" y="624" currentState="emo"/>
+	<e:Label id="lbTime" text="09:09:01" y="678" size="24" fontFamily="Times" textColor="0xff0000" textAlign="center" width="144" x="277"/>
+	<e:Group y="764" right="151">
+		<e:Label id="lbRank" text="Current Ranking: 1688" x="0" y="0" size="22" fontFamily="Times" textColor="0xe6dcb8"/>
+		<e:Label id="lbBest" text="All-time Highest: 998" x="0" y="35" size="22" fontFamily="Times" textColor="0xe6dcb8"/>
+		<e:Label id="lbPower" text="My CP: 9998" x="0" y="72" size="22" fontFamily="Times" textColor="0xe6dcb8"/>
+		<e:layout>
+			<e:VerticalLayout gap="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="Ranking Rewards" x="81" y="739" size="24" fontFamily="Times" textColor="0xE6DCB8"/>
+	<e:Label text="Ranking rewards will be issued via mail at 21:00 daily. The higher the ranking, the more the diamonds!" y="894" size="20" fontFamily="Times" textColor="0xE6DCB8" x="32" width="663"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" y="782" x="60">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="26"/>
+		</e:layout>
+		
+			
+			
+			
+			
+		
+		</e:List>
+	</e:Scroller>
+</e:Skin>

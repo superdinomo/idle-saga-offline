@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarResultLoseEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720" height="1280" states="lose,ping" >
+	<e:Group width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="0" source="js_zycs_qzh_png" source.ping="js_zycs_qz_png"/>
+		<e:Image id="imgTitle" y="128" anchorOffsetY="0" source="js_zycs_sb_png" x="236" source.ping="js_zycs_pg_png"/>
+		<e:Image x="68" y="306" source="js_zycs_hdwp2"/>
+
+
+
+		<e:Group id="groupText" x="68" y="240">
+			<e:Image x="0" y="0" source="js_zycs_zygxd"/>
+			<e:Image x="0" y="35" source="js_zycs_smjf"/>
+			<e:Label id="lbZygxd" text="+999" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="139" textColor="0xE3D7BE" y="1"/>
+			<e:Label id="lbjifen" text="+999" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="139" textColor="0xE3D7BE" y="37"/>
+		</e:Group>
+
+		<e:Scroller height="124" y="341" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin" height="343">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+
+		</e:List>
+		</e:Scroller>
+		<e:Label id="lbTips" text="Challenge Attempts are used up today" fontFamily="Times" size="30" textAlign="left" verticalAlign="middle" y="255" textColor="0xFF9B0F" horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="Exit" anchorOffsetX="0" anchorOffsetY="0" y="928" icon="" x="244" skinName="BtnMin1_6"/>
+		<e:Component id="resultCreateRole" y="455" skinName="ResultCreateRoleEUI" horizontalCenter="0"/>
+	</e:Group>
+
+
+
+
+</e:Skin>

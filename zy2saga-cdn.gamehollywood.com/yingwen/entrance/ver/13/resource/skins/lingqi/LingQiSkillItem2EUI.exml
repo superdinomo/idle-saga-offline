@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LingQiSkillItem2EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="100">
+	<w:Config id="15d981d06da" />
+	<e:Component id="item" x="0" skinName="SkillPassivityItemEUI"/>
+	<e:Label id="lbName" text="Skill name Skill name" y="92" size="18" textAlign="center" fontFamily="Times" textColor="0xf5e65a" horizontalCenter="0" width="136" wordWrap="true"/>
+
+
+</e:Skin>

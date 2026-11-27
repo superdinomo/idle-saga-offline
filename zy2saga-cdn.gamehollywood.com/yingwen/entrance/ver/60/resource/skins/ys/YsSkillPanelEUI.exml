@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsSkillPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="42" x="13" source="ys_zycs_bg6_jpg"/>
+	<e:Image id="imgBg" touchEnabled="false" y="42" source="ys_zycs_ysjn0_jpg" x="13"/>
+	<e:TabBar id="listTab" selectedIndex="0" y="59" itemRendererSkinName="YsTabItemEUI" x="37">
+		<e:layout>
+		<e:HorizontalLayout gap="6"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<e:Image y="179" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="197" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Button id="btnZuhe" x="585" y="241" skinName="Btn0Skin" icon="ys_zycs_ysgm"/>
+	<e:Image id="imgLine0" y="365" source="ys_zycs_hx" x="143" rotation="10"/>
+	<e:Image id="imgLine1" y="537" x="143" source="ys_zycs_hx" rotation="-10"/>
+	<e:Image id="imgLine2" y="555" x="143" source="ys_zycs_hx" rotation="10"/>
+	<e:Image id="imgLine3" y="723" x="143" source="ys_zycs_hx" rotation="-10"/>
+	<e:Component id="item0" y="274" x="74" skinName="YsSkillItemEUI"/>
+	<e:Component id="item1" y="371" x="108" skinName="YsSkillItem2EUI"/>
+	<e:Component id="item2" y="467" x="74" skinName="YsSkillItemEUI"/>
+	<e:Component id="item3" y="562" x="108" skinName="YsSkillItem2EUI"/>
+	<e:Component id="item4" y="654" x="74" skinName="YsSkillItemEUI"/>
+
+
+	<e:Group x="39" y="877">
+		<e:Label id="lbLvDec" text="Z-Gold Deity Tier reaches T1 M1" y="0" size="24" fontFamily="Times" textAlign="center" x="0" textColor="0xebdcb4"/>
+		<e:Label id="lbLvCount" text="1/1" y="0" size="24" fontFamily="Times" textAlign="center" x="340" textColor="0xebdcb4"/>
+		<e:layout>
+			<e:HorizontalLayout gap="6"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Group id="groupConsu" y="906" horizontalCenter="0">
+		<e:Image id="imgConsu" x="0" y="0" source="zycs_320002"/>
+		<e:Label id="lbConsu" text="001" y="16" fontFamily="Times" size="24" textAlign="left" x="11" textColor="0xEBDCB4"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnSend" y="942" label="Unlock" skinName="BtnMin1_1mid" x="300"/>
+	<e:Image id="imgYml" touchEnabled="false" y="890" source="bxsb_zycs_ymj" x="299"/>
+</e:Skin>

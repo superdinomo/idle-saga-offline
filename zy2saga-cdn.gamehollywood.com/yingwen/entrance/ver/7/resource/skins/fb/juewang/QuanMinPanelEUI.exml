@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QuanMinPanelEUI" currentState="die" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" states="level,die,normal"  height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="40" x="13" source="qm_zycs_bg_jpg"/>
+	<e:CheckBox id="checkBoxGuanZhu" label="Follow" x="599" skinName="CheckBoxEUI" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="363"/>
+	<e:Scroller id="scroller" y="54" height="150" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" width="588" horizontalCenter="-3" scrollPolicyV="off">
+		<e:List id="list" itemRendererSkinName="QuanMinPanelItemEUI">
+		
+			
+			<!--
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+			
+		
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnLeft" label="" y="90" skinName="Btn0Skin" icon="zycs_zyzl_qieye" rotation="180" anchorOffsetX="77" anchorOffsetY="70" x="11" scaleX="0.8" scaleY="0.8"/>
+	<e:Button id="btnRight" label="" y="90" skinName="Btn0Skin" icon="zycs_zyzl_qieye" x="648" scaleX="0.8" scaleY="0.8"/>
+	<e:Group x="93" y="256">
+		<e:Image y="0" x="1" source="hddt_zycs_bsk1"/>
+		<e:Image id="imgBossIcon" source="" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="qm_zycs_yjs" visible.normal="false" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="lbLastName" y="263" text="No.1 of the last round: Player Name" fontFamily="Times" size="24" lineSpacing="0" textColor="0xE3D7BE" x="242"/>
+
+
+
+
+
+
+
+
+	<e:Label id="lbName" y="296" text="0" fontFamily="Times" size="24" lineSpacing="0" x="242" textColor="0x13ee22"/>
+	<e:Label id="lbZHengDuoCount" y="330" text="Looting players: 99" fontFamily="Times" size="24" lineSpacing="0" textColor="0xE3D7BE" x="242"/>
+	<e:ProgressBar id="barhp" x="242" y="372" value="100" anchorOffsetX="0" anchorOffsetY="0" slideDuration="0" skinName="ProgressBarEUI11" width="345" visible.die="false"/>
+	<e:Label id="lbTimer" y="366" text="Defeated" fontFamily="Times" size="24" visible.level="false" x="242" visible.normal="false" textColor="0xff0000"/>
+	<e:Label y="411" text="No.1 gets the big prize. Others get basic rewards" fontFamily="Times" size="24" lineSpacing="0" textColor="0xe3d7be" horizontalCenter="0" width="600"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Image y="468" x="312" source="qm_zycs_dlyl"/>
+	<e:Image x="122" y="469" source="liuguang_zycs_huawen"/>
+	<e:Image x="599" y="469" source="liuguang_zycs_huawen" scaleX="-1"/>
+
+
+
+	<e:Scroller y="509" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" maxWidth="560" horizontalCenter="0">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:TileLayout horizontalGap="50" requestedColumnCount="4" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12" verticalGap="12"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+
+	<e:Button id="btnChallenge" label="Challenge" anchorOffsetX="0" anchorOffsetY="0" y="768" visible.level="false" horizontalCenter="-1.5" skinName="BtnMin1_2"/>
+
+	<e:Label id="lbLevel" y="789" text="Unlock at Lv.100" fontFamily="Times" size="24" textColor="0xF01414" horizontalCenter="0" visible.die="false" visible.normal="false"/>
+	<e:Component id="guaJiZhuShouGoto" touchEnabled="true" skinName="GuaJiZhuShouGotoEUI" x="506" y="740" currentState="emo"/>
+
+
+
+
+	<e:Group y="849" horizontalCenter="0">
+		<e:Label y="0" text="Challenge Attempts:" fontFamily="Times" size="24" x="0" textColor="0xE3D7BE"/>
+		<e:Label id="challengeCountTxt" y="0" text="0/10" fontFamily="Times" size="24" x="111" textColor="0x5AC832"/>
+		<e:Label id="timeTxt" y="2" text="(Restore 1 point every hour)" fontFamily="Times" size="24" textColor="0xE3D7BE" x="177"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+
+	<e:CheckBox id="checkBoxAuto" y="896" skinName="CheckBoxEUI" label="Auto-challenge" x="24"/>
+	<e:Label id="labelDesc" y="896" text="(Activate Premium Privilege to unlock)" fontFamily="Times" size="24" x="235" textColor="0xF01414"/>
+
+
+
+
+</e:Skin>

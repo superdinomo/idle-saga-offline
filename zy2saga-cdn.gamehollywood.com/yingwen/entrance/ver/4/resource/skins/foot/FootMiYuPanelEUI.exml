@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FootMiYuPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0" width="720">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image id="imgBg" touchEnabled="false" y="42"  source="zuji_zycs_bg2_jpg" x="13"/>
+		<e:Group id="groupEff" width="0" height="0" y="470" x="360"/>
+		<e:Group id="groupMc" width="0" height="0" y="440" x="360"/>
+		<e:Component id="item0" y="330" anchorOffsetX="0" x="7"  skinName="FootEquipItemEUI"/>
+		<e:Component id="item1" y="161" anchorOffsetX="0" touchEnabled="true" x="82"  skinName="FootEquipItemEUI"/>
+		<e:Component id="item2" y="91" anchorOffsetX="0" touchEnabled="true"  skinName="FootEquipItemEUI" x="295"/>
+		<e:Component id="item3" y="161" anchorOffsetX="0"  skinName="FootEquipItemEUI" x="502"/>
+		<e:Component id="item4" y="330" anchorOffsetX="0" x="577"  skinName="FootEquipItemEUI"/>
+
+		<e:Image y="47" source="public_zycs_jlylk"  horizontalCenter="0"/>
+		<e:Group y="66" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl" />
+			<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4" />
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Label id="lbSkillLv" text="Still need 5 levels to activate skill [Zeal] Lv.2" size="20" fontFamily="Times" width="413" textAlign="center"
+		         textColor="0xffffff"  horizontalCenter="0" bottom="624"/>
+		<e:Image y="512" source="jl_zycs_jnk" x="11" />
+		<e:Scroller id="scroller" y="523" x="56" width="598" height="111">
+			<e:List id="list" itemRendererSkinName="SkillPassivityItemEUI">
+				<e:layout>
+					<e:HorizontalLayout gap="22" paddingTop="10" paddingLeft="10" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="661" source="shenqi_zycs_sxjc" x="288" />
+		<e:Image y="664" source="liuguang_zycs_huawen" scaleX="-1" x="615" />
+		<e:Image y="664" source="liuguang_zycs_huawen" x="105" />
+		<e:Image source="shenqi_zycs_di3" x="11" scale9Grid="87,10,524,63" height="118"  y="693"/>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="710" horizontalCenter="0">
+			<e:layout>
+				<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2" />
+			</e:layout>
+			<!--<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>-->
+		</e:DataGroup>
+		<e:Label id="btnAttr" text="Total Bonus" x="600" y="658" size="20" textAlign="left" fontFamily="Times" textColor="0x11F51C"/>
+		<e:Button id="btnBag" x="26" y="60"  skinName="Btn0Skin" icon="zuji_zycs_mwbb"/>
+
+		<e:Group y="823" horizontalCenter="-2">
+			<e:Image id="imgConsu" y="0" x="0" source="zycs_360042"/>
+			<e:Label id="lbConsu" y="7" size="20" fontFamily="Times" textAlign="left" text="111/200" verticalAlign="top" lineSpacing="10" x="35" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Button id="btnSend" y="861" label="Fast Upgrade"  skinName="BtnMin1_1mid" x="300"/>
+		<e:Button id="helpBtn" x="16" y="-46" skinName="Btn0Skin" icon="jl_zycs_wenhao" />
+		<e:Image id="imgYml" touchEnabled="false" y="821" source="bxsb_zycs_ymj" x="299" />
+		<e:Scroller y="907" height="105" width="684" x="18">
+			<e:List id="listIcon" itemRendererSkinName="FootItemEUI">
+				<e:layout>
+					<e:HorizontalLayout gap="-17" paddingLeft="-10"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group x="57" y="831" visible="false">
+			<e:Button id="btnLeft" y="0" skinName="Btn0Skin" icon="zycs_zyzl_qieye" scaleX="-0.8" scaleY="0.8" x="0"/>
+			<e:Button id="btnRight" y="0" skinName="Btn0Skin" icon="zycs_zyzl_qieye" scaleX="0.8" scaleY="0.8" x="606"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

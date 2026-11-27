@@ -1,0 +1,73 @@
+<e:Skin class="ForgeBoostPanelEUI" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="max,normal,noequip,allMax"  height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="43" source="qh_zycs_bg_jpg" horizontalCenter="0"/>
+	<e:Image y="49" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group id="groupPower" y="65" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="1111123132" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="499"  source="qianghua_zycs_diwen1" x="164"/>
+	<e:Label id="lbname" text="0" y="506" size="20" anchorOffsetX="0" width="293" textAlign="center"
+	         fontFamily="Times" textColor="0xff9400"  x="214"/>
+	<e:Group y="659" x="142">
+		<e:Image y="0"
+		          source="qianghua_zycs_diwen2" anchorOffsetY="0" height="126"/>
+		<e:Image id="imgArrow" x="260" y="48" source="qianghua_zycs_next" visible.max="false"/>
+		<e:Label id="lbstrengthenlv" text="0" y="24" size="20" fontFamily="Times" textAlign="left"            x="69" textColor="0xaf9b73" visible="false"/>
+		<e:Label id="lbattr1" text="Stats +099999\nStats +099999" x="58" y="33" size="20" fontFamily="Times"            textAlign="left" textColor="0xaf9b73" horizontalCenter.max="0" x.normal="68" lineSpacing="20"/>
+		<e:Label id="lbstrengthenlvNext" text="0" x="319" y="24" size="20" fontFamily="Times"            textColor="0x5ac832" visible="false"/>
+		<e:Label id="lbNextAttr1" text="Stats +099999\nStats +099999" x="308" y="33" size="20" fontFamily="Times"            textColor="0x5ac832" visible.max="false" lineSpacing="20"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group height="29" y="605" x="236" visible.max="false">
+		<e:Image id="imgqhdj" x="0" y="0" source="qianghua_zycs_chenggonglv"/>
+		<e:BitmapLabel id="bitRate" x="350" y="265" text="0%" font="forgenum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="lbfull" y="1019" source="qianghua_zycs_qianghuadengjiyiman" x="269" visible.normal="false" visible.noequip="false"/>
+	<e:Component id="equipItem" y="352" skinName="ForgeItemEUI" touchEnabled="false" x="291"/>
+	<e:Group id="groupItems" x="23" y="132">
+		<e:Component id="equipItem0" y="0" x="0" skinName="ForgeItemEUI"     
+		             touchEnabled="true" />
+		<e:Component id="equipItem2" y="159" x="0" skinName="ForgeItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem3" y="318" x="0" skinName="ForgeItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem4" y="477" x="0" skinName="ForgeItemEUI" touchEnabled="true" name="RING2"/>
+		<e:Component id="equipItem8" x="0" skinName="ForgeItemEUI" touchEnabled="true" name="WEAPON2" y="636"/>
+		<e:Component id="equipItem1" y="0" x="537" skinName="ForgeItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem6" y="159" x="537" skinName="ForgeItemEUI"      touchEnabled="true" />
+		<e:Component id="equipItem7" y="318" x="537" skinName="ForgeItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem5" y="477" x="537" skinName="ForgeItemEUI"      touchEnabled="true" />
+		<e:Component id="equipItem9" y="636" x="537" skinName="ForgeItemEUI" touchEnabled="true"/>
+	</e:Group>
+	<e:Image height="164" y="810" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="392" x="164"/>
+	<e:Image x="179" y="845" source="qianghua_zycs_xiaohuacailiao"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="862" horizontalCenter="15">
+		<e:List id="listConsume" itemRendererSkinName="xhItemSkin">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" paddingLeft="30" paddingRight="30" gap="6"/>
+		</e:layout>
+		
+			
+			
+			
+			
+			
+			
+		
+		</e:List>
+	</e:Scroller>
+	<e:Component id="comDaRen" y="208" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" x="186"/>
+	<e:Component id="comDaShi" y="208" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" x="387"/>
+	<e:Label id="lbDaRen" text="Enhance Expert T0" y="323" fontFamily="Times" size="22" textColor="0xFFD862" textAlign="center" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" x="173"/>
+	<e:Label id="lbDaShi" text="Enhance Master T0" y="323" fontFamily="Times" size="22" textColor="0xFFD862" textAlign="center" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" x="374"/>
+	<e:Button id="btnboost" label="Enhance" y="1002" skinName="BtnMin1_1" x="140" visible.noequip="false" visible.allMax="false" visible.max="false"/>
+	<e:Button id="btnOneKey" label="Enhance All" y="1002" skinName="BtnMin1_1" visible.noequip="false" right="140" visible.allMax="false" visible.max="false"/>
+</e:Skin>

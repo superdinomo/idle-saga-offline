@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActPanel2_3EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="43" touchEnabled="false" pixelHitTest="true" source="hddt_zycs_svipfl_jpg" x="13"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_fsth"/>
+	<e:Image id="imgGG" y="103" pixelHitTest="true" touchEnabled="false" horizontalCenter="-13.5" source="hddt_zycs_svipsz1"/>
+	<e:Label id="lbTime" y="264" text="Time Remain:" fontFamily="Times" size="20" lineSpacing="10" x="313" textColor="0xe3d7be"/>
+	<e:Group id="groupIcon" width="0" x="239" y="681" height="0">
+	</e:Group>
+	<e:Image y="345" touchEnabled="false" x="32" source="hddt_zycs_svipdi"/>
+	<e:Image y="396" touchEnabled="false" x="405" source="vip_zycs_wpd" anchorOffsetY="0" height="317"/>
+	<e:Image id="imgName" x="48" source="hddt_zycs_sname1" y="441"/>
+	<e:List id="listAward" itemRendererSkinName="ItemSkin" x="440" y="454">
+		<e:ArrayCollection>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				</e:ArrayCollection>	<e:layout>
+		<e:TileLayout requestedRowCount="2" requestedColumnCount="2" horizontalGap="11" verticalGap="11" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+	</e:List>
+	<e:Group id="groupBuy" y="803" anchorOffsetX="0" width="392" anchorOffsetY="0" height="115" x="165">
+		<e:Button id="btnGetAward" label="100" y="14" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-1" skinName="BtnMin1_20"/>
+	</e:Group>
+	<e:Scroller id="menuScroller" height="153" width="692" y="933" horizontalCenter="0">
+		<e:List id="menuList" scrollEnabled="false" itemRendererSkinName="ActItem2_3EUI" useVirtualLayout="false">
+		<e:ArrayCollection>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				</e:ArrayCollection>	<e:layout>
+			<e:HorizontalLayout gap="-3"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="labelHasBuy" text="Pack Purchased" y="838" fontFamily="Times" size="24" textColor="0x5ac832" horizontalCenter="0"/>
+	<e:Image id="imgDesc" source="hddt_zycs_djyg" horizontalCenter="0" y="888"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<!--<e:Image x="0" y="-46" touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_Svip返利\SVIP返利.jpg" locked="true"/>-->
+</e:Skin>

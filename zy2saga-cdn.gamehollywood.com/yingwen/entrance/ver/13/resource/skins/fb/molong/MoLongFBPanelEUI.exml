@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MoLongFBPanelEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Button id="btnClose" label="" x="623" skinName="Btn0Skin" icon="public_zycs_lkfb" bottom="165" visible="false" />
+	<e:Group id="groupGuwu" width="82" height="86" y="463" anchorOffsetX="0" anchorOffsetY="0" right="14">
+		<e:Button id="btnCoinGuWu" label="" icon="em_zycs_zdgwtb" x="0" anchorOffsetX="0" anchorOffsetY="0"
+		          skinName="Btn0Skin" scaleX="1" scaleY="1" />
+		<e:Button id="btnGuild" label="" icon="shml_zycs_zmyq" x="0" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin"
+		          scaleX="1" scaleY="1" y="90" />
+		<e:Button id="btnWord" label="" icon="mlzc_zycs_kfyq" x="0" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin"
+		          scaleX="1" scaleY="1" y="181" />
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupFbDesc" y="19" left="4">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="shml_zycs_wzd"  width="308" scale9Grid="14,95,223,102" height="230"/>
+		<e:Label id="lbTime" text="Dungeon Time Remain: 06:39" x="12" y="14" size="20" textColor="0xe6dcb8" fontFamily="Times" />
+		<e:Label id="lbUseTime" text="Spent: 60s" x="12" y="65" size="20" textColor="0xE6DCB8" fontFamily="Times" />
+		<e:Label id="lbScore" text="Clear within 110s to get SSS Rating" x="12" y="40" size="20" textColor="0xE6DCB8" fontFamily="Times" />
+		<e:Label id="lbTiaoZhanType" text="More drops for higher grade" y="93" size="18" fontFamily="Times"  textColor="0xffffff" x="12" width="275"/>
+
+		<e:Scroller y="134" scrollPolicyH="off" scrollPolicyV="off" scaleX="0.7" scaleY="0.7" x="12">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group y="675" left="1">
+		<e:Button id="btnGuaji" y="0" label="Go to Center" icon="gzc_zycs_zddg" skinName="Btn0Skin" x="0" />
+		<e:Button id="btnStopGuaji" y="0" icon="csys_zycs_tzdg" skinName="Btn0Skin" x="0" />
+	</e:Group>
+	<e:Group y="2" right="3">
+		<e:Image x="7" y="0" scale9Grid="2,2,16,16" anchorOffsetX="0" anchorOffsetY="0" source="shml_zycs_txd" />
+		<e:Scroller y="3" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" width="326" x="0">
+			<e:List id="listrole" itemRendererSkinName="MoLongRoleEUI">
+				<e:layout>
+					<e:VerticalLayout gap="6" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupJiaCheng" y="379" height="70" anchorOffsetX="0" width="126" scaleX="1" scaleY="1" right="7">
+		<e:Image width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="equip_zycs_di"
+		         scale9Grid="8,8,54,50" visible="false" />
+		<e:Label id="lbjiacheng" text="0" y="23" size="20" textColor="0x5AC832" textAlign="right" fontFamily="Times"
+		         lineSpacing="5" right="1" />
+		<e:Label id="lbMoney" text="0" y="23" size="20" anchorOffsetX="0" anchorOffsetY="0" textAlign="right"
+		         fontFamily="Times" verticalAlign="middle" textColor="0xFFFFFF" width="170" right="105" visible="false" />
+		<e:Label id="lbMoney1" text="0" y="49" size="20" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Times"
+		         verticalAlign="middle" textColor="0xFFFFFF" width="170" textAlign="right" right="105" visible="false" />
+	</e:Group>
+</e:Skin>

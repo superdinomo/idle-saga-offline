@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjPkResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1" />
+	<e:Group id="group" horizontalCenter="0" height="1134" width="620" verticalCenter="0">
+		<e:Image id="bg" x="0" anchorOffsetY="0" source="gjs_zycs_bg29_png"/>
+
+		<e:Component id="item0" touchEnabled="true" y="253" x="53" skinName="GjPkResultItemEUI"/>
+		<e:Component id="item1" touchEnabled="true" y="253" skinName="GjPkResultItemEUI" x="231"/>
+		<e:Component id="item2" touchEnabled="true" y="253" x="407" skinName="GjPkResultItemEUI"/>
+
+
+		<e:Button id="closeBtn" label="Claim (5s)" y="872"
+		           icon="" skinName="BtnMin1_6" x="244"/>
+
+
+
+
+	</e:Group>
+</e:Skin>

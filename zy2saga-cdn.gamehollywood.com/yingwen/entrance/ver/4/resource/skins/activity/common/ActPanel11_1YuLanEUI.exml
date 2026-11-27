@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel11_1YuLanEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1280">
+	<e:Group width="720" horizontalCenter="0" verticalCenter="-1">
+		<e:Image id="imgBg" y="0" x="0" scale9Grid="86,662,522,92" source="hjds_zycs_bg2_jpg"/>
+		<e:Image y="14" source="hjds_zycs_zl" horizontalCenter="0"/>
+		<e:Image y="662" source="public_zycs_jlylk" x="202"/>
+		<e:Group id="groupEntity" width="0" height="0" y="593" horizontalCenter="0" touchEnabled="false" touchChildren="false"/>
+		<e:Group id="groupMeilin" width="0" height="0" y="186" x="129" touchChildren="false" touchEnabled="false"/>
+		<e:Group id="groupDamom" width="0" height="0" y="221" x="554" touchChildren="false" touchEnabled="false"/>
+		<e:Group y="677" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="totalPower" text="100" y="4" x="118" font="powernum_fnt"/>
+		</e:Group>
+		<e:Button id="closeBtn" label="" x="639" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	</e:Group>
+	<!--<e:Image x="0" y="-46" touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\W_五一活动\黄金斗士直购\H黄金斗士1.jpg" visible="false"/>-->
+</e:Skin>

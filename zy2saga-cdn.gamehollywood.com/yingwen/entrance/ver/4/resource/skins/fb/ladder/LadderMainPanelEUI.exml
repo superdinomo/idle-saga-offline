@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" source="dfwz_zycs_bg_jpg" x="13" height="897"/>
+	<e:Image y="42" x="24" source="dfwz_zycs_qizi_png"/>
+	<e:Image y="797" source="public_zycs_jlylk" x="33"/>
+	<e:Image y="810" x="56" source="jh_zycs_xz"/>
+	<e:Label text="Competition Time: Monday 10:00 - Sunday 22:00 (Settle at 22:30 Sunday)" y="804" size="24" textAlign="center" fontFamily="Times" touchEnabled="false" x="101" textColor="0xffbb29" width="597"/>
+	<e:Label id="levelTxt" y="108" text="My Rank" fontFamily="Times" size="24" touchEnabled="false" textAlign="left" x="414" textColor="0xcdc8be" width="282"/>
+	<e:Label id="rankTxt" y="165" text="My Rank" fontFamily="Times" size="24" touchEnabled="false" textAlign="left" x="414" textColor="0xcdc8be" width="282"/>
+	<e:Label id="winCountTxt" y="221" text="Winning Rounds" fontFamily="Times" size="24" touchEnabled="false" textAlign="left" x="414" textColor="0xcdc8be" width="282"/>
+	<e:Button id="btnShop" label="Honor Shop" x="453" y="269" icon="jjc_zycs_rysd" skinName="Btn0Skin"/>
+	<e:Button id="btnReward" label="Settlement Rewards" x="574" y="269" icon="jjc_zycs_jljs" skinName="Btn0Skin"/>
+	<e:Group id="winGroup" x="121" y="497" width="194">
+		<e:Image y="0" x="0" source="dfwz_zycs_ls" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="winBmp" text="66" letterSpacing="-1" y="71" font="ywpknum_fnt" right="160"/>
+	</e:Group>
+	<e:Label id="rankBtn" y="393" text="View Ranking" fontFamily="Times" size="24" touchEnabled="true" textAlign="left" x="513" textColor="0x11f51c"/>
+	<e:Component id="duanIcon" y="271" x="85" anchorOffsetX="0" skinName="LadderStarSkin"/>
+	<e:Image y="487" source="public_zycs_di01" x="418" scale9Grid="35,4,216,26" height="36"/>
+	<e:Label y="492" text="Rank Rewards Preview" fontFamily="Times" size="24" touchEnabled="false" textAlign="left" scaleX="1" scaleY="1" x="435" textColor="0xffbb29"/>
+	<e:List id="rewardList" itemRendererSkinName="ItemSkin" y="537" horizontalCenter="201">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="3" horizontalGap="3"/>
+		</e:layout>
+		
+			
+				
+				
+				
+				
+			
+		
+	</e:List>
+	<e:Label text="Challenge Remain:" fontFamily="Times" size="22" touchEnabled="false" textAlign="left" x="42" y="658" textColor="0xcdc8be"/>
+	<e:Label id="countTxt" text="0" fontFamily="Times" touchEnabled="false" textAlign="left" y="658" x="333" textColor="0xf5e65a" size="22"/>
+	<e:Button id="consumeAddBtn" label="" x="356" y="646" skinName="Btn0Skin" icon="public_zycs_jia"/>
+	<e:Label id="countTimeTxt" y="695" text="(Restore 1 every 2 hours)" fontFamily="Times" size="24" touchEnabled="false" textAlign="center" width="264" x="87" textColor="0xcdc8be"/>
+	<e:Button id="enterBtn" y="867" skinName="BtnMin1_1" label="Match Opponent" x="286"/>
+</e:Skin>

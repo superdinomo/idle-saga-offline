@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunResultWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+    <e:Group id="group" width="720" horizontalCenter="0" verticalCenter="0">
+			<e:Image y="-16" x="0" source="erjijiemiankuang_png"/>
+
+
+
+			<e:Image y="12" horizontalCenter="0.5" source="lhzd_zycs_zd"/>
+			<e:Image y="52" source="public_zycs_cjx" height="34" x="13" width="694"/>
+			<e:Image y="55" x="217" source="public_zycs_sjx"/>
+			<e:Image y="55" x="498" source="public_zycs_sjx"/>
+			<e:Button id="closeBtn" label="" x="632" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+			<e:Label text="Ranking" size="20" fontFamily="Times" y="59" x="87" textColor="0xFF9B0F"/>
+			<e:Label text="Name" size="20" fontFamily="Times" y="59" textColor="0xFF9B0F" x="333"/>
+			<e:Label text="Wolf Soul" size="20" fontFamily="Times" y="59" x="558" textColor="0xFF9B0F"/>
+			<e:Scroller y="87" height="388" x="21" anchorOffsetY="0">
+				<e:List id="listRank" itemRendererSkinName="LangHunResultItemEUI">
+					<e:layout>
+						<e:VerticalLayout gap="0"/>
+					</e:layout>
+
+
+
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+			<e:Image y="486" source="csys_zycs_wdjf" x="301"/>
+			<e:Component id="myRank" y="523" skinName="LangHunResultItemEUI" x="21"/>
+			<e:Image y="585" x="302" source="csys_zycs_wdjl"/>
+			<e:Image y="621" x="11" height="153" source="public_zycs_dk01" scale9Grid="87,23,524,10"/>
+
+
+			<e:List id="listReward" itemRendererSkinName="ItemSkin" y="645" horizontalCenter="0">
+				<e:layout>
+				<e:HorizontalLayout gap="14" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object />
+						<e:Object />
+						<e:Object />
+						<e:Object />
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+			<e:Label text="Rewards will be issued via email at the end of the event." size="24" fontFamily="Times" y="782" textColor="0xFF9B0F" horizontalCenter="0"/>
+    </e:Group>
+</e:Skin>

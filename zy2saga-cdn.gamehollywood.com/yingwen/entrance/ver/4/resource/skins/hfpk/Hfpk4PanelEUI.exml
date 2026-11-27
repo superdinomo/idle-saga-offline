@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Hfpk4PanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="42" touchEnabled="false" x="13" source="hfdfs_zycs_sqs_jpg"/>
+		<e:Label id="lbBetCount" text="Remaining Bet Attempts This Round: 9" y="78" size="24" fontFamily="Times" textAlign="center" horizontalCenter="0" textColor="0xE3D7BE"/>
+
+
+
+
+		<e:Image id="line1_0" x="122" y="229" touchEnabled="false" width="239" source="hfdfs_zycs_x2" scale9Grid="5,0,30,3"/>
+		<e:Image id="line1_1" y="229" touchEnabled="false" width="239" source="hfdfs_zycs_x2" scale9Grid="5,0,30,3" x="358"/>
+		<e:Image id="line1_2" x="122" y="684" touchEnabled="false" width="239" source="hfdfs_zycs_x2" scale9Grid="5,0,30,3"/>
+		<e:Image id="line1_3" x="358" y="684" touchEnabled="false" width="239" source="hfdfs_zycs_x2" scale9Grid="5,0,30,3"/>
+		<e:Image id="line1_4" y="229" touchEnabled="false" width="179" x="361" source="hfdfs_zycs_x2" scale9Grid="5,0,30,3" rotation="90"/>
+		<e:Image id="line1_5" y="489" touchEnabled="false" width="197" x="361" source="hfdfs_zycs_x2" scale9Grid="5,0,30,3" rotation="90"/>
+		<e:Component id="item0" x="26" y="146" skinName="Hfpk4RoleItemEUI"/>
+		<e:Component id="item1" y="146" skinName="Hfpk4RoleItemEUI" x="463.5"/>
+		<e:Component id="item2" x="20" y="592" skinName="Hfpk4RoleItemEUI"/>
+		<e:Component id="item3" x="477.5" y="592" skinName="Hfpk4RoleItemEUI"/>
+		<e:Component id="item4" skinName="Hfpk4RoleItemEUI" currentState="s2" horizontalCenter="-3" verticalCenter="-118"/>
+		<e:Button id="btnBet0" y="212" label="Bet" skinName="BtnMin1_2small" width="57" x="331"/>
+		<e:Button id="btnBet1" y="666" label="Bet" skinName="BtnMin1_2small" width="57" x="331"/>
+		<e:Button id="btnLog0" y="204" x="333" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+		<e:Button id="btnLog1" y="660" x="333" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+		<e:Image y="146" source="hfdfs_zycs_zu1" x="83"/>
+		<e:Image y="146" x="527" source="hfdfs_zycs_zu3"/>
+		<e:Image y="592" x="89.5" source="hfdfs_zycs_zu2"/>
+		<e:Image y="592" source="hfdfs_zycs_zu4" x="538"/>
+
+		<e:Label id="lbDec" text="Group Match Best of 3 Mechanism" y="834" horizontalCenter="0" size="24" fontFamily="Times" textColor="0xe3d7be"/>
+		<e:Label id="lbTime" text="16:00 August 19th 64 to 32" y="868" horizontalCenter="0" size="24" fontFamily="Times" textColor="0x13ee22"/>
+		<e:List id="listTime" y="917" horizontalCenter="0" itemRendererSkinName="HfpkTimeItemEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="-2"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+
+
+	</e:Group>
+</e:Skin>

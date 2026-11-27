@@ -1,0 +1,75 @@
+<e:Skin class="SuitPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1233" width="720" states="normal,max" >
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang"
+	         anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" />
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" y="43" scale9Grid="20,17,34,21" x="13"
+	         source="taozhuang_zycs_bg2_jpg" />
+	<e:Image id="imgIcon" fillMode="scale" scale9Grid="20,17,34,21" horizontalCenter="0" source="" verticalCenter="-280.5"/>
+	<e:Image y="47" source="public_zycs_jlylk"   horizontalCenter="0"/>
+	<e:Group id="groupPower" y="66" horizontalCenter="0">
+		<e:Image x="0" y="2" source="public_zycs_zdl" />
+		<e:BitmapLabel id="bmpLabelPower" x="75" y="0" text="100" font="powernum_fnt" />
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:List id="listItem" width="679" height="546" x="23" y="86" itemRendererSkinName="SuitPanelItemEUI">
+		<!--
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		
+	
+	-->
+	<e:layout>
+		<e:TileLayout orientation="columns" horizontalGap="400" verticalGap="-5" paddingLeft="4" />
+	</e:layout>
+</e:List>
+<e:Button id="btnGetEquip" label="Obtain Gear" x="286" y="552" skinName="BtnMin1_1" />
+<e:Group y="633" x="12" width="696" height="321">
+	<e:Label id="labelCondition" text="Activation Condition:" y="7" fontFamily="Times" size="20" textColor="0xcdc8be"  horizontalCenter="0" width="474" textAlign="center"/>
+	<e:Image y="40" source="qianghua_zycs_diwen2" x="0" width="696" height="282" visible="false" />
+	<e:Image x="95" y="59" source="liuguang_zycs_huawen" />
+	<e:Image x="301" y="56" source="taozhuang_zycs_sx" />
+	<e:Image x="601" y="59" source="liuguang_zycs_huawen" scaleX="-1" />
+	<e:Label id="labelDianliangCur" text="Current: X Piece(s)" y="97" size="24" fontFamily="Times" textAlign="left" x="154"
+	          textColor="0xcdc8be" horizontalCenter.max="0" x.normal="154"/>
+	<e:Label id="labelAttr" text="Stats\nStats" x="112" y="130" size="24" fontFamily="Times" textAlign="left"
+	         lineSpacing="10"  textColor="0xcdc8be" horizontalCenter.max="0" x.normal="112"/>
+	<e:Label id="labelDianliangNext" text="Activated: Y piece" x="389" y="97" size="24" fontFamily="Times"  textColor="0xcdc8be" visible.max="false"/>
+	<e:Label id="labelAttrNext" text="+123" x="384" y="130" size="24" fontFamily="Times" textColor="0x5AC832"
+	         lineSpacing="10"  visible.max="false"/>
+	<e:Image x="95" y="207" source="liuguang_zycs_huawen" />
+	<e:Image x="301" y="204" source="taozhuang_zycs_jn" />
+	<e:Image x="601" y="207" source="liuguang_zycs_huawen" scaleX="-1" />
+	<e:Label id="labelSkill" text="Character" y="236" size="24" fontFamily="Times" textAlign="center" textColor="0xcdc8be"  horizontalCenter="0" verticalAlign="middle" width="476"/>
+	<e:Button id="btnDesc" x="628" y="195" scaleX="1" scaleY="1" icon="jl_zycs_wenhao" skinName="Btn0Skin" />
+	<e:layout>
+		<e:BasicLayout/>
+	</e:layout>
+</e:Group>
+<e:Scroller id="scrollerTab" y="958" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0" maxWidth="680">
+	<e:List id="listSuit" itemRendererSkinName="SuitPanelTabItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="14"/>
+		</e:layout>
+	</e:List>
+</e:Scroller>
+<e:Group id="groupPage" x="47" y="1100" scaleX="1" scaleY="1" width="550">
+	<e:Scroller id="scrollerBase" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off" width="550">
+		<e:TabBar id="listTab" x="0" y="2" anchorOffsetX="0" itemRendererSkinName="BtnTab1ZYCSSkin" width="624">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="-3" paddingTop="16" />
+			</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+</e:Group>
+	<e:Image id="imgDianliang" y="559" source="taozhuang_zycs_qbdl" horizontalCenter="0"/>
+</e:Skin>

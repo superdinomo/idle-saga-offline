@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YZZHPanelRewardItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="135" width="692">
+	<e:Image id="imgBg" y="0" x="0" anchorOffsetY="0" anchorOffsetX="0" source="yzsh_zycs_di_png"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" source="yzsh_zycs_xian" horizontalCenter="-0.5" bottom="0" x="1" y="133"/>
+	<e:Image y="15" x="474" anchorOffsetY="0" anchorOffsetX="0" source="yzsh_zycs_k2"/>
+	<e:Component id="comItem1" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" y="20.7" x="479"/>
+	<e:Image y="10" x="118" anchorOffsetY="0" anchorOffsetX="0" source="yzsh_zycs_k"/>
+	<e:Component id="comItem2" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" y="20.7" x="127"/>
+	<e:Label id="lbNoReward1" text="No Rewards" y="54" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" textColor="0xf01414" x="479"/>
+	<e:Label id="lbNoReward2" text="No Rewards" y="54.2" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" textColor="0xf01414" x="125"/>
+	<e:Image id="imgYlq1" y="11" touchEnabled="false" source="yzsh_zycs_gx" x="556"/>
+	<e:Image id="imgKlq1" y="54" source="jzhd_zycs_klq" touchEnabled="false" x="493"/>
+	<e:Image id="imgKlq2" y="54" source="jzhd_zycs_klq" touchEnabled="false" x="140"/>
+	<e:Image id="imgLock" x="203" source="yzsh_zycs_suo" y="1"/>
+	<e:Image id="imgYlq2" y="11" touchEnabled="false" source="yzsh_zycs_gx" x="206"/>
+	<e:Group id="groupMC" height="137" x="339" y="-2" width="15" visible="false"/>
+	<e:Image id="imgLvSeXian" y="-1" rotation="90" source="yzsh_zycs_jdt3" width="136" scale9Grid="3,3,23,4" horizontalCenter="0"/>
+	<e:Image id="imgXian" anchorOffsetY="0" anchorOffsetX="0" y="111" source="yzsh_zycs_xian1_png" horizontalCenter="0" visible="false"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" source="yzsh_zycs_jddj" y="31" horizontalCenter="-1" x="298"/>
+	<e:BitmapLabel id="bitLevel" text="999" letterSpacing="-3" y="52" font="yzshnum2_fnt" scaleX="0.8" scaleY="0.8" horizontalCenter="-1" x="317"/>
+	<e:Image id="imgLevelBg" anchorOffsetY="0" anchorOffsetX="0" source="yzsh_zycs_xz" x="295" y="27"/>
+</e:Skin>

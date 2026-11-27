@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossZiDongZhaoHuanWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="370" touchEnabled="false" width="546" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="463"/>
+		<e:Image y="-5" touchEnabled="false" source="sl_zycs_k1" scale9Grid="52,7,95,44" width="253" x="147"/>
+		<e:Image y="11" touchEnabled="false" source="btz_zycs_zdzh_png" horizontalCenter="0.5"/>
+		<e:Image width="462" x="42" height="122" y="87" source="public_zycs_tsk1" scale9Grid="26,26,16,31"/>
+		<e:Label id="lbTime" text="Server Help Request" y="133" fontFamily="Times" size="20" textColor="0x11f51c" textAlign="center" horizontalCenter="0"/>
+		<e:Button id="btnEsc" y="242" label="Cancel" horizontalCenter="0" skinName="BtnMin1_1a"/>
+
+
+	</e:Group>
+</e:Skin>

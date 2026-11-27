@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouShopsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b3502a7"/>
+<e:Group verticalCenter="-22" horizontalCenter="0" width="720" height="882">
+	<e:Image x="0" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" source="erjijiemiankuang_png"/>
+
+	<e:Image id="title" y="31" source="btz_zycs_smsd_png" horizontalCenter="0.5"/>
+	<e:Button id="closeBtn" label="" x="639" y="13" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	<e:Image y="55" touchEnabled="false" x="44" source="zycs_320010"/>
+	<e:Image y="58" touchEnabled="false" x="82" source="public_zycs_shurukuang" anchorOffsetX="0"/>
+	<e:Label id="moneyTxt" text="0" y="61" size="20" textAlign="center" fontFamily="Times" x="91" touchEnabled="false" textColor="0xffffff" bold="true"/>
+    <e:Scroller id="scroller" width="684" height="747" x="21" y="116" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ShenShouShopItemsEUI" currentState="disabled" useVirtualLayout="false" anchorOffsetY="0" anchorOffsetX="0" x="12" y="13">
+
+	<e:layout>
+				<e:TileLayout requestedColumnCount="1" orientation="rows"  horizontalGap="0" verticalGap="2"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Group>
+
+</e:Skin>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossRankWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="hddt_zycs_phbg_jpg" />
+		<e:Image id="imgTitle" y="12" horizontalCenter="0"  source="btz_zycs_zhpm_png"/>
+		<e:Button id="closeBtn" label="" x="463" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Group id="groupJiSha" y="45" horizontalCenter="0.5">
+			<e:Image y="0" source="zh_zycs_gth" x="117"/>
+			<e:Label text="Participation will also be counted as Kill" y="2" size="20" fontFamily="Times" textColor="0xcdc8be" x="0"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="6"/>
+			</e:layout>
+		</e:Group>
+		<e:ViewStack id="viewStack1" x="17" y="111" anchorOffsetX="0" width="520" anchorOffsetY="0" height="391"
+		             selectedIndex="0">
+			<e:Group name="Summon Ranking" id="groupAttr0" height="380" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"
+			         scaleY="1" x="0" y="0">
+				<e:Scroller scrollPolicyH="off" height="392" anchorOffsetY="0">
+					<e:List id="list1" itemRendererSkinName="RedBossRankWinItemEUI" y="-1">
+						<e:layout>
+							<e:VerticalLayout gap="1" />
+						</e:layout>
+						
+							
+								<!--
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								-->
+							
+						 
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+			<e:Group name="Kill Ranking" id="groupAttr1" width="679" height="380" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"
+			         x="0" y="0">
+					 			<e:Scroller scrollPolicyH="off" height="392" anchorOffsetY="0">
+					<e:List id="list2" itemRendererSkinName="RedBossRankWinItemEUI">
+						<e:layout>
+							<e:VerticalLayout gap="1" />
+						</e:layout>
+						
+							
+							<!--
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								-->
+							
+						
+					</e:List>
+				</e:Scroller>
+					 </e:Group>
+		</e:ViewStack>
+		<e:Label y="82" text="Ranking" fontFamily="Times" size="20" x="48" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Info" fontFamily="Times" size="20" x="222" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Rewards" fontFamily="Times" size="20" x="395" textColor="0xFF9B0F" />
+		<e:Label id="lbRank" text="My Ranking: " y="527" size="20" textAlign="center" fontFamily="Times" x="99" textColor="0xe3d7be" />
+		<e:Label id="lbScore" text="My Points: " y="527" size="20" textAlign="center" fontFamily="Times" x="316" textColor="0xe3d7be" />
+		<e:TabBar dataProvider="{viewStack1}" id="tab1" selectedIndex="0" itemRendererSkinName="BtnTab3_aZYCSSkin"
+		          horizontalCenter="0.5" y="616">
+			<e:layout>
+				<e:HorizontalLayout gap="57" />
+			</e:layout>
+		</e:TabBar>
+		<e:Image id="imgXwyd" touchEnabled="false" y="209" source="public_zycs_xwyd_png" x="51" />
+		<e:Label id="lbDesc" text="Common Boss grants 1 point and Legendary Boss grants 5 points" y="557" size="20" fontFamily="Times" textColor="0xff9b0f" horizontalCenter="0"/>
+		<e:Label text="Ranking rewards will be issued via mail after 22:30 on Sunday" y="584" size="20" fontFamily="Times" horizontalCenter="0" textColor="0xe3d7be"/>
+	</e:Group>
+</e:Skin>

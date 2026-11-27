@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipLvItemSubEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="71">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgSelect" source="zhsz_zycs_y3"/>
+	<e:Image y="8" source="zhsz_zycs_y0" x="7"/>
+	<e:Image id="imgStar" y="13" source="zhsz_zycs_y1" x="14"/>
+	<e:Label id="lbLv" text="0" y="59" size="20" fontFamily="Times" textAlign="center" lineSpacing="5" textColor="0xf5e65a" horizontalCenter="-1"/>
+	<e:Image id="imgName" y="82" source="zhsz_zycs_n1" horizontalCenter="0.5"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="0" x="51"/>
+	<e:Group id="groupMc" width="0" height="0" y="60" x="60"/>
+</e:Skin>

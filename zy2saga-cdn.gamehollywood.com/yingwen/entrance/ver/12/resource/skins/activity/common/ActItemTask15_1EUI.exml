@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItemTask15_1EUI" 
+        currentState="canact" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="noact,canact,act"  width="332" height="117">
+	<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" height="100%" source="qianghua_zycs_kuang4" width="100%" scale9Grid="11,34,68,33"/>
+	<e:Image x="191" y="34" anchorOffsetX="0" anchorOffsetY="0" source="lilian_zycs_ylq" visible.noact="false" visible.canact="false"/>
+	<e:Label id="taskName" text="Quest Name Quest Name " fontFamily="Times" size="22" textColor="0xE6DCB8" x="11" y="8"/>
+	<e:Label id="lbjd" size="22" text="Quest Progress" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" y="31" textColor="0x13ee22" horizontalCenter="85.5"/>
+	<e:Button id="btnGoto" label="Go" x="190" visible.act="false" visible.canact="false" skinName="BtnMin1_1amid" y="57"/>
+	<e:Button id="btnAct" label="Claim" x="190" visible.noact="false" visible.act="false" skinName="BtnMin1_1mid" y="57"/>
+	<e:Image id="redPoint" right="0" top="0" source="mainui_zycs_hongdian"/>
+	<e:Component id="itemReward" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="51" y="44" scaleX="0.65" scaleY="0.65"/>
+</e:Skin>

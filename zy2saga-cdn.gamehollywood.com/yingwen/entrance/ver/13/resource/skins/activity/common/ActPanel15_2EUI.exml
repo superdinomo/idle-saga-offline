@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel15_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134"  width="720" >
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" touchEnabled="false" x="13" source="hddt_zycs_hfdb_jpg"/>
+	<e:Group x="46" y="226">
+		<e:Label y="0" text="Time Remain:" fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" y="1" text="0" fontFamily="Times" size="20" x="142" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-4" pixelHitTest="true" touchEnabled="false" id="imgTitle" source="jz_zycs_title2" horizontalCenter="0.5"/>
+	<e:Scroller id="taskScroller" scrollPolicyH="off" scrollPolicyV="auto" width="687" anchorOffsetX="0" anchorOffsetY="0" x="25" y="265" height="822">
+		<e:List id="taskList" width="679" x="1" y="-1" itemRendererSkinName="ActItemTask15_2EUI">
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<!--<e:Image touchEnabled="false" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\W_五一活动\寻宝狂欢\d夺宝任务.jpg" y="-47"/>-->
+
+</e:Skin>

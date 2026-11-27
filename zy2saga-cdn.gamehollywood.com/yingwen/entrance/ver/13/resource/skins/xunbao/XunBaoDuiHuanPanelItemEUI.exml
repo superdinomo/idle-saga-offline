@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoDuiHuanPanelItemEUI" currentState="jifen" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="336" height="205" states="jifen,item" >
+	<w:Config id="1586bdedfef"/>
+	<e:Image x="0" y="0" source="sc_zycs_gmd"/>
+	<e:CheckBox id="checkBoxTiXing" x="30.4" y="162" skinName="CheckBoxEUI" label="Red Dot" scaleX="0.8" scaleY="0.8"/>
+	<e:Component id="itemIcon" x="29" skinName="ItemSkin" y="60"/>
+	<e:Label id="lbJiFen" text="1000 Points" y="73" size="20" fontFamily="Times" horizontalCenter="66" visible.item="false"/>
+	<e:Label id="lbName" text="Gear Name" y="13" size="24" fontFamily="Times" x="29"/>
+	<e:Group verticalCenter="-23.5" x="210" visible.jifen="false">
+		<e:Image id="imgConsume" x="0" y="0" source="zycs_320001"/>
+		<e:Label id="lbConsumeCount" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnDuiHuan" label="Exchange" y="101" scaleX="1" scaleY="1" x="174" skinName="BtnMin1_2mid"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="316" y="-2" source="mainui_zycs_hongdian" visible="false"/> 
+</e:Skin>

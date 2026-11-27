@@ -1,0 +1,77 @@
+<e:Skin class="ForgeAddPanelEUI" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="max,normal,noequip,allMax"  height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="44" source="zhuijia_zycs_bg_jpg" horizontalCenter="0"/>
+	<e:Image y="49" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group id="groupPower" y="65" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="1111123132" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="362"  source="qianghua_zycs_diwen1" x="164"/>
+
+	<e:Group x="240.3" y="367">
+		<e:Image id="imgPos" x="0" y="0" source="zhuijia_zycs_pos1"/>
+		<e:BitmapLabel id="addBmpNumber" x="227.7" y="5" text="134" font="zhuijianum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="622" x="143">
+		<e:Image y="0"
+		          source="qianghua_zycs_diwen2" anchorOffsetY="0" height="126"/>
+		<e:Image id="imgArrow" x="260" y="48" source="qianghua_zycs_next" visible.max="false"/>
+		<e:Label id="lbattr1" text="Stats +099999\nStats +099999\nStats +099999" x="58" size="20" fontFamily="Times"            textAlign="left" textColor="0xaf9b73" horizontalCenter.max="0" x.normal="68" lineSpacing="20" y="13"/>
+		<e:Label id="lbNextAttr1" text="Stats +099999\nStats +099999\nStats +099999" x="308" size="20" fontFamily="Times"            textColor="0x5ac832" visible.max="false" lineSpacing="20" y="13"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="lbfull" y="1019" x="269" visible.normal="false" visible.noequip="false" source="zhuijia_zycs_djm"/>
+	<e:Component id="equipItem" y="421" skinName="ForgeAddItemEUI" touchEnabled="false" x="291"/>
+	<e:Group id="groupItems" x="23" y="132">
+		<e:Component id="equipItem0" y="0" x="0" skinName="ForgeAddItemEUI"     
+		             touchEnabled="true" />
+		<e:Component id="equipItem2" y="159" x="0" skinName="ForgeAddItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem3" y="318" x="0" skinName="ForgeAddItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem4" y="477" x="0" skinName="ForgeAddItemEUI" touchEnabled="true" name="RING2"/>
+		<e:Component id="equipItem8" x="0" skinName="ForgeAddItemEUI" touchEnabled="true" name="WEAPON2" y="636"/>
+		<e:Component id="equipItem1" y="0" x="537" skinName="ForgeAddItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem6" y="159" x="537" skinName="ForgeAddItemEUI"      touchEnabled="true" />
+		<e:Component id="equipItem7" y="318" x="537" skinName="ForgeAddItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem5" y="477" x="537" skinName="ForgeAddItemEUI"      touchEnabled="true" />
+		<e:Component id="equipItem9" y="636" x="537" skinName="ForgeAddItemEUI" touchEnabled="true"/>
+	</e:Group>
+	<e:Group id="groupTunShi" y="130" x="194">
+		<e:Component id="itemTunShiItem0" y="0" touchEnabled="false" x="0" skinName="ForgeAddPanelYuanShiItemEUI"/>
+		<e:Component id="itemTunShiItem1" y="10" skinName="ForgeAddPanelYuanShiItemEUI" touchEnabled="false" x="10"/>
+		<e:Component id="itemTunShiItem2" y="20" skinName="ForgeAddPanelYuanShiItemEUI" touchEnabled="false" x="20"/>
+		<e:Component id="itemTunShiItem3" y="30" skinName="ForgeAddPanelYuanShiItemEUI" touchEnabled="false" x="30"/>
+		<e:Component id="itemTunShiItem4" y="40" skinName="ForgeAddPanelYuanShiItemEUI" touchEnabled="false" x="40"/>
+		<e:Component id="itemTunShiItem5" y="50" skinName="ForgeAddPanelYuanShiItemEUI" touchEnabled="false" x="50"/>
+		<e:layout>
+		<e:TileLayout requestedColumnCount="3" horizontalGap="24" verticalGap="12"/>
+		</e:layout>
+	</e:Group>
+	<e:Image height="164" y="810" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="392" x="164"/>
+	<e:Image x="179" y="845" source="qianghua_zycs_xiaohuacailiao"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="862" horizontalCenter="15">
+		<e:List id="listConsume" itemRendererSkinName="xhItemSkin">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" paddingLeft="30" paddingRight="30" gap="6"/>
+		</e:layout>
+		
+			
+			
+			
+			
+			
+			
+		
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnOneKey" label="Attach All" y="1002" skinName="BtnMin1_1" visible.noequip="false" visible.allMax="false" visible.max="false" x="411"/>
+	<e:Button id="btnOk" label="Attach" y="1002" skinName="BtnMin1_1" left="160" visible.max="false" visible.noequip="false" visible.allMax="false"/>
+</e:Skin>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem36_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="player,noplayer" >
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" source="qqsh_zycs_k3"/>
+	<e:Image x="-8" y="5" anchorOffsetY="0" source="qqsh_zycs_k1"/>
+	<e:Image y="7" anchorOffsetY="0" source="qqsh_zycs_shts" horizontalCenter="172"/>
+	<e:Image y="109" anchorOffsetY="0" visible.player="false" source="qqsh_zycs_xwyd" x="33"/>
+	<e:Label id="lbRank" text="The 4th Place" fontFamily="Times" size="24" textAlign="left" y="10" textColor="0xf5e65a" x="66"/>
+	<e:Image id="imgRank" source="jsdd_zycs_pm2" y="10" x="60"/>
+	<e:Label id="lbTiaoJian" text="Charm reaches 999 to be ranked" fontFamily="Times" size="24" textAlign="left" y="78" x="13" visible.player="false" textColor="0xf5e65a" size.noplayer="20" x.noplayer="37" width.noplayer="264" textAlign.noplayer="center" y.noplayer="61" wordWrap.noplayer="true"/>
+	<e:Group x="11" y="48" visible.noplayer="false" y.player="52">
+		<e:Image y="12" source="sjhj_zycs_tx" x="0"/>
+		<e:Image id="imgHead" y="19" width="76" height="76" source="mianui_zycs_zhanshi0" x="9"/>
+		<e:Label id="lbName" text="Player Name Seven Characters" y="12" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" x="108" text.player="GGGGGGGGGG" width.player="200"/>
+		<e:Label id="lbValue" text="Charm: 999" y="39" size="20" textAlign="left" fontFamily="Times" textColor="0xF5E65A" x="108"/>
+		<e:Label id="lbShouHuCount" text="Guardian: 999" y="66" size="20" textAlign="left" fontFamily="Times" textColor="0xF5E65A" x="108" y.player="64"/>
+		<e:Label id="lbSend" text="Send Gifts" fontFamily="Times" size="20" textAlign="left" y="88" x="108" textColor="0x13ee22" visible.noplayer="false"/>
+	</e:Group>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="336" y="32" anchorOffsetX="0" width="355">
+		<e:List id="list" itemRendererSkinName="ActItem36_1SHEUI" y="-1">
+		<e:layout>
+			<e:HorizontalLayout gap="13" paddingLeft="0" paddingTop="0" paddingRight="0" paddingBottom="0"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

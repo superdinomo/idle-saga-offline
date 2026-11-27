@@ -1,0 +1,36 @@
+<e:Skin class="ShenShouJiBanWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="720" height="1280">
+	<w:Config id="1586b1383e3" />
+
+	<e:Group horizontalCenter="0" verticalCenter="0" width="720" height="882">
+		<e:Image x="0" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" source="erjijiemiankuang_png"/>
+		<e:Image id="title" y="29" source="btz_zycs_ssjb_png" horizontalCenter="0.5"/>
+		<e:Button id="closeBtn" label="" x="639" y="13" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	<e:Scroller id="scroller" width="692" height="734" y="112" x="21" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ShenShouJibanItemEUI" currentState="disabled" useVirtualLayout="true" anchorOffsetY="0" height="129" anchorOffsetX="0" width="537" x="1" y="19">
+				
+<e:ArrayCollection>
+			
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		
+
+	
+</e:ArrayCollection>
+
+	<e:layout>
+				<e:TileLayout requestedRowCount="0" requestedColumnCount="0" orientation="rows" verticalGap="18"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+		<e:Group y="75" horizontalCenter="0">
+			<e:Image x="0" y="0" source="ss_zycs_jbzzdl"/>
+			<e:BitmapLabel id="power" x="87" text="99999" y="0" font="fairlynum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+			 </e:Group>
+</e:Skin>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LiLianPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="13" y="42" touchEnabled="false" source="lilian_zycs_bg_jpg"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group id="groupPower" y="63" horizontalCenter="0">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="1111123132" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+		<e:Component id="liLianPanelYuan" skinName="LiLianPanelYuanEUI" y="81"  horizontalCenter="0"/>
+	<e:Group x="282" y="177" width="156">
+		<e:Image id="imgName" y="0" horizontalCenter="0" source="lilian_zycs_jx1_png"/>
+		<e:BitmapLabel id="bitRank" font="jxnum_fnt" text="8" bottom="58" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image id="imgRank" y="272" horizontalCenter="0.5" source="lilian_zycs_r1" visible="false"/>
+	<e:Image y="613" touchEnabled="false" source="tx_zycs_fenge" horizontalCenter="-21.5"/>
+	<e:Label id="lbYaZhiDesc" text="Title Suppression: Title of higher level will deal 10% more damage to title of lower level" y="456" fontFamily="Times" size="20" horizontalCenter="1" textColor="0xe6dcb8" width="626"/>
+	<e:ProgressBar id="proValue" y="522" skinName="ProgressBarEUI12" anchorOffsetX="0" width="523" horizontalCenter="2.5"/>
+	<e:Image x="79" y="512" touchEnabled="false" source="lilian_zycs_sw"/>
+	<e:Label text="Rewards of Next Rank" y="612" fontFamily="Times" size="20" x="59" textColor="0xe6dcb8"/>
+	<e:Scroller x="56" y="635">
+		<e:List id="listRankReward" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" height="106" x="-2">
+		
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="5" paddingTop="5" paddingRight="5" paddingBottom="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="imgRankReward" y="643" x="87" source="lilian_zycs_ylq"/>
+	<e:Label id="lbDailyValue" text="Total Prestige Today" y="612" fontFamily="Times" size="20" x="354" textColor="0xe6dcb8"/>
+	<e:Scroller x="352" y="635">
+		<e:List id="listMeiRiReward" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" height="106">
+		
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="5" paddingTop="5" paddingRight="5" paddingBottom="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnMeiRiReward" y="660" x="580" label="Claim" skinName="BtnMin1_1mid"/>
+	<e:Image id="imgMeiRiReward" y="646" x="578" source="lilian_zycs_ylq"/>
+	<e:Image id="imgWeiDaCheng" y="649" x="581" source="lilian_zycs_wdc"/>
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItem1EUI" y="421" horizontalCenter="0">
+		<e:layout>
+		<e:TileLayout verticalGap="10" requestedColumnCount="2" horizontalGap="6"/>
+		</e:layout>
+		
+		
+			
+			
+		
+		
+	</e:DataGroup>
+	<e:Scroller id="scroller" x="12" width="690" height="342" y="744" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="list" itemRendererSkinName="LiLianPanelTaskItemEUI" useVirtualLayout="true" y="-1" x="-1">
+				
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			<e:layout>
+			<e:VerticalLayout paddingLeft="5" paddingTop="5" paddingBottom="5" gap="11"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel39_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" width="690">
+		<e:Image id="imgBg" y="154" source="hddt_zycs_khpd_jpg" horizontalCenter="0"/>
+		<e:Image id="imgTitle" y="0" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_khpd16_png"/>
+		<e:Button id="closeBtn" label="" y="78" skinName="Btn0Skin" icon="llcz_zycs_X" x="628"/>
+		<e:Button id="btnBuy" y="551" x="91" label="Unlock" skinName="BtnMin1_17"/>
+		<e:Button id="btnGet" y="551" x="91" label="Claim Rewards" skinName="BtnMin1_17"/>
+		<e:Image id="imgYjh" x="121" y="547" source="public_zycs_yijihuo"/>
+		<e:Image id="imgYlq" x="121" y="547" source="lilian_zycs_ylq"/>
+		<e:Group id="groupMC" x="470" y="498" width="0" height="0">
+		</e:Group>
+		<e:Image id="imgIcon" source="hddt_zycs_khpddj_png" anchorOffsetX="91" anchorOffsetY="173" x="470" y="585"/>
+		<e:Image id="imgEff" x="470" y="585" alpha="0.01" source="hddt_zycs_nspddj_png" anchorOffsetX="91" anchorOffsetY="173"/>
+		<e:Label id="date" y="347" text="Time Remain: 0.0.0\nTime Remain: 0.0.0" fontFamily="Times" size="22" x="73" lineSpacing="3" textColor="0x13ee22"/>
+		<e:Group y="682" right="62">
+			<e:Image id="imgUnit" x="0" y="0" source="hddt_zycs_khpdd"/>
+			<e:Label id="lbCurCount" y="2" text="9999" fontFamily="Times" size="22" lineSpacing="10" textAlign="right" textColor="0xff9b0f" x="77"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbDec1" y="194" text="Event Description 1" fontFamily="Times" size="22" lineSpacing="10" horizontalCenter="0.5" textColor="0xff9b0f"/>
+		<e:Label id="lbDec3" y="584" text="Event Note 3\nEvent Note 3" fontFamily="Times" size="22" lineSpacing="3" textAlign="center" horizontalCenter="123.5" textColor="0xffffff"/>
+		<e:Label id="lbDec4" y="645" text="Event Note 4\nEvent Note 4" fontFamily="Times" size="18" textColor="0xE3D7BE" width="571" horizontalCenter="0"/>
+		<e:Group x="73" y="399">
+			<e:Label id="lbDec2" y="0" text="Event Note 2" fontFamily="Times" size="18" lineSpacing="3" x="0" textColor="0xffffff" width="246"/>
+			<e:Label id="lbState" y="30" text="Quest Progress: 10/10" fontFamily="Times" size="18" lineSpacing="3" textColor="0xFFFFFF" x="19" width="244"/>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:ProgressBar id="bar0" value="0" y="235" maximum="15" skinName="ProgressBarEUI26" x="107"/>
+		<e:Scroller y="196" x="37">
+			<e:List id="listBar" itemRendererSkinName="ActDabiaoItem39_1EUI">
+			<e:layout>
+				<e:HorizontalLayout gap="51" paddingLeft="50" paddingRight="50" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller y="722" scrollPolicyH="off" scrollPolicyV="on" x="61" height="394" width="395">
+			<e:List id="list" itemRendererSkinName="ActItem39_1EUI">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:List id="listTab" x="440" y="719" itemRendererSkinName="ActPanelTabItem39_1EUI" height="399">
+			<e:layout>
+			<e:VerticalLayout gap="-3"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Group>
+</e:Skin>

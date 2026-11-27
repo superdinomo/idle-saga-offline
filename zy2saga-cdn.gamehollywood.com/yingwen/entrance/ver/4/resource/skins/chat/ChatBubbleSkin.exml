@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChatBubbleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" anchorOffsetY="65" anchorOffsetX="135" width="270" touchEnabled="false">
+		<e:Group y="0" anchorOffsetX="0" horizontalCenter="0" touchEnabled="false">
+			<e:Group left="0" right="0" touchEnabled="false">
+				<e:Image id="bg" width="100%" touchEnabled="false" scale9Grid="11,12,10,19" height="65" source="public_zycs_talk1"/>
+				<e:Image id="bg0" width="100%" touchEnabled="false" scale9Grid="11,12,10,19" height="65" source="public_zycs_talk2"/>
+				<e:layout>
+					<e:HorizontalLayout gap="-0.75"/>
+				</e:layout>
+			</e:Group>
+			<e:Group anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-10.5" touchEnabled="false">
+				<e:Label id="lbstr" text="" maxWidth="250" minWidth="50" fontFamily="Times" size="20" wordWrap="true" textColor="0xDFD1B5" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" textAlign="center" left="6" right="4" touchEnabled="false" y="1"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

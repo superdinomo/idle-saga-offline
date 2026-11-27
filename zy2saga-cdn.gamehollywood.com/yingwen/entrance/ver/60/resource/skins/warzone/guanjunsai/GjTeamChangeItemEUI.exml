@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjTeamChangeItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="80" height="80">
+	<w:Config id="15d981d06da"/>
+
+	<e:Image id="imgIcon" x="0" y="0" touchEnabled="false" source="gjs_zh1"/>
+</e:Skin>

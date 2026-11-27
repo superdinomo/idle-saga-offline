@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EmoPanelSkin" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="max,normal">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang"
+	         anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" />
+	<e:Image id="imgBg" y="42" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="17,12,41,25" source="em_zycs_di_jpg"
+	         horizontalCenter="0" />
+	<e:Image x="43" y="69" anchorOffsetX="0" anchorOffsetY="0" source="em_zycs_zd" />
+	<e:Image x="19" y="58" anchorOffsetX="0" anchorOffsetY="0" source="em_zycs_klt" />
+	<e:Image id="imgIcon" x="77.5" y="76" anchorOffsetX="0" anchorOffsetY="0" source="em_zycs_emgc" />
+	<e:BitmapLabel id="indexBmp" x="164" y="78" text="22" letterSpacing="0" font="qianghuanum2_fnt" />
+	<e:Label id="labelLv" text="Lv.281 - Lv.330" y="120" size="24" fontFamily="Times" textAlign="center" verticalAlign="middle"
+	         anchorOffsetX="0" anchorOffsetY="0" height="21" textColor="0x5ac832" x="42" />
+	<e:Label id="lbTjPower" text="Recommended CP:" x="42" y="151" size="24" fontFamily="Times" textColor="0xf5e65a" />
+	<e:Label id="lbCurPower" text="Current CP" x="42" y="180" size="24" fontFamily="Times" textColor="0xf5e65a" />
+	<e:Group id="group" width="720" height="367" x="-5" y="482" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image y="-28" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" height="390" x="11" source="em_zycs_k5"
+		         height.max="361" x.max="11" y.max="1" scale9Grid="226,126,269,15" />
+		<e:Image x="91" y="62" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" source="em_zycs_zjjl" />
+		<e:Image y="35" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1" width="614" visible.max="false"
+		         source="em_zycs_fgx" x="59" scaleX="1" scaleY="1" />
+		<e:Scroller y="48" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" x="145" scaleX="1" scaleY="1"
+		            width="469">
+			<e:List id="list" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="ItemSkin" x="1">
+				<e:layout>
+					<e:TileLayout orientation="rows" horizontalGap="25" paddingLeft="8" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="194" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" source="em_zycs_xian" width="510" x="105" />
+		<e:Label text="Cost: " x="168" y="239" id="lbname4" fontFamily="Times" textAlign="center" size="24" anchorOffsetY="0"
+		         height="22" textColor="0xff9b0f" />
+		<e:Component id="itemConsume" y="212" x="224" scaleX="0.8" scaleY="0.8" skinName="ItemSkin" anchorOffsetX="0"
+		             touchEnabled="true" />
+		<e:Image width="119" height="26" scale9Grid="6,6,3,3" anchorOffsetX="0" anchorOffsetY="0" x="301" y="239"
+		         source="public_zycs_shurukuang" />
+		<e:Label id="lbConsume" text="0" x="301" y="239" anchorOffsetX="0" width="119" anchorOffsetY="0" textAlign="center"
+		         verticalAlign="middle" size="22" fontFamily="Times" height="26" />
+		<e:Button id="btnConsumeAdd" label="" x="428" y="234" skinName="Btn0Skin" icon="public_zycs_Button_jia" />
+		<e:Button id="btnExpadd" icon="em_zycs_db" x="531" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin" y="211"
+		          width="78" height="78" visible="false" />
+		<e:Label text="Attempts Remain: " y="299" id="lbname5" fontFamily="Times" textAlign="center" size="24"
+		         textColor="0xff9b0f"  right="423"/>
+		<e:Image width="119" height="26" scale9Grid="6,6,3,3" anchorOffsetX="0" anchorOffsetY="0" x="301" y="298"
+		         source="public_zycs_shurukuang" />
+		<e:Label id="lbSurplus" text="0" x="301" y="298" anchorOffsetX="0" width="119" anchorOffsetY="0" height="26"
+		         textAlign="center" size="22" fontFamily="Times" verticalAlign="middle" />
+		<e:Button id="btnSurplus" label="" x="428" y="294" skinName="Btn0Skin" icon="public_zycs_Button_jia" />
+		<e:Label id="lbexppeishu" text="1x" x="502" y="216" fontFamily="Times" size="24" anchorOffsetX="0" textAlign="left"
+		         textColor="0x5ac832" visible="false" />
+		<e:Label id="lbexpdouble" text="Time Remain:" x="452" y="289" fontFamily="Times" size="24" textAlign="center"
+		         textColor="0x5AC832" width="256" visible="false" />
+		<e:Label id="lbOpenTime" text="Time Remain:" x="440" y="405" fontFamily="Times" size="24" textAlign="center"
+		         textColor="0x5AC832" visible="false" />
+		<e:Button id="btnintofuben" label="Enter" y="381" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1"
+		          horizontalCenter="4.5" />
+		<e:Component id="guaJiZhuShouGoto" touchEnabled="true" skinName="GuaJiZhuShouGotoEUI" x="515" y="224"
+		             currentState="emo" />
+	</e:Group>
+	<e:Group id="groupLevelExp" y="476" horizontalCenter="0.5" visible.max="false">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="em_zycs_jsdd" />
+		<e:Image id="imgLevel" y="10" anchorOffsetX="0" anchorOffsetY="0" x="10" source="" />
+		<e:Image id="imgktzName" y="50" anchorOffsetX="0" anchorOffsetY="0" x="172" source="em_zycs_ktzem" />
+		<e:BitmapLabel id="bitCeng" x="110" y="40" font="rcnum1_fnt" text="2" />
+		<e:Image id="imghdgd" y="46" anchorOffsetX="0" anchorOffsetY="0" x="426" source="em_zycs_hqyj" />
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="-5" />
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbDesc" text="" y="557" size="22" fontFamily="Times" horizontalCenter="0" textColor="0xeddcb8" />
+</e:Skin>

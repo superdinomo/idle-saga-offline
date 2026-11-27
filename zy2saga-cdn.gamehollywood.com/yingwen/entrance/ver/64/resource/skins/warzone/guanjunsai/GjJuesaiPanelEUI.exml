@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GjJuesaiPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="43" source="gjs_zycs_bg4_jpg" x="13"/>
+	<e:Group id="groupMc" y="145" horizontalCenter="0"/>
+
+	<e:Button id="btnGuanJunReward" y="106" x="95" skinName="Btn0Skin" icon="gjs_an_gjjl"/>
+
+	<e:Button id="btnChengJiuReward" y="112" x="529" skinName="Btn0Skin" icon="gjs_an_cjjl"/>
+	<e:Image touchEnabled="false" y="181" source="gjs_chsm" horizontalCenter="0"/>
+	<e:Group x="355" y="544">
+		<e:Image id="line1_1" touchEnabled="false" source="gjs_jx1" scaleX="-1" scale9Grid="16,16,100,37" height="128" y="89" width="206" x="5" anchorOffsetX="0"/>
+		<e:Image id="line1_2" touchEnabled="false" y="95" source="gjs_jx0" scale9Grid="1,8,9,55" x="0" height="122"/>
+		<e:Image id="line1_3" touchEnabled="false" source="gjs_jx1" scale9Grid="16,15,100,38" height="128" y="89" width="206" x="5"/>
+		<e:Image id="line2_1" touchEnabled="false" x="0" y="0" source="gjs_jx0" scale9Grid="1,8,9,55" height="100"/>
+	</e:Group>
+	<e:Image touchEnabled="false" y="309" source="gjs_gdzj" x="236"/>
+	<e:Image id="imgIcon" y="392" touchEnabled="false" x="321" source="gjs_zh8"/>
+	<e:Image id="imgWh" touchEnabled="false" y="400" x="345" source="gjs_wh"/>
+	<e:Image id="btnNo1" y="391" touchEnabled="true" source="gjs_zh8" x="321" width="80" height="80" alpha="0.01"/>
+	<e:Label id="lbTeamName" text="Team Name" y="490" size="18" textAlign="left" fontFamily="Times" lineSpacing="5" horizontalCenter="0" textColor="0xCDC8BE"/>
+	<e:Button id="btnMobai" y="518" label="Worship" skinName="BtnMin1_1small1" x="321"/>
+	<e:Component id="itemFirst" touchEnabled="true" y="368" skinName="GjTeamFaceEUI" horizontalCenter="0" visible="false"/>
+	<e:Component id="itemL1" skinName="GjTeamFaceEUI" touchEnabled="true" x="106" y="740"/>
+	<e:Component id="itemL2" skinName="GjTeamFaceEUI" touchEnabled="true" y="740" x="306"/>
+	<e:Component id="itemL3" skinName="GjTeamFaceEUI" touchEnabled="true" y="740" x="510"/>
+
+
+
+
+	<e:Button id="btnBet" y="870" x="606" skinName="Btn0Skin" icon="gjs_an_jc"/>
+	<e:Button id="btnTeam" y="953" x="606" skinName="Btn0Skin" icon="gjs_an_zd"/>
+	<e:Label id="lbTiem" text="Challenge Time: 03:00" y="936" size="22" textAlign="center" fontFamily="Times" lineSpacing="5" horizontalCenter="0.5" textColor="0xe3d7be" width="497" wordWrap="true"/>
+	<e:Button id="btnSend" y="990" label="Enter" skinName="BtnMin1_1" x="286"/>
+</e:Skin>

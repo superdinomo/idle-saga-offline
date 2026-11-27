@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Pk3v3RankWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1280">
+    <e:Group width="720" horizontalCenter="0" verticalCenter="0">
+        <e:Image x="0" y="0" touchEnabled="false"  source="txzz_zycs_bg2_jpg"/>
+        <e:Image y="-3" scale9Grid="56,7,80,44"  source="public_zycs_tyts" x="235"/>
+        <e:Image id="imgTitle" y="13" horizontalCenter="0"  source="txzz_zycs_txpm"/>
+        <e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637" />
+
+			<e:Scroller y="125" x="41" width="639" height="580">
+				<e:List id="listRank" itemRendererSkinName="Pk3v3RankItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+
+
+
+
+			<e:Label text="Ranking" size="20" fontFamily="Times" y="96" x="83" textColor="0xFF9B0F"/>
+
+			<e:Label text="Rewards" size="20" fontFamily="Times" y="96" x="405" textColor="0xFF9B0F"/>
+			<e:Group y="747" horizontalCenter="0">
+				<e:Label id="lbScore" text="My Points: 9999" fontFamily="Times" size="24" textAlign="center" y="0" textColor="0xE3D7BE" x="354"/>
+				<e:Label id="lbRank" text="(No.9)" fontFamily="Times" size="24" textAlign="center" y="0" textColor="0xe3d7be" x="0"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+
+
+			<e:Label text="Rewards will be issued via mail upon the end of competition." fontFamily="Times" size="24" textAlign="center" y="783" horizontalCenter="0" textColor="0x13ee22"/>
+
+
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MiYuPanelEUI" currentState="act" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="act,max,star,noAct,stage" >
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="40" touchEnabled="false" source="my_zycs_bg_jpg" x="13"/>
+	<e:Image y="45" source="my_zycs_ml" horizontalCenter="4"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Image y="453" source="pubilc_zycs_hengdikuang" horizontalCenter="0.5" scale9Grid="24,6,144,42" width="239"/>
+	<e:Group y="65" horizontalCenter="0">
+		<e:Image x="0" y="0" source="mianui_zycs_zhandouli2"/>
+		<e:BitmapLabel id="power" x="88" text="100" y="0" font="powernum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group horizontalCenter="0" y="469">
+		<e:Image id="imgStage" x="0" y="0" fillMode="clip" source="jl_zycs_11"/>
+		<e:Image id="imgName" x="1" y="65" source="my_zycs_1"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupMC" y="454" touchChildren="false" touchEnabled="false" x="360"/>
+	<e:Group id="groupStar" x="122" y="503"/>
+	<e:Group y="561" anchorOffsetY="0" height="112" width="637" horizontalCenter="0.5">
+		<e:Image y="7" x="0" source="public_zycs_daojukuang_02"/>
+		<e:Image id="imgSkillIcon" width="80" height="80" source="mianui_icon_bianshen1" x="2" y="9" x.act="2"/>
+		<e:Group x="99" y="6">
+		<e:Label id="lbSkillName" text="Cracked Lane Riddle" y="0" size="18" fontFamily="Times" textAlign="left" x="0" textColor="0xf5e65a"/>
+		<e:Label text="(Only available to PvP battles)" y="10" size="18" fontFamily="Times" textAlign="left" x="10" textColor="0xff9b0f"/>
+		<e:Label id="lbSkillLock" text="Unlock after T20" y="5" size="18" fontFamily="Times" textAlign="left" x="439" textColor="0xF01414"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="bottom"/>
+		</e:layout>
+		</e:Group>
+		<e:Label id="lbSkillDesc" text="Rise 5 levels to activate the skill \n[Zeal] Lv.2" y="39" size="18" fontFamily="Times" width="540" textAlign="left" x="99" textColor="0xffffff"/>
+		<e:Label text="Activated Whisper effects can stack\n" y="87" size="18" fontFamily="Times" width="540" textAlign="left" x="100" textColor="0xff9b0f"/>
+	</e:Group>
+	<e:Image y="742" source="qianghua_zycs_next" x="344" visible.max="false"/>
+	<e:Label id="lbCurAttr" text="Max ATK: 6000\nMax ATK: 6000\nMax ATK: 6000\nMax ATK: 6000" x.stage="123" x.noAct="123" x.star="123" x.act="123" size="24" fontFamily="Times" textColor="0xcdc8be" y="709" lineSpacing="4" horizontalCenter.max="0"/>
+	<e:Group x="425" y="707" visible.max="false">
+		<e:Label id="lbNextAttr" text="Most\nMost\nMost\nMost" x="0" size="24" fontFamily="Times" visible.max="false" textColor="0xcdc8be" y="1" lineSpacing="4"/>
+		<e:Group id="groupJiantou" x="27" y="0">
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image fillMode="repeat" source="public_zycs_lj" x="10" y="10"/>
+			<e:layout>
+			<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout  horizontalAlign="center" verticalAlign="middle" gap="7"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="859" x="299" visible.act="false" visible.star="false" visible.noAct="false" visible.stage="false" source="bxsb_zycs_ymj"/>
+	<e:Button id="btnUpStar" y="890" skinName="BtnMin1_1" label="Star-up" visible.act="false" visible.max="false" visible.noAct="false" x="286" visible.stage="false"/>
+	<e:Button id="btnAct" y="890" skinName="BtnMin1_1" label="Unlock" visible.max="false" visible.star="false" label.stage="Advancement" x="286" enabled.noAct="false"/>
+	<e:Label id="lbActDesc" text="Activate at T2" y="851" size="24" fontFamily="Times" horizontalCenter="0" textColor="0xff0000" visible.max="false" visible.act="false" visible.star="false" visible.stage="false"/>
+	<e:Group id="groupConsume" height="37" y="844" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" >
+		<e:Label id="lbConsumeName" text="Cost: " y="10" fontFamily="Times" size="24" x="120" textColor="0xFFFFFF"/>
+		<e:Image id="imgConsume" x="120" y="10" width="34" height="34" source="zycs_310024"/>
+		<e:Label id="lbConsume" text="0" y="10" size="24" fontFamily="Times" x="120" textAlign="left" verticalAlign="middle" textColor="0xFFFFFF"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller id="scroller" y="961" height="150" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="list" currentState="disabled" useVirtualLayout="false" itemRendererSkinName="MiYuTabItemEUI">
+		<e:ArrayCollection>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="-23"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<!--<e:Image x="0" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\M_秘语\M-秘语.jpg" y="-47" locked="true" visible="false"/>-->
+</e:Skin>

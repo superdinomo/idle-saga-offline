@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkTimeItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image y="0" touchEnabled="false" source="hfdfs_zycs_x6" width="3" x="-2"/>
+	<e:Image y="0" touchEnabled="false" source="hfdfs_zycs_x6" width="3" x="129"/>
+	<e:Label id="lbNum" text="The 1 Round" y="11" horizontalCenter="0.5" size="24" fontFamily="Times" textColor="0xe59d67"/>
+	<e:Label id="lbTime" text="15:10" y="53" horizontalCenter="0.5" size="24" fontFamily="Times" textColor="0xe59d67"/>
+</e:Skin>

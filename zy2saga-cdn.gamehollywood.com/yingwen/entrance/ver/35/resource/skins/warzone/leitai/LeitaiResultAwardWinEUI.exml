@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiResultAwardWinEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720" height="1280" states="win,lose" >
+	<e:Group id="group" width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png" source.lose="js_zycs_qzh_png"/>
+		<e:Image y="436" includeIn="lose" source="js_zycs_di_png" x="39"/>
+		<e:Image x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png" source.lose="js_zycs_sb_png"/>
+
+
+		<e:Label id="lbLog" text="Defeated Player: 8\nPlayer Left: 0" fontFamily="Times" size="24" x="92" textAlign="center" textColor="0xCDC8BE" y="485" lineSpacing="6"/>
+		<e:Scroller id="scroller" height="400" y="462" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:TileLayout horizontalGap="28" verticalGap="43" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" requestedColumnCount="4"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object s="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+
+		<e:Button id="closeBtn" label="Confirm (3s)" x="244" y="944" anchorOffsetX="0" anchorOffsetY="0" icon="anz_zycs_lqjl" skinName="BtnMin1_6"/>
+
+		<e:Image id="imgJl" x="92" y="417" source="zylts_zycs_zdjg"/>
+		<e:Group x="92" y="293">
+			<e:Image x="0" y="0" source="zylts_zycs_tzls"/>
+			<e:Label id="lbCount" text="8" fontFamily="Times" size="24" textAlign="center" textColor="0xCDC8BE" y="1" x="120"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="92" y="324">
+			<e:Image x="0" y="0" source="zylts_zycs_zdsc"/>
+			<e:Label id="lbTime" text="30s" fontFamily="Times" size="24" textAlign="center" y="1" x="120" textColor="0x13ee22"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+
+
+
+
+	</e:Group>
+</e:Skin>

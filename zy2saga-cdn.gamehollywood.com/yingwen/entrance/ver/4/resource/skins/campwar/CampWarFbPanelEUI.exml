@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarFbPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b13ea96" />
+	<e:Group y="0" horizontalCenter="0.5">
+		<e:Image y="0" source="smsz_zycs_bg13_png" x="0"/>
+		<e:ProgressBar id="winBar" value="0" y="21" touchEnabled="false" maximum="4" skinName="bloodBarSkin6" x="81"/>
+		<e:Component id="winItem0" x="51" y="1" skinName="CampWarFbWinNumItemEUI"/>
+		<e:Component id="winItem1" x="115" y="1" skinName="CampWarFbWinNumItemEUI"/>
+		<e:Component id="winItem2" x="178" y="1" skinName="CampWarFbWinNumItemEUI"/>
+		<e:Component id="winItem3" y="1" skinName="CampWarFbWinNumItemEUI" x="241"/>
+
+
+	</e:Group>
+
+
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" source="ldsz_zycs_zydi" height="86"/>
+		<e:Image x="0" y="0" source="ldsz_zycs_zy1"/>
+
+
+		<e:Label id="lbCampL" text="Deity" y="6" size="24" fontFamily="Times" textColor="0xf5e65a" x="0" textAlign="center" width="170"/>
+
+		<e:Label id="lbWinNumL" text="Total Winning Point: 555" y="51" size="20" fontFamily="Times" textColor="0xf5e65a" horizontalCenter="0"/>
+
+
+	</e:Group>
+	<e:Group y="0" right="0">
+		<e:Image x="0" y="0" source="ldsz_zycs_zydi" height="86"/>
+		<e:Image x="0" y="0" source="ldsz_zycs_zy2"/>
+
+
+		<e:Label id="lbCampR" text="Demon" y="6" size="24" fontFamily="Times" textColor="0xf5e65a" x="0" width="170" textAlign="center"/>
+
+		<e:Label id="lbWinNumR" text="Total Winning Point: 555" y="51" size="20" fontFamily="Times" textColor="0xf5e65a" horizontalCenter="0"/>
+
+
+	</e:Group>
+	<e:Group y="165" horizontalCenter="0.5">
+		<e:Image id="imgCount" y="0" source="smsz_zycs_round1" horizontalCenter="0"/>
+		<e:Image x="10" y="40" source="ldsz_zycs_di2"/>
+		<e:Label id="lbTime" text="Preliminary Time Remain:06:39" y="45" size="20" textColor="0xE6DCB8" fontFamily="Times" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Group y="99" left="0">
+		<e:Image y="0" x="0" source="public_zycs_kj" scale9Grid="46,56,85,284" height="508"/>
+		<e:Image y="120" source="ldsz_zycs_zyfg" x="6"/>
+		<e:Image y="246" x="6" source="ldsz_zycs_zyfg"/>
+		<e:Image y="372" x="6" source="ldsz_zycs_zyfg"/>
+		<e:Component id="itemFaceL0" x="0" y="5" skinName="CampWarFbFaceLEUI"/>
+		<e:Component id="itemFaceL1" x="0" y="130" skinName="CampWarFbFaceLEUI"/>
+		<e:Component id="itemFaceL2" x="0" y="257" skinName="CampWarFbFaceLEUI"/>
+		<e:Component id="itemFaceL3" x="0" y="385" skinName="CampWarFbFaceLEUI"/>
+
+	</e:Group>
+	<e:Group y="99" right="0">
+		<e:Image y="0" source="public_zycs_kj" scale9Grid="46,56,85,284" height="508" x="133"/>
+		<e:Image y="120" source="ldsz_zycs_zyfg" x="139"/>
+		<e:Image y="246" x="139" source="ldsz_zycs_zyfg"/>
+		<e:Image y="372" x="139" source="ldsz_zycs_zyfg"/>
+
+
+
+
+		<e:Component id="itemFaceR0" y="5" skinName="CampWarFbFaceREUI" x="0"/>
+		<e:Component id="itemFaceR1" x="0" y="130" skinName="CampWarFbFaceREUI"/>
+		<e:Component id="itemFaceR2" x="0" y="257" skinName="CampWarFbFaceREUI"/>
+		<e:Component id="itemFaceR3" x="0" y="385" skinName="CampWarFbFaceREUI"/>
+
+	</e:Group>
+	<e:Button id="btnEmoji" icon="smsz_zycs_fsbq" skinName="Btn0Skin" x="0" bottom="217"/>
+	<e:Group id="groupEmoji" x="80" bottom="241">
+		<e:Image y="0" source="smsz_zycs_dhk" left="9" right="-7"/>
+		<e:Scroller id="scrollerEmoji" height="167" y="6" x="11">
+			<e:List id="listEmoji" itemRendererSkinName="CampWarFbEmojiItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Image x="-30" source="mianui_zycs_ydjt" y="132"/>
+	</e:Group>
+
+</e:Skin>

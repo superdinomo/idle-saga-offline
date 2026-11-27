@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiScoreRankWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1280">
+    <e:Group width="720" horizontalCenter="0" verticalCenter="0">
+        <e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+                 source="public_zycs_dikuang" />
+
+        <e:Image y="-16" scale9Grid="56,7,80,44" source="zhaunsheng_zycs_bt2" x="223" />
+        <e:Image id="imgTitle" y="13" horizontalCenter="0"  source="zylts_zycs_jfpm"/>
+        <e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637" />
+			<e:Image y="87" source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="625" width="639" x="41"/>
+			<e:Scroller y="120" x="41" width="639" height="580">
+				<e:List id="listRank" itemRendererSkinName="LeitaiScoreRankItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+			<e:Image y="89" source="public_zycs_cjx" height="34" width="634" x="43"/>
+			<e:Image y="92" x="185" source="public_zycs_sjx"/>
+			<e:Image y="92" x="447" source="public_zycs_sjx"/>
+			<e:Image y="731" source="role_zycs_tb2" x="13"/>
+			<e:Label text="Ranking" size="20" fontFamily="Times" y="96" x="83" textColor="0xFF9B0F"/>
+			<e:Label text="Points" size="20" fontFamily="Times" y="94" x="292" textColor="0xFF9B0F"/>
+			<e:Label text="Rewards" size="20" fontFamily="Times" y="95" x="528" textColor="0xFF9B0F"/>
+			<e:Label id="lbRank" text="My Points: 9999" fontFamily="Times" size="20" textAlign="center" y="742" textColor="0xCDC8BE" x="140"/>
+			<e:Label id="lbScore" text="Points: 9999" fontFamily="Times" size="20" textAlign="center" y="742" textColor="0xCDC8BE" x="480"/>
+			<e:Label id="lbDec" text="The top 8 players with highest points become Defenders" fontFamily="Times" size="20" textAlign="center" y="771" textColor="0xcdc8be" horizontalCenter="0" width="668" wordWrap="true"/>
+
+
+    </e:Group>
+</e:Skin>

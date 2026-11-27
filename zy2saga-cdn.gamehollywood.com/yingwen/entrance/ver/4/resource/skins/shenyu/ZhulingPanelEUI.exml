@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhulingPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:PriceIcon="PriceIcon.*" xmlns:ns1="*" states="normal,max" >
+	<w:Config id="1586b1db4d0" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" touchEnabled="false" x="13" source="shenyu_zycs_sj_jpg"/>
+	<e:Image y="586" horizontalCenter="0" source="shenyu_zycs_k1"/>
+	<e:Group y="591" anchorOffsetY="0" horizontalCenter="1">
+		<e:BitmapLabel id="bmpStage" x="0" text="1" y="0" font="shenmonum_fnt"/>
+		<e:Image y="586" horizontalCenter="0" source="shenqi_zycs_jie"/>
+		<e:Image y="586" horizontalCenter="0" source="shenyu_zycs_dian"/>
+		<e:Image id="imgName" y="586" horizontalCenter="0" source="shenyu_zycs_name1"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="2"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="329" source="shenyu_zycs_ym" horizontalCenter="12.5" visible="false"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="61" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="bmpLabelPower" x="88" y="0" text="11111" font="powernum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Component id="comDaShi" y="123" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" x="47"/>
+	<e:Label id="lbDaShi" text="Feather Master T0" y="230" fontFamily="Times" size="22" textColor="0xFFD862" textAlign="center" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" horizontalCenter="-239.5"/>
+	<e:Button id="btnZhulilngBuff" x="36" y="86" skinName="Btn0Skin" icon="shenyu_zycs_syds" visible="false"/>
+	<e:Image id="arrow" x="343" y="773" source="qianghua_zycs_next" visible.max="false"/>
+	<e:Label id="labelJie" text="T1" y="709" size="20" fontFamily="Times" textColor="0xf5e65a" x="158" horizontalCenter.max="0"/>
+	<e:Label id="labelAttr" x="123" y="741" size="20" text="Stats:\nStats:\nStats:\nStats:"
+	         fontFamily="Times" textAlign="left" lineSpacing="11"  horizontalCenter.max="0" textColor="0xcdc8be"/>
+	<e:Label id="labelJieNext" text="T1" y="709" size="20" fontFamily="Times" textColor="0xf5e65a" visible.max="false" right="192"/>
+	<e:Group y="738" right="191">
+		<e:Label id="labelAttrNext" size="20" text="Stats:\nStats:\nStats:\nStats" fontFamily="Times" textAlign="right" lineSpacing="11" visible.max="false" textColor="0x13ee22"/>
+		<e:Group id="groupJiantou" x="104" y="0" visible.max="false">
+			<e:Image y="0" fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image y="25" fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image y="53" fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image y="78" fillMode="repeat" source="public_zycs_lj"/>
+			<e:layout>
+			<e:VerticalLayout gap="5"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="top"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="900" horizontalCenter="0" visible.max="false">
+		<e:Image id="imgItem" x="0" y="0" visible.max="false" width="34" height="28" source="zycs_310101"/>
+		<e:Label id="labelItemCount" text="0" y="5" size="20" fontFamily="Times" x="38" textAlign="left" verticalAlign="middle" textColor="0xffffff" visible.max="false"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnUp"
+	          y="934"  visible.max="false" icon="" label="Upgrade" skinName="BtnMin1_1mid" x="300"/>
+	<e:Label id="labelMax" text="Max Level" size="24" fontFamily="Times" textAlign="left" verticalAlign="middle" visible.normal="false" textColor="0xf01414" y="926" horizontalCenter="0"/>
+	<e:Group id="groupMC" width="0" height="0" y="400" horizontalCenter="0"/>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神羽\S-神羽-升级.jpg" y="-47" visible="false"/>-->
+</e:Skin>

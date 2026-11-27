@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipBossPanelItemEUI" currentState="open" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="nopen,open,die,nocount"  width="684" height="164">
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" y="0" x="0" width="684" source="public_zycs_zbjlk" scale9Grid="43,14,19,6" height="164"/>
+
+
+
+	<e:Image y="8" source="qm_zycs_txk" x="39"/>
+	<e:Image source="qm_zycs_jdt1" scale9Grid="49,11,96,19" y="107" x="16"/>
+	<e:Image id="imgBossHead" x="70" y="22" anchorOffsetX="0" anchorOffsetY="0" source="" />
+
+
+	<e:Label id="lbDieTime" y="16" text="0" fontFamily="Times" size="22" textAlign="center" visible.open="false" visible.nopen="false" textColor="0xf01414" visible.nocount="false" x="224"/>
+
+
+
+
+	<e:Label id="lbBosLv" y="119" text="0" fontFamily="Times" size="18" lineSpacing="0" textColor="0xe6dcb8" horizontalCenter="-229.5"/>
+	<e:Label id="lbCount" y="16" text="Challenge Attempts: 9" fontFamily="Times" size="22" lineSpacing="0" textColor="0x5ac832" visible.nopen="false"  right="16"/>
+	<e:List id="list" x="211" y="52" height="95" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8">
+		
+		
+			
+			
+			
+		
+		
+		<e:layout>
+		<e:HorizontalLayout gap="29"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="lbLevelRequire" y="42" text="0" size="24" fontFamily="Times" textAlign="center" visible.die="false" visible.open="false" y.nopen="30" textColor="0xf01414" visible.nocount="false" horizontalCenter="259"/>
+
+	<e:Button id="btnChallenge" label="Challenge" x="540" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1mid" y="76" currentState.nopen="hui" label.nopen=""/>
+	<e:Image x="566" y="63" source="zhuijia_zycs_suo" touchEnabled="false" visible.open="false" visible.die="false" visible.nocount="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

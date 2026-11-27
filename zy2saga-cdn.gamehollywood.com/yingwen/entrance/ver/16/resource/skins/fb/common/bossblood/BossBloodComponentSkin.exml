@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BossBloodComponentSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="520" height="128">
+	<e:Group touchEnabled="false" anchorOffsetY="0" y="0" x="0" anchorOffsetX="0" width="518">
+		<e:Image x="0" y="0" touchEnabled="false"  source="xt_zycs_k1"/>
+		<e:Image id="head" x="30" y="12" touchEnabled="false" source=""/>
+		<e:Group x="132" y="24">
+			<e:Label id="nameTxt" y="0" size="20" text="0" fontFamily="Times" x="0" textColor="0xF15A25" minWidth="160"/>
+			<e:Label id="lvTxt" y="1" size="20" text="0" fontFamily="Times" x="173" textColor="0xDFD1B5" textAlign="left" anchorOffsetX="0" width="178" touchEnabled="false"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Component id="bossBloodComponentBase" x="122.01" y="52.33" skinName="BossBloodComponentBaseEUI"/>
+	</e:Group>
+	<e:ProgressBar id="hpBarDun" value="10000" y="74" x="114" touchEnabled="false" maximum="10000" skinName="bloodBarBossHomeDun"/>
+</e:Skin>

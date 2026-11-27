@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel11_101EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Group horizontalCenter="0" width="720" verticalCenter="0">
+		<e:Image id="imgBg" y="0" x="0" scale9Grid="86,662,522,92" source="hddt_zycs_zmthen_png"/>
+		<e:Button id="closeBtn" label="" y="73" skinName="Btn0Skin" icon="public_zycs_cha" x="662"/>
+		<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="342" width="720" x="0" height="405">
+			<e:List id="listBtn" itemRendererSkinName="ActItem11_101EUI">
+				<e:layout>
+					<e:VerticalLayout gap="25"/>
+				</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group y="302" right="21">
+			<e:Label y="0" text="Event Time:" fontFamily="Times" size="22" x="0" lineSpacing="10" textColor="0xe3d7be"/>
+			<e:Label id="lbTime" y="0" text="1D 8H 19M 46S" fontFamily="Times" size="22" x="100" lineSpacing="10" textColor="0x13ee22"/>
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

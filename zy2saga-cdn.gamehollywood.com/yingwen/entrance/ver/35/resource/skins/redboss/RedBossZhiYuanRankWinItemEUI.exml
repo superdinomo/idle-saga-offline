@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossZhiYuanRankWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="516" >
+	<e:Image id="imgBg" source="cg_zycs_di1" width="488" height="82"/>
+	<e:Image id="imgRank" touchEnabled="false" source="public_zycs_ranknum_1" x="21" verticalCenter="0"/>
+
+
+
+	<e:Label id="lbRank" fontFamily="Times" size="20" text="1" textColor="0xcdc8be" width="50" textAlign="center" x="32" verticalCenter="0"/>
+	<e:Label id="lbName" fontFamily="Times" size="20" text="Not so fast yet" textAlign="center" textColor="0xf5e654" x="103" y="8"/>
+	<e:Label id="lbNum" fontFamily="Times" size="20" text="99999" textAlign="center" x="103" y="42" textColor="0xe3d7be"/>
+
+
+
+
+	<e:Image touchEnabled="false" width="100%" x="0" bottom="0" source="em_zycs_fgx"/>
+	<e:Scroller y="1" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" maxWidth="560" scaleX="0.7" scaleY="0.7" horizontalCenter="158.5">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+		
+			
+			
+			
+			
+			
+		
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+			</e:layout>
+
+		</e:List>
+	</e:Scroller>
+	
+</e:Skin>

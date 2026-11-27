@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarTeamReadyItemLEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="319" height="135">
+	<e:Image touchEnabled="false" scale9Grid="15,27,43,20" source="smsz_zycs_bg7_png"/>
+	<e:Image y="32" source="sjhj_zycs_tx" x="15"/>
+	<e:Image id="imgScroll" y="41" source="mianui_zycs_zhanshi0" x="25" width="76" height="76" visible="false"/>
+	<e:Image id="imgIcon" y="41" source="mianui_zycs_zhanshi0" x="25" width="76" height="76"/>
+	<e:Image id="imgCaptain" y="-9" fillMode="scale" x="-4" source="smsz_zycs_dui2"/>
+	<e:Image id="imgPos" touchEnabled="false" scale9Grid="15,27,43,20" x="-2" y="-3" source="smsz_zycs_dy1"/>
+
+
+	<e:Group x="165" y="9">
+		<e:Image touchEnabled="false" x="0" y="0" source="smsz_zycs_zwsd"/>
+		<e:BitmapLabel id="bmpNum" x="65" text="67" letterSpacing="-1" y="0" font="smszsd_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Image x="123" y="86" source="smsz_zycs_sqzl"/>
+	<e:Group id="groupName" x="123" y="47">
+		<e:Label id="lbName" y="-2" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="0" textColor="0xe3d7be" width="185" wordWrap="true"/>
+		<e:Group x="43" y="38">
+			<e:BitmapLabel id="bmpPower" x="0" text="678889" letterSpacing="-1" font="smszzl_fnt" y="-1"/>
+			<e:BitmapLabel id="bmpU" x="87" y="0" text="y" letterSpacing="-1" font="smszzl_fnt"/>
+			<e:layout>
+			<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupWh" x="123" y="47">
+		<e:Label y="0" text="？？？" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" x="0" textColor="0xE3D7BE" bold="true"/>
+		<e:Label y="40" text="Unknown" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" x="70" textColor="0xFFB92D" bold="true"/>
+	</e:Group>
+</e:Skin>

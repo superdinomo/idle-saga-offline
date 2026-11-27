@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkPowerRankWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="546" height="736">
+		<e:Image x="0" y="0" touchEnabled="false" source="hddt_zycs_dwxbpm_jpg"/>
+		<e:Label text="Ranking" fontFamily="Times" size="20" textAlign="center" y="82" x="67" textColor="0xff9b0f"/>
+		<e:Label text="Info" fontFamily="Times" size="20" textAlign="center" y="82" textColor="0xFF9B0F" x="215"/>
+		<e:Label text="CP" fontFamily="Times" size="20" textAlign="center" y="82" textColor="0xFF9B0F" x="406"/>
+		<e:Scroller y="109" height="475" x="29" width="488">
+			<e:List id="listRank" itemRendererSkinName="HfpkPowerRankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+
+
+
+
+		<e:Label text="Only CP of the registered players will be recorded. Upon the end of the registration, the top 64 players will be qualified" fontFamily="Times" size="20" textAlign="center" y="620" textColor="0xff700f" horizontalCenter="0" width="502" wordWrap="true"/>
+		<e:Label text="Ranking info will be refreshed every hour" fontFamily="Times" size="20" textAlign="center" y="663" textColor="0xf01414" horizontalCenter="0"/>
+		<e:Label id="lbMyPower" text="My CP: 990k (Unqualified)" fontFamily="Times" size="20" textAlign="center" y="596" textColor="0xCDC8BE" x="35"/>
+		<e:Label id="lbPower" text="Minimum Qualified CP: 1200k" fontFamily="Times" size="20" textAlign="center" y="596" textColor="0xCDC8BE" x="272"/>
+
+		<e:Image id="imgTitle" y="13" horizontalCenter="0" source="hfdfs_zycs_zlph"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="-4" x="463"/>
+
+	</e:Group>
+</e:Skin>

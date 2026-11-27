@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WuJinDaoPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+         width="194" height="175">
+
+	<e:Image id="bg" anchorOffsetX="0"
+	         anchorOffsetY="0"   y="0" x="0" source="hsd_zycs_k1"/>
+	<e:Image id="bg0" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="hsd_zycs_k2" visible="false"/>
+	<e:Image id="imgIcon" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="" verticalCenter="-20"/>
+
+
+	<e:Label id="lbTime" y="116" text="Challengeable" fontFamily="Times" size="22" textAlign="center" horizontalCenter="0" textColor="0x13ee22"/>
+
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="137" y="11"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" y="145" source="hsd_zycs_di" horizontalCenter="0" width="136" scale9Grid="43,2,8,15" height="20"/>
+	<e:Label id="lbLevel" y="145" text="Master level" fontFamily="Times" size="20" textAlign="center" textColor="0xffffff" horizontalCenter="0.5"/>
+
+
+</e:Skin>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiPkItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+       >
+    <w:Config id="15af9c70173" />
+	<e:Image touchEnabled="false" scale9Grid="42,36,19,19" source="zylts_zycs_d1" x="0" y="0"/>
+	<e:Image id="imgResultL" touchEnabled="false" scale9Grid="42,36,19,19" y="84" source="zylts_zycs_fu" horizontalCenter="-185.5"/>
+
+	<e:Image touchEnabled="false" scale9Grid="42,36,19,19" x="379" y="0" source="zylts_zycs_d2"/>
+	<e:Image id="imgResultR" touchEnabled="false" scale9Grid="42,36,19,19" y="84" source="zylts_zycs_sheng" horizontalCenter="221.5"/>
+	<e:Group x="335" scaleX="0.8" scaleY="0.8" y="20">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" x="10" source="dfwz_zycs_v"/>
+		<e:Image y="45" x="0" source="dfwz_zycs_s"/>
+	</e:Group>
+
+	<e:Image x="7" y="13" source="sjhj_zycs_tx" scaleX="0.7" scaleY="0.7"/>
+	<e:Image id="imgIcon" x="14" y="18" source="mianui_zycs_zhanshi0" height="76" scaleX="0.7" scaleY="0.7" width="76"/>
+	<e:Image y="21" x="75" source="public_zycs_jx1" width="200" height="38" scale9Grid="17,3,105,24"/>
+	<e:Label id="lbName" text="Miracle xXMoo MoralityXx" y="28" size="22" textAlign="left" fontFamily="Times" textColor="0xffffff" horizontalCenter="-176.5"/>
+
+
+
+
+
+
+
+	<e:Label id="lbCountL" text="Support: 999" fontFamily="Times" size="20" textAlign="left" x="109" y="176" textColor="0xffffff"/>
+	<e:Group id="groupBtnL" x="114" y="95">
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image id="imgConsuL" x="0" y="0" source="zycs_320002"/>
+			<e:Label id="lbConsuL" text="0" fontFamily="Times" size="20" textAlign="left" textColor="0xCDC8BE" x="38" y="8"/>
+		</e:Group>
+		<e:Button id="btnL" y="37" label="Support" x="0" skinName="BtnMin1_2small"/>
+	</e:Group>
+	<e:Label id="lbLun" text="Round $num$ Challenger" fontFamily="Times" size="28" textAlign="left" y="17" textColor="0xf5e65a" horizontalCenter="218.5"/>
+	<e:Label id="lbNum" text="Challenger: 8" fontFamily="Times" size="24" textAlign="left" x="506" y="51" textColor="0xFFFFFF"/>
+
+
+
+	<e:Button id="btnHelp" x="645" y="50" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Group id="groupBtnR" x="506" y="59">
+
+		<e:Group y="36" horizontalCenter="0">
+			<e:Image id="imgConsuR" x="0" y="0" source="zycs_320002"/>
+			<e:Label id="lbConsuR" text="0" fontFamily="Times" size="20" textAlign="left" textColor="0xCDC8BE" x="38" y="8"/>
+		</e:Group>
+		<e:Button id="btnR" y="73" label="Support" skinName="BtnMin1_2small" x="17"/>
+	</e:Group>
+	<e:Label id="lbCountR" text="Support: 999" fontFamily="Times" size="20" textAlign="left" x="517" y="176" textColor="0xffffff"/>
+	<e:Group id="groupMC" x="165" y="138" width="0" height="0">
+	</e:Group>
+</e:Skin>

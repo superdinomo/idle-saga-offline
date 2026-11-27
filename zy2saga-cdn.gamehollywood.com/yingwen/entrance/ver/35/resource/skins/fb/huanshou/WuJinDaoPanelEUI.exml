@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WuJinDaoPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"  height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" x="13" source="hsd_zycs_bg1_jpg"/>
+	<e:Component id="itemBoss0" y="209" x="72" skinName="WuJinDaoPanelItemEUI"/>
+	<e:Component id="itemBoss1" y="78" skinName="WuJinDaoPanelItemEUI" x="286"/>
+	<e:Component id="itemBoss2" y="183" skinName="WuJinDaoPanelItemEUI" x="484"/>
+	<e:CheckBox id="checkBoxGuanZhu" label="Follow" x="515" skinName="CheckBoxEUI" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="896"/>
+	<e:Label id="lbTimer" y="810" text="Defeated" fontFamily="Times" size="24" textColor="0xff0000" horizontalCenter="0"/>
+	<e:Image y="618" x="312" source="qm_zycs_dlyl"/>
+	<e:Image x="122" y="619" source="liuguang_zycs_huawen"/>
+	<e:Image x="599" y="619" source="liuguang_zycs_huawen" scaleX="-1"/>
+	<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" maxWidth="560" horizontalCenter="0" verticalCenter="139">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingBottom="12" paddingRight="12"/>
+			</e:layout>
+
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnChallenge" label="Challenge" anchorOffsetX="0" anchorOffsetY="0" y="870" horizontalCenter="-1.5" skinName="BtnMin1_2"/>
+	<e:CheckBox id="checkBoxAuto" y="960" skinName="CheckBoxEUI" label="Auto-challenge" horizontalCenter="-179.5"/>
+	<e:Label id="labelDesc" y="960" text="(Activate Character Halo to unlock)" fontFamily="Times" size="24" x="300" textColor="0xF01414"/>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\H_幻兽岛\H-幻兽岛1.jpg" y="-47"/>-->
+</e:Skin>

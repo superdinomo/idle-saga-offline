@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DamageListItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="275" height="25">
+	<e:Label id="rankTxt" size="16" textColor="0xDFD1B5" fontFamily="Times" textAlign="right" text="0" x="10" y="4" stroke="1"/>
+	<e:Image id="rankImg" touchEnabled="false" scaleX="0.5" scaleY="0.5" source="jjc_zycs_no1" verticalCenter="2"/>
+    <e:Label id="lbName" size="18" textColor="0xDFD1B5" fontFamily="Times" textAlign="right" text="0"  x="34" stroke="1" verticalCenter="1.5"/>
+	<e:Label id="lbName0" size="18" fontFamily="Times" textAlign="right" text="0" textColor="0x00ff00" stroke="1" strokeColor="0x192305" verticalCenter="1.5" right="3"/>
+</e:Skin>

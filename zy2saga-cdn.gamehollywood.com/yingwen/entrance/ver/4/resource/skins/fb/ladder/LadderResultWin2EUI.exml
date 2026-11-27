@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderResultWin2EUI" width="720" height="1280" currentState="win" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*"  states="win,lose" >
+	<w:Config id="1586b3502a7"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="js_zycs_qz_png" source.lose="js_zycs_qzh_png"/>
+		<e:Image y="134" source="js_zycs_sl_png" x="237" source.lose="js_zycs_sb_png" x.lose="237"/>
+		<e:Image y="437" includeIn="lose" source="js_zycs_di_png" x="39"/>
+		<e:Component id="duanIcon" y="197" skinName="LadderStarSkin" x="176"/>
+		<e:Scroller height="368" y="545" width="338" x="141">
+		<e:List id="list" itemRendererSkinName="ItemSkin" y="1">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="3" verticalGap="43" horizontalGap="28"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Button id="btn" label="Confirm" y="933" skinName="BtnMin1_6" x="244"/>
+		<e:Image x="100" y="509" includeIn="win,lose" source="js_zycs_tzjl"/>
+		<e:Image id="starImg" x="101" y="473" includeIn="win,lose" source="js_zycs_xjjl"/>
+		<e:Label text="N/A" fontFamily="Times" size="20" touchEnabled="false" textAlign="left" x="276" y="472" textColor="0xffffff" includeIn="lose"/>
+	</e:Group>
+</e:Skin>

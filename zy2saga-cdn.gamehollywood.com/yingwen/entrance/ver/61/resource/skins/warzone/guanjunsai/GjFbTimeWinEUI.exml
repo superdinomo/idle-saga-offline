@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbTimeWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   width="720" height="1280">
+	<e:Group id="group1" horizontalCenter="0" top="250" x="94" y="285">
+		<e:Image x="0" source="gjs_djs" scale9Grid="179,3,9,25" width="530" y="5"/>
+		<e:BitmapLabel id="timebmp" text="99" horizontalCenter="-63.5" anchorOffsetX="15" anchorOffsetY="20" letterSpacing="-7" font="fubennum_fnt" y="20"/>
+	</e:Group>
+	
+</e:Skin>

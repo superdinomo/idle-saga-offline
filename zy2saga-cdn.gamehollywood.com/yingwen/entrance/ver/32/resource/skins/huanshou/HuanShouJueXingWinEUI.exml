@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouJueXingWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" x="0" source="hs_zycs_bg3_jpg"/>
+
+		<e:Image y="12" source="hs_zycs_hsjx" horizontalCenter="0"/>
+
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="0"/>
+		<e:Image id="imgBG" y="65" x="59" source="hs_zycs_jxk2"/>
+		<e:Image id="imgIcon" x="64" y="69" source="hs_zycs_hsjn1_c"/>
+
+		<e:Label id="lbName" text="Eudemon Awaken" y="57" size="24" textAlign="left" fontFamily="Times" x="167" textColor="0xe3d7be"/>
+		<e:Label id="lbState" text="Current statue: Activated" y="80" size="24" textAlign="left" fontFamily="Times" x="167" textColor="0xe3d7be"/>
+		<e:Label text="Take effect when deployed, can't upgrade" y="105" size="24" textAlign="left" fontFamily="Times" x="167" textColor="0x13ee22" width="353" wordWrap="true"/>
+		<e:Label id="lbC" text="Current Effect" y="188" size="24" textAlign="left" fontFamily="Times" x="56" textColor="0xFFC835"/>
+		<e:Label id="lbCur" text="N/A" y="220" size="24" textAlign="left" fontFamily="Times" textColor="0xe3d7be" width="441" x="56"/>
+
+
+
+	</e:Group>
+
+</e:Skin>

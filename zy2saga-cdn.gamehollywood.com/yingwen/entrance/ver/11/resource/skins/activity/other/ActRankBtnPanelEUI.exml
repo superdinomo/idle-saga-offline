@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActRankBtnPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="136">
+	<e:Image touchEnabled="false" x="0" source="mianui_zycs_kp" y="24"/>
+	<e:Image touchEnabled="false" y="0" source="mianui_zycs_bdd" x="3"/>
+	<e:Image id="imgTitle" touchEnabled="false" y="4" source="mianui_zycs_phb1" horizontalCenter="0.5"/>
+	<e:Image touchEnabled="false" y="157" source="public_zycs_greybg1" scale9Grid="2,2,16,16" width="128" x="4" height="41"/>
+	<e:Group id="groupMc" height="0" y="167" width="0" x="68">
+		<e:Group id="offsMc" width="0" height="0"/>
+	</e:Group>
+
+
+
+	<e:Label id="lbName" fontFamily="Times" size="20" text="Congrats " y="159" textColor="0xcdc8be" horizontalCenter="0"/>
+	<e:Label id="lbTime" text="2019-1-1" y="180" size="20" fontFamily="Times" textAlign="left" horizontalCenter="0" textColor="0xcdc8be"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="117" y="25"/>
+	<e:Group id="groupMc1" height="0" y="177" x="68">
+		<e:Group id="offsMc0" width="0" height="0"/>
+	</e:Group>
+	<e:Image touchEnabled="true" source="mianui_zycs_kp" y="0" width="100%" height="100%" x="0" alpha="0.01" visible="false"/>
+</e:Skin>

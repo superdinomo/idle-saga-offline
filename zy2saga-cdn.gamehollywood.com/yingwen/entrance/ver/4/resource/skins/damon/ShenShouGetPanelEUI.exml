@@ -1,0 +1,65 @@
+<e:Skin class="ShenShouGetPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image fillMode="scale" x="13" y="43" source="sshq_zycs_bg_jpg"/>
+	<e:Label id="freeTimeTxt" text="0" y="968" size="24" textAlign="center" fontFamily="Times" textColor="0xff0404" horizontalCenter="190"/>
+	<e:Image y="846" x="549" source="zycs_320002"/>
+	<e:Image y="844" x="194" source="zycs_310009"/>
+	<e:Image y="197" source="qianghua_zycs_diwen1" x="164"/>
+	<e:Image y="202" x="288" source="ss_zycs_jlyl"/>
+
+	<e:Label id="labelDesc" text="Drawing Cryptid has a chance to gain limited stats: Fierce Hit Res." x="34" y="69" size="20" fontFamily="Times" anchorOffsetY="0" textColor="0xf5e654" width="540"/>
+	<e:Label id="labelDesc0" text="Diamond Draw Points can be used to exchange for Cryptid in Mystery Shop" x="34" y="110" size="20" fontFamily="Times" anchorOffsetY="0" textColor="0xaf9b73" width="540"/>
+	<e:Label text="Current Points:" x="34" fontFamily="Times" size="20" y="152" textAlign="left" textColor="0xcdc8be"/>
+	<e:Label id="moneyTxt" text="0" x="186" fontFamily="Times" size="20" y="153" textAlign="left" textColor="0xcdc8be"/>
+	<e:Image y="148" touchEnabled="false" x="155" source="zycs_320010"/>
+	<e:Button id="lineupBtn2" label="" x="596" skinName="Btn0Skin" icon="ss_zycs_smsd" y="69"/>
+	<e:Group id="groupMC" x="0" y="0"/>
+	<e:Group x="212" y="405" width="97">
+		<e:Image source="ss_zycs_k1" y="0"/>
+		<e:Image id="imgSR0" y="18" horizontalCenter="0" source="zycs_jl_quality4"/>
+		<e:Image y="66" source="jl_zycs_title1" horizontalCenter="0"/>
+		<e:Image id="imgTouch0" source="public_zycs_greybg0" scale9Grid="2,2,16,16" alpha="0" width="240" height="175"/>
+	</e:Group>
+	<e:Group x="31" y="226" width="97">
+		<e:Image source="ss_zycs_k1" y="0"/>
+		<e:Image id="imgSR1" y="18" horizontalCenter="0" source="zycs_jl_quality4"/>
+		<e:Image y="66" source="jl_zycs_title2" horizontalCenter="0"/>
+		<e:Image id="imgTouch1" source="public_zycs_greybg0" scale9Grid="2,2,16,16" alpha="0" width="240" height="175" x="0"/>
+	</e:Group>
+	<e:Group x="598" y="226" width="97">
+		<e:Image source="ss_zycs_k1" y="0"/>
+		<e:Image id="imgSR2" y="18" horizontalCenter="0" source="zycs_jl_quality4"/>
+		<e:Image y="66" source="jl_zycs_title3" horizontalCenter="-0.5"/>
+		<e:Image id="imgTouch2" source="public_zycs_greybg0" scale9Grid="2,2,16,16" alpha="0" width="240" height="175" x="-141"/>
+	</e:Group>
+	<e:Group x="32" y="557" width="97">
+		<e:Image source="ss_zycs_k1" y="0"/>
+		<e:Image id="imgSR3" y="18" horizontalCenter="0" source="zycs_jl_quality4"/>
+		<e:Image y="66" source="jl_zycs_title4" horizontalCenter="-0.5"/>
+		<e:Image id="imgTouch3" source="public_zycs_greybg0" scale9Grid="2,2,16,16" alpha="0" width="240" height="175"/>
+	</e:Group>
+	<e:Group x="598" y="557" width="97">
+		<e:Image source="ss_zycs_k1" y="0"/>
+		<e:Image id="imgSR4" y="18" horizontalCenter="0" source="zycs_jl_quality4"/>
+		<e:Image y="66" source="jl_zycs_title5" horizontalCenter="-1.5"/>
+		<e:Image id="imgTouch4" source="public_zycs_greybg0" scale9Grid="2,2,16,16" alpha="0" width="240" height="175" x="-144"/>
+	</e:Group>
+	<e:Button id="btnSR" label="" skinName="Btn0Skin" icon="ss_zycs_cjyl" y="688" x="316"/>
+	<e:Label id="labelItemHas" text="Currently Owned:" x="138" y="815" size="20" textAlign="left" fontFamily="Times" textColor="0xe3d7be"/>
+	<e:Label text="Cost: " x="138" y="850" size="20" textAlign="left" fontFamily="Times" textColor="0xe3d7be"/>
+	<e:Label id="labelCost1" text="0" x="229" y="850" size="20" textAlign="left" fontFamily="Times" textColor="0xe1d3ad"/>
+	<e:Label id="labelCost2" text="0" x="585" y="853" size="20" textAlign="left" fontFamily="Times" textColor="0xE1D3AD"/>
+	<e:Label text="Cost: " x="496" y="853" size="20" textAlign="left" fontFamily="Times" textColor="0xe3d7be"/>
+	<e:Label id="itemCountTxt" text="Guarantee Legendary Cryptid after       more draw" x="83" y="883" size="20" textAlign="left" fontFamily="Times" textColor="0xFF9B0F" visible="false"/>
+	<e:Image id="imgitemCountTxt" fillMode="scale" x="69" y="880" source="ss_zycs_zcyc"/>
+	<e:BitmapLabel id="itemCountBmp" y="884" text="1" letterSpacing="-5" horizontalCenter="-74" font="shenshou_fnt"/>
+	<e:Image id="ImgItemCount" y="881" touchEnabled="false" source="ss_zycs_bcbc" x="90"/>
+	<e:Image id="imgybCountTxt" fillMode="scale" x="421" y="880" source="ss_zycs_zcyc"/>
+	<e:BitmapLabel id="ybCountBmp" y="883" text="1" letterSpacing="-5" horizontalCenter="279" font="shenshou_fnt"/>
+	<e:Image id="imgYbCount" y="880" touchEnabled="false" source="ss_zycs_bcbc" x="426"/>
+	<e:Button id="btnLottery1" y="915" x="133" icon="" label="Badge Draw" skinName="BtnMin1_1mid" width="140"/>
+	<e:Button id="btnLottery2" y="915" x="490" icon="" label="Draw" skinName="BtnMin1_1mid" width="140"/>
+	<!--<e:Image y="-47" touchEnabled="false" x="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神兽\S-神兽-获取.jpg" locked="true" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="42" x="13" source="zh_zycs_bg1_jpg"/>
+	<e:Image y="573" source="hddt_zycs_yljl" horizontalCenter="0"/>
+	<e:Image y="574" source="liuguang_zycs_huawen" scaleX="-1" x="621"/>
+	<e:Image y="574" source="liuguang_zycs_huawen" x="98"/>
+	<e:Image y="512" source="public_zycs_jx1" width="192" scale9Grid="17,8,105,11" height="36" horizontalCenter="0"/>
+
+
+
+
+	<e:Button id="btnRankReward" label="" y="133" skinName="Btn0Skin" icon="zh_zycs_phjl" x="597"/>
+	<e:Button id="btnSigleReward" label="" y="241" skinName="Btn0Skin" icon="zh_zycs_grjl" x="597"/>
+	<e:Button id="btnPutong" label="" y="355" skinName="Btn0Skin" icon="zh_zycs_c1" x="184" width="135" height="160"/>
+	<e:Button id="btnChuanshuo" label="" y="355" skinName="Btn0Skin" icon="zh_zycs_c2" x="390" width="135" height="160"/>
+	<e:Scroller height="118" y="599" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:List id="list" height="62" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="23" paddingLeft="12" paddingRight="12" paddingBottom="12" paddingTop="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:RadioButton id="rdPuTong" label="Common Summon" y="735" selected="true" skinName="RadioButtonEUI" scaleX="1" scaleY="1" x="171"/>
+	<e:RadioButton id="rdChuanshuo" label="Legendary Summon" y="735" skinName="RadioButtonEUI" scaleX="1" scaleY="1" x="373"/>
+	<e:Group y="800" horizontalCenter="0">
+		<e:Image id="imgConsumeIcon" x="0" y="0" source="zycs_423000" width="32" height="32"/>
+		<e:Label id="lbConsumeCount" text="0" y="16" fontFamily="Times" size="24" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Button id="btnSend" skinName="BtnMin1_1" y="842" label="Common Summon" horizontalCenter="0"/>
+	<e:Label id="lbCount" y="517" text="Assist times: 2/10" fontFamily="Times" size="24" lineSpacing="0" textAlign="left" textColor="0xE3D7BE" horizontalCenter="0"/>
+	<e:CheckBox id="checkBoxAuto" x="559" y="869" skinName="CheckBoxEUI" label="Auto"/>
+	<e:Image y="64" source="public_zycs_jlylk" height="39" horizontalCenter="0"/>
+	<e:Image y="64" x="32" source="jh_zycs_xz"/>
+	<e:Label y="73" text="Challenge Time: Monday 5:00 - Sunday 22:00 (Settle at 22:30 Sunday)" fontFamily="Times" size="20" lineSpacing="0" textAlign="left" textColor="0xff9b0f" left="71"/>
+
+
+
+</e:Skin>

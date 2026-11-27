@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengLingYinJiTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group id="group" horizontalCenter="0" width="518" verticalCenter="0">
+		<e:Image top="0" bottom="0" source="public_zycs_tips_png"  scale9Grid="64,15,390,3"/>
+		<e:Button id="closeBtn0" label="" y="5" skinName="Btn0Skin" icon="public_zycs_cha" x="481" />
+		<e:Image id="imgQuality" source="tips_zycs_4" />
+		<e:Component id="itemIcon" x="58" y="71" skinName="ItemSkin" />
+		<e:Image y="15" source="tips_zycs_di" x="140" />
+		<e:Label id="lbName" text="Gear Name" y="23" fontFamily="Times" size="24" textColor="0xFFFFFF" textAlign="center" width="404"
+		         x="57" />
+		<e:Label id="lbLv" text="Use Level: 1" y="85" fontFamily="Times" size="24" textAlign="left" x="172" textColor="0xFFFFFF" />
+		<e:Label id="lbCount" text="Amount Owned: 1" y="115" fontFamily="Times" size="24" textColor="0xFFFFFF" textAlign="left" x="172" />
+		<e:Group x="20" top="168" bottom="308">
+			<e:Group x="0" y="0">
+				<e:Image y="0" source="shengling_zycs_yjsx" x="192" />
+				<e:Image y="3" source="liuguang_zycs_huawen" scaleX="-1" x="478" />
+				<e:Image y="3" source="liuguang_zycs_huawen" x="0" />
+
+
+				<e:Group x="18" y="28">
+					<e:Label id="lbDesc" text="Used to activate Imprint inside the Dark Spirit. Gather the full Imprints to awaken Spirit effect" fontFamily="Times" size="20" textColor="0xFFFFFF" textAlign="left" lineSpacing="6" y="0" width="442" x="0"/>
+					<e:Label id="lbattr" text="Stats\nStats\nStats:" fontFamily="Times" size="20" textColor="0xFFFFFF" textAlign="left" x="0" lineSpacing="6" y="55"/>
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:Group></e:Group>
+			<e:Group x="10" y="10">
+				<e:Image y="0" x="192" source="shengling_zycs_tzsx"/>
+				<e:Image y="3" source="liuguang_zycs_huawen" scaleX="-1" x="478"/>
+				<e:Image y="3" source="liuguang_zycs_huawen" x="0"/>
+				<e:Scroller id="scroller" y="39" width="442" x="18" height="116">
+					<e:List id="tzList" itemRendererSkinName="ShengLingTaoZhuangItemEUI">
+					<e:layout>
+						<e:VerticalLayout gap="4"/>
+					</e:layout>
+						<e:ArrayCollection>
+							<e:Array>
+								<e:Object/>
+								<e:Object/>
+								<e:Object/>
+								<e:Object/>
+								<e:Object/>
+							</e:Array>
+						</e:ArrayCollection>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+				<e:Group id="groupGain" x="0" y="212">
+					<e:Image y="0" source="zz_zycs_hqtj"  horizontalCenter="0"/>
+					<e:Image y="3" source="liuguang_zycs_huawen" scaleX="-1" x="478" />
+					<e:Image y="3" source="liuguang_zycs_huawen" x="0" />
+					<e:Group horizontalCenter="0" top="26" bottom="0">
+						<e:List id="gainList" itemRendererSkinName="GainGoodsItemEUI" horizontalCenter="0">
+							<e:layout>
+								<e:TileLayout horizontalGap="35" horizontalAlign="center" requestedColumnCount="4" />
+							</e:layout>
+							<e:ArrayCollection>
+								<e:Array>
+									<e:Object/>
+									<e:Object/>
+									<e:Object/>
+								</e:Array>
+							</e:ArrayCollection>
+						</e:List>
+					</e:Group>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="18" />
+				</e:layout>
+			</e:Group>
+			<e:Image x="137" source="shenqi_zycs_di2" bottom="207"  rotation="90"/>
+			<e:Label text="Display" fontFamily="Times" size="22" textColor="0xFFFFFF" textAlign="left" x="40" bottom="218" />
+			<e:Label id="lbDesc2" text="Activate 6 different Imprints to morph Dark Star Spirit Appearance" fontFamily="Times" size="18" textColor="0xFFFFFF" textAlign="left"
+			         lineSpacing="6"  horizontalCenter="24" bottom="256" height="46" anchorOffsetX="0" width="436"/>
+			<e:Group id="groupMc" bottom="180" width="0" height="0" x="259"></e:Group>
+		</e:Group>
+	</e:Skin>

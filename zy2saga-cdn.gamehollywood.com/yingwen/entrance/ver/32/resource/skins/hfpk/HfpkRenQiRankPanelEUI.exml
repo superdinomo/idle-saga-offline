@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkRenQiRankPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image fillMode="clip" y="42" x="13" source="hwbz_zycs_bg_jpg"/>
+
+		<e:Image x="0" y="-3" height="1142" touchEnabled="false" source="phb_zycs_k" width="720" scale9Grid="0,121,720,43" locked="true"/>
+		<e:Image y="25" source="hfdfs_zycs_rqphb" x="277"/>
+		<e:Image id="none" y="172" source="llcz_zycs_xydw" x="190"/>
+		<e:Group id="groupMc" width="0" height="0" y="457" x="365"/>
+		<e:Image y="497" x="23" source="jh_zycs_xz"/>
+		<e:Label text="For every 1 Diamond invested, you gain 1 Popularity" size="20" textAlign="left" fontFamily="Times" touchEnabled="false" x="63" textColor="0xf5e65a" width="622" verticalCenter="-55.5"/>
+		<e:Scroller y="543" x="31" height="487" width="670">
+			<e:List id="list" itemRendererSkinName="HfpkRenQiRankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbRank" text="My Ranking: Not listed" y="1054" size="24" textAlign="center" fontFamily="Times" touchEnabled="false" x="76" textColor="0xf5e65a"/>
+		<e:Label id="lbNum" text="Current Popularity: 0" y="1054" size="24" textAlign="center" fontFamily="Times" touchEnabled="false" x="372" textColor="0xff9b0f"/>
+		<e:Label text="For every 1000 Diamonds invested, you gain 1000 Popularity" y="1060" size="24" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" x="156" visible="false"/>
+	</e:Group>
+</e:Skin>

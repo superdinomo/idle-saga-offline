@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HasdPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1054" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+
+	<e:Image y="39"  source="ahsd_zycs_bg_jpg" x="12"/>
+	<e:Group id="groupBoss" x="274" y="521"/>
+
+	<e:Image x="124" y="69" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="123,8,27,18" source="public_zycs_di01"/>
+	<e:Label id="lbName" y="73" text="0" fontFamily="Times" size="24" lineSpacing="0" textColor="0xff9b0f" width="463" textAlign="center" x="42"/>
+	<e:Label y="111" text="Remaining HP" fontFamily="Times" size="24" x="58" lineSpacing="0" textColor="0xe6dcb8"/>
+	<e:ProgressBar id="barhp" x="256" y="103" value="100" anchorOffsetX="0" anchorOffsetY="0" skinName="ProgressBarEUI1" slideDuration="0"/>
+	<e:Image y="144" source="public_zycs_jlylk"  x="121"/>
+	<e:Group y="162" horizontalCenter="-92">
+		<e:Image source="public_zycs_zdl" x="1"/>
+		<e:BitmapLabel id="bitPower" x="118" text="" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+
+	<e:Image y="94" x="507" anchorOffsetY="0" source="ahsd_zycs_lb"/>
+	<e:Scroller y="104" x="499" width="206" height="567" anchorOffsetY="0">
+		<e:List id="list" useVirtualLayout="false" itemRendererSkinName="HasdBossItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="-30"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+
+
+	<e:Image y="548" x="222" source="gd_zycs_gsjl"/>
+
+	<e:Image y="574" height="155"  source="public_zycs_dk01" scale9Grid="300,23,119,15" x="-80" touchEnabled="false"/>
+
+	<e:Group width="480" height="109" x="26" y="600" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Scroller y="-7" anchorOffsetX="0" anchorOffsetY="0" x="0"
+		            scrollPolicyH="on" scrollPolicyV="off"  maxWidth="460">
+			<e:List id="listReward" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingLeft="0" paddingRight="0" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+
+	<e:Group y="735" x="220">
+		<e:Label id="lbGsCount" y="7" text="Remaining Ownership: 6" fontFamily="Times" size="19" lineSpacing="0" textColor="0xE6DCB8" x="0"/>
+		<e:Button id="btnConsumeAdd" label="" x="159" y="0" skinName="Btn0Skin" icon="public_zycs_Button_jia"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="13"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupLb" y="774" x="216">
+		<e:Image y="0" x="0" source="hddt_zycs_di" width="288" anchorOffsetY="0" height="48"/>
+		<e:Label id="lbLv" text="Respawn after 20:20:20" fontFamily="Times" size="20" lineSpacing="0" textColor="0xf01414" width="288" textAlign="center" x="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Button id="challengeBtn" label="Enter Dungeon" anchorOffsetX="0" anchorOffsetY="0" y="771" scaleX="1" scaleY="1" icon="" x="299" skinName="BtnMin1_1mid"/>
+	<e:Label id="lbSetting" y="743" text="Boss Reminder Settings" fontFamily="Times" size="19" touchEnabled="true" x="22" textColor="0x13ee22"/>
+
+
+	<e:Label id="lbLink" y="743" text="Upgrade Dark Spirit" fontFamily="Times" size="19" touchEnabled="true" x="544" textColor="0x13ee22"/>
+	<e:Scroller y="821" x="12" width="695" height="126">
+		<e:List id="tabList" useVirtualLayout="false" itemRendererSkinName="HasdTabItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="-19"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\A_暗黑神殿\A-暗黑神殿.jpg" y="-47" locked="true" visible="false"/>-->
+
+</e:Skin>

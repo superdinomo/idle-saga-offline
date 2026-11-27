@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipBuyWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="720">
+		<e:Image touchEnabled="false" source="zhzg_zycs_bg_png"/>
+		<e:Image y="13" source="zhzg_zycs_zhsz" horizontalCenter="0.5"/>
+		<e:Button id="closeBtn" label="" y="46" skinName="Btn0Skin" icon="public_zycs_cha1" x="645"/>
+		<e:Image y="108" x="68" source="zhzg_zycs_xsqg"/>
+		<e:Image id="imgBg" y="165" source="zhzg_zycs_n1" scaleX="0.9" scaleY="0.9" horizontalCenter="6"/>
+		<e:Image y="356" x="342" source="zhzg_zycs_hhlb"/>
+		<e:Group id="groupMc" y="419" width="0" height="0" x="188"/>
+		<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="290" y="391">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="3" verticalGap="20" horizontalGap="25" paddingLeft="15" paddingRight="15" paddingBottom="15" paddingTop="15"/>
+				</e:layout>
+
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Image source="zhzg_zycs_jt" right="422" bottom="274"/>
+		<e:Group y="624" right="459">
+			<e:Image x="0" source="zhzg_zycs_zl" y="8"/>
+			<e:BitmapLabel id="power" text="999999" font="zhzgnum_fnt" letterSpacing="-6" bottom="6" right="35" left="77"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbZs" text="3X diamonds rebate! Purchase to get 123456 diamonds" fontFamily="Times" size="20" textAlign="left" y="618" x="299" textColor="0xE3D7BE" width="366" wordWrap="true"/>
+		<e:Label text="The received Vouchers won't affect the daily acquire limit" fontFamily="Times" size="20" textAlign="left" y="684" x="201" textColor="0xE3D7BE"/>
+		<e:Group y="657" horizontalCenter="-192">
+			<e:Label id="lbDq" text="Buy now to gain 980 " fontFamily="Times" size="20" textAlign="left" y="0" x="0" textColor="0xE3D7BE"/>
+			<e:Image x="99" y="5" source="zycs_320030"/>
+
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbTime" text="Disappear in 23h 59m 59s" fontFamily="Times" size="20" textAlign="left" y="720" textColor="0x13ee22" horizontalCenter="0"/>
+		<e:Label text="（This Top-up can be counted towards total Top-up and SVIP）" fontFamily="Times" size="20" textAlign="left" y="820" textColor="0xE3D7BE" horizontalCenter="0"/>
+		<e:Button id="btnSend" y="744" label="Buy Now" skinName="BtnMin1_17" x="271"/>
+		<e:Button id="btnGet" y="744" label="Claim Rewards" skinName="BtnMin1_17" x="271"/>
+		<e:Image id="imgYlq" y="740" source="fl_zycs_ylq" x="299"/>
+		<e:TabBar id="tabList" selectedIndex="0" y="849" itemRendererSkinName="BtnTabZeroBuyEUI" x="46">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object source="zhzg_zycs_z1" />
+					<e:Object source="zhzg_zycs_z2" />
+					<e:Object source="zhzg_zycs_z3" />
+					<e:Object source="zhzg_zycs_z4" />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+	</e:Group>
+</e:Skin>

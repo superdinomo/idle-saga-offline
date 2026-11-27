@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhuZaiFbPanelEUI" height="1280" currentState="get" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="720" states="get,canget,noget" >
+	<w:Config id="1586b13ea96" />
+	<e:Group y="74" right="0" touchEnabled="false">
+		<e:Group id="groupShouYi" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" y="0" right="0">
+		<e:Image id="helpBg" y="2" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" fillMode="repeat" x="0" scale9Grid="84,20,25,13" source="em_zycs_jx4"/>
+			<e:Group y="15" horizontalCenter="0">
+				<e:Label id="helpTxt" y="0" text="Time Remain:" fontFamily="Times" size="20" touchEnabled="false" textAlign="left" scaleX="1" scaleY="1" lineSpacing="5" textColor="0xFFE58B" x="0"/>
+				<e:BitmapLabel id="bmpTime" y="1" x="101" text="300s" font="rwnum_fnt" letterSpacing="-3"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group anchorOffsetX="0" width="201" right="0" bottom="433" height="190">
+		<e:Image y="0" x="0" scale9Grid="26,26,13,6" source="sjbs_zycs_k1"/>
+		<e:Scroller anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0.5" y="36">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+		
+				
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>	
+				<e:layout>
+				<e:HorizontalLayout gap="11" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbDesc" text="Damage Basic Rewards" y="17" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" horizontalCenter="0" textColor="0xe3d7be"/>
+		<e:Label id="lbHurt" text="10/100" y="154" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" visible.get="false" visible.canget="false" textColor="0xf01414" horizontalCenter="0.5"/>
+		<e:Label id="lbYlq" text="Rewards are all claimed" y="154" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" textColor="0x5AC832" visible.canget="false" visible.noget="false" horizontalCenter="0.5"/>
+		<e:Label id="lbOk" text="Claim" y="154" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" textColor="0x5AC832" horizontalCenter="0.5" visible.get="false" visible.noget="false"/>
+	</e:Group>
+</e:Skin>

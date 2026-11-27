@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiKuaiSuWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" touchEnabled="false" source="cg_zycs_bg1_jpg"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="635"/>
+		<e:Image y="-5" touchEnabled="false" source="sl_zycs_k1" scale9Grid="52,7,95,44" width="253" x="233"/>
+		<e:Image y="11" touchEnabled="false" source="cg_zycs_bt" x="311"/>
+		<e:Image y="84" touchEnabled="false" x="428" source="cg_zycs_dk1"/>
+		<e:Image y="84" touchEnabled="false" source="cg_zycs_dk1" x="562"/>
+		<e:Image y="203" touchEnabled="false" x="442" source="cg_zycs_dk"/>
+		<e:Image y="203" touchEnabled="false" source="cg_zycs_dk" x="576"/>
+		<e:Image y="212" touchEnabled="false" x="468" source="cg_zycs_sy"/>
+		<e:Image y="211" touchEnabled="false" source="cg_zycs_sy" x="601"/>
+		<e:Button id="btnYueka" label="" skinName="Btn0Skin" icon="cg_zycs_yuek" y="82" x="429"/>
+		<e:Button id="btnZhiZun" label="" skinName="Btn0Skin" icon="cg_zycs_tq" y="82" x="563"/>
+		<e:Label id="lbYueka" text="Unlock" y="241" fontFamily="Times" size="20" textAlign="center" x="419" textColor="0x11f51c"/>
+		<e:Label id="lbZhuZun" text="Unlock" y="241" fontFamily="Times" size="20" textAlign="center" x="562" textColor="0x11f51c"/>
+		<e:Image touchEnabled="false" y="289" source="shenqi_zycs_di4" x="10" scale9Grid="87,20,524,120" height="304"/>
+		<e:Scroller verticalCenter="10" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="4" verticalGap="28" horizontalGap="28"/>
+				</e:layout>
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+			</e:List>
+		</e:Scroller>
+		<e:Group y="652" horizontalCenter="0" height="32">
+			<e:Label id="lbPrice" text="It’s free once daily" y="5" fontFamily="Times" size="20" textAlign="center" textColor="0x11f51c" x="0"/>
+			<e:Component id="price" skinName="PriceIconSkin" x="144" y="0"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnSend" y="693" skinName="BtnMin1_1" x="285" label="Raid"/>
+		<e:Label id="lbCount" text="Raid Attempts: 3/9" y="779" fontFamily="Times" size="24" textColor="0xE3D7BE" textAlign="center" x="249"/>
+		<e:Button id="btnAdd" label="" x="436" y="775" skinName="Btn0Skin" icon="public_zycs_Button_jia"/>
+	</e:Group>
+</e:Skin>

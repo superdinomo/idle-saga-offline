@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoBagPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134" width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Label id="lbTips" text="No items in the warehouse, please go to Treasure Hunt." y="195" fontFamily="Times" size="24" textColor="0xFFFFFF" textAlign="left" horizontalCenter="0"/>
+	<e:Scroller id="scrollerItem" y="57" scaleX="1" scaleY="1" width="667" height="917" anchorOffsetY="0" horizontalCenter="1.5">
+		<e:List id="listItem" scrollEnabled="false" itemRendererSkinName="XunBaoBagPanelItemEUI" useVirtualLayout="false" width="669">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:TileLayout horizontalGap="40" verticalGap="40" paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15" requestedColumnCount="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_fgqy" y="977" x="13"/>
+	<e:Label text="Tap to select, tap again to deselect" y="988" size="20" fontFamily="Times" horizontalCenter="0" textColor="0x888786"/>
+	<e:Button id="buyQuChu" label="Extract" y="1020" x="151" skinName="BtnMin1_1a"/>
+	<e:Button id="buyAllQuChu" label="Extract All" y="1020" x="420" skinName="BtnMin1_2"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image pixelHitTest="true" touchEnabled="false" id="imgTitle" source="xb_zycs_ck" horizontalCenter="0" verticalCenter="-544.5"/>
+
+</e:Skin>

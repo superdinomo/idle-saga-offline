@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkBetWinEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="553" height="450" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="hfdfs_zycs_xz_jpg"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Component id="itemL" x="43" y="82" skinName="HfpkBetItemEUI"/>
+		<e:Component id="itemR" y="83" skinName="HfpkBetItemEUI" x="332"/>
+		<e:Label id="lbLk" fontFamily="Times" size="24" y="317" text="Unable to bet on a bye round" textAlign="center" textColor="0xf01414" horizontalCenter="0"/>
+		<e:Group id="groupBei" y="349" x="22">
+
+
+			<e:Group x="0" y="-5">
+				<e:Label fontFamily="Times" size="20" y="0" text="Bet Correct: Returning" textAlign="center" x="0" textColor="0xEBDCB4"/>
+				<e:Label fontFamily="Times" size="20" y="0" text="2.0x" textAlign="center" x="140" textColor="0x13ee22"/>
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="lbDec" fontFamily="Times" size="20" y="14" text="Bet Diamonds and gain additionally 2000 Peak Points" textAlign="right" textColor="0xEBDCB4" right="1" width="511"/>
+
+
+			<e:Group x="0" y="35">
+				<e:Label fontFamily="Times" size="20" y="0" text="Bet Wrong: Returning" textAlign="center" x="0" textColor="0xEBDCB4"/>
+				<e:Label fontFamily="Times" size="20" y="0" text="0.8x" textAlign="center" x="140" textColor="0xf01414"/>
+				<e:Label fontFamily="Times" size="20" y="0" text="Bet Diamonds" textAlign="center" x="190" textColor="0xEBDCB4"/>
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="11.5" horizontalCenter="0" source="btz_zycs_hftz_png"/>
+
+
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsLevelPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="42" source="ys_zycs_bg1_jpg" x="13"/>
+	<e:TabBar id="listTab" selectedIndex="0" y="59" itemRendererSkinName="YsTabItemEUI" x="37">
+		<e:layout>
+		<e:HorizontalLayout gap="6"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<e:Group id="groupStar" y="221" width="500" x="110">
+		<e:Component id="itemStar1" y="319" skinName="YsLevelItemEUI" scaleX="0.8" scaleY="0.8" anchorOffsetX="60" anchorOffsetY="60" x="387"/>
+		<e:Component id="itemStar2" y="216" skinName="YsLevelItemEUI" scaleX="0.64" scaleY="0.64" anchorOffsetX="60" anchorOffsetY="60" x="461"/>
+		<e:Component id="itemStar3" y="120" skinName="YsLevelItemEUI" scaleX="0.512" scaleY="0.512" anchorOffsetX="60" anchorOffsetY="60" x="407"/>
+		<e:Component id="itemStar4" y="62" skinName="YsLevelItemEUI" scaleX="0.4096" scaleY="0.4096" anchorOffsetX="60" anchorOffsetY="60" x="327"/>
+		<e:Component id="itemStar5" y="34" skinName="YsLevelItemEUI" scaleX="0.32768" scaleY="0.32768" anchorOffsetX="60" anchorOffsetY="60" x="250"/>
+		<e:Component id="itemStar6" y="62" skinName="YsLevelItemEUI" scaleX="0.4096" scaleY="0.4096" anchorOffsetX="60" anchorOffsetY="60" x="173"/>
+		<e:Component id="itemStar7" y="120" skinName="YsLevelItemEUI" scaleX="0.512" scaleY="0.512" anchorOffsetX="60" anchorOffsetY="60" x="93"/>
+		<e:Component id="itemStar8" y="216" skinName="YsLevelItemEUI" scaleX="0.64" scaleY="0.64" anchorOffsetX="60" anchorOffsetY="60" x="39"/>
+		<e:Component id="itemStar9" y="319" skinName="YsLevelItemEUI" scaleX="0.8" scaleY="0.8" anchorOffsetX="60" anchorOffsetY="60" x="113"/>
+		<e:Image id="imgIcon" y="0" source="ys_zycs_ysjl0_png" horizontalCenter="0.5" locked="true"/>
+		<e:Component id="itemStar0" y="373" skinName="YsLevelItemEUI" anchorOffsetX="60" anchorOffsetY="60" x="250"/>
+	</e:Group>
+	<e:Image y="179" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="197" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Group id="groupLv" y="659" x="248">
+		<e:Image y="0" source="zycs_sm_lvdi" x="0" scale9Grid="58,4,49,28" width="225"/>
+		<e:Group y="6" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image source="shenqi_zycs_jie"/>
+		<e:BitmapLabel id="bmpJie" text="1" font="shenmonum_fnt"/>
+			<e:Image source="ys_zycs_ji"/>
+
+		<e:BitmapLabel id="bmpJi" text="1" font="shenmonum_fnt"/>
+
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="4"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnDashi" x="32" y="591" skinName="Btn0Skin" icon="ys_zycs_yszl"/>
+	<e:Component id="comDaShi" y="614" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" x="48" visible="false"/>
+	<e:Label id="lbDaShi" text="Footprint Master - T0" y="724" fontFamily="Times" size="20" textColor="0xFFD862" textAlign="center" verticalAlign="middle" horizontalCenter="-238" visible="false"/>
+
+
+
+
+	<e:Group x="604" y="244" width="98">
+		<e:Button id="btnDan" x="0" y="0" skinName="Btn0Skin" icon="ys_zycs_k2"/>
+		<e:Image id="imgDanBg" x="0" y="0" source="ys_zycs_k2"/>
+		<e:Image id="imgDan" source="public_zycs_greybg0" horizontalCenter="0" verticalCenter="-0.5"/>
+		<e:Image id="redPointDan" source="mainui_zycs_hongdian" x="70" y="9"/>
+		<e:Label id="lbDanLv" text="6/10" y="79" size="20" fontFamily="Times" textAlign="center" textColor="0xFFFFFF" horizontalCenter="0"/>
+	</e:Group>
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="779" horizontalCenter="0" visible="false">
+		<e:layout>
+		<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:DataGroup>
+	<e:Image id="imgAttr" y="780" source="qianghua_zycs_next" x="344"/>
+	<e:Label id="lbCurAttr" text="M99 Lv.99" y="775" size="20" fontFamily="Times" textAlign="left" lineSpacing="5" textColor="0xebdcb4" right="405"/>
+	<e:Label id="lbNextAttr" text="M99 Lv.99\nM99 Lv.99" y="775" size="20" fontFamily="Times" textAlign="left" x="434" lineSpacing="5" textColor="0x13EE22"/>
+	<e:Group id="groupConsu" y="862" horizontalCenter="0">
+		<e:Label text="Cost: " fontFamily="Times" size="20" textAlign="left" textColor="0xcdc8be" y="6"/>
+		<e:Image id="imgConsu" source="zycs_320001" x="60"/>
+		<e:Label id="lbConsu" text="0" fontFamily="Times" size="20" textAlign="left" textColor="0xcdc8be" x="100" y="6"/>
+
+	</e:Group>
+	<e:Button id="btnSend" skinName="BtnMin1_1" y="908" x="286" label="Upgrade"/>
+	<e:Image id="imgYml" touchEnabled="false" y="890" source="bxsb_zycs_ymj" x="299"/>
+
+</e:Skin>

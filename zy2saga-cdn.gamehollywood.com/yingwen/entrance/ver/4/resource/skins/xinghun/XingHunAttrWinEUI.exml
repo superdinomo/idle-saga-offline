@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XingHunAttrWinEUI" width="720" height="1280" currentState="canAct" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="max,upRank,noRank,noAct,canAct">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="-34" width="554">
+		<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" bottom="0" top="0" source="public_zycs_tips1_jpg"
+		         scale9Grid="69,146,415,8" />
+		<e:Group y="13" horizontalCenter="0">
+			<e:Image id="imgTitle" anchorOffsetX="0" anchorOffsetY="0" source="mj_zycs_mjzh" y="-14" horizontalCenter="3.5"
+			         x="-32" scaleX="1" scaleY="1" />
+			<e:BitmapLabel id="bitLevel" x="103" y="-1" font="qhnum_fnt" text="r0" letterSpacing="0"  />
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="1" y="-6">
+			<e:Group x="0" y="0" width="553">
+				<e:Button id="closeBtn" label="" x="470" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+				<e:Image y="69.5" anchorOffsetY="0" source="public_zycs_jlylk" horizontalCenter="0.5" />
+				<e:Group y="87.5" horizontalCenter="0.5">
+					<e:Image x="0" y="1"  source="public_zycs_zdl"/>
+					<e:BitmapLabel id="totalPower" x="88" y="0" text="6666" font="powernum_fnt" />
+					<e:layout>
+						<e:HorizontalLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group x="58" y="171" minHeight="236">
+					<e:Group x="0" y="0" anchorOffsetX="0" width="422">
+						<e:Label id="lbCurLevel" text="Current STage Soul of Demon Ring reaches T8 (Activated)" y="0" size="21" fontFamily="Times" textColor="0xe6dcb8"  horizontalCenter="0" width="436"/>
+						<e:Label id="lbCurAttr" text="Stats Value" x="0" y="29" size="22" fontFamily="Times" lineSpacing="5" textColor="0x5ac832" />
+						<e:layout>
+							<e:VerticalLayout/>
+						</e:layout>
+					</e:Group>
+					<e:Group x="0" y="73" visible.max="false">
+						<e:Label id="lbNextLevel" text="Next Stage Soul of Demon Ring reaches T9 (8/9)" x="0" y="0" size="22" fontFamily="Times" textColor="0xe6dcb8"  width="436"/>
+						<e:Label id="lbNextAttr" text="Stats Value" x="0" y="29" size="22" fontFamily="Times" lineSpacing="5"
+						         textColor="0x888786" />
+						<e:layout>
+							<e:VerticalLayout/>
+						</e:layout>
+					</e:Group>
+					<e:layout>
+						<e:VerticalLayout gap="21" />
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupQHZH" width="550" height="99" x="0" y="408" visible.max="false">
+				<e:Button id="btnUp" label="Upgrade" y="10" skinName="BtnMin1_1" scaleX="1" scaleY="1" x="209" enabled.noRank="false"
+				          enabled.noAct="false" />
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

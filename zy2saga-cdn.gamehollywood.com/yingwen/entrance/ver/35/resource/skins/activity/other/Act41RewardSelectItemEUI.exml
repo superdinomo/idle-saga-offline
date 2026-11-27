@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act41RewardSelectItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   states="up,down" >
+	<e:Component id="item" skinName="ItemSkin" touchEnabled="true" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Image id="imgPlus" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_xuanze_gou" visible.up="false" y="20" x="22"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="0" x="60" visible="false"/>
+
+
+
+
+
+
+</e:Skin>

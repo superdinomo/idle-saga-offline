@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipTzPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="42" source="zhsz_zycs_bg4_jpg" x="13"/>
+
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="65" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Button id="btnTz" label="" y="116" skinName="Btn0Skin" icon="zhsz_zycs_zh1" x="41"/>
+	<e:Button id="btnSq" label="" y="116" skinName="Btn0Skin" icon="zhsz_zycs_zh2" x="593"/>
+	<e:Button id="btnMb" label="" y="231" skinName="Btn0Skin" icon="zhsz_zycs_zh3" x="590"/>
+	<e:Group id="groupMc" y="475" width="0" height="0" x="360">
+		<e:Component id="item0" y="11" x="-216" skinName="RedEquipTzItemEUI" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.7" scaleY="0.7"/>
+		<e:Component id="item1" y="89" x="-276" skinName="RedEquipTzItemEUI" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item2" y="155" x="-170" skinName="RedEquipTzItemEUI" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.9" scaleY="0.9"/>
+		<e:Component id="item3" y="175" skinName="RedEquipTzItemEUI" x="0" anchorOffsetX="60" anchorOffsetY="60"/>
+		<e:Component id="item4" y="155" x="170" skinName="RedEquipTzItemEUI" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.9" scaleY="0.9"/>
+		<e:Component id="item5" y="89" skinName="RedEquipTzItemEUI" x="276" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.8" scaleY="0.8"/>
+
+		<e:Component id="item6" y="11" x="216" skinName="RedEquipTzItemEUI" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.7" scaleY="0.7"/>
+		<e:Component id="item7" y="-24" skinName="RedEquipTzItemEUI" x="128" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.6" scaleY="0.6"/>
+		<e:Component id="item8" y="-41" skinName="RedEquipTzItemEUI" x="0" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.5" scaleY="0.5"/>
+		<e:Component id="item9" y="-24" x="-128" skinName="RedEquipTzItemEUI" anchorOffsetX="60" anchorOffsetY="60" scaleX="0.6" scaleY="0.6"/>
+	</e:Group>
+	<e:Image id="imgTapL0" y="430" x="206" source="public_zycs_greybg2" width="48" height="48" alpha="0.01"/>
+	<e:Image y="461" source="public_zycs_greybg2" x="115" id="imgTapL1" width="56" height="56" alpha="0.01"/>
+	<e:Image y="536" source="public_zycs_greybg2" x="51" id="imgTapL2" width="64" height="64" alpha="0.01"/>
+	<e:Image y="598" source="public_zycs_greybg2" x="151" id="imgTapL3" width="80" height="80" alpha="0.01"/>
+	<e:Image id="imgTapR0" y="430" source="public_zycs_greybg2" width="48" height="48" x="464" alpha="0.01"/>
+	<e:Image y="461" source="public_zycs_greybg2" id="imgTapR1" width="56" height="56" x="549" alpha="0.01"/>
+	<e:Image y="536" source="public_zycs_greybg2" id="imgTapR2" width="64" height="64" x="605" alpha="0.01"/>
+	<e:Image y="598" source="public_zycs_greybg2" id="imgTapR3" width="80" height="80" x="489" alpha="0.01"/>
+	<e:Button id="btnLeft" y="722" icon="zhsz_zycs_jt" skinName="Btn0Skin" label="" x="41"/>
+	<e:Button id="btnRight" y="722" icon="zhsz_zycs_jt" skinName="Btn0Skin" label="" scaleX="-1" x="679"/>
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="792" horizontalCenter="0">
+		<e:layout>
+		<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:DataGroup>
+	<e:Group id="groupActAttr" y="871" horizontalCenter="0.5">
+		<e:Image y="10" x="10" source="xhmz_zycs_k1"/>
+		<e:Image id="imgAttrType" y="0" x="0" source="xhmz_zycs_t41"/>
+		<e:BitmapLabel id="bitAtrAttr" y="1" text="+8.8%" font="shenyounum_fnt" horizontalCenter="74.5" letterSpacing="-4"/>
+		<e:Image y="20" x="20" source="xhmz_zycs_k1"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupConsu" y="900" horizontalCenter="0.5">
+		<e:Label text="Cost:" fontFamily="Times" size="24" textAlign="left" textColor="0xcdc8be" y="4"/>
+		<e:Image id="imgConsu" source="zycs_320001" x="63"/>
+		<e:Label id="lbConsu" text="0" fontFamily="Times" size="24" textAlign="left" textColor="0xcdc8be" x="103" y="4"/>
+	</e:Group>
+	<e:Button id="btnSend" skinName="BtnMin1_1" y="937" x="286" label="Level up"/>
+	<e:Label id="btnGet" text="Source" fontFamily="Times" size="24" textAlign="left" y="963" x="497" textColor="0x13ee22"/>
+	<e:Image id="imgYml" touchEnabled="false" y="910" source="bxsb_zycs_ymj" x="299"/>
+</e:Skin>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel22_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="720" height="1134">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image id="imgBg" y="44" x="13" source="hddt_zycs_bg1_jpg" />
+		<e:Scroller id="scroller" height="245" x="18" y="54" width="691" scrollPolicyH="auto" scrollPolicyV="off">
+			<e:List id="listTab" itemRendererSkinName="ActItem22_1EUI">
+				<e:layout>
+					<e:HorizontalLayout  gap="8"/>
+				</e:layout>
+				<!--
+				
+					
+					
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+		<e:Image x="10" y="49" touchEnabled="false" pixelHitTest="true" source="public_zycs_k1" width="700" scale9Grid="48,35,15,39" height="256"/>
+		<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+		<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt"/>
+		<e:Image y="557" source="public_zycs_jlylk" x="364"/>
+		<e:Group y="565" horizontalCenter="156.5">
+			<e:Image y="0" source="hddt_zycs_zlbz" x="0"/>
+			<e:BitmapLabel id="bitPower" x="173" y="12" font="powernum1_fnt" text="99999999" letterSpacing="-5"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Image y="456" x="31" source="hddt_zycs_fagh_png"/>
+		<e:Group id="groupMcIcon" x="178" y="572"/>
+	<e:Image id="imgDes" y="345" x="265"  source="hddt_zycs_t6a"/>
+	<e:Scroller horizontalCenter="0" scrollPolicyH="auto" scrollPolicyV="off" y="761">
+		<e:List id="listAward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="12" paddingLeft="12" paddingTop="12" paddingRight="12" horizontalAlign="center" paddingBottom="30"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Component id="priceIcon" y="948" touchEnabled="true" skinName="PriceIconSkin" x="321" />
+	<e:Label id="labelTime" text="8s" y="682" size="20" fontFamily="Times" textColor="0xCDC8BE" width="503" textAlign="right"
+	         x="190" />
+	<e:Button id="btnBuy" y="986" x="252"  icon="anz_zycs_gdgm" skinName="BtnMin1_16" label="Buy Now"/>
+		<e:Image id="imgYGM" x="306" y="994" source="public_zycs_ygm"/>
+</e:Group>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

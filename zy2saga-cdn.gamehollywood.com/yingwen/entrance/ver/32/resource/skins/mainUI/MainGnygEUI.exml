@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainGnygEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="143" height="142">
+	<w:Config id="15de428879c"/>
+	<e:Image id="imgbg" y="0" anchorOffsetX="0" source="mianui_zycs_zyzl" x="0"/>
+	<e:Label id="lbCondition" text="Available on day 1 after Server Opening" y="122" size="18" fontFamily="Times" textColor="0xf5e65a" width="136" horizontalCenter="0" textAlign="center"/>
+	<e:Group id="groupMC" width="0" height="0" y="71" horizontalCenter="0"/>
+	<e:Image id="imgIcon" horizontalCenter="-1" y="5" source="gnyg_zycs_icon314"/>
+	<e:Image id="imgTitle" horizontalCenter="0.5" source="gnyg_zycs_title314" bottom="26"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="87" y="14"/>
+</e:Skin>

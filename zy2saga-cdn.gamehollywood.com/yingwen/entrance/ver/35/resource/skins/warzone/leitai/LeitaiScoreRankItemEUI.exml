@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiScoreRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="639" height="118">
+	<e:Image width="100%" bottom="0" source="zs_zycs_fengexian" height="4"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="24" x="47" width="53" textAlign="center" textColor="0xcdc8be" y="47"/>
+	<e:Image id="imgRank" verticalCenter="0" horizontalCenter="-247" source="jjc_zycs_no1"/>
+	<e:Label id="lbXwyd" text="Vacant" fontFamily="Times" size="20" x="162" textAlign="center" textColor="0xffffff" y="49"/>
+	<e:Label id="lbName" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="20" x="161" textAlign="left" y="29" textColor="0xffffff" width="240"/>
+	<e:Label id="lbScore" text="Points: 99998" fontFamily="Times" size="20" x="161" textAlign="center" y="71" textColor="0xffffff"/>
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="0" x="413">
+		<e:layout>
+		<e:HorizontalLayout gap="14" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>	
+</e:Skin>

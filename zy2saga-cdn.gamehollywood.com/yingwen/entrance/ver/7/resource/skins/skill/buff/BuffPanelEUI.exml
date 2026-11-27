@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BuffPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group id="group" horizontalCenter="0" width="720" height="1134">
+		<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Group y="44" x="12">
+			<e:Image x="0" y="0" anchorOffsetX="0" width="696" source="public_zycs_cjx"/>
+			<e:Label text="BUFF" y="7" size="20" fontFamily="Times" textColor="0xff9b0f" x="66"/>
+			<e:Label text="Effect" y="7" size="20" fontFamily="Times" textColor="0xff9b0f" x="327"/>
+			<e:Label text="Time" y="7" size="20" fontFamily="Times" textColor="0xff9b0f" x="575"/>
+		</e:Group>
+		<e:Scroller id="scroller1" width="688" y="83" height="400" horizontalCenter="0">
+			<e:List id="listPT" itemRendererSkinName="BuffPanelItemPTEUI" x="0" y="0" anchorOffsetX="0">
+			<e:layout>
+				<e:VerticalLayout gap="5"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="labelEmpty" text="There's no Buff now, you can choose the following ones to activate." y="233" fontFamily="Times" size="22" horizontalCenter="0" textColor="0xe3d7be"/>
+		<e:Group y="489" horizontalCenter="0">
+			<e:Image x="0" y="0" anchorOffsetX="0" width="696" source="public_zycs_cjx"/>
+			<e:Label text="Garrison Effect" y="7" size="20" fontFamily="Times" textColor="0xFF9B0F" x="308"/>
+		</e:Group>
+	<e:Scroller id="scroller2" width="688" y="529" height="553" horizontalCenter="0">
+			<e:List id="listCZ" itemRendererSkinName="BuffPanelItemCZEUI" x="0" y="0" anchorOffsetX="0">
+			<e:layout>
+				<e:VerticalLayout gap="5"/>
+			</e:layout>
+			</e:List>
+	</e:Scroller>
+</e:Group>
+</e:Skin>

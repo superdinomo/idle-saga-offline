@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WCLevelTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="normal,max" >
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="msbd_zycs_bg3_jpg"/>
+
+		<e:Image y="-16" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Image y="13" horizontalCenter="0" source="msbd_zycs_bdxq"/>
+		<e:Button id="closeBtn0" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+		<e:Component id="item" y="65" scaleX="1" scaleY="1" skinName="WCLevelItemEUI" x="258"/>
+		<e:Image y="351" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="368" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Image y="431" x="313" source="msbd_zycs_bdsx"/>
+		<e:Image y="434" source="liuguang_zycs_huawen" scaleX="-1" x="593"/>
+		<e:Image y="434" source="liuguang_zycs_huawen" x="127"/>
+		<e:Image y="486" source="qianghua_zycs_next" x="344" visible.max="false"/>
+		<e:Label id="lbCurAttr" text="Current Stats" y="467" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" textColor="0xE3D7BE" x="138" lineSpacing="10" horizontalCenter.max="0" x.normal="138"/>
+		<e:Label id="lbNextAttr" text="Stats of Next Level\nStats of Next Level" y="467" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="434" textColor="0x13ee22" lineSpacing="10" visible.max="false"/>
+		<e:Button id="btnSend" y="640" label="Upgrade" horizontalCenter="0.5" skinName="BtnMin1_1" x="286" visible.max="false"/>
+		<e:Group y="601" horizontalCenter="0" x="336" visible.max="false">
+			<e:Image id="imgConsumeIcon" x="0" y="0" source="zycs_320001" width="32" height="32" scaleX="0"/>
+			<e:Label id="lbConsumeCount" text="Tome Shard: 0/1" y="16" fontFamily="Times" size="24" textAlign="left" x="11" textColor="0xe3d7be"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="imgYml" touchEnabled="false" y="629" source="bxsb_zycs_ymj" x="299" visible.normal="false"/>
+		<e:Label id="btnGet" text="Source" x="480" size="24" textAlign="left" fontFamily="Times" textColor="0x13ee22" y="659"/>
+		<e:Button id="btnLeft" label="" y="250" skinName="Btn0Skin" icon="zuji_zycs_jiantou" scaleX="-1" x="93"/>
+		<e:Button id="btnRight" label="" y="250" skinName="Btn0Skin" icon="zuji_zycs_jiantou" x="627"/>
+
+	</e:Group>
+</e:Skin>

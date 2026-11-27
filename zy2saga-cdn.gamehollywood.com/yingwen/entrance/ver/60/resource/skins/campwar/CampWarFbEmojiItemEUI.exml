@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarFbEmojiItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="350" height="30">
+	<e:Image touchEnabled="false" source="smsz_zycs_dhl" bottom="0" horizontalCenter="0"/>
+	<e:Label id="lbDec" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="18" textAlign="left" verticalAlign="middle" x="13" textColor="0xe3d7be" y="5"/>
+	<e:Label id="btnSend" text="Send" fontFamily="Times" size="18" textAlign="left" verticalAlign="middle" textColor="0x13EE22" y="5" right="7"/>
+
+
+</e:Skin>

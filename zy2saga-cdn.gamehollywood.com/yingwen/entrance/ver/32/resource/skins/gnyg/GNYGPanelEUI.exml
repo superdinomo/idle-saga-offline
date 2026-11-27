@@ -1,0 +1,31 @@
+<e:Skin class="GNYGPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="42" source="gnyg_zycs_gnyg_jpg" x="13"/>
+	<e:Image id="imgBg" source="gnyg_zycs_bg1_jpg" x="13" y="43"/>
+	<e:Image y="683" source="gnyg_zycs_jlyl" horizontalCenter="0"/>
+	<e:Button id="btnLeft" label="" y="556" skinName="Btn0Skin" icon="zycs_zyzl_qieye" anchorOffsetX="77"
+	          anchorOffsetY="70" x="25"  scaleX="-1"/>
+	<e:Button id="btnRight" label="" y="486" skinName="Btn0Skin" icon="zycs_zyzl_qieye" x="615" />
+	<e:Scroller y="706" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0.5">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="29" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbSysName" text="Feature Name" x="32" y="882" size="22" fontFamily="Times" textColor="0xf5e65a"/>
+	<e:Label id="lbSysCondition" text="Feature Unlock Conditions" x="48" y="914" size="20" fontFamily="Times" lineSpacing="4"/>
+	<e:Label text="Feature Description:" x="30" y="964" size="22" fontFamily="Times" textColor="0xf5e65a"/>
+	<e:Label id="lbDesc" text="Feature Description" x="48" y="996" size="20" fontFamily="Times" lineSpacing="4" width="647"/>
+	<e:Button id="btnReward" icon="gnyg_zycs_kqfl" anchorOffsetX="0" skinName="Btn0Skin" y="888" x="558"/>
+	<!--<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\G_功能预告\G-功能预告-魔龙之城.jpg" y="-46" locked="true" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,48 @@
+<e:Skin class="QMDBPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="39" touchEnabled="false" x="13" source="qmdb_bg1_jpg"/>
+	<e:Image y="793" x="122" scaleX="1" scaleY="1" source="liuguang_zycs_huawen"/>
+	<e:Image y="793" x="598.67" scaleX="-1" scaleY="1" source="liuguang_zycs_huawen"/>
+	<e:Image y="792" x="311.67" source="qmdb_zycs_jlxq"/>
+	<e:List id="list" y="838" itemRendererSkinName="ItemSkin" horizontalCenter="0">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object qwq="null"/>
+			<e:Object qwq="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	<e:Label text="Event Rules:" x="48" y="59" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xff9b0f"/>
+	<e:Label id="lbdes" text="Tap on Fighting Chest or Demon Bane Chest in war zone to mine. Gathering any chest will cost 1 attempt. Attempts are limited." x="47" y="95" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xffffff" anchorOffsetX="0" width="602"/>
+	<e:Label text="Event Time:" x="47" y="180" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xFF9B0F"/>
+	<e:Label id="lbTime" text="Noon 12:00 - 12:15" x="47" y="216" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0x13ee22"/>
+	<e:Label text="Attempts Remain Today:" x="200" y="964" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xffffff"/>
+	<e:Label id="lbCount" text="10" x="477" y="966" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xf01414"/>
+	<e:Group id="groupTime" x="266.67" y="1067" visible="false">
+		<e:Label text="Event Countdown:" x="0" y="1" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xFFFFFF"/>
+		<e:Label id="blTime2" text="10" x="145.33" y="0" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xF01414"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnSend" label="Treasure Hunt" y="1003" skinName="BtnMin1_2" x="285.67"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

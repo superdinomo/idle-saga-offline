@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WCStagePanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,max" >
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="41" touchEnabled="false" x="13" source="msbd_zycs_bg2_jpg"/>
+	<e:Group id="groupMC" y="350" width="0" height="0" x="360"/>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="65" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+
+
+
+
+	<e:Group y="539" horizontalCenter="0">
+		<e:Image y="0" source="pubilc_zycs_hengdikuang" scale9Grid="28,16,140,20" left="-23" right="-23"/>
+		<e:Group y="16" horizontalCenter="0">
+			<e:Image id="imgStage" x="1" y="0" fillMode="clip" source="jl_zycs_17"/>
+			<e:Image id="imgName" x="0" y="64" source="msbd_zycs_name4"/>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+
+
+	<e:Label id="lbAddLv" text="Tome Level Limit: +14" y="414" size="20" textAlign="left" fontFamily="Times" textColor="0x11F51C" right="22"/>
+	<e:Group id="groupStar" x="96" y="590" width="529" height="49"/>
+	<e:Image y="654" source="em_zycs_k5" height="203" x="11" scale9Grid="282,77,137,96"/>
+	<e:Image y="757" source="qianghua_zycs_next" x="344" visible.max="false"/>
+	<e:Label id="lbCurAttr" text="Current Stats: 999999999" y="683" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" textColor="0xE3D7BE" x="101" lineSpacing="8" horizontalCenter.max="0"/>
+	<e:Group x="430" y="683" visible.max="false">
+		<e:Label id="lbNextAttr" text="846\n8460\n8460\n8460\n8460" y="0" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" x="0" textColor="0x13ee22" lineSpacing="8"/>
+		<e:Group id="groupAttrUpIcon" x="58" y="2">
+			<e:Image id="imgAttr0" x="0" y="0" scaleX="1" scaleY="1" source="public_zycs_lj"/>
+			<e:Image id="imgAttr1" x="0" y="58.84" source="public_zycs_lj" scaleX="1" scaleY="1"/>
+			<e:Image id="imgAttr2" x="0" y="88.34" source="public_zycs_lj" scaleX="1" scaleY="1"/>
+			<e:Image id="imgAttr3" x="10" y="98.34" source="public_zycs_lj" scaleX="1" scaleY="1"/>
+			<e:Image id="imgAttr4" x="20" y="108.34" source="public_zycs_lj" scaleX="1" scaleY="1"/>
+			<e:layout>
+			<e:VerticalLayout gap="7"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="12"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnSend" y="908" label="Upgrade" horizontalCenter="0.5" skinName="BtnMin1_1" x="286" visible.max="false"/>
+	<e:Group y="865" horizontalCenter="0" x="336" visible.max="false">
+		<e:Image id="imgConsumeIcon" x="0" y="0" source="zycs_320001" width="32" height="32" scaleX="0"/>
+		<e:Label id="lbConsumeCount" text="Spend Beast Soul Point: 0/1" y="16" fontFamily="Times" size="24" textAlign="left" x="11" textColor="0xe3d7be"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgYml" touchEnabled="false" y="898" source="bxsb_zycs_ymj" x="299" visible.normal="false"/>
+
+
+
+
+
+
+</e:Skin>

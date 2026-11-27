@@ -1,0 +1,13 @@
+<e:Skin class="AoyiItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+         width="678" height="144">
+	<w:Config id="1586b1383e3" />
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="skay_zycs_k"/>
+	<e:Image x="30" source="fuwen_zycs_kuang01_01" y="9"/>
+	<e:Image id="imgIcon" width="85" height="85" x="36" y="15" source=""/>
+	<e:Image id="imgKjh" source="skay_zycs_kjh" x="39" y="42" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="104" y="10"/>
+	<e:Label id="lbName" text="Skill Name" y="102" size="20" textAlign="center" fontFamily="Times" textColor="0xffbb29" width="135" horizontalCenter="-262.5" wordWrap="true"/>
+	<e:Label id="lbYjh" text="Activated" x="373" y="24" size="20" textAlign="left" fontFamily="Times" textColor="0x11F51C"/>
+	<e:Label id="lbJhsm" text="[Demon Tower] Obtain by clearing floor 150" y="24" size="20" textAlign="center" fontFamily="Times" textColor="0xff0000" width="485" x="167"/>
+	<e:Label id="lbDesc" text="When Character attacks, there is a 10% chance to raise \nCharacter’s Piercing by 5% for 5s, triggers \ninitial" y="54" size="20" textAlign="center" fontFamily="Times" textColor="0xffffff" width="503" lineSpacing="6" height="84" verticalAlign="middle" horizontalCenter="71"/>
+</e:Skin>

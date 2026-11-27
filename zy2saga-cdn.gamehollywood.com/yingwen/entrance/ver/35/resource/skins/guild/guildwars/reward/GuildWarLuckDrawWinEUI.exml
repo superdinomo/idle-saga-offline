@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildWarLuckDrawWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="weitou,yitou" >
+	<w:Config id="1586bde6cc9"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Image y="15" source="llcz_zycs_cj" x="250"/>
+	<e:Component id="itemIcon" y="101.2" x="72.8" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true"/>
+	<e:Button id="buyBtn" label="Purchase" y="341" x="131" skinName="Btn0Skin" icon="zm_zycs_btn1" includeIn="weitou"/>
+	<e:Button id="closeBtn" label="" y="341" skinName="Btn0Skin" icon="zm_zycs_btn2"  x="319" includeIn="weitou"/>
+		<e:Label text="My Points " y="90" fontFamily="Times" size="20" includeIn="yitou" textColor="0xafaaa0" x="300"/>
+		<e:BitmapLabel id="numBmp" y="119" text="91" visible.weitou="false" horizontalCenter="64" font="powernum_fnt"/>
+		<e:Label text="Dice Conditions" y="154" fontFamily="Times" size="20" textColor="0xafaaa0" x="276"/>
+		<e:Label text="Dice Countdown:" y="242" fontFamily="Times" size="20" x="69" textColor="0xafaaa0"/>
+		<e:Label text="When same points appear, the first player who rolls the point will gain the rewards" y="279" fontFamily="Times" size="20" textColor="0x6d6c6a" width="401" textAlign="center" horizontalCenter="0.5"/>
+		<e:Label text="Please tap to roll the dice" y="121" size="20" textAlign="left" fontFamily="Times" includeIn="weitou" x="245" textColor="0xff9b0f"/>
+		<e:Label id="nameTxt" text="Seven Characters" y="179" size="20" textAlign="center" fontFamily="Times" textColor="0xBEBE2E" width="246" x="217"/>
+		<e:ProgressBar id="progBar" y="233" width="275" value="3" maximum="3" x="222" slideDuration="0" skinName="ProgressBarEUI3"/>
+	<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="218" fillMode="scale" width="475" source="zs_zycs_fengexian" x="37"/>
+		<e:Image y="341" fillMode="scale" source="zm_zycs_btn3" includeIn="yitou" x="225"/>
+	</e:Group>
+</e:Skin>

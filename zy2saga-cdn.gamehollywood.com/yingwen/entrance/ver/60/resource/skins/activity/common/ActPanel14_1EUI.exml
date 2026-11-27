@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel14_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" x="13" source="hddt_zycs_zmdl_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="fl_zycs_dt"/>
+	<e:Label y="151" text="Time Remain:" fontFamily="Times" size="20" x="28" lineSpacing="10" textColor="0xFFFFFF"/>
+	<e:Label id="lbTime" y="152" text="0" fontFamily="Times" size="20" x="146" lineSpacing="10" textColor="0x13EE22"/>
+	<e:Label id="lbDescBase" y="174" text="[Weekend Revelry] Login daily to claim deluxe rewards" fontFamily="Times" size="20" x="28" lineSpacing="10" textColor="0xffffff"/>
+	<e:Scroller width="668" y="220" x="27" scrollPolicyH="off" height="707" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ActItem5_1EUI">
+		
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnGo" y="981" label="Unlock" x="508" skinName="BtnMin1_17" visible="false"/>
+	<e:Image id="imgYjh" x="536" y="975" source="public_zycs_yijihuo"/>
+</e:Skin>

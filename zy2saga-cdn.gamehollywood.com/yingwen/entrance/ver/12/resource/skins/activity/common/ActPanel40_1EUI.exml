@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel40_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="imgBg" y="40"  x="13" source="hddt_zycs_xhdb_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true" />
+	<e:Image y="223" touchEnabled="false" pixelHitTest="true" source="hddt_zycs_xhdb15" x="284"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false"  horizontalCenter="0" source="hddt_zycs_xhdb"/>
+	<e:Image id="itemBg" source="public_zycs_daojukuang_01" y="118.67" x="313"/>
+	<e:Group id="groupMC" width="0" height="0" x="360" y="163">
+	</e:Group>
+	<e:Image id="itemBg0" source="bs_zycs_jh" width="94" height="97" x="313" y="115" alpha="0.01"/>
+	<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" width="94" height="94" x="313" y="118"/>
+	<e:Button id="btnRefresh" y="99" skinName="Btn0Skin" icon="hddt_zycs_xhdbsx" x="385"/>
+	<e:Label id="lbCeng" y="85" text="Treasure F5" fontFamily="Times" size="24" x="80" lineSpacing="10" textColor="0x13ee22"/>
+	<e:Group x="33" y="323">
+		<e:Label y="0" text="Event Countdown: " fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" y="0" text="0" fontFamily="Times" size="20" x="118" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbDec" y="291" text="Rules\nRules" fontFamily="Times" size="20" lineSpacing="6" textColor="0xffffff" right="22"/>
+	<e:Button id="btnPreview" y="172" skinName="Btn0Skin" icon="yzsh_zycs_djyl1" x="566"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Scroller y="375" scrollPolicyH="off" x="20">
+		<e:List id="list" itemRendererSkinName="ActItem40_1EUI">
+			<e:layout>
+				<e:TileLayout horizontalGap="16" requestedColumnCount="7" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" verticalGap="9"/>
+			</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbCount0" text="Cost:" fontFamily="Times" size="24" textAlign="center" y="1052" x="25" textColor="0xff9b0f"/>
+	<e:Image id="imgItem" y="1047" x="89" source="zycs_450015"/>
+	<e:Label id="lbCount" text="0/3" fontFamily="Times" size="24" textAlign="center" y="1052" textColor="0xCDC8BE" x="130"/>
+	<e:CheckBox id="checkBox0" x="433" y="1051" skinName="CheckBoxEUI" label="Auto-flip"/>
+	<e:Button id="helpBtn" x="646" y="1043" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+</e:Skin>

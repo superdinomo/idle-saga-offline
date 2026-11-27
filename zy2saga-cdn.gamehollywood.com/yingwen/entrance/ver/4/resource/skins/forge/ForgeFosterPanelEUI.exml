@@ -1,0 +1,61 @@
+<e:Skin class="ForgeFosterPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" height="1134"/>
+	<e:Image y="43" source="py_zycs_bg_jpg" x="13" locked="true"/>
+	<e:Image y="539" source="qianghua_zycs_diwen1" x="164"/>
+	<e:Label id="lbname" text="0" y="545" size="20" width="293" textAlign="center" fontFamily="Times" textColor="0xff9400" horizontalCenter="4.5"/>
+	<e:Image y="49" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group id="groupPower" y="65" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="1111123132" font="powernum_fnt" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+<e:Component id="equipItem" y="284" skinName="ForgeItemEUI" touchEnabled="false" x="291"/>
+		<e:Group id="groupItems" x="23" y="132">
+		<e:Component id="equipItem0" y="0" x="0" skinName="ForgeItemEUI"     
+		             touchEnabled="true" />
+		<e:Component id="equipItem2" y="159" x="0" skinName="ForgeItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem3" y="318" x="0" skinName="ForgeItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem4" y="477" x="0" skinName="ForgeItemEUI" touchEnabled="true" name="RING2"/>
+		<e:Component id="equipItem8" x="0" skinName="ForgeItemEUI" touchEnabled="true" name="WEAPON2" y="636"/>
+		<e:Component id="equipItem1" y="0" x="537" skinName="ForgeItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem6" y="159" x="537" skinName="ForgeItemEUI"      touchEnabled="true" />
+		<e:Component id="equipItem7" y="318" x="537" skinName="ForgeItemEUI" touchEnabled="true"/>
+		<e:Component id="equipItem5" y="477" x="537" skinName="ForgeItemEUI"      touchEnabled="true" />
+		<e:Component id="equipItem9" y="636" x="537" skinName="ForgeItemEUI" touchEnabled="true"/>
+	</e:Group>
+	<e:Image id="imgpyym" y="978" source="peiyang_zycs_peiyangshuxingyidashangxian" x="239"/>
+	<e:Group y="591" x="142">
+		<e:Image y="0" source="qianghua_zycs_diwen2" anchorOffsetY="0" height="143" x="0" width="451" scale9Grid="54,18,329,109"/>
+		<e:Label id="lbattr1" text="HP\nHP\nHP\nHP" x="42" y="18" size="20" fontFamily="Times"
+		         textAlign="left" height="111" textColor="0xaf9b73"  lineSpacing="9"/>
+		<e:Label id="lbattr2" text="Life" x="202" y="18" size="20" fontFamily="Times"
+		         textAlign="right" height="111" width="80" textColor="0x9B8764"
+		         lineSpacing="5" />
+		<e:Label id="lbNextAttr1" text="HP\nHP\nHP\nHP" x="303" y="18" size="20" fontFamily="Times" height="111" textColor="0x5ac832" lineSpacing="9"/>
+		<e:Image id="imgAttr1" x="285" y="14" scaleX="1" scaleY="1" source="public_zycs_lj"/>
+		<e:Image id="imgAttr2" x="285" y="43" source="public_zycs_lj" scaleX="1" scaleY="1"/>
+		<e:Image id="imgAttr3" x="285" y="72.84" source="public_zycs_lj" scaleX="1" scaleY="1"/>
+		<e:Image id="imgAttr4" x="285" y="102.34" source="public_zycs_lj" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group x="163" y="762">
+		<e:Image height="164" y="1" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="392" x="1"/>
+		<e:Image x="15" y="34" source="qianghua_zycs_xiaohuacailiao"/>
+		<e:RadioButton id="rdcoin" label="Cost" x="67" y="47" selected="true" skinName="RadioButtonEUI" scaleX="1" scaleY="1"/>
+		<e:RadioButton id="rddiamond" label="Cost" x="67" y="87" skinName="RadioButtonEUI" scaleX="1" scaleY="1"/>
+		<e:Image y="48" x="161" source="public_zycs_shurukuang" width="127"/>
+		<e:Label id="lbcoin" text="0" x="167" y="50" size="20" width="83" textAlign="center" fontFamily="Times" textColor="0xd3e123" scaleX="1" scaleY="1"/>
+		<e:Image source="zycs_320001" x="254" y="45" scaleX="1" scaleY="1"/>
+		<e:Image y="88" x="161" source="public_zycs_shurukuang" width="127"/>
+		<e:Label id="lbdiamond" text="0" x="167" y="91" size="20" width="83" textAlign="center" fontFamily="Times" textColor="0xd3e123" scaleX="1" scaleY="1"/>
+		<e:Image x="254" y="84" source="zycs_320002" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Button id="btnboost10" label="Train x10" y="999" skinName="BtnMin1_1" x="177"/>
+	<e:Button id="btnboost" y="999"
+	           skinName="BtnMin1_1" x="391" label="Train"/>
+	<e:Component id="consume1" y="813" x="470" skinName="ItemSkin"
+	             touchEnabled="true"  scaleX="0.7" scaleY="0.7"/>
+	<e:Label id="lbDesc" text="The higher the gear tier, the higher the training stats limit" y="1018" size="22" horizontalCenter="0" fontFamily="Times" textColor="0xf01414"/>
+</e:Skin>

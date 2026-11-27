@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Hfpk4RoleItemEUI" currentState="s1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="s1,s2" >
+	<w:Config id="15d981d06da"/>
+	<e:Image id="imgGroupName" y="0" source="hfdfs_zycs_zu1" horizontalCenter="0.5" visible="false"/>
+	<e:Group y="40" horizontalCenter="0">
+		<e:Image y="0" source="sjhj_zycs_tx" x="0" source.s2="hfdfs_zycs_k4"/>
+		<e:Image id="imgIcon" y="8" source="mianui_zycs_zhanshi0" width="76" height="76" x.s1="10" y.s2="20" width.s2="88" height.s2="88" x.s2="28" x="10"/>
+		<e:Image id="imgWh" source="hfdfs_zycs_wh" x="28" y="14" x.s2="53" y.s2="34"/>
+	</e:Group>
+	<e:Label id="lbName" text="S.Miracle xXMoo MoralityXx" horizontalCenter="0" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" y="140" horizontalCenter.s2="0" y.s2="180"/>
+</e:Skin>

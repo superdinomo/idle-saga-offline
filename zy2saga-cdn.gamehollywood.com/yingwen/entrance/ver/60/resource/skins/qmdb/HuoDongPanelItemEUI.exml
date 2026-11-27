@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuoDongPanelItemEUI" currentState="qw" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   states="qw,jxz,js"  width="682">
+	<e:Image id="imgBg" source="hdlb_zycs_csys_bg_png" x="0"/>
+	<e:Image x="6" y="8" source="hdlb_zycs_di"/>
+	<e:Image id="imgTitle0" x="491" y="93" includeIn="js" source="hdlb_zycs_end"/>
+	<e:Label id="lbTimeTitle" text="Event Time:" textAlign="center" fontFamily="Times" size="24" y="16" x="30" textColor="0xff9b0f" width="121"/>
+	<e:Label id="lbTime" text="12:15-12:25"  fontFamily="Times" size="24" y="16" x="151" textColor="0x13ee22" textAlign="left"/>
+	<e:Image source="hdlb_zycs_jxz" y="3" x="563" includeIn="jxz"/>
+	<e:Button id="btnSend" label="Go" y="107" skinName="BtnMin1_2" x="474" visible.js="false"/>
+	<e:Image id="imgTitle" y="62" source="hdlb_zycs_zdgjs" horizontalCenter="223.5"/>
+	<e:Button id="btnHelp" label="Button" x="631" y="126" icon="zs_zycs_wenhao" skinName="Btn0Skin"/>
+	<e:Scroller x="28" y="66" width="430">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:HorizontalLayout gap="10" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+</e:Skin>

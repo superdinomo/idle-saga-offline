@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengWuPanelNewEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="state2,state3,state4" >
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image touchEnabled="false" x="13" y="41" source="sw_zycs_bg_jpg"/>
+		<e:Image id="imgIcon" y="275" source="sw_zycs_ng1_png" horizontalCenter="0"/>
+
+		<e:Component id="item0" y="321" x="45" touchEnabled="true" skinName="ShengWuItemEUI"/>
+		<e:Component id="item1" y="132" x="150" skinName="ShengWuItemEUI" touchEnabled="true" x.state2="517" y.state2="321"/>
+		<e:Component id="item2" y="132" skinName="ShengWuItemEUI" touchEnabled="true" visible.state2="false" x="412"/>
+		<e:Component id="item3" y="321" skinName="ShengWuItemEUI" touchEnabled="true" visible.state3="false" visible.state2="false" x="517"/>
+		<e:Group id="groupMc" width="0" height="0" y="306" x="360"/>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="65" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Label id="btnAttr" text="Total Stats" x="553" y="68" size="20" textAlign="left" fontFamily="Times" textColor="0x11F51C"/>
+
+		<e:Image y="78" x="53" source="shenqi_zycs_di1"/>
+		<e:Image id="imgName" verticalCenter="-391.5" source="sw_zycs_n1" horizontalCenter="-278.5"/>
+
+
+		<e:Image id="imgWjh" y="618" source="sw_zycs_wjh" x="289"/>
+		<e:Image id="imgYjh" y="608" x="299" source="liuguang_zycs_yijihuo"/>
+		<e:Image id="imgYfr" y="996" x="299" source="sw_zycs_yfr"/>
+		<e:Button id="leftBtn" y="496" icon="zuji_zycs_jiantou" skinName="Btn0Skin" label="" scaleX="-1" x="103"/>
+		<e:Button id="rightBtn" y="496" icon="zuji_zycs_jiantou" skinName="Btn0Skin" label="" x="617"/>
+		<e:Image y="693" source="shenqi_zycs_di3" x="11" scale9Grid="87,10,524,63" height="163"/>
+		<e:Label text="Challenge Boss to gather Relic Shards. Gather all of them to activate Relic" y="708" size="24" fontFamily="Times" textAlign="center" width="564" textColor="0xEDE5C9" x="78"/>
+		<e:Image id="imgAttr" y="749" source="sw_zycs_1" x="269"/>
+		<e:Label id="lbAttr" text="Character's HP increases by 9999" y="814" size="24" fontFamily="Times" textAlign="center" width="410" x="155" textColor="0xede5c9"/>
+
+
+
+
+		<e:Image touchEnabled="false" y="873" source="shenqi_zycs_di4" x="11" scale9Grid="87,20,524,120" height="110"/>
+		<e:Label id="lbFragmentName" text="Relic Shard 1" y="887" size="24" fontFamily="Times" textAlign="center" width="410" x="155" textColor="0xede5c9"/>
+		<e:DataGroup id="attrs" horizontalCenter="0" itemRendererSkinName="ChengHaoAttrItemEUI" verticalCenter="372">
+			<e:layout>
+			<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+			</e:layout>
+			
+			
+				
+				
+			
+			
+		</e:DataGroup>
+		<e:Button id="btnAct" skinName="BtnMin1_1" y="622" x="286" label="Unlock"/>
+
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="1008"  x="286" label="Place in Shard"/>
+		<e:Button id="btnGet" skinName="BtnMin1_1" y="1008" x="286" label="Go to Acquire"/>
+
+	</e:Group>
+</e:Skin>
