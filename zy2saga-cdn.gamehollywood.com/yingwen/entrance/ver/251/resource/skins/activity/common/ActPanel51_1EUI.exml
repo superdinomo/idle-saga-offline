@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel51_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="40" horizontalCenter="0" source="hddt_zycs_lxzl_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_lxzl"/>
+	<e:Image y="626" touchEnabled="false" source="lxzl_zycs_zsxb" x="130"/>
+	<e:BitmapLabel id="bmpNum" y="632" text="1000" letterSpacing="-3" horizontalCenter="54.5" font="lxzl_fnt"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Label id="lbTime" y="114" text="Count down: 00:00:00" fontFamily="黑体" size="24" lineSpacing="10" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Label id="btnLxzg" y="924" text="Star Purchase" fontFamily="黑体" size="26" lineSpacing="10" textColor="0x13EE22" x="116" bold="true"/>
+	<e:Label id="btnPflb" y="924" text="Skin Pack" fontFamily="黑体" size="26" lineSpacing="10" x="516" textColor="0x13ee22" bold="true"/>
+	<e:Button id="btnSend" y="802" label="Claim" skinName="BtnMin1_16" x="255"/>
+	<e:Image id="imgYlq" y="805" source="public_zycs_ylq" horizontalCenter="0"/>
+	<e:Label id="lbDec" y="1012" text="Star coins can be exchanged for out-of-print gifts" fontFamily="黑体" size="22" lineSpacing="10" horizontalCenter="0" textColor="0x13ee22"/>
+</e:Skin>

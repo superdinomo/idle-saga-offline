@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlotXYXResultSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1" />
+	<e:Group id="group" width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png" />
+		<e:Image id="imgTitle" x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png" />
+		<e:Button id="closeBtn0" label="" x="457" y="944" skinName="Btn0Skin" icon="public_zycs_lkfb"  visible="false"/>
+		<e:Label id="lbdesc" text="" x="110" y="283" size="22" textColor="0xDFD1B5" fontFamily="Times" />
+		<e:Button id="closeBtn" label="Challenge the Next Floor (3s)" x="244" y="944" anchorOffsetX="0" anchorOffsetY="0" icon="anz_zycs_lqjl"
+		          skinName="BtnMin1_6" />
+		<e:Scroller id="scroller" height="198" y="462" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin"
+			        height="392">
+				<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43"  requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgwptitle" x="94" y="420" source="js_zycs_hdwp" />
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel34_4EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="imgBg" y="38" x="13"  source="hddt_zycs_dbph_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true" />
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0"  source="hddt_zycs_dbph"/>
+	<e:Label id="lbDesc" y="287" text="虚位以待\n层数达到20可上榜" fontFamily="黑体" size="24" lineSpacing="8" textColor="0xFFFFFF" textAlign="center" horizontalCenter="0"/>
+	<e:Group id="groupMc" width="0" height="0" y="440" x="364"/>
+	<e:Image y="91" x="205" source="hhdt_zycs_jlylk"/>
+	<e:Label id="lbTime" y="63" text="Count down: 00:00:00" fontFamily="黑体" size="24" lineSpacing="10"
+	         horizontalCenter="0"  textColor="0xcdc8be"/>
+	<e:Image x="502" y="95" source="jsdd_zycs_pm1"/>
+	<e:Group y="106" horizontalCenter="0.5">
+		<e:Image id="imgFisrtTitle" y="0" x="0" source="hddt_zycs_dbphdj"/>
+		<e:layout>
+		<e:HorizontalLayout gap="3" verticalAlign="bottom"/>
+		</e:layout>
+	</e:Group>
+	<e:Image x="553" y="127" source="sjhj_zycs_tx"/>
+	<e:Image id="imgHead" x="562" y="135" source="mianui_zycs_zhanshi0" width="76" height="76"/>
+	<e:Label id="lbName" text="奇迹丶牛有德" y="226" size="20" textAlign="left" fontFamily="黑体" textColor="0xffffff" horizontalCenter="241"/>
+	<e:Label id="lbvalue" text="感恩值：999" y="258" size="20" textAlign="left" fontFamily="黑体" horizontalCenter="241" textColor="0xf5e65a"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0" y="533">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="18" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller y="675" scrollPolicyH="off" x="3" height="371" width="705">
+		<e:List id="list" itemRendererSkinName="ActItem34_2EUI">
+			<e:layout>
+				<e:VerticalLayout gap="8" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object />
+					<e:Object />
+					<e:Object />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" y="1048" source="hwbz_zycs_di4" x="13"/>
+	<e:Label id="lbRankMy" text="我的排名：第2名" size="24" fontFamily="黑体" y="1051" x="434"  textColor="0xf5e65a"/>
+	<e:Label id="lbValueMy" text="我的感恩值：988" size="24" fontFamily="黑体" y="1051" x="43"  textColor="0xf5e65a"/>
+	<e:Button id="btnHelp" x="648" y="610" skinName="Btn0Skin" icon="jl_zycs_wenhao" />
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+	<e:Image y="509" x="298" source="hddt_zycs_dbphdfdj"/>
+</e:Skin>

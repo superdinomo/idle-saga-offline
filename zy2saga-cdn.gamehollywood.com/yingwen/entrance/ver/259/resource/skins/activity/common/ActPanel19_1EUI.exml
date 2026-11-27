@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel19_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="40" x="13" source="hddt_zycs_xydjkh_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_dqkh"/>
+	<e:Group y="166" right="69">
+		<e:Label y="0" text="Event Countdown:" fontFamily="Times" size="22" x="0" lineSpacing="10" textColor="0xe3d7be"/>
+		<e:Label id="lbTime" y="0" text="xx xx:xx" fontFamily="Times" size="22" x="139" lineSpacing="10" textColor="0x13ee22"/>
+		<e:layout>
+			<e:HorizontalLayout gap="6"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnSend" y="936" label="Top Up" x="255" skinName="BtnMin1_17" scaleX="1.17" scaleY="1.17"/>
+	<e:Label y="1040" text="Enjoy 1.2x Voucher Rebate at the diamond Top-up page!" fontFamily="Times" size="22" textColor="0x13ee22" anchorOffsetX="0" width="560" textAlign="center" horizontalCenter="0"/>
+
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

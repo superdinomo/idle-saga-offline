@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel5_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" source="hddt_zycs_xsfl_jpg" x="13"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_hddt" horizontalCenter="0" verticalCenter="-544.5"/>
+	<e:Label y="144" text="Time Remain:" fontFamily="Times" size="20" x="35" lineSpacing="10" textColor="0xffffff"/>
+	<e:Label id="lbTime" y="144" text="0" fontFamily="Times" size="20" x="155" lineSpacing="10" textColor="0x13ee22"/>
+	<e:Label y="144" text="Top-up Diamond Page" fontFamily="Times" size="20" x="419" lineSpacing="10" textColor="0x13ee22" visible="false"/>
+	<e:Label y="164" text="Claim rewards after topping up on the Top Up page. Topping up the same amount several times will not be accumulated" fontFamily="Times" size="18" x="34" lineSpacing="0" textColor="0xffffff" width="640"/>
+	<e:Scroller width="668" y="221" x="27" scrollPolicyH="off" height="706" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ActItem5_1EUI">
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+	<e:Image id="imgAdBg" touchEnabled="false" y="934" horizontalCenter="0" source="hddt_zycs_ggt_png" />
+	<e:Image touchEnabled="false" y="934" horizontalCenter="-41" source="hddt_zycs_zlxz_png" />
+	<e:Button id="btnSend" y="994" label="Unlock" x="546" skinName="BtnMin1_17" scaleX="0.7" scaleY="0.7"/>
+	<e:Image id="imgYjh" x="549" y="975" source="public_zycs_yijihuo"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

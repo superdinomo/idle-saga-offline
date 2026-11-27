@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="node,name,shop,bag,guildShop,discount,shenmi,maxk,suit,bigName"  height.name="117" width="94" height="94" height.bigName="117">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" source="public_zycs_daojukuang_01" y="0.67" visible.suit="false"/>
+	<e:Image id="imgColor" x="0.67" anchorOffsetX="0" anchorOffsetY="0" y="0" source="public_zycs_pinzhi_02" visible.suit="false"/>
+	<e:Group id="groupMc" touchEnabled="false" touchChildren.shenmi="false" width="0" height="0" touchChildren="false" x="47" y="47"/>
+	<e:Group touchEnabled="false" width="94" height="94" touchChildren="false" x="0" y="0">
+		<e:Image id="imgIcon"  horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="lbName" size="18" textAlign="center" fontFamily="Times" text="0" anchorOffsetX="0" anchorOffsetY="0" y="96" textColor="0x46a732" horizontalCenter="0" visible="false" visible.name="true" visible.bigName="true" size.bigName="18" width="100" height="36" height.bigName="18"/>
+	<e:Image id="imgSelect" anchorOffsetX="0" anchorOffsetY="0" y="-19" x="-18" source="public_zycs_xuanzhong" visible="false"/>
+	<e:Label id="count" size="20" textAlign="right" fontFamily="Times" text="0" anchorOffsetX="0" anchorOffsetY="0" height="23" textColor="0xcdc8be" y="63" stroke="2" right="9"/>
+	<e:Image id="imgFmp" source="sc_zycs_fmp" x="-36.5" y="-25" visible="false"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="79" y="-6" visible="false"/>
+	<e:Group id="discountGroup" x="0" y="0" touchEnabled="false" visible.node="false" visible.name="false" visible.shop="false" visible.bag="false" visible.guildShop="false" touchChildren="false" visible="false" visible.bigName="false">
+		<e:Image touchEnabled="false" source="public_zycs_xq"/>
+		<e:Image touchEnabled="false" y="23" source="public_zycs_z" x="11"/>
+		<e:BitmapLabel id="imgDiscount" y="5" text="1.5" font="xgnum_fnt" letterSpacing="-5" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image id="imgDropType" y="3" touchEnabled="false" source="" x="66"/>
+	<e:Image id="imgJob" touchEnabled="false" source="" right="0" top="0" />
+	<e:Label id="lbYiXue" size="20" textAlign="right" fontFamily="Times" text="" anchorOffsetX="0" anchorOffsetY="0" height="23" y="9" stroke="2" right="11" textColor="0xf01010" visible="false"/>
+	<e:Group x="4" y="72" height="16">
+		<e:Image id="imgStarBg" x="0" y="0" source="role_zycs_stardi" visible="false"/>
+		<e:Group id="groupStart" x="1" y="1">
+			<e:layout>
+				<e:HorizontalLayout gap="-3"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image id="imgYilingqu" touchEnabled="false" source="public_zycs_ylq" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image id="imgEquip" touchEnabled="false" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0" source="cbzb_zycs_yzb" visible="false"/>
+	<e:BitmapLabel id="bmpZhui" y="4" font="iconnum_fnt" text="" right="3" letterSpacing="-5" touchEnabled="false"/>
+	<e:Label id="lbTimer" text="Timed" x="4" y="2" size="20" fontFamily="Times" textColor="0xff9b0f" width="84" anchorOffsetX="0" wordWrap="true" visible="false"/>
+	<e:Image id="imgSR" y="4" right="4" source=""/>
+	<e:Image id="imgWyy" y="-12" x="-12" source="public_zycs_wyy" visible="false"/>
+	<e:Image id="imgTxt" y="4" right="4" source=""/>
+	<e:Image id="imgUp" y="62" right="7" source="mianui_zycs_jt" visible="false"/>
+	<e:Image id="imgJueBan" y="-2" x="0" source="public_zycs_tb5" visible="false"/>
+	<e:Image id="imgMonthCard" source="public_zycs_yksb" x="43" y="-5" visible="false"/>
+	<e:Image id="imgAoyi" y="-1" source="pt_zycs_ay" x="43" visible="false"/>
+	<e:Group id="groupMCTop" width="0" height="0" x="47" y="48" name="group1"/>
+	<e:BitmapLabel id="bitlbRank" y="4" text="" touchEnabled="false" font="zbjsnum_fnt" letterSpacing="-4" x="4"/>
+	<e:Image id="imgShiBei" y="-1" x="-1" touchEnabled="false" source=""/>
+	<e:BitmapLabel id="bmpHuanShouLv" y="4" text="" x="5" font="qianghuanum3_fnt" letterSpacing="-5"/>
+	<e:Image id="imgDouble" y="-1" x="-2" touchEnabled="false" source="public_zycs_sb" visible="false"/>
+	<e:Image id="imgRate" touchEnabled="false" source="hddt_zycs_lbgl" visible="false"/>
+	<e:Image id="imgHuiSeBg" touchEnabled="false" source="yzsh_zycs_yy2" y="0" width="100%" height="100%" x="0" visible="false"/>
+</e:Skin>

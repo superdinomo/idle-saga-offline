@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel52_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="40" x="14" source="hddt_zycs_lxzg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_lxzg"/>
+	<e:Label id="lbTime" y="173" text="Count down: 00:00:00" fontFamily="黑体" size="20" lineSpacing="10" x="39" textColor="0xffffff"/>
+	<e:Label id="lbXingNum" y="173" text="当前持有星币：888" fontFamily="黑体" size="20" x="399" lineSpacing="10" textColor="0xffffff"/>
+	<e:Scroller width="668" y="240" x="27" scrollPolicyH="off" height="687">
+		<e:List id="list" itemRendererSkinName="ActItem52_1EUI">
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" y="981" label="Activate" x="508" skinName="BtnMin1_17"/>
+	<e:Image id="imgYjh" x="536" y="975" source="public_zycs_yijihuo"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+
+</e:Skin>

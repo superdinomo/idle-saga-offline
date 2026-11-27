@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel20_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="39" source="jsdd_zycs_bg_jpg" x="13"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_jsdd"/>
+	<e:Label id="lbTime" text="Event time down: 12:12:12" y="58" size="24" textAlign="center" fontFamily="黑体" textColor="0xCDC8BE" width="376" x="172"/>
+	<e:Image id="imgAll" y="66" x="53" source="jsdd_zycs_qfjs"/>
+	<e:ProgressBar id="barExpAll" slideDuration="0" value="1" maximum="2" y="84" skinName="ProgressBarEUI20" x="131"/>
+	<e:Image y="66" x="53" source="jsdd_zycs_qfjs" visible="false"/>
+	<e:Group id="groupMC" y="220" width="0" height="0" x="360">
+	</e:Group>
+	<e:Button id="helpBtn" x="167" y="647" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Image id="imgbigRewardBg" y="402" x="563" source="jsdd_zycs_xzdj"/>
+	<e:Component id="itemReward" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" y="430" x="585"/>
+	<e:Image x="430" y="582" source="sjhj_zycs_tx"/>
+	<e:Image id="imgHead" x="439" y="590" width="76" height="76" source="mianui_zycs_zhanshi0"/>
+	<e:Image id="imgTopTitle" y="579" x="528" source="jsdd_zycs_xzzr"/>
+	<e:Button id="btnRefresh" y="578" x="660" icon="jsdd_zycs_sx" skinName="Btn0Skin"/>
+	<e:Label id="lbName" text="奇迹丶牛有德" y="629" size="18" textAlign="left" fontFamily="Times" x="532" textColor="0xffffff"/>
+	<e:Label id="lbScore" text="感恩值：998" y="652" size="18" textAlign="left" fontFamily="Times" x="532" textColor="0xe2cba3"/>
+	<e:ProgressBar id="barExp" slideDuration="300" value="1" maximum="2" y="733" skinName="ProgressBarEUI12" x="67" width="540"/>
+	<e:Image id="imgCur" y="715" x="36" source="jsdd_zycs_bfjs"/>
+	<e:Button id="btnBox" y="708" x="610" icon="jsdd_zycs_bx" skinName="Btn0Skin"/>
+	<e:Button id="btnRate" icon="jsdd_zycs_jlyl" skinName="Btn0Skin" bottom="481" horizontalCenter="-276"/>
+	<e:Label id="lbRate" text="Probability" y="660" size="20" textAlign="left" fontFamily="Times" textColor="0x13EE22" horizontalCenter="-276.5"/>
+	<e:Group id="groupConsu" x="23" y="849">
+		<e:Label id="lbClickDesc" text="Click the icon to increase well-fed point" y="-18" size="24" textAlign="left" fontFamily="Times" x="42" textColor="0x13ee22"/>
+		<e:Button id="btnConsu1" icon="jsdd_zycs_xh" skinName="Btn0Skin" bottom="77" x="24"/>
+		<e:Label id="lbAdd1" text="Gratitude: \n10 points/time" size="20" textAlign="center" fontFamily="Times" y="137" textColor="0xffffff" x="21"/>
+		<e:Image id="imgItem1" y="180" x="39" source="zycs_640010"/>
+		<e:Label id="lbConsu1" text="0/1" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="79" y="184"/>
+		<e:Button id="btnConsu2" icon="jsdd_zycs_mj" skinName="Btn0Skin" bottom="77" x="177"/>
+		<e:Label id="lbAdd2" text="Gratitude: \n20 points/time" size="20" textAlign="center" fontFamily="Times" y="137" textColor="0xffffff" x="174"/>
+		<e:Image id="imgItem2" y="180" x="190" source="zycs_640011"/>
+		<e:Label id="lbConsu2" text="0/1" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="230" y="184"/>
+		<e:Button id="btnConsu3" icon="jsdd_zycs_kr" skinName="Btn0Skin" bottom="77" x="318"/>
+		<e:Label id="lbAdd3" text="Gratitude: \n50 points/time" size="20" textAlign="center" fontFamily="Times" y="137" textColor="0xffffff" x="333"/>
+		<e:Image id="imgItem3" y="180" x="348" source="zycs_640012"/>
+		<e:Label id="lbConsu3" text="0/1" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="388" y="184"/>
+	</e:Group>
+	<e:Group id="groupMax" x="91" y="907">
+		<e:Label id="lbMaxDesc" text="Gratitude has reached the limit" y="0" size="24" textAlign="left" fontFamily="Times" textColor="0x13EE22" horizontalCenter="0"/>
+		<e:Label id="btnLine" text="Tap to salvage the extra event item" y="50" size="24" textAlign="left" fontFamily="Times" textColor="0x13EE22" x="0"/>
+	</e:Group>
+	<e:Image id="imgExpTitle" y="814" source="jsdd_zycs_xzzh" horizontalCenter="241.5"/>
+	<e:Image y="856" source="jsdd_zycs_k1" x="513"/>
+	<e:Image source="jsdd_zycs_k2" y="834" x="513"/>
+	<e:Component id="comRankBarEff" y="855" skinName="TouXianBarEffEUI" x="513"/>
+	<e:Image id="comRankBarEffRp" y="869" x="626" source="mainui_zycs_hongdian"/>
+	<e:CheckBox id="checkBox" x="548" y="1011" skinName="CheckBoxEUI" label="" scaleX="0.8" scaleY="0.8"/>
+	<e:Label text="Auto Use" y="1014" size="18" fontFamily="Times" textAlign="center" x="580" textColor="0x13EE22" lineSpacing="3"/>
+	<e:Label id="lbExpDec" text="Effect: Raises by 10% directly Maximum Gratitude Maximum Gratitude" y="1034" size="17" fontFamily="Times" textAlign="center" horizontalCenter="238" textColor="0xffffff" width="200"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Group y="139" horizontalCenter="0.5">
+		<e:Image y="0" source="jsdd_zycs_k3" left="-45" right="-45"/>
+		<e:Group y="19" horizontalCenter="0.5">
+			<e:Image id="imgName" x="7" source="jsdd_zycs_msz1" y="0"/>
+			<e:Image x="7" y="152" source="jsdd_zycs_lun"/>
+			<e:BitmapLabel id="bmpLun" y="189" text="99" font="jsddnum_fnt" letterSpacing="0" x="0"/>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

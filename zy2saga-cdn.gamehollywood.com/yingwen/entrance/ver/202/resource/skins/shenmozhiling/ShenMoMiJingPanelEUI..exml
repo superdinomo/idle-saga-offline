@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoMiJingPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134" states="max,normal" >
+	<w:Config id="1586b3cda3a" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="43" x="12" source="smzl_zycs_bg3_jpg"/>
+	<e:Image y="172" source="smzl_zycs_shuom1" horizontalCenter="-1.5"/>
+	<e:Image y="304" source="smzl_zycs_bg2_jpg" x="13"/>
+	<e:Group id="groupMCBar" width="0" height="0" x="0" y="0"/>
+	<e:ProgressBar id="barbc" slideDuration="10" skinName="ProgressBarEUI8" value="0" y="108" x="38"/>
+	<e:Button id="btnBox" y="96" x="613" icon="tm_zycs_xbx" skinName="Btn0Skin"/>
+	<e:Image source="smzl_zycs_zhuanpan_png" anchorOffsetX="318" anchorOffsetY="318" x="359" y="657"/>
+	<e:Image id="imgYuan" source="smzl_zycs_zhuanpan1_png" anchorOffsetX="283" anchorOffsetY="283" horizontalCenter="-1" y="657"/>
+	<e:Image id="imgSelectBanYuan" y="374" source="smzl_zycs_waihuaiz" horizontalCenter="-0.5"/>
+	<e:Group id="groupCcount" x="359" y="658" anchorOffsetX="318" anchorOffsetY="319">
+		<e:Component id="itemReward0" skinName="ShenMoMiJingPanelItemCountEUI" y="319" x="318"/>
+		<e:Component id="itemReward1" skinName="ShenMoMiJingPanelItemCountEUI" x="318" y="319" rotation="45"/>
+		<e:Component id="itemReward2" skinName="ShenMoMiJingPanelItemCountEUI" x="318" y="319" rotation="90"/>
+		<e:Component id="itemReward3" skinName="ShenMoMiJingPanelItemCountEUI" x="318" y="319" rotation="135"/>
+		<e:Component id="itemReward4" skinName="ShenMoMiJingPanelItemCountEUI"  x="318" y="319" rotation="180"/>
+		<e:Component id="itemReward5" skinName="ShenMoMiJingPanelItemCountEUI"  x="318" y="319" rotation="225"/>
+		<e:Component id="itemReward6" skinName="ShenMoMiJingPanelItemCountEUI"  x="318" y="319" rotation="270"/>
+		<e:Component id="itemReward7" skinName="ShenMoMiJingPanelItemCountEUI"  x="318" y="319" rotation="315"/>
+	</e:Group>
+	<e:Group id="groupMc" width="0" height="0" x="0" y="32"/>
+	<e:Image id="imgYuan1" y="656" source="smzl_zycs_neihuang" anchorOffsetX="132" anchorOffsetY="132" horizontalCenter="-1"/>
+	<e:Image id="imgSelectBanYuan1" y="524" source="smzl_zycs_neihuangz" x="265"/>
+	<e:Image source="smzl_zycs_kuang" y="566" horizontalCenter="-0.5"/>
+	<e:Group id="groupBei" width="264" height="265" scaleX="1" anchorOffsetX="132" anchorOffsetY="132.5" y="656.5" x="359">
+		<e:Component id="itemBei0" skinName="ShenMoMiJingPanelItemBeiEUI" x="132" y="133"/>
+		<e:Component id="itemBei1" skinName="ShenMoMiJingPanelItemBeiEUI"  x="132" y="133" rotation="90"/>
+		<e:Component id="itemBei2" skinName="ShenMoMiJingPanelItemBeiEUI"  x="132" y="133" rotation="180"/>
+		<e:Component id="itemBei3" skinName="ShenMoMiJingPanelItemBeiEUI"  x="132" y="133" rotation="270"/>
+		<e:Label text="1x" x="119" y="14" size="20" textColor="0x000000" visible="false"/>
+	</e:Group>
+	<e:Group id="groupMc1" width="0" height="0" x="0" y="32"/>
+	<e:Group id="groupConsume" height="37" y="593.33" anchorOffsetX="0" anchorOffsetY="0" visible.max="false" horizontalCenter="0.5">
+		<e:Image id="imgConsume" x="120" y="10" source="zycs_320003" width="25" height="25"/>
+		<e:Label id="lbConsume" text="9999999" y="10" size="20" fontFamily="Times" x="120" textAlign="left" verticalAlign="middle" textColor="0xFFFFFF"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnOK" y="630" scaleX="1" scaleY="1" icon="" skinName="BtnMin1_2mid" x="300" label="Hunt"/>
+	<e:Label id="lbCount" text="Treasure Hunt Attempts: 2/5" y="1006" size="24" fontFamily="Times" horizontalCenter="0" textColor="0xe6dcb8"/>
+	<e:Image y="353" source="smzl_zycs_zhizhen1" horizontalCenter="0"/>
+	<e:Image y="381" x="26" source="smzl_zycs_wenli"/>
+	<e:Image y="381" x="694" source="smzl_zycs_wenli" scaleX="-1"/>
+	<e:Image y="559" source="smzl_zycs_zhizhen2" horizontalCenter="0"/>
+	<e:CheckBox id="checkBoxs" label="Skip Animation" y="686" skinName="CheckBoxEUI" visible.max="false" scaleX="0.8" scaleY="0.8" horizontalCenter="0"/>
+	<e:Label id="lbRewardDesc" text="Perform 1 more Treasure Hunt to unlock chest" y="68" size="24" horizontalCenter="0" fontFamily="Times" textColor="0xe3d7be"/>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\A_暗黑魔灵\A-暗黑秘境-暗黑秘境.jpg" y="-45" locked="true" visible="false"/>-->
+</e:Skin>

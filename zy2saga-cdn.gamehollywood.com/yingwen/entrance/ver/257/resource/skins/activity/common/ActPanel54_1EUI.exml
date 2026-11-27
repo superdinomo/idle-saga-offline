@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel54_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="49.31" horizontalCenter="0" source="hddt_zycs_xysdi_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hxzr"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Scroller scrollPolicyH="auto" scrollPolicyV="off" y="688" maxWidth="530" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbTime" y="73" text="Count down: 00:00:00" fontFamily="黑体" size="24" lineSpacing="10" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Image y="662.67" source="liuguang_zycs_huawen" x="89"/>
+	<e:Image y="662.67" source="liuguang_zycs_huawen" scaleX="-1" x="634"/>
+	<e:Group id="groupMcMeteor" y="180" x="360"/>
+	<e:Group id="groupMcWatering" x="360" y="440"/>
+	<e:Image id="imgDesc" y="661.33" horizontalCenter="0.5" source="hddt_zycs_ljjs1"/>
+	<e:Button id="btnLeft" label="" x="98" y="709" skinName="Btn0Skin" icon="zuji_zycs_jiantou" scaleY="1" scaleX="-1"/>
+	<e:Button id="btnRight" label="" x="620" y="709" skinName="Btn0Skin" icon="zuji_zycs_jiantou"/>
+	<e:Button id="btnSend" y="834.67" label="" skinName="Btn0Skin" icon="hddt_zycs_xyan" horizontalCenter="0"/>
+	<e:Image id="imgWishing" source="hddt_zycs_qcxy" touchEnabled="false" horizontalCenter="0" y="902"/>
+	<e:BitmapLabel id="bmpWishing" y="881" font="xysnum_fnt" text="11d23" letterSpacing="-6" scaleX="1" scaleY="1" touchEnabled="false" horizontalCenter="0"/>
+	<e:Button id="btnWatering" y="836" label="" skinName="Btn0Skin" icon="hddt_zycs_jsan" x="593"/>
+	<e:Label id="lbWateringCount" y="930" text="Watering times: 1" fontFamily="黑体" size="20" lineSpacing="10" textColor="0xFFFFFF" right="20"/>
+	<e:Label id="lbCount" y="1028" text="Wishing attempts: 1" fontFamily="黑体" size="20" lineSpacing="10" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Label id="lbDesc" y="1064" text="After wishing opened, top up $25.99/$99.99/$19.99 to gain wishing attempts" fontFamily="黑体" size="20" lineSpacing="10" textColor="0xCDC8BE" horizontalCenter="0"/>
+	<e:Component id="item1" y="176" x="237" skinName="ActItem54_1EUI"/>
+	<e:Component id="item3" y="331" x="539" skinName="ActItem54_1EUI"/>
+	<e:Component id="item0" y="318" x="107" skinName="ActItem54_1EUI"/>
+	<e:Component id="item2" y="251" x="388" skinName="ActItem54_1EUI"/>
+	<e:Group id="groupMcFlash" x="480" y="440"/>
+</e:Skin>

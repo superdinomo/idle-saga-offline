@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act62GameVictoryWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="3" width="693">
+	<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" source="xb_zycs_gxbg_png" top="0" bottom="7" scale9Grid="86,118,521,7" height="639"/>
+		<e:Image x="86" anchorOffsetX="0" anchorOffsetY="0" y="123" source="hddt_zycs_tgzi1"/>
+		<e:Scroller scrollPolicyH="auto" scrollPolicyV="off" maxWidth="450" y="160" x="87">
+			<e:List id="list1" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="20" paddingTop="5"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgDesc" x="88.4" anchorOffsetX="0" anchorOffsetY="0" y="271.64" source="hddt_zycs_tgzi2"/>
+		<e:Scroller id="scroller"  anchorOffsetX="0" width="576" anchorOffsetY="0" horizontalCenter="4.5" maxHeight="240" y="310.64">
+			<e:List id="list2" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" width="540" anchorOffsetX="0" x="-38" y="0">
+			
+				
+				
+				
+				
+				
+			
+				<e:layout>
+					<e:TileLayout requestedColumnCount="5" verticalGap="2" paddingLeft="15" paddingRight="15" paddingBottom="15" paddingTop="15" horizontalGap="18"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn0" y="566" label="Confirm" skinName="BtnMin1_1" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

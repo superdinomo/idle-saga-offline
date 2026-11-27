@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ItemTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b36a128"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="group1" anchorOffsetX="0" width="562" scaleX="1" scaleY="1">
+			<e:Image id="BG" width="562" anchorOffsetX="0" anchorOffsetY="0" x="0" top="0" bottom="-16" source="equip_zycs_di" scale9Grid="42,53,11,6"/>
+			<e:Image y="47" anchorOffsetX="0" source="equip_zycs_juxing" x="2"/>
+			<e:Component id="itemIcon" x="23" y="75" skinName="ItemSkin"/>
+			<e:Label id="nameLabel" text="0" x="25" y="14" fontFamily="黑体" size="25" textColor="0x37FE21" anchorOffsetX="0" width="473" anchorOffsetY="0" textAlign="left"/>
+			<e:Label id="lbRate" text="Chance Display" x="400" y="57" fontFamily="黑体" size="24" textColor="0x37FE21" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" visible="false"/>
+			<e:Label y="75" text="Amount：" fontFamily="黑体" size="20" x="137" textColor="0xf5e65a" textAlign="left"/>
+			<e:Label id="num" y="76" text="0" fontFamily="黑体" size="20" x="212" textColor="0xaf9b73"/>
+			<e:Group x="137" y="100">
+				<e:Label id="lblvDesc" y="0" text="0" fontFamily="黑体" size="20" x="0" textColor="0xf5e65a" height="25"/>
+				<e:Label id="lbJob" y="28" text="0" fontFamily="黑体" size="20" x="0" textColor="0xF5E65A" textAlign="left" height="25"/>
+				<e:Label id="lbTimer" y="60" text="0" fontFamily="黑体" size="20" x="10" textColor="0xF5E65A" textAlign="left" height="25"/>
+				<e:Label id="lbBagNum" y="70" text="0" fontFamily="黑体" size="20" x="20" textColor="0xF5E65A" textAlign="left" height="25"/>
+				<e:Label id="lbUse" y="143" text="0" fontFamily="黑体" size="20" x="137" textColor="0xF5E65A"/>
+				<e:layout>
+				<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="562" x="0" y="213" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Label id="description" y="146" text="0" fontFamily="黑体" size="22" x="26" width="431" anchorOffsetX="0" anchorOffsetY="0" textColor="0xf5e65a" verticalAlign="middle" lineSpacing="5"/>
+				<e:Group id="groupItem" x="68" y="0" width="440">
+					<e:Image id="imageLine2" y="6" scale9Grid="35,0,91,4" width="447" source="zs_zycs_fengexian" horizontalCenter="0.5"/>
+					<e:Scroller scrollPolicyH="off" scrollPolicyV="auto" x="6" scaleX="0.9" scaleY="0.9" y="23" maxHeight="300">
+					<e:List id="list" itemRendererSkinName="ItemSkin">
+						<e:layout>
+						<e:TileLayout horizontalGap="30" requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingTop="12" verticalGap="6"/>
+						</e:layout>
+										
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+			<e:Group id="groupTUjing" width="453" y="0" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="0">
+				<e:Image id="imageLine1" y="10" scale9Grid="35,0,91,4" anchorOffsetX="0" width="447" scaleX="1" scaleY="1" source="zs_zycs_fengexian" horizontalCenter="0"/>
+				<e:Label text="【Access】" x="10" y="23" size="22" textColor="0xFF9B0F" fontFamily="SimHei"/>
+				<e:Label id="lbtujin" text="0" x="19" y="48" size="22" textColor="0xFF9B0F" fontFamily="SimHei" anchorOffsetY="0" lineSpacing="3"/>
+			</e:Group>
+				<e:Group id="groupGain" x="0" y="212">
+					<e:Image y="30" x="191" source="zz_zycs_hqtj"/>
+					<e:Image y="33" source="liuguang_zycs_huawen" scaleX="-1" x="478"/>
+					<e:Image y="33" source="liuguang_zycs_huawen" x="0"/>
+					<e:Group horizontalCenter="0.5" top="56" bottom="7">
+					<e:List id="gainList" itemRendererSkinName="GainGoodsItemEUI" horizontalCenter="0">
+						
+						
+							
+							
+							
+							
+						
+						
+						<e:layout>
+						<e:TileLayout horizontalGap="35" horizontalAlign="center" requestedColumnCount="4" verticalGap="-7"/>
+						</e:layout>
+					</e:List>
+					</e:Group>
+				</e:Group>
+			<e:Button id="btnshiyong" label="Use" y="692" anchorOffsetX="0" anchorOffsetY="0" height="58" x="172" scaleY="1" skinName="BtnMin1_1"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Label id="lv" y="91" text="0" fontFamily="黑体" size="22" x="198" textColor="0xaf9b73" visible="false"/>
+			<e:Image id="imageNameBg" x="3" y="2" source="" anchorOffsetX="0" width="479" visible="false"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="16"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

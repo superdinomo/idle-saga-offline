@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel11_4EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" height="1280" width="720">
+	<e:Group horizontalCenter="0" width="720" verticalCenter="0">
+		<e:Image id="imgBg" x="0" y="0" touchEnabled="false" scale9Grid="88,64,2,3" source="hddt_zycs_sdwgzg_png"/>
+		<e:Image id="imgBtz" y="13" touchEnabled="false" scale9Grid="88,64,2,3" source="btz_zycs_tzlb_png" horizontalCenter="0.5"/>
+		<e:Scroller y="680" scrollPolicyH="auto" horizontalCenter="0">
+			<e:List id="listReward" itemRendererSkinName="ItemSkin">
+			<e:ArrayCollection>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" gap="9"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnGet" label="Claim Rewards" y="839" x="256" skinName="BtnMin1_16"/>
+		<e:Button id="btnRecharge" label="$199.99 Snap Up" y="839" x="256" skinName="BtnMin1_16"/>
+		<e:Image id="imgGot" y="845" pixelHitTest="true" touchEnabled="false" source="public_zycs_ylq" x="300"/>
+		<e:Group id="groupMc" x="359" y="426"/>
+		<e:Group id="groupMc3" x="142" y="440"/>
+		<e:Group id="groupMc1" x="359" y="436"/>
+		<e:Group id="groupMc2" x="359" y="430"/>
+		<e:Group id="groupMc4" x="150" y="471"/>
+		<e:Group id="groupMc5" x="560" y="480"/>
+		<e:Image id="imgDesc" y="118" touchEnabled="false" scale9Grid="88,64,2,3" source="wgzg_zycs_zi" horizontalCenter="0"/>
+		<e:Image x="104" y="519" touchEnabled="false" source="wgzg_zycs_di"/>
+		<e:Group y="519" x="167">
+			<e:Image x="0" y="0" touchEnabled="false" source="wgzg_zycs_zlbz"/>
+			<e:Group x="178" y="0">
+			<e:BitmapLabel id="bmlPower" x="-21" y="0" font="mrzg_fnt" text="6000000" letterSpacing="-18"/>
+			</e:Group>
+			<e:Group x="373" y="0">
+			<e:Image x="-13" y="0" touchEnabled="false" source="mrzg_zycs_tubiao"/>
+			</e:Group>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label y="929" text="(The top-up can be counted into Total Top-up and SVIP)" fontFamily="Times" size="20" lineSpacing="10" textColor="0xffffff" horizontalCenter="0"/>
+		<e:Label y="807" text="Vouchers are not counted towards the daily acquisition limit" fontFamily="Times" size="20" lineSpacing="10" textColor="0xffffff" horizontalCenter="0"/>
+		<e:Label id="lbTime" y="577" text="活动倒计时: 6天22时55分12秒" fontFamily="Times" size="22" lineSpacing="10" x="212" textColor="0xffffff"/>
+		<e:Button id="btnClose" label="" x="632" y="45.66" skinName="Btn0Skin" icon="public_zycs_cha1"/>
+		<e:Group x="152" y="808" visible="false">
+			<e:Label y="6" text="Snap up to get " fontFamily="Times" size="20" lineSpacing="10" textColor="0xCEC5B0" x="0"/>
+			<e:Label id="lbCount" y="6" text="XXX" fontFamily="Times" size="20" lineSpacing="10" textColor="0xCEC5B0" x="171"/>
+			<e:Group x="202" y="0">
+			<e:Image x="0" y="-8" touchEnabled="false" source="zycs_320030"/>
+			</e:Group>
+			<e:Label y="6" text="Not count into the daily limit" fontFamily="Times" size="20" lineSpacing="10" textColor="0xCEC5B0" x="234"/>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:List id="listBtn" x="205" y="595" scaleX="1" scaleY="1" itemRendererSkinName="ActItem11_4EUI">
+			<e:layout>
+			<e:HorizontalLayout paddingLeft="0" paddingRight="0" gap="11"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Group>
+</e:Skin>

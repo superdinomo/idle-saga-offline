@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="857"
+        height="1280">
+	<w:Config id="15ca0679d01" />
+	<e:Group id="groupMain" width="0" height="0" y="0" horizontalCenter="-360" />
+	<e:Group id="group" touchEnabled="false" horizontalCenter="0" bottom="0" top="0" left="0" right="0">
+		<e:Group id="headGroup" y="0" touchEnabled="false" left="0" right="0">
+			<e:Image y="0" pixelHitTest="true" source="mianui_zycs_ding" scale9Grid="711,2,5,38" right="0" left="0" />
+			<e:Image x="76" y="47" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_zld" />
+			<e:Image x="110" y="56" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_zhandouli2" />
+			<e:BitmapLabel id="bmpNumberPower" x="166" y="57" text="223" font="powernum_fnt" letterSpacing="-3" />
+			<e:Group id="groupRoleIcon" width="122" height="114" anchorOffsetY="0" anchorOffsetX="0" x="4" y="43">
+				<e:Image x="-4" y="4" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_touxiang" scaleX="1" scaleY="1" />
+				<e:Image id="imageRole" x="10" y="12" source="mianui_zycs_sheshou0" />
+				<e:Image x="8" y="47" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="mianui_zycs_xuetiao_01"
+				         touchEnabled="false" />
+			</e:Group>
+			<e:Group id="grouphp" width="122" height="114" anchorOffsetY="0" anchorOffsetX="0" y="26" x="-5" touchEnabled="false"
+			         touchChildren="false">
+				<e:Image id="imgHp" x="17" y="64" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_xuetiao_02"
+				         touchEnabled="false" />
+			</e:Group>
+			<e:Button id="btnBuff" label="" x="132" skinName="Btn0Skin" icon="mianui_zycs_buff" scaleX="1" scaleY="1" y="97" />
+			<e:Button id="btnMail" label="" skinName="Btn0Skin" icon="mianui_zycs_youjian" scaleX="1" scaleY="1" x="205" y="97" />
+			<e:Button id="btnRecharge1" label="" x="284" skinName="Btn0Skin" icon="mianui_zycs_cz" scaleX="1" scaleY="1" y="94" />
+			<e:Button id="btnSettings" label="" x="-1" skinName="Btn0Skin" icon="mianui_zycs_sheding" scaleX="1" scaleY="1"
+			          y="43" />
+			<e:Group id="groupAllVip" x="376" y="45">
+				<e:Group id="groupVip" x="0" y="0" width="88" height="101">
+					<e:Image id="imgVipBg" x="0" y="0" touchEnabled="true" source="mianui_zycs_Button_VIP" />
+					<e:Image id="vipImg" y="20" touchEnabled="false" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="0,1,43,17"
+					         source="mianui_zycs_VIP" x="18" />
+					<e:BitmapLabel id="bitVipLv" y="46" font="vipnum_fnt" letterSpacing="-3" text="1" touchEnabled="false"
+					               horizontalCenter="0.5" />
+				</e:Group>
+				<e:Group id="groupSVip" x="0" y="0">
+					<e:Image id="imgSVipBg" x="0" y="0" touchEnabled="true" source="mianui_zycs_Button_svip" />
+					<e:Image id="SvipImg" y="30" touchEnabled="false" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="0,1,43,17" x="21"
+					         source="mianui_zycs_svip" />
+					<e:BitmapLabel id="bitSVipLv" y="58" font="vipnum_fnt" letterSpacing="-3" text="1" touchEnabled="false"
+					               horizontalCenter="0" />
+				</e:Group>
+				<e:Image id="imageRedPointSVip" x="75" y="6" touchEnabled="false" source="mainui_zycs_hongdian" />
+			</e:Group>
+			<e:Group id="groupGold" x="444" y="3" touchEnabled="true" touchChildren="true">
+				<e:Image source="zycs_320001" x="0" y="0" />
+				<e:Label id="labelGoldTxt" text="0" y="9" size="18" fontFamily="Times" rotation="0.63" anchorOffsetY="0"
+				         anchorOffsetX="0" x="34" />
+				<e:Button id="btnGoldRecharge" label="Button" y="7" icon="mianui_zycs_jh1" skinName="Btn0Skin" x="106" />
+			</e:Group>
+			<e:Group id="groupSagaDb" x="444" y="3" touchEnabled="true" touchChildren="true" visible="false">
+				<e:Image x="0" y="0" source="zycs_sagadb"/>
+				<e:Label id="labeSagaDbTxt" text="0" y="9" size="18" fontFamily="Times" rotation="0.63" anchorOffsetY="0" anchorOffsetX="0" x="34"/>
+				<e:Button id="btnSagaDbRecharge" label="Button" y="7" icon="mianui_zycs_jh1" skinName="Btn0Skin" x="106"/>
+			</e:Group>
+			<e:Group id="groupJinzuan" x="303" y="4" touchChildren="true" touchEnabled="true">
+				<e:Image x="0" y="0" source="zycs_320030" />
+				<e:Label id="lbJinZuan" text="0" y="9" size="18" fontFamily="Times" rotation="0.63" anchorOffsetY="0" anchorOffsetX="0"
+				         x="32" />
+				<e:Button id="btnJinZuanRecharge" label="Button" y="6" icon="mianui_zycs_jh1" skinName="Btn0Skin" x="109" />
+			</e:Group>
+			<e:Group id="groupYb" x="581" y="3" touchChildren="true" touchEnabled="true">
+				<e:Image id="imgDiamon" source="zycs_320002" x="0" y="0" />
+				<e:Label id="labelMesonry" text="0" x="35" y="9" size="18" fontFamily="Times" height="25" anchorOffsetY="0"
+				         anchorOffsetX="0" cacheAsBitmap="true" verticalAlign="top" />
+				<e:Button id="btnRecharge" label="Button" y="7" icon="mianui_zycs_jh1" skinName="Btn0Skin" x="107" />
+			</e:Group>
+			<e:Label id="labelNameTxt" text="Character Name Seven Characters" y="148" fontFamily="Times" size="18" textAlign="center" cacheAsBitmap="true"
+			         x="0" width="114" />
+			<e:Label id="lbLevel" text="LV.200" x="10" size="24" fontFamily="Times" textAlign="center" y="10" textColor="0xf4e54a" />
+			<e:Label id="lbZsLevel" text="No Rebirth" x="168" size="24" fontFamily="Times" textAlign="center" y="10" textColor="0xf4e54a" />
+		</e:Group>
+		<e:Component id="mainUIMapItem" anchorOffsetX="0" y="46" skinName="MainUIMapItemEUI" right="0" x="503" scaleX="1"
+		             scaleY="1" />
+	</e:Group>
+	<e:Component id="btnGuaji" touchEnabled="false" skinName="GuaJiBtnPanelEUI" bottom="223" left="-14" />
+	<e:Component id="com_Chat" anchorOffsetX="0" skinName="ChatMainSkin1" horizontalCenter="0" width="720" bottom="119"
+	             height="86" />
+	<e:Group id="groupTask" touchEnabled="false" horizontalCenter="0" width="720" bottom="114" height="304">
+		<e:Component id="com_Task" anchorOffsetX="0" skinName="MainTaskSkin" y="92" horizontalCenter="0" width="420"
+		             height="113" />
+	</e:Group>
+	<e:Group id="groupRuleIcon" right="0" left="0" bottom="-28" top="148" touchEnabled="false">
+		<e:Button id="btn_QieHuan" icon="mianui_zycs_zhankai" y="72" skinName="Btn0Skin" anchorOffsetX="18" anchorOffsetY="33"
+		          scaleX="1" left="16" />
+		<e:Group id="groupRight" y="4" width="136" height="204" right="10">
+			<e:Component id="btnActRank" touchEnabled="false" skinName="ActRankBtnPanelEUI" y="0" x="0" />
+			<e:Component id="btnActRank2" touchEnabled="false" skinName="ActRankBtnPanelEUI" y="0" x="0" />
+		</e:Group>
+		<e:Group id="group_toolbar1" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" y="0" left="0" width="719">
+			<e:Group id="groupIcon" width="658" y="17" anchorOffsetX="0" scrollEnabled="false" touchEnabled="false" left="61">
+				<e:Button id="btn_fuli" skinName="Btn0Skin1" icon="mianui_zycs_fldt" x="-128" y="-141" scaleX="1" scaleY="1" />
+				<e:Button id="btn_LianXu" skinName="Btn0Skin1" icon="mianui_zycs_dljl" x="45" y="163" scaleX="1" scaleY="1" />
+				<e:Button id="btn_WarZone" skinName="Btn0Skin1" icon="mainui_zycs_ltzq" x="55" y="173" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_datianshi" skinName="Btn0Skin1" icon="mianui_zycs_dtswq" x="-138" y="-94" scaleX="1" scaleY="1" />
+				<e:Button id="btn_XunBao" skinName="Btn0Skin5" icon="mianui_zycs_xb" x="-48" y="-141" scaleX="1" scaleY="1" />
+				<e:Button id="btn_YK" skinName="Btn0Skin1" icon="mianui_zycs_zsyk" x="112" y="475" />
+				<e:Button id="btn_ZZTQ" skinName="Btn0Skin1" icon="mianui_zycs_zztq" x="122" y="485" />
+				<e:Button id="btn_ZJGH" skinName="Btn0Skin1" icon="mainui_zycs_zjgh" x="132" y="495"/>
+				<e:Button id="btn_ZeroBuy" skinName="Btn0Skin1" icon="mainui_zycs_lyg" />
+				<e:Button id="btn_BBFL" skinName="Btn0Skin1" icon="mainui_zycs_bbfl" />
+				<e:Button id="btn_activity" skinName="Btn0Skin1" icon="mianui_zycs_hddt" x="-138" y="-94" scaleX="1" scaleY="1" />
+				<e:Button id="btn_KFLC" skinName="Btn0Skin1" icon="mianui_zycs_kflc" x="-108" y="-121" scaleX="1" scaleY="1" />
+				<e:Button id="btn_YYHL" skinName="Btn0Skin1" icon="mianui_zycs_hl" x="-98" y="-111" scaleX="1" scaleY="1" />
+				<e:Button id="btn_JinZuan" skinName="Btn0Skin1" icon="mainui_zycs_jz" x="-38" y="-131" scaleX="1" scaleY="1" />
+				<e:Button id="btn_Suit" icon="mainui_zycs_tzsj" x="-128" y="-84" scaleX="1" scaleY="1" skinName="Btn0Skin1" />
+				<e:Button id="btn_tssz" icon="mainui_zycs_tssz" x="-118" y="-74" scaleX="1" scaleY="1" skinName="Btn0Skin1" />
+				<e:Button id="btn_gzhl" skinName="Btn0Skin1" icon="mainui_zycs_gz" x="-138" y="-94" scaleX="1" scaleY="1" />
+				<e:Button id="btn_fxly" skinName="Btn0Skin1" icon="mainui_zycs_fx" x="102" y="465" />
+				<e:Button id="btn_kefu" skinName="Btn0Skin1" icon="mianui_zycs_kf" x="-128" y="-84" scaleX="1" scaleY="1" />
+				<e:Button id="btn_QMKH" skinName="Btn0Skin1" icon="mainui_zycs_qmkh" />
+				<e:Button id="btn_QiYue" skinName="Btn0Skin1" icon="mainui_zycs_emqy" />
+				<e:Button id="btn_smrz" skinName="Btn0Skin1" icon="mainui_zycs_smrz" x="112" y="475" />
+				<e:Button id="btn_collection" skinName="Btn0Skin1" icon="mianui_zycs_scyx" x="122" y="485"/>
+				<e:Button id="btn_Achieve" skinName="Btn0Skin1" icon="mianui_zycs_cj" x="-138" y="-94" scaleX="1" scaleY="1" />
+				<e:Button id="btn_ZMKH" skinName="Btn0Skin1" icon="mianui_zycs_zmkh" x="-128" y="-84" scaleX="1" scaleY="1" />
+				<e:Button id="btn_YZZH" skinName="Btn0Skin1" icon="mianui_zycs_yzsh" x="-118" y="-74" scaleX="1" scaleY="1" />
+				<e:Button id="btn_WxYqhl" skinName="Btn0Skin1" icon="mianui_zycs_yqhl" x="-108" y="-64" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_KHSY" skinName="Btn0Skin1" icon="mianui_zycs_khsy" x="-98" y="-54" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_CJLC" skinName="Btn0Skin1" icon="mainui_zycs_kfcjlc" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_JLBZ" skinName="Btn0Skin1" icon="mianui_zycs_jlbz" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_HFPK" skinName="Btn0Skin1" icon="mianui_zycs_hfdfs" x="-88" y="-44" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_TXSP" skinName="Btn0Skin1" icon="mianui_zycs_awry" x="-78" y="-34" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_facebook" skinName="Btn0Skin1" icon="mainui_zycs_facebook" x="-78" y="-34" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_ActHonourLiLian" skinName="Btn0Skin1" icon="mainui_zycs_ryll" x="-128" y="-84" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_RebateGift" skinName="Btn0Skin1" icon="mainui_zycs_zsfl" x="-118" y="-74" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_taiwanGzh" skinName="Btn0Skin1" icon="mainui_zycs_gzyl" x="-108" y="-64" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_taiwanCjhy" skinName="Btn0Skin1" icon="mainui_zycs_cjhy" x="-98" y="-54" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_xyx1" skinName="Btn0Skin1" icon="mainui_zycs_cjhy" x="-98" y="-54" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_Pass" skinName="Btn0Skin1" icon="mianui_zycs_ghgpass" x="-88" y="-44" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_Pass2" skinName="Btn0Skin1" icon="mainui_zycs_r2pass" x="-78" y="-34" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_sdkKeFu" skinName="Btn0Skin1" icon="mainui_zycs_CScenter" x="-68" y="-24" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_sdkAiKeFu" skinName="Btn0Skin1" icon="mainui_zycs_AiHelp" x="-58" y="-14" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_sdkYK" skinName="Btn0Skin1" icon="mainui_zycs_GHG-Plus" x="-48" y="-4" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:TileLayout horizontalGap="9" verticalGap="0" requestedColumnCount="6" />
+				</e:layout>
+			</e:Group>
+			<e:Group id="groupCloneIcon" width="0" height="0" y="0" scaleX="1" scaleY="1" left="0" />
+		</e:Group>
+		<e:Group id="groupAllIcon" touchEnabled="false" bottom="106" top="0" right="0" left="0">
+			<e:Group id="groupAct" x="17" anchorOffsetX="0" anchorOffsetY="0" touchChildren="true" touchEnabled="false"
+			         bottom="268" height="348" width="364">
+				<e:Button id="btn_firstRecharge" icon="mianui_zycs_sbsc" x="0" y="0" scaleX="1" scaleY="1" skinName="Btn0Skin1" />
+				<e:Button id="btn_firstRechargeEveryday" skinName="Btn0Skin6" x="95" y="86" icon="mianui_zycs_mrsc" />
+				<e:Button id="btn_XunZhang" skinName="Btn0Skin1" icon="mianui_zycs_zlxz" x="30" y="117" scaleX="1" scaleY="1" />
+				<e:Button id="btn_ZhaoCaiLong" skinName="Btn0Skin1" icon="mianui_zycs_hjsl" x="20" y="107" scaleX="1" scaleY="1" />
+				<e:Button id="btn_Shengbei" skinName="Btn0Skin1" icon="mianui_zycs_bxsb" x="40" y="127" scaleX="1" scaleY="1" />
+				<e:Button id="btn_rechargeYiYuan" icon="mainui_zycs_yyqg" x="-10" y="7" skinName="Btn0Skin6" />
+				<e:Button id="btn_yyms" icon="mianui_zycs_1yms" y="0" x="0" skinName="Btn0Skin1" />
+				<e:Button id="btn_yyms2" icon="mianui_zycs_zsms" y="10" x="10" skinName="Btn0Skin1" />
+				<e:Button id="btn_svipms" icon="mianui_zycs_svipms" y="322.67" x="110.33" skinName="Btn0Skin1" />
+				<e:Button id="btn_SvipLimit" skinName="Btn0Skin1" icon="mianui_zycs_xslb" x="297" y="94" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_RedBuy" icon="mainui_zycs_zhsq" x="347" y="144" scaleX="1" scaleY="1" skinName="Btn0Skin6"/>
+				<e:Button id="btn_XyQqZbjh" skinName="Btn0Skin1" icon="mianui_zycs_zbjh" x="307" y="104" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_XyQqLcfl" skinName="Btn0Skin1" icon="mianui_zycs_lcfl" x="317" y="114" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_mrzg" icon="mrzg_zycs_1_1" x="357" y="154" scaleX="1" scaleY="1" skinName="Btn0Skin6"/>
+				<e:Button id="btn_mrzgSvip" icon="mrzg_zycs_1_4" x="367" y="164" scaleX="1" scaleY="1" skinName="Btn0Skin6"/>
+				<e:Button id="btn_Yingwen_Ads" skinName="Btn0Skin1" icon="mianui_zycs_gn411" x="317" y="114" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:TileLayout verticalGap="0" horizontalAlign="left" orientation="columns" horizontalGap="20" />
+				</e:layout>
+			</e:Group>
+			<e:Button id="btn_firstRechargeTimer" icon="mainui_zycs_xfys" x="-1" scaleX="1" scaleY="1" skinName="FirstBtnEUI"
+			          anchorOffsetX="0" bottom="611" />
+			<e:Component id="com_qiji" anchorOffsetX="0" skinName="MainQiJiZhiLuSkin" scaleX="1" scaleY="1" right="8"
+			             anchorOffsetY="0" height="144" bottom="696" />
+			<e:Component id="com_gnyg" anchorOffsetX="0" scaleX="1" scaleY="1" right="8" anchorOffsetY="0" bottom="698" skinName="MainGnygEUI"/>
+			<e:Group right="21" touchChildren="true" touchEnabled="false" bottom="570">
+				<e:Button id="btn_RedFort" icon="mianui_zycs_csys" scaleX="1" scaleY="1" x="10" y="10" skinName="BtnTimeSkin" />
+				<e:Button id="btn_CampWar" icon="mainui_zycs_smsz" scaleX="1" scaleY="1" x="287" y="0" skinName="BtnTimeSkin" />
+				<e:Button id="btn_GuildBattle" icon="mianui_zycs_ldsz" scaleX="1" scaleY="1" x="297" y="10" skinName="BtnTimeSkin" />
+				<e:Button id="btn_YunBiao" icon="mianui_zycs_hwbz" scaleX="1" scaleY="1" x="297" y="10" skinName="BtnTimeSkin" />
+				<e:Button id="btn_ShenYuBoss" icon="mianui_zycs_syboss" scaleX="1" scaleY="1" x="10" y="10" skinName="BtnTimeSkin" />
+				<e:Button id="btn_Leitai" icon="mianui_zycs_zyzq" scaleX="1" scaleY="1" x="40" y="40" skinName="BtnTimeSkin"/>
+				<e:Button id="btn_Langhun" icon="mianui_zycs_lhzd" scaleX="1" scaleY="1" x="50" y="50" skinName="BtnTimeSkin"/>
+				<e:Button id="btn_Pk3v3" icon="mianui_zycs_txzz" scaleX="1" scaleY="1" x="60" y="60" skinName="BtnTimeSkin"/>
+				<e:Button id="btn_Gjs" icon="mianui_zycs_gjs" scaleX="1" scaleY="1" x="70" y="70" skinName="BtnTimeSkin"/>
+				<e:Button id="btn_QMDB" icon="mianui_zycs_qmdb" scaleX="1" scaleY="1" x="20" y="20" skinName="BtnTimeSkin"/>
+				<e:Button id="btn_GuZhan" icon="mianui_zycs_gzc" scaleX="1" scaleY="1" x="30" y="30" skinName="BtnTimeSkin"/>
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group anchorOffsetX="0" width="134" right="-2" height="376" bottom="195" touchEnabled="false">
+				<e:Component id="com_BossRemind" scaleX="1" scaleY="1" skinName="ExtBossRemindWinEUI" width="206" height="151" x="0" y="216" visible="false"/>
+				<e:Group id="groupRightBtn" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0">
+					<e:Button id="btn_DailyWanFa" icon="mianui_zycs_rc" scaleX="1" scaleY="1" skinName="BtnWanFaSkin" />
+					<e:Button id="btn_QiYu" icon="mianui_zycs_qy" scaleX="1" scaleY="1" skinName="BtnWanFaSkin" y="239" x="10" />
+					<e:Button id="btn_FuBen" icon="mianui_zycs_fb" scaleX="1" scaleY="1" skinName="BtnWanFaSkin" y="229" />
+					<e:Button id="btn_Boss" icon="mianui_zycs_shouling" scaleX="1" scaleY="1" skinName="BtnWanFaSkin" />
+					<e:Button id="btn_JJC" icon="mianui_zycs_jj" scaleX="1" scaleY="1" skinName="BtnWanFaSkin" />
+					<e:Button id="btn_Guild" icon="mianui_zycs_zm" scaleX="1" scaleY="1" skinName="BtnWanFaSkin" />
+					<e:layout>
+						<e:VerticalLayout gap="3" horizontalAlign="center" />
+					</e:layout>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupMc" touchEnabled="false" touchChildren="false" />
+	</e:Group>
+	<e:Group id="groupSingleAct" x="105" bottom="250">
+		<e:Component id="comDailyOnline" touchEnabled="false" skinName="DailyOnlineComEUI" x="0" y="0" />
+		<e:layout>
+			<e:HorizontalLayout gap="22" />
+		</e:layout>
+	</e:Group>
+	<e:Group touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" bottom="217" right="13">
+		<e:Button id="btnClose" label="" icon="public_zycs_lkfb" skinName="Btn0Skin" />
+	</e:Group>
+	<e:Button id="btn_LingWang" icon="mianui_zycs_linwang2" skinName="Btn0Skin"  bottom="315" horizontalCenter="50.5"/>
+	<e:Group id="groupJuexing" touchEnabled="false" bottom="134" horizontalCenter="-15.5" width="646">
+		<e:Group id="groupExtendPanel" touchEnabled="false" x="0" bottom="88">
+		<e:Image source="mianui_zycs_k" width="100%" height="100%" scale9Grid="26,26,13,6"/>
+		<e:Group id="groupExtendBtn" x="0" y="0" touchEnabled="false">
+			<e:Button id="btn_RedEquip" skinName="Btn0Skin1" icon="mianui_zycs_zhsz"/>
+			<e:Button id="btn_LingQi" skinName="Btn0Skin1" icon="mianui_zycs_lq"/>
+			<e:Button id="btn_HuanShou" skinName="Btn0Skin1" icon="mianui_zycs_hs"/>
+			<e:layout>
+			<e:TileLayout horizontalGap="14" requestedColumnCount="7" horizontalAlign="left" verticalAlign="bottom" paddingLeft="15" paddingRight="15" paddingBottom="15" paddingTop="13"/>
+			</e:layout>
+		</e:Group>
+		</e:Group>
+		<e:Button id="btnExtend" bottom="0" skinName="Btn0Skin" icon="mianui_zycs_zhszjx" x="22"/>
+		<e:Image id="redPoint" source="mainui_zycs_hongdian" scaleX="1" scaleY="1" x="65" y="147"/>
+		<e:Image id="imgJt" x="28" source="mianui_zycs_ydjt" rotation="-90" bottom="59"/>
+	</e:Group>
+</e:Skin>

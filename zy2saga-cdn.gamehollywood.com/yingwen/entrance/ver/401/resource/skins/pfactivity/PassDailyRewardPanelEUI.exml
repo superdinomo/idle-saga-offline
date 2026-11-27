@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PassDailyRewardPanelEUI" width="720" height="1280" currentState="look" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*"  states="get,canget,look,lookGet">
+	<w:Config id="1586b36a128" />
+	<e:Group id="group" horizontalCenter="0" x="312" width="720" verticalCenter="0">
+		<e:Image id="imgBg"  source="ghg_zycs_bg2_png"/>
+		<e:Image x="352" y="243" source="ghgpass_json.ghg_zycs_msz3"/>
+		<e:Image source="ghgpass_json.ghg_zycs_msz2" x="221.5" y="84" />
+		<e:Button id="closeBtn" y="65" icon="sc_zycs_x" skinName="Btn0Skin" x="643"/>
+		<e:Scroller y="263" height="230" width="339" x="306">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout paddingTop="12" paddingBottom="12" paddingRight="12" horizontalGap="14" verticalGap="20"  paddingLeft="12"/>
+				</e:layout>
+			
+				<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+			<e:Button id="btnGo" label="Unlock\nPrivileges" y="516" horizontalCenter="10"  skinName="BtnMin1_17" visible.canget="false" visible.get="false"/>
+		<e:Button id="btnGet" label="Get" y="516" horizontalCenter="10" skinName="BtnMin1_17" visible.get="false" visible.look="false" visible.lookGet="false"/>
+		<e:Image source="public2_zycs_json.public_zycs_ylq" x="415" y="330" visible.canget="false" visible.look="false"/>
+		<e:Label id="lbTips" text="GHG Pass Exclusive Rewards" y="500" fontFamily="SimHei" size="20" textColor="0x13ee22" x="240"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ItemUseBoxWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Group verticalCenter="-17" horizontalCenter="0">
+	<e:Image id="BG" width="562" x="0" scale9Grid="23,32,21,10" bottom="-17" top="0" source="equip_zycs_di"/>
+	<e:Image y="47" anchorOffsetX="0" source="equip_zycs_juxing" x="2"/>
+	<e:Component id="itemIcon" x="23" y="75" skinName="ItemSkin" />
+	<e:Label id="nameLabel" text="0" x="25" y="14" fontFamily="Times" size="25" textColor="0x37FE21" anchorOffsetX="0" width="473" anchorOffsetY="0" height="20" textAlign="left"/>
+	<e:Label y="78" text="Amount: " fontFamily="Times" size="20" x="137" textColor="0xf5e65a" textAlign="left"/>
+		<e:Group x="0" y="214" anchorOffsetX="0" width="562">
+			<e:Label id="description" y="0" text="0" fontFamily="Times" size="22" x="0" width="426" anchorOffsetX="0" anchorOffsetY="0" textColor="0xf5e65a" verticalAlign="middle"/>
+			<e:Group id="groupItem" x="68" y="0" width="440">
+				<e:Image id="imageLine0" y="10" scale9Grid="35,0,91,4" width="447" source="zs_zycs_fengexian" horizontalCenter="0"/>
+				<e:Scroller scrollPolicyH="off"  y="30" scaleX="0.9" scaleY="0.9" x="-3" maxHeight="500">
+				<e:List id="list" itemRendererSkinName="ItemSkin">
+					<e:layout>
+						<e:TileLayout horizontalGap="30" requestedColumnCount="4" verticalGap="13" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+					</e:layout>
+					
+						
+							<!--
+							
+							
+							
+							
+							
+							
+							
+							
+							-->
+						
+					
+				</e:List>
+			</e:Scroller>
+			</e:Group>
+			<e:Group id="groupTUjing" width="456" y="39" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="0">
+				<e:Image id="imageLine1" y="10" scale9Grid="35,0,91,4" width="445" source="zs_zycs_fengexian" x="6"/>
+				<e:Label text="[Source]" x="10" y="24" size="22" textColor="0xFF9B0F" fontFamily="Times"/>
+				<e:Label id="lbtujin" text="0" x="19" y="49" size="22" textColor="0xFF9B0F" fontFamily="Times" anchorOffsetY="0" lineSpacing="3"/>
+			</e:Group>
+			<e:Group x="54" y="160" width="400">
+				<e:Button id="minBtn" label="" x="21" y="9" skinName="Btn0Skin" icon="public_zycs_min"/>
+				<e:Button id="sub1Btn" label="" x="86" y="9" skinName="Btn0Skin" icon="public_zycs_j"/>
+				<e:Image id="inputback" y="12" width="128" height="38" x="136" scale9Grid="5,4,37,24" source="public_zycs_shurukuang"/>
+				<e:Button id="add1Btn" label="" x="270" y="9" skinName="Btn0Skin" icon="public_zycs_jia"/>
+				<e:Button id="maxBtn" label="" x="320" y="9" skinName="Btn0Skin" icon="public_zycs_max"/>
+				<e:Label id="numLabel" y="16" restrict="0-9" width="111" height="28" text="0" size="20" verticalAlign="middle" textAlign="center" textColor="0xAF9B73" x="145"/>
+				<e:Button id="useBtn" y="64" skinName="BtnMin1_1" x="134" label="Open"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="6" verticalAlign="middle" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+	<e:Label id="num" y="79" text="0" fontFamily="Times" size="20" x="210" textColor="0xaf9b73"/>
+	<e:Label id="lblvDesc" y="113" text="0" fontFamily="Times" size="20" x="137" textColor="0xf5e65a"/>
+	</e:Group>
+</e:Skin>

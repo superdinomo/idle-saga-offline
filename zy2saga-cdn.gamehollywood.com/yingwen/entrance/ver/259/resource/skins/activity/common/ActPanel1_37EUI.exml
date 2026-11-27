@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel1_37EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="44" x="13" source="hddt_zycs_xyqmfl_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="47" touchEnabled="false" pixelHitTest="true" source="hddt_zycs_xyqmfl_1_png" horizontalCenter="0"/>
+	<e:Group x="54" y="228">
+		<e:Label y="0" text="Time Remain: " fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" y="0" text="23时23分22秒" fontFamily="Times" size="20" x="105" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbCount" y="181" text="10" fontFamily="Times" size="20" lineSpacing="10" textColor="0xffffff" x="577" width="72" textAlign="center" visible="false"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_tqlc" horizontalCenter="0"/>
+	<e:Scroller width="668" y="266" height="744" x="25" scrollPolicyH="off" anchorOffsetY="0">
+		<e:List id="listDiamond" itemRendererSkinName="ActItem1_37EUI" anchorOffsetY="0">
+		
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object aaaa="null"/>
+					<e:Object aaaa="null"/>
+					<e:Object aaaa="null"/>
+					<e:Object aaaa="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller width="668" y="266" height="744" x="25" scrollPolicyH="off" anchorOffsetY="0">
+		<e:List id="listCoupon" itemRendererSkinName="ActItem1_37EUI" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:TabBar id="tabBar" selectedIndex="0" horizontalCenter="0" y="1020" itemRendererSkinName="BtnTab3ZYCSSkin">
+		<e:layout>
+		<e:HorizontalLayout gap="7"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

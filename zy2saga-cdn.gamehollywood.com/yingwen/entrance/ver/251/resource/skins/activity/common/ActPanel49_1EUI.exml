@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel49_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="40" horizontalCenter="0" source="hddt_zycs_xzzf_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Image y="60" anchorOffsetY="0" height="33" anchorOffsetX="0" width="523" source="hddt_zycs_djs" horizontalCenter="0"/>
+	<e:Image y="632" horizontalCenter="1" source="hddt_zycs_xzzfwa"/>
+	<e:Image y="753" x="56" source="hddt_zycs_ljqd"/>
+	<e:Label id="lbTime" y="64" text="Count down: 00:00:00" fontFamily="黑体" size="24" lineSpacing="10" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Component id="itemDay0" y="114" x="5" skinName="ActItem49_1EUI"/>
+	<e:Component id="itemDay1" skinName="ActItem49_1EUI" y="149" x="103"/>
+	<e:Component id="itemDay2" skinName="ActItem49_1EUI" y="114" x="197"/>
+	<e:Component id="itemDay3" skinName="ActItem49_1EUI" y="149" x="291"/>
+	<e:Component id="itemDay4" skinName="ActItem49_1EUI" y="114" x="385"/>
+	<e:Component id="itemDay5" skinName="ActItem49_1EUI" y="149" x="479"/>
+	<e:Component id="itemDay6" skinName="ActItem49_1EUI" y="114" x="573"/>
+	<e:Group id="groupMc" width="0" height="0" y="580" x="360"/>
+	<e:ProgressBar id="barBo" slideDuration="0" value="7" maximum="7" y="789" width="506" x="155" skinName="ProgressBarEUI12"/>
+	<e:Component id="item0" touchEnabled="true" y="715" horizontalCenter="13" skinName="ActItem49_1BigEUI"/>
+	<e:Component id="item1" touchEnabled="true" y="715" skinName="ActItem49_1BigEUI" horizontalCenter="150"/>
+	<e:Component id="item2" touchEnabled="true" y="715" skinName="ActItem49_1BigEUI" horizontalCenter="280"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0" y="866">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="18" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" y="1011" label="Sign In" skinName="BtnMin1_1" x="286"/>
+	<e:Image id="imgYlq" source="public_zycs_ylq" y="1000" x="299"/>
+	<e:Label id="lbYcg" y="1028" text="Missed" fontFamily="黑体" size="24" lineSpacing="10" horizontalCenter="0" textColor="0xCDC8BE"/>
+	<e:Label id="lbWdc" y="1028" text="Not met" fontFamily="黑体" size="24" lineSpacing="10" horizontalCenter="0" textColor="0xCDC8BE"/>
+</e:Skin>

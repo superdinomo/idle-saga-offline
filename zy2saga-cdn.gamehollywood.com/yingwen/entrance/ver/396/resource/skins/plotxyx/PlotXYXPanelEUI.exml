@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlotXYXPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" width="720" height="1134" scale9Grid="88,65,26,10" source="public_zycs_dikuang"/>
+	<e:Image y="36" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="xyx_mu_bg_jpg" horizontalCenter="0"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-57" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="line_1" source="xyx_mu_dafeiji_x1" y="902.64" x="269.61" rotation="354.53"/>
+	<e:Image id="line_2" source="xyx_mu_dafeiji_x1" y="693.85" x="445.14" rotation="115.24"/>
+	<e:Image id="line_3" source="xyx_mu_dafeiji_x1" y="520.2" x="254.59" rotation="357.29"/>
+	<e:Component id="relicItem4" y="255.93" skinName="PlotXyxItemEUI"  x="20" scaleX="0.9" scaleY="0.9"/>
+	<e:Component id="relicItem3" y="377.89" skinName="PlotXyxItemEUI" x="400" scaleY="0.9" scaleX="0.9"/>
+	<e:Component id="relicItem2" y="620.86" skinName="PlotXyxItemEUI" x="20" scaleX="0.9" scaleY="0.9"/>
+	<e:Component id="relicItem1" y="762.31" skinName="PlotXyxItemEUI" x="399" scaleX="0.9" scaleY="0.9"/>
+	<e:Scroller id="scroller" scrollPolicyH="on" y="50" horizontalCenter="0" scrollPolicyV="off" width="650">
+		<e:List id="list" itemRendererSkinName="PlotXyxBtnItemEUI" anchorOffsetX="0" anchorOffsetY="0" x="2" y="1">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="arrow" y="368.2" x="176.98" rotation="357.29" source="xyx_mu_dafeiji_sz" visible="false"/>
+	<e:Button id="btn_challenge" label="挑战" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" icon="" skinName="BtnMin1_1" horizontalCenter="0" y="1016" visible="false"/>
+	<e:Component id="comQmdb" skinName="GuideGoGameEUI2" x="96.61" y="1023"/>
+	<e:Image source="dljl_zycs_k3" x="0" y="1068"/>
+	<e:Image y="-6" horizontalCenter="0" source="xyx_zycs_lilian"/>
+</e:Skin>

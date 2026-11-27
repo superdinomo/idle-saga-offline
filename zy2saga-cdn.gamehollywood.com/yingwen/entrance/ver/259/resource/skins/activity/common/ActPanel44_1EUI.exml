@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel44_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Group x="-2" y="-58">
+		<e:Image x="2" y="58" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image id="imgBg" x="13" y="99" source="hddt_zycs_qmtg_jpg" />
+		<e:Button id="btnHelp" x="552" y="232" skinName="Btn0Skin" icon="zs_zycs_wenhao" visible="false" />
+		<e:Image source="dljl_zycs_k_png" x="0" y="0" touchEnabled="false" pixelHitTest="true" />
+		<e:Image id="imgTitle" y="52" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbth"  horizontalCenter="0"/>
+	</e:Group>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="hddt_zycs_qmtg_1_png" y="42" horizontalCenter="0"/>
+	<e:Group x="53" y="226">
+		<e:Label text="Event Time:" y="0" size="20" textAlign="left" fontFamily="Times" x="1" textColor="0xefd98d" />
+		<e:Label id="lbTime" text="23时23分22秒" y="0" size="20" textAlign="left" fontFamily="Times" x="106" textColor="0x13EE22" />
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:List id="listTab1" y="1020" itemRendererSkinName="BtnTab3ZYCSSkin" x="207">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="7" />
+		</e:layout>
+	</e:List>
+	<e:Scroller y="620" scrollPolicyH="off" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="36" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:ProgressBar id="barDiscount" slideDuration="0" value="4" maximum="4" y="395" width="451" x="134"
+	               skinName="bloodBarSkin4" />
+	<e:Scroller y="306" scrollPolicyH="off" x="87">
+		<e:List id="listDiscount" touchEnabled="false" touchChildren="false" itemRendererSkinName="ActItem44_1EUI">
+			<e:layout>
+				<e:HorizontalLayout gap="10" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbDesc" text="It’s 40% off currently. The server buys 5 more to unlock the next discount" y="477" size="20" textAlign="center" fontFamily="Times"
+	         textColor="0xffffff" horizontalCenter="0"  width="622"/>
+	<e:Group y="752" horizontalCenter="-111.5">
+		<e:Image id="imgIcon" y="0" x="143" source="zycs_320030" />
+		<e:Label text="Original Price: " size="24" textAlign="left" fontFamily="Times" x="0" y="3" textColor="0xffffff" />
+		<e:Label id="lbPrice" text="5000" size="24" textAlign="left" fontFamily="Times" x="175" y="3" textColor="0xeabd6c" />
+		<e:Image source="zhuansheng_zycs_rx" scaleX="0.1" scaleY="0.5" width="100%" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group y="752" horizontalCenter="112">
+		<e:Image id="imgIcon0" y="0" x="95" source="zycs_320030"/>
+		<e:Label text="Current:" size="24" textAlign="left" fontFamily="黑体" x="2" y="3" textColor="0xFFFFFF"/>
+		<e:Label id="lbPrice0" text="5000" size="24" textAlign="left" fontFamily="黑体" x="127" y="3" textColor="0xEABD6C"/>
+	</e:Group>
+	<e:Button id="btnBuy" label="Buy Now" y="789" skinName="BtnMin1_16" x="255" />
+	<e:Label id="lbMax" text="Limit reached" y="821" fontFamily="黑体" size="20" textColor="0xF01414" x="320" />
+	<e:Group x="142" y="540" scaleX="1" scaleY="1">
+		<e:Image y="1" x="0" source="zbrl_zycs_xx" />
+		<e:Label text="Purchased: " size="24" textAlign="left" fontFamily="Times" x="26" textColor="0xEFD98D" />
+		<e:Label id="lbSelfBuyCount" text="0/10" size="24" textAlign="left" fontFamily="Times" y="0" x="137" textColor="0xefd98d" />
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="389" y="540" scaleX="1" scaleY="1">
+		<e:Image y="1" x="0" source="zbrl_zycs_xx" />
+		<e:Label text="Server Purchased: " size="24" textAlign="left" fontFamily="Times" x="28" textColor="0xEFD98D" />
+		<e:Label id="lbAllBuyCount" text="50" size="24" textAlign="left" fontFamily="Times" y="0" x="137" textColor="0xefd98d"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnGroupDiamondEntry" label="Diamond Entrance" y="741" x="605" skinName="Btn0Skin" icon="qmtg_zycs_qmfl" />
+	<e:Button id="btnGroupCouponEntry" label="Voucher Entrance" y="741" x="602" skinName="Btn0Skin" icon="qmtg_zycs_qmfl" />
+	<e:List id="listTab2" y="881" itemRendererSkinName="ActPanelTab2Item44_1EUI" horizontalCenter="0">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:Array>
+		
+	</e:ArrayCollection>
+	<e:layout>
+		<e:HorizontalLayout gap="51" />
+	</e:layout>
+</e:List>
+</e:Skin>

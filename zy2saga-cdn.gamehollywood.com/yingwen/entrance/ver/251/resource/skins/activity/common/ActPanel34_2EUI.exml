@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel34_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="imgBg" y="38" x="13"  source="hddt_zycs_wypm_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true" />
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0"  source="hddt_zycs_jspm"/>
+	<e:Group id="groupMc" width="0" height="0" y="440" x="360"/>
+	<e:Image y="60" anchorOffsetY="0" height="28" anchorOffsetX="0" width="523" source="hddt_zycs_djs" horizontalCenter="0"/>
+	<e:Label id="lbTime" y="63" text="Count down: 00:00:00" fontFamily="黑体" size="24" lineSpacing="10" horizontalCenter="0" textColor="0xcdc8be"/>
+	<e:Image y="91" x="205" source="hhdt_zycs_jlylk"/>
+	<e:Image x="502" y="95" source="jsdd_zycs_pm1"/>
+	<e:Image x="553" y="127" source="sjhj_zycs_tx"/>
+	<e:Image id="imgHead" x="562" y="135" source="mianui_zycs_zhanshi0" width="76" height="76"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0" y="533">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="18" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller y="675" scrollPolicyH="off" x="3" height="371" width="705">
+		<e:List id="list" itemRendererSkinName="ActItem34_2EUI">
+			<e:layout>
+				<e:VerticalLayout gap="8" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object />
+					<e:Object />
+					<e:Object />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbName" text="奇迹丶牛有德" y="226" size="20" textAlign="left" fontFamily="Times" textColor="0xffffff" horizontalCenter="241"/>
+	<e:Label id="lbvalue" text="感恩值：999" y="258" size="20" textAlign="left" fontFamily="Times" horizontalCenter="241" textColor="0xf5e65a"/>
+	<e:Image touchEnabled="false" y="1048" source="hwbz_zycs_di4" x="13"/>
+	<e:Label id="lbRankMy" text="My Rank: The 2nd Place" size="24" fontFamily="Times" y="1051" x="434"  textColor="0xf5e65a"/>
+	<e:Label id="lbValueMy" text="My Gratitude: 988" size="24" fontFamily="Times" y="1051" x="43"  textColor="0xf5e65a"/>
+	<e:Button id="btnHelp" x="648" y="610" skinName="Btn0Skin" icon="jl_zycs_wenhao" />
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+	<e:Group y="105" horizontalCenter="0">
+		<e:Image source="hhdt_zycs_jlylk" scaleX="1" scaleY="1" top="-12" bottom="-12" horizontalCenter="0"/>
+		<e:Image id="imgFisrtTitle" verticalCenter="0" horizontalCenter="0" source=""/>
+	</e:Group>
+</e:Skin>

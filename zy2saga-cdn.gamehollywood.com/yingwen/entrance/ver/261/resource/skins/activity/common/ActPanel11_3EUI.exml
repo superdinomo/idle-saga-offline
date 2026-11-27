@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel11_3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" x="14" y="40" source="hddt_zycs_tqlc_jpg"/>
+	<e:Group x="33" y="177">
+		<e:Label y="0" text="Event Countdown: " fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" y="0" text="0" fontFamily="Times" size="20" x="118" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Label y="169" text="Single top up to claim rewards. Topping up for several times will not be accumulated" fontFamily="Times" size="20" x="213" lineSpacing="10" textColor="0xFFFFFF" visible="false"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_tqlc" horizontalCenter="0"/>
+	<e:Scroller width="668" y="240" height="687" x="25" scrollPolicyH="off">
+		<e:List id="list" itemRendererSkinName="ActItem11_3EUI">
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+		<e:Image id="imgAdBg" touchEnabled="false" y="934" horizontalCenter="0" source="hddt_zycs_ggt_png"/>
+	<e:Image touchEnabled="false" y="934" source="hddt_zycs_zlxz_png" x="40"/>
+	<e:Button id="btnSend" y="980" label="Go to Purchase" x="550" skinName="BtnMin1_17" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="imgYjh" x="560" y="970" source="public_zycs_yijihuo"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

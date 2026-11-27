@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PassTaskPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="692" height="142" states="get,canget,look,level" >
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="ghg_zycs_bg3_png"/>
+	<e:Label id="lbDec" text="Claim rewards when to" x="16" fontFamily="Times" size="20" y="49" textAlign="center" width="163" textColor="0x13ee22"/>
+	<e:Scroller x="190" scrollPolicyH="off" scrollPolicyV="off" scaleX="0.8" scaleY="0.8" verticalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="18"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+			
+				
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="547" y="49" label="Claim" skinName="BtnMin1_2mid" visible.look="false" visible.get="false" visible.level="false"/>
+	<e:Button id="btnGoto" x="547" y="49" label="Unlock\nPrivileges" skinName="BtnMin1_2mid" visible.canget="false" visible.get="false" visible.level="false"/>
+	<e:Image id="imgYlq" x="542" source="public_zycs_ylq" y="30" visible.canget="false" visible.look="false" visible.level="false"/>
+</e:Skin>

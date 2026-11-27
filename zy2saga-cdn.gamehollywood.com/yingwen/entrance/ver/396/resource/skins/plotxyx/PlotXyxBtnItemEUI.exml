@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlotXyxBtnItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="act,noact"  width="108" height="215">
+
+
+
+
+	<e:Label id="lbName" y="33" text="0" fontFamily="SimHei" size="20" textAlign="center"
+	          anchorOffsetX="0" horizontalCenter="-1" textColor="0xe6dcb8" visible="false"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="21" top="3" visible="false"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" scale9Grid="26,21,25,12" horizontalCenter="0" verticalCenter="0" x="25" y="45" scaleX="1" scaleY="1" source="xyx_mu_dafeiji_xg"/>
+		<e:Image id="bgxz" scale9Grid="26,21,25,12" horizontalCenter="0" verticalCenter="0" x="11" y="27" scaleX="1" scaleY="1" source="xyx_mu_dafeiji_xg1" visible.act="false" visible.noact="false"/>
+		<e:Label id="lbBmp" text="Area1" fontFamily="SimHei" size="25" textAlign="center" textColor="0xffffff" horizontalCenter="-1" verticalCenter="9" verticalAlign="middle" rotation="90"/>
+		<e:Image id="bgxz0" scale9Grid="26,21,25,12" source="xyx_mu_dafeiji_xg2" horizontalCenter="0" verticalCenter="0" x="21" y="37" scaleX="1" scaleY="1" visible.act="false"/>
+	</e:Group>
+
+
+</e:Skin>

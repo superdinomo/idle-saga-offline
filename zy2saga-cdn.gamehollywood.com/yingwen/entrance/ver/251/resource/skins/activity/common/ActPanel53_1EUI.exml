@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel53_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="40" horizontalCenter="0" source="hddt_zycs_pflb_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_pflb"/>
+	<e:Label id="lbTime" y="51" text="Count down: 00:00:00" fontFamily="黑体" size="24" lineSpacing="10" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Component id="item0" y="76" x="13" skinName="ActItem53_1EUI" currentState="state1"/>
+	<e:Component id="item1" skinName="ActItem53_1EUI" y="76" x="359" currentState="state1"/>
+	<e:Component id="item2" skinName="ActItem53_1EUI" y="594" x="13" currentState="state2"/>
+	<e:Component id="item3" skinName="ActItem53_1EUI" y="594" x="359" currentState="state2"/>
+	<e:Button id="btnSend" y="982" label="Refresh" skinName="BtnMin1_2" horizontalCenter="0.5"/>
+	<e:Group x="470" y="1000">
+		<e:Image id="imgCostItem" x="0" y="0" width="32" height="32" source="zycs_320032"/>
+		<e:Label id="lbCostItem" text="10/10" x="36" fontFamily="黑体" size="20" textAlign="left" textColor="0xCDC8BE" y="7"/>
+	</e:Group>
+	<e:Label id="lbDec" text="The packs are refreshed at midnight and noon every day" fontFamily="黑体" size="22" textAlign="left" textColor="0xCDC8BE" y="1056" horizontalCenter="0"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+
+</e:Skin>

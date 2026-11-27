@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel1_34EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="42" x="13" source="hddt_zycs_cbxfbg_jpg"/>
+	<e:Group x="28" y="206">
+		<e:Label y="0" text="Time Remain: " fontFamily="Times" size="20" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+		<e:Label id="lbTime" y="0" text="0" fontFamily="Times" size="20" x="100" lineSpacing="10" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbDescBase" y="229" text="Top-up Diamond Page" fontFamily="Times" size="20" x="28" lineSpacing="10" textColor="0xFFFFFF"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxf" x="278"/>
+	<e:Scroller width="668" y="274" x="27" scrollPolicyH="off" height="653" anchorOffsetY="0">
+		<e:List id="list0" itemRendererSkinName="ActItem1_34EUI">
+		
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="imgAdBg" touchEnabled="false" y="934" horizontalCenter="0" source="hddt_zycs_ggt_png"/>
+	<e:Image touchEnabled="false" y="944" horizontalCenter="0" x="10" source="hddt_zycs_hjsl_png"/>
+	<e:Button id="btnSend" y="980" label="Go to Unlock" x="550" skinName="BtnMin1_17" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="imgYjh" x="560" y="970" source="public_zycs_yijihuo"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

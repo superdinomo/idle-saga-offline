@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel50_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="40" horizontalCenter="0" source="hddt_zycs_hxbj_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hxzr"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Image y="60" height="33" width="523" source="hddt_zycs_djs" horizontalCenter="0"/>
+	<e:Label id="lbTime" y="64" text="Count down: 00:00:00" fontFamily="黑体" size="24" lineSpacing="10" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Group id="groupItem" y="66" width="544" x="88">
+		<e:Component id="item0" skinName="ActItem50_1EUI" y="72" x="-39" scaleX="0.65" scaleY="0.65"/>
+		<e:Component id="item1" skinName="ActItem50_1EUI" y="0" x="104"/>
+		<e:Component id="item2" skinName="ActItem50_1EUI" y="72" scaleX="0.65" scaleY="0.65" x="364"/>
+		<e:Component id="item3" skinName="ActItem50_1EUI" y="72" scaleX="0.65" scaleY="0.65" x="-128" visible="false"/>
+		<e:Component id="item4" skinName="ActItem50_1EUI" y="72" scaleX="0.65" scaleY="0.65" x="454" visible="false"/>
+	</e:Group>
+	<e:Button id="btnLeft" label="" y="180" skinName="Btn0Skin" icon="zycs_zyzl_qieye" rotation="180" anchorOffsetX="78" anchorOffsetY="70" x="10"/>
+	<e:Button id="btnRight" label="" y="180" skinName="Btn0Skin" icon="zycs_zyzl_qieye" x="632"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0" y="515">
+		<e:List id="listBaseReward" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="18" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller y="656" maxWidth="517" horizontalCenter="0">
+		<e:List id="listRateReward" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="18" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbRate" y="636" text="Probability" fontFamily="黑体" size="20" lineSpacing="10" textColor="0x13EE22" x="579"/>
+	<e:Label id="lbLog" y="795" text="Reward Record" fontFamily="黑体" size="20" lineSpacing="10" x="579" textColor="0x13ee22"/>
+	<e:Scroller scrollPolicyH="auto" scrollPolicyV="off" maxWidth="650" horizontalCenter="0.5" y="834">
+		<e:List id="listConsume" itemRendererSkinName="ActItem50_1ConsumeEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" y="978" label="Summon" skinName="BtnMin1_1" x="286"/>
+	<e:CheckBox id="checkBox" y="994" skinName="CheckBoxEUI" label="Skip animation" x="466"/>
+	<e:Label id="lbDec" y="1057" text="Summon xxx meteor to gain xxx Stars" fontFamily="黑体" size="20" lineSpacing="10" horizontalCenter="0" textColor="0xCDC8BE"/>
+	<e:Group id="groupMc" horizontalCenter="0" y="265"/>
+</e:Skin>

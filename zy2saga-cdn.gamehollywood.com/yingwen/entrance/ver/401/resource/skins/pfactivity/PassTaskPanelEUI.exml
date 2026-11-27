@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PassTaskPanelEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" >
+	<w:Config id="1586b36a128" />
+	<e:Image id="imgBg" x="0" bottom="330" source="ghg_zycs_bg1_png"/>
+	<e:Image x="207.5" y="279" source="ghg_zycs_msz2"/>
+	<e:Button id="closeBtn" y="272" icon="sc_zycs_x" skinName="Btn0Skin" x="643"/>
+	<e:Scroller y="418" height="517" width="706" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="auto">
+		<e:List id="listAward" itemRendererSkinName="PassTaskPanelItemEUI">
+		<e:layout>
+			<e:TileLayout paddingTop="12" paddingBottom="12" paddingRight="12" horizontalGap="14" verticalGap="6" paddingLeft="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

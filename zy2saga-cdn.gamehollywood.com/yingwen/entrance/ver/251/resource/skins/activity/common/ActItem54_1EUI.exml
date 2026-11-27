@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem54_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Image id="imgBg" touchEnabled="true" y="0" source="hddt_zycs_xyk1"/>
+	<e:Group y="136" scaleY="0.8" scaleX="0.8" x="7.4">
+		<e:Image source="public_zycs_daojukuang_01" y="20" x="0" scaleX="1.1" scaleY="1.1"/>
+		<e:Group id="groupMC" width="0" height="0" x="52" y="64"/>
+		<e:Image id="imgRefresh" source="bs_zycs_jh" width="94" height="97" x="0" y="16" alpha="0.01"/>
+		<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" width="94" height="94" x="0" y="19" scaleX="1.1" scaleY="1.1"/>
+		<e:Button id="btnRefresh" y="0" skinName="Btn0Skin" icon="hddt_zycs_xhdbsx" x="72"/>
+		<e:Group id="groupYlq" y="18.75" x="1.25">
+			<e:Image source="public_zycs_tsk1" scale9Grid="9,9,54,58" width="100" height="100" scaleX="1" scaleY="1"/>
+			<e:Image scaleX="1.2" scaleY="1.2" source="public_zycs_xuanze_gou" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="redPoint" x="87" y="13" source="mainui_zycs_hongdian"/>
+	</e:Group>
+</e:Skin>

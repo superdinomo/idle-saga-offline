@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem50_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="336" >
+	<w:Config id="1586bd49103"/>
+	<e:Image id="imgSelectFalse" y="226" source="hddt_zycs_gx1" horizontalCenter="0"/>
+	<e:Image id="imgSelectTrue" y="191" source="hddt_zycs_gx0" horizontalCenter="0"/>
+	<e:Image y="320" fillMode="scale" alpha="0.7" source="public_zycs_zld" scale9Grid="285,16,56,27" width="330" x="3"/>
+	<e:Image id="imgName" y="335" horizontalCenter="0.5" source="hddt_zycs_lxy2"/>
+	<e:Image id="imgIcon" y="0" horizontalCenter="0.5" source="hddt_zycs_xlybj2"/>
+	<e:Group id="groupMc" horizontalCenter="0" y="146"/>
+</e:Skin>

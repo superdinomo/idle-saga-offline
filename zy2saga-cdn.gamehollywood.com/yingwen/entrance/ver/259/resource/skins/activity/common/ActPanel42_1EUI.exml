@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel42_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image x="10" y="10" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image id="imgBg" x="14" source="hddt_zycs_xysmsc_jpg" y="40"/>
+		<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true" scaleX="1" scaleY="1"/>
+		<e:Image y="35" touchEnabled="false" pixelHitTest="true" scaleX="1" scaleY="1" source="hddt_zycs_xysmsc_1_png" horizontalCenter="0"/>
+		<e:Image id="imgTitle" y="-5" pixelHitTest="true" touchEnabled="false" scaleX="1" scaleY="1" source="hddt_zycs_xysmsc" horizontalCenter="0"/>
+		<e:BitmapLabel id="bmpLbDiscount" text="1.2" y="123" font="xycj2_fnt" scaleX="0.6" scaleY="0.6" horizontalCenter="210" anchorOffsetX="40" anchorOffsetY="54" letterSpacing="-10"/>
+		<e:Button id="btnDiscount" label="Try Luck" x="480" y="173" skinName="BtnMin1_1"/>
+		<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="609" y="173"/>
+		<e:Group x="36" y="215">
+			<e:Label text="Discount Countdown: " y="0" size="20" textAlign="center" fontFamily="Times" x="0" textColor="0xffffff"/>
+			<e:Label id="lbTime" text="12:12:12" y="0" size="20" fontFamily="Times" x="188" textColor="0x13ee22"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Label text="The goods will be refreshed after the countdown" y="243" size="20" textAlign="center" fontFamily="Times" x="34" scaleX="1" scaleY="1" textColor="0x13ee22"/>
+	</e:Group>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Scroller y="280" scrollPolicyH="off" height="810" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="list"  itemRendererSkinName="ActItem42_1EUI">
+			<e:layout>
+				<e:TileLayout horizontalGap="20" requestedColumnCount="2"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<!--<e:Image touchEnabled="false" x="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\Q_鹊桥守护\Q-鹊桥守护-鹊桥商城.jpg" y="-46" locked="true" visible="false"/>-->
+</e:Skin>

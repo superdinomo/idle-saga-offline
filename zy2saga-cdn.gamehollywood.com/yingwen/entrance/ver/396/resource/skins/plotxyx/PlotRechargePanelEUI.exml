@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlotRechargePanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang"  locked="true"/>
+	<e:Image x="13" y="43" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="vip_zycs_di2_jpg"/>
+	<e:Image x="45.5" y="198" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="sc_zycs_chongzhi" scaleX="0.9" scaleY="0.9"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" y="281" x="13" source="vip_zycs_bg_jpg" visible="false"/>
+	<e:Image
+	          source="dljl_zycs_k_png" x="-2" y="-57" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image source="dljl_zycs_k3" x="0" y="1068"/>
+	<e:Image y="-6" source="sc_zycs_cz"  horizontalCenter="0"/>
+	<e:Image id="nextVipImg0" y="82" x="592" source="sc_zycs_svipd" visible="false"/>
+	<e:Image id="nextVipImg" y="142" x="618" source="mianui_zycs_svip" visible="false"/>
+	<e:BitmapLabel id="nextVip" y="117" text="1" letterSpacing="-6" font="vipnum1_fnt" rotation="359.74" x="644" visible="false"/>
+	<e:Image x="12" y="82" source="sc_zycs_svipd" rotation="359.74"/>
+	<e:BitmapLabel id="curVip" y="143" text="0" letterSpacing="-6" font="vipnum1_fnt" rotation="359.74" horizontalCenter="-289.5"/>
+	<e:Image x="38" y="118" source="mianui_zycs_svip"/>
+	<e:ProgressBar id="expBar" skinName="Vipbar" maximum="100" value="100" y="107" scaleY="1" slideDuration="0" horizontalCenter="-3.5"/>
+	<e:Label id="titleLabel" y="74" text="0" fontFamily="Times" size="22" x="136" textColor="0xE6DCB8" width="522"/>
+	<e:Scroller id="scroller" width="695" height="715" x="18" y="281" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group>
+			<e:Scroller id="scrollBar" y="6" x="-17" width="711" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1">
+				<e:List id="list" itemRendererSkinName="RechargeItemEUI">
+				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" horizontalGap="0" verticalGap="2"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

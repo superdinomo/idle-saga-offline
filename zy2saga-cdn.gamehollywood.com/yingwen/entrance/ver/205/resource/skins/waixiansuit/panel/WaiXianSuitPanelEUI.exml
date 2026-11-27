@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaiXianSuitPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,jinjie,max" >
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="41" x="13" source="hddt_zycs_wxtz_jpg"/>
+	<e:Image id="imgMask" source="public_zycs_greybg3" alpha="0.1" width="720" x="0" height="588" y="0" anchorOffsetY="0"/>
+	<e:Group id="groupEntity" width="720" height="660" anchorOffsetY="0">
+		<e:Group id="groupRole" width="0" height="0" y="530" x="360" scaleX="1" scaleY="1"/>
+		<e:Group id="groupYongBing" width="0" height="0" y="530" x="90" scaleX="0.8" scaleY="0.8"/>
+		<e:Group id="groupDamon" width="0" height="0" y="530" x="600" scaleX="0.6" scaleY="0.6"/>
+		<e:Group id="groupMeilin" width="0" height="0" y="241" x="600" scaleX="0.5" scaleY="0.5"/>
+	</e:Group>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="65" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="bmpPower" x="118" text="6666" y="4" font="powernum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupLv" x="276" y="107" visible.normal="false">
+		<e:Image y="0" source="zycs_sm_lvdi" x="0"/>
+		<e:Group y="6" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image source="shenqi_zycs_jie" x="-3"/>
+		<e:BitmapLabel id="bmpLv" x="0" text="1" y="0" font="shenmonum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="4"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image id="imgSyz" y="457" x="519" source="wxtz_zycs_shiyongzhong"/>
+	<e:Button id="btnHuanHua" x="544" y="468" skinName="Btn0Skin" icon="wxtz_zycs_huanhua"/>
+	<e:Image touchEnabled="false" width="720" scale9Grid="88,64,2,3" y="554" source="wxtz_zycs_diwen1"/>
+	<e:Group y="486" horizontalCenter="0">
+		<e:Image y="0" source="pubilc_zycs_hengdikuang" left="-25" right="-25"/>
+		<e:Label id="lbName" text="Set" size="24" anchorOffsetY="0" anchorOffsetX="0" fontFamily="Times" y="14" textColor="0xfffcd4" strokeColor="0x892f08" stroke="2" horizontalCenter="0"/>
+	</e:Group>
+	<e:Scroller id="scrollerIcon" y="543" maxWidth="673" horizontalCenter="0">
+		<e:List id="listIcon" itemRendererSkinName="WaiXianSuitIconItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="-28"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller y="671" visible.jinjie="false" visible.max="false" x="37">
+		<e:List id="listAct" useVirtualLayout="false" itemRendererSkinName="WaiXianSuitActItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="6"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="894" x="14" source="public_zycs_di5"/>
+	<e:Scroller id="scrollerSuit" scrollPolicyH="auto" scrollPolicyV="off" y="932" horizontalCenter="0">
+		<e:List id="listSuit" itemRendererSkinName="WaiXianSuitItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="-30"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller y="894" horizontalCenter="0">
+		<e:List id="listBar" itemRendererSkinName="BtnTab10Skin">
+		<e:layout>
+			<e:HorizontalLayout gap="-3"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="8" y="669" visible.normal="false">
+		<e:Image scale9Grid="56,54,51,39" anchorOffsetX="0" anchorOffsetY="0" source="wxtz_zycs_kuang3" y="-11" x="-15"/>
+		<e:Group id="groupAttrIcon" x="20" y="18">
+			<e:Image source="wxtz_zycs_ditu"/>
+			<e:Image x="10" y="10" source="wxtz_zycs_ditu"/>
+			<e:Image x="20" y="20" source="wxtz_zycs_ditu"/>
+			<e:layout>
+			<e:VerticalLayout gap.normal="5" gap="7"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupUpIcon" x="626" y="15" visible.max="false">
+			<e:Image source="public_zycs_lj"/>
+			<e:Image x="10" y="10" source="public_zycs_lj"/>
+			<e:Image x="20" y="20" source="public_zycs_lj"/>
+			<e:layout>
+			<e:VerticalLayout gap="7"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnJinJie" label="Advance" y="167" visible.max="false" skinName="BtnMin1_1mid" horizontalCenter="0"/>
+		<e:Image x="451" y="37" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_next" height="36" visible.max="false"/>
+		<e:Group x="529" y="16">
+			<e:Label id="lbNextAttr" text="下级属性" size="24" textAlign="right" fontFamily="黑体" lineSpacing="8" y="0" visible.max="false" textColor="0x11f51c" x="0"/>
+			<e:Label id="lbJinJieResult2" text="下级属性" size="24" textAlign="left" fontFamily="黑体" textColor="0x11F51C" lineSpacing="8" y="66" visible.max="false" x="8"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="right"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbJinJieCondition" text="进阶条件：" size="24" textAlign="left" fontFamily="黑体" x="21" lineSpacing="8" y="139" textColor="0xe3d7be" visible.max="false"/>
+		<e:Group x="47" y="17">
+			<e:Label id="lbCurAttr" text="攻击:" size="24" textAlign="left" fontFamily="黑体" textColor="0xE3D7BE" x="1" lineSpacing="8" y="0"/>
+			<e:Label id="lbJinJieResult" text="【xxx】" size="24" textAlign="left" fontFamily="黑体" x="0" lineSpacing="8" y="66" y.jinjie="82" textColor="0xff9b0f"/>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="174" anchorOffsetY="0" visible.max="false" x="402">
+			<e:Image id="imgIcon" source="zycs_340016"/>
+			<e:Label id="lbItemCount" text="0/3234" y="-702" size="20" fontFamily="Times" textAlign="center" textColor="0xF4F4F4" horizontalCenter="0" x="-32" scaleX="1" scaleY="1"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="4"/>
+			</e:layout>
+		</e:Group>
+		<e:Image touchEnabled="false" y="144" source="bxsb_zycs_ymj" x.normal="273" y.normal="145" scaleX.normal="1" scaleY.normal="1" horizontalCenter="0" visible.jinjie="false"/>
+	</e:Group>
+</e:Skin>

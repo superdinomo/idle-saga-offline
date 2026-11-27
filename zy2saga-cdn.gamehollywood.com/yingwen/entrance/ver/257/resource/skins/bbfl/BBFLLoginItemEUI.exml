@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BBFLLoginItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Label id="lbDec" text="Claim rewards when total top-up reaches $1" x="5" fontFamily="Times" size="20" y="15" textAlign="left" textColor="0xcdc8be" height="32" width="650" verticalAlign="middle"/>
+	<e:Label id="lbValue" text="0/6" fontFamily="Times" size="24" y="48" textAlign="center" textColor="0xcdc8be" horizontalCenter="239.5"/>
+	<e:Scroller x="16" scrollPolicyH="off" scrollPolicyV="off" y="59">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="18"/>
+			</e:layout>
+			
+				
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="499" y="76" label="Claim" skinName="BtnMin1_2"/>
+	<e:Image id="imgYlq" x="511" y="66" source="fl_zycs_ylq"/>
+	<e:Image id="imgWdc" x="511" y="66" source="bbfl_zycs_wdc"/>
+</e:Skin>
