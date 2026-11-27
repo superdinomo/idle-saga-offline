@@ -1,0 +1,30 @@
+{"mc":{
+	"kswc":{
+		"frameRate":10,
+		"frames":[
+			{"res":"jlts_zycs_right_00000","x":-27,"y":-20},
+			{"res":"jlts_zycs_right_00001","x":-27,"y":-25},
+			{"res":"jlts_zycs_right_00002","x":-22,"y":-27},
+			{"res":"jlts_zycs_right_00003","x":-17,"y":-26},
+			{"res":"jlts_zycs_right_00004","x":-17,"y":-24},
+			{"res":"jlts_zycs_right_00005","x":-17,"y":-20},
+			{"res":"jlts_zycs_right_00006","x":-17,"y":-17},
+			{"res":"jlts_zycs_right_00007","x":-17,"y":-17},
+			{"res":"jlts_zycs_right_00008","x":-17,"y":-17},
+			{"res":"jlts_zycs_right_00009","x":-25,"y":-18}
+
+		]
+}},
+"res":{
+	"jlts_zycs_right_00000":{"x":0,"y":0,"w":44,"h":41},
+	"jlts_zycs_right_00001":{"x":44,"y":0,"w":44,"h":48},
+	"jlts_zycs_right_00002":{"x":88,"y":0,"w":42,"h":53},
+	"jlts_zycs_right_00003":{"x":130,"y":0,"w":38,"h":53},
+	"jlts_zycs_right_00004":{"x":168,"y":0,"w":44,"h":50},
+	"jlts_zycs_right_00005":{"x":212,"y":0,"w":43,"h":42},
+	"jlts_zycs_right_00006":{"x":255,"y":0,"w":34,"h":34},
+	"jlts_zycs_right_00007":{"x":289,"y":0,"w":34,"h":34},
+	"jlts_zycs_right_00008":{"x":323,"y":0,"w":34,"h":34},
+	"jlts_zycs_right_00009":{"x":357,"y":0,"w":42,"h":36}
+
+}}
