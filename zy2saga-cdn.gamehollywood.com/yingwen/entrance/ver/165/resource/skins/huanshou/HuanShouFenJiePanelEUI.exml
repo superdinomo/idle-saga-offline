@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouFenJiePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" touchEnabled="false" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="15" x="637"/>
+		<e:Image y="97" touchEnabled="false" scale9Grid="2,2,16,16" height="474" width="694" source="public_zycs_greybg2" x="13"/>
+		<e:Scroller y="109" width="658" x="31" height="417">
+			<e:List id="listRank" itemRendererSkinName="HuanShouEquipItemEUI" useVirtualLayout="false" allowMultipleSelection="true">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="5" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" horizontalGap="41" verticalGap="-10"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Image x="56" source="zycs_320013" y="524" visible="false"/>
+		<e:Label id="lbCurCount" y="532" text="984" fontFamily="黑体" size="20" x="93" touchEnabled="false" textColor="0xA5A3A0" visible="false"/>
+		<e:Group y="585" x="291">
+			<e:Label text="gain：" fontFamily="黑体" size="20" textAlign="left" y="6" textColor="0xE3D7BE" x="0"/>
+			<e:Image id="imgConsu" source="zycs_320001" x="56"/>
+			<e:Label id="lbAddCount" y="6" text="9999" fontFamily="黑体" size="20" touchEnabled="false" textColor="0xe3d7be" x="98"/>
+		</e:Group>
+		<e:CheckBox id="checkBox1" x="446" y="538" skinName="CheckBoxEUI" label="Blue"/>
+		<e:CheckBox id="checkBox2" x="317" y="538" skinName="CheckBoxEUI" label="Purple"/>
+		<e:CheckBox id="checkBox3" x="187" y="538" skinName="CheckBoxEUI" label="Orange"/>
+		<e:Button id="btnTunshi" y="623" skinName="BtnMin1_1" label="Quick Salvage" x="286"/>
+		<e:Label id="btnHeCheng" text="Merge" fontFamily="黑体" size="20" textAlign="center" y="812" x="617" textColor="0x13ee22"/>
+		<e:Image id="imgTitle" y="29" source="hs_zycs_zbfj" x="312"/>
+	</e:Group>
+</e:Skin>

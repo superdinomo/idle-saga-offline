@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem39_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="0,1,2"  width="396">
+	<e:Image x="0" y="0" source="hddt_zycs_khpd7"/>
+<e:Scroller scrollPolicyH="off" scrollPolicyV="off" height="118" x="12" y="37">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" gap="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="rewardBtn" label="Claim" x="259" visible.1="false" visible.2="false" y="54" skinName="BtnMin1_2mid"/>
+	<e:Button id="btnGoto" label="Go" x="259" visible.0="false" visible.2="false" y="54" skinName="BtnMin1_1amid"/>
+	<e:Image id="imgYql" x="259" visible.0="false" visible.1="false" y="45" source="lilian_zycs_ylq"/>
+	<e:Image id="imgWdc" x="262" source="lilian_zycs_wdc" y="47" visible.0="false" visible.1="false" visible.2="false"/>
+	<e:Group x="9" y="11">
+		<e:Label id="lbDec" text="Culmulative Login" x="0" y="0" size="18" fontFamily="Times" textColor="0xffffff"/>
+		<e:Label id="lbCount" y="16" text="（5/6）" fontFamily="Times" size="18" lineSpacing="10" textAlign="center" visible.2="false" textColor="0xe3d7be" x="337"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="btnLink" y="121" text="Finish directly" fontFamily="Times" size="20" lineSpacing="10" textAlign="center" textColor="0xE3D7BE" visible.0="false" visible.2="false" right="8"/>
+</e:Skin>

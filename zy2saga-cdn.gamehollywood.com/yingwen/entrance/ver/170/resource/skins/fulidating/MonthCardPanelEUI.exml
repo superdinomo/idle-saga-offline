@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonthCardPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image source="fl_zycs_ykbg_jpg" x="13" y="45"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image source="fl_zycs_zsyk" pixelHitTest="true" touchEnabled="false" horizontalCenter="0.5" verticalCenter="-544.5"/>
+	<e:Image x="16" y="42" source="fl_zycs_ykmsz_png"/>
+	<e:Group x="25" y="265">
+		<e:Image y="0" source="fl_zycs_ykbg1_jpg" x="0"/>
+		<e:Image y="66" x="13" source="fl_zycs_a1"/>
+		<e:Image y="14" x="-1" source="fl_zycs_ykbq"/>
+		<e:Image y="18" x="25" source="fl_zycs_b1"/>
+		<e:Image x="220" source="fl_zycs_c1_png" y="19"/>
+	</e:Group>
+	<e:Group x="25" y="438">
+		<e:Image y="0" source="fl_zycs_ykbg1_jpg" x="0"/>
+		<e:Image y="44" x="13" source="fl_zycs_a2"/>
+		<e:Image y="14" x="-1" source="fl_zycs_ykbq"/>
+		<e:Image y="18" x="25" source="fl_zycs_b2"/>
+		<e:Image x="220" y="19" source="fl_zycs_c2_png"/>
+	</e:Group>
+	<e:Group x="25" y="611">
+		<e:Image y="0" source="fl_zycs_ykbg1_jpg" x="0"/>
+		<e:Image y="47" x="13" source="fl_zycs_a3"/>
+		<e:Image y="14" x="-1" source="fl_zycs_ykbq"/>
+		<e:Image y="18" x="25" source="fl_zycs_b3"/>
+		<e:Image x="220" y="19" source="fl_zycs_c3_png"/>
+	</e:Group>
+	<e:Group x="25" y="784">
+		<e:Image y="0" source="fl_zycs_ykbg1_jpg" x="0"/>
+		<e:Image y="67" x="13" source="fl_zycs_a4"/>
+		<e:Image y="14" x="-1" source="fl_zycs_ykbq"/>
+		<e:Image y="18" x="25" source="fl_zycs_b4"/>
+		<e:Image x="220" y="19" source="fl_zycs_c4_png"/>
+	</e:Group>
+	<e:Button id="sendBtn" y="1009" skinName="BtnMin1_2" label="$28 Snag" x="286"/>
+	<e:Label id="lastTime" text="Countdown" y="1026" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="461"/>
+	<e:Label text="Buy Now to gain" y="978" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="248"/>
+	<e:Label text="280" y="978" fontFamily="Times" size="20" textColor="0xDFD1B5" textAlign="center" x="414.5"/>
+	<e:Image x="449" y="973" source="zycs_320030"/>
+</e:Skin>

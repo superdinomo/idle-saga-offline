@@ -1,0 +1,35 @@
+<e:Skin class="ChiBangEquipRankPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" touchEnabled="false" x="13" source="shenyu_zycs_zbzh1_jpg"/>
+	<e:Image y="80" touchEnabled="false" scale9Grid="88,64,2,3" x="13" source="cbzb_zycs_by_png"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="cbzb_zycs_di1_png" y="224" x="190"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" x="295" y="337" source="cbzb_zycs_di2"/>
+	<e:Group id="groupMc" width="1" height="1" y="476" x="439"/>
+	<e:Component id="chiBangEquipItem0" y="432" skinName="ItemSkin" touchEnabled="true" x="389"/>
+	<e:Image source="tx_zycs_zjt" rotation="270" x="413" y="578"/>
+	<e:Image x="388" y="675" source="shenyu_zycs_jjxh"/>
+	<e:Component id="chiBangEquipItem1" y="738" x="486" skinName="ItemSkin" touchEnabled="true"/>
+	<e:Component id="chiBangEquipItem2" y="738" x="291" skinName="ItemSkin" touchEnabled="true"/>
+	<e:Image y="143" anchorOffsetY="0" x="173" anchorOffsetX="0" scale9Grid="69,19,421,14" source="cbzb_zycs_wzd"/>
+	<e:Scroller scrollPolicyV="off" scrollPolicyH="off" height="114" y="166" x="185" width="688" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.75" scaleY="0.75">
+		<e:List id="listEquip" scrollEnabled="false" itemRendererSkinName="ChiBangEquipRankNameItemEUI" useVirtualLayout="false" x="1" y="1">
+		<e:layout>
+			<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="" scrollPolicyH="off" scrollPolicyV="on" y="56" x="12" anchorOffsetX="0" width="175" anchorOffsetY="0" height="938">
+		<e:List id="listRankLevel" itemRendererSkinName="ChiBangEquipRankLevelItemEUI">
+			
+
+			<e:layout>
+				<e:VerticalLayout gap="5"/>
+			</e:layout>
+
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnRank" label="Advance" y="903" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" icon="" horizontalCenter="76.5"/>
+	<e:Label id="lbLink" y="968" text="Batch Merge" fontFamily="黑体" size="24" textColor="0x5AC832" touchEnabled="true" right="34"/>
+	<!--<e:Image y="-47" touchEnabled="false" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神羽\S-神羽-装备-装备进阶.jpg" locked="true" visible="false"/>-->
+</e:Skin>

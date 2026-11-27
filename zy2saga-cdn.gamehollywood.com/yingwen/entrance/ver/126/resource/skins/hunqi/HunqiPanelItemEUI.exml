@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunqiPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="169"
+        height="227" states="normal,unAct,canAct" >
+	<e:Image id="imgSelect" source="hq_zycs_xzk" x="-7" y="-9"/>
+	<e:Image id="bg" x="0" y="0" source="hq_zycs_k1"/>
+	<e:Group id="groupIcon" width="0" height="0" y="105" horizontalCenter="0"/>
+
+
+
+
+
+	<e:Label id="labelName" text="Item Name" fontFamily="Times" size="20" lineSpacing="0" width="143"
+	         x="35" textAlign="center"  textColor="0xc0b8a1" anchorOffsetX="0" rotation="90" verticalCenter="-6" height="22"/>
+	<e:Label id="labelLevel" y="169" text="Lv.3" fontFamily="Times" size="22" lineSpacing="1" verticalAlign="middle"
+	         textAlign="left"  textColor="0xffffff" stroke="1" right="26" visible.unAct="false" visible.canAct="false"/>
+	<e:ProgressBar id="progressBar" x="24" y="193" skinName="ProgressBarEUI11" width="132" height="16" slideDuration="0"/>
+	<e:Image id="imgUnAct" x="0" y="0" source="hq_zycs_zz" visible.normal="false"/>
+	<e:Image id="imgCanAct" source="hq_zycs_kjh" horizontalCenter="10" visible.unAct="false" visible.normal="false" y="69"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="9" x="149" visible="false"/>
+</e:Skin>

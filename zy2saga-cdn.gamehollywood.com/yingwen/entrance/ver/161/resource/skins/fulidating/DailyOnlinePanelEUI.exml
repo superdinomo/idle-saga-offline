@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DailyOnlinePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Group id="group" width="720" height="1134">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"
+		         />
+		<e:Image x="13" y="44" source="fl_zycs_zxlbbg_jpg" />
+		<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true" />
+		<e:Image id="imgTitle" y="-6" touchEnabled="false"  source="fl_zycs_dt" horizontalCenter="1"/>
+		<e:Scroller width="696" y="54" height="885" x="14" scrollPolicyH="off">
+			<e:List id="list" itemRendererSkinName="DailyOnlinePanelItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="0" />
+				</e:layout>
+			<!--
+				
+					
+					
+					
+				
+			-->
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnGoAct" label="Unlock" y="996" skinName="BtnMin1_17" scaleX="0.8" scaleY="0.8" right="24"/>
+		<e:Label id="labelTime" text="(Activated,Remaining36D)" y="1064" size="18" fontFamily="Times" horizontalCenter="237.5" textColor="0x149b19" visible="false"/>
+	</e:Group>
+</e:Skin>

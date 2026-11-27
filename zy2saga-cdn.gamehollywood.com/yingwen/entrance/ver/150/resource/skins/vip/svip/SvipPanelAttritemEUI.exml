@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SvipPanelAttrItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+         height="30">
+	<e:Image id="bg" source="zbrl_zycs_xx" verticalCenter="0.5" x="8"/>
+
+	<e:Label id="labelName" fontFamily="Times" size="18" lineSpacing="0"
+	         x="35" textAlign="left"  textColor="0x5ac832" text="123" verticalCenter="0"/>
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="9" x="149" visible="false"/>
+</e:Skin>

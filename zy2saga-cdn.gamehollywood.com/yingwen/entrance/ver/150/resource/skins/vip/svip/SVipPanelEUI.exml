@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SVipPanelEUI" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="1134">
+	<e:Group id="group" x="0" y="0" width="720" height="1134">
+		<e:Image x="0" y="0" height="1132" touchEnabled="false" source="public_zycs_dikuang" width="720"
+		         scale9Grid="71,59,52,18" />
+		<e:Image x="13" y="44" touchEnabled="false" scale9Grid="88,64,2,3" source="svip_zycs_bg_jpg" />
+		<e:Image y="-55" touchEnabled="false" pixelHitTest="true" x="-2" source="dljl_zycs_k_png" />
+		<e:Image touchEnabled="false" pixelHitTest="true" x="307" source="svip_zycs_msz2" y="2" />
+		<e:Group id="groupLvCur" x="11" y="80">
+			<e:Image source="svip_zycs_k" />
+			<e:Image x="36" y="42" source="public_zycs_svip" />
+			<e:BitmapLabel id="bmpLabelLv" y="69" text="10" letterSpacing="-2" font="vipnum1_fnt" horizontalCenter="0" />
+		</e:Group>
+		<e:ProgressBar id="progressBarExp" skinName="Vipbar" maximum="1" value="1" y="120" scaleY="1" slideDuration="0"
+		               x="123" />
+		<e:Group id="groupLvNext" x="579" y="80">
+			<e:Image source="svip_zycs_k" />
+			<e:Image y="42" x="36" source="public_zycs_svip" />
+			<e:BitmapLabel id="bmpLabelLvNext" y="69" text="10" letterSpacing="-2" font="vipnum1_fnt" horizontalCenter="0" />
+		</e:Group>
+		<e:Group id="groupRechargeAgain" y="225" horizontalCenter="-77">
+			<e:Image y="8" touchEnabled="false" x="0" source="svip_zycs_zcz"/>
+			<e:BitmapLabel id="bmpLabelRecharge" y="0" text="0123456" letterSpacing="-3" font="vipnum2_fnt" x="138"/>
+			<e:Image y="8" touchEnabled="false" x="224" source="svip_zycs_cw"/>
+			<e:Image y="1" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" x="375" source="svip_zycs_msz1"/>
+			<e:BitmapLabel id="bmpLabelRechargeLv" y="0" text="19" letterSpacing="-3" font="vipnum2_fnt" x="483"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="labelMax" text="SVIP level is max out" x="236" y="232" fontFamily="Times" size="24" textColor="0xcdc8be"/>
+		<e:Button id="btnRecharge" x="550" y="213" skinName="BtnMin1_2" label="Top Up" />
+		<e:Group id="groupBox" width="10" height="10" x="369" y="655"/>
+		<e:Image y="293" x="217" source="svip_zycs_msz1" />
+		<e:BitmapLabel id="bmpLabelZSGift" y="293" text="2" letterSpacing="-6" font="vipnum2_fnt" horizontalCenter="-21" />
+		<e:Image x="358" y="292" source="vip_zycs_zslb" />
+		<e:Group x="110" y="373">
+			<e:Image x="0" y="0" source="svip_zycs_jlk"/>
+			<e:Image x="12" source="svip_zycs_jl" verticalCenter="0"/>
+		</e:Group>
+		<e:Button id="btnMZLB" label="" x="604" y="325" skinName="Btn0Skin" icon="svip_zycs_mrlb" />
+		<e:Image id="imgMRLBYLQ" y="328" source="lilian_zycs_ylq" x="585" touchEnabled="false" visible="false"/>
+		<e:Button id="btnZK" label="" x="604" y="427" skinName="Btn0Skin" icon="svip_zycs_zk" />
+		<e:Button id="btnLeft" label="" x="104" y="556" skinName="Btn0Skin" icon="zuji_zycs_jiantou" scaleY="1" scaleX="-1" />
+		<e:Button id="btnRight" label="" x="616" y="556" skinName="Btn0Skin" icon="zuji_zycs_jiantou" />
+		<e:Image y="698" source="public_zycs_jlylk"   horizontalCenter="0"/>
+		<e:Group id="groupPower" y="713" horizontalCenter="0">
+			<e:Image x="0" y="2" source="public_zycs_zdl" />
+			<e:BitmapLabel id="bmpLabelPower" x="75" y="0" text="100" font="powernum_fnt" />
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" />
+			</e:layout>
+		</e:Group>
+		<e:Scroller y="774" height="30" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="listAttr" currentState="disabled" useVirtualLayout="false" itemRendererSkinName="SvipPanelAttrItemEUI">
+				<e:layout>
+					<e:HorizontalLayout gap="23"/>
+				</e:layout>
+				<!--
+				
+					
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+	<e:Image y="830" x="216" source="svip_zycs_msz1" />
+	<e:BitmapLabel id="bmpLabelTQGift" y="830" text="2" letterSpacing="-6" font="vipnum2_fnt" horizontalCenter="-21" />
+	<e:Image x="359" y="827" source="vip_zycs_tq" />
+	<e:Label id="labelTequan" text="All Privileges" x="584" y="837" fontFamily="Times" size="20" textColor="0x5ac832" />
+	<e:Scroller horizontalCenter="0" y="905">
+		<e:List id="listAward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnGet" label="Claim" y="1017" x="286" skinName="BtnMin1_1" />
+	<e:Button id="btnRecharge1" label="Top Up" y="1017" skinName="BtnMin1_2" x="286" />
+	<e:Image id="imgYLQ" y="1006" source="lilian_zycs_ylq" x="299" />
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+</e:Group>
+</e:Skin>

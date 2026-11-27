@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:euiextension="euiextension.*" height="1134" width="720">
+    <e:Image x="0" y="0" height="1134" touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_dikuang" width="720" />
+    <e:Image touchEnabled="false" x="13" y="42"  source="hs_zycs_bg1_jpg"/>
+	<e:Component id="itemEquip" y="0" skinName="HuanShouEquipPanelEUI" x="0"/>
+
+    <e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0" />
+
+    <e:Group id="groupPower" y="65" horizontalCenter="1">
+        <e:Image x="0" y="2" source="public_zycs_zdl" />
+        <e:BitmapLabel id="bmpLabelPower" x="75" y="0" text="100" font="powernum_fnt" />
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle" />
+        </e:layout>
+    </e:Group>
+
+	<e:Group x="27" y="71">
+		<e:Label id="lbCount" textAlign="center" verticalAlign="middle" text="Eudemon deployed: 1/3" size="18" fontFamily="Times" strokeColor="0x000000" y="4" x="0" textColor="0xffffff"/>
+		<e:Group x="127" y="0">
+			<e:Button id="btnAdd" x="-3" y="0" skinName="Btn0Skin" icon="public_zycs_button_jia1"/>
+			<e:Image id="imgAddRedPoint" source="mainui_zycs_hongdian" x="14" y="-9"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="btnFenJie" text="Salvage Eudemon Gear" x="500" y="497" size="20" textAlign="left" fontFamily="黑体" textColor="0x11F51C"/>
+
+
+
+	<e:Image y="556" x="46" source="jl_zycs_jjjn"/>
+
+
+	<e:Scroller id="scroller" y="533" x="122" height="111" width="550">
+		<e:List id="listSkill" itemRendererSkinName="HuanShouSkillItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="10" paddingTop="10" paddingLeft="10"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="661" source="shenqi_zycs_sxjc" x="288"/>
+
+	<e:Label id="btnAttr" text="Total Bonus" x="589" y="664" size="20" textAlign="left" fontFamily="Times" textColor="0x11F51C"/>
+
+	<e:Scroller id="scrollerAttr" y="704" horizontalCenter="0" height="82" scrollPolicyH="off" scrollPolicyV="on">
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" useVirtualLayout="false">
+		<e:layout>
+		<e:TileLayout verticalGap="5" horizontalGap="30" requestedColumnCount="2"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:DataGroup>
+	</e:Scroller>
+
+	<e:Image y="798" x="41" source="jh_zycs_xz"/>
+	<e:Label text="Equip all gear parts before deploying. Stats and skills of deployed Eudemon will take effect" size="18" textAlign="center" fontFamily="Times" touchEnabled="false" x="74" textColor="0xff9b0f" y="800" width="600" wordWrap="true"/>
+
+	<e:Button id="btnZhaoHui" y="868" skinName="BtnMin1_1" label="Undeploy" x="157"/>
+	<e:Button id="btnChuZhan" y="868" label="Deploy" x="157" skinName="BtnMin1_2"/>
+	<e:Button id="btnUp" y="868" skinName="BtnMin1_1" label="Quick Upgrade" x="393"/>
+	<e:Group id="groupConsu" y="837" horizontalCenter="104">
+
+		<e:Image id="imgConsu" source="zycs_320001" x="60"/>
+		<e:Label id="lbConsu" text="0" fontFamily="Times" size="20" textAlign="left" textColor="0xCDC8BE" x="100" y="6"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbYmj" text="Max Level" fontFamily="Times" size="24" textAlign="left" y="839" textColor="0xF01414" x="434"/>
+	<e:Scroller id="tabScroller" y="939" width="695" height="160" x="13">
+		<e:List id="tabList" itemRendererSkinName="HuanShouTabEUI">
+		<e:ArrayCollection>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="leftBtn" y="1030" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" scaleX="-1" x="78" visible="false"/>
+	<e:Button id="rightBtn" y="1030" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" x="642" visible="false"/>
+</e:Skin>

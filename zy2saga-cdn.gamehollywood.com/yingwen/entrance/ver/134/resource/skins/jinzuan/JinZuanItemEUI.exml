@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JinZuanItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="536" height="64">
+	<w:Config id="1586be3c5b0"/>
+	<e:Group y="2" right="1">
+		<e:Image x="0" y="1" touchEnabled="false" source="jz_zycs_chong"/>
+		<e:Image y="1" touchEnabled="false" x="109" source="jz_zycs_yuan"/>
+		<e:BitmapLabel id="bmpRmb" x="31" y="2" text="1498" font="jznum_fnt" letterSpacing="-4" scaleX="0.9"/>
+		<e:Image touchEnabled="false" pixelHitTest="true" source="jz_zycs_khd" x="140" y="0"/>
+		<e:Image touchEnabled="false" pixelHitTest="true" x="213" y="-16" source="jz_zycs_icon" scaleX="1" scaleY="1"/>
+		<e:Image touchEnabled="false" pixelHitTest="true" x="340" y="3" source="jz_zycs_x" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="bmpJz" x="386" y="2" text="15000" font="jznum_fnt" letterSpacing="-4" scaleX="0.9" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+
+</e:Skin>

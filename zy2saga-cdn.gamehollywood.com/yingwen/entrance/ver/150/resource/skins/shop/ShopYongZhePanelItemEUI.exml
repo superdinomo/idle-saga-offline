@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShopYongZhePanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="336" height="205" >
+	<w:Config id="1586bdedfef"/>
+	<e:Image id="imgBg" x="0" y="0" source="sc_zycs_gmd"/>
+	<e:Label id="labelName" text="Item" y="13" fontFamily="Times" size="20" textColor="0xBCAF96" horizontalCenter="0"/>
+	<e:Component id="item" x="21"  skinName="ItemSkin" y="84"/>
+	<e:Label id="lblimit" text="1 time a day" y="56" fontFamily="Times" size="20" textColor="0xBCAF96" horizontalCenter="54"/>
+	<e:Label id="lbneedcustom" text="Clear Floor 1 Stage 2" y="56" fontFamily="Times" size="20" textColor="0xffffff" right="5"/>
+	<e:Component id="priceIcon" y="92" skinName="PriceIconSkin" horizontalCenter="52"/>
+	<e:Label id="labelMax" text="Maxed out" y="149" fontFamily="Times" size="20" horizontalCenter="54" textColor="0xf01414"/>
+	<e:Button id="btnBuy" name="buy" skinName="BtnMin1_2mid" y="134" label="Purchase" scaleX="1" scaleY="1" x="162"/>
+</e:Skin>

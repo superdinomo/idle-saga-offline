@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WanMoSkin" currentState="kstz" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="kstz,max,normal" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" width="720" scale9Grid="88,64,2,3"/>
+	<e:Image y="42" x="13" source="pt_zycs_di01_jpg"/>
+	<e:Image x="48" y="48" source="pt_zycs_wdjl"/>
+	<e:Label id="lbtake" text="0" x="160" y="49" fontFamily="SimHei" size="24" textColor="0xcdc8be"/>
+	<e:Label id="lbranking" text="Ranking" x="580" y="61" fontFamily="SimHei" size="24" textColor="0x13ee22"/>
+	<e:Component id="demonsItem1" skinName="WanMoItemSkin2" anchorOffsetX="190" anchorOffsetY="136" y="535" x="360"/>
+	<e:Component id="demonsItem2" skinName="WanMoItemSkin2" scaleX="0.56" scaleY="0.56" anchorOffsetX="190" anchorOffsetY="136" x="135" y="280"/>
+	<e:Component id="demonsItem3" skinName="WanMoItemSkin2" scaleX="0.56" scaleY="0.56" anchorOffsetX="190" anchorOffsetY="136" x="593" y="280"/>
+	<e:Component id="demonsItemleft" y="91" skinName="WanMoItemSkin2" scaleX="0" scaleY="0" x="-108" anchorOffsetX="190" anchorOffsetY="136"/>
+	<e:Component id="demonsItemright" y="91" skinName="WanMoItemSkin2" x="826" scaleX="0" scaleY="0" anchorOffsetX="190" anchorOffsetY="136"/>
+	<e:Group id="groupReward1" y="332" right="15">
+		<e:Image y="0" source="pt_zycs_jld" horizontalCenter="0"/>
+		<e:Component id="itemReward1" y="28" skinName="ItemSkin" horizontalCenter="0"/>
+		<e:Image y="129" source="pt_zycs_wzd" horizontalCenter="-5"/>
+		<e:Label id="lbRewardCeng1" text="Floor 100  Reward" y="134" fontFamily="Times" size="22" textColor="0xff9b0f" horizontalCenter="1"/>
+		<e:Image id="imgReward1" y="58" source="jzhd_zycs_klq" horizontalCenter="-0.5" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="groupReward2" y="500" right="15">
+		<e:Image y="0" source="pt_zycs_jld" horizontalCenter="0"/>
+		<e:Component id="itemReward2" y="28" skinName="ItemSkin" horizontalCenter="0"/>
+		<e:Image y="129" source="pt_zycs_wzd" horizontalCenter="-5"/>
+		<e:Label id="lbRewardCeng2" text="Floor 100  Reward" y="134" fontFamily="Times" size="22" textColor="0xFF9B0F" horizontalCenter="1"/>
+		<e:Image id="imgReward2" y="58" source="jzhd_zycs_klq" horizontalCenter="-0.5" touchEnabled="false"/>
+	</e:Group>
+	<e:Image source="qianghua_zycs_diwen2" x="16" y="672" width="689" height="143" anchorOffsetY="0" scale9Grid="227,6,0,133"/>
+	<e:List id="listPrize1" width="469" x="227" y="696" itemRendererSkinName="ItemSkin" height="94">
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	<e:Image x="75" y="731" source="pt_zycs_tgjl"/>
+	<e:Button id="btnclearance" skinName="BtnMin1_1" y="833" visible.max="false" label="Enter" horizontalCenter="0"/>
+	<e:Button id="btnKuaiSu" skinName="BtnMin1_1" y="833" visible.max="false"  visible.normal="false" label="Raid" horizontalCenter="0"/>
+	<e:Label id="lbtimer" text="" x="122.36" y="660" bold="true" fontFamily="SimHei" size="20" textColor="0x5ac832"
+	         width="101" textAlign="center" />
+	<e:Label id="lbKSTZTips" text="Open after F50" y="640" fontFamily="SimHei" size="24" horizontalCenter="0" textColor="0xf5e65a"/>
+	<e:Image id="lbPrompt" y="854"  source="pt_zycs_ytzdc" visible.kstz="false" visible.normal="false" x="289"/>
+	<e:Group id="groupPower" y="78" left="48">
+		<e:Label id="labelPowerBest" text="推荐战力:999999" y="0" fontFamily="SimHei" size="24" x="0" textColor="0xf5e65a"/>
+		<e:Label id="labelPowerMy" text="我的战力:999999" y="10" fontFamily="SimHei" size="24" x="10" textColor="0xf5e65a"/>
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

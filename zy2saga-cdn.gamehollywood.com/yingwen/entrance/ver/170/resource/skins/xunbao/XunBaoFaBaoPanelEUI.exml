@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoFaBaoPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134" states="7day,none,act"  width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" touchEnabled="false" scale9Grid="88,64,2,3" x="13" source="xb_zycs_hqbg_jpg"/>
+	<e:Image id="lbGuangGao" y="132" touchEnabled="false" scale9Grid="88,64,2,3" x="24" source="xb_zycs_hqmszz" y.none="89"/>
+	<e:Image y="66" touchEnabled="false" scale9Grid="88,64,2,3" x="4" source="xb_zycs_kfqt" visible.none="false" source.act="xb_zycs_kfqt1"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxf" horizontalCenter="0"/>
+	<e:Label id="lbDoubleTimer" text="Expire after 5 days" x="558" y="91" size="20" fontFamily="Times" visible.none="false"/>
+	<e:Scroller id="" y="206" scaleX="1" scaleY="1" height="129" anchorOffsetX="0" width="675" anchorOffsetY="0" horizontalCenter="2.5" scrollPolicyH="on" scrollPolicyV="off" visible="false">
+		<e:List id="listGunDong" scrollEnabled="false" itemRendererSkinName="XunBaoFaBaoPanelGunDongItemEUI" useVirtualLayout="false">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		
+			<e:layout>
+				<e:HorizontalLayout gap="34" paddingLeft="17"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Component id="item0" x="69" y="361" skinName="XunBaoEquipPanelItemEUI" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="197" y="361" skinName="XunBaoEquipPanelItemEUI" id="item1" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="324" y="361" skinName="XunBaoEquipPanelItemEUI" id="item2" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="452" y="361" skinName="XunBaoEquipPanelItemEUI" id="item3" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="579" y="361" skinName="XunBaoEquipPanelItemEUI" id="item4" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="69" y="626" skinName="XunBaoEquipPanelItemEUI" id="item9" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="197" y="626" skinName="XunBaoEquipPanelItemEUI" id="item10" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="324" y="626" skinName="XunBaoEquipPanelItemEUI" id="item11" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="452" y="626" skinName="XunBaoEquipPanelItemEUI" id="item12" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="579" y="626" skinName="XunBaoEquipPanelItemEUI" id="item13" scaleX="0.75" scaleY="0.75"/>
+	<e:Component y="481" id="item5" skinName="XunBaoEquipPanelItem1EUI" x="73"/>
+	<e:Component y="481" id="item6" skinName="XunBaoEquipPanelItem1EUI" x="233"/>
+	<e:Component y="481" id="item7" skinName="XunBaoEquipPanelItem1EUI" x="392"/>
+	<e:Component id="item8" skinName="XunBaoEquipPanelItem1EUI" y="481" x="551"/>
+	<e:Scroller id="" y="714" x="33" anchorOffsetX="0" width="124" anchorOffsetY="0" height="113">
+		<e:List id="listJiLu" scrollEnabled="false" useVirtualLayout="false" y="1" itemRendererSkinName="XunBaoJiLuBtnEUI">
+		
+			
+			<e:ArrayCollection>
+				<e:Object labelDisplay="Server" />
+				<e:Object labelDisplay="Personal" />
+			</e:ArrayCollection>
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupJiLu" width="533" height="111" x="167" y="713" anchorOffsetY="0" anchorOffsetX="0">
+	<e:Scroller id="scrollerJiLuOhter" y="0" x="0" scaleX="1" scaleY="1" height="110" anchorOffsetX="0" width="534" anchorOffsetY="0">
+			<e:List id="listJiLuOhter" scrollEnabled="false" itemRendererSkinName="XunBaoJiLuItemEUI" useVirtualLayout="false">
+			
+				
+				
+			
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="scrollerJiLuMy" y="0" x="0" scaleX="1" scaleY="1" height="110" anchorOffsetX="0" width="534" anchorOffsetY="0">
+			<e:List id="listJiLuMy" scrollEnabled="false" itemRendererSkinName="XunBaoJiLuItemEUI" useVirtualLayout="false">
+			
+				
+				
+			
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Label id="lbGaiLv" text="Rate Disclosure" y="179" size="20" fontFamily="Times" x="608" textColor="0x13ee22"/>
+	<e:Button id="btnHelp" x="642" y="830" skinName="Btn0Skin" icon="jl_zycs_wenhao" visible="false"/>
+	<e:Group y="839" horizontalCenter="-205">
+		<e:Image id="imgXunBao1" x="0" y="0" source="zycs_320001" width="32" height="32"/>
+		<e:Label id="lbXunBao1" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="buyXunBao1" label="Hunt x1" y="876" x="80" skinName="BtnMin1_2"/>
+	<e:Group y="839" horizontalCenter="-3">
+		<e:Image id="imgXunBao10" x="0" y="0" source="zycs_320001" width="32" height="32"/>
+		<e:Label id="lbXunBao10" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="buyXunBao10" label="Hunt x10" y="876" horizontalCenter="0.5" skinName="BtnMin1_2"/>
+	<e:Image touchEnabled="false" x="408" y="846" source="xb_zycs_zk"/>
+	<e:Group y="839" horizontalCenter="205">
+		<e:Image id="imgXunBao50" x="0" y="0" source="zycs_320001" width="32" height="32"/>
+		<e:Label id="lbXunBao50" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="buyXunBao50" label="Hunt x50" y="876" x="492" skinName="BtnMin1_2"/>
+	<e:Image touchEnabled="false" source="xb_zycs_zk" x="607" y="846"/>
+	<e:Component x="498" y="644" skinName="XunBaoBiDeTipsEUI" id="xunBaoBiDeTips"/>
+	<!--<e:Image x="0" y="-46" touchEnabled="false"  source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\X_寻宝\L-灵器寻宝-魂器寻宝.jpg" locked="true" visible="false"/>-->
+
+</e:Skin>

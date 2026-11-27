@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem34_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="705" height="137">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" source="jsdd_zycs_pmdi"/>
+	<e:Image x="462" y="7" source="jsdd_zycs_phjl"/>
+	<e:Label id="lbRank" text="The 4th Place" fontFamily="Times" size="24" textAlign="left" y="10" textColor="0xf5e65a" x="77"/>
+	<e:Image id="imgRank" source="jsdd_zycs_pm2" y="10" x="71"/>
+	<e:Label id="lbName" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="24" y="51" textAlign="left" x="25" textColor="0xf5e65a" anchorOffsetX="0"/>
+	<e:Label id="lbValue" text="You can reach the ranking when Game Point reaches 5000" fontFamily="Times" size="22" y="77" textAlign="left" x="25" textColor="0xffffff" width="271" wordWrap="true" anchorOffsetX="0"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="289" y="23">
+		<e:List id="list" itemRendererSkinName="ItemSkin" x="-1">
+			<e:layout>
+				<e:HorizontalLayout gap="6" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object />
+					<e:Object />
+					<e:Object />
+					<e:Object />
+				</e:Array>
+			</e:ArrayCollection>
+			
+				
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+</e:Skin>

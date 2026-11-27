@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SigninPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Group id="group" x="0" y="0">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+		<e:Image x="13" y="44"  source="fl_zycs_qdbg_jpg"/>
+		<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true" />
+		<e:Image id="imgTitle" y="-6" touchEnabled="false"  source="fl_zycs_dt" horizontalCenter="0"/>
+		<e:Label text="Want double sign-in rewards?" x="218" y="133" size="24" fontFamily="Times"  textColor="0xffffff"/>
+		<e:Button id="btnGoAct" label="Unlock" y="157" skinName="BtnMin1_17" scaleX="0.8" scaleY="0.8" right="28"/>
+		<e:Label id="labelTime" text="(Activated,Remaining36D)" y="216" size="20" fontFamily="Times" horizontalCenter="227.5" textColor="0x149b19" visible="false"/>
+		<e:Scroller y="316" scrollPolicyH="off" width="640" height="605" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="SigninItemEUI">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="5" horizontalGap="30" paddingTop="12" paddingLeft="12" paddingRight="12" paddingBottom="12"/>
+			</e:layout>
+			<!--
+				
+					
+				
+			-->
+			</e:List>
+		</e:Scroller>
+		<e:Image y="941" touchEnabled="false" source="zs_zycs_fengexian" horizontalCenter="0"/>
+		<e:Component id="item" skinName="ItemSkin" x="54" y="970"/>
+		<e:Label id="labDesc" text="Have signed in for (1/3) day(s) in total, \nSign in for 2 more days to claim rewards" y="980" size="20" textAlign="left" fontFamily="Times" x="153" lineSpacing="0" textColor="0xf5e65a" width="372"/>
+		<e:Label text="Sign-in will be refreshed at 0:00 daily" y="1050" size="24" textAlign="left" fontFamily="Times" x="208" textColor="0xFF9B0F"/>
+		<e:Image y="1045.5" fillMode="scale" touchEnabled="false" x="165" source="jh_zycs_xz"/>
+		<e:Image y="268" fillMode="scale" touchEnabled="false" source="mrqd_zycs_bymsz" horizontalCenter="0"/>
+		<e:Button id="btnSend" y="991" x="528" skinName="BtnMin1_2mid" label="Claim"/>
+	</e:Group>
+</e:Skin>

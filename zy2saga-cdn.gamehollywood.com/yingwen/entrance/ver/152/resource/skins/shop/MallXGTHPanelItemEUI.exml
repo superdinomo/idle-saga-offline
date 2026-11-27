@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MallXGTHPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="336" height="205" states="xgth,svip" >
+	<w:Config id="1586bdedfef"/>
+	<e:Image id="imgBg" x="0" y="0" source="sc_zycs_gmd"/>
+	<e:Image id="imgActIcon" x="309" y="28" source="public_zycs_huo" anchorOffsetX="19.5" anchorOffsetY="19.5" visible="false"/>
+	<e:Group id="groupFree" width="100%" height="100%">
+		<e:Image id="imgFree" source="store_zycs_tab0" x="0" y="0"/>
+		<e:Button id="btnFree" x="162" name="buy" y="142" label="Free" skinName="BtnMin1_1amid"/>
+	</e:Group>
+	<e:Group id="groupDiscount" width="100%" height="100%">
+		<e:Image id="imgDiscountBg" source="store_zycs_tab1"/>
+		<e:Group width="60" height="68">
+			<e:BitmapLabel id="bmpLabelDiscount" font="shopnum1_fnt" text="80z" horizontalCenter="0" verticalCenter="0" rotation="-45" letterSpacing="-7"/>
+		</e:Group>
+		<e:Button id="btnBuy" name="buy" skinName="BtnMin1_2mid" y="142" label="Purchase" scaleX="1" scaleY="1" x="162"/>
+	</e:Group>
+	<e:Label id="labelName" text="Banned Books Catalog Shard" y="14" fontFamily="Times" size="20" textColor="0xBCAF96" left="65"/>
+	<e:Component id="item" x="21"  skinName="ItemSkin" y="74"/>
+	<e:Label id="labelDesc" text="0" y="53" fontFamily="Times" size="20" textColor="0xBCAF96" horizontalCenter="24"/>
+	<e:Group id="groupOld" y="82" x="166" scaleX="0.8" scaleY="0.8">
+		<e:Component id="priceIconOld" skinName="PriceIconSkin" horizontalCenter="0"/>
+		<e:Image source="zhuansheng_zycs_rx" scaleX="0.1" scaleY="0.5" width="100%" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Component id="priceIcon" y="111" skinName="PriceIconSkin" scaleX="0.8" scaleY="0.8" x="166"/>
+	<e:Label id="labelMax" text="Maxed out" y="157" fontFamily="Times" size="20" horizontalCenter="54" textColor="0xf01414"/>
+	<e:Group id="groupSVip" x="212" y="148" visible.xgth="false">
+		<e:Image id="imgSVIPBg" x="0" y="0" source="store_zycs_tab2"/>
+		<e:Image id="imgSVIPLv" x="14" y="3" source="store_zycs_sv1"/>
+	</e:Group>
+</e:Skin>

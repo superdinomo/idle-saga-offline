@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HunqiPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        xmlns:euiextension="euiextension.*" height="1134" states="act,up,max">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_dikuang" width="720"/>
+	<e:Image touchEnabled="false" x="13" y="42"  source="hq_zycs_bg_jpg"/>
+	<e:Image id="imgIcon" horizontalCenter="0" bottom="723"  source="hq_zycs_sl1_png"/>
+	<e:Image y="122" source="hq_zycs_jie" horizontalCenter="-242"/>
+	<e:BitmapLabel id="bmpLabelJie" y="160" font="hqnum_fnt" text="2" horizontalCenter="-241.5"/>
+	<e:Image y="47" source="public_zycs_jlylk"   horizontalCenter="0"/>
+	<e:Group id="groupPower" y="62" horizontalCenter="0.5">
+		<e:Image x="0" y="2" source="public_zycs_zdl" />
+		<e:BitmapLabel id="bmpLabelPower" x="75" y="0" text="100" font="powernum_fnt" />
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:ProgressBar id="progressBar" x="252" y="401" skinName="ProgressBarEUI10" />
+	<e:Group id="groupMC" width="0" height="0" x="0" y="0"/>
+	<e:Image x="210" y="384" source="hq_zycs_jx" />
+	<e:Image x="254" y="437" source="hq_zycs_wzd1"/>
+	<e:Label textAlign="center" verticalAlign="middle" text="Upgrade Soulgear to raise Awaken Points" size="20" fontFamily="Times" strokeColor="0x000000"
+	         y="437" textColor="0x11f51c"  horizontalCenter="0"/>
+	<e:Image x="498" y="348" source="hq_zycs_wzd2"/>
+	<e:Label id="labelSkillMax" textAlign="center" verticalAlign="middle" text="Skill Limit: 150" size="22" fontFamily="Times"
+	         strokeColor="0x000000" y="354" x="523" textColor="0xc0b8a1" />
+	<e:Image x="498" y="393" source="hq_zycs_wzd2"/>
+	<e:Label id="labelSkillDamage" textAlign="center" verticalAlign="middle" text="Skill Damage: +6%" size="22" fontFamily="Times"
+	         strokeColor="0x000000" y="399" textColor="0xC0B8A1"  right="25"/>
+	<e:Scroller id="scrollerHunqi" y="473" height="269" x="11" width="705">
+		<e:List id="listHunqi" currentState="disabled" useVirtualLayout="false" itemRendererSkinName="HunqiPanelItemEUI">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="4" verticalGap="0" paddingLeft="0" paddingTop="0" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="748" horizontalCenter="0">
+		<e:Component id="itemConsume" y="8" x="77" touchEnabled="true" width="90" height="90" skinName="ItemSkin"/>
+		<e:Label id="labelName" text="Item name" x="190" y="19" fontFamily="SimHei" size="22" anchorOffsetX="0" textAlign="left" textColor="0xcd8cff"/>
+		<e:Label id="labelLv" text="Lv.0" x="308.74" y="19" fontFamily="SimHei" size="22" textAlign="left" textColor="0xcd8cff"/>
+		<e:Label text="Collect:" x="190" y="70" fontFamily="SimHei" size="18" textAlign="left" lineSpacing="4" textColor="0xaf9b73"/>
+		<e:ProgressBar id="progressBarSelf" x="239" y="71" width="186" slideDuration="0" skinName="ProgressBarEUI11"/>
+		<e:Label id="lbInfo" text="Soulgear Stats" x="472" y="19" fontFamily="SimHei" size="20" textColor="0x13ee22"/>
+	</e:Group>
+	<e:Group y="858" height="84" width="466" x="129">
+		<e:Image height="95" horizontalCenter="0" verticalCenter="0" source="ldsz_zycs_djsdi" scale9Grid="90,20,540,22"/>
+		<e:Image x="208" verticalCenter="0" source="sksk_zycs_jt" rotation="-90"/>
+		<e:Label id="labelNormalAttrCur" text="Minimum ATK" x="24" fontFamily="SimHei" size="20" lineSpacing="6" verticalCenter="0"/>
+		<e:Label id="labelNormalAttrNext" text="9999" x="314" fontFamily="SimHei" size="20" lineSpacing="6" visible.max="false" verticalCenter="0"/>
+		<e:Label id="labelMax" text="Upper Limit Reached" x="308" fontFamily="SimHei" size="20" lineSpacing="10" visible.act="false" visible.up="false" verticalCenter="0" textColor="0x13ee22"/>
+	</e:Group>
+	<e:Button id="btnAct" y="953" label="Activate" horizontalCenter="0" visible.up="false" visible.max="false" skinName="BtnMin1_1mid"/>
+	<e:Button id="btnUp" y="953" label="Upgrade" horizontalCenter="0" visible.act="false" visible.max="false" skinName="BtnMin1_1mid"/>
+	<e:Scroller id="scrollerTab" y="1019" height="64" x="53" width="619">
+		<e:List id="listTab" useVirtualLayout="false" anchorOffsetX="0" width="583" anchorOffsetY="0" height="55" itemRendererSkinName="HunqiPanelTabItemEUI">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

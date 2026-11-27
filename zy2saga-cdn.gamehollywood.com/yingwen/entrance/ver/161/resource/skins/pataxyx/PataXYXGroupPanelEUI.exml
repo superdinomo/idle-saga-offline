@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PataXYXGroupPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3"/>
+	<e:Image y="42" anchorOffsetX="0" anchorOffsetY="0" x="13" source="hjbd_zycs_bg_jpg"/>
+	<e:Component id="item1" x="103" y="140" skinName="PataXYXGroupPanelItemEUI"/>
+	<e:Component id="item2" x="436" y="211" skinName="PataXYXGroupPanelItemEUI"/>
+	<e:Component id="item3" x="54" y="409" skinName="PataXYXGroupPanelItemEUI"/>
+	<e:Component id="item4" x="457" y="510" skinName="PataXYXGroupPanelItemEUI"/>
+	<e:Scroller y="938" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="PataXYXGroupPanelTabEUI">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

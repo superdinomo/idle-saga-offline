@@ -1,0 +1,53 @@
+<e:Skin class="YZZHActWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group id="group" width="719" height="840" verticalCenter="10" horizontalCenter="-1">
+		<e:Image scale9Grid="94,63,10,8" source="yzsh_zycs_sjbg_png"/>
+		<e:Image id="imgBigRewardQuality" y="340" source="yzsh_zycs_sssr" horizontalCenter="0"/>
+		<e:Image id="imgName" verticalCenter="-46" horizontalCenter="28" source="yzsh_zycs_msz29"/>
+		<e:Label id="lblRewardDesc" text="Reach Lv.80 to gain SSSR Superb Fairy" y="126" size="22" fontFamily="SimHei" height="82" lineSpacing="5" textAlign="center" width="177" horizontalCenter="191"/>
+		<e:Label id="lblRewardName1" text="魔镜魔镜" y="200" size="22" fontFamily="SimHei" horizontalCenter="191.5" lineSpacing="5" textAlign="center"/>
+		<e:Label text="Activate Warrior Badge and level-up to Lv.80 to claim the following rewards" y="331" size="18" fontFamily="SimHei" textColor="0xffffff" anchorOffsetX="0" anchorOffsetY="0" height="36" horizontalCenter="0"/>
+		<e:Scroller y="399" scrollPolicyH="off" height="290" width="590" horizontalCenter="0.5">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:TileLayout horizontalGap="23" requestedColumnCount="5" paddingLeft="12" paddingRight="12" paddingTop="12" verticalGap="8"/>
+			</e:layout>
+							<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group y="723" horizontalCenter="0.5">
+			<e:Label text="Activate now to gain" y="4" size="19" fontFamily="Times" x="20" textColor="0xffffff"/>
+			<e:Image y="0" x="85" source="zycs_320030"/>
+			<e:Label id="lbDianQuan" text="99999" y="14" size="19" fontFamily="Times" x="10" textColor="0x13ee22"/>
+			<e:Label text=". Vouchers won't affect the daily acquire limit" y="7" size="19" fontFamily="Times" x="0" textColor="0xffffff"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnBuy" label="Activate with $14.99" y="750" skinName="BtnMin1_17" horizontalCenter="0.5"/>
+		<e:Group id="groupMC" width="0" height="0" y="365" x="359"/>
+		<e:Button id="closeBtn" label="" x="639" y="44" skinName="Btn0Skin" icon="sc_zycs_x" scaleX="1.5" scaleY="1.5"/>
+	</e:Group>
+</e:Skin>

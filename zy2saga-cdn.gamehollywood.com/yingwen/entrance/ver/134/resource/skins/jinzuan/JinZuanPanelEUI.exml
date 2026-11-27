@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JinZuanPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134" width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="39" touchEnabled="false" scale9Grid="88,64,2,3" source="jz_zycs_bg1_jpg" horizontalCenter="0"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" id="imgTitle" source="jz_zycs_title1" horizontalCenter="0"/>
+	<e:Scroller y="300" x="140">
+		<e:List id="list" itemRendererSkinName="JinZuanItemEUI" x="-2">
+		<e:layout>
+			<e:VerticalLayout gap="-7"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbDesc" text="Diamond Top-up grants Vouchers. Daliy limit is 20000" y="867" size="22" fontFamily="Times" textColor="0xe3d7be" horizontalCenter="1" width="639" textAlign="center"/>
+	<e:Label text="(Diamond Top-up means purchasing diamonds in Top-up page)" y="917" size="22" fontFamily="Times" textColor="0x13ee22" horizontalCenter="0" width="673" textAlign="center"/>
+	<e:Label text="Acquired Vouchers Today: " y="969" size="22" fontFamily="Times" textColor="0xe3d7be" horizontalCenter="-56"/>
+	<e:Label id="lbJinZuanValue" text="9999" y="969" size="24" fontFamily="Times" textColor="0xE3D7BE" horizontalCenter="90"/>
+	<e:Image y="966" touchEnabled="false" source="zycs_320030" x="473"/>
+	<e:Button id="buyRecharge" label="Top Up" y="991" skinName="BtnMin1_17" horizontalCenter="-1"/>
+	<e:Button id="btnHelp" x="632" y="1005" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+
+</e:Skin>

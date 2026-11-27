@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouChuanPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+
+
+
+
+
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" touchEnabled="false" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="15" x="637"/>
+		<e:Scroller y="97" height="594" width="679" x="21">
+			<e:List id="listRank" itemRendererSkinName="HuanShouChuanItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbCount" text="容量：110/500" size="20" fontFamily="SimHei" y="709" textColor="0xE3D7BE" x="295"/>
+		<e:Label id="btnHeCheng" text="Merge" fontFamily="黑体" size="20" textAlign="center" y="812" x="617" textColor="0x13ee22"/>
+		<e:Image id="imgTitle" y="29" horizontalCenter="0" source="hs_zycs_hszb"/>
+	</e:Group>
+</e:Skin>
