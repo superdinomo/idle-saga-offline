@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel43_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" source="hddt_zycs_xycj_jpg" y="39" x="14"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_xycj" horizontalCenter="0"/>
+	<e:Label id="lbTime" text="剩余时间：11:11:11" y="58" size="22" textAlign="center" fontFamily="Times" textColor="0xFFFFFF" horizontalCenter="0"/>
+	<e:Button id="btnSelect" y="10" x="200" icon="xycj_zycs_xzxy_png" skinName="Btn0Skin1" width="325" height="523"/>
+	<e:Group id="groupNotice" x="169" y="683" height="103" anchorOffsetY="0">
+		<e:Scroller width="397" height="101" x="0" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+		<e:List id="listNotice" itemRendererSkinName="Act43NoticeItemEUI">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:VerticalLayout gap="4" paddingTop="4"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupMcPlus" y="260" horizontalCenter="0">
+	</e:Group>
+	<e:Group id="groupMcStage" y="571" horizontalCenter="0"/>
+	<e:Group id="groupMcIcon" y="436" horizontalCenter="0"/>
+	<e:Group id="groupItem" x="38" y="462">
+		<e:Component id="item1" x="0" y="0" skinName="ActItem43_1EUI"/>
+		<e:Component id="item2" x="151" y="81" skinName="ActItem43_1EUI"/>
+		<e:Component id="item3" x="325" y="70" skinName="ActItem43_1EUI"/>
+		<e:Component id="item4" x="480" y="30" skinName="ActItem43_1EUI"/>
+	</e:Group>
+	<e:Group id="groupBigRewardName" y="457" x="227">
+		<e:Image y="0" x="0" source="xycj_zycs_djmz"/>
+		<e:Image id="bigRewardIcon" source="" x="8" y="2"/>
+		<e:Group id="groupMask" x="-28" y="45"/>
+		<e:Label id="lbName" text="Gaming Light Sword" x="106.5" y="36" size="18" anchorOffsetY="0" anchorOffsetX="0" width="176" height="31"/>
+		<e:Button id="btnChange" icon="xycj_zycs_ghdj" skinName="Btn0Skin" x="71"/>
+	</e:Group>
+	<e:Button id="btnGiftBag" y="647" x="592" icon="xycj_zycs_xylb" skinName="Btn0Skin"/>
+	<e:Button id="btnPreview" y="754" x="592" icon="xycj_zycs_jlyl" skinName="Btn0Skin"/>
+	<e:Button id="btnRank" y="754" x="29" icon="xycj_zycs_bd" skinName="Btn0Skin"/>
+	<e:Image id="imgClick2" width="167" height="44" x="133" y="143" anchorOffsetX="0" anchorOffsetY="0" alpha="0.01" source="xycj_zycs_djmz"/>
+	<e:Component id="tipsItem" x="44" y="556" skinName="Act43TipsItemEUI"/>
+	<e:Group id="groupMustGet1" y="819" scaleX="0.8" scaleY="0.8" horizontalCenter="0">
+		<e:Group x="0" y="0">
+			<e:BitmapLabel id="bmplbCount" y="0" text="999" font="xycj_fnt" right="261"/>
+			<e:Image touchEnabled="false" y="3" source="xycj_zycs_cjbd" anchorOffsetX="0" x="31.25"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbPropName1" text="Glyph*2" size="25" textAlign="center" fontFamily="Times" textColor="0xcd15c5" x="359.5" verticalAlign="middle" verticalCenter="-4"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupMustGet2" y="820" scaleX="0.85" scaleY="0.85" horizontalCenter="0" visible="false">
+		<e:Image touchEnabled="false" anchorOffsetX="0" scale9Grid="117,7,7,42" source="xycj_zycs_xcbd"/>
+		<e:Label id="lbPropName2" text="Glyph*323" size="25" textAlign="center" fontFamily="Times" textColor="0xCD15C5" x="289" verticalCenter="-3"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group height="267" anchorOffsetY="0" left="0" right="0" bottom="0">
+		<e:Group y="21" horizontalCenter="-151" height="127" x="170" scaleX="1" scaleY="1" width="149" anchorOffsetY="0">
+			<e:Group y="95" horizontalCenter="0">
+				<e:Image id="iconConsume1" source="zycs_320002" y="0" x="0" scaleX="1" scaleY="1"/>
+				<e:Label id="lbConsume1" text="0/1" size="24" textAlign="left" fontFamily="Times" x="40" y="5" scaleX="1" scaleY="1" textColor="0xcc1d14"/>
+			</e:Group>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="21" horizontalCenter="141" x="451" scaleX="1" scaleY="1" width="149" height="127">
+			<e:Group y="95" horizontalCenter="0">
+				<e:Image id="iconConsume10" source="zycs_320002" y="0" x="0"/>
+				<e:Label id="lbConsume10" text="0/1" size="24" textAlign="left" fontFamily="Times" x="40" y="5" textColor="0xcc1d14"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnFree1" label="Free Draw" y="55" x="133" skinName="BtnMin1_1" scaleX="1" scaleY="1"/>
+		<e:Button id="btnProp1" label="Draw x1" y="55" x="133" scaleX="1" scaleY="1" skinName="BtnMin1_22"/>
+		<e:Button id="btnCoupon1" label="Draw x1" y="55" x="133" scaleX="1" scaleY="1" skinName="BtnMin1_22"/>
+		<e:Button id="btnProp10" label="Draw x10" y="55" x="424" scaleX="1" scaleY="1" skinName="BtnMin1_23"/>
+		<e:Button id="btnCoupon10" label="Draw x10" y="55" x="424" scaleX="1" scaleY="1" skinName="BtnMin1_23"/>
+		<e:Image touchEnabled="false" source="xb_zycs_zk" x="543" y="19" scaleX="1" scaleY="1"/>
+		<e:Label id="lbCouponTimes" text="Remaining Voucher Draw today: 1/3" y="190" size="20" textAlign="left" fontFamily="Times" textColor="0xffffff" horizontalCenter="0" x="240" scaleX="1" scaleY="1"/>
+		<e:Label id="lbFreeTime" text="+1 free attempt in 00:03:49" y="143" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" horizontalCenter="0" x="145" scaleX="1" scaleY="1"/>
+		<e:Label id="lbFreeTimes" text="Remaining Free Attempts: 2/3" y="166" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" horizontalCenter="0" x="155" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="imgClick" width="91" height="78" x="315" y="212" anchorOffsetX="0" anchorOffsetY="0" source="ch_zycs_18_png" alpha="0.01"/>
+</e:Skin>

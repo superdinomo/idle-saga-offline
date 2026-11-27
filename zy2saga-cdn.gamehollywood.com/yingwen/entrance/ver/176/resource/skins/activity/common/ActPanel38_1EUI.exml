@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel38_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="imgBg" y="42" pixelHitTest="true" touchEnabled="false" horizontalCenter="0"  source="hddt_zycs_gqzd_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true" />
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_zsml"  horizontalCenter="0"/>
+	<e:Image id="imgName" y="231" horizontalCenter="1" source="gqzd_zycs_n1a"/>
+	<e:Group id="groupMC" width="0" height="0" y="499" horizontalCenter="0" />
+	<e:Image y="361" pixelHitTest="true" touchEnabled="false" x="441" source="gqzd_zycs_chui_png" visible="false"/>
+	<e:Label id="lbTime" text="Event Countdown: 12:12:12" y="289" size="20" textAlign="left" fontFamily="Times" textColor="0xffffff"
+	         horizontalCenter="0" />
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="53" horizontalCenter="0.5">
+		<e:List id="listBtn" itemRendererSkinName="ActBtn38_1EUI">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="0" paddingRight="0"  gap="-53"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Component id="maxRewardTips" x="134" y="536" skinName="Act38BigRewardTipsEUI"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="234" x="25" anchorOffsetY="0" height="593" visible="false">
+		<e:List id="listBtn0" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="15" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="233" x="598" anchorOffsetY="0" height="593" visible="false">
+		<e:List id="listBtn1" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="15" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+					<e:Object qqqq="null" />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnRewardView" label="" y="725" skinName="Btn0Skin" icon="gqzd_zycs_jlyl" x="152" />
+	<e:Button id="btnBaoKu" label="" y="731" skinName="Btn0Skin" icon="gqzd_zycs_zdbk" x="494" />
+	<e:Label id="lbDanKeDesc" text="Each Egg Smashing grants 1 piece of Shell" size="20" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" horizontalCenter="5" y="726"/>
+	<e:Label id="lbDec" text="The higher the Lucky Points, the greater the chance for rare rewards" size="24" textAlign="center" fontFamily="Times" textColor="0xCDC8BE"
+	         horizontalCenter="5"  verticalCenter="320" width="649"/>
+	<e:Image touchEnabled="false" x="44" source="xb_zycs_xyz" y="926"/>
+	<e:ProgressBar id="barExp" y="924" anchorOffsetX="0"  width="499" x="137" skinName="ProgressBarEUI12"/>
+	<e:Group y="973" horizontalCenter="-108">
+		<e:Image id="imgXunBao1" x="0" y="0" source="zycs_423000" width="32" height="32" />
+		<e:Label id="lbXunBao1" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11" />
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Button id="buyXunBao1" label="Hunt x1" y="1010" x="182" skinName="BtnMin1_2" />
+	<e:Group y="973" horizontalCenter="98" x="10">
+		<e:Image id="imgXunBao10" x="0" y="0" source="zycs_423000" width="32" height="32" />
+		<e:Label id="lbXunBao10" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11" />
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Button id="buyXunBao10" label="Hunt x10" y="1010" horizontalCenter="102.5" skinName="BtnMin1_2" />
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+</e:Skin>

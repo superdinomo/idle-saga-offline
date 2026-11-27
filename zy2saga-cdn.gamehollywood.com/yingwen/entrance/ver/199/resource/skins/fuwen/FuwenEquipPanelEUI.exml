@@ -1,0 +1,53 @@
+<e:Skin class="FuwenEquipPanelEUI" currentState="own" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" states="otherPlay,own" >
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="45" x="13" source="fuwen_zycs_bg_jpg"/>
+	<e:Group id="groupMC" width="0" height="0" y="370" x="360"/>
+		<e:List id="list" itemRendererSkinName="FuwenItemEUI" currentState="disabled" useVirtualLayout="false" x="68" y="105" width="584" height="803">
+			
+				
+					
+					
+					
+					
+					
+				
+			
+			<e:layout>
+				<e:TileLayout requestedRowCount="4" requestedColumnCount="0" orientation="columns" horizontalGap="324" verticalGap="52"/>
+			</e:layout>
+		</e:List>
+	<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="65" horizontalCenter="0">
+		<e:Image source="public_zycs_zdl"/>
+		<e:BitmapLabel id="power" x="118" text="6666" font="powernum_fnt" y="4"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="474" alpha="0.8" source="fuwen_zycs_bg" x="145"/>
+	<e:Image scale9Grid="115,8,38,19" y="282" source="qianghua_zycs_diwen1" x="164"/>
+	<e:Image id="img0" y="572" x="385" source="public_zycs_lj" rotation="90"/>
+	<e:Image id="img1" y="632" x="385" source="public_zycs_lj" rotation="90"/>
+	<e:Label id="nameTxt" y="289" size="20" fontFamily="Times" textAlign="left" text="0" anchorOffsetY="0" verticalAlign="top" lineSpacing="10" horizontalCenter="0" textColor="0x13ee22"/>
+	<e:Label id="levelTxt" y="326" size="20" fontFamily="Times" textAlign="left" text="0" verticalAlign="top" lineSpacing="10" horizontalCenter="0" textColor="0x13ee22"/>
+	<e:Label id="currAttr0" y="373" size="20" fontFamily="Times" textAlign="left" text="0" verticalAlign="top" lineSpacing="10" horizontalCenter="0" textColor="0x13ee22"/>
+	<e:Label id="currAttr1" y="540" size="20" fontFamily="Times" textAlign="left" text="0" verticalAlign="top" lineSpacing="10" x="212" textColor="0x13ee22"/>
+	<e:Label id="currAttr2" y="572" size="20" fontFamily="Times" textAlign="left" text="0\n0" verticalAlign="top" lineSpacing="10" x="430" textColor="0x13ee22"/>
+	<e:Label id="hintTxt" y="584" size="20" fontFamily="Times" textAlign="left" text="This part has no equipping Element" verticalAlign="top" lineSpacing="10" textColor="0xdacca7" horizontalCenter="0"/>
+	<e:Group y="655" horizontalCenter="0" visible.otherPlay="false">
+		<e:Label id="consuTxt" y="7" size="20" fontFamily="Times" textAlign="left" text="Cost: " verticalAlign="top" lineSpacing="10" x="0"  textColor="0xdacca7"/>
+		<e:Image id="img2" y="0" x="110" visible.otherPlay="false" source="zycs_320013"/>
+		<e:Label id="consuCountTxt" y="7" size="20" fontFamily="Times" textAlign="left" text="0" verticalAlign="top" lineSpacing="10" x="145" textColor="0xffffff" />
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="levelBtn" y="960" skinName="BtnMin1_1" visible.otherPlay="false" label="Upgrade" x="476"/>
+	<e:Button id="equipBtn" y="960" visible.otherPlay="false" skinName="BtnMin1_2" label="Equip" x="286"/>
+	<e:Button id="equipBtn0" y="960" x="96" skinName="BtnMin1_2" visible.otherPlay="false" label="Equip All"/>
+	<e:Label y="495" size="24" fontFamily="Times" textAlign="left" text="Upgrade Preview" verticalAlign="top" lineSpacing="10" textColor="0xd59130" horizontalCenter="0"/>
+	<e:Image y="1040" x="278" source="fuwen_zycs_fwfj" visible.otherPlay="false"/>
+	<e:Label id="btnFenjie" y="1041" size="24" fontFamily="Times" textAlign="left" text="Salvage Rune" verticalAlign="top" lineSpacing="10" x="311" textColor="0x13ee22" visible.otherPlay="false"/>
+</e:Skin>
