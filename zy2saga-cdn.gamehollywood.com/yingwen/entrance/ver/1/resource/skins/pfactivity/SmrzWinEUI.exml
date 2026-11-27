@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SmrzWinEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="553" verticalCenter="0" height="354" horizontalCenter="0">
+		<e:Image height="354" touchEnabled="false" width="553" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image source="public_zycs_tyts" horizontalCenter="0" y="-4"/>
+		<e:Image source="public_zycs_greybg2" scale9Grid="2,2,16,16" height="124" y="82" width="479" x="37"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="470"/>
+		<e:Image id="imgTitle" y="12.5" horizontalCenter="0" source="mainui_zycs_fcm"/>
+		<e:Scroller y="83" horizontalCenter="0.5">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout gap="20" paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15"/>
+				</e:layout>
+
+				
+					
+						
+						
+						
+						
+					
+				
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="Confirm" y="225" horizontalCenter="0" skinName="BtnMin1_1"/>
+		<e:Label text="Tap blank space to quit" fontFamily="Times" size="24" y="371" textColor="0xffffff" horizontalCenter="0"/>
+
+	</e:Group>
+</e:Skin>

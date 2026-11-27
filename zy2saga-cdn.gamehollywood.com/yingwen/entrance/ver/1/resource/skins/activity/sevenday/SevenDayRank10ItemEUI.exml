@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SevenDayRank10ItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="327">
+	<w:Config id="1586bd49103"/>
+	<e:Label id="rankTxt" text="No.4 - 20" x="0" fontFamily="Times" size="24" width="102" textAlign="center" textColor="0xfcde18" y="0"/>
+	<e:Scroller y="55" scrollPolicyH="off" scrollPolicyV="off" height="94" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

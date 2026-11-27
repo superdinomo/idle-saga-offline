@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleEditorNameWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" width="552" height="402">
+		<e:Image x="0" y="0" source="gmk_zycs_bg_png"/>
+		<e:Image y="16"  source="gmk_zycs_xgmz" horizontalCenter="0.5"/>
+		<e:Image y="115" source="gmk_zycs_sr" horizontalCenter="0.5"/>
+		<e:Button id="closeBtn" label="" x="469" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Label id="time" text="Enter Name" y="170" fontFamily="Times" size="24" x="83" scaleX="1" scaleY="1" textColor="0xe5d3b5" visible="false"/>
+		<e:Image width="209" y="171" source="public_zycs_shurukuang" scale9Grid="14,3,91,21" height="27" horizontalCenter="0"/>
+		<e:TextInput id="textInput" y="171" width="209" height="27" enabled="true" skinName="skins.TextInputSkin" horizontalCenter="0"/>
+		<e:Button id="btnOk" skinName="BtnMin1_1" y="285" horizontalCenter="0.5" label="Confirm"/>
+	</e:Group>
+
+</e:Skin>

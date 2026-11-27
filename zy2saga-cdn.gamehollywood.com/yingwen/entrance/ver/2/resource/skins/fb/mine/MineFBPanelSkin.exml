@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineFBPanelSkin" width="720" height="1280" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<e:Group y="170" right="0">
+		<e:Image y="0" source="mianui_zycs_dengji_di" height="49" width="141" x="0" anchorOffsetX="0" scale9Grid="37,2,7,14"/>
+		<e:Label id="minerNum" text="0" size="20" fontFamily="Times" textAlign="center" touchEnabled="false" textColor="0xB09059" x="12" y="2"/>
+		<e:Label id="comNum" text="0" size="20" fontFamily="Times" textAlign="center" touchEnabled="false" textColor="0xB09059" x="12" y="24"/>
+	</e:Group>
+	<e:Group right="0" bottom="626">
+		<e:Image y="54" source="mianui_zycs_dengji_di" scale9Grid="19,2,40,14" height="45" width="131" x="0"/>
+		<e:Button id="mineBtn" y="0" skinName="Btn0Skin" icon="sjhj_zycs_wk" x="38"/>
+		<e:Label id="lbmine" text="Tap to Mine" size="20" fontFamily="Times" textAlign="center" touchEnabled="false" y="56" textColor="0xaf9b73" x="20"/>
+		<e:Label id="mineCountTxt" text="0" y="77" size="20" width="127" fontFamily="Times" textAlign="center" textColor="0x23ca23" x="2"/>
+		<e:Image y="162" source="mianui_zycs_dengji_di" scale9Grid="19,2,40,14" height="45" width="131" x="0"/>
+		<e:Button id="robMinerBtn" label="" y="108" skinName="Btn0Skin" icon="sjhj_zycs_kg" x="29"/>
+		<e:Label text="Miner List" size="20" fontFamily="Times" textAlign="center" touchEnabled="false" y="164" textColor="0xAF9B73" x="25"/>
+		<e:Label id="robCountTxt" text="0" y="185" fontFamily="Times" size="20" width="127" textAlign="center" x="2" textColor="0x23ca23"/>
+		<e:Image y="270" source="mianui_zycs_dengji_di" scale9Grid="19,2,40,14" height="27" width="131" x="0"/>
+		<e:Button id="robLogBtn" label="" y="216" skinName="Btn0Skin" icon="sjhj_zycs_ld" x="38"/>
+		<e:Label text="Loot Records" size="20" fontFamily="Times" textAlign="center" touchEnabled="false" y="273" textColor="0xAF9B73" x="14"/>
+	</e:Group>
+	<e:Group id="timeGroup" horizontalCenter="0" bottom="464">
+		<e:Image width="274" x="42" y="21" height="25" source="sjhj_zycs_d" scale9Grid="16,3,100,21"/>
+		<e:Image y="0" x="0" source="sjhj_zycs_wk"/>
+		<e:Label id="timeTxt" text="0" y="23" size="20" fontFamily="Times" textAlign="center" x="57" textColor="0xbebe2f"/>
+		<e:Label id="wcBtn" text="Complete Now" x="211" y="23" size="20" fontFamily="Times" textColor="0x23ca23"/>
+	</e:Group>
+	<e:Group id="leftGroup" y="680" left="0">
+		<e:Button id="leftBtn" label="" x="26" y="0" skinName="Btn0Skin" icon="sjhj_zycs_up"/>
+		<e:Image y="62" source="mianui_zycs_dengji_di" scale9Grid="19,2,40,14" height="30" width="131" x="0" touchEnabled="false"/>
+		<e:Label id="lastName" text="0" size="20" fontFamily="Times" width="122" textAlign="center" touchEnabled="false" textColor="0xB09059" y="68" x="5"/>
+	</e:Group>
+	<e:Group id="rightGroup" y="680" right="2">
+		<e:Button id="rightBtn" label="" y="0" skinName="Btn0Skin" icon="sjhj_zycs_down" x="26"/>
+		<e:Image y="62" source="mianui_zycs_dengji_di" scale9Grid="19,2,40,14" height="30" width="131" x="0" touchEnabled="false"/>
+		<e:Label id="nextName" text="0" size="20" fontFamily="Times" width="122" textAlign="center" touchEnabled="false" y="68" x="5" textColor="0xf2b641"/>
+	</e:Group>
+	
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem8_1To2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="327" height="150">
+	<w:Config id="1586bd49103"/>
+	<e:Label id="rankTxt" text="No.4 - 20" x="0" fontFamily="Times" size="18" width="102" textAlign="center" textColor="0xfcde18" y="0"/>
+	<e:Group id="groupXf" x="105" y="2">
+		<e:Label text="Requirement Cost:" y="0" size="18" textAlign="left" fontFamily="Times" x="0" textColor="0xCDC8BE"/>
+		<e:Image source="zycs_320002"/>
+		<e:Label id="lbXf" text="9999" y="0" size="18" textAlign="left" fontFamily="Times" x="0" textColor="0xcdc8be"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+		<e:List id="list" itemRendererSkinName="ItemSkin" horizontalCenter="0" y="68">	<e:layout>
+				<e:HorizontalLayout gap="10" paddingLeft="10" paddingTop="10" paddingBottom="10" paddingRight="10"/>
+			</e:layout>
+		</e:List>
+</e:Skin>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhuoYueWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+	<w:Config id="1586b13ea96" />
+	<e:Group id="group" horizontalCenter="0" verticalCenter="68" width="720" height="976">
+		<e:Image x="0" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0"
+		         scale9Grid="88,64,2,3"  source="zyzl_zycs_bg_jpg"/>
+		<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" y="558" source="public_zycs_zbx1" horizontalCenter="0" width="638"/>
+		<e:Button id="closeBtn" label="" x="635" y="-5" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="-16" source="zhaunsheng_zycs_bt2" horizontalCenter="0.5"/>
+		<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="-7" horizontalCenter="0.5" source="zyzl_zycs_gnyl"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="672" horizontalCenter="1" source="zyzl_zycs_di"/>
+		<e:Scroller id="scrollerItem" y="67" scaleX="1" scaleY="1" height="492" anchorOffsetY="0" horizontalCenter="1">
+			<e:List id="listItem" scrollEnabled="false" itemRendererSkinName="ZhuoYueWinItemEUI" useVirtualLayout="false">
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:TileLayout horizontalGap="16" verticalGap="3" paddingLeft="16" paddingTop="16" paddingRight="16" paddingBottom="16" requestedColumnCount="3"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="560" source="zyzl_zycs_yk" horizontalCenter="0.5"/>
+		<e:Image id="imgIcon" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="" horizontalCenter="0" verticalCenter="127"/>
+		<e:Label id="lbName" text="Feature Name" y="650" size="20" fontFamily="Times" textColor="0xFFFFFF" stroke="1" horizontalCenter="0"/>
+		<e:Image id="imgTitle" anchorOffsetX="0" anchorOffsetY="0" y="674" source="zyzl_zycs_title201_png" horizontalCenter="0"/>
+		<e:Scroller y="708" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scaleX="1" scaleY="1" scrollPolicyV="off" horizontalCenter="0.5">
+			<e:List id="listRewrd" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="ItemSkin" x="1">
+			
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingBottom="12" paddingRight="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnOk" y="829" horizontalCenter="0.5" label="Claim" skinName="BtnMin1_1"/>
+		<e:Image id="imgYyq" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" y="818" source="lilian_zycs_ylq"/>
+		<e:Label id="lbGuaQia" text="Unlock after Ethereal Realm FX" y="847" size="20" fontFamily="Times" textColor="0xFFFFFF" stroke="1" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

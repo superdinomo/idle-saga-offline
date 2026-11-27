@@ -1,0 +1,23 @@
+<e:Skin class="Act20_1RewardViewWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-50">
+		<e:Image y="0" x="0"  source="jsdd_zycs_djyl_png"/>
+		<e:Scroller scrollPolicyH="off" height="118" horizontalCenter="0.5" y="125">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout gap="24" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+				</e:layout>
+
+				<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbGoto" text="Tap blank space to quit" y="312" fontFamily="Times" size="24" textColor="0xffffff" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

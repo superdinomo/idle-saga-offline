@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act6RewarWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group id="group" width="720" height="1280" horizontalCenter="0" verticalCenter="0" touchChildren="false" touchEnabled="false">
+		<e:Group id="groupMc" x="361" y="477" scaleX="1" scaleY="1"/>
+		<e:Image y="474" source="hddt_zycs_gxhd" x="66"/>
+		<e:Scroller scrollPolicyH="off" horizontalCenter="0" verticalCenter="35">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:HorizontalLayout gap="30" paddingLeft="30" paddingRight="30" paddingTop="30" paddingBottom="30"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="Tap blank space to quit" y="773" fontFamily="Times" size="24" textColor="0xffffff" horizontalCenter="0"/>
+
+
+
+
+	</e:Group>
+</e:Skin>

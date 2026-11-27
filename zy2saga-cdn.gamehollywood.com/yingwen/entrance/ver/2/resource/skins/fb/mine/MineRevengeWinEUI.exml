@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineRevengeWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586bde6cc9"/>
+	<e:Group horizontalCenter="0" verticalCenter="-34">
+	<e:Image y="0" source="sjhj_zycs_di_jpg" horizontalCenter="0"/>
+		<e:Image y="170" fillMode="scale" width="475" source="zs_zycs_fengexian" x="39"/>
+		<e:Button id="closeBtn0" label="" x="468" y="-3" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="12" source="sjhj_zycs_fc" horizontalCenter="0"/>
+		<e:Image id="icon" x="45" y="76" source="mianui_zycs_zhanshi0" visible="false"/>
+			<e:List id="rewardList" itemRendererSkinName="ItemSkin" y="227" x="197">
+			<e:layout>
+				<e:HorizontalLayout gap="12"/>
+			</e:layout>
+			</e:List>
+		<e:Label id="robName" text="0" size="20" fontFamily="Times" x="64" y="83" textColor="0xe5d3b5"/>
+		<e:Label id="powerTxt" text="0" size="20" fontFamily="Times" x="64" y="109" textColor="0xff9b0f"/>
+		<e:Label id="timeTxt" text="0" size="20" fontFamily="Times" x="55" y="189" textColor="0xe5d3b5"/>
+		<e:Label text="Loot Resources:" size="20" fontFamily="Times" x="55" y="256" textColor="0xe5d3b5"/>
+		<e:Label text="Successful Revenge allows you to take 2x resources and your deeds will be announce in the whole server!" size="20" fontFamily="Times" y="333" textColor="0x23ca23" width="477" wordWrap="true" horizontalCenter="0" textAlign="center"/>
+	<e:Button id="revengeBtn" skinName="BtnMin1_1" y="375" x="210" label="Revenge"/>
+	</e:Group>
+</e:Skin>

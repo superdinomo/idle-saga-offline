@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultCreateRoleEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="600">
+	<e:Group x="0" y="0">
+		<e:Group id="groupGoToNewRole" y="0" anchorOffsetY="0" anchorOffsetX="0" x="0" width="518" height="266">
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+			<e:Image x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="js_zycs_met_png"/>
+			<e:Button id="btnGotoRole" y="183" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_17" icon="anz_zycs_qwjh" label="First Top-up" x="170"/>
+		</e:Group>
+		<e:Component id="resultMyBig" y="268" skinName="ResultMyBigEUI" x="14"/>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

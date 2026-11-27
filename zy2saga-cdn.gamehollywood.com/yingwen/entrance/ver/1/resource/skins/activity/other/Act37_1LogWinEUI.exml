@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act37_1LogWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group id="group" width="650" height="597" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="public_zycs_dikuang" width="650" height="597" scale9Grid="74,59,37,17" anchorOffsetX="0"
+		         anchorOffsetY="0"  y="0" horizontalCenter="0"/>
+		<e:Image y="55" width="561" height="391" source="public_zycs_tsk1" scale9Grid="22,52,20,12" anchorOffsetY="0" horizontalCenter="5.5" anchorOffsetX="0"/>
+		<e:Button id="closeBtn0" label="" x="564" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di" />
+		<e:Image id="imgTitle" y="12" horizontalCenter="0"  source="qqsh_zycs_zsjl"/>
+		<e:Image y="464" anchorOffsetY="0" source="role_zycs_tb2" horizontalCenter="0.5"  width="634"/>
+		<e:TabBar dataProvider="{viewStack1}" id="tab1" selectedIndex="0" itemRendererSkinName="BtnTab3_aZYCSSkin"
+		          horizontalCenter="0" y="479">
+			<e:layout>
+				<e:HorizontalLayout gap="57" />
+			</e:layout>
+		</e:TabBar>
+		<e:ViewStack id="viewStack1" x="56" y="63" anchorOffsetX="0" width="540" anchorOffsetY="0" height="380" selectedIndex="0">
+			<e:Group name="Send Record" id="groupAttr1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="0" width="540" height="380">
+				<e:Scroller y="0" scrollPolicyH="off" height="380" width="540" x="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:List id="list1" itemRendererSkinName="Act37_1LogWinItemEUI">
+					<e:layout>
+					<e:VerticalLayout gap="0"/>
+					</e:layout>
+					<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+		<e:Group name="Receive Record" id="groupAttr2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="0" width="540" height="380">
+				<e:Scroller y="0" scrollPolicyH="off" height="380" width="540" x="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:List id="list2" itemRendererSkinName="Act37_1LogWinItemEUI">
+					<e:layout>
+					<e:VerticalLayout gap="0"/>
+					</e:layout>
+					<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:ViewStack>
+	</e:Group>
+</e:Skin>

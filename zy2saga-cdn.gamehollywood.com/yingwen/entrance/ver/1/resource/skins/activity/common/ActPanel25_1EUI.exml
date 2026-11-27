@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel25_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="10" y="38" source="zscj_zycs_bg_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Label y="240" text="Time Remain:" fontFamily="Times" size="18" x="34" lineSpacing="10" textColor="0xffffff"/>
+	<e:Label id="date" y="240" text="0" fontFamily="Times" size="18" x="164" lineSpacing="10" textColor="0x5AC832"/>
+	<e:Label id="lbLog" y="240" text="Drawing Record" fontFamily="Times" size="18" lineSpacing="10" textColor="0xFFFFFF" x="577"/>
+	<e:Component id="item0" x="340" y="314" skinName="ActItem25_1EUI"/>
+	<e:Component id="item1" x="508" y="314" skinName="ActItem25_1EUI"/>
+	<e:Component id="item2" x="508" y="462" skinName="ActItem25_1EUI" currentState="cur2" width="206" height="241"/>
+	<e:Component id="item3" x="508" y="657" skinName="ActItem25_1EUI"/>
+	<e:Component id="item4" x="340" y="657" skinName="ActItem25_1EUI"/>
+	<e:Component id="item5" x="172" y="657" skinName="ActItem25_1EUI"/>
+	<e:Component id="item6" x="4" y="657" skinName="ActItem25_1EUI"/>
+	<e:Component id="item7" x="4" y="461" skinName="ActItem25_1EUI" currentState="cur2" width="206" height="241"/>
+	<e:Component id="item8" x="4" y="314" skinName="ActItem25_1EUI"/>
+	<e:Component id="item9" x="172" y="314" skinName="ActItem25_1EUI"/>
+	<e:Button id="rewardBtn" skinName="BtnMin5" icon="hddt_zycs_kscj" y="551" x="239"/>
+	<e:Image y="490" x="328" source="zycs_320002"/>
+	<e:Label id="LbConsume" y="498" text="888" fontFamily="Times" size="20" textColor="0xAFAAA0" textAlign="left" touchEnabled="false" x="365"/>
+	<e:Label id="lbCount" y="526" text="Attempts Remain: 3" fontFamily="Times" size="20" lineSpacing="10" textColor="0xFFFFFF" horizontalCenter="0"/>
+	<e:Group id="groupDes" y="929" horizontalCenter="0">
+		<e:Image y="0" x="0" scaleX="1" scaleY="1" source="hddt_zycs_di" width="588"/>
+		<e:Group y="7" horizontalCenter="0">
+			<e:Label id="lbDes" y="0" text="Top-up $10 for extra attempts" fontFamily="Times" size="24" x="0" lineSpacing="10" textColor="0xFFFFFF"/>
+			<e:Label y="0" text="" fontFamily="Times" size="24" x="261" lineSpacing="10" textColor="0xFFFFFF" id="lbChong"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Label text="Drawing spending won’t be counted in diamond spending event" y="993" size="20" textAlign="left" fontFamily="Times" textColor="0x918e8a" horizontalCenter="17"/>
+	<e:Image y="987" fillMode="scale" touchEnabled="false" x="76" source="jh_zycs_xz"/>
+</e:Skin>

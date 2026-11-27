@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleUpLevelTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" height="56" width="400">
+	<w:Config id="1586b36a128"/>
+	<e:Group id="groupMC" width="0" height="0" y="36" horizontalCenter="0"/>
+	<e:BitmapLabel id="bitLevel" y="0" font="lsnum_fnt" text="e10c" letterSpacing="-10" horizontalCenter="0" scaleX="0.8" scaleY="0.8"/>
+</e:Skin>

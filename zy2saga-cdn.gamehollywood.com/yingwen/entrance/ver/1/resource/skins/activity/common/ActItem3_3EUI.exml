@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem3_3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="507" height="162">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_k2_png"/>
+	<e:Label id="labelDesc" text="Reach XXX points to claim" x="33" fontFamily="Times" size="24" y="8" textAlign="left" textColor="0xcdc8be"/>
+	<e:Scroller x="18" scrollPolicyH="off" scrollPolicyV="off" y="37">
+		<e:List id="listAward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="12" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			
+				
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="359" y="70" label="Claim" skinName="BtnMin1_2mid"/>
+	<e:Button id="btnHighDian" x="359" y="70" label="Insufficient Points" skinName="BtnMin1_2mid" enabled="false"/>
+	<e:Image id="imgYLQ" x="363" source="public_zycs_ylq" verticalCenter="14"/>
+</e:Skin>

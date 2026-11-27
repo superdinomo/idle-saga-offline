@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MeiRiFbItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        >
+	<w:Config id="1586bf85aa4" />
+	<e:Image id="imgBg" x="0" y="0" touchEnabled="false" source="fb_zycs_mr10003_jpg"/>
+	<e:Component id="actDouble" touchEnabled="false" y="8" x="232" skinName="ActDoubleEUI"/>
+	<e:Image id="imgDec" x="417" y="18" touchEnabled="false" source="fb_zycs_jb"/>
+	<e:Group id="groupTake" x="13" y="116">
+		<e:Image x="0" y="0" touchEnabled="false" source="fb_zycs_zgjl"/>
+		<e:Image id="imgIcon" x="5" y="28" touchEnabled="false" source="zycs_320001"/>
+		<e:Label id="lbTake" text="0" size="22" fontFamily="Times" x="41" y="34" textColor="0xC0B8A1"/>
+	</e:Group>
+	<e:Label id="lbDec" text="DescriptionertfEGGEGEWGWAGWEGWGWGWEAGWEGWEGWEGQF" size="22" fontFamily="Times" x="16" textColor="0xC0B8A1" width="376" bottom="85"/>
+	<e:Group id="groupOperation" x="371" y="19">
+		<e:Label id="lbCount" text="Challenge Times Today 1/1" size="22" fontFamily="Times" y="134" textColor="0xC0B8A1" textAlign="right" width="293" right="0"/>
+		<e:Scroller y="-4" scaleX="0.6" scaleY="0.6" x="145">
+			<e:List id="list" currentState="disabled" useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			
+				
+				
+				
+				
+			
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupConsume" x="168" y="54">
+			<e:Image id="imgConsume" x="0" y="0" touchEnabled="false" source="zycs_320002"/>
+			<e:Label id="lbConsume" text="20" size="22" fontFamily="Times" x="36" y="6" textColor="0xC0B8A1"/>
+		</e:Group>
+		<e:Button id="btnSaoDang" y="88" x="156" label="Raid" width="97" height="39" skinName="BtnMin1_1mid"/>
+		<e:Button id="btnSend" y="88" x="156" label="Challenge" width="97" height="39" skinName="BtnMin1_1mid"/>
+	</e:Group>
+	<e:Button id="btnHelp" x="189" y="9" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Group id="groupOpenDec" x="417" y="77">
+		<e:Image touchEnabled="false" source="public_zycs_jx1" scale9Grid="17,3,105,24" horizontalCenter="0" width="222" top="0" bottom="0"/>
+		<e:Label id="lbGuan" text="Clear Stage XX to unlock" size="22" fontFamily="Times" textAlign="center" width="231" x="0" y="4" textColor="0xf01414"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem3_3TaskEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="158" height="124">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" source="hddt_zycs_k1"/>
+	<e:Label id="labelDesc" text="Talent Dung. (2/2)" fontFamily="Times" size="18" y="15" textAlign="left" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Label id="labelHighdian" text="Bonus Points:20" fontFamily="Times" size="18" y="42" textAlign="left" horizontalCenter="0.5" textColor="0xe3d7be"/>
+	<e:Button id="btnGo" y="71" label="Go" horizontalCenter="0" skinName="BtnMin1_1asmall"/>
+	<e:Button id="btnGet" y="71" label="Claim" horizontalCenter="0" skinName="BtnMin1_1small"/>
+	<e:Image id="imgYLQ" y="76" source="lilian_zycs_ylq1" horizontalCenter="0"/>
+</e:Skin>

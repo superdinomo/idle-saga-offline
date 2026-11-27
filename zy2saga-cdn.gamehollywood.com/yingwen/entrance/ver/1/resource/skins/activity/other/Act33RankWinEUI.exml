@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act33RankWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0"  source="hddt_zycs_dwxbpm_jpg"/>
+		<e:Image id="imgTitle" y="14" horizontalCenter="0.5"  source="qqsh_zycs_xbpm"/>
+		<e:Button id="closeBtn" label="" x="463" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Scroller scrollPolicyH="off" height="465" anchorOffsetY="0" x="18" y="114" anchorOffsetX="0" width="510">
+			<e:List id="list1" itemRendererSkinName="Act31RankWinItemEUI" y="-1">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	
+
+		<e:Label y="82" text="Ranking" fontFamily="Times" size="20" x="58" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Info" fontFamily="Times" size="20" x="215" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Rewards" fontFamily="Times" size="20" x="414" textColor="0xFF9B0F" />
+		<e:Label id="lbRank" text="My Rank: " y="599" size="24" textAlign="center" fontFamily="Times" x="101" textColor="0xe3d7be" />
+		<e:Label id="lbScore" text="My Points: " y="599" size="24" textAlign="center" fontFamily="Times" x="318" textColor="0xe3d7be" />
+		<e:TabBar dataProvider="{viewStack1}" id="tab1" selectedIndex="0" itemRendererSkinName="BtnTab3_aZYCSSkin"
+		          horizontalCenter="0.5" y="616">
+			<e:layout>
+				<e:HorizontalLayout gap="57" />
+			</e:layout>
+		</e:TabBar>
+		<e:Image id="imgXwyd" touchEnabled="false" y="209" source="public_zycs_xwyd_png" x="51" visible="false" />
+
+		<e:Label text="Ranking rewards will be issued via mail upon the end of the event" y="643" size="20" fontFamily="Times" horizontalCenter="2" textColor="0xe3d7be" width="494"/>
+	</e:Group>
+</e:Skin>

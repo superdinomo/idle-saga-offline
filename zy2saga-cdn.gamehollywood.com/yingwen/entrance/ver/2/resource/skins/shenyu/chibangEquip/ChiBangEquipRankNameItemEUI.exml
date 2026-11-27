@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChiBangEquipRankNameItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down,disabled" >
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" source="public_zycs_daojukuang_01" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="3"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="0.9" scaleY="0.9" source="public_zycs_xuanzhong" horizontalCenter="0" verticalCenter="0" visible.up="false"/>
+	<e:Image id="imgColor" anchorOffsetX="0" anchorOffsetY="0" y="18" source="public_zycs_pinzhi_02" scaleX="0.87" scaleY="0.87" horizontalCenter="0"/>
+	<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="lbName" text="T2 Flying Feather" size="18" fontFamily="Times" textColor="0xff9b0f" horizontalCenter="0.5" verticalCenter="2.5" width="80" textAlign="center" visible="false"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="85" source="mainui_zycs_hongdian" y="13"/>
+	<e:BitmapLabel id="bitlbLevel" y="23" text="r12" touchEnabled="false" font="tianmonum_fnt" letterSpacing="-3" x="22"/>	
+	
+</e:Skin>

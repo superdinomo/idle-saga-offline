@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act3_3WinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="440" height="45">
+	<w:Config id="1586bd49103"/>
+	<e:Label id="labelDesc" text="Clear X times of Talent Dungeon" fontFamily="Times" size="20" y="2" textAlign="left" textColor="0xffffff" x="4"/>
+	<e:Label id="labelHighdian" text="Bonus Points:20" fontFamily="Times" size="20" y="21" textAlign="left" textColor="0xe3d7be" right="83"/>
+	<e:Image id="imgYLQ" y="6" source="lilian_zycs_ylq1" x="361"/>
+	<e:Image source="jjc_zycs_fgx" width="100%" bottom="-1"/>
+</e:Skin>
