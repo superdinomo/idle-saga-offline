@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActDabiaoMaxItem3_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="118">
+	<e:Component id="item" currentState="sjian" skinName="ItemSkin" width="94" horizontalCenter="0" y="12"/>
+	<e:Group id="groupMc" width="0" height="0" horizontalCenter="0" verticalCenter="-7"/>
+	<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="-14"/>
+	<e:Image id="img" y="43" touchEnabled="false" pixelHitTest="true" source="jzhd_zycs_klq" horizontalCenter="0.5"/>
+	<e:Label id="lbCount" y="112" text="100" fontFamily="Times" size="20" lineSpacing="10" textAlign="center" horizontalCenter="0" textColor="0x13ee22"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="89" y="9"/>
+</e:Skin>

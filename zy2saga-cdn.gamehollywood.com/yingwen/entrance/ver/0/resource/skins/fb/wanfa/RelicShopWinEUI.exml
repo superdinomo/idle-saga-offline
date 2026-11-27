@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RelicShopWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group verticalCenter="-168" horizontalCenter="0">
+		<e:Image y="10" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Image y="22" source="hjbd_zycs_hjyj" x="228"/>
+		<e:Button id="closeBtn" label="" x="470" y="7" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Button id="sub1Btn" label="" x="171" y="259" skinName="Btn0Skin" icon="public_zycs_j"/>
+		<e:Image id="inputback" y="262" x="217" source="public_zycs_shurukuang" scale9Grid="42,4,29,17" anchorOffsetY="0" height="38"/>
+		<e:Label id="numLabel" x="227" y="267" restrict="0-9" width="100" height="28" text="0" size="20" verticalAlign="middle" textAlign="center" textColor="0xaf9b73"/>
+		<e:Component id="yuanPrice" y="139" skinName="PriceIconSkin" x="298"/>
+		<e:Component id="xianprice" y="175" skinName="PriceIconSkin" x="298"/>
+		<e:Component id="totalprice" y="303" skinName="PriceIconSkin" x="279"/>
+		<e:Button id="add10Btn" label="" x="386" y="259" skinName="Btn0Skin" icon="public_zycs_max"/>
+		<e:Button id="add1Btn" label="" x="338" y="259" skinName="Btn0Skin" icon="public_zycs_jia"/>
+		<e:Button id="sub10Btn" label="" x="108" y="259" skinName="Btn0Skin" icon="public_zycs_jians"/>
+		<e:Label id="lbName" text="0" y="229" size="20" fontFamily="Times" textColor="0xC80000" textAlign="center" horizontalCenter="-142.5"/>
+		<e:Label id="lbRuin" text="Time Remian:1M60S" y="214" size="20" fontFamily="Times" textColor="0xC80000" textAlign="center" left="238"/>
+		<e:Label text="You ran into a mysterious store during the exploration. You can purchase some valuable items here" y="82" size="20" fontFamily="Times" width="442" textColor="0x9D8764" x="58" textAlign="center"/>
+	<e:Button id="btnBuy" label="Buy" x="220" y="365" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" icon=""/>
+	<e:Label id="lbXianGou" text="0" x="377" y="393" size="20" fontFamily="Times" textColor="0xaf9b73"/>
+		<e:Label id="lbXianGou0" text="Total Price:" x="181" y="309" size="20" fontFamily="Times" textColor="0x9B8764"/>
+		<e:Label id="lbXianGou1" text="Single Price:" x="186" y="142" size="20" fontFamily="Times" textColor="0xf5e65a"/>
+	<e:Component id="consume1" y="133" x="86" scaleX="1" scaleY="1" skinName="ItemSkin" anchorOffsetX="0"
+	             touchEnabled="true" />
+		<e:Image y="152" width="95" x="293" height="2" source="boolRed_png"/>
+	</e:Group>
+</e:Skin>

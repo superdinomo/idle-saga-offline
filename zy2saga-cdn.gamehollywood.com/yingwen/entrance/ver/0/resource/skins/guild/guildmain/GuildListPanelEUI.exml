@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildListPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*" height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image touchEnabled="false" x="13" y="35" source="zhanmeng_zycs_bg_jpg" />
+	<e:Scroller width="678" x="21" y="78" height="941">
+		<e:List id="list" x="1" y="1" itemRendererSkinName="GuildListRenderEUI">
+			<e:layout>
+				<e:VerticalLayout gap="4" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

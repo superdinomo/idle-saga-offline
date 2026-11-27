@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBaoBuySendWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586bde6cc9"/>
+	<e:Group horizontalCenter="0" verticalCenter="-34">
+		<e:Label text="Total Red Packet Amount: " y="239" fontFamily="Times" size="20" x="133" textColor="0x998563"/>
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Image y="94" source="llcz_zycs_hb1" x="221"/>
+		<e:Image y="218" source="public_zycs_di01" horizontalCenter="0"/>
+		<e:Image y="15" source="czhb_zycs_pfhb" x="230"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label text="Players eligible to claim:" y="303" fontFamily="Times" size="20" x="159" textColor="0x998563"/>
+		<e:Label text="Total Red Packet Amount: " y="271" fontFamily="Times" size="20" x="159" textColor="0x998563"/>
+		<e:Label id="countTxt" text="0" y="306" fontFamily="Times" size="20" textColor="0xBCAF96" x="282"/>
+		<e:Component id="priceIcon" y="267" skinName="PriceIconSkin" x="282" scaleX="1" scaleY="1"/>
+	<e:Button id="buyBtn" y="364" skinName="BtnMin1_1" x="210" label="Send Red Packet"/>
+	<e:Label text="Red Packet" y="223.5" fontFamily="Times" size="20" textColor="0xff9b0f" x="257"/>
+	</e:Group>
+</e:Skin>

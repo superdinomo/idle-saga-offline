@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTipsGemItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="557">
+	<e:Group id="groupA" x="0" y="0">
+		<e:Image x="0" y="0" scale9Grid="23,4,51,26" source="zbxx_zycs_xj"/>
+		<e:Label id="lbAttrName" text=" Basic Stats" y="6" size="22" textColor="0xFF9B0F" fontFamily="Times" anchorOffsetY="0" left="10"/>
+		<e:List id="attrList0" itemRendererSkinName="EquipTipsGemAttrItemEUI" y="39" x="15">
+					
+			
+				<!--
+				
+				-->
+			
+		
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group id="groupB" y="0" right="0">
+		<e:Image x="219" y="0" scaleX="-1" scale9Grid="23,4,51,26" source="zbxx_zycs_xj"/>
+		<e:Label text="My Gear" y="6" size="22" textColor="0xFF9B0F" fontFamily="Times" anchorOffsetY="0" right="10"/>
+		<e:List id="attrList1" itemRendererSkinName="EquipTipsGemAttrItemEUI" y="39" right="18">
+						
+			
+				<!--
+				
+				-->
+			
+		
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkMyPkLogPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="896">
+	<e:Image x="0" y="0" height="896" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Scroller y="78" width="678" height="650" x="21">
+		<e:List id="listRank" itemRendererSkinName="HfpkMyPkLogItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="5"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

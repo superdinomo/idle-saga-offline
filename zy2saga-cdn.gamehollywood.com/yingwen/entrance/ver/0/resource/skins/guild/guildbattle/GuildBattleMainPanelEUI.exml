@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="34" touchEnabled="false" x="13" source="ldsz_zycs_bg2_jpg"/>
+
+
+
+	<e:Group x="29" y="42">
+		<e:Group x="0" y="0">
+			<e:Label id="lbTimeDec" text="Registration Countdown:" y="5" fontFamily="Times" size="24" x="0" textColor="0xf5e65a"/>
+			<e:Image y="0" touchEnabled="false" x="192" source="ldsz_zycs_sz"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbTime" text="00:00:00" y="4" fontFamily="Times" size="24" x="220" textColor="0xffffff"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnRan" y="75" icon="ldsz_zycs_pmjl" skinName="Btn0Skin" x="23"/>
+	<e:Button id="btnDaily" y="75" icon="ldsz_zycs_mrjl" skinName="Btn0Skin" x="118"/>
+	<e:Button id="btnRedBag" label="" y="163" skinName="Btn0Skin" icon="ldsz_zycs_hbjl" x="23"/>
+	<e:Component id="item0" y="97" skinName="GuildBattleMainItemEUI" x="258"/>
+	<e:Component id="item1" y="256" skinName="GuildBattleMainItemEUI" x="48"/>
+	<e:Component id="item2" y="256" skinName="GuildBattleMainItemEUI" x="470"/>
+	<e:Component id="item3" y="669" skinName="GuildBattleMainItemEUI" x="38"/>
+	<e:Component id="item4" y="669" skinName="GuildBattleMainItemEUI" x="259"/>
+	<e:Component id="item5" y="669" skinName="GuildBattleMainItemEUI" x="480"/>
+	<e:Label id="lbDec" text="Your guild has not registered or is qualified for the Territory War. You can only view the status or bet" y="1046" fontFamily="Times" size="20" textColor="0xf01414" width="612" horizontalCenter="0"/>
+</e:Skin>

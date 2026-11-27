@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattlePrelimPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="34" touchEnabled="false" source="ldsz_zycs_bg3_jpg" x="13"/>
+	<e:Image touchEnabled="false" y="227" x="59" source="ldsz_zycs_quan"/>
+	<e:Image touchEnabled="false" y="227" x="510" source="ldsz_zycs_quan"/>
+	<e:Image touchEnabled="false" y="87" x="78" source="ldsz_zycs_qz5"/>
+	<e:Image touchEnabled="false" y="87" x="528" source="ldsz_zycs_qz4"/>
+	<e:Image id="imgIcon" touchEnabled="false" y="79" horizontalCenter="0" source="ldsz_zycs_db1"/>
+	<e:Image touchEnabled="false" y="259" x="256" source="ldsz_zycs_di3"/>
+	<e:Image id="imgSR" touchEnabled="false" y="272" source="ldsz_zycs_s3" horizontalCenter="-80.5"/>
+	<e:Image id="imgName" touchEnabled="false" x="312" y="269" source="ldsz_zycs_na1"/>
+
+	<e:Image touchEnabled="false" y="374" source="ldsz_zycs_csdz" x="217"/>
+
+	<e:Component id="item0" y="453" skinName="GuildBattlePrelimItemEUI" x="12"/>
+	<e:Component id="item1" y="716" skinName="GuildBattlePrelimItemEUI" x="12"/>
+
+	<e:Group y="942" horizontalCenter="0">
+		<e:Group x="0" y="0">
+		<e:Label id="lbTimeDec" text="Registration Countdown:" y="5" fontFamily="Times" size="24" x="0" textColor="0xF5E65A"/>
+		<e:Image y="0" touchEnabled="false" x="192" source="ldsz_zycs_sz"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+		</e:Group>
+		<e:Label id="lbTime" text="00:00:00" y="4" fontFamily="Times" size="24" x="220" textColor="0xFFFFFF"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="10"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+</e:Skin>

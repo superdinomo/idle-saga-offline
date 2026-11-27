@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildShopPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="sOpen,sUnopen,sOpenBox"  width="720" height="1134">
+	<w:Config id="1574170a6d8" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="34" source="zhanmeng_zycs_di3_jpg"/>
+	<e:Image y="72" source="public_zycs_dk02" x="11" scale9Grid="87,21,524,15" height="138"/>
+	<e:Image id="imgBox" y="244" source="zhanmeng_zycs_bx_png" x="59"/>
+	<e:Label id="labelRecord1" text="0" y="102" size="20" fontFamily="Times" width="450" textAlign="center" x="135"/>
+	<e:Label id="labelRecord2" text="0" y="129" size="20" fontFamily="Times" width="450" textAlign="center" x="135"/>
+	<e:Image y="158" width="515" source="zs_zycs_fengexian" x="102"/>
+	<e:Label id="labelLog" text="More Record" x="522" y="167" size="20" fontFamily="Times" textColor="0x07F71B"/>
+	<e:Component id="item1" y="533" skinName="ItemSkin" currentState="guildShop" x="44"/>
+	<e:Component id="item2" y="406" skinName="ItemSkin" currentState="guildShop" x="103"/>
+	<e:Component id="item3" y="297" skinName="ItemSkin" currentState="guildShop" x="194"/>
+	<e:Component id="item4" y="219" skinName="ItemSkin" currentState="guildShop" x="312"/>
+	<e:Component id="item5" y="297" skinName="ItemSkin" currentState="guildShop" x="432"/>
+	<e:Component id="item6" y="406" skinName="ItemSkin" currentState="guildShop" x="523"/>
+	<e:Component id="item7" y="533" skinName="ItemSkin" currentState="guildShop" x="582"/>
+	<e:Component id="itemBox" x="312" y="460" skinName="ItemSkin" currentState="guildShop" visible.sOpen="false" visible.sUnopen="false"/>
+	<e:Image y="759" source="zhanmeng_zycs_zmbx" x="195"/>
+	<e:Image y="829" visible.sUnopen="false" source="qianghua_zycs_diwen2" x="142" height="103" scale9Grid="54,9,329,127"/>
+	<e:Label text="Chest is not unlocked" y="845" fontFamily="Times" size="24" textColor="0xff0000" textAlign="center" visible.sOpen="false" visible.sOpenBox="false" horizontalCenter="0"/>
+	<e:Label text="Unlock when the store reaches Lv.1" y="888" fontFamily="Times" size="24" textColor="0xff0000" visible.sOpen="false" visible.sOpenBox="false" horizontalCenter="0"/>
+	<e:Label id="labelUp" text="Go to Upgrade" y="943" fontFamily="Times" size="24" textColor="0x00ff00" textAlign="center" visible.sOpen="false" visible.sOpenBox="false" x="312"/>
+	<e:Label text="Contribution:" x="260" y="851" size="20" fontFamily="Times" textColor="0xaf9b73" visible.sUnopen="false" x.sOpen="288" y.sOpen="845" x.sOpenBox="292"/>
+	<e:Image y="841" x="360" visible.sUnopen="false" source="zycs_320005" x.sOpen="403" x.sOpenBox="404" y.sOpenBox="847"/>
+	<e:Label id="labelGXHave" text="0" x="402" y="851" size="20" fontFamily="Times" textColor="0xcdc8be" visible.sUnopen="false" x.sOpen="445" x.sOpenBox="445" y.sOpenBox="853" y.sOpen="847"/>
+	<e:Label text="Contribution Cost:" x="267" y="894" size="20" fontFamily="Times" textColor="0xaf9b73" visible.sUnopen="false" x.sOpen="249" y.sOpen="888" x.sOpenBox="251"/>
+	<e:Image y="884" x="360" visible.sUnopen="false" source="zycs_320005" x.sOpen="403" x.sOpenBox="404" y.sOpenBox="889"/>
+	<e:Label id="labelGXCost" text="0" x="402" y="894" size="20" fontFamily="Times" textColor="0xcdc8be" visible.sUnopen="false" x.sOpen="445" x.sOpenBox="445" y.sOpen="890"/>
+	<e:Button id="btnOpen" label="Unlock Chest" y="977" visible.sUnopen="false" x="285" skinName="BtnMin1_2"/>
+	<e:Label id="labelLeftCount" text="0" y="1055" size="20" fontFamily="Times" textColor="0xD3D1BB" textAlign="center" visible.sUnopen="false" width="673" x="24"/>
+</e:Skin>

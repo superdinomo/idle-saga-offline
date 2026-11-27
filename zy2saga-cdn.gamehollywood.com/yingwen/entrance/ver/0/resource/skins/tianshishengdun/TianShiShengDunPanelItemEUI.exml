@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TianShiShengDunPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="93" height="109">
+	<e:Image id="imgBg" horizontalCenter="0" source="jlyj_zycs_yx3"/>
+	<e:Image id="imgIcon" source="zuji_zycs_sxd" width="65" height="65" horizontalCenter="1" verticalCenter="-6"/>
+	<e:Label id="lbCount" text="Currently Owned: 10" y="109" size="16" fontFamily="Times" horizontalCenter="0" visible="false"/>
+	<e:Label id="lbshiyong" text="0/100" y="80" size="20" fontFamily="Times" horizontalCenter="0.5"/>
+		<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="0" top="0" visible="false"/>
+</e:Skin>

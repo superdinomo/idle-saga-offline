@@ -1,0 +1,24 @@
+<e:Skin class="ShenShouSRPreviewWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="720" height="1280">
+	<w:Config id="1586b1383e3" />
+
+	<e:Group horizontalCenter="0" verticalCenter="0" width="720" height="882">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Image id="title" y="24" source="btz_zycs_sscj_png" horizontalCenter="0.5"/>
+		<e:Button id="closeBtn" label="" x="639" y="13" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	<e:Scroller id="scroller" height="769" y="72" x="21" width="678" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ShenShouSRPreviewItemEUI" currentState="disabled" useVirtualLayout="true">
+			<e:layout>
+				<e:VerticalLayout gap="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+			 </e:Group>
+	<!--<e:Image x="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神兽\S-神兽-获取-抽奖预览.jpg" locked="true" visible="false"/>-->
+</e:Skin>

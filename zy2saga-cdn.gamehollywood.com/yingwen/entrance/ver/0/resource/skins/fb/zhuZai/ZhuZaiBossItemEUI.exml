@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuZaiBossItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="342" height="362">
+	<w:Config id="1609250cfe3"/>
+	<e:Image id="bg" y="3" x="0" anchorOffsetX="0" anchorOffsetY="0" source="zz_zycs_k1"/>
+	<e:Image y="58" source="zz_zycs_gwtxk" x="97"/>
+	<e:Image id="imgHead" anchorOffsetX="0" anchorOffsetY="0" source="" verticalCenter="-60.5" horizontalCenter="3.5"/>
+	<e:Label id="lbLv" y="14" text="0" fontFamily="Times" size="24" lineSpacing="0" textColor="0xe6dcb8" horizontalCenter="0"/>
+	<e:Label id="lbPaiMin" y="223" text="Previous Ranking" fontFamily="Times" size="18" lineSpacing="0" textColor="0x00FF00" x="196"/>
+	<e:List id="list" y="249" height="95" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="287" anchorOffsetY="0" x="28">
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	<e:Image id="imgState" y="100" anchorOffsetY="0" source="zhanmeng_zycs_yjs" x="115"/>
+	<e:Image y="198" anchorOffsetY="0" source="zz_zycs_jlyl" x="122"/>
+	<e:Image y="167" touchEnabled="false" anchorOffsetX="0" width="142" source="public_zycs_jx1" x="100"/>
+	<e:Label id="lbBossName" y="169" text="Boss Name" fontFamily="Times" size="24" lineSpacing="0" textColor="0xe6dcb8" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

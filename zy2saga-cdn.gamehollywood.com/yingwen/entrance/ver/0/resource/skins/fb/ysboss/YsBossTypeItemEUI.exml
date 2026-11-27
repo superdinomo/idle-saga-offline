@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsBossTypeItemEUI" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="126" height="131">
+	<e:Image x="8" y="0" source="ysmj_zycs_xz" visible.up="false"/>
+
+
+	<e:Image id="imgIcon" x="0" y="9" source="ysmj_zycs_mj1"/>
+
+
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="7" x="102"/>
+
+
+
+
+
+</e:Skin>

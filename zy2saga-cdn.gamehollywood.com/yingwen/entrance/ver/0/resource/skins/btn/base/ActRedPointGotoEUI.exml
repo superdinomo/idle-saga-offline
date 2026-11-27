@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActRedPointGotoEUI"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="129" height="40">
+	<e:Image id="redPoint"  source="public_zycs_huo" verticalCenter="0" x="2"/>
+	<e:Label id="lbDesc" text="Rank Event" x="39" y="9" size="22" fontFamily="Times" textColor="0x5ac832"/>
+</e:Skin>

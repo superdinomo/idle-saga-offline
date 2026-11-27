@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FirstRechargeVeryDayWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image x="0" y="0" touchEnabled="false" source="sc_zycs_mrscbg_png"/>
+		<e:Group id="groupMc" height="0" y="369" width="0" horizontalCenter="0">
+			<e:Group id="offsMc" width="0" height="0"/>
+		</e:Group>
+		<e:Button id="closeBtn" label="" x="612" y="160" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:TabBar id="tabList" x="192" y="348" itemRendererSkinName="FirstRechargeVeryDayTabEUI">
+			<e:layout>
+			<e:HorizontalLayout gap="-6"/>
+			</e:layout>
+			
+			
+				
+				
+				
+			
+			
+		</e:TabBar>
+		<e:Scroller y="438" anchorOffsetX="0" horizontalCenter="-3.5" width="507">
+			<e:List id="list" itemRendererSkinName="ItemSkin" y="-1">
+			
+				
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:HorizontalLayout gap="36" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbDesc" text="Top-up for $6 in total to gain immediately" y="608" size="24" fontFamily="Times" textColor="0xE3D7BE" width="475" textAlign="center" x="123"/>
+		<e:Button id="btnRecharge" label="Top Up" y="638" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_17" x="271"/>
+		<e:Button id="btnGetAward" label="Claim" y="638" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_17" x="271"/>
+		<e:Image id="imgYlq" touchEnabled="false" source="fl_zycs_ylq" x="299" y="634"/>
+	</e:Group>
+</e:Skin>

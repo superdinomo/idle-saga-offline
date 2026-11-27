@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WanMoRankingItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,sure"  width="698" height="45">
+	<e:Image id="imgbg" width="100%" x="0" scale9Grid="7,8,43,49" source="zs_zycs_fengexian" y="43"/>
+	<e:Label id="lbRankingNum" text="0" x="52" anchorOffsetX="0" width="42" textAlign="center" fontFamily="Times" size="20" textColor="0xcdc8be" y="13"/>
+	<e:Label id="lbname" text="Miracle xXMoo MoralityXx" textAlign="center" fontFamily="Times" size="20" textColor="0xf5e65a" y="13" x="261"/>
+	<e:Label id="lbLayer" text="0" anchorOffsetX="0" width="240" textAlign="center" fontFamily="Times" size="20" textColor="0xcdc8be" y="13" x="458"/>	
+</e:Skin>

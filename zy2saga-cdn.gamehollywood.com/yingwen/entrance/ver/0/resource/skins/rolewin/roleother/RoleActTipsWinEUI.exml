@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleActTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" >
+	<w:Config id="1586b13ea96" />
+	<e:Image id="backGround" y="0" scaleX="1" scaleY="1" x="0" width="100%" height="100%" source="jiadian_zycs_di" alpha="0.7"/>
+	<e:Group id="group" height="644" width="720" touchEnabled="false" touchChildren="true" y="209" horizontalCenter="0">
+		<e:Image id="imgBg" x="0" y="42" anchorOffsetX="0" anchorOffsetY="0" source="zs_zycs_zscg_png"/>
+		<e:Image id="imgBg1" x="287" y="10" anchorOffsetX="0" anchorOffsetY="0" source="zs_zycs_fz_png"/>
+		<e:Group id="groupMc" width="0" height="0" x="0" y="0"/>
+		<e:Image id="imgTitle" source="xjs_zycs_xjs" anchorOffsetX="112" anchorOffsetY="65" x="180" y="61"/>
+		<e:Image id="imgIcon" x="193" y="-110" anchorOffsetX="0" anchorOffsetY="0" source="zs_zycs_role123_png"/>
+		<e:Button id="closeBtn0" label="" x="660" y="34" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:Image id="imgcg1" y="142" anchorOffsetX="0" anchorOffsetY="0" alpha="1" source="xjs_zycs_jsjs" x="15"/>
+		<e:Button id="btnJs" label="Create Character" icon="anz_zycs_qwjs" y="286" skinName="BtnMin1_14" x="71"/>
+	</e:Group>
+</e:Skin>

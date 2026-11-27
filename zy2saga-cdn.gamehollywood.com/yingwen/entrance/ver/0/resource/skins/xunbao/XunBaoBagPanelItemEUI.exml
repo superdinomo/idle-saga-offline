@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoBagPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="94" height="94" >
+	<e:Image id="imgBg" source="public_zycs_daojukuang_01" y="0.67"/>
+	<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" width="94" height="94" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgSelect" anchorOffsetX="0" anchorOffsetY="0" source="xb_zycs_gou" horizontalCenter="0" verticalCenter="0"/>
+
+</e:Skin>

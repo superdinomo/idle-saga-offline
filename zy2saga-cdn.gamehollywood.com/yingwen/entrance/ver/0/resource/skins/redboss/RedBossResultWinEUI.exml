@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="win,lost" >
+	<w:Config id="15d0e19cdf1"/>
+	<e:Group id="group" width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="0" source="js_zycs_qz_png" horizontalCenter.lost="0" source.lost="js_zycs_qzh_png"/>
+		<e:Image id="imghyh" y="321" source="js_zycs_zjzl" visible.win="false" horizontalCenter="0"/>
+		<e:Image id="imgTitle" y="131" anchorOffsetY="0" source="js_zycs_js_png" x="237"/>
+		<e:Button id="closeBtn0" label="" x="510" y="924" skinName="Btn0Skin" icon="public_zycs_lkfb" />
+		<e:Label id="lbdesc" text="" x="110" y="353" size="22" textColor="0xDFD1B5" fontFamily="Times" />
+		<e:Button id="closeBtn" x="246" y="924" anchorOffsetX="0"
+		          anchorOffsetY="0"  icon="" skinName="BtnMin1_6" label="Confirm"/>
+		<e:Scroller height="368" y="470" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible.lost="false">
+			<e:List id="list" itemRendererSkinName="ItemSkin" height="392">
+			<e:layout>
+				<e:TileLayout horizontalGap="28" verticalGap="43" requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingBottom="12" paddingTop="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgwptitle" x="110" y="420"  source="js_zycs_hdwp" visible.lost="false"/>
+	</e:Group>
+	<e:Component id="resultCreateRole" y="455" skinName="ResultCreateRoleEUI" horizontalCenter="0" visible.win="false"/>
+</e:Skin>

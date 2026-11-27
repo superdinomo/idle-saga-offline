@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QiYueItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="134" width="676">
+	<e:Image x="0" y="0" touchEnabled="false" scale9Grid="41,12,250,61" source="emqy_zycs_bg1_jpg"/>
+	<e:Label id="titleTF" text="Raise Fairy Training to Lv.50" x="170" size="24" fontFamily="Times" textAlign="left" textColor="0xe5d3b5" y="55" width="331"/>
+	<e:Label id="progressTF" text="（20/50）" size="24" fontFamily="Times" textAlign="center" textColor="0xe5d3b5" y="17" horizontalCenter="243"/>
+	<e:Button id="btnGet" x="507" skinName="BtnMin1_1" label="Claim" y="51"/>
+	<e:Button id="btnTaget" x="507" label="Go Now" y="51" skinName="BtnMin1_2"/>
+	<e:Image id="imgYlq" x="520" source="fl_zycs_ylq" y="41"/>
+	<e:DataGroup id="list" itemRendererSkinName="ItemSkin" currentState="disabled" useVirtualLayout="false" x="30" y="20">
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+		
+			
+				
+			
+		
+		</e:DataGroup>
+</e:Skin>

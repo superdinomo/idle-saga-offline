@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RelicItemEUI" currentState="h1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        states="h1,h2" width="189">
+	<e:Group id="group1" width="189" height="200" x="0" y="0" visible.h2="false" anchorOffsetX="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" scaleX="1" scaleY="1"  source="hjbd_zycs_gwk"/>
+		<e:Image id="imgBossIcon" x="51" y="11" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"  source=""/>
+		<e:Image id="imgDesc" y="107" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"
+		         scaleY="1"  source="hjbd_zycs_ktz" horizontalCenter="0"/>
+		<e:Label id="lbDesc" text="0" x="-12" y="144" fontFamily="Times" size="20" textAlign="center" anchorOffsetX="0"
+		         width="214" textColor="0x46a732" scaleX="1" scaleY="1"  textColor.h1="0xf01414"/>
+		<e:Image id="imgGuide" anchorOffsetX="0" anchorOffsetY="0" y="5" x="10" scaleX="1" scaleY="1" source="" x.h1="40" width.h1="107" height.h1="102"/>
+	</e:Group>
+	<e:Group id="group2" width="189" height="200" x="0" y="0" visible.h1="false" anchorOffsetX="0">
+		<e:Image x="-7" y="-5" source="hjbd_zycs_yjk2"/>
+		<e:Image id="imgYiji" x="0" y="4"  source="hjbd_zycs_yjk1"/>
+		<e:Label id="lbTiemr" text="0" x="16" y="144" size="20" fontFamily="Times" width="157" textAlign="center" scaleX="1"
+		         scaleY="1" textColor="0xf41111" anchorOffsetX="0"  textColor.h2="0x5ac832"/>
+	</e:Group>
+</e:Skin>

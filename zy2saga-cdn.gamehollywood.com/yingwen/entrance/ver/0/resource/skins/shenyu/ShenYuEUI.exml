@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYuEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<w:Config id="1586b13ea96"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3"/>
+	<e:TabBar id="tab" y="888" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="BtnTab8ZYCSSkin" horizontalCenter="0">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="35"/>
+		</e:layout>
+	</e:TabBar>
+	<!--<e:Image y="-47" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神羽\S-神羽-进化.jpg" locked="true" visible="false"/>-->
+</e:Skin>

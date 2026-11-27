@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WxYqhlEggSubItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Component id="itemA" skinName="ItemSkin" y="0" x="0"/>
+	<e:Image id="imgGet" source="lilian_zycs_ylq1" x="10" y="31"/>
+</e:Skin>

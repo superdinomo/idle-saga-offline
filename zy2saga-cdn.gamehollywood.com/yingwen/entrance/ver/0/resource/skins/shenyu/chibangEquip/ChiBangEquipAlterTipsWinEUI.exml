@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChiBangEquipAlterTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group id="group" width="720" height="1280" horizontalCenter="0" verticalCenter="0" touchChildren="false" touchEnabled="false">
+		<e:Image x="193" y="495" source="mianui_zycs_xgn"/>
+		<e:Image source="cbzb_zycs_zhcg" y="692" x="292"/>
+		<e:Group id="groupMc" x="360" y="651"/>
+		<e:Component id="item" skinName="ItemSkin" currentState="name" touchEnabled="true" y="608" horizontalCenter="0" scaleX="0.75" scaleY="0.75" width="94" height="117"/>
+	</e:Group>
+</e:Skin>

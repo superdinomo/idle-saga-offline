@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act62WarehouseWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" source="public_zycs_dikuang" scale9Grid="83,62,16,9" x="0" width="553" height="858"/>
+		<e:Image y="-4" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="147"/>
+		<e:Image y="13" source="hddt_zycs_lueduotitle" horizontalCenter="0"/>
+		<e:Button id="closeBtn0" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="0"/>
+		<e:Scroller y="95" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" maxWidth="560" x="28" width="493" height="703">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout horizontalGap="5"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbEmpty" fontFamily="黑体" size="20" text="Nothing" textAlign="center" textColor="0x13EE22" horizontalCenter="0" verticalCenter="0"/>
+
+
+
+	</e:Group>
+</e:Skin>

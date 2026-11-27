@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenQiPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:ViewStack id="viewStack" y="0" selectedIndex="0" x="0"/>
+		<e:TabBar id="tab" selectedIndex="0" itemRendererSkinName="BtnTab3ZYCSSkin" horizontalCenter="0" y="1020">
+			
+				
+					
+					
+					
+				
+			
+			<e:layout>
+			<e:HorizontalLayout gap="7"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultGuildBattleItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="66" width="488">
+	<w:Config id="15d0e19cdf1" />
+	<e:Image id="imgRank" x="0" y="0" source="ldsz_zycs_n1b"/>
+	<e:Image id="imgIconBg" x="82" y="7" source="ldsz_zycs_zy1k"/>
+	<e:Image id="imgIcon" x="80" y="0" source="mianui_zycs_zhanshi0" scaleX="0.7" scaleY="0.7"/>
+	<e:Image id="imgMVP" x="328" source="ldsz_zycs_mvp" y="10"/>
+	<e:Label id="lbName" text="Miracle xXMoo MoralityXx" y="11" fontFamily="Times" size="20" textColor="0x13ee22" horizontalCenter="10"/>
+	<e:Label id="lbScore" text="Points" fontFamily="Times" size="20" textColor="0xff9b0f" horizontalCenter="10" y="34"/>
+	<e:Label id="lbXwyd" text="Vacant" fontFamily="Times" size="20" textColor="0xFF9B0F" y="23" x="214"/>
+</e:Skin>

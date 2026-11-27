@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem42_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="336" height="205" >
+	<w:Config id="1586bdedfef"/>
+	<e:Image id="imgBg" x="0" y="0" source="sc_zycs_gmd"/>
+	<e:Label id="lbName" text="Phy" y="11" fontFamily="Times" size="24" textColor="0xBCAF96" horizontalCenter="31" width="242" textAlign="center" height="24"/>
+	<e:Label id="lbDesc" text="0" y="53" fontFamily="Times" size="24" textColor="0xBCAF96" horizontalCenter="54"/>
+	<e:Group id="groupDiscount" width="100%" height="100%">
+		<e:Image id="imgDiscountBg" source="store_zycs_tab1"/>
+		<e:Group width="60" height="68">
+		<e:BitmapLabel id="bmpLabelDiscount" font="shopnum1_fnt" text="1.5z" horizontalCenter="0" verticalCenter="0" rotation="-45" letterSpacing="-3"/>
+		</e:Group>
+	</e:Group>
+	<e:Component id="item" x="21" skinName="ItemSkin" y="74"/>
+	<e:Button id="btnBuy" name="buy" skinName="BtnMin1_2mid" y="142" label="Purchase" scaleX="1" scaleY="1" x="162"/>
+	<e:Group id="groupOld" y="82" x="166" scaleX="0.8" scaleY="0.8">
+		<e:Component id="priceIconOld" skinName="PriceIconSkin" horizontalCenter="0"/>
+		<e:Image source="zhuansheng_zycs_rx" scaleX="0.1" scaleY="0.5" width="100%" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Component id="priceIcon" y="111" scaleX="0.8" scaleY="0.8" x="166" skinName="PriceIconSkin"/>
+	<e:Label id="lbMax" text="Maxed out" y="157" fontFamily="Times" size="20" horizontalCenter="54" textColor="0xf01414"/>
+	<e:Group id="groupSVip" x="212" y="148" visible="false">
+		<e:Image id="imgSVIPBg" x="0" y="0" source="store_zycs_tab2"/>
+		<e:Image id="imgSVIPLv" x="14" y="3" source="store_zycs_sv1"/>
+	</e:Group>
+</e:Skin>

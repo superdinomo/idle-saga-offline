@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel23_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<e:Group id="group" y="0" width="720" height="1134">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+		<e:Image y="44" x="13" source="hddt_zycs_hlbg_jpg"/>
+		<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true" />
+		<e:Image y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt" />
+		<e:BitmapLabel y="79" font="dljlnum_fnt" text="1" horizontalCenter="-231.5" visible="false"/>
+		<e:Image y="187" fillMode="clip" height="265" source="em_zycs_k5" scale9Grid="226,34,269,211" horizontalCenter="0"/>
+		<e:Image y="213" horizontalCenter="0.5" source="hddt_zycs_jlyl1"/>
+		<e:Image y="210" source="liuguang_zycs_huawen" horizontalCenter="-188"/>
+		<e:Image y="210" source="liuguang_zycs_huawen" scaleX="-1" horizontalCenter="188"/>
+		<e:List id="listAward" itemRendererSkinName="ItemSkin" y="250" horizontalCenter="0">
+			<e:layout>
+			<e:TileLayout requestedColumnCount="5" horizontalGap="19" verticalGap="9"/>
+			</e:layout>
+		</e:List>
+		<e:Scroller height="621" y="463" scrollPolicyH="off" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ActItem23_1EUI" height="361" x="0" y="260">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+		<e:Image x="92" y="89" source="hddt_zycs_lc"/>
+	</e:Group>
+
+</e:Skin>

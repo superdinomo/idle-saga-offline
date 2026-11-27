@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultGuildBattleWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="lost,win">
+	<w:Config id="15d0e19cdf1" />
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" horizontalCenter.win="0" verticalCenter.win="0" horizontalCenter.lost="0" verticalCenter.lost="0" width="620" height="1134">
+		<e:Image source="ldsz_zycs_jssl_png" source.lost="ldsz_zycs_jssb_png" y.lost="2" x.lost="2"/>
+		<e:Image x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png" source.lost="js_zycs_sb_png"/>
+		<e:Group y="237" horizontalCenter="0">
+			<e:Image touchEnabled="false" x="0" y="20" source="ldsz_zycs_tb4"/>
+			<e:Label id="lbGuildNameM" text="S1. First of the World" y="22" fontFamily="Times" size="24" x="39" textColor="0xf5e65a"/>
+			<e:Image touchEnabled="false" y="0" x="200" source="ldsz_zycs_win" source.lost="ldsz_zycs_lose"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="15"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbScoreM" text="Points" fontFamily="Times" size="24" textColor="0xFF9B0F" horizontalCenter="0" y="297"/>
+		<e:Scroller y="319" x="80" width="488" height="216">
+			<e:List id="listM" itemRendererSkinName="ResultGuildBattleItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group y="618" horizontalCenter="0">
+			<e:Image touchEnabled="false" x="0" y="20" source="ldsz_zycs_tb4"/>
+			<e:Label id="lbGuildNameE" text="S1. First of the World" y="22" fontFamily="Times" size="24" x="39" textColor="0xF5E65A"/>
+			<e:Image touchEnabled="false" y="0" x="200" source="ldsz_zycs_lose" source.lost="ldsz_zycs_win"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="15"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbScoreE" text="Points" fontFamily="Times" size="24" textColor="0xFF9B0F" horizontalCenter="0" y="678"/>
+		<e:Scroller y="699" x="80" width="488" height="216">
+			<e:List id="listE" itemRendererSkinName="ResultGuildBattleItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn" label="Confirm" y="972" icon="anz_zycs_lqjl" skinName="BtnMin1_6" width="150" height="60" x="235"/>
+</e:Group>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlotXxySkinllEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+         width="227" height="184">
+	<w:Config id="1667af0cf87" />
+	<e:Image id="imgBg" scaleX="1" y="15" horizontalCenter="0" width="117" height="157" source="xyx_mu_gjsy"/>
+	<e:Image id="imgIcon" scaleX="1" source="" width="80" height="80" horizontalCenter="0.5" verticalCenter="-10"/>
+	<e:Group id="groupMc" x="0" y="0"/>
+	<e:Image scaleX="1" y="40" horizontalCenter="0" source="xyx_mu_gjsy_zhao"/>
+	<e:Group id="gpMc" scaleX="1" scaleY="1" x="44" y="20"/>
+	<e:Image scaleX="1" y="13" horizontalCenter="0" source="xyx_mu_gjsy_1"/>
+	<e:Image y="135" horizontalCenter="-1.5" height="25" source="xyx_mu_di7"/>
+	<e:Label id="lbGuaJiShouYiTime" text="黑龙波" y="137" size="20" fontFamily="SimHei" horizontalCenter="-1.5" textColor="0xeda72a" stroke="2" strokeColor="0x471c1c"/>
+	<e:Image id="imgClick" scaleX="1" y="4" width="132" height="171" x="49" alpha="0.01" source="xyx_mu_gjsy"/>
+</e:Skin>

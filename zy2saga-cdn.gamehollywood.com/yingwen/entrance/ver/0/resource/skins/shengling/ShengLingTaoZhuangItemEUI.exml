@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengLingTaoZhuangItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Label id="lbDec" text="6 Imprint T1: ATK +96584" size="20" textAlign="left" fontFamily="Times" lineSpacing="10" textColor="0x888786" width="340" left="2" top="0"/>
+	<e:Label id="lbState" text="Activateable" size="20" textAlign="left" fontFamily="Times" lineSpacing="10" textColor="0x888786" bottom="0" right="-114"/>
+
+</e:Skin>

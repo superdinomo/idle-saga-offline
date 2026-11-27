@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MiYuTabItemEUI" states="up,down,disabled"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down">
+	<e:Image source="my_zycs_k1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image visible.disabled="false" visible.up="false" x="0" y="0" source="my_zycs_k2"/>
+	<e:Image id="imgIcon" visible.disabled="false" source="my_zycs_icon_1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="lbName" text="Levelup Boost" y="96" size="18" fontFamily="Times" width="130" textAlign="center" x="11" textColor="0xffffff" visible="false"/>
+	<e:Image id="imgLock" source="my_zycs_zzc" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="126" y="15"/>
+</e:Skin>

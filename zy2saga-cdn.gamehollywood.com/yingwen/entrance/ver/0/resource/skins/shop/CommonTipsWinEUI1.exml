@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CommonTipsWinEUI1" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" width="552" height="492" verticalCenter="0">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+	<e:Button id="btnOk" y="362" horizontalCenter="0" label="Confirm" skinName="BtnMin1_1mid"/>
+	<e:Label id="lbContent" y="98" text="Confirm to Spend" fontFamily="Times" size="20" width="456" height="215" textAlign="center" lineSpacing="15" verticalAlign="middle" anchorOffsetY="0" x="48" textColor="0xe3d7be"/>
+		<e:Image y="15" source="chibang_zycs_tishi" x="249"/>
+	</e:Group>
+</e:Skin>

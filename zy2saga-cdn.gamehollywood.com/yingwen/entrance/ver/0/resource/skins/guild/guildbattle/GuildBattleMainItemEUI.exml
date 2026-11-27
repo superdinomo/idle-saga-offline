@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleMainItemEUI" currentState="rank" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="rank,vs"  width="206" height="374">
+	<e:Image id="imgIcon" touchEnabled="false" horizontalCenter="0" y="170" source="ldsz_zycs_db1"/>
+	<e:Image id="lbDecBg" touchEnabled="false" y="344" source="ldsz_zycs_di2" x="-3" visible.vs="false"/>
+	<e:Group id="group" x="0" y="0" width="206">
+		<e:Image id="imgBg" touchEnabled="false" x="0" y="0" source="ldsz_zycs_qz3"/>
+		<e:Image id="imgSR" touchEnabled="false" y="196" source="ldsz_zycs_s3" horizontalCenter="-1"/>
+		<e:Image id="imgVS0" touchEnabled="false" x="16" y="57" visible.rank="false" source="ldsz_zycs_vs"/>
+		<e:Image id="imgVS1" touchEnabled="false" x="16" y="111" visible.rank="false" source="ldsz_zycs_vs"/>
+		<e:Image touchEnabled="false" x="14" y="51" source="ldsz_zycs_n1a" visible.vs="false"/>
+		<e:Image touchEnabled="false" y="79" source="ldsz_zycs_n2a" x="16" visible.vs="false"/>
+		<e:Image touchEnabled="false" y="106" source="ldsz_zycs_n3a" x="17" visible.vs="false"/>
+		<e:Image touchEnabled="false" y="133" source="ldsz_zycs_n4a" x="17" visible.vs="false"/>
+
+		<e:Image id="imgName" touchEnabled="false" y="12" source="ldsz_zycs_na1" horizontalCenter="0"/>
+
+		<e:Label id="lbGuildName0" text="S1. First of the World" y="56" fontFamily="Times" size="18" textColor="0xffffff" x="48"/>
+		<e:Label id="lbGuildName1" text="S1. First of the World" y="82" fontFamily="Times" size="18" x="48" textColor="0xffffff"/>
+		<e:Label id="lbGuildName2" text="S1. First of the World" y="108" fontFamily="Times" size="18" x="48" textColor="0xffffff"/>
+		<e:Label id="lbGuildName3" text="S1. First of the World" y="136" fontFamily="Times" size="18" x="48" textColor="0xffffff"/>
+		<e:Label id="btnLine" text="Enter Battlefield" y="162" fontFamily="Times" size="18" horizontalCenter="0" textColor="0x13ee22" bold="true"/>
+		<e:Image id="imgYbm" touchEnabled="false" y="185" x="135" source="ldsz_zycs_yb"/>
+		<e:Image id="redPoint" touchEnabled="false" y="160" x="141" source="mainui_zycs_hongdian"/>
+	</e:Group>
+
+
+	<e:Label id="lbDec" text="Registered Guilds: 5" y="348" fontFamily="Times" size="22" textColor="0xff9b0f" horizontalCenter="0.5" visible.vs="false"/>
+	<e:Label id="btnLook" text="View Report" y="347" fontFamily="Times" size="22" horizontalCenter="0" textColor="0x13EE22" visible.rank="false"/>
+</e:Skin>

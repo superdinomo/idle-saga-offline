@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   height="1134" width="720">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" x="13" source="sjhj_zycs_bg_jpg"/>
+	<e:Image y="97" x="40" source="sjhj_zycs_hdgz"/>
+	<e:Label id="helpTxt" y="127" text="Hire miner to mine Spar. Fight for the final prize" fontFamily="Times" size="24" touchEnabled="false" textAlign="left" x="39" textColor="0xe5d3b5"/>
+	<e:Image y="600" fillMode="clip" touchEnabled="false" source="sjhj_zycs_zjjl" x="301"/>
+	<e:Image y="636" source="zs_zycs_xinxidi" height="152" scale9Grid="87,20,524,125" x="16"/>
+	<e:List id="rewardList" itemRendererSkinName="ItemSkin" y="675" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="27"/>
+		</e:layout>
+	</e:List>
+	<e:Image x="160" source="sjhj_zycs_d" y="807"/>
+	<e:Image x="116" y="794" source="sjhj_zycs_wk"/>
+	<e:Label id="mineCountTxt" text="0" size="24" fontFamily="Times" textAlign="center" x="172" y="809" textColor="0x11f51c"/>
+	<e:Image x="447" source="sjhj_zycs_d" y="807"/>
+	<e:Image x="403" y="793" source="sjhj_zycs_ld"/>
+	<e:Label id="robCountTxt" text="0" size="24" fontFamily="Times" x="459" y="809" textColor="0x11f51c"/>
+	<e:Button id="enterBtn" y="863" skinName="BtnMin1_1" label="Enter" x="286"/>
+</e:Skin>

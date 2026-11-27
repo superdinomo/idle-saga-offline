@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel28_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<w:Config id="1586be3c5b0" />
+	<e:Image x="0" y="1" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="imgBg" y="41" x="14"  source="jzhl_zycs_bg_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true" />
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt" />
+
+	<e:Label y="219" text="Time Remain:" fontFamily="Times" size="20" x="37" lineSpacing="10" textColor="0xFFFFFF" />
+	<e:Label id="lbTime" y="220" text="0" fontFamily="Times" size="20" x="178" lineSpacing="10" textColor="0x13EE22" />
+	<e:Image y="213" x="367" source="jzdh_zycs_th"/>
+	<e:Label y="206" text="Chance to drop the following words in the Drop Revelry" fontFamily="Times" size="18" x="397" textColor="0xFFFFFF" width="299"/>
+	<e:Scroller id="scroller" height="826" y="254" width="693" x="13">
+		<e:List id="list" itemRendererSkinName="ActItem28_1EUI">
+			<e:layout>
+				<e:VerticalLayout gap="10"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+</e:Skin>

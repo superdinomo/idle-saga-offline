@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarFbResultTipsWinEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720" height="1280" >
+	<e:Group id="group" horizontalCenter="0" y="603">
+		<e:Image id="imgTitle" x="0" y="0" source="js_zycs_sl_png"/>
+		<e:Label id="lbNum" text="Winning Point +25" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" y="89" textColor="0xffffff" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

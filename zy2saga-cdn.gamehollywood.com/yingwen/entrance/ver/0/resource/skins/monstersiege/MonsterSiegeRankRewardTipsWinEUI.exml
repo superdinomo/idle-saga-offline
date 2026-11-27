@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterSiegeRankRewardTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="-34">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="11.5" x="226" source="tm_zycs_jllq"/>
+		<e:Label id="lbDesc1" text="The settlement time is 22:00 of every Sunday. The 1st player\nwill gain the following rewards" y="78" size="24" fontFamily="Times" textAlign="center" textColor="0xe3d7be" width="445" horizontalCenter="0"/>
+
+			<e:List id="itemList" itemRendererSkinName="ItemSkin" y="159" horizontalCenter="0.5">
+			<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>-->
+		<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="6" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+
+		<e:Label id="lbMyRank" text="Current Rank: 25th" y="292" size="20" fontFamily="Times" horizontalCenter="0" textColor="0xf5e65a"/>
+		<e:Label id="lbDesc2" text="The rewards will be issued via mail at 22:00 of Sunday night" y="359" size="24" fontFamily="Times" horizontalCenter="0" textColor="0xffffff" width="465"/>
+
+	</e:Group>
+</e:Skin>

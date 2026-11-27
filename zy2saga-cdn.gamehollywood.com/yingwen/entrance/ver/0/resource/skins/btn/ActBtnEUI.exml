@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActBtnEUI" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="100">
+	<e:Image id="selectIcon" visible.up="false"  verticalCenter="0"  source="hddt_zycs_cjdr2" horizontalCenter="0"/>
+	<e:Image id="iconDisplay"  verticalCenter="0"  source="hddt_zycs_cjdr1" horizontalCenter="0"/>
+	<e:Group id="redPoint" x="74" y="7" width="21" height="21">
+		<e:Image x="0" y="0" source="mainui_zycs_hongdian"/>
+	</e:Group>
+</e:Skin>

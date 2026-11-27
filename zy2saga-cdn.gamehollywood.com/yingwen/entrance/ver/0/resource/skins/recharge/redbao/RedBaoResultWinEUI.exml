@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBaoResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="h1,h2">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="-2.5" verticalCenter="-58" width="543" height="764">
+		<e:Image y="0" x="0" anchorOffsetY="0" source="llcz_zycs_hb2_png" />
+		<e:Image source="js_zycs_di_png" x="3" fillMode="clip" height="177" y="595" anchorOffsetY="0" />
+		<e:Button id="closeBtn0" label="" x="489" y="0" skinName="Btn0Skin" icon="llcz_zycs_X" />
+		<e:Image id="head0" y="95" anchorOffsetX="0" anchorOffsetY="0" source="redbao_zycs_json.czhb_zycs_txk" x="221" />
+		<e:Image id="head" y="108" anchorOffsetX="0" anchorOffsetY="0" x="230" source="mianui_zycs_sheshou0" />
+		<e:Image id="titleImg" y="320" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false"
+		         visible.h1="false" source="czhb_zycs_sml" x="79" />
+		<e:Label id="titleTxt" text="May you have a Big Fortune" y="344" fontFamily="Times" size="30" scaleX="1" scaleY="1" textColor="0xea928d"
+		         horizontalCenter="0" visible.h2="false" />
+		<e:Label id="nameLabel" text="0" y="270" fontFamily="Times" size="24" scaleX="1" scaleY="1" textColor="0x23BECD"
+		         horizontalCenter="0.5" />
+		<e:Image id="priceImg" y="455" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="83" touchEnabled="false"
+		         source="llcz_zycs_nqdl" visible.h2="false" />
+		<e:Image y="477" anchorOffsetX="0" anchorOffsetY="0" x="320" touchEnabled="false" visible.h2="false" source="mianui_zycs_dzs" scaleX="0.6" scaleY="0.6"/>
+		<e:Label id="priceTxt" text="1" y="470" fontFamily="Times" size="50" scaleX="1" scaleY="1" x="370" textColor="0xfcfc5a"
+		         stroke="1" visible.h2="false" />
+		<e:Button id="logBtn" y="648" label="Claim Records" x="208" skinName="BtnMin1_1" />
+	</e:Group>
+</e:Skin>

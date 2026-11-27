@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act62RankWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="hddt_zycs_phbg_jpg" />
+		<e:Image id="imgTitle" y="11" horizontalCenter="0" source="hddt_zycs_jsph"/>
+		<e:Button id="closeBtn" label="" x="463" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Button id="btnGet" label="Claim" y="622" x="198" skinName="BtnMin1_1"/>
+		<e:Button id="btnNotGet" label="Claim" y="622" x="198" skinName="BtnMin1_1"/>
+
+		<e:Image id="imgYlq" y="609" horizontalCenter="0" source="public_zycs_ylq"/>
+		<e:Scroller scrollPolicyH="off" height="392" anchorOffsetY="0" y="111" x="16" width="520">
+			<e:List id="list" y="-1" itemRendererSkinName="Act62RankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+		<e:Label y="82" text="Ranking" fontFamily="黑体" size="20" x="58" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Message" fontFamily="黑体" size="20" x="215" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Rewards" fontFamily="黑体" size="20" x="414" textColor="0xFF9B0F" />
+		<e:Label id="lbRank" text="我的排名：" y="527" size="20" textAlign="center" fontFamily="黑体" x="49" textColor="0xe3d7be" />
+		<e:Label id="lbScore" text="我的积分：" y="527" size="20" textAlign="center" fontFamily="黑体" textColor="0xe3d7be"  right="52"/>
+
+		<e:Image id="imgXwyd" touchEnabled="false" y="209" source="public_zycs_xwyd_png" x="51"  visible="false"/>
+
+		<e:Label text="The clearance time is calculated from the opening of this event" y="570" size="16" fontFamily="SimHei" horizontalCenter="1.5" textColor="0xe3d7be" anchorOffsetY="0" height="20" anchorOffsetX="0" width="511"/>
+	</e:Group>
+</e:Skin>

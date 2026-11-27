@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="xhItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="62" height="62">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" source="qianghua_zycs_kuang3"/>
+	<e:Image id="imgColor" width="56" height="56" x="3" y="3" source=""/>
+	<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="count" size="18" textAlign="right" fontFamily="Times" text="0" anchorOffsetX="0" anchorOffsetY="0" y="42" textColor="0xd6d6d6" right="7"/>
+
+</e:Skin>

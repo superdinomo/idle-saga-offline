@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExtBossRemindWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"    minWidth="206">
+    <w:Config id="15cc59234d7" />
+	<e:Group id="groupRemind" anchorOffsetX="249" anchorOffsetY="150" x="0" y="0" width="249">
+		<e:Image y="2" source="mianui_zycs_k" width="214" height="299" x="0" scale9Grid="26,26,13,6"/>
+		<e:Image y="90" source="qm_zycs_txk" x="34"/>
+		<e:Image id="imgArrow" fillMode="clip" scaleX="1" scaleY="1" source="mianui_zycs_ydjt" x="249" rotation="180" y="174"/>
+		<e:Image id="imgBossHead" x="65" y="106" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+		<e:Button id="btnOk" y="236" label="Challenge" scaleX="1" scaleY="1" skinName="BtnMin1_1mid" horizontalCenter="-13.5"/>
+		<e:Image y="15" source="public_zycs_jx1" x="37"/>
+		<e:Label id="lbBossname" text="0" y="12" fontFamily="Times" size="20" textAlign="center" textColor="0xDFD1B5" anchorOffsetY="0" height="35" verticalAlign="middle" anchorOffsetX="0" width="202" x="6"/>
+		<e:Label id="lblevel" text="Lv.200" y="48" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" horizontalCenter="-18.5" textColor="0xff9b0f"/>
+		<e:Label id="lbTitle" text="Server Boss" y="70" fontFamily="Times" size="20" textAlign="center" textColor="0xDFD1B5" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" horizontalCenter="-18.5"/>
+		<e:Button id="closeBtn" label="" x="177" y="7" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:Label id="lbktz" text="Challengeable" y="211" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" horizontalCenter="-15.5" textColor="0x5ac832"/>
+	</e:Group>
+</e:Skin>

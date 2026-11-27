@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleLotteryItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="692" height="190" states="up,down">
+	<e:Image source="ldsz_zycs_di4" />
+	<e:Image
+	         visible.up="false"  source="ldsz_zycs_xz_png" x="-7" y="-7" visible.down="false"/>
+	<e:Image id="imgIcon" touchEnabled="false" horizontalCenter="-231" verticalCenter="-17.5" source="ldsz_zycs_db1_a" />
+	<e:Image touchEnabled="false" y="133" x="19" source="ldsz_zycs_di3" />
+	<e:Image id="imgSR" touchEnabled="false" y="146" source="ldsz_zycs_s3" horizontalCenter="-304.5" />
+	<e:Image id="imgName" touchEnabled="false" x="71" y="142" source="ldsz_zycs_na1" />
+	<e:Image id="img0" touchEnabled="false" x="195" y="12" source="ldsz_zycs_jcxz"/>
+	<e:Image touchEnabled="false" x="438" y="12" source="ldsz_zycs_jcxz" id="img1"/>
+	<e:Image touchEnabled="false" x="195" y="53" source="ldsz_zycs_jcxz" id="img2"/>
+	<e:Image touchEnabled="false" x="438" y="53" source="ldsz_zycs_jcxz" id="img3"/>
+	<e:Image touchEnabled="false" x="205" y="22" source="ldsz_zycs_tb4" />
+	<e:Image touchEnabled="false" x="448" y="22" source="ldsz_zycs_tb4" />
+	<e:Image touchEnabled="false" x="205" y="62" source="ldsz_zycs_tb4" />
+	<e:Image touchEnabled="false" x="448" y="62" source="ldsz_zycs_tb4" />
+	<e:Label id="lbGuildName0" text="S1. First of the World" y="28" fontFamily="Times" size="20" x="237" textColor="0xffffff" />
+	<e:Label id="lbGuildName1" text="S1. First of the World" y="28" fontFamily="Times" size="20" x="481" textColor="0xffffff" />
+	<e:Label id="lbGuildName2" text="S1. First of the World" y="68" fontFamily="Times" size="20" x="237" textColor="0xffffff" />
+	<e:Label id="lbGuildName3" text="S1. First of the World" y="68" fontFamily="Times" size="20" x="481" textColor="0xffffff" />
+	<e:RadioButton id="checkBox0" skinName="CheckBoxEUI2" label="" x="409" y="25" />
+	<e:RadioButton id="checkBox1" skinName="CheckBoxEUI2" label="" x="653" y="25" />
+	<e:RadioButton id="checkBox2" skinName="CheckBoxEUI2" label="" x="409" y="66" />
+	<e:RadioButton id="checkBox3" skinName="CheckBoxEUI2" label="" x="653" y="66" />
+	<e:Group id="group" x="353" y="98">
+		<e:Image id="imgConsu" y="0" x="38" source="zycs_320002" />
+		<e:Label id="lbConsu" y="7" size="20" fontFamily="Times" textAlign="left" text="5000" verticalAlign="top"
+		         lineSpacing="10" x="73" textColor="0xFFFFFF" />
+		<e:Button id="btnSend" y="32" x="15" label="Confirm Bet" scaleX="1" scaleY="1" skinName="BtnMin1_1mid" />
+	</e:Group>
+	<e:Label id="lbTips" text="Bet successfully, please pay attention to the final result of the Territory War" y="129" fontFamily="Times" size="24" textColor="0x23CA23" x="261"  width="426"/>
+</e:Skin>

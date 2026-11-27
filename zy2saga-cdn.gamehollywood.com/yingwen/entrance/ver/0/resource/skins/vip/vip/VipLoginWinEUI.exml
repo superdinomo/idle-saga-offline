@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="VipLoginWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image scale9Grid="1,1,3,3" left="0" right="0" top="0" bottom="0" source="public_zycs_greybg2"/>
+	<e:Group id="group" horizontalCenter="0" width="720" height="616" verticalCenter="-52">
+		<e:Image source="mainui_zycs_hyjm_png"/>
+		<e:Button id="btnGet" label="Button" x="244" y="513" skinName="Btn0Skin" icon="mianui_zycs_hyd"/>
+	</e:Group>
+</e:Skin>

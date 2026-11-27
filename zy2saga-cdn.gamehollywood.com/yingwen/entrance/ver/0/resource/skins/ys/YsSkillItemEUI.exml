@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsSkillItemEUI" currentState="state0" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="state0,state1" >
+	<w:Config id="15d981d06da"/>
+	<e:Image visible.state0="false" source="ys_zycs_ysjn" x="35" scale9Grid="62,69,378,47" verticalCenter="0" height="200"/>
+	<e:Group x="1" y="47" width="96">
+		<e:Image x="0" y="0" source="fuwen_zycs_kuang02_01"/>
+		<e:Image x="0" y="96" source="shenyou_zycs_jnk"/>
+		<e:Image id="imgIcon" source="mianui_icon_bianshen1" x="8" y="8" width="80" height="80"/>
+		<e:Image id="redPoint" source="mainui_zycs_hongdian" x="73" y="1"/>
+		<e:Label id="lbLv" text="2" y="73" size="20" fontFamily="Times" textAlign="center" textColor="0xff9b0f" horizontalCenter="35"/>
+		<e:Label id="lbName" text="Skill Name" y="98" size="20" fontFamily="Times" textAlign="center" textColor="0xf5e65a" horizontalCenter="0"/>
+	</e:Group>
+
+	<e:Group x="97" verticalCenter="10.5">
+		<e:Group id="groupCur" x="0" y="0" visible.state0="false">
+			<e:Label text="This Level:" y="0" size="20" fontFamily="Times" textAlign="left" x="0" textColor="0xF5E65A" lineSpacing="3"/>
+			<e:Label id="lbCurAttr" text="When HP is lower than 40%, each dodge can increase Water DEF by 11% for 3s, triggering CD of 5s" y="0" size="20" fontFamily="Times" textAlign="left" x="96" textColor="0xf5e65a" width="307" lineSpacing="3" anchorOffsetX="0"/>
+		</e:Group>
+		<e:Group id="groupNext" x="0" y="58" visible.state0="false">
+			<e:Label text="Next Level:" y="0" size="20" fontFamily="Times" textAlign="left" x="0" lineSpacing="3" textColor="0xCBC8BE"/>
+			<e:Label id="lbNextAttr" text="When HP is lower than 40%, each dodge can increase Water DEF by 11% for 3s, triggering CD of 5s" y="0" size="20" fontFamily="Times" textAlign="left" x="103" textColor="0xcbc8be" width="300" lineSpacing="3" anchorOffsetX="0"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout paddingTop="0" gap="5"/>
+		</e:layout>
+	</e:Group>
+
+
+</e:Skin>

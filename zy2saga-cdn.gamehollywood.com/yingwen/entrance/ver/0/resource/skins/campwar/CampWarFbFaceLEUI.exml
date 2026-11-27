@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarFbFaceLEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" height="116">
+
+
+
+
+
+
+
+	<e:Group x="0" y="0" width="182">
+		<e:Image id="imgPos" x="0" y="4" source="smsz_zycs_lb1"/>
+		<e:Image id="imgWin" x="135" y="15" source="smsz_zycs_sl"/>
+		<e:Image id="imgZdz" x="145" y="0" source="smsz_zycs_zdz"/>
+		<e:Image y="11" source="sjhj_zycs_tx" scaleX="0.7" scaleY="0.7" x="58"/>
+		<e:Image id="imgIcon" y="17" source="mianui_zycs_zhanshi0" scaleX="0.7" scaleY="0.7" x="65" width="76" height="76"/>
+		<e:Label id="lbName" y="77" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="18" textAlign="left" verticalAlign="middle" textColor="0xe3d7be" horizontalCenter="0"/>
+		<e:Label id="lbPower" y="98" text="CP: 99999" fontFamily="Times" size="18" textAlign="left" verticalAlign="middle" textColor="0xe3d7be" horizontalCenter="0.5"/>
+		<e:Image id="imgYlx" y="6" source="smsz_zycs_ylx" x="31"/>
+	</e:Group>
+	<e:Group id="groupEmoji" x="105" bottom="58">
+		<e:Image source="smsz_zycs_ltk" scale9Grid="58,15,130,5" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="lbEmoji" text="You look like Cai XukunYou look like Cai Xukun\nYou look like Cai Xukun\nYou look like Cai Xukun" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" textColor="0x13EE22" top="8" left="40" right="10" bottom="8"/>
+	</e:Group>
+
+
+</e:Skin>

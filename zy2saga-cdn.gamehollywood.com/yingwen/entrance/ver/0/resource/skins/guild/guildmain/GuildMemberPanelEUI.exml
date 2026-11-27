@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildMemberPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="35" source="zhanmeng_zycs_bg_jpg"/>
+	<e:Label text="My Post:" x="58" y="94" size="20" fontFamily="Times" textColor="0xaf9b73"/>
+	<e:Label id="labelOffice" text="Play" x="167" y="94" size="20" fontFamily="Times" textColor="0xcdc8be"/>
+	<e:Label text="Total Contribution:" x="285" y="94" size="20" fontFamily="Times" textColor="0xaf9b73"/>
+	<e:Label id="labelGongxian" text="0" x="461" y="95" size="20" fontFamily="Times" textColor="0xcdc8be"/>
+	<e:Button id="btnQuit" x="547" y="81" skinName="BtnMin1_1mid" label="Exit"/>	
+	<e:Scroller y="144" x="21" width="678" height="878">
+			<e:List id="list" itemRendererSkinName="GuildMemberRenderEUI">
+				<e:layout>
+					<e:VerticalLayout gap="6"/>
+				</e:layout>
+			</e:List>
+
+	</e:Scroller>
+	
+</e:Skin>

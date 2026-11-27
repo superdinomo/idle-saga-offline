@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RewardIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="25">
+	<e:Group id="group1" verticalCenter="0">
+		<e:Image id="iconImg1" touchEnabled="false" source=""/>
+		<e:Image id="iconImg" touchEnabled="false" y="1" scaleX="1" scaleY="1" source="js_zycs_EXP"/>
+	<e:Label id="priceLabel" size="20" fontFamily="Times" textColor="0xFFB92D" textAlign="left" text="0" touchEnabled="false"/>
+		<e:BitmapLabel id="imgNum" x="113" y="3" text="0" visible="false"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

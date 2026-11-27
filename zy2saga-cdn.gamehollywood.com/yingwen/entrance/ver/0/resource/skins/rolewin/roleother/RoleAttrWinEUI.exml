@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleAttrWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group id="group" width="720" height="597" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="public_zycs_dikuang" width="720" height="597" scale9Grid="74,59,37,17" anchorOffsetX="0"
+		         anchorOffsetY="0" />
+		<e:Button id="closeBtn0" label="" x="630" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di" />
+		<e:Image y="12" horizontalCenter="0" source="role_zycs_jssx" />
+		<e:Image y="113" width="639" height="306" source="public_zycs_tsk1" scale9Grid="22,52,20,12" anchorOffsetY="0"
+		         horizontalCenter="0" />
+		<e:Image y="72" anchorOffsetY="0" horizontalCenter="-223.5" source="role_zycs_tb1" />
+		<e:Image y="464" anchorOffsetY="0" source="role_zycs_tb2" horizontalCenter="0.5" />
+		<e:TabBar dataProvider="{viewStack1}" id="tab1" selectedIndex="0" itemRendererSkinName="BtnTab3_aZYCSSkin"
+		          horizontalCenter="0" y="479">
+			<e:layout>
+				<e:HorizontalLayout gap="57" />
+			</e:layout>
+		</e:TabBar>
+		<e:ViewStack id="viewStack1" x="20" y="68" anchorOffsetX="0" width="687" anchorOffsetY="0" height="359" selectedIndex="0">
+			<e:Group name=" Basic Stats" id="groupAttr1" width="679" height="380" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="0">
+				<e:Label text=" Basic Stats" x="44" y="7" size="24" fontFamily="Times" textColor="0xFF9B0F" scaleX="1" scaleY="1"/>
+				<e:ProgressBar id="proExp" x="89" y="74" skinName="ProgressBarEUI11" width="313"/>
+				<e:Label text="EXP:" size="24" fontFamily="Times" x="28" y="67" textColor="0xC0B8A1" scaleX="1" scaleY="1"/>
+				<e:Label id="lbLevel" text="Level: " size="24" fontFamily="Times" x="28" y="103" scaleX="1" scaleY="1" textColor="0xff9b0f"/>
+				
+				<e:Scroller width="629" height="210" x="27" y="138">
+				<e:DataGroup id="attrs1" itemRendererSkinName="ComAttrItem1EUI" x="62" y="138" scaleX="1" scaleY="1">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" horizontalGap="140" verticalGap="11" columnWidth="159"/>
+				</e:layout>
+				</e:DataGroup>
+				</e:Scroller>
+			</e:Group>
+			<e:Group name="Rare Stats" id="groupAttr2" width="679" height="380" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="0" visible="false">
+				<e:Label text="Rare Stats" x="44" y="7" size="24" fontFamily="Times" textColor="0xFF9B0F" scaleX="1" scaleY="1"/>
+				<e:Scroller width="629" height="282" x="26" y="68">
+					<e:DataGroup id="attrs2" itemRendererSkinName="ComAttrItem1EUI" x="62" y="68" scaleX="1" scaleY="1">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" horizontalGap="140" verticalGap="11" columnWidth="159"/>
+				</e:layout>
+				</e:DataGroup>
+				</e:Scroller>
+			
+			</e:Group>
+		</e:ViewStack>
+	</e:Group>
+</e:Skin>

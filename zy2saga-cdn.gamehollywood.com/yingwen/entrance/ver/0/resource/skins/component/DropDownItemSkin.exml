@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DropDownItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" top="0" bottom="0" right="0" source="public_zycs_greybg1" scale9Grid="4,5,14,12"/>
+    <e:Label id="labelContent" size="20" textColor="0xDFD1B5" fontFamily="Times" textAlign="left" text="0"  stroke="1" left="0" top="0" bottom="0" right="0" verticalAlign="middle"/>
+</e:Skin>

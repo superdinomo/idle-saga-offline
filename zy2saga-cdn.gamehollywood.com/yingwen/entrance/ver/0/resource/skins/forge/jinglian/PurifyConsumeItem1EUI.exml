@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PurifyConsumeItem1EUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="120" states="up,down"  height="131">
+	<w:Config id="1586b362dfe"/>
+	<e:Image fillMode="clip" source="qianghua_zycs_kuang3" x="26" y="42"/>
+	<e:Image id="imgSelect" fillMode="clip" x="22" y="38" visible.up="false" source="jinglian_zycs_xuanzhong"/>
+	<e:Image id="imgSelectBg" source="peiyang_zycs_hui" y="1" horizontalCenter="-4"/>
+	<e:Image id="imgSelectIcon" visible.up="false" source="peiyang_zycs_liang" y="1" horizontalCenter="-4"/>
+	<e:Image id="redPoint" x="78" y="33" source="mainui_zycs_hongdian" visible="false"/>
+	<e:Image id="imgIcon" scaleX="0.68" scaleY="0.68" source="" verticalCenter="5" horizontalCenter="-4"/>
+	<e:Label id="lbrate" text="Guaranteed to be Successful" x="37" y="7" size="18" fontFamily="Times" textColor="0xff9b0f" visible="false"/>
+	<e:Label id="lbCount" text="0" y="113" size="18" fontFamily="Times" textColor="0xcdc8be" textAlign="center" horizontalCenter="0"/>
+
+</e:Skin>

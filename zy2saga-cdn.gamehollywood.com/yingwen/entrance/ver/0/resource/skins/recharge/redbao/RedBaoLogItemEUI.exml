@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBaoLogItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="150" width="685">
+	<e:Image id="bg" y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="shenmo_zycs_dikuang_02" width="685" height="150" scale9Grid="86,31,191,43"/>
+	<e:Image id="headBg" x="26" y="17" scale9Grid="10,10,64,64" source="role_zycs_touxiangkuang"/>
+	<e:Image id="head" x="38" y="25" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_sheshou0"/>
+	<e:Image width="212" height="36" y="18" anchorOffsetY="0" anchorOffsetX="0" x="161" scale9Grid="115,8,38,19" source="guoshi_zycs_di"/>
+	<e:Label id="nameLabel" text="0" x="168" y="25" fontFamily="Times" size="20" scaleX="1" scaleY="1" textColor="0x23becd"/>
+	<e:Label text="Grabbed" x="168" y="60" fontFamily="Times" size="20" scaleX="1" scaleY="1" textColor="0xff9b0f"/>
+	<e:Component id="boostPrice1" y="56" skinName="PriceIconSkin" x="243"/>
+	<e:Label id="timeTxt" text="0" y="60" fontFamily="Times" size="24" wordWrap="true" anchorOffsetX="0" anchorOffsetY="0" right="41" textColor="0xe6dcb8"/>
+	
+	
+</e:Skin>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DartCarInfoWinEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280">
+	<w:Config id="1586b3b43d7"/>
+
+	<e:Group verticalCenter="-8" horizontalCenter="-0.5" width="553" height="544">
+		<e:Image source="hwbz_zycs_bg3_jpg"/>
+		<e:Image y="11" source="hwbz_zycs_ldlb" x="228"/>
+		<e:Image y="86" x="109" source="hwbz_zycs_leveldi"/>
+		<e:Image id="imgLv" y="89" source="hwbz_zycs_level1" x="122"/>
+		<e:Label id="labelBaozhangLv" text="Lv.1 Treasure" x="118" y="87" fontFamily="Times" size="24" textColor="0x13ee22" visible="false"/>
+		<e:Image id="imgBaozang" x="50" y="115"/>
+		<e:Label id="labelGuildName" text="s.999 Guild Name Seven Characters" x="297" y="118" fontFamily="Times" size="20" textColor="0xff9b0f" width="206"/>
+		<e:Label id="labelFangshou" text="Defending Units: 7/7" x="297" y="160" fontFamily="Times" size="20" textColor="0xffffff"/>
+		<e:Group x="39" y="251">
+			<e:Image y="3" source="liuguang_zycs_huawen" x="0"/>
+			<e:Image scaleX="1" scaleY="1" x="189" y="0" source="hwbz_zycs_jlxq"/>
+			<e:Image x="476" scaleX="-1" scaleY="1" y="3" source="liuguang_zycs_huawen"/>
+		</e:Group>
+		<e:Label text="Defeated" x="59" y="289" size="24" fontFamily="Times" textColor="0xf5e65a"/>
+		<e:Component id="itemLose" x="54" y="320" skinName="ItemSkin"/>
+		<e:Label text="Defeat Guard" x="164" y="290" size="24" fontFamily="Times" textColor="0xf5e65a"/>
+		<e:Component id="itemWin" x="179" y="320" skinName="ItemSkin"/>
+
+		<e:Label text="Treasure Take-down" x="307" y="290" size="24" fontFamily="Times" textColor="0xf5e65a"/>
+		<e:List id="listJipo" itemRendererSkinName="ItemSkin" y="308" horizontalCenter="122.5">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" gap="8"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+
+		<e:Button id="closeBtn" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Button id="btnLueduo" label="Loot" y="430" skinName="BtnMin1_1" horizontalCenter="0" x="203" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+
+</e:Skin>

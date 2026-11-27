@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleMoBaiRankItemTop1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="664" height="85">
+
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="24" textAlign="center" textColor="0xcdc8be" x="60" y="33"/>
+	<e:Image id="imgRank" horizontalCenter="-277" x="31" verticalCenter="2.5" source="ldsz_zycs_ph1"/>
+	<e:Label id="lbGuildName" text="[Guild] Name" fontFamily="Times" size="24" x="104" textAlign="center" y="11" textColor="0x23becd"/>
+	<e:Label id="lbRoleName" text="S999." fontFamily="Times" size="24" x="123" textAlign="center" y="50" textColor="0xf5e65a"/>
+	<!--<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_领地圣战\L-领地圣战-积分排名.jpg" x="-29" y="-543" locked="true" visible="false"/>-->
+</e:Skin>

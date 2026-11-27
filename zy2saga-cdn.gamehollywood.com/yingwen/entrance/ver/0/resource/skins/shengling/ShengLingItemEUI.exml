@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengLingItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="138" height="138">
+	<w:Config id="15d981d06da"/>
+	<e:Image id="imgSelect" visible.up="false" source="shengling_zycs_qxuanzhong"/>
+
+
+	<e:Image id="imgIcon" source="shengling_zycs_q1" x="16" y="10"/>
+
+	<e:Group id="groupMc" width="0" height="0" x="71" y="71"/>
+
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="91" y="15"/>
+</e:Skin>

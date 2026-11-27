@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WarnWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,sure" >
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="frame" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="129,76,92,17" source="sjhj_zycs_di_jpg"/>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="15" x="249" source="chibang_zycs_tishi"/>	
+	<e:Button id="sureBtn"  x="331" y="360" skinName="BtnMin1_1" x.sure="210" label="Confirm"/>
+	<e:Button id="notBtn"  visible.sure="false" x="88" y="360" skinName="BtnMin1_1" label="Cancel"/>
+	<e:Label id="warnLabel" text="0" fontFamily="Times" size="20" width="456" height="215" y="98" textAlign="center" verticalAlign="middle" textColor="0xd2c864" x="48"/>
+	</e:Group>
+</e:Skin>

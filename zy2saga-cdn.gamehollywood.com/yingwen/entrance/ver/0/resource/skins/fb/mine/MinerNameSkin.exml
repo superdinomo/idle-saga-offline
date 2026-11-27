@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MinerNameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*"    width="198" height="105">
+	<w:Config id="1586b3502a7"/>
+	<e:Image id="robImg" y="4" x="66" source="sjhj_zycs__ld"/>
+	<e:Image id="nameImg" y="27" source="sjhj_zycs_kg1" x="51"/>
+	<e:Image y="52" height="52" source="public_zycs_di01" anchorOffsetY="0" scale9Grid="120,8,34,11" horizontalCenter="0"/>
+	<e:Label id="labelTime" text="0" y="60" size="20" fontFamily="Times" width="191" textAlign="center" x="4" textColor="0xe6dcb8"/>
+	<e:Label id="labelName" text="0" y="81" size="20" fontFamily="Times" textColor="0xb09059" width="178" textAlign="center" x="10"/>
+</e:Skin>

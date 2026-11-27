@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem53_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="510"  width="345" states="state1,state2" >
+	<w:Config id="1586b362dfe"/>
+	<e:Image source="pflb_zycs_hd" y="33" x="16"/>
+	<e:Image y="406" source="pflb_zycs_jlk" x="46" y.state2="259"/>
+	<e:Group y="0" x="18">
+		<e:Image x="0" y="0" source="pflb_zycs_gg2"/>
+		<e:Image x="12" y="16" source="pflb_zycs_gg1"/>
+		<e:BitmapLabel id="bmpPay" y="15" text="648" letterSpacing="-3" font="pflb_fnt" horizontalCenter="-67.5"/>
+	</e:Group>
+	<e:Group id="groupMc" width="0" height="0" y="402" x="173" y.state2="242"/>
+	<e:Label id="lbDec" text="Pack Name" x="28" fontFamily="黑体" size="24" y="96" textAlign="left" width="24" textColor="0xffffff" strokeColor="0xff8e09" stroke="1"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="402" scaleX="0.8" scaleY="0.8" horizontalCenter="0" horizontalCenter.state2="0" y.state2="255">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="18" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnPay" y="120" skinName="Btn0Skin" icon="pflb_zycs_gm" x="266" y.state2="70"/>
+	<e:Button id="btnBuy" y="221" skinName="Btn0Skin" icon="pflb_zycs_dh" x="262" y.state2="153"/>
+	<e:Image y="282" x="266" source="pflb_zycs_dhd" y.state2="214"/>
+	<e:Label id="lbBuy" text="6488" x="295" fontFamily="黑体" size="20" textAlign="left" y="284" textColor="0xffffff" strokeColor="0xff8e09" stroke="1" y.state2="216"/>
+	<e:Image id="imgYgm" y="411" source="public_zycs_ygm" x="112" y.state2="264"/>
+
+</e:Skin>

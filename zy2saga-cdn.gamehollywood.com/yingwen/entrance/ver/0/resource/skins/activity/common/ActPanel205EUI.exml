@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel205EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="694" height="800">
+	<e:Image x="0" y="0" source="hddt_zycs_flbg_jpg" width="694" height="800"/>
+	<e:Image x="0" y="0" source="hddt_zycs_di8_jpg"/>
+	<e:Image x="496" y="142" source="public_zycs_sjx"/>
+	<e:Label y="123" text="Time Remain:" fontFamily="Times" size="18" x="24" lineSpacing="10" textColor="0xffffff"/>
+	<e:Label id="date" y="124" text="0" fontFamily="Times" size="18" x="152" lineSpacing="10" textColor="0x5AC832"/>
+	<e:Scroller y="174" scrollPolicyH="off" height="612" x="7" width="682">
+		<e:List id="list" itemRendererSkinName="ActItem205EUI">
+			
+				
+			
+		</e:List>
+	</e:Scroller>
+</e:Skin>

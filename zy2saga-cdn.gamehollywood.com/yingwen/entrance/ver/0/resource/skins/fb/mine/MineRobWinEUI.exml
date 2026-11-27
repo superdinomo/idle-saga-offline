@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineRobWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586bde6cc9"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+	<e:Image x="0" y="0" source="sjhj_zycs_di_jpg"/>
+		<e:Button id="closeBtn0" label="" x="468" y="-3" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="12" source="sjhj_zycs_ldkg" x="228"/>
+			<e:List id="rewardList" itemRendererSkinName="ItemSkin" horizontalCenter="0" y="227">
+			<e:layout>
+				<e:HorizontalLayout gap="15"/>
+			</e:layout>
+			</e:List>
+		<e:Image y="170" fillMode="scale" width="475" source="zs_zycs_fengexian" x="39"/>
+		<e:Image y="181" source="qianghua_zycs_diwen1" width="276" fillMode="scale" x="138"/>
+		<e:Label text="Loot Rewards" size="24" fontFamily="Times" y="185" textColor="0xFF9B0F" x="228"/>
+		<e:Label id="minerName" text="0" size="20" textColor="0xBAB398" fontFamily="Times" y="74" x="145" visible="false"/>
+		<e:Label id="powerTxt" text="0" size="20" fontFamily="Times" x="63" y="110" textColor="0xff9b0f"/>
+		<e:Label id="roleName" text="0" size="20" fontFamily="Times" x="63" y="84" textColor="0xe5d3b5"/>
+		<e:Label id="guildName" text="0" size="20" fontFamily="Times" y="136" x="63" textColor="0x23becd"/>
+		<e:Label id="countTxt" text="0" size="20" fontFamily="Times" y="343" textColor="0x23ca23" width="497" textAlign="center" x="28"/>
+	<e:Button id="robBtn" skinName="BtnMin1_1" y="375" label="Loot" x="202"/>
+	</e:Group>
+</e:Skin>

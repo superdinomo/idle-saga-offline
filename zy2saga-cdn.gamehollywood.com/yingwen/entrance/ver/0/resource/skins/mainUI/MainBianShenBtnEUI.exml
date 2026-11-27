@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainBianShenBtnEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="noopenshenmo,auto,openshenmo,hideAutobtn"  width="144" height="139">
+	<w:Config id="1667af0cf87" />
+	<e:Group id="groupBianShen" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" height="139" name="groupBianShen">
+		<e:Image id="imgBianShen" fillMode="clip" scaleX="1" source="mianui_zycs_bianshen2" touchEnabled.noopenshenmo="false" touchEnabled.auto="false"/>
+		<e:Image fillMode="clip" scaleX="1" x="106" y="14" source="mianui_zycs_zi2" visible.noopenshenmo="false" visible.auto="false" visible.openshenmo="false" touchEnabled="false"/>
+		<e:ToggleButton id="btnAutoBianshen" label="" x="106" y="14" selected="false" visible.noopenshenmo="false" visible.auto="false" visible.hideAutobtn="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mianui_zycs_shou" source.down="mianui_zycs_zi"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:Image id="imgBianShenHead" x="10" y="40" source=""/>
+		<e:BitmapLabel id="bitBianShenTime" font="zdldownnum_fnt" text="" horizontalCenter="-11" verticalCenter="15" touchEnabled="false"/>
+		<e:Image id="imgAutoLock" x="9" y="38" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" visible.openshenmo="false" visible.hideAutobtn="false" source="mianui_zycs_lock"/>
+	</e:Group>
+	<e:Group id="groupMC" width="0" height="0" x="0" y="0" visible.auto="false" touchChildren="false" touchEnabled="false" visible.noopenshenmo="false"/>
+	<e:Group id="groupGuider1" width="85" height="85" x="13" y="43"  touchChildren="true" touchEnabled="false" name="groupGuider1">
+		<e:Group id="groupGuider" width="85" height="85" x="0" y="0"   touchChildren="true" touchEnabled="true" name="groupGuider"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem4_1To1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="347">
+	<w:Config id="1586bd49103"/>
+	<e:Group id="groupMc" height="0" y="360" width="0" x="174">
+		<e:Group id="offsMc" width="0" height="0"/>
+	</e:Group>
+	<e:Image id="bg" y="31" fillMode="scale" alpha="0.7" width="420" source="public_zycs_zld" horizontalCenter="0.5" height="47" scale9Grid="285,16,56,27"/>
+	<e:Label id="lbName" text="Player Name" y="42" size="24" fontFamily="Times" textAlign="center" width="224" x="62" textColor="0xff980f"/>
+	<e:List id="list" itemRendererSkinName="ItemSkin" horizontalCenter="0" y="405">
+		<e:layout>
+		<e:HorizontalLayout gap="10" paddingLeft="0" paddingRight="0" paddingBottom="0" paddingTop="0"/>
+		</e:layout>
+		
+		
+			
+			
+		
+		
+	</e:List>
+	<e:Label id="lbDabiao" text="CP Requirment to be listed on the ranking: 99998" y="519" size="24" fontFamily="Times" textAlign="center" width="317" x="16" textColor="0xffffff"/>
+	<e:Image id="imgXwyd" touchEnabled="false" source="hfxf_zycs_xwyd" y="35" x="110"/>
+</e:Skin>

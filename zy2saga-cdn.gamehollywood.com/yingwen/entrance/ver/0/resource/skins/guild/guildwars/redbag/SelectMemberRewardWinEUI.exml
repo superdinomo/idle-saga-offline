@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SelectMemberRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image y="-45" source="3_jpg"/>
+	<e:Group horizontalCenter="0" verticalCenter="-52" width="720">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Image y="30" source="llcz_zycs_jlfp" x="312"/>
+		<e:Button id="closeBtn0" label="" x="639" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label y="84" text="This Roland Castle War Guild Rank:" fontFamily="Times" size="20" x="240" textColor="0xafaaa0"/>
+		<e:Label id="rankLabel" y="84" text="0" fontFamily="Times" size="20" x="461" textColor="0xf5e65a"/>
+	<e:Image y="112"  x="116" source="liuguang_zycs_huawen"/>
+		<e:Image y="113" source="llcz_zycs_jlxq1" x="320"/>
+		<e:Image y="112" source="liuguang_zycs_huawen" scaleX="-1" x="605"/>
+	<e:Scroller width="682" x="19" height="609" y="151">
+		<e:List id="list" itemRendererSkinName="SelectRewardItemRendererEUI" x="-1">
+			<e:layout>
+				<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="sendReward" y="780" skinName="BtnMin1_1mid" label="Distribute Rewards" horizontalCenter="0"/>	
+</e:Group>
+</e:Skin>

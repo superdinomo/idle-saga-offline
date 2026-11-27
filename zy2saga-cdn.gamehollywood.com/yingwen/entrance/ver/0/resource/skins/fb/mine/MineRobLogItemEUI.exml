@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineRobLogItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="678" height="65">
+	<e:Image width="100%" source="zs_zycs_fengexian" y="63"/>
+	<e:Label id="timeTxt" text="0" y="9" size="20" fontFamily="Times" x="58" textColor="0x23becd"/>
+	<e:Label id="logTxt" text="0" y="36" size="20" fontFamily="Times" x="58" textColor="0xAF9B73"/>
+	<e:Label id="revengeBtn" text="Revenge" y="36" size="20" fontFamily="Times" x="596" textColor="0x23ca23"/>
+</e:Skin>

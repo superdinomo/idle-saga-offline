@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel39_3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="49.31" horizontalCenter="0" source="hddt_zycs_smfl_jpg"/>
+	<e:Image x="-2" y="-51.35" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="4" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hxzr"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Label id="lbTime" y="232" text="Quest reset countdown: xd xh xm xs" fontFamily="黑体" size="20" lineSpacing="10" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="auto" y="266" horizontalCenter="0" height="483">
+		<e:List id="list" itemRendererSkinName="ActItem39_3EUI">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller scrollPolicyH="auto" scrollPolicyV="off" y="813" maxWidth="650" horizontalCenter="0">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="123" y="777.33">
+		<e:Image y="3.34" source="liuguang_zycs_huawen" x="0"/>
+		<e:Image y="0.34" source="liuguang_zycs_huawen" scaleX="-1" x="477"/>
+		<e:Image y="0" x="189" source="hddt_zycs_jpzs"/>
+	</e:Group>
+	<e:Group x="125" y="956.33">
+		<e:Image y="3.34" source="liuguang_zycs_huawen" x="0"/>
+		<e:Image y="0.34" source="liuguang_zycs_huawen" scaleX="-1" x="477"/>
+		<e:Image y="0" x="189" source="hddt_zycs_wdbx"/>
+	</e:Group>
+	<e:Label id="lbRate" y="780" text="Chance Preview" fontFamily="黑体" size="20" lineSpacing="10" x="570" textColor="0x13ee22"/>
+	<e:Component id="item" x="180" y="984" skinName="ItemSkin"/>
+	<e:Button id="btnOpenOne" label="Open One" x="439" y="991" skinName="BtnMin1_1small"/>
+	<e:Button id="btnOpenAll" label="Quick Open" x="439" y="1049" skinName="BtnMin1_1asmall"/>
+</e:Skin>

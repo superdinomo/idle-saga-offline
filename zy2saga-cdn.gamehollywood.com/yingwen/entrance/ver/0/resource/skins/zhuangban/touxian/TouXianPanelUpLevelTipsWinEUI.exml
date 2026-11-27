@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TouXianPanelUpLevelTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" width="552" anchorOffsetY="0" height="490" horizontalCenter="-12" verticalCenter="-28">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Image y="86" source="tips_zycs_di" horizontalCenter="0"/>
+		<e:Label text="Congrats, you gained the following rewards" y="93" fontFamily="Times" horizontalCenter="0" size="24" textColor="0x5ac832"/>
+		<e:Scroller id="itemScroller"  horizontalCenter="0" verticalCenter="-1">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+			
+				
+				
+				
+				
+			
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	<e:Image y="11" horizontalCenter="-1.5" source="tx_zycs_txsj"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	</e:Group>
+</e:Skin>

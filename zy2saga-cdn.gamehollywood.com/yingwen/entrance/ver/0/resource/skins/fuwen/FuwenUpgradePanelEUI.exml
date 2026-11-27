@@ -1,0 +1,28 @@
+<e:Skin class="FuwenUpgradePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image height="847" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" y="45" width="694" x="13"/>
+
+
+
+	<e:Image x="36" source="zycs_320013" y="894"/>
+	<e:Scroller id="scroller" y="45" scrollPolicyH="off" height="847" width="658" x="36">
+		<e:List id="list" itemRendererSkinName="FuwenItemEUI" currentState="disabled" useVirtualLayout="false" allowMultipleSelection="true">
+			<e:layout>
+				<e:TileLayout  requestedColumnCount="4" paddingTop="10" paddingLeft="20" verticalGap="12" horizontalGap="30"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="labelCurCount" y="902" text="0" fontFamily="Times" size="20" x="73" touchEnabled="false" textColor="0xA5A3A0"/>
+	<e:Label id="labelAddCount" y="902" text="0" fontFamily="Times" size="20" x="164" touchEnabled="false" textColor="0x08a503"/>
+	<e:Label y="902" text="Rune Essence can be used to upgrade Rune" fontFamily="Times" size="20" touchEnabled="false" textColor="0xaf9b73" right="25"/>
+	<e:CheckBox id="checkBox0" x="528" y="958" skinName="CheckBoxEUI" label="Uncommon"/>
+	<e:CheckBox id="checkBox1" x="428" y="958" skinName="CheckBoxEUI" label="Rare"/>
+	<e:CheckBox id="checkBox2" x="325" y="958" skinName="CheckBoxEUI" label="Epic"/>
+	<e:CheckBox id="checkBox3" x="167" y="958" skinName="CheckBoxEUI" label="Legendary"/>
+	<e:CheckBox id="checkBox4" x="43" y="958" skinName="CheckBoxEUI" label="Divine"/>
+	<e:Image y="934" touchEnabled="false" source="zs_zycs_fengexian" x="13"/>
+	<e:Image y="996" touchEnabled="false" source="zs_zycs_fengexian" x="13"/>
+	<e:Button id="btnTunshi" y="1019" skinName="BtnMin1_1" x="294" label="Salvage"/>
+</e:Skin>

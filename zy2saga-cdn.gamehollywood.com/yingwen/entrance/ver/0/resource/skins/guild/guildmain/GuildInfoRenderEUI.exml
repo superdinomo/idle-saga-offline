@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildInfoRenderEUI" width="698" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Label id="labelName" text="Miracle xXMoo MoralityXx" x="74" fontFamily="Times" size="20" textAlign="left" width="164" textColor="0xe5d3b5" y="13"/>
+	<e:Label id="labelOffice" text="0" x="268" fontFamily="Times" size="20" textAlign="center" width="115" textColor="0x5ac832" y="13"/>
+	<e:Label id="labelGongxian" text="0" x="452" fontFamily="Times" size="20" textAlign="center" width="184" y="13" textColor="0xcdc8be"/>
+	<e:Image x="0" width="100%" source="zs_zycs_fengexian" y="43"/>
+	<e:Group id="vip" x="33" y="5"/>
+	<e:Image id="vipTitle" x="17" y="5" source=""/>
+	
+</e:Skin>

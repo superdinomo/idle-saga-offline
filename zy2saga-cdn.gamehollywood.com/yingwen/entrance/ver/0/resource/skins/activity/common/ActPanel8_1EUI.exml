@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel8_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="694" height="800">
+	<e:Image height="808" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" width="694" y="0" x="0" anchorOffsetY="0"/>
+	<e:Image y="0" x="0" source="hfxf_zycs_bg1_jpg" width="694"/>
+	<e:Image y="159" x="-2" source="hfxf_zycs_bg2_jpg"/>
+	<e:Image y="70" fillMode="scale" touchEnabled="false" x="42" source="jh_zycs_xz"/>
+	<e:Label text="Rank rewards will be issued via mails at 0:00. Basic rewards can be claimed in real time" y="76" size="24" textAlign="left" fontFamily="Times" x="84" textColor="0xcdc8be"/>
+	<e:Label text="Time Remain:" y="119" size="24" textAlign="left" fontFamily="Times" x="39" textColor="0xCDC8BE"/>
+	<e:Label id="lbTime" text="1 1:1:1" y="120" size="24" textAlign="left" fontFamily="Times" x="209" textColor="0x5ac832"/>
+	<e:Label id="lbMyRank" text="My Ranking: Not listed" y="721" size="20" textAlign="left" fontFamily="Times" textColor="0xcdc8be" horizontalCenter="128"/>
+	<e:Group y="715" horizontalCenter="-109">
+		<e:Label text="Spent:" y="0" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="0"/>
+		<e:Image source="zycs_320002"/>
+		<e:Label id="lbMyXf" text="99" y="0" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="6" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="linkBtn" label="" y="745" skinName="BtnMin1_8" icon="anz_zycs_qwcz" x="171"/>
+	<e:Button id="seeRankBtn" y="746" skinName="BtnMin1_8" icon="anz_zycs_ckph" x="409"/>
+	<e:Image y="11" x="-9" source="hfxf_zycs_msz1"/>
+	<e:Component id="itemTop1" y="158" skinName="ActItem8_1To1EUI" x="0"/>
+	<e:Component id="itemTop2" x="365" y="176" skinName="ActItem8_1To2EUI"/>
+	<e:Component id="itemTop3" x="365" y="358" skinName="ActItem8_1To2EUI"/>
+	<e:Component id="itemTop4" y="543" skinName="ActItem8_1To2EUI" x="365"/>
+</e:Skin>

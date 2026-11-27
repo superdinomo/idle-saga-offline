@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem39_3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="0,1,2" >
+	<e:Image x="0" y="0" source="yzsh_zycs_smfl_png" scale9Grid="266,12,175,74" width="100%"/>
+	<e:Button id="btnGet" label="Claim" x="510" visible.1="false" visible.2="false" y="21" skinName="BtnMin1_1"/>
+	<e:Button id="btnGoto" label="Go" x="510" visible.0="false" visible.2="false" y="21" skinName="BtnMin1_1a"/>
+	<e:Image id="imgYql" x="529" visible.0="false" visible.1="false" y="10" source="lilian_zycs_ylq"/>
+	<e:Label id="lbDesc" text="Total Login" x="10" y="27" size="22" fontFamily="SimHei" textColor="0xffffff"/>
+	<e:Label id="lbValue" y="58" text="（5/6）" fontFamily="黑体" size="24" lineSpacing="10" textAlign="center" visible.2="false" textColor="0xe3d7be" horizontalCenter="-259"/>
+</e:Skin>

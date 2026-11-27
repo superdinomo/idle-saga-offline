@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SuitPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="137" height="140" states="yidianliang,kedianliang,weidabiao,wuzhuangbei" >
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" x="0" source="qianghua_zycs_kuang"/>
+	<e:Image id="imgDi" x="25" y="27" source="role_zycs_0" visible.yidianliang="false"/>
+	<e:Component id="item" x="21" skinName="ItemSkin" y="24" currentState="suit" visible.wuzhuangbei="false"/>
+	<e:Image id="imgLock" source="role_zycs_suo" x="44" y="40" visible.yidianliang="false" visible.kedianliang="false"/>
+	<e:Image id="redPoint" x="105" y="12" source="mainui_zycs_hongdian" visible="false"/>
+	<e:Image id="imgWord" x="143" source="taozhuang_zycs_ydl" y="31" width="31" anchorOffsetX="16" source.kedianliang="taozhuang_zycs_kdl" source.weidabiao="taozhuang_zycs_wdb" horizontalCenter.weidabiao="74" source.wuzhuangbei="taozhuang_zycs_wdb" horizontalCenter.wuzhuangbei="74"/>
+
+</e:Skin>

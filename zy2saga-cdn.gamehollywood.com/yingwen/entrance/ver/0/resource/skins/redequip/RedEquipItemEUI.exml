@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipItemEUI" width="140" height="144" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   states="up,down" >
+	<e:Image id="imgBg" horizontalCenter="0" verticalCenter="0" source="zhzh_zycs_zbk2"/>
+	<e:Image id="imgSelect" anchorOffsetX="0" anchorOffsetY="0" source="zhzh_zycs_zbk4" y="-9" visible.up="false" x="-8"/>
+	<e:Group width="94" height="97" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1" y="8">
+		<e:Image id="imgIcon" source="" horizontalCenter="0" x="49" scaleX="1" scaleY="1" verticalCenter="0" anchorOffsetX="0.5" anchorOffsetY="0.5"/>
+	</e:Group>
+	<e:Image id="redPoint" y="-1" source="mainui_zycs_hongdian" x="104"/>
+	<e:Image id="imgName" horizontalCenter="0.5" x="10" y="113" source="zhzh_zycs_zbm1"/>
+	<e:Image id="imgCanUnlock" source="zhzh_zycs_kjs" horizontalCenter="0" y="43"/>
+	<e:Image id="imgDesc" horizontalCenter="0" x="10" y="65" source="zhzh_zycs_js0"/>
+</e:Skin>

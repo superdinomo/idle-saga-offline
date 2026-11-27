@@ -1,0 +1,43 @@
+<e:Skin class="DaZaoFootEquipPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="694">
+	<w:Config id="1586b1383e3" />
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" y="-2" source="craft_zycs_bg2_jpg"/>
+	<e:Image x="197" y="18" source="craft_zycs_bq"/>
+	<e:Label text="Material Source" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="24" x="215" textColor="0xff9b0f"/>
+	<e:Label id="lbConsumeDesc" text="Material Source" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="54" x="230" width="460" height="80" textColor="0xe3d7be"/>
+	<e:Label id="lbEquipDesc" text="Guaranteed to gain XXX Gear x1 (Designated part)" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="173" x="230" textColor="0xe3d7be"/>
+	<e:Image y="381" source="tips_zycs_di" x="322"/>
+	<e:Label id="lbEquipName" text="Gear Name" size="26" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="387" horizontalCenter="96"/>
+	<e:Label text="Select the part to forge" size="18" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="720" x="382"/>
+	<e:Label id="lbConsumeName" text="Can place in XXX gear" size="22" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="901" horizontalCenter="88.5"/>
+	<e:Label id="lbHaveCount" text="Own: 0" size="22" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="927" x="410" textColor="0x5ac832"/>
+	<e:Image x="197" y="136" source="craft_zycs_bq"/>
+	<e:Label text="Forge Gear" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="142" x="215" textColor="0xff9b0f"/>
+	<e:Component id="itemTarget" y="234" anchorOffsetX="0" touchEnabled="true" x="378" skinName="DaZaoEquipItemEUI"/>
+	<e:Image rotation="90" y="455" source="qianghua_zycs_next" scaleX="-1" x="464"/>
+	<e:Component id="itemConsumeCaiLiao" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="396" y="459"/>
+	<e:Label id="lbConsumeCaiLiao" text="Forge Gear" size="24" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="554" textColor="0xFF9B0F" horizontalCenter="98"/>
+	<e:Component id="itemConsume0" y="583" skinName="DaZaoEquipConsumeItemEUI" anchorOffsetX="0" touchEnabled="true" x="239"/>
+	<e:Component id="itemConsume1" y="583" skinName="DaZaoEquipConsumeItemEUI" anchorOffsetX="0" touchEnabled="true" x="390"/>
+	<e:Component id="itemConsume2" y="583" skinName="DaZaoEquipConsumeItemEUI" anchorOffsetX="0" touchEnabled="true" x="540"/>
+		<e:List id="itemListPos" y="774"  x="217" itemRendererSkinName="DaZaoEquipPosTabEUI">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="20" verticalGap="10"/>
+			</e:layout>
+		</e:List>
+	<e:Button id="btnFangRu" label="Place All" y="958" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" x="262.5"/>
+	<e:Button id="btnDaZao" label="Forge All" y="958" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" x="470.5"/>
+	
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GemAttrPlusWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group width="720" height="882" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="-1" source="erjijiemiankuang_png" width="720" height="882"/>
+		<e:Image y="719" source="qianghua_zycs_fenge" x="215"/>
+		<e:Button id="closeBtn" label="" x="640" y="14" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	</e:Group>
+</e:Skin>

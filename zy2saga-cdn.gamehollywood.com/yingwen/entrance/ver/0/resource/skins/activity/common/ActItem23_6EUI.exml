@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem23_6EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="172" width="682">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" height="172" source="shenmo_zycs_dikuang_02" width="682" scale9Grid="41,12,250,63"/>
+	<e:Image x="7" y="10" source="public_zycs_btkuang"/>
+	<e:Group x="24" y="13">
+		<e:Label text="Top up" x="0" y="0" size="24" fontFamily="Times" textColor="0xE6DCB8"/>
+		<e:BitmapLabel id="bmpDay" x="190" y="7" text="1" font="yzshnum2_fnt"/>
+		<e:Label text="day(s) in total" x="69" y="2" size="24" fontFamily="Times" textColor="0xE6DCB8"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="6"/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller x="13" scrollPolicyH="off" scrollPolicyV="off" width="440" y="47">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="12" paddingLeft="12" paddingTop="12" paddingBottom="12" paddingRight="12" horizontalAlign="center"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="500" y="51" label="Claim" skinName="BtnMin1_2"/>
+	<e:Button id="btnLink" x="500" y="51" label="Top Up" skinName="BtnMin1_1a"/>
+	<e:Image id="imgYlq" x="512" source="public_zycs_ylq" y="40"/>
+</e:Skin>

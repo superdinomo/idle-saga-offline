@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActWinPanelEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" x="0" y="0" width="720" height="1054" touchEnabled="false">
+		<e:Image x="0" y="0" height="1054" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="43" x="13" source="jiadian_zycs_di" anchorOffsetX="0" width="695" anchorOffsetY="0" height="973"/>
+		<e:ViewStack id="viewStack" y="207" x="13" width="694" height="800"/>
+		<e:Image y="45" scale9Grid="56,45,8,12" width="696" height="155" source="public_zycs_k2" x="12"/>
+		<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+		<e:Image id="imgTitle1" y="-6" x="278" source="hddt_zycs_hddt"/>
+		
+		<e:Scroller id="scrollerBase" y="80" height="102" width="544" x="88" anchorOffsetY="0" scrollPolicyV="off">
+			<e:List id="tab" itemRendererSkinName="ActBtnEUI" useVirtualLayout="false">
+				<e:layout>
+					<e:HorizontalLayout  gap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="leftBtn" y="110" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" scaleX="-1" x="78"/>
+		<e:Button id="rightBtn" y="110" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" x="642"/>
+		<e:Image source="dljl_zycs_k3" x="0" y="981" touchEnabled="false" pixelHitTest="true"/>
+	</e:Group>
+</e:Skin>

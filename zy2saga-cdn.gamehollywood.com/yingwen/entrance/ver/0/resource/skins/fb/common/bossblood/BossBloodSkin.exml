@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BossBloodSkin" currentState="danren" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="danren,duoren">
+	<e:Group horizontalCenter="0" touchEnabled="false" right="0" left="0" bottom="0" top="0">
+		<e:Component id="bossBloodComponent" skinName="BossBloodComponentSkin" height="128" y="149" y.duoren="84"
+		             horizontalCenter.danren="0" horizontalCenter.duoren="0" />
+		<e:Button id="btnClose" label="" icon="public_zycs_lkfb" scaleX="1" scaleY="1" y="787" skinName="Btn0Skin" x="561"
+		          visible="false" />
+		<e:Group id="groupRawead" y="237" y.duoren="168" y.danren="230" horizontalCenter="24.5" horizontalCenter.duoren="25">
+			<e:Image y="0" source="public_zycs_zbjlk" scale9Grid="12,16,74,2" anchorOffsetX="0" width="100%" anchorOffsetY="0"
+			         height="100%" />
+			<e:Scroller id="scrollerItem" scaleX="0.68" scaleY="0.68" anchorOffsetY="0" top="13" left="15" right="15" bottom="8">
+				<e:List id="listItemReward" scrollEnabled="false" itemRendererSkinName="ItemSkin" useVirtualLayout="false">
+					<!--<e:ArrayCollection>
+						<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+					
+				</e:ArrayCollection>-->
+				<e:layout>
+					<e:HorizontalLayout gap="27" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Group>
+</e:Skin>

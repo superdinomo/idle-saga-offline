@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MoLianRewardEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="ok,no" >
+	<e:Group horizontalCenter="-7.5" verticalCenter="-33.5" anchorOffsetX="0" width="551">
+		<e:Image y="-1" x="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="82,57,15,9" source="sjhj_zycs_di_jpg"/>
+		<e:Button id="closeBtn" label="" x="483" y="-6" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="12" source="pt_zycs_tgjl" horizontalCenter="0"/>
+		<e:Label id="lbdesc" y="345" text="0" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" textColor="0x5ac832" horizontalCenter="0"/>
+	<e:Button id="sure" label="Claim" y="376" enabled.no="false" skinName="BtnMin1_1" icon="" x="209"/>
+	<e:Scroller skinName="Btn0Skin" y="155" horizontalCenter="0">
+			<e:List id="list" y="2" itemRendererSkinName="ItemSkin" x="0">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="0" gap="6"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+	</e:Group>
+
+</e:Skin>

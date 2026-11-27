@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSelectPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="141" width="534">
+	<w:Config id="1586b13d455"/>
+	<e:Image y="0" scale9Grid="50,45,6,16" x="0" pixelHitTest="true" source="role_zycs_touxiangkuang_di"/>
+	<e:Group width="407" height="95" y="-15" anchorOffsetY="0" anchorOffsetX="0" x="64">
+		<e:ToggleButton id="role0" skinName="RoleToggleBtn" y="3" x="52" scaleX="1" scaleY="1"/>
+		<e:ToggleButton id="role1" skinName="RoleToggleBtn" y="2" x="158" scaleX="1" scaleY="1"/>
+		<e:ToggleButton id="role2" skinName="RoleToggleBtn" y="2" x="260" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="-18" horizontalAlign="center" paddingLeft="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

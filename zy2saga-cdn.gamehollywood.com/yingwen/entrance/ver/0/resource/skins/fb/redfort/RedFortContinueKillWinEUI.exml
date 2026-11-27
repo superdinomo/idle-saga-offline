@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortContinueKillWinEUI" width="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1280">
+	<w:Config id="1586b13ea96"/>
+	<e:Group top="337" horizontalCenter="140" width="325" height="119">
+		<e:Image touchEnabled="false" scale9Grid="13,11,41,18" source="lz_zycs_di" y="40"/>
+		<e:Image y="48" x="118" touchEnabled="false" source="lz_zycs_zl"/>
+		<e:BitmapLabel id="countBmp" y="55" text="34" right="212" font="lznum1_fnt" anchorOffsetX="13" anchorOffsetY="18"/>
+	</e:Group>
+</e:Skin>

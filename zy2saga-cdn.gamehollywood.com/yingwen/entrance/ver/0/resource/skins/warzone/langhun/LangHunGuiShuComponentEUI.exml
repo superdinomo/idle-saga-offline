@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunGuiShuComponentEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="139" height="20">
+	<w:Config id="15d981d06da"/>
+	<e:Group y="0" anchorOffsetX="93" x="0">
+		<e:BitmapLabel id="bitNum" y="0" text="9" font="lhzdnum_fnt" letterSpacing="-5" horizontalCenter="-56"/>
+		<e:Image x="31" y="0" source="lhzd_zycs_jl"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+		</e:layout>
+
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

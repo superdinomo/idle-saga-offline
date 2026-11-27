@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WaiXianSuitItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="down,up" >
+	<e:Image id="imgSelect" source="wxtz_zycs_xuanzhong" visible.up="false" y="0"/>
+	<e:Image id="imgBG" horizontalCenter="0.5" bottom="42" source="wxtz_zycs_quality3"/>
+	<e:Image id="imgIcon" width="95" height="95" source="mianui_icon_bianshen1" horizontalCenter="0" bottom="48"/>
+	<e:Image id="imgMask" width="95" height="95" source="mianui_icon_bianshen1" horizontalCenter="0" bottom="48"/>
+	<e:Image y="106" horizontalCenter="0" source="wxtz_zycs_kuang2"/>
+	<e:Group id="groupMc" width="0" height="0" x="18" y="20"/>
+	<e:Label id="lbCount" text="三转(333)" y="140" size="22" fontFamily="Times" textAlign="center" textColor="0xf4f4f4" horizontalCenter="0" y.up="140"/>
+	<e:Label id="lbName" text="Item name" y="115" size="24" fontFamily="Times" textAlign="center" horizontalCenter="0" textColor="0xfffcd4" strokeColor="0x892f08" stroke="2"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="118" y="13"/>
+
+
+
+
+
+	
+	
+</e:Skin>

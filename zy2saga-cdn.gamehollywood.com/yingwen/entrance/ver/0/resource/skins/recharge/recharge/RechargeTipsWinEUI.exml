@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RechargeTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0" height="488" width="552">
+		<e:Image y="0" x="0" source="sjhj_zycs_di_jpg"/>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	<e:Button id="btnBuy" y="360" skinName="BtnMin1_1" x="331" label="Purchase Sacred Dragon"/>
+	<e:Button id="btnRecharge" y="360" x="88" label="Top Up" skinName="BtnMin1_1a"/>
+	<e:Label id="lbContent" y="123" text="Confirm to Spend" fontFamily="Times" size="20" textAlign="left" lineSpacing="15" textColor="0xd2c864" verticalAlign="middle" anchorOffsetY="0" x="94" width="362"/>
+		<e:Label id="lbContent0" y="199" text="Purchase Golden Dragon (Recommended)" fontFamily="Times" size="20" textAlign="center" lineSpacing="15" verticalAlign="middle" anchorOffsetY="0" x="94" textColor="0xe3d7be"/>
+		<e:Label id="lbContent1" y="230" text="Top-up Now" fontFamily="Times" size="20" textAlign="center" lineSpacing="15" verticalAlign="middle" anchorOffsetY="0" x="94" textColor="0xe3d7be"/>
+		<e:Image y="15" source="chibang_zycs_tishi" x="249"/>
+	</e:Group>
+</e:Skin>

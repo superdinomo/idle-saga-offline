@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JinZuanShopPanelEUIItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="yiBuy,normal"  width="214" height="283">
+	<w:Config id="1586bdedfef"/>
+	<e:Image id="imgBg" x="0" y="0" source="jz_zycs_bg5_jpg"/>
+	<e:Label id="labelName" text="Item" y="121" fontFamily="Times" size="20" horizontalCenter="0" textColor="0xf5e65a" width="209" textAlign="center"/>
+	<e:Component id="item" skinName="ItemSkin" y="11" x="60"/>
+	<e:Image id="imgDiscountBg" x="-2" y="-1" source="public_zycs_tab2"/>
+	<e:Group width="60" height="68" x="-3" y="0">
+		<e:BitmapLabel id="bmpLabelDiscount" font="shopnum1_fnt" text="1z" horizontalCenter="0" verticalCenter="0" rotation="-45" letterSpacing="-3"/>
+	</e:Group>
+	<e:Component id="priceIconOld" y="155" skinName="PriceIconSkin" horizontalCenter="0"/>
+	<e:Component id="priceIconNew" y="185" skinName="PriceIconSkin" horizontalCenter="0"/>
+	<e:Button id="btnBuy" name="buy" skinName="BtnMin1_2mid" y="220" label="Purchase" x="47" visible.yiBuy="false"/>
+	<e:Image y="211" source="jz_zycs_ygm" horizontalCenter="0" visible.normal="false"/>
+</e:Skin>

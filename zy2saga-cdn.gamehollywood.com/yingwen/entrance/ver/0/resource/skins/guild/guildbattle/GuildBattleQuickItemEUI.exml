@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleQuickItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="91">
+
+	<e:Label id="lbOffice" text="Leader" y="3" fontFamily="Times" size="20" horizontalCenter="0.5" textColor="0xffffff"/>
+	<e:Label id="lbRoleName" text="Miracle xXMoo MoralityXx" y="25" fontFamily="Times" size="18" horizontalCenter="1" textColor="0xffffff" width="91" textAlign="center"/>
+	<e:Image id="imgIcon" y="81" horizontalCenter="0" source="ldsz_zycs_r1_png"/>
+</e:Skin>

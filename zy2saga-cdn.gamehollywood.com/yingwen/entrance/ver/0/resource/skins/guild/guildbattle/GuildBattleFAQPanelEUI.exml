@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleFAQPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" source="ldsz_zycs_bg9_jpg" x="13"/>
+	<e:Image id="imgHelp0" y="304" x="361" source="ldsz_zycs_hdsm1" touchEnabled="true"/>
+	<e:Image y="407" x="414" id="imgHelp1" source="ldsz_zycs_hdsm2" touchEnabled="true"/>
+	<e:Image y="515" x="441" id="imgHelp2" source="ldsz_zycs_hdsm3" touchEnabled="true"/>
+	<e:Image y="623" x="471" id="imgHelp3" source="ldsz_zycs_hdsm4" touchEnabled="true"/>
+	<e:Image y="736" x="444" id="imgHelp4" source="ldsz_zycs_hdsm5" touchEnabled="true"/>
+	<e:Image y="841" x="414" id="imgHelp5" source="ldsz_zycs_hdsm6" touchEnabled="true"/>
+	<e:Image y="953" x="361" id="imgHelp6" source="ldsz_zycs_hdsm7" touchEnabled="true"/>
+	<e:Button id="btnHelp0" x="310" y="300" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="btnHelp1" x="363" y="403" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="btnHelp2" x="390" y="511" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="btnHelp3" x="420" y="620" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="btnHelp4" x="393" y="732" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="btnHelp5" x="363" y="837" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="btnHelp6" x="310" y="949" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+
+</e:Skin>

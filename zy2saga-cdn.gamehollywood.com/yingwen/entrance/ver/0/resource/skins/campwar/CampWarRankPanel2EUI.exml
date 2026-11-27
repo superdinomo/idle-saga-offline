@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarRankPanel2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image fillMode="clip" y="42"  x="13" source="hwbz_zycs_bg_jpg"/>
+	<e:Image x="0" y="-3" height="1142" touchEnabled="false" source="phb_zycs_k" width="720" scale9Grid="0,121,720,43"  locked="true"/>
+	<e:Image id="none" y="172" source="llcz_zycs_xydw" x="190" />
+	<e:Image y="24"  source="smsz_zycs_date" x="77"/>
+	<e:BitmapLabel id="bmpY0" y="23" text="67" letterSpacing="0" font="smszdatenum_fnt" horizontalCenter="-65"/>
+	<e:BitmapLabel id="bmpY1" y="23" text="67" letterSpacing="0" font="smszdatenum_fnt" horizontalCenter="135"/>
+	<e:BitmapLabel id="bmpR0" y="23" text="67" letterSpacing="0" font="smszdatenum_fnt" horizontalCenter="25"/>
+	<e:BitmapLabel id="bmpR1" y="23" text="67" letterSpacing="0" font="smszdatenum_fnt" horizontalCenter="227"/>
+	<e:Image touchEnabled="false" x="23" y="497" source="jh_zycs_xz"/>
+	<e:Label text="Ranking rewards will be issued via mails upon the end of the season" x="64" size="22" y="504" fontFamily="Times" textColor="0xff9b0f"/>
+
+	<e:Group id="groupMc" x="365" y="457"/>
+
+
+
+
+
+	<e:Scroller id="scroller" x="14" width="692" height="487" y="543">
+		<e:List id="list" itemRendererSkinName="CampWarRankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+	</e:List>
+</e:Scroller>
+
+
+	<e:Group id="groupScore" x="123" y="1054">
+		<e:Label id="lbRank" text="My Ranking: Not listed" size="24" textAlign="center" fontFamily="Times" x="0" y="0" textColor="0xf3d00b"/>
+		<e:Label id="lbScore" text="Points: 0" size="24" textAlign="center" fontFamily="Times" x="296" y="0" textColor="0xFF9B0F"/>
+	</e:Group>
+
+
+
+
+</e:Skin>

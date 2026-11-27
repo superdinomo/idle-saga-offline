@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bloodBarSkin1" xmlns:e="http://ns.egret.com/eui" height="11" width="87">
+	<e:Image
+	         horizontalCenter="0" y="0" source="public_zycs_hpframe" scale9Grid="30,3,1,1"/>
+	<e:Image id="thumb" fillMode="scale" left="1" right="1" source="public_zycs_greenhp" y="0.15" scale9Grid="7,2,43,1"/>
+</e:Skin>

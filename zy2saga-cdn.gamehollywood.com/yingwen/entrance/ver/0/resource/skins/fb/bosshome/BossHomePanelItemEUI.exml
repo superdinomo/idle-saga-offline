@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossHomePanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="up,down"  width="199">
+
+	<e:Image id="bg" anchorOffsetX="0"
+	         anchorOffsetY="0"  source="klm_zycs_dbz" x.down="0" y.down="0" x="14" y="18" source.down="" visible.down="false"/>
+	<e:Image id="bg0" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="klm_zycs_xbz" visible.up="false"/>
+	<e:Label id="nameTxt" y="23" text="0" fontFamily="Times" size="20" textAlign="center"
+	          anchorOffsetX="0" horizontalCenter="-0.5" textColor="0xe6dcb8"/>
+	<e:Label id="lbDesc" y="46" text="0" fontFamily="Times" size="18" textAlign="center" textColor="0xFFB92D" horizontalCenter="0"/>
+	<e:Label id="lbTimer" y="46" text="0" fontFamily="Times" size="18" textAlign="center" horizontalCenter="0" textColor="0xf01414"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="14" top="8"/>
+
+</e:Skin>

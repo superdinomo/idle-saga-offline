@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SuitPanelTabItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="up,down"  width="120">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" source="taozhuang_zycs_txk" horizontalCenter="0"/>
+	<e:Image id="imgSelect" source="taozhuang_zycs_xz" visible.up="false" horizontalCenter="0"/>
+	<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="-11" source="taozhuang_zycs_tb"/>
+	<e:Group id="groupStar" x="93" y="12">
+		<e:Image id="imgIcon0" source="taozhuang_zycs_xj" x="0" y="0"/>
+		<e:Image id="imgIcon1" source="taozhuang_zycs_xj" y="0" x="0"/>
+		<e:Image id="imgIcon2" source="taozhuang_zycs_xj" y="10" x="10"/>
+		<e:Image id="imgIcon3" source="taozhuang_zycs_xj" y="20" x="20"/>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="redPoint" y="4" source="mainui_zycs_hongdian" x="80"/>
+	<e:Label id="labelName" text="Silver Silver White" fontFamily="Times" size="18" textColor="0xcdc8be" horizontalCenter="0" width="110" bottom="20" textAlign="center"/>
+	<e:Label id="labelCount" text="(0/8)" y="112" fontFamily="Times" size="20" horizontalCenter="0" textColor="0xff9b0f"/>
+
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildManagePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720" height="1134">
+	<e:Group x="0" y="0" height="1134">
+		<e:Image x="0" y="0" height="1054" touchEnabled="false" source="public_zycs_dikuang" width="720" scale9Grid="88,64,2,3"/>
+		<e:Image y="34" source="zhanmeng_zycs_bg_jpg" x="13"/>
+		<e:Scroller id="buildScroller" width="680" height="817" x="20" y="78">
+			<e:List id="listBuild" x="14" y="11" useVirtualLayout="false" itemRendererSkinName="GuildManageRenderEUI">
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="682" height="112" x="20" y="912" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="listEvent" x="0" y="69" itemRendererSkinName="GuildManagerEvenRenderEUI" anchorOffsetY="0" height="112">
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleZhuoYueAttrPlusWinEUI" xmlns:e="http://ns.egret.com/eui"         xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="noact,act,max" >
+	<w:Config id="1586b13ea96" />
+	<e:Group   horizontalCenter="0" anchorOffsetY.act="0" horizontalCenter.act="0" y.act="0" verticalCenter.act="0" anchorOffsetY.noact="0" horizontalCenter.noact="0" height.noact="168" y.noact="0" anchorOffsetY.max="0" horizontalCenter.max="0" height.max="168" y.max="0" verticalCenter="0" height="269">
+		<e:Image x="0" source="equip_zycs_di" anchorOffsetX="0" width="407" anchorOffsetY="0" height="270" scale9Grid="25,31,46,36" top.act="0" height.noact="169" y.noact="0" y="-1" height.max="169" y.max="0"/>
+		<e:Group id="groupCurPoint" x="37" y="59">
+			<e:Image source="public_zycs_sxd" />
+			<e:Image source="public_zycs_sxd" x="10" y="10" />
+			<e:layout>
+			<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbCurTitle" text="The full body Excellent Gear accumulates Excellent Stats" x="27" y="26" size="20" fontFamily="Times" textAlign="left" textColor="0xe6dcb8"/>
+		<e:Label id="lbCurAttr" text="Stats:\nStats:" x="62" y="58" size="20" fontFamily="Times" textAlign="left" textColor="0xe6dcb8" lineSpacing="5"/>
+		<e:Image y="117" touchEnabled="false" source="zs_zycs_fengexian" width="337" horizontalCenter="8" visible.noact="false" visible.max="false"/>
+		<e:Group id="groupNextPoint" x="37" y="161" visible.noact="false" visible.max="false">
+			<e:Image source="public_zycs_sxd" />
+			<e:Image source="public_zycs_sxd" x="10" y="10" />
+			<e:layout>
+			<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbNextTitle" text="The full body Excellent Gear accumulates Excellent Stats" x="27" y="128" size="20" fontFamily="Times" textAlign="left" textColor="0xe6dcb8" visible.noact="false" visible.max="false"/>
+		<e:Label id="lbNextAttr" text="Stats:\nStats:" x="62" y="161" size="20" fontFamily="Times" textAlign="left" textColor="0xe6dcb8" lineSpacing="5" visible.noact="false" visible.max="false"/>
+		<e:Image y="223" touchEnabled="false" source="zs_zycs_fengexian" width="337" horizontalCenter="8" horizontalCenter.noact="1" y.noact="118" horizontalCenter.max="1" y.max="118"/>
+		<e:Label id="lbDesc" text="The full body Excellent Gear accumulates 1 entry of Excellent Stats currently" x="27" y="234" size="20" fontFamily="Times" textAlign="left" textColor="0xff9b0f" y.noact="133" y.max="133"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortRankFloorPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="693" height="153">
+	<w:Config id="1586b362dfe"/>
+	<e:Image y="0" x="0" scale9Grid="71,16,426,103" source="llcz_zycs_di01"/>
+
+	<e:Label id="rankTxt" size="20" fontFamily="Times" text="0" x="32" width="135" textAlign="center" y="67" textColor="0xe5d3b5"/>
+	<e:Image id="rankImg" source="jjc_zycs_no1" x="65" y="51"/>
+	<e:Scroller id="scroller" height="94" y="30" scrollPolicyH="on" width="332" x="264" scrollPolicyV="off">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="25"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

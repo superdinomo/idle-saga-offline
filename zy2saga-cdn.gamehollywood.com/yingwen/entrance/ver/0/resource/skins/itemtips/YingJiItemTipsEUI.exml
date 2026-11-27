@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YingJiItemTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" width="518" touchEnabled="true" touchChildren="true">
+		<e:Image top="0" bottom="0" source="public_zycs_tips_png" height="539" scale9Grid="64,10,390,7"/>
+		<e:Button id="closeBtn0" label="" y="5" skinName="Btn0Skin" icon="public_zycs_cha" x="481"/>
+		<e:Image id="imgQuality" source="tips_zycs_4"/>
+		<e:Component id="itemIcon" x="58" y="71" skinName="ItemSkin"/>
+		<e:Image y="15" source="tips_zycs_di" x="140"/>
+		<e:Label id="lbName" text="Gear Name" y="23" fontFamily="Times" size="24" textColor="0xFfFFFF" textAlign="center" width="404" x="57"/>
+		<e:Label id="lbLv" text="Use Level: 1" y="85" fontFamily="Times" size="24" textAlign="left" x="172" textColor="0xffffff"/>
+		<e:Label id="lbCount" text="Amount Owned: 1" y="115" fontFamily="Times" size="24" textColor="0xFfFFFF" textAlign="left" x="172"/>
+		<e:Group x="0" y="188">
+			<e:Group x="20" y="0">
+				<e:Group x="0" y="0">
+				<e:Image id="imgAttr" y="0" x="191" source="xhmz_zycs_shsx"/>
+				<e:Image y="3" source="liuguang_zycs_huawen" scaleX="-1" x="478"/>
+				<e:Image y="3" source="liuguang_zycs_huawen" x="0"/>
+				<e:Label id="lbDesc" text="Activate or increase Artifact [Demon Wings] to provide the Character with " y="30" fontFamily="Times" size="24" textColor="0xFfFFFF" textAlign="left" x="2" lineSpacing="6" width="456"/>
+				<e:Label text="Following Stats:" y="60" fontFamily="Times" size="24" textColor="0xFfFFFF" textAlign="left" x="2" visible="false"/>
+				</e:Group>
+				<e:Group id="groupGain" x="0" y="212" scaleY="1">
+				<e:Image y="16" x="191" source="zz_zycs_hqtj"/>
+				<e:Image y="19" source="liuguang_zycs_huawen" scaleX="-1" x="478"/>
+				<e:Image y="19" source="liuguang_zycs_huawen" x="0"/>
+				<e:Group top="42" bottom="-5" horizontalCenter="0">
+					<e:List id="gainList" itemRendererSkinName="GainGoodsItemEUI" horizontalCenter="0">
+					<e:ArrayCollection>
+						<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:TileLayout horizontalGap="35" horizontalAlign="center" requestedColumnCount="4"/>
+					</e:layout>
+					</e:List>
+				</e:Group>
+				</e:Group>
+				<e:layout>
+				<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="518" height="404" x="0" y="274">
+				<e:Image source="shenyou_zycs_bg6_png" y="11" horizontalCenter="0"/>
+				<e:Group width="0" height="0" id="groupEntity1" x="120" y="150" scaleX="1" scaleY="1"/>
+				<e:Group width="0" height="0" id="groupEntity2" x="430" y="356" scaleX="1" scaleY="1"/>
+				<e:Group width="0" height="0" id="groupMC" horizontalCenter="0.5" verticalCenter="1.5" x="259" y="-28" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

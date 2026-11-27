@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="equipchangskin_1" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="-34">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn" label="" x="632" y="10" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="30" source="role_zycs_zbgh" x="321"/>
+	<e:Scroller id="itemScroller" width="682" height="739" x="21" y="89" anchorOffsetX="0" scrollPolicyH="off" anchorOffsetY="0">
+		<e:List id="itemList" width="610.15" height="774" x="1" y="-1" anchorOffsetX="0" anchorOffsetY="0"
+		        itemRendererSkinName="equipchangskin_3">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Group>
+</e:Skin>

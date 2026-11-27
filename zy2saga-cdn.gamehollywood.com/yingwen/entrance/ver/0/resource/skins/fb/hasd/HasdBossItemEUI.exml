@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HasdBossItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="up,down">
+	<e:Image id="imgBg" x="16" y="19" source="gd_zycs_sm1" />
+	<e:Image id="imgP" x="20" y="21" source="gd_zycs_1a"/>
+	<e:Image x="0" y="0" visible.up="false" source="gd_zycs_zxk" />
+	<e:Image y="83" source="gd_zycs_mzd" x="20" />
+	<e:Label id="nameTxt" y="84" text="0" fontFamily="Times" size="18" textAlign="center" anchorOffsetX="0"
+	         horizontalCenter="0.5" textColor="0xe6dcb8" />
+	<e:Label id="timeTxt" y="23" text="Refresh" fontFamily="Times" size="18" textAlign="center" textColor="0xFFB92D"
+	          right="25"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="14" top="8" />
+</e:Skin>

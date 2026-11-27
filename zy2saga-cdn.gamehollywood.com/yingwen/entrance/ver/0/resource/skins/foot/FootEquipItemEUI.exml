@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FootEquipItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="130" height="134">
+	<e:Image id="imgSelect" source="public_zycs_xuanzhong"/>
+	<e:Group x="18" y="20">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_daojukuang_01"/>
+		<e:Image id="imgEquipBg" anchorOffsetX="0" anchorOffsetY="0" source="zuji_zycs_bw0" x="13" y="9"/>
+		<e:Image id="imgColor" source="public_zycs_pinzhi_03" x="1" y="0"/>
+
+		<e:Image id="imgIcon" anchorOffsetX="0" anchorOffsetY="0" source="" horizontalCenter="0" verticalCenter="0"/>
+		<e:Component id="itemIcon" x="0" y="-1" skinName="ItemSkin"/>
+		<e:Group id="groupMc" y="44" x="47"/>
+		<e:Image id="imgPlus" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_jh1" x="30" y="26"/>
+		<e:BitmapLabel id="bitRank" y="4" text="+99" x="6" font="qianghuanum2_fnt"/>
+		<e:Image id="redPoint" source="mainui_zycs_hongdian" x="72" y="0"/>
+	</e:Group>
+	<e:Label id="lbName" text="Gold Whisper" y="114" size="20" fontFamily="Times" textAlign="center" textColor="0xF4F4F4" horizontalCenter="0" width="113"/>
+	
+	
+</e:Skin>

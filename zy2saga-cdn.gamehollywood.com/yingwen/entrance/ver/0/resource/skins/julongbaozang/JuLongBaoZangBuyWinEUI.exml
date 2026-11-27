@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JuLongBaoZangBuyWinEUI" width="720" height="1280"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+       >
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0" width="720" height="995">
+		<e:Image x="0" y="0"  source="jlbz_zycs_jllb_png"/>
+		<e:Button id="closeBtn" label="" x="643" y="68" icon="public_zycs_cha1"  skinName="Btn0Skin"/>
+		<e:Group id="groupMcIcon" y="576" horizontalCenter="0"/>
+
+		<e:Image id="imgPay" y="129"  x="93" source="jlbz_zycs_1"/>
+		<e:Image id="imgDec" y="169" x="233" source="jlbz_zycs_pay1_1_png"/>
+
+		<e:Group y="604" horizontalCenter="0.5">
+			<e:Image source="jlbz_zycs_zl"/>
+			<e:BitmapLabel id="bitPower" text="123456" letterSpacing="-16" font="mrzg_fnt"/>
+			<e:Image source="jlbz_zycs_jt"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="-17"/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller y="669" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingBottom="12" paddingRight="12" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group y="793" horizontalCenter="0">
+			<e:Label id="lbDq" text="Purchase now to get 1288" y="6" size="20" fontFamily="Times" textColor="0xE3D7BE" x="0"/>
+			<e:Image y="0" touchEnabled="false" source="zycs_320030" x="299"/>
+			<e:Label text="Won't affect the daily acquire limit" y="7" size="20" fontFamily="Times" textColor="0xE3D7BE" x="337"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnBuy" y="829" skinName="BtnMin1_16" icon="anz_zycs_10y" label="$21 Snatch" x="255"/>
+		<e:Button id="btnGet" label="Claim" y="829" skinName="BtnMin1_16"  x="255"/>
+		<e:Image id="imgYgm" y="832" x="300" source="fl_zycs_ylq"/>
+
+		<e:Label text="This can be counted towards total Top-up and SVIP" y="922" size="20" fontFamily="Times" textColor="0xe3d7be" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

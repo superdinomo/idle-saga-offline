@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleAwardWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group width="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:ViewStack id="viewStack" y="0" selectedIndex="0" x="0"/>
+		<e:Image y="-16" scale9Grid="56,7,80,44" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Image id="imgTitle" y="13" horizontalCenter="0" source="ldsz_zycs_phjl"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637"/>
+		<e:TabBar id="tab" selectedIndex="0" y="761" itemRendererSkinName="BtnTab5ZYCSSkin" horizontalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout gap="10"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object />
+					<e:Object />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+	</e:Group>
+</e:Skin>

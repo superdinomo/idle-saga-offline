@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MoLingWaKePanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down" >
+	<e:Image id="imgBg" source="public_zycs_yk" x="14" y="14"/>
+	<e:Image id="imgSelect" visible.up="false" source="dstf_zycs_xzk" x="0"/>
+	<e:Image id="imgIcon" width="85" height="85" x="32" y="30" source="mljx_zycs_h1"/>
+	<e:Image id="imgLevelBg" x="102" y="89" source="peiyang_zycs_hui"/>
+
+	<e:Label id="lbLevel" text="1" y="95" size="18" fontFamily="Times" textAlign="center" textColor="0xFFFFFF" horizontalCenter="43.5"/>
+	<e:Label id="lbName" text="Demo" y="130" size="20" fontFamily="Times" textAlign="center" stroke="1" textColor="0xf01414" horizontalCenter="0"/>
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="113" y="17"/>
+</e:Skin>

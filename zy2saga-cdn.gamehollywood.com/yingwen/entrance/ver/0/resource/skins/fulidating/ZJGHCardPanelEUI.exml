@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZJGHCardPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" x="13" source="zjgh_zycs_bg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" source="zjgh_zycs_zj" horizontalCenter="0"/>
+	<e:BitmapLabel id="bitZs" y="214" font="zjghnum2_fnt" text="1234" letterSpacing="-16" right="243"/>
+	<e:BitmapLabel id="bitDq" y="214" font="zjghnum2_fnt" text="1234" letterSpacing="-16" x="548"/>
+	<e:Image y="86" pixelHitTest="true" touchEnabled="false" x="36" source="zjgh_zycs_zsch"/>
+	<e:Scroller y="298" horizontalCenter="0" height="636">
+		<e:Group y="310" horizontalCenter="0" scrollEnabled="true">
+			<e:Group x="0" y="0" width="320" height="200">
+				<e:Image y="0" pixelHitTest="true" touchEnabled="false" x="0" source="zjgh_zycs_n1"/>
+				<e:BitmapLabel id="bitn1" y="149" font="zjghnum2_fnt" text="150" letterSpacing="-17" horizontalCenter="-26" scaleX="0.7" scaleY="0.8"/>
+			</e:Group>
+		<e:Image y="0" pixelHitTest="true" touchEnabled="false" x="0" source="zjgh_zycs_n2"/>
+		<e:Image y="10" pixelHitTest="true" touchEnabled="false" x="10" source="zjgh_zycs_n3"/>
+		<e:Image y="20" pixelHitTest="true" touchEnabled="false" x="20" source="zjgh_zycs_n4"/>
+		<e:Image y="30" pixelHitTest="true" touchEnabled="false" x="30" source="zjgh_zycs_n5"/>
+		<e:Image y="40" pixelHitTest="true" touchEnabled="false" x="40" source="zjgh_zycs_n6"/>
+		<e:Image y="50" pixelHitTest="true" touchEnabled="false" x="50" source="zjgh_zycs_n7"/>
+		<e:Image y="60" pixelHitTest="true" touchEnabled="false" x="60" source="zjgh_zycs_n8"/>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2" horizontalGap="14"/>
+		</e:layout>
+	</e:Group>
+	</e:Scroller>
+
+	<e:Label text="Get bonus earlier if you buy earlier~SVIP6 Privilege is lifelong!" y="949" fontFamily="Timse" size="20" textColor="0xDFD1B5" textAlign="center" horizontalCenter="0"/>
+	<e:Label text="(The received Vouchers won't affect the daily acquire limit)" y="977" fontFamily="Timse" size="20" textAlign="center" textColor="0x13ee22" horizontalCenter="0"/>
+	<e:Button id="btnSend" y="1009" skinName="BtnMin1_2" x="286" label="Get with $168"/>
+	<e:Group id="groupMC" width="0" height="0" x="234" y="170"/>
+</e:Skin>

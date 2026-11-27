@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhaoCaiLongWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="555" height="44"  states="noact,act,get" >
+	<e:Group x="10" y="6">
+		<e:Label id="lbDesc" text="Reach Rx to gain" x="0" fontFamily="Times" size="20" textColor="0xE6DCB8" textAlign="left" y="7" textColor.act="0x3091ff" textColor.get="0x5ac832"/>
+		<e:Image id="imgYb" source="zycs_320002" x="547" y="0"/>
+		<e:Label id="lbYb" text="100" x="10" fontFamily="Times" size="20" textColor="0xE6DCB8" textAlign="left" y="17" textColor.act="0x3091ff" textColor.get="0x5ac832"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="9"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbState" text="Not activated" fontFamily="Times" size="20" textColor="0xE6DCB8" textAlign="left" text.get="Claimed" text.act="Activateable" textColor.act="0x3091ff" textColor.get="0x5ac832" y="12" right="-89"/>
+
+</e:Skin>

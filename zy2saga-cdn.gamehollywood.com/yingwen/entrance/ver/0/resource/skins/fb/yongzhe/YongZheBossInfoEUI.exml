@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YongZheBossInfoEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="146.05">
+	<w:Config id="15b806387d2"/>
+	<e:Image x="-18" y="-12" anchorOffsetY="0" scale9Grid="227,6,0,133" source="yzzt_zycs_di1"/>
+	<e:Label y="19" text="Stage Rewards" fontFamily="Times" size="24" lineSpacing="0" x="18" textColor="0xff9b0f"/>
+	<e:List id="list" x="25" y="61" itemRendererSkinName="ItemSkin" scaleX="0.7" scaleY="0.7">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object aaa="null"/>
+				<e:Object aaa="null"/>
+				<e:Object aaa="null"/>
+				<e:Object aaa="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="13"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="btn" y="73" label="Challenge" x="507" skinName="BtnMin1_1" scaleX="0.8" scaleY="0.8"/>	
+</e:Skin>

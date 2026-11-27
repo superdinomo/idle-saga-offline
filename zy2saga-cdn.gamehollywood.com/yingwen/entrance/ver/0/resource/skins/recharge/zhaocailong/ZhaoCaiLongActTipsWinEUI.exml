@@ -1,0 +1,11 @@
+<e:Skin class="ZhaoCaiLongActTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="720" height="1280">
+	<e:Group width="720" anchorOffsetY="0" height="505" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="-50" source="jl_zycs_jhzs_png" horizontalCenter="0" />
+		<e:Image y="13" horizontalCenter="0" source="mianui_zycs_hdxdj" />
+		<e:Image source="jl_zycs_dz_png" y="337" x="99" />
+		<e:Image y="124" x="111" source="mianui_zycs_di1" />
+		<e:Image id="imgTitle" y="171" x="126" source="hjsl_zycs_msz3" />
+		<e:Group id="groupEntity" y="259" horizontalCenter="0" />
+	</e:Group>
+</e:Skin>

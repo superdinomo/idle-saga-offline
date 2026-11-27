@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuZhanRankPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" x="3" y="0" />
+	<e:Image touchEnabled="false" verticalCenter="-4.5" y="43" source="ygzc_zycs_bg_jpg" x="13" />
+	<e:Label text="Ranking" fontFamily="Times" size="20" x="67" textAlign="center" y="41" textColor="0xFF9B0F" />
+	<e:Label text="Player Name" fontFamily="Times" size="20" x="201" textAlign="center" y="41" textColor="0xFF9B0F" />
+	<e:Label text="My Guild" fontFamily="Times" size="20" x="372" textAlign="center" y="41" textColor="0xFF9B0F" />
+	<e:Label text="Time" fontFamily="Times" size="20" x="582" textAlign="center" y="41" textColor="0xFF9B0F" />
+	<e:Scroller y="73" height="692" width="690" horizontalCenter="5" anchorOffsetY="0">
+		<e:List id="listRank" itemRendererSkinName="GuZhanRankPanelItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="4" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="Ranking Description" fontFamily="Times" size="24" textAlign="center" y="792" textColor="0xF5E65A" horizontalCenter="0" />
+	<e:Label id="lbDesc1" text="1. During the event period, reach the enemy elimination amount, and the ranking will be sorted in a temporal order" fontFamily="Times" size="20" textAlign="left" y="820" x="54"
+	         textColor="0xe3d7be"  width="597"/>
+	<e:Label id="lbDesc2" text="2. When you reach the first place for 10 times, you can gain special title" fontFamily="Times" size="20" textAlign="center" y="866" x="54"
+	         textColor="0xe3d7be" />
+	<e:Label id="lbDesc3" text="3. When you take part in the event for 100 times, you can gain special title" fontFamily="Times" size="20" textAlign="center" y="892" x="54"
+	         textColor="0xe3d7be" />
+	<e:ProgressBar id="barFirstCount" slideDuration="0" value="1" maximum="2" y="946" x="58" skinName="ProgressBarEUI12"
+	               anchorOffsetX="0" width="249" />
+	<e:Image touchEnabled="false" y="921" x="23" source="ygzc_zycs_jlk" />
+	<e:Image touchEnabled="false" y="928" x="31" source="ygzc_zycs_pmdy" />
+	<e:Component id="itemFirstReward" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="281" y="926"
+	             scaleX="0.7" scaleY="0.7" />
+	<e:Image id="imgFirstLyq" touchEnabled="false" y="942" x="298" source="fuwen_zycs_gouxuan02" />
+	<e:ProgressBar id="barGotoCount" slideDuration="0" value="1" maximum="2" y="946" x="402" skinName="ProgressBarEUI12"
+	               width="249" />
+	<e:Image touchEnabled="false" y="921" x="367" source="ygzc_zycs_jlk" />
+	<e:Image touchEnabled="false" y="928" x="375" source="ygzc_zycs_cyhd" />
+	<e:Component id="itemGotoReward" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="624" y="926" scaleX="0.7"
+	             scaleY="0.7" />
+	<e:Image id="imgGotoLyq" touchEnabled="false" y="942" x="641" source="fuwen_zycs_gouxuan02" />
+	<e:Group y="1032" horizontalCenter="0.5">
+		<e:Label id="lbMyRank" text="My Rank" fontFamily="Times" size="22" textAlign="center" y="0" textColor="0xf5e65a" x="0"/>
+		<e:Label id="lbRankDesc" text="(My Ranking)" fontFamily="Times" size="22" textAlign="center" y="0" textColor="0xF5E65A" x="0"/>
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<!--<e:Image touchEnabled="false" scale9Grid="88,64,2,3" x="0" y="-45"
+	             source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\G_古战场\Y-远古战场-活动排名.jpg" locked="true"
+	             visible="false" />
+	-->
+</e:Skin>

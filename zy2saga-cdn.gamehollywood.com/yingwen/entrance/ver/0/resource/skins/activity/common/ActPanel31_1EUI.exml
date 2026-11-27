@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel31_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="41" x="13" source="hddt_zycs_dbbg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" x="278" source="hddt_zycs_hddt"/>
+	<e:Image source="zycs_320002" y="223" x="301"/>
+	<e:Label id="lbRate" text="20% of diamonds spent will be added to the prize pool" y="147" size="20" textColor="0x13ee22" fontFamily="Times" horizontalCenter="0"/>
+	<e:Label text="Chance of getting pool diamond grow with the amount of diamond spent." y="164" size="20" textColor="0x13EE22" fontFamily="Times" horizontalCenter="8" width="404" textAlign="center" lineSpacing="-5"/>
+	<e:Label id="lbTotol" text="12346/12345679" y="230" size="20" fontFamily="Times" textColor="0xffffff" x="344"/>
+	<e:Label id="btnWeight" text="Rate Disclosure" y="230" size="20" textAlign="left" fontFamily="Times" x="537" textColor="0x13EE22"/>
+	<e:Group y="248" anchorOffsetX="0" width="678" anchorOffsetY="0" height="551" x="21">
+
+		<e:Component id="item0" y="-1" skinName="ActPanel31_1ItemEUI" x="-1"/>
+		<e:Component id="item1" y="-1" skinName="ActPanel31_1ItemEUI" x="126"/>
+		<e:Component id="item2" y="-1" skinName="ActPanel31_1ItemEUI" x="253"/>
+		<e:Component id="item3" y="-1" skinName="ActPanel31_1ItemEUI" x="383"/>
+		<e:Component id="item4" y="-1" skinName="ActPanel31_1ItemEUI" x="510"/>
+		<e:Component id="item5" y="124" skinName="ActPanel31_1ItemEUI" x="512"/>
+		<e:Component id="item6" y="251" skinName="ActPanel31_1ItemEUI" x="512"/>
+		<e:Component id="item7" y="382" skinName="ActPanel31_1ItemEUI" x="510"/>
+		<e:Component id="item8" y="382" skinName="ActPanel31_1ItemEUI" x="383"/>
+		<e:Component id="item9" y="381" skinName="ActPanel31_1ItemEUI" x="253"/>
+		<e:Component id="item10" y="382" skinName="ActPanel31_1ItemEUI" x="131"/>
+		<e:Component id="item11" y="382" skinName="ActPanel31_1ItemEUI" x="-1"/>
+		<e:Component id="item12" y="251" skinName="ActPanel31_1ItemEUI" x="0"/>
+		<e:Component id="item13" y="124" skinName="ActPanel31_1ItemEUI" x="0"/>
+	</e:Group>
+	<e:Group id="groupLog" width="381" height="254" x="169" y="395" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Button id="btnBangDan" y="805" x="30" icon="hddt_zycs_dbbd" skinName="Btn0Skin"/>
+	<e:Label id="lbLog" text="Blessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" y="397" height="250" width="379" x="171" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="lbDec" text="Each drawing grants 10 points" y="821" size="24" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" horizontalCenter="0"/>
+	<e:ProgressBar id="barExp" slideDuration="0" value="1" maximum="2" y="852" skinName="ProgressBarEUI15" horizontalCenter="36"/>
+	<e:Button id="btnBox" y="832" x="612" icon="tm_zycs_xbx" skinName="Btn0Skin"/>
+	<e:Label id="lbTime" text="Event Countdown: 12:12:12" y="935" size="24" textAlign="center" fontFamily="Times" textColor="0xcdc8be" width="376" x="172"/>
+	<e:Button id="btnOne" label="Draw x1" y="1009" x="138" skinName="BtnMin1_1"/>
+	<e:Button id="btnTen" label="Draw x10" y="1009" x="431" skinName="BtnMin1_2"/>
+	<e:Image source="zycs_320002" y="975" x="175"/>
+	<e:Label id="lbConsumeOne" text="99" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="215" y="981"/>
+	<e:Image source="zycs_320002" y="975" x="457"/>
+	<e:Label id="lbConsumeTen" text="99" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="497" y="981"/>
+	<e:Label id="btnLog" text="My Records" y="1045" size="20" textAlign="left" fontFamily="Times" x="599" textColor="0x13ee22"/>
+	<e:Image touchEnabled="false" source="xb_zycs_zk" x="555" y="977"/>
+	<e:Component x="30" y="644" skinName="Act31BigRewardTipsEUI" id="act31BigRewardTips"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

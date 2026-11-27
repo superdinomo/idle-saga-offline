@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act62LogWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" source="public_zycs_dikuang" scale9Grid="83,62,16,9" x="0" width="553" height="858"/>
+		<e:Image y="-4" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="147"/>
+		<e:Image y="13" source="hddt_zycs_recordtitle" horizontalCenter="0"/>
+		<e:Button id="closeBtn0" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="0"/>
+
+		<e:Scroller width="492" height="725" y="78" scrollPolicyH="off" horizontalCenter="6">
+			<e:Group>
+				<e:Label id="lbLog" text="我的抽奖" size="22" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" lineSpacing="10" width="492"/>
+			</e:Group>
+		</e:Scroller>
+
+	</e:Group>
+</e:Skin>

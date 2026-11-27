@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bloodBarBossHomePlayer" xmlns:e="http://ns.egret.com/eui" >
+	<e:Image y="0" x="0" source="xt_zycs_xc1"/>
+	<e:Image id="thumb" fillMode="scale" x="99.5" y="44" source="xt_zycs_xc2"/>
+</e:Skin>

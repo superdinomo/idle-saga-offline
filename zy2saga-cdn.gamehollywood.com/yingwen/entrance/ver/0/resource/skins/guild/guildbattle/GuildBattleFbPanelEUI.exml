@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleFbPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b13ea96" />
+	<e:Group y="8" horizontalCenter="0.5">
+		<e:Image x="10" y="0" source="ldsz_zycs_di2"/>
+		<e:Label id="lbTime" text="Preliminary Time Remain:06:39" y="4" size="20" textColor="0xE6DCB8" fontFamily="Times" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group y="54" horizontalCenter="0">
+		<e:Component id="itemMyNPC" x="0" y="0" skinName="GuildBattleFbFaceEUI"/>
+		<e:Component id="itemEnemyNPC" x="270" y="0" skinName="GuildBattleFbFaceEUI"/>
+		<e:Component id="itemBoss" y="0" skinName="GuildBattleFbFaceEUI" currentState="state1" x="135"/>
+	</e:Group>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" source="ldsz_zycs_zy1"/>
+		<e:Image x="0" y="37" source="ldsz_zycs_zydi"/>
+		<e:Image x="0" y="87" source="ldsz_zycs_zyfg"/>
+		<e:Label id="name1" text="Our Points" y="6" size="24" fontFamily="Times" textColor="0xf5e65a" x="0" textAlign="center" width="170"/>
+		<e:Label text="Inspiration Stats" y="101" size="20" fontFamily="Times" textColor="0xff9b0f" x="46"/>
+		<e:Label id="lbMyScore" text="100" y="51" size="20" fontFamily="Times" textColor="0xf5e65a" horizontalCenter="-22.5"/>
+		<e:Button id="btnDetail" y="44" skinName="Btn0Skin" icon="ldsz_zycs_x" x="135"/>
+		<e:Label id="lbMyAttr" text="Inspiration Stats\nInspiration Stats" y="126" size="20" fontFamily="Times" textColor="0x13ee22" horizontalCenter="0.5" textAlign="left" lineSpacing="3"/>
+	</e:Group>
+	<e:Group y="0" right="0">
+		<e:Image x="0" y="0" source="ldsz_zycs_zy2"/>
+		<e:Image x="0" y="37" source="ldsz_zycs_zydi"/>
+		<e:Image x="0" y="87" source="ldsz_zycs_zyfg"/>
+		<e:Label id="name2" text="Enemy Point Point" y="6" size="24" fontFamily="Times" textColor="0xf5e65a" x="0" width="170" textAlign="center"/>
+		<e:Label text="Inspiration Stats" y="101" size="20" fontFamily="Times" textColor="0xFF9B0F" x="46"/>
+		<e:Label id="lbEnemyScore" text="100" y="51" size="20" fontFamily="Times" textColor="0xf5e65a" horizontalCenter="20.5"/>
+		<e:Button id="btnDetail0" x="17" y="42" skinName="Btn0Skin" icon="ldsz_zycs_x"/>
+		<e:Label id="lbEnemyAttr" text="Inspiration Stats\nInspiration Stats" y="126" size="20" fontFamily="Times" horizontalCenter="0.5" textAlign="left" lineSpacing="3" textColor="0xf01414"/>
+	</e:Group>
+
+	<e:Component id="bossBloodComponent" y="197" skinName="BossBloodComponentSkin" horizontalCenter="0" />
+
+	<e:Group y="428" left="0">
+
+		<e:Image source="public_zycs_jx1" y="86" x="0"/>
+
+		<e:Label id="lbDaBiao" text="Points 0/50" y="91" size="20" fontFamily="Times" textColor="0xFF8534" textAlign="center" x="0"/>
+		<e:Button id="btnDaBiao" label="" icon="ldsz_zycs_dbjl" x="0" skinName="Btn0Skin" y="-18"/>
+		<e:Button id="btnGuWu" label="" icon="em_zycs_zdgwtb" skinName="Btn0Skin" y="124" x="8"/>
+		<e:Button id="btnGuaji" y="212" label="Go to Center" icon="gzc_zycs_zddg" skinName="Btn0Skin" x="5"/>
+		<e:Button id="btnStopGuaji" y="212" icon="csys_zycs_tzdg" skinName="Btn0Skin" x="5"/>
+	</e:Group>
+	<e:Group id="groupAtk" y="336" right="0" x="569">
+		<e:Component id="target" x="1" y="42" skinName="GuildBattleFbFaceEUI" />
+		<e:Image y="0" x="0" touchEnabled="false" source="klm_zycs_jt" />
+		<e:Image y="6" x="33" touchEnabled="false" source="klm_zycs_zzgj" />
+	</e:Group>
+
+	<e:Group id="groupBeAtk" y="502" right="0">
+		<e:Image y="0" x="0" touchEnabled="false" source="klm_zycs_jt" />
+		<e:Image y="7" touchEnabled="false" source="klm_zycs_sdgj"  x="33"/>
+		<e:Scroller id="scrollerBeAtk" x="0" y="42" width="150" height="254">
+			<e:List id="list" x="1" y="13" itemRendererSkinName="GuildBattleFbFaceEUI">
+				<e:layout>
+					<e:VerticalLayout gap="0" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupEnemy" bottom="205" x="21">
+		<e:Image y="0" x="0" touchEnabled="false" source="gd_zycs_fjdr"/>
+		<e:Scroller id="scrollerEnemy" x="40" y="0" height="160" width="588">
+		<e:List id="listEnemy" itemRendererSkinName="GuildBattleFbFaceBottomEUI">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

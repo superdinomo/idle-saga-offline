@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenDianResultEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1"/>
+	<e:Group id="group" width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0"  source="js_zycs_qz_png"/>
+		<e:Label id="lbTime" text="" y="268" size="22" textColor="0xE6DCB8" fontFamily="Times" x="223"/>
+		<e:Image id="imgTitle" y="133" anchorOffsetY="0" source="js_zycs_js_png" x="237"/>
+		<e:Image id="imgTitle0" x="64" y="304" anchorOffsetY="0" source="js_zycs_dts"/>
+		<e:Label id="lbHP" text="" y="306" size="22" textColor="0xE6DCB8" fontFamily="Times" x="245"/>
+		<e:Image id="imgTitle2" x="64" y="341" anchorOffsetY="0" source="js_zycs_yjbgw"/>
+		<e:Label id="lbCount" text="" y="343" size="22" textColor="0xE6DCB8" fontFamily="Times" x="244"/>
+		<e:Image id="imgTitle3" x="64" y="423" anchorOffsetY="0" source="js_zycs_hdwp1"/>
+		<e:Image id="imgTitle1" x="64" y="266" anchorOffsetY="0" source="js_zycs_sysj"/>
+		<e:Label id="lbdesc" text="" x="110" y="283" size="22" textColor="0xDFD1B5" fontFamily="Times" />
+		<e:Group id="groupSroce" x="385" y="247" anchorOffsetX="0" anchorOffsetY="0" width="204" height="333">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="js_zycs_tb_png" x="0" y="0"/>
+			<e:Image id="imgSroce" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-7" verticalCenter="-86" source="js_zycs_SSS_png"/>
+		</e:Group>
+		<e:Scroller id="scroller" width="338" height="200" y="462" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="411" x="-24" y="-1" anchorOffsetY="0"
+			        height="392">
+				<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="" x="457" y="944" skinName="Btn0Skin" icon="public_zycs_lkfb"/>
+		<e:Button id="closeBtn" label="Confirm" x="244" y="944" anchorOffsetX="0" anchorOffsetY="0" icon="anz_zycs_lqjl" skinName="BtnMin1_6"/>
+	</e:Group>
+</e:Skin>

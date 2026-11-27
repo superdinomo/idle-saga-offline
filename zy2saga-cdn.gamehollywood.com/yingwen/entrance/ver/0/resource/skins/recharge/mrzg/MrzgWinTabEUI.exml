@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MrzgWinTabEUI" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" touchEnabled="false" y="0" source="public_zycs_bq2" source.down="public_zycs_bq1" y.down="1"/>
+	<e:Label id="lbYuan" size="24" textColor="0xffebc8" touchEnabled="false" fontFamily="Arial" text="Direct Purchase Pack 1" strokeColor="0x812e00" horizontalCenter="0.5" horizontalCenter.down="0.5" y.down="22" textColor.down="0xf5e65a" wordWrap="true" verticalCenter="-10" width="135" textAlign="center"/>
+	<e:Image id="redPoint" x="131" y="2" source="mainui_zycs_hongdian"/>
+</e:Skin>

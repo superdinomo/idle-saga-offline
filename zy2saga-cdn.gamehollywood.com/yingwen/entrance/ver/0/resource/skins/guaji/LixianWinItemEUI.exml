@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LixianWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,sure" >
+	<e:Label id="lbname" text="adfsaf" x="5" y="0" anchorOffsetX="0" textAlign="left" fontFamily="Times" size="24" textColor="0xe6dcb8"/>	
+</e:Skin>

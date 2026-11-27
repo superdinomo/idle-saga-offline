@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PataXYXResultWinEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720" height="1280" states="lose,win" >
+	<e:Group width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="0" source.win="js_zycs_qz_png" source.lose="js_zycs_qzh_png" source="js_zycs_qz_png"/>
+		<e:Image id="imgTitle" y="128" anchorOffsetY="0" source="js_zycs_sb_png" x="236" source.win="js_zycs_sl_png"/>
+		<e:Image x="68" y="416" source="js_zycs_hdwp2" visible.lose="false"/>
+		<e:Scroller y="471" horizontalCenter="0" visible.lose="false">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn" label="Exit" anchorOffsetX="0" anchorOffsetY="0" y="928" icon="" x="244" skinName="BtnMin1_6"/>
+	</e:Group>
+</e:Skin>

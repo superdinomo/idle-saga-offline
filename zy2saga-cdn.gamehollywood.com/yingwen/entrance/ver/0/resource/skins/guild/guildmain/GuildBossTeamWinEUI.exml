@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBossTeamWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Image source="public_zycs_greybg2" scale9Grid="1,1,1,1" right="0" top="0" bottom="0" left="0" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="-27" height="882">
+		<e:Image x="0" y="0" source="zhanmeng_zycs_bg1_jpg"/>
+		<e:Image y="-16" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Button id="btnClose0" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="title" y="14" source="zhanmeng_zycs_zdtz" x="312"/>
+		<e:Group id="groupCount" x="162" y="651">
+			<e:Image x="0" y="0" source="zhanmeng_zycs_hy"/>
+			<e:Label id="countTxt" text="：0" x="47" fontFamily="Times" size="24" y="17" textAlign="left" textColor="0x13ee22"/>
+		</e:Group>
+		<e:Label id="desTxt" text="Description" fontFamily="Times" size="24" textAlign="center" textColor="0x968F7C" y="668" width="661" lineSpacing="5" x="30"/>
+		<e:Label id="rewardPlusTxt" text="Current" x="333" fontFamily="Times" size="24" y="668" textAlign="left" textColor="0x13ee22"/>
+		<e:Image y="640" touchEnabled="false" source="zs_zycs_fengexian" width="635" x="43"/>
+		<e:Button id="quitBtn" y="740" skinName="BtnMin1_1" x="170" label="Disband Team"/>
+		<e:Button id="intoBtn" y="740" skinName="BtnMin1_1" label="Enter Dungeon" x="401"/>
+		<e:Component id="com_Chat" skinName="ChatMainSkin1" x="0" y="908"/>
+		<e:Component id="team0" x="226" y="92" skinName="GuildBossTeamItemEUI"/>
+		<e:Component id="team1" skinName="GuildBossTeamItemEUI" x="23" y="317"/>
+		<e:Component id="team2" skinName="GuildBossTeamItemEUI" y="317" x="439"/>
+	</e:Group>
+</e:Skin>

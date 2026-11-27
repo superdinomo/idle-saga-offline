@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarFbWinNumItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="57" height="46">
+
+
+
+	<e:Image id="imgIcon" x="0" y="0" source="smsz_zycs_hf"/>
+	<e:BitmapLabel id="bmpNum" text="67" letterSpacing="0" font="smszljsd_fnt" y="16" horizontalCenter="0"/>
+
+
+
+</e:Skin>

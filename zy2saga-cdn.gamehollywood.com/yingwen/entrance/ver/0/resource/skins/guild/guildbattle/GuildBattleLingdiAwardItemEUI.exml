@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleLingdiAwardItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="692" height="190">
+	<e:Image y="0" height="190" source="ldsz_zycs_di4"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="24" textAlign="center" textColor="0xcdc8be" horizontalCenter="-288" verticalCenter="7"/>
+	<e:Image id="imgRank" source="ldsz_zycs_ph1" verticalCenter="8" horizontalCenter="-288"/>
+	<e:Scroller y="55" height="118" width="550" x="112">
+		<e:List id="list" itemRendererSkinName="ItemSkin" x="-28" y="48">
+			<e:layout>
+			<e:HorizontalLayout gap="13" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbDec" text="Guild Leader has exclusive login announcement" fontFamily="Times" size="24" textAlign="center" y="14" textColor="0xf01414" x="202"/>	
+</e:Skin>

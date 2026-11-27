@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="VipZunxiangWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+
+	<e:Group id="group" horizontalCenter="0" width="720" height="616" verticalCenter="-52">
+		<e:Image source="mianui_zycs_vipxq_png" y="65"/>
+		<e:Image y="213" x="220" source="mianui_zycs_msz"/>
+		<e:Image y="100" x="278" source="mianui_zycs_zx"/>
+		<e:BitmapLabel id="bmpLabelLv" x="556" y="144" font="vipnum3_fnt" text="1"/>
+		<e:Label id="labelAutoGet" text="Auto-claim after 2s" x="568" y="481" size="22" fontFamily="Times"/>
+		<e:Label id="labelDesc" text="Unavailable" x="348" y="275" size="22" fontFamily="Times" anchorOffsetX="0" width="253" anchorOffsetY="0" height="161" lineSpacing="5"/>
+		<e:Button id="btnGet" label="Claim Now" x="405" y="462" skinName="BtnMin1_2"/>
+
+	</e:Group>
+</e:Skin>

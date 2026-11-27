@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBaoRobEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" xmlns:euiextension="euiextension.*" width="720" height="1054">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1054" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Scroller id="scroller" x="17" y="79" height="930" anchorOffsetX="0" anchorOffsetY="0" width="690">
+		<e:List id="list" itemRendererSkinName="RedBaoRobItemEUI" currentState="disabled" useVirtualLayout="true">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

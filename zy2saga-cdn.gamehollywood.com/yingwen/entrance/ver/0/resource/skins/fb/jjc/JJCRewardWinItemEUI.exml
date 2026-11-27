@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JJCRewardWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="512" states="s1,s2,s3,s4"  height="85">
+	<e:Image y="0" scale9Grid="34,34,10,5" source="cg_zycs_di1" horizontalCenter="0" source.s2="cg_zycs_di2" source.s3="cg_zycs_di3" source.s4=""/>
+	<e:Image id="imgRank" visible.s4="false" source="jjc_zycs_no1" x="45" source.s2="jjc_zycs_no2" source.s3="jjc_zycs_no3" y="16"/>
+	<e:Image id="imgRank0" source="jjc_zycs_fgx" horizontalCenter="0" bottom="0"/>
+	<e:Label id="lbRank" text="0" textAlign="center" fontFamily="Times" size="22" textColor="0xcdc8be" verticalCenter="0.5" visible.s1="false" visible.s2="false" visible.s3="false" horizontalCenter="-177"/>
+	<e:Label id="lbName" text="S456.Neighbor Wong" textAlign="center" fontFamily="Times" size="22" textColor="0xf5e65a" width="180" verticalCenter="0.5" horizontalCenter="3"/>
+		<e:Scroller scrollPolicyH="off" x="376" verticalCenter="0">
+                <e:List id="list" itemRendererSkinName="ItemSkin" scaleX="0.6" scaleY="0.6">
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		
+				
+					
+					
+				
+			
+                </e:List>
+        </e:Scroller>
+</e:Skin>

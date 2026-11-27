@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnWanFaSkin" states="up,down,disabled" minHeight="25" minWidth="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="144" height="60">
+	<e:Image id="iconDisplay" alpha.disabled="0.5"
+	         x.down="1" y.down="1"  source="mianui_zycs_shouling"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian"  x="41" y="0"/>
+	<e:Label id="labelDisplay" text="" size="14" textAlign="center" width="69" height="41" y="17" x="75" fontFamily="Arial" verticalAlign="middle"/>
+</e:Skin>

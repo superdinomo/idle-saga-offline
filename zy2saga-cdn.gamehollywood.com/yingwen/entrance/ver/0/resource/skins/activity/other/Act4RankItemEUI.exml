@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act4RankItemEUI" currentState="min" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="488" height="58" states="min,max"  height.max="82">
+	<e:Image id="imgBg" source="cg_zycs_di1" width="488" height="82" visible.min="false"/>
+	<e:Image id="imgRank" touchEnabled="false" source="public_zycs_ranknum_1" x="21" verticalCenter="0"/>
+	<e:Image id="imgXwyd" touchEnabled="false" x="180" source="hfxf_zycs_xwyd" verticalCenter="0"/>
+
+
+	<e:Label id="lbRank" fontFamily="Times" size="20" text="1" textColor="0xcdc8be" width="50" textAlign="center" x="32" verticalCenter="0"/>
+	<e:Label id="lbName" fontFamily="Times" size="20" text="Not so fast yet" width="219" textAlign="center" textColor="0xf5e654" x="135" verticalCenter="0"/>
+	<e:Label id="lbNum" fontFamily="Times" size="20" text="99999" textAlign="center" textColor="0xff9b0f" horizontalCenter="184" verticalCenter="0"/>
+
+
+
+
+	<e:Image touchEnabled="false" width="100%" x="0" bottom="0" source="em_zycs_fgx" visible.max="false"/>
+	
+</e:Skin>

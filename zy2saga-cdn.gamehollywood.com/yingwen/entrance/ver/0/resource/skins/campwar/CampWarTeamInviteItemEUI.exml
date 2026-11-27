@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarTeamInviteItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="678" height="126">
+	<e:Image touchEnabled="false" source="qianghua_zycs_kuang4" scale9Grid="42,36,19,19" height="126" width="678"/>
+	<e:Image x="26" y="20" source="sjhj_zycs_tx"/>
+	<e:Image id="imgIcon" x="36" y="28" source="mianui_zycs_zhanshi0" width="76" height="76"/>
+
+
+
+
+	<e:Button id="btnInvite" label="Invite" x="493" verticalCenter="0" skinName="BtnMin1_1mid"/>
+	<e:Label id="lbName" y="35" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" x="156" textColor="0xe3d7be"/>
+	<e:Label id="lbYyq" text="Invited" fontFamily="Times" size="24" textAlign="left" verticalAlign="middle" x="519" y="51" textColor="0x13ee22"/>
+	<e:Image x="157" y="76" source="smsz_zycs_sqzl"/>
+	<e:Group x="225" y="78">
+		<e:BitmapLabel id="bmpPower" x="0" y="0" text="678889" letterSpacing="-1" font="smszzl_fnt"/>
+		<e:BitmapLabel id="bmpU" x="10" y="0" text="y" letterSpacing="-1" font="smszzl_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+
+</e:Skin>

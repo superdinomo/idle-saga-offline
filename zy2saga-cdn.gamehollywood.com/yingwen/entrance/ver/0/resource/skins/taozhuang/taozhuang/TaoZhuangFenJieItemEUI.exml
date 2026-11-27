@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaoZhuangFenJieItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="678" height="126">
+	<w:Config id="1586b3cda3a"/>
+	<e:Image y="0" width="678" height="126" x="0" anchorOffsetX="0" anchorOffsetY="0" source="qianghua_zycs_kuang4" scale9Grid="45,46,16,8"/>
+	<e:Button id="btnOk" label="Salvage" x="504" name="btnOk" skinName="BtnMin1_1" icon="" verticalCenter="0"/>
+	<e:Component id="itemIcon" skinName="ItemSkin"  x="25" verticalCenter="0"/>
+	<e:Label id="lbName" y="20" size="20" fontFamily="Times" textAlign="left" text="0" anchorOffsetX="0" anchorOffsetY="0" height="21" x="132" textColor="0xaf9b73"/>
+	<e:Label id="lbDesc" text="0" y="68" fontFamily="Times" size="20" x="132" textColor="0xaf9b73"/>
+</e:Skin>

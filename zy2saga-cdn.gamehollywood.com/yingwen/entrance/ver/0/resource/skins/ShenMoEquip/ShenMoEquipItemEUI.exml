@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoEquipItemEUI" currentState="min" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   states="max,min"  width.max="153" height.max="220" width.min="104" height.min="104">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" x="0" y="0" />
+	<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgQuang" horizontalCenter="0" verticalCenter="0.5" source="smzb_zycs_zb3" source.max="smzb_zycs_zb0" horizontalCenter.max="-2" verticalCenter.max="-0.5"/>
+	<e:Image id="imgPlus0" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" source="public_zycs_jh1" horizontalCenter="0" x.max="60" y.max="93"/>
+	<e:Image id="imgPlus1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0" source="public_zycs_jh2" x.max="55" y.max="90"/>
+	<e:Image id="imgKuang" x="8" y="8" source="smzb_zycs_zbk1" source.max="smzb_zycs_zbk2" x.max="7"/>
+	<e:Group id="groupMc"/>
+	<e:BitmapLabel id="bitlbLevel" y="9" text="r12" touchEnabled="false" font="tianmonum_fnt" letterSpacing="-3" x="9"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="5" top="3"/>
+
+</e:Skin>

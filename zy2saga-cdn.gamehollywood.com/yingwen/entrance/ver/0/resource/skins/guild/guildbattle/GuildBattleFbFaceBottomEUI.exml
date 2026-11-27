@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleFbFaceBottomEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="147" height="160">
+	<w:Config id="1586b362dfe" />
+	<e:Group x="-16" y="5" width="180">
+		<e:Image y="6" horizontalCenter="0" source="klm_zycs_yk"/>
+		<e:Group id="groupScroller" width="84" height="84" x="47" scrollEnabled="true" bottom="57">
+		<e:Group id="groupMc" width="84" height="84" x="0" bottom="0"/>
+		</e:Group>
+		<e:Image source="public_zycs_jx1" y="124" x="20"/>
+		<e:Label id="lbName" text="S2.Miracle xXMoo MoralityXx" y="131" size="18" textAlign="center" fontFamily="Times" verticalAlign="middle" stroke="1" textColor="0xe3d7be" horizontalCenter="0"/>
+
+	</e:Group>
+	<e:Group id="groupLianZhan" x="16" y="0">
+		<e:Image y="3" source="ldsz_zysc_di5" x="0"/>
+		<e:Group y="0" x="12">
+			<e:BitmapLabel id="bmpLianZhan" x="88" y="0" text="99" letterSpacing="-1" font="ldsznum_fnt"/>
+			<e:Image x="0" y="1" source="ldsz_zycs_ls"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="bottom" gap="-2"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

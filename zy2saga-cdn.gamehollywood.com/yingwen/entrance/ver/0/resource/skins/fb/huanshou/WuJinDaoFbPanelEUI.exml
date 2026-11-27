@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WuJinDaoFbPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1280">
+	<w:Config id="1586b13ea96"/>
+	<e:Group touchEnabled="false" horizontalCenter="0" width="720" height="170">
+
+		<e:Scroller scrollPolicyH="auto" scrollPolicyV="off" y="0" height="147" horizontalCenter="0">
+		<e:List id="listBoss" itemRendererSkinName="WuJinDaoFbItemEUI" useVirtualLayout="false">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+
+
+	</e:Group>
+	<e:Group id="groupBoss" height="160" y="177" horizontalCenter="-13" touchEnabled="false" touchThrough="true">
+		<e:Component id="bossBloodComponent" x="0" y="0" skinName="BossBloodComponentSkin"/>
+		<e:Group id="groupRawead" y="82" horizontalCenter="2">
+			<e:Image y="0" source="public_zycs_zbjlk" scale9Grid="12,16,74,2" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%"/>
+			<e:Scroller id="scrollerItem" scaleX="0.68" scaleY="0.68" anchorOffsetY="0" top="13" left="15" right="15" bottom="8">
+			<e:List id="listItemReward" scrollEnabled="false" itemRendererSkinName="ItemSkin" useVirtualLayout="false" y="-1">
+			<e:layout>
+					<e:HorizontalLayout gap="27" />
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BBFLCouponPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" x="13" source="djfl_zycs_bg_jpg"/>
+
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="djfl_zycs_title"/>
+	<e:Scroller width="668" y="270" height="666" x="27" scrollPolicyH="off">
+		<e:List id="list" itemRendererSkinName="BBFLLoginItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+
+	<e:Button id="btnSend" y="1009" label="Invest $30" skinName="BtnMin1_2" x="286"/>
+	<e:Label id="lbDesc" y="1012" text="Investment unlocked, all your voucher spending will be counted in the event of this season" fontFamily="Times" size="20" textColor="0x13ee22" horizontalCenter="0" width="655" textAlign="center"/>
+	<e:BitmapLabel id="bmpRound" y="79" text="99" font="djflnum_fnt" letterSpacing="-3" left="195"/>
+	<e:BitmapLabel id="bmpPrice" y="141" text="99" font="djflnum_fnt" letterSpacing="-3" scaleX="0.9" scaleY="0.9" left="600"/>
+	<e:BitmapLabel id="bmpDiamond" y="207" text="9999" font="djflnum_fnt" letterSpacing="-2" right="515" scaleX="0.9" scaleY="0.9"/>
+	<e:BitmapLabel id="bmpCoupon" y="207" text="19999" font="djflnum_fnt" letterSpacing="-2" scaleX="0.9" scaleY="0.9" horizontalCenter="66.5"/>
+	<e:BitmapLabel id="bmpMultiple" y="142" text="999" font="djflnum_fnt" letterSpacing="-2" right="415"/>
+</e:Skin>

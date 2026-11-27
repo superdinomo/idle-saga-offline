@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act45BagPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="552" height="695">
+	<e:Image x="0" y="0" touchEnabled="false" source="tzmg_zycs_beibao_jpg"/>
+	<e:Scroller y="75" height="372" width="454" x="49">
+		<e:List id="listRank" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:TileLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" verticalGap="14" requestedColumnCount="4" horizontalGap="18"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+
+	<e:Button id="btnSend" label="Claim All" y="474" skinName="BtnMin1_1" x="202"/>
+
+
+
+</e:Skin>

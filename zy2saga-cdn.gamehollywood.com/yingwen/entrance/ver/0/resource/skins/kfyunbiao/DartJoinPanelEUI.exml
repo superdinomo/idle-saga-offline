@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartJoinPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<w:Config id="1690e05f0b3"/>
+	<e:Image touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" height="1134"/>
+
+	<e:Image horizontalCenter="0" y="42" source="hwbz_zycs_bg4_jpg"/>
+	<e:Group width="532" height="298" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" top="60">
+		<e:Image y="1" x="218" scaleX="1" scaleY="1" source="hwbz_zycs_xzbz"/>
+
+
+		<e:Image y="5" x="29" scaleX="1" scaleY="1" source="liuguang_zycs_huawen"/>
+		<e:Image y="5" x="503" scaleX="-1" scaleY="1" source="liuguang_zycs_huawen"/>
+
+		<e:List id="eList" y="42" itemRendererSkinName="DartJoinPanelItemEUI" x="-55">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="11"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Label text="Unable to participate in escort or cancel 5 minutes before the treasure set out" size="24" horizontalCenter="3" textColor="0xff0000" top="466" bold="true" fontFamily="Times" width="624"/>
+	<e:Group y="429" horizontalCenter="0">
+		<e:Label text="Treasure Available to Escort Daily:" x="2" size="24" y="6" fontFamily="Times" textColor="0xf3d00b"/>
+		<e:Label id="eConvoyLab" text="1/2" x="193" size="24" y="5" textColor="0xf3d00b" fontFamily="Times"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+
+	</e:Group>
+	<e:Group width="532" height="156" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="3" top="527">
+		<e:Image scaleX="-0.8" scaleY="0.8" y="-20" x="542" scale9Grid="350,26,0,7" height="235" source="public_zycs_dk02"/>
+
+
+		<e:Image id="eRewardImg" y="3" source="hwbz_zycs_yhdjl" horizontalCenter="-3"/>
+		<e:Image y="7" x="16" scaleX="1" scaleY="1" source="liuguang_zycs_huawen"/>
+		<e:Image y="6" x="511.67" scaleX="-1" scaleY="1" source="liuguang_zycs_huawen"/>
+		<e:Label text="Guild:" x="24" y="78" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xf3d00b"/>
+		<e:List id="eGuildReward" itemRendererSkinName="ItemSkin" y="39" x="141" scaleX="1" scaleY="1">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<e:Label text="Personal:" x="258" y="78" size="24" scaleX="1" scaleY="1" fontFamily="Times" textColor="0xf3d00b"/>
+		<e:List id="eReward" itemRendererSkinName="ItemSkin" y="39" x="406" scaleX="1" scaleY="1">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Group>
+
+	<e:Group width="532" anchorOffsetY="0" horizontalCenter="-22" top="713" bottom="124">
+		<e:Image scaleX="-0.8" scaleY="0.8" y="-4" height="364" anchorOffsetY="0" horizontalCenter="22" scale9Grid="350,24,0,3" source="public_zycs_dk02"/>
+
+
+
+
+		<e:Label text="Participate Players:" size="20" scaleX="1" scaleY="1" stroke="1" fontFamily="Times" anchorOffsetX="0" textAlign="center" y="55" x="-45" textColor="0xffffff"/>
+		<e:Label id="uplvDes" text="Invite x more players to escort to upgrade treasure to Lv.5!" size="24" scaleX="1" scaleY="1" stroke="1" fontFamily="Times" anchorOffsetX="0" textAlign="center" y="16" textColor="0xffffff" horizontalCenter="0"/>
+		<e:ProgressBar id="joinbar" value="0" scaleX="1" scaleY="1" skinName="ProgressBarEUI12" width="497" y="50" x="130" anchorOffsetX="0"/>
+
+
+
+		<e:Scroller width="670" anchorOffsetX="0" scaleX="1" scaleY="1" anchorOffsetY="0" top="90" bottom="16" x="-43" scrollPolicyH="off">
+			<e:List id="eListMember" itemRendererSkinName="DartJoinPanelConvoyItemEUI" x="1" y="-1">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="left" gap="-3"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object qqq="null"/>
+						<e:Object qqq="null"/>
+						<e:Object qqq="null"/>
+						<e:Object qqq="null"/>
+						<e:Object qqq="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</e:Skin>

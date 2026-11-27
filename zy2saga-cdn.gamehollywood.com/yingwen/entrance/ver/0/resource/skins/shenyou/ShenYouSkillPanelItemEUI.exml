@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouSkillPanelItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down"  width="132" height="140">
+	<e:Image id="imgBg" x="17" y="18" source="fuwen_zycs_kuang02_01"/>
+	<e:Image id="imgSelect" source="fuwen_zycs_kuang02_00" visible="false"/>
+	<e:Image id="imgIcon" width="85" height="85" x="23" y="24" source=""/>
+	<e:Group id="groupMc" width="0" height="0" y="69" x="69"/>
+	<e:Label id="lbLevel" text="1" y="92" size="18" fontFamily="Times" textAlign="center" textColor="0xFFFFFF" horizontalCenter="34"/>
+	<e:Group y="114" horizontalCenter="1" width="138">
+		<e:Image y="0" source="shenyou_zycs_jnk" x="0" width="100%" scale9Grid="12,4,72,17" height="140%"/>
+		<e:Label id="lbName" text="Skill Name" size="18" fontFamily="Times" textAlign="center" stroke="1" textColor="0xf01414" right="7" left="7" top="4" bottom="10"/>
+	</e:Group>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="98" y="17"/>
+</e:Skin>

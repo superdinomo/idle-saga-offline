@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillEditorTypeDetailWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="850" width="600" >
+	<e:Group id="group" width="600" height="850" horizontalCenter="0" verticalCenter="0">
+		<e:Component id="item" x="0" y="0" skinName="SkillEditorTypeItemEUI" currentState="win" width="600" height="850" scaleX="1" scaleY="1"/>
+		<e:Button id="closeBtn" label="Button" icon="public_zycs_quxiao" skinName="Btn0Skin" width="33" height="33" x="567" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+</e:Skin>

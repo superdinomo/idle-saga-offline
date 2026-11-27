@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkPowerRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="s1,s2,s3,s4"  width="488" height="85">
+	<e:Image y="0" scale9Grid="34,34,10,5" source="cg_zycs_di1" horizontalCenter="0" source.s2="cg_zycs_di2" source.s3="cg_zycs_di3" source.s4=""/>
+	<e:Image id="imgRank0" source="jjc_zycs_fgx" horizontalCenter="0" bottom="0"/>
+	<e:Image id="imgRank" visible.s4="false" source="jjc_zycs_no1" source.s2="jjc_zycs_no2" source.s3="jjc_zycs_no3" horizontalCenter="-191" verticalCenter="0"/>
+	<e:Label id="lbRank" text="0" textAlign="center" fontFamily="Times" size="22" textColor="0xcdc8be" verticalCenter="0.5" visible.s1="false" visible.s2="false" visible.s3="false" horizontalCenter="-190.5"/>
+	<e:Label id="lbName" text="S1.Miracle xXMoo MoralityXx" size="20" fontFamily="Times" x="99" y="21" textColor="0xf5e65a"/>
+	<e:Label id="lbJob" text="Class: Wizard" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" x="99" y="52"/>
+	<e:Label id="lbPower" text="CP: 1799.099B" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" x="325" verticalCenter="0.5"/>
+
+</e:Skin>

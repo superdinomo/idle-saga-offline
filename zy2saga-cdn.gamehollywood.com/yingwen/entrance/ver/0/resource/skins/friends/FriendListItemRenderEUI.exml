@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FriendListItemRenderEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" width="696" height="97">
+	<e:Image x="0" y="0" scale9Grid="91,35,484,109" source="hy_zycs_di"/>
+	<e:Image x="38" source="mianui_zycs_touxiangkuang_02" y="18"/>
+	<e:Image id="img_userIcon" x="36" y="11" source="mianui_zycs_zhanshi0" scaleX="0.7" scaleY="0.7"/>
+	<e:Label id="label_name" fontFamily="Times" size="18" x="108" y="17" text="Play" textColor="0x23becd"/>
+	<e:Label id="label_power" fontFamily="Times" size="18" x="108" text="Combat" y="53" textColor="0xcdc8be"/>
+	<e:Label id="label_lastLogin" fontFamily="Times" size="18" textAlign="right" verticalAlign="middle" y="17" text="0" textColor="0xcdc8be" right="50"/>
+<e:Group id="group_friend" y="41" x="356">
+		<e:Button id="btn_chat" label="PM" skinName="BtnMin1_2mid" height="39" width="98"/>
+	<e:Button id="btn_delete" label="Delete" skinName="BtnMin1_2mid" x="104" height="39" width="98"/>
+		<e:Button id="btn_blackList" x="208" label="Block" skinName="BtnMin1_2mid" height="39" width="98"/>
+	</e:Group>
+	
+</e:Skin>

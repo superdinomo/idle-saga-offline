@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouNengLiWinItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="620" height="122">
+	<w:Config id="1586b13ea96" />
+	<e:Group x="0" y="0" width="620" height="122">
+		<e:Image source="qianghua_zycs_kuang4" width="100%" height="100%" scale9Grid="29,36,36,37"/>
+		<e:Image y="17" x="18" source="public_zycs_daojukuang_02"/>
+		<e:Image id="imgSkillIcon" width="80" height="80" x="20" y="19" source="shenyou_zycs_sk1"/>
+		<e:Label id="lbSkillName" text="Skill Name" y="15" size="24" fontFamily="Times" textAlign="left" x="115" textColor="0x13ee22"/>
+		<e:Label id="lbSkillRank" text="(Unlock at T20)" y="9" size="24" fontFamily="Times" textAlign="left" textColor="0xF01414" right="12"/>
+		<e:Label id="lbSkillDesc" text="Still need 5 levels to activate skill [Zeal] Lv.2" y="58" size="20" fontFamily="Times" width="493" textAlign="left" x="115" textColor="0xe3d7be"/>
+	</e:Group>
+
+
+
+</e:Skin>

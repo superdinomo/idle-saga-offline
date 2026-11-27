@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act62BigRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="129,76,92,17" source="sjhj_zycs_di_jpg"/>
+		<e:Scroller y="107" maxWidth="540" horizontalCenter="0" scaleX="0.8" scaleY="0.8">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" anchorOffsetX="0" y="0">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="11" horizontalCenter="0" source="hddt_zycs_tongguantitle"/>	
+	<e:Button id="btnOk"  y="369" skinName="BtnMin1_1" label="Confirm" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

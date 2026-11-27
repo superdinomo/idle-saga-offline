@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DartRankPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15dbfa8e636"/>
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="42" source="hwbz_zycs_bg_jpg" x="13"/>
+	<e:Group id="groupMc" x="365" y="457"/>
+	<e:Image touchEnabled="false" x="124" y="454" source="jh_zycs_xz"/>
+	<e:Label text="Season Settle Time:" x="165" size="24" y="460" fontFamily="Times" textColor="0xF3D00B"/>
+	<e:Label text="Sunday 22:40" x="408" size="24" y="460" fontFamily="Times" textColor="0xFFFFFF"/>
+
+	<!--<ns1:RoleItemRenderer id="rank1" skinName="RoleShowSkin" scaleX="0.57" scaleY="0.57"  top="-42" horizontalCenter="-157.5"/>
+	<ns1:RoleItemRenderer id="rank2" skinName="RoleShowSkin" scaleX="0.57" scaleY="0.57"  top="-42" horizontalCenter="162.5" x="10" y="10"/>
+	<ns1:RoleItemRenderer id="rank0" skinName="RoleShowSkin" scaleX="0.64" scaleY="0.64"  top="-68" horizontalCenter="2.5" x="10" y="10"/>-->
+	<e:Scroller y="608" x="14" height="359" width="692">
+		<e:List id="eList" itemRendererSkinName="DartRankPanelItemEUI" x="1" y="1">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="state" text="There is no player on the ranking" y="395" bold="true" horizontalCenter="0" textColor="0xb1b097" size="24" fontFamily="Times" visible="false"/>
+	<e:Group id="firstGroup" y="491" x="20">
+		<e:Image source="phb_zycs_dym" scale9Grid="70,13,421,71" width="681"/>
+
+
+
+
+
+
+		<e:Group id="firsg" x="16" y="8.7">
+			<e:Image x="0" y="5.3" source="phb_zycs_no1"/>
+			<e:Label id="sServer" text="S999." size="24" y="29.3" fontFamily="Times" textColor="0xf5e65a" x="116" visible="false"/>
+			<e:Label id="eName" text="Player Name Awesome Mcgee" size="24" y="36.3" fontFamily="Times" textColor="0xf5e65a" horizontalCenter="-114"/>
+			<e:Label id="guildName" text="[Guild: Invincible]" size="24" y="8.3" fontFamily="Times" textColor="0x23becd" textAlign="left" horizontalCenter="-114"/>
+			<e:Image source="zycs_380049" id="scoreIcon" scaleX="0.8" scaleY="0.8" x="349" y="29.3"/>
+			<e:Label id="eScore" text="99999" size="24" y="29.3" fontFamily="Times" textColor="0xff9b0f" x="379"/>
+			<e:List id="eListItem" itemRendererSkinName="ItemSkin" scaleX="0.7" scaleY="0.7" x="542.33" y="0">
+				<e:layout>
+				<e:HorizontalLayout gap="6" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+				</e:layout>
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+				</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Group>
+	</e:Group>
+	<e:Image touchEnabled="false" y="970" source="hwbz_zycs_di4" x="13"/>
+	<e:Group x="38" y="972">
+		<e:Label text="My Rank: " size="24" fontFamily="Times" textColor="0xf3d00b" x="0" y="0"/>
+		<e:Label id="eMyRank" text="Not listed" size="24" textAlign="center" fontFamily="Times" textColor="0x13ee22" x="146" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="socreGroup" x="483" y="972">
+		<e:Image source="zycs_380049" id="scoreIcon0" scaleX="0.8" scaleY="0.8" x="0" y="0"/>
+		<e:Label id="myscore" text="Points: 999999" size="24" textAlign="center" fontFamily="Times" x="32" y="0" textColor="0xff9b0f"/>
+	</e:Group>
+
+</e:Skin>

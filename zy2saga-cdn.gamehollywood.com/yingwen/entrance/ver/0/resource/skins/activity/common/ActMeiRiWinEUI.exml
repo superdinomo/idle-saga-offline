@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActMeiRiWinEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" touchEnabled="false" scale9Grid="88,64,2,3" source="hddt_zycs_mrsc_png"/>
+		<e:Scroller y="260" scrollPolicyH="off" x="448">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+		
+		
+			<e:layout>
+				<e:HorizontalLayout gap="92"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnSend" label="Top-up any amount" y="362" x="362" skinName="BtnMin1_19"/>
+	</e:Group>
+</e:Skin>

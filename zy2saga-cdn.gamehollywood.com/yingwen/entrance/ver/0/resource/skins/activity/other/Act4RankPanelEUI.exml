@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act4RankWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="cg_zycs_bg2_jpg"/>
+		<e:Image id="title" y="11" horizontalCenter="0" source="btz_zycs_pht1_png"/>
+		<e:Button id="closeBtn" label="" x="463" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+
+
+
+
+		<e:Label y="82" text="Ranking" fontFamily="Times" size="20" x="67" textColor="0xFF9B0F"/>
+		<e:Label y="82" text="Info" fontFamily="Times" size="20" x="253" textColor="0xFF9B0F"/>
+		<e:Label y="82" text="CP" fontFamily="Times" size="20" x="436" textColor="0xFF9B0F"/>
+		<e:Label id="lbRank" text="My Rank: " y="657" size="20" textAlign="center" fontFamily="Times" x="99" textColor="0xe3d7be"/>
+		<e:Label id="lbPower" text="My CP:" y="657" size="20" textAlign="center" fontFamily="Times" x="316" textColor="0xe3d7be"/>
+		<e:Scroller y="109" scrollPolicyH="off" x="29" width="488" height="527">
+			<e:List id="list" itemRendererSkinName="Act4RankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+				
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					
+				
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgXwyd" touchEnabled="false" y="209" source="public_zycs_xwyd_png" x="51"/>
+	</e:Group>
+
+</e:Skin>

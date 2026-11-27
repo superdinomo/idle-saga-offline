@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YsBossHeadItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+         width="130">
+	<e:Image y="0" source="public_zycs_yk" x="6"/>
+
+	<e:Image id="imgHaeh" source="" verticalCenter="-21.5" horizontalCenter="1.5"/>
+	<e:Image y="100" source="kfsd_zycs_jx" horizontalCenter="0"/>
+
+	<e:Label id="lbName" y="111" text="0" fontFamily="Times" size="20" textAlign="center" horizontalCenter="0" textColor="0xe6dcb8"/>
+	<e:Label id="lbTime" y="138" text="0" fontFamily="Times" size="20" textAlign="center" horizontalCenter="0" textColor="0xf01414"/>
+</e:Skin>

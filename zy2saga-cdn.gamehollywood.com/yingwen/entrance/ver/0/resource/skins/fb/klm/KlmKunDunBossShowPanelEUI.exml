@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="KlmKunDunBossShowPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing"  states="time,goto,challenge" >
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="39" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" horizontalCenter="0" source="klm_zycs_di2_jpg"/>
+	<e:Image y="74" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="123,8,27,18" source="public_zycs_di01" horizontalCenter="0" x="198"/>
+	<e:Image x="544" y="64" source="klm_zycs_k2"/>
+	<e:Component id="kunDunEff" x="560" y="82" skinName="KlmBarEffEUI" scaleX="1" scaleY="1"/>
+	<e:Label id="lbBossName" y="78" text="0" fontFamily="Times" size="24" lineSpacing="0" textColor="0xff9b0f" horizontalCenter="1"/>
+	<e:Label id="lbDesc" text="1. Kill any Boss in the Karima Temple Raise the rage to activate Konton \nKonton\nKonton" fontFamily="Times" size="18" lineSpacing="4" x="53.01" y="657" textColor="0xe6dcb8" width="606"/>
+	<e:Label id="lbCount" text="0" fontFamily="Times" size="22" lineSpacing="0" y="781.31" x="53.01" textColor="0xe6dcb8"/>
+	<e:Group id="groupBoss" y="587" x="360"/>
+	<e:Image y="809.97" x="313" source="klm_zycs_fbjl"/>
+	<e:Image y="834.32" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" source="public_zycs_dk01" scale9Grid="316,23,61,12" height="152" x="0"/>
+	<e:Group width="614" height="103" y="863.32" anchorOffsetY="0" anchorOffsetX="0" x="53">
+		<e:Scroller id="Scrollerlist" y="-7" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" scrollPolicyH="off" scrollPolicyV="off">
+		<e:List id="list" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="20" paddingLeft="30" paddingRight="30"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnOk" y="1009.65" label="Enter Dungeon" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" icon="" visible.goto="false" visible.time="false" horizontalCenter="0.5"/>
+	<e:Label id="lbGoto" text="Go to Temple Boss" y="1024.65" size="24" textColor="0x5ac832" fontFamily="Times" visible.challenge="false" visible.time="false" horizontalCenter="0.5"/>
+	<e:Label id="labelTime" text="Countdown" y="1028.65" size="20" fontFamily="Times" textColor="0xf01414" visible.challenge="false" visible.goto="false" horizontalCenter="0"/>
+<!--<e:Image scale9Grid="77,37,16,3" anchorOffsetY="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神庙BOSS\S-神庙boss2.jpg" y="-47" x="0" locked="true" visible="false"/>-->
+</e:Skin>

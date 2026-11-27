@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem46_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="331">
+	<w:Config id="1586bd49103"/>
+	<e:Image id="imgIcon" y="90" source="hddt_zycs_sjlr_2" horizontalCenter="0" touchEnabled="true"/>
+	<e:Label id="lbDec" text="Submit to obtain" fontFamily="Times" size="22" y="0" textAlign="center" horizontalCenter="0" textColor="0xffffff" lineSpacing="4"/>
+	<e:Label id="lbValue" text="0/6" fontFamily="Times" size="22" y="220" textAlign="center" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Button id="btnSend" y="246" label="Submit" skinName="BtnMin1_1amid" horizontalCenter="0"/>
+</e:Skin>

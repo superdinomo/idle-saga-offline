@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act31JiLuItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   width="380">
+	<e:Label id="lbDesc" size="20" verticalAlign="middle" textAlign="left" verticalCenter="0" fontFamily="Times" textColor="0xFFEBC8" borderColor="0xC90808" alpha="1" stroke="0" strokeColor="0xffffff" x="5" text="Drawing Record" width="375"/>
+</e:Skin>

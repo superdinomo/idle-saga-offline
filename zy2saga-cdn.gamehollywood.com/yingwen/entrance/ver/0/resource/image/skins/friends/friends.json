@@ -1,0 +1,13 @@
+{"file":"friends.png","frames":{
+"friends_11":{"x":0,"y":0,"w":111,"h":112,"offX":0,"offY":0,"sourceW":111,"sourceH":112},
+"friends_12":{"x":113,"y":59,"w":74,"h":28,"offX":0,"offY":0,"sourceW":74,"sourceH":28},
+"friends_06":{"x":113,"y":0,"w":89,"h":29,"offX":2,"offY":0,"sourceW":91,"sourceH":29},
+"friends_01":{"x":0,"y":144,"w":66,"h":48,"offX":0,"offY":0,"sourceW":66,"sourceH":48},
+"friends_07":{"x":113,"y":31,"w":92,"h":26,"offX":5,"offY":0,"sourceW":100,"sourceH":26},
+"friends_05":{"x":68,"y":144,"w":89,"h":29,"offX":3,"offY":0,"sourceW":92,"sourceH":29},
+"friends_04":{"x":113,"y":89,"w":67,"h":20,"offX":0,"offY":0,"sourceW":67,"sourceH":20},
+"friends_08":{"x":0,"y":114,"w":210,"h":28,"offX":2,"offY":0,"sourceW":214,"sourceH":28},
+"friends_10":{"x":207,"y":31,"w":47,"h":25,"offX":0,"offY":0,"sourceW":47,"sourceH":25},
+"friends_03":{"x":159,"y":144,"w":45,"h":19,"offX":0,"offY":1,"sourceW":45,"sourceH":20},
+"friends_02":{"x":0,"y":194,"w":51,"h":48,"offX":0,"offY":0,"sourceW":51,"sourceH":48},
+"friends_09":{"x":204,"y":0,"w":45,"h":29,"offX":0,"offY":0,"sourceW":45,"sourceH":29}}}

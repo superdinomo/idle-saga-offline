@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnGuildWarSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="0" y="0" height="100%" alpha="0.01" width="100%" source="guild_zycs_llcz0_png"/>
+	<e:Image x="0" y="30" visible.disabled="false" source="guild_zycs_ldsz0_png"/>
+	<e:Image x="295" y="142" visible.disabled="false" source="zhanmeng_zycs_bqk"/>
+	<e:Image x="305" y="149" source="zhanmeng_zycs_bq"/>
+	<e:Image x="309" y="183.5" source="zhanmeng_zycs_ldsz"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="328" y="144" visible="false"/>
+</e:Skin>

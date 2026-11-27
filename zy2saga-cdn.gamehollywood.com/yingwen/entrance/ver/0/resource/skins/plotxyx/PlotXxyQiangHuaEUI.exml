@@ -1,0 +1,23 @@
+<e:Skin class="PlotXxyQiangHuaEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134" >
+	<w:Config id="1586b1383e3" />
+	<e:Group y="0" width="720" height="1169">
+		<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Component id="skillItem0" skinName="SkillPanelItemEUI" x="265.4" y="95" scaleX="1.3" scaleY="1.3"/>
+		<e:Component id="skillItem1" skinName="SkillPanelItemEUI" x="522" y="290" scaleX="1.3" scaleY="1.3"/>
+		<e:Component id="skillItem2" skinName="SkillPanelItemEUI" x="429.7" y="584.5" scaleX="1.3" scaleY="1.3"/>
+		<e:Component id="skillItem3" skinName="SkillPanelItemEUI" x="108.7" y="584.5" scaleX="1.3" scaleY="1.3"/>
+		<e:Component id="skillItem4" skinName="SkillPanelItemEUI" x="16.4" y="290" scaleX="1.3" scaleY="1.3"/>
+		<e:Label id="labelSkillName" text="技能名称  Lv.10" y="301" fontFamily="SimHei" size="24" textColor="0xfbe94d" horizontalCenter="0"/>
+		<e:Label id="labelAttr" text="攻击力: 41" y="349" fontFamily="SimHei" size="24" textColor="0xffffff" horizontalCenter="0"/>
+		<e:Label id="labelDesc" text="技能描述" y="407" fontFamily="SimHei" size="20" width="288" height="153" textAlign="center" horizontalCenter="0" lineSpacing="5"/>
+		<e:Group id="groupConsume" y="950" horizontalCenter="0">
+			<e:Image id="imgConsume" x="0" y="0" source="" width="32" height="32"/>
+			<e:Label id="labelConsume" text="999/999" fontFamily="SimHei" size="24" textColor="0xffffff" x="39"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnUp" y="986" label="升 级" enabled="true" horizontalCenter="0.5" skinName="BtnMin1_1"/>
+	</e:Group>
+</e:Skin>

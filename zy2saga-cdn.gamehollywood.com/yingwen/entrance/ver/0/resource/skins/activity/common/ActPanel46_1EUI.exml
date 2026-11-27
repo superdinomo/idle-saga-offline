@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel46_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" width="690">
+		<e:Image id="imgBg" y="167" horizontalCenter="0" source="hddt_zycs_sjlr1_jpg"/>
+		<e:Image id="imgBg1" y="384" source="hddt_zycs_sjlr4" x="69"/>
+		<e:Image id="imgTitle" y="0" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_sjlr2_png"/>
+		<e:Button id="closeBtn" label="" y="88" skinName="Btn0Skin" icon="llcz_zycs_X" x="618"/>
+		<e:Component id="itemDabiao0" touchEnabled="true" x="66" y="362" skinName="ActDabiaoItem46_1EUI"/>
+		<e:Component id="itemDabiao1" touchEnabled="true" x="169" y="310" skinName="ActDabiaoItem46_1EUI"/>
+		<e:Component id="itemDabiao2" touchEnabled="true" x="261" y="393" skinName="ActDabiaoItem46_1EUI"/>
+		<e:Component id="itemDabiao3" touchEnabled="true" x="390" y="341" skinName="ActDabiaoItem46_1EUI"/>
+		<e:Component id="itemDabiao4" touchEnabled="true" x="534" y="380" skinName="ActDabiaoItem46_1EUI"/>
+		<e:Button id="btnLeft" y="316" label="" x="96" icon="zuji_zycs_jiantou" skinName="Btn0Skin" scaleX="-0.6" scaleY="0.6"/>
+		<e:Button id="btnRight" y="316" label="" x="597" icon="zuji_zycs_jiantou" skinName="Btn0Skin" scaleX="0.6" scaleY="0.6"/>
+		<e:Button id="btnBuy" y="516" x="454" label="Activate" skinName="BtnMin1_1"/>
+		<e:Button id="btnGetAll" y="516" x="454" label="Claim All" skinName="BtnMin1_1"/>
+		<e:Label id="lbTime" y="196" text="Time Left: 0.0.0" fontFamily="Times" size="20" x="64" lineSpacing="3" textColor="0xffffff"/>
+		<e:Label id="lbCurCount" y="533" text="My Points: 9999" fontFamily="Times" size="30" lineSpacing="10" textAlign="right" x="81" textColor="0xffffff"/>
+		<e:Component id="item0" touchEnabled="true" y="611" skinName="ActItem46_1EUI" horizontalCenter="-191.5"/>
+		<e:Component id="item1" touchEnabled="true" y="611" skinName="ActItem46_1EUI" horizontalCenter="1.5"/>
+		<e:Component id="item2" touchEnabled="true" y="611" skinName="ActItem46_1EUI" horizontalCenter="191.5"/>
+		<e:Label id="lbDec1" y="216" text="Event Description 1" fontFamily="Times" size="20" textColor="0xffffff" x="64" width="557"/>
+		<e:Label id="lbDec2" y="957" text="After activating the Bounty Decree, get 10 Legendary Bounty Material for every $4.99 top-up" fontFamily="Times" size="22" lineSpacing="3" textAlign="left" horizontalCenter="1" textColor="0xff9b0f" width="550"/>
+		<e:Label id="lbGetNum" y="1010" text="Claimable Legendary Bounty Material: 55" fontFamily="Times" size="22" lineSpacing="3" textAlign="center" x="69" textColor="0x13ee22" width="375"/>
+		<e:Button id="btnGet" y="997" x="480" label="Claim" skinName="BtnMin1_1mid"/>
+		<e:Label id="lbDec3" y="1080" text="The point will be cleared after the event, please submit the materials in time." fontFamily="Times" size="22" lineSpacing="3" textAlign="center" horizontalCenter="0" textColor="0xFFFFFF" width="458"/>
+	</e:Group>
+</e:Skin>

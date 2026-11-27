@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartRecordWinItemEUI" width="680" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" height="110" states="escort,end,rob" >
+	<e:Label id="labelTime" x="32" size="24" text="2020-1-28 22:00:00" verticalAlign="middle" y="19" lineSpacing="2" fontFamily="Times" textColor="0xffffff"/>
+	<e:Label id="labelName" x="30" size="24" text="Lv.1 Guild Treasure" verticalAlign="middle" y="49" lineSpacing="2" fontFamily="Times" textColor="0xff9b0f" text.escort="Participate in the escort Lv.1 Treasure" textColor.rob="0xffffff"/>
+
+	<e:Label id="labelGuildScore" x="32.63" size="24" text="Guilds Points Earned: 1300" verticalAlign="middle" y="78" lineSpacing="2" fontFamily="Times" textColor="0xffffff" includeIn="end"/>
+	<e:Label id="labelMyScore" x="379" size="24" text="Personal Points Gained: 15" verticalAlign="middle" y="78" lineSpacing="2" fontFamily="Times" textColor="0xffffff" includeIn="end"/>
+	<e:Image scale9Grid="98,0,16,2" source="zs_zycs_fengexian" horizontalCenter="0" width="680" bottom="0"/>
+
+
+</e:Skin>

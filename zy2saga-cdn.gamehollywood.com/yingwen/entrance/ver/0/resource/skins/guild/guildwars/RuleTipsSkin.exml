@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RuleTipsSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1030">
+	<e:Image id="colorCanvas" source="public_zycs_greybg2" left="0" right="0" top="0" bottom="0" scale9Grid="2,2,16,16"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+	<e:Image id="bg" x="0" width="510" height="100%" source="equip_zycs_di" scale9Grid="11,11,46,41" y="0"/>
+	<e:Label id="mapName" text="0" fontFamily="Times" size="20" textColor="0xFFB82A" touchEnabled="false" width="193" textAlign="center" top="35" x="159"/>
+	<e:Label id="attr" text="0" fontFamily="Times" size="20" textColor="0xDFD1B5" lineSpacing="10" touchEnabled="false" width="340" top="75" bottom="47" horizontalCenter="0"/>
+	<e:Button id="leftBtn" label="" skinName="Btn0Skin" icon="zuji_zycs_jiantou" verticalCenter="0" x="84" scaleX="-1" anchorOffsetX="0"/>
+	<e:Button id="rightBtn" label="" skinName="Btn0Skin" icon="zuji_zycs_jiantou" verticalCenter="0" x="423"/>
+	</e:Group>
+</e:Skin>

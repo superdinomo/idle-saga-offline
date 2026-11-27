@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleMobaiManorItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="689" height="227">
+	<e:Image width="100%" y="0" x="0" height="100%" source="qianghua_zycs_kuang4" scale9Grid="32,32,27,25"/>
+	<e:Image y="13" source="liuguang_zycs_huawen" scaleX="-1" x="600"/>
+	<e:Image y="13" source="liuguang_zycs_huawen" x="89"/>
+
+
+
+	<e:Image id="imgName" touchEnabled="false" y="9" source="ldsz_zycs_ld1" horizontalCenter="0"/>
+	<e:Scroller y="49" x="0">
+		<e:List id="listRank" itemRendererSkinName="GuildBattleMoBaiRankItemEUI">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="4"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+
+
+
+
+
+
+
+	
+	<!--<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_领地圣战\L-领地圣战-积分排名.jpg" x="0" y="-45" locked="true" visible="false"/>-->
+</e:Skin>

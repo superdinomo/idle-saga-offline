@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShopCampPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="336" height="205">
+	<w:Config id="1586bdedfef"/>
+	<e:Image id="imgBg" x="0" y="0" source="sc_zycs_gmd"/>
+	<e:Component id="item" x="21"  skinName="ItemSkin" y="74"/>
+	<e:Label id="labelName" text="Item" y="13" fontFamily="Times" size="20" textColor="0xBCAF96" horizontalCenter="0"/>
+	<e:Label id="labelDesc" text="0" y="56" fontFamily="Times" size="20" textColor="0xBCAF96" horizontalCenter="34"/>
+	<e:Component id="priceIcon" y="91" skinName="PriceIconSkin" horizontalCenter="52"/>
+	<e:Button id="btnBuy" x="162" name="buy" skinName="BtnMin1_2mid" y="134" label="Purchase"/>
+	<e:Label id="labelMax" text="Maxed out" y="149" fontFamily="Times" size="20" horizontalCenter="54" textColor="0xf01414"/>
+</e:Skin>

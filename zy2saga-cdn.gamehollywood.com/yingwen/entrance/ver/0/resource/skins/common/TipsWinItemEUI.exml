@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TipsWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" y="0" width="500">
+		<e:Image id="bg" width="100%" touchEnabled="false" height="100%" source="mianui_zycs_jx" scale9Grid="23,10,141,9"/>
+		<e:Label id="lab" text="0" size="22" fontFamily="Times" touchEnabled="false" textColor="0xe6dcb8" width="490" textAlign="center" horizontalCenter="0" top="4" bottom="4"/>
+	</e:Group>
+</e:Skin>

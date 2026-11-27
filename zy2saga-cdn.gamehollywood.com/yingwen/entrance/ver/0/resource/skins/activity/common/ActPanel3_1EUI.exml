@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel3_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="694" height="800">
+	<e:Image x="0" y="0" source="jzhd_zycs_ditu_jpg"/>
+	<e:Label y="185" text="Event Time:" fontFamily="Times" size="22" x="36" lineSpacing="10" textColor="0xFFD97D"/>
+	<e:Label id="date" y="185" text="0" fontFamily="Times" size="22" x="148" lineSpacing="10" textColor="0x00F356"/>
+	<e:Group id="groupMc" width="0" height="0" x="534" y="146"/>
+	<e:Scroller y="220" scrollPolicyH="off" height="612" x="7" width="682" scrollPolicyV="on">
+		<e:List id="list" itemRendererSkinName="ActItem3_1EUI" x="-1" y="-1">
+			
+				
+			
+		</e:List>
+	</e:Scroller>
+</e:Skin>

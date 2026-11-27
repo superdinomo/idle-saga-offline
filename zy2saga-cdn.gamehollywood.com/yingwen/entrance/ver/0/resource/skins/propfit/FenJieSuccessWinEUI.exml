@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FenJieSuccessWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" width="552" anchorOffsetY="0" height="329" horizontalCenter="-12" verticalCenter="-28">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" width="553" height="326" source="public_zycs_dikuang" scale9Grid="94,63,10,8"/>
+		<e:Image y="-6" source="public_zycs_tyts" x="151"/>
+		<e:Image y="10" source="zbrl_zycs_rlcg" x="228"/>
+		<e:Image y="75" anchorOffsetX="0" anchorOffsetY="0" source="tips_zycs_di" x="157"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label id="lbBlankText" text="Obtained " y="81" fontFamily="Times" size="24" textColor="0x13ee22" horizontalCenter="0"/>
+		<e:Scroller id="itemScroller" horizontalCenter="4" y="147">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+			
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingBottom="12" paddingRight="12" gap="23"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

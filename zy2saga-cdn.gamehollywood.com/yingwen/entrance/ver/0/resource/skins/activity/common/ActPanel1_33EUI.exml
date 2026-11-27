@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel1_33EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Label y="153" text="Event Countdown:" fontFamily="Times" size="20" x="33" lineSpacing="10" textColor="0xFFFFFF" visible="false"/>
+	<e:Label id="lbTime" y="153" text="0" fontFamily="Times" size="20" x="151" lineSpacing="10" textColor="0x13EE22" visible="false"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_tqlc" horizontalCenter="0" verticalCenter="-544"/>
+	<e:Scroller width="668" y="56" height="1034" x="25" scrollPolicyH="off" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ActItem1_33EUI">
+		
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object aaaa="null"/>
+					<e:Object aaaa="null"/>
+					<e:Object aaaa="null"/>
+					<e:Object aaaa="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

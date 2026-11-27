@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SuperGongMingItemTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" >
+	<w:Config id="1586b36a128"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Group id="group1" anchorOffsetX="0" scaleX="1" scaleY="1" width="518" height="854" touchEnabled="false">
+			<e:Image id="BG" anchorOffsetX="0" anchorOffsetY="0" top="0" bottom="0" left="0" right="0" source="gm_zycs_tipsbgdi6_png"/>
+			<e:Image id="qualityBG" y="3.06" anchorOffsetX="0" scale9Grid="64,14,386,90" horizontalCenter="0" anchorOffsetY="0" height="204.67" touchEnabled="false" source="gm_zycs_tipsdi6_png"/>
+			<e:Image id="BG2" anchorOffsetX="0" anchorOffsetY="0"  y="-56" horizontalCenter="0" touchEnabled="false" source="gm_zycs_tipsbg6_png"/>
+			<e:Group id="groupEff" touchEnabled="false" touchChildren="false" touchThrough="false" verticalCenter="-20" scaleX="2" scaleY="2" horizontalCenter="-20" width="0" height="0"/>
+			<e:Image id="imgQuality" source="tips_zycs_4" x="2.96" y="2.48"/>
+			<e:Component id="itemIcon" x="43" y="79" skinName="ItemSkin"/>
+			<e:Image y="11.96" horizontalCenter="0" source="public_zycs_jlylk" height="51"/>
+			<e:Label id="nameLabel" text="0" y="26.96" fontFamily="SimHei" size="25" textColor="0x37FE21" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" horizontalCenter="0.5"/>
+			<e:Label y="100" text="Amount：" fontFamily="SimHei" size="24" x="161" textAlign="left" textColor="0xffffff"/>
+			<e:Label id="num" y="101" text="0" fontFamily="SimHei" size="24" x="250" textColor="0xffffff"/>
+			<e:Group x="161" y="130" visible="true">
+				<e:Label id="lblvDesc" y="0" text="0" fontFamily="SimHei" size="24" x="0" textColor="0xffffff"/>
+				<e:layout>
+				<e:VerticalLayout gap="5"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="225.13" anchorOffsetX="0" anchorOffsetY="0" visible="true" width="500" horizontalCenter="0">
+				<e:Group x="-5" y="-156.35000000000014" width="500" scaleX="1" scaleY="1">
+					<e:Image x="4" y="0" scale9Grid="23,4,51,26" source="zbxx_zycs_xj"/>
+					<e:Label id="" text="Basic Stats" y="5" size="22" fontFamily="SimHei" anchorOffsetY="0" height="68" x="13" textColor="0xFFE71B"/>
+					<e:Label id="description" y="38" text="0" fontFamily="SimHei" size="22" x="40" width="420" anchorOffsetX="0" anchorOffsetY="0" textColor="0xffe71b" verticalAlign="middle" lineSpacing="10" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:Group id="groupBaseAttr0" x="-5" y="-156.35000000000014" width="500" scaleX="1" scaleY="1">
+					<e:Image x="4" y="0" scale9Grid="23,4,51,26" source="zbxx_zycs_xj"/>
+					<e:Label id="" text="Rare Stats" y="5" size="22" fontFamily="SimHei" anchorOffsetY="0" height="68" x="13" textColor="0xFFE71B"/>
+					<e:Group y="54.89" horizontalCenter="0">
+						<e:Group horizontalCenter="0" verticalCenter="0" x="-131.99999999999997" y="66.99999999999994" scaleX="1" scaleY="1">
+							<e:Image anchorOffsetX="0" source="emfruit_zycs_zldi_png" horizontalCenter="0" verticalCenter="0"/>
+							<e:Group id="groupEffMc0" horizontalCenter="0" verticalCenter="0" scaleX="0.5" scaleY="0.5"/>
+							<e:Group id="groupPtBuff" horizontalCenter="0" verticalCenter="0">
+								<e:Image y="-5" x="-170" scaleX="1" scaleY="1" source="ylbj_zycs_attrruby"/>
+								<e:Image id="imgzjzs" y="5" x="-160" source="gm_zycs_des_jl"/>
+								<e:BitmapLabel id="lbAttr" x="179" y="4" font="ylbjtips_fnt" text="100%"/>
+								<e:layout>
+								<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center"/>
+								</e:layout>
+							</e:Group>
+						</e:Group>
+						<e:layout>
+							<e:VerticalLayout gap="10"/>
+						</e:layout>
+					</e:Group>
+				</e:Group>
+				<e:Group id="groupGain" x="0" y="212">
+					<e:Image y="30" x="191" source="zz_zycs_hqtj"/>
+					<e:Image y="33" source="liuguang_zycs_huawen" scaleX="-1" x="478"/>
+					<e:Image y="33" source="liuguang_zycs_huawen" x="0"/>
+					<e:Group horizontalCenter="0.5" top="56" bottom="7">
+					<e:List id="gainList" itemRendererSkinName="GainGoodsItemEUI" horizontalCenter="0">
+						<e:layout>
+						<e:TileLayout horizontalGap="35" horizontalAlign="center" requestedColumnCount="4" verticalGap="-7"/>
+						</e:layout>
+					</e:List>
+					</e:Group>
+				</e:Group>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="20"/>
+			</e:layout>
+			</e:Group>
+			<e:Label id="lv" y="91" text="0" fontFamily="SimHei" size="22" x="198" textColor="0xaf9b73" visible="false"/>
+			<e:Image id="imageNameBg" x="3" y="2" source="" anchorOffsetX="0" width="479" visible="false"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="16"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

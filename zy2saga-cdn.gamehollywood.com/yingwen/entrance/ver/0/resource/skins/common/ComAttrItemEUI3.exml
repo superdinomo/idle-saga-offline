@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ComAttrItemEUI3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" x="0" y="0">
+		<e:Label id="lbCurAttr" text="Stats: " size="20" fontFamily="Times" x="0" y="0" textColor="0xe3d7be"/>
+		<e:Image id="imgUp" source="zdlupnum_g" y="0" left="186" visible="false"/>
+		<e:Label id="lbNextAttr" text="+999" size="20" fontFamily="Times" textColor="0x11f51c" x="225"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnMin4" states="up,disabled,down" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="iconDisplay" x="0" y="0" scale9Grid.up="16,15,55,11"  fillMode.up="clip" x.down="1" y.down="1" source="login_zycs_button"/>
+</e:Skin>

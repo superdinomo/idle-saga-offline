@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhuZaiRewardItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="180">
+	<w:Config id="1586bd49103"/>
+	<e:Image id="imgBg" x="0" y="0" anchorOffsetY="0" source="zz_zycs_jx"/>
+	<e:Scroller height="95" x="123" y="31" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="off" width="466">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="11"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="rankTxt" text="The 1st Place" x="7" fontFamily="Times" size="24" width="111" textAlign="center" y="56" textColor="0xcdc8be"/>
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WxYqhlRankItemTopEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="355">
+	<w:Config id="15af9c70173" />
+	<e:Image id="imgXwyd" y="4" pixelHitTest="true" touchEnabled="false" horizontalCenter="0.5" source="hfxf_zycs_xwyd"/>
+
+
+
+
+	<e:Label id="lbName" text="Vacant" fontFamily="Times" size="24" textAlign="center" y="10" horizontalCenter="0" textColor="0xffd97d"/>
+
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="363" horizontalCenter="0.5">
+		<e:layout>
+		<e:HorizontalLayout gap="14" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+		</e:layout>
+		<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>-->
+	</e:List>
+	<e:Label id="lbDec" text="Share 10 friends to reach the ranking" fontFamily="Times" size="24" textAlign="center" y="488" horizontalCenter="0.5" textColor="0xe3d7be"/>
+
+
+
+</e:Skin>

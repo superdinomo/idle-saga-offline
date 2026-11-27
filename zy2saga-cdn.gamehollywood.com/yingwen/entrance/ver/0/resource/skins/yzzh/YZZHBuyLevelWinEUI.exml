@@ -1,0 +1,75 @@
+<e:Skin class="YZZHBuyLevelWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group id="group" verticalCenter="32" width="578" height="838" horizontalCenter="0">
+		<e:Image x="0" y="0" scale9Grid="90,70,15,6" source="yzsh_zycs_gmbg_png" />
+		<e:Button id="closeBtn" label="" x="479" y="13" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Label id="lbLevelDesc" text="Upgrade to Lv.10 to gain the following rewards" y="120" size="20" fontFamily="Times" horizontalCenter="5" textColor="0xE3D7BE" />
+		<e:Scroller y="144" scrollPolicyH="off" height="204" width="520" horizontalCenter="0" scaleX="0.9" scaleY="0.9">
+			<e:List id="list1" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout horizontalGap="8" verticalGap="14" requestedColumnCount="5" paddingLeft="12" paddingRight="12"
+					              paddingTop="12"  paddingBottom="12"/>
+				</e:layout>
+				<!--<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>-->
+			</e:List>
+		</e:Scroller>
+		<e:Label text="Activate Warrior Badge to claim the following items" y="363" size="20" fontFamily="Times" horizontalCenter="-1" textColor="0xE3D7BE" />
+		<e:Scroller y="387" scrollPolicyH="off" height="204" width="520" scaleX="0.9"
+		            scaleY="0.9" horizontalCenter="0">
+			<e:List id="list2" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout horizontalGap="8" verticalGap="12" requestedColumnCount="5" paddingLeft="12" paddingRight="12"
+					              paddingTop="12"  paddingBottom="0"/>
+				</e:layout>
+				<!--<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>-->
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbDesc" text="Purchase Lv.10 to upgrade to Lv.10" y="587" size="20" fontFamily="Times" horizontalCenter="-1"
+		         textColor="0xe3d7be" />
+		<e:Group y="619" width="364" horizontalCenter="0">
+			<e:Image id="sub10Btn" source="public_zycs_jians" />
+			<e:Image id="sub1Btn" source="public_zycs_j"  left="68"/>
+			<e:Image id="inputback" y="3" width="128" height="38" scale9Grid="6,6,3,3"
+			         source="public_zycs_shurukuang"  horizontalCenter="0"/>
+			<e:Image id="add1Btn" source="public_zycs_jia"  right="68"/>
+			<e:Image id="add10Btn" source="public_zycs_jias"  right="0"/>
+			<e:Label id="numLabel" text="0" y="10.85" size="20" fontFamily="Times" anchorOffsetX="0" width="89"
+			         anchorOffsetY="0" height="19" textAlign="center" horizontalCenter="0" />
+		</e:Group>
+		<e:Component id="allPrice" y="668" skinName="PriceIconSkin" scaleX="1" scaleY="1"  horizontalCenter="0"/>
+		<e:Button id="buyBtn" label="Purchase" y="708" skinName="BtnMin1_2"  horizontalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

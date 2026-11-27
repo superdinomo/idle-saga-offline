@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SkillItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,sure"  width="94" height="97">
+	<e:Image id="imgBG" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="public_zycs_daojukuang_01" y="0"/>
+	<e:Image id="imgIcon" width="74" height="74" anchorOffsetX="0" anchorOffsetY="0" source="" horizontalCenter="0" verticalCenter="-2.5"/>
+	<e:Group id="groupMc" width="0" height="0" x="0" y="0"/>
+	<e:Image id="imgRedPoint" anchorOffsetX="0" anchorOffsetY="0" y="-8" x="75" source="mainui_zycs_hongdian" visible="false"/>
+	<e:Label id="lbKjj" text="Can advance" x="62" y="-21" textColor="0x5ac832" size="20" fontFamily="Times" rotation="25.26" visible="false"/>	
+	
+</e:Skin>

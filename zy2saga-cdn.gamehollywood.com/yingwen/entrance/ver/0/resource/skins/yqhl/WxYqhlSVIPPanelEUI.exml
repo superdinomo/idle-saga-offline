@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WxYqhlSVIPPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+	<w:Config id="15af9c70173" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="imgBg" y="40" x="13" source="yqhl_zycs_hysvip_jpg" />
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true" />
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="yqhl_zycs_t_hysvip" />
+	<e:Image y="221" pixelHitTest="true" touchEnabled="false" source="yqhl_zycs_th" x="39" />
+
+
+	<e:Group x="74" y="224">
+		<e:Label text="Invited Friends" fontFamily="Times" size="20" textAlign="center" y="0" x="0" textColor="0xF5E65A"/>
+		<e:Label text="Login to Game" fontFamily="Times" size="20" textAlign="center" y="0" x="100" textColor="0x13EE22"/>
+		<e:Label text="to make it count" fontFamily="Times" size="20" textAlign="center" textColor="0xF5E65A" y="0" x="180"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller height="618" y="263" x="26" width="668">
+		<e:List id="list" itemRendererSkinName="WxYqhlZsItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="14" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" y="894" skinName="BtnMin1_1" label="Share" x="286" />
+</e:Skin>

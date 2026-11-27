@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CreateRoleWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280" states="normal,ioswx" >
+	<e:Group id="groupImg" horizontalCenter="0" top="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="login_zycs_bg_jpg" width="720" x="0" height="1280" y="0"/>
+		<e:Image id="curBigImg1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" alpha="1" width="720" height="1280" x="0" y="0" source=""/>
+		<e:Image id="curBigImg2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" alpha="0" source="login_zycs_ac3_jpg" height="1280" width="720" x="0" y="0"/>
+	</e:Group>
+	<e:Group id="group" height="1280" width="720" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupJob" x="590" y="422">
+			<e:Image id="imgRole1" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="cj_zycs_jsh" width="130" height="193"/>
+			<e:Image id="imgRole2" x="0" y="206" anchorOffsetX="0" anchorOffsetY="0" source="cj_zycs_mfsh" width="130" height="193"/>
+			<e:Image id="imgRole3" x="0" y="412" anchorOffsetX="0" anchorOffsetY="0" source="cj_zycs_gjsh" width="130" height="193"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupInput" x="94" y="1058" y.ioswx="144" x.ioswx="94">
+			<e:Image y.normal="0" source="cj_zycs_srk"/>
+			<e:Button id="diceBtn" label="" x="405.17" icon="cj_zycs_touzi" skinName="BtnCreatSkin" y="16"/>
+			<e:EditableText id="nameInput" width="300" height="46" text="Miracle xXMoo MoralityXx" x="83" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" size="26" fontFamily="Times" maxChars="8" y="19"/>
+		</e:Group>
+	<e:Button id="createBtn" label="" icon="login_zycs_button" skinName="BtnMin4" y="1142" x="225" width="284" height="124"/>
+	</e:Group>
+</e:Skin>

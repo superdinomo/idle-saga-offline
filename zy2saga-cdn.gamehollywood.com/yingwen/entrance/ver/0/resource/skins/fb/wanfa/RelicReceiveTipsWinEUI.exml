@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RelicReceiveTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" height="355" verticalCenter="0" horizontalCenter="0">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="hjbd_zycs_gxhd_png"/>
+		<e:Label text="Tap blank space to quit" y="290" fontFamily="Times" horizontalCenter="0" size="24" textColor="0xE3D7BE"/>
+		<e:Scroller id="itemScroller"  horizontalCenter="0.5" maxWidth="580" verticalCenter="3.5">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+			
+				
+				
+				
+				
+			
+				<e:layout>
+					<e:HorizontalLayout gap="20" paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

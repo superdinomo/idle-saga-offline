@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildShopRecordRenderEUI" width="698" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="45">
+	<e:Image x="0" width="100%" source="zs_zycs_fengexian" y="43"/>
+    <e:Label id="lbName" text="0" x="90" y="13" size="20"  fontFamily="Times" textColor="0xaf9b73"/>
+	<e:Label id="lbDesc" text="0" x="272" size="20" fontFamily="Times" textColor="0xaf9b73" y="13"/>
+</e:Skin>

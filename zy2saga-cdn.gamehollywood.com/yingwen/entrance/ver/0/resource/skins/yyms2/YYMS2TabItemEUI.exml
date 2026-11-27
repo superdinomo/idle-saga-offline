@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYMS2TabItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="169"
+        height="193"  states="up,down" >
+	<e:Image id="imgBg" y="-2" source="yyms_zycs_xuanzhong0" x="-54"/>
+
+	<e:Image id="imgYB" y="112" x="29" source="yyms_zycs_101"/>
+	<e:Image id="imgSelect1" source="yyms_zycs_xuanzhong" y="128" x="11" visible.up="false"/>
+	<e:Group id="groupSelect" width="0" height="0" y="55" horizontalCenter="0" visible.up="false"/>
+
+	<e:Image id="imgIcon" scaleX="0.5" scaleY="0.5"  bottom="107" horizontalCenter="0" source="yyms2_zycs_box1"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="9" x="107" visible="false"/>
+</e:Skin>

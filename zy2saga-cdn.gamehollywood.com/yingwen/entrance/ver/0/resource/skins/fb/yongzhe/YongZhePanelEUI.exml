@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YongZhePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" width="720" scale9Grid="88,64,2,3" />
+	<e:Image y="42" x="13" source="yzzt_zycs_bg_jpg" />
+	<e:Group x="21" y="218.02">
+		<e:Component id="bosslist0" y="21" skinName="YongZheBossListEUI" x="31" scaleX="1" scaleY="1" />
+		<e:Component id="bosslist1" y="31" skinName="YongZheBossListEUI" x="41" scaleX="1" scaleY="1" />
+		<e:Component id="bosslist2" y="41" skinName="YongZheBossListEUI" x="51" scaleX="1" scaleY="1" />
+		<e:Component id="bossinfo" y="10" skinName="YongZheBossInfoEUI" x="10.05" />
+		<e:layout>
+			<e:VerticalLayout gap="2" />
+		</e:layout>
+	</e:Group>
+	<e:Scroller id="tabScroller" width="681" x="19" y="875" anchorOffsetX="0">
+		<e:TabBar id="floorTab" x="10" y="3" anchorOffsetY="0" itemRendererSkinName="BtnTab5ZYCSSkin" scaleX="1" scaleY="1">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object qw="null" />
+					<e:Object qw="null" />
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="10"  horizontalAlign="center"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+	<e:Button id="btnShop" label="Honor Shop" x="43" y="72" icon="yzzt_zycs_yzsc" skinName="Btn0Skin" />
+	<e:Button id="btnReward" label="Settlement Rewards" x="602" y="100" icon="yzzt_zycs_fbrk" skinName="Btn0Skin" />
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartRankPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="692" height="81">
+	<e:Image id="imgLine" x="0" source="em_zycs_fgx" width="100%" bottom="0"/>
+	<e:Label id="eRank" text="4" size="20" textAlign="center" horizontalCenter="-279" fontFamily="Times" textColor="0xffffff" y="31"/>
+	<e:Image id="eRankImg" verticalCenter="0.5" source="jjc_zycs_no2" horizontalCenter="-284"/>
+	<e:Image id="scoreIcon" verticalCenter="0.5" horizontalCenter="39" source="zycs_380049" scaleX="0.8" scaleY="0.8"/>
+	<e:Label id="eServer" text="S999." size="20" fontFamily="Times" textColor="0xf5e65a" x="156" y="31" visible="false"/>
+	<e:Label id="eName" text="Player Name Awesome Mcgee" size="20" y="38" fontFamily="Times" textColor="0xf5e65a" horizontalCenter="-120.5"/>
+	<e:Label id="guildName" text="[Guild: Invincible]" size="20" y="14" fontFamily="Times" horizontalCenter="-130" textColor="0x23becd"/>
+	<e:Label id="score" text="99999" size="20" fontFamily="Times" textColor="0xff9b0f" x="403" y="31"/>
+	<e:List id="eList" itemRendererSkinName="ItemSkin" scaleX="0.7" scaleY="0.7" x="564.33" y="-3">
+		<e:layout>
+		<e:HorizontalLayout gap="6" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+
+</e:Skin>

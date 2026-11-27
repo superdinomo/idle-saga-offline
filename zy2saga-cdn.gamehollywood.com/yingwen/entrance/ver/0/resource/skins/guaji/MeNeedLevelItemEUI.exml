@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MeNeedLevelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="687" height="160">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="icon" horizontalCenter="-101.5" verticalCenter="-2" source="mainicon_zycs_emgc"/>
+	<e:Label id="nameTxt" text="0" fontFamily="Times" size="24" x="305" y="65" textColor="0x5ac832"/>
+	<e:Image id="imgline1" y="156" source="role_zycs_x" scale9Grid="32,0,98,4" width="514" horizontalCenter="0"/>
+
+</e:Skin>

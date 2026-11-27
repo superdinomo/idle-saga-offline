@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouYinJiPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="128">
+	<e:Image id="imgBG" y="0" x="0" source="shenyou_zycs_k1"/>
+	<e:Image id="imgIcon" horizontalCenter="-0.5" y="16.4" source="shenyou_zycs_yjzs"/>
+	<e:Group id="groupMc" width="0" height="0" x="46" y="47" touchEnabled="false" touchChildren="false" touchThrough="true"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="83" y="5" visible="false"/>
+	<e:Label id="lbName" text="Skill Name" y="110" size="20" textAlign="center" fontFamily="Times" textColor="0xE3D7BE" horizontalCenter="0.5"/>	
+	
+</e:Skin>

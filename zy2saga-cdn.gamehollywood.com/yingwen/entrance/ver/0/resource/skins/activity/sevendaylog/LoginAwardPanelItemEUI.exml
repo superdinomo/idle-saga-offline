@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoginAwardPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="150" height="150">
+	<e:Image id="imgBg" y="0" x="0" source="public_zycs_dk1"/>
+	<e:Image id="imgIcon" source="" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="imgSelect" source="jl_zycs_txk02"/>
+	<e:Image id="imgLingqu" y="27" source="public_zycs_ylq" horizontalCenter="0"/>
+	<e:Image id="imgDay" source="dljl_zycs_1day" horizontalCenter="0" y="105"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="101" y="28" source="mainui_zycs_hongdian"/>	
+</e:Skin>

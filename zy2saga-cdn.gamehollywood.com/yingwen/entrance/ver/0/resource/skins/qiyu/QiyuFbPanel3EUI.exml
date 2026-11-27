@@ -1,0 +1,46 @@
+<e:Skin class="QiyuFbPanel3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280">
+	<w:Config id="1586b1383e3" />
+	<e:Group id="groupTime" y="74" right="0" touchEnabled="false">
+		<e:Image y="2" touchEnabled="false" fillMode="repeat" x="0" scale9Grid="84,20,25,13" source="em_zycs_jx4"/>
+
+		<e:Group y="15" horizontalCenter="2.5">
+			<e:Label y="0" text="Time Remain:" fontFamily="Times" size="20" touchEnabled="false" textAlign="left" scaleX="1" scaleY="1" lineSpacing="5" textColor="0xFFE58B" x="0"/>
+			<e:BitmapLabel id="bmpTime" y="1" x="88" text="300s" font="rwnum_fnt" letterSpacing="-3"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group" touchEnabled="false" horizontalCenter="0" bottom="214" height="139">
+		<e:Image touchEnabled="false" fillMode="repeat" y="0" source="qy_zycs_tssy" horizontalCenter="0"/>
+		<e:Scroller id="scroller" y="41" scaleX="0.7" scaleY="0.7" height="124" horizontalCenter="-7" width="419">
+			<e:List id="list" currentState="disabled" useVirtualLayout="false" allowMultipleSelection="true" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15" gap="24"/>
+				</e:layout>
+				<!--
+					
+						
+						
+						
+						
+					
+				-->
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnLeft" y="62" skinName="Btn0Skin" icon="liuguang_zycs_next" scaleX="-1" x="66"/>
+		<e:Button id="btnRight" x="377" y="62" skinName="Btn0Skin" icon="liuguang_zycs_next"/>
+
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

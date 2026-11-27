@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3cc8ef" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" touchEnabled="false" source="ldsz_zycs_zzpm_jpg" x="0"/>
+		<e:Image y="-16" scale9Grid="56,7,80,44" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Image id="imgTitle" y="14" horizontalCenter="0" source="ldsz_zycs_zzmc"/>
+		<e:Button id="closeBtn" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+		<e:Image id="imgIcon" touchEnabled="false" y="88" horizontalCenter="0.5" source="ldsz_zycs_db1"/>
+		<e:Image touchEnabled="false" y="273" x="257" source="ldsz_zycs_di3"/>
+		<e:Image id="imgSR" touchEnabled="false" y="286" source="ldsz_zycs_s3" horizontalCenter="-79.5"/>
+		<e:Image id="imgName" touchEnabled="false" x="313" y="283" source="ldsz_zycs_na1"/>
+		<e:Scroller y="345" x="14" width="692" height="407">
+			<e:List id="listRank" itemRendererSkinName="GuildBattleResultItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="-3"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnSend" y="756" label="Confirm" skinName="BtnMin1_1" x="286"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

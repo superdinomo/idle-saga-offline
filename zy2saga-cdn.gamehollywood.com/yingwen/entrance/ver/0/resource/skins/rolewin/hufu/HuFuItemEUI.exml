@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuFuItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="137" height="140">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" x="0" source="qianghua_zycs_kuang"/>
+	<e:Image id="imgColor" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_pinzhi_02" horizontalCenter="-0.5" verticalCenter="0"/>
+	<e:Image id="imgSelect" x="0" y="0" touchEnabled="false" source="qianghua_zycs_kuang2"/>
+	<e:Image id="imgIcon" source="" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="redPoint" x="105" y="12" source="mainui_zycs_hongdian" visible="false"/>
+	<e:Group x="25" y="96" height="16">
+		<e:Image id="imgStarBg" x="0" y="0" source="role_zycs_stardi"/>
+		<e:Group id="groupStart" x="1" y="1">
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

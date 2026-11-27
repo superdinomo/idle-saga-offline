@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiRankItemEUI" currentState="min" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="488" height="58" states="min,max"  height.max="82">
+	<e:Image id="imgBg" visible.min="false" source="cg_zycs_di1" width="488" height="82"/>
+	<e:Image id="imgLine" x="0" visible.max="false" source="em_zycs_fgx" width="100%" bottom="0"/>
+	<e:Image id="imgRank" source="jjc_zycs_no1" verticalCenter="0.5" right="397"/>
+	<e:Label id="labelRank" size="20" text="0" fontFamily="Times" textAlign="center" textColor="0xcdc8be" width="50" x="32" verticalCenter="0"/>
+	<e:Image id="imgVip" scaleY="1" verticalCenter="0" horizontalCenter="-115" source="phb_zycs_V2"/>
+	<e:Group x="135" verticalCenter="0">
+		<e:Label id="labelName" size="20" text="Jus Jus Jus Jus Jus Jus Jus" fontFamily="Times" textAlign="center" x="0" textColor="0xf5e654" y="0" width="219"/>
+		<e:Label id="lbGuan" size="20" text="99999" fontFamily="Times" textAlign="center" x="257" textColor="0xff9b0f" y="0" width="69"/>
+	</e:Group>
+</e:Skin>

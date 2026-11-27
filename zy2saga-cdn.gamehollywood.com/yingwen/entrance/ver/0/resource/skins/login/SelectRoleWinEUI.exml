@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SelectRoleWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="-34" width="499" height="563">
+		<e:Image source="hfxj_zycs_bg_png"/>
+		<e:Image horizontalCenter="0" y="16" source="hfxj_zycs_xj"/>
+		<e:Button id="closeBtn0" y="14" enabled="true" skinName="Btn0Skin" icon="sc_zycs_x" x="449" visible="false"/>
+		<e:Scroller height="396" y="58" width="486" horizontalCenter="0" scrollPolicyH="off">
+			<e:List id="list" width="508" height="466" x="12" y="66" itemRendererSkinName="SelectRoleWinItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="-10"/>
+			</e:layout>
+			<!--<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>-->
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnEnterGame" label="Enter Game" y="474" skinName="BtnMin1_1" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

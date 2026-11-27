@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TianShiPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134" states="level,die,challenge" >
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+
+	<e:Image id="imgBg" y="42"  source="lksd_zycs_bg_jpg" x="13"/>
+	<e:Image x="124" y="68" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="123,8,27,18" source="public_zycs_di01"/>
+	<e:Label id="lbName" y="72" text="0" fontFamily="Times" size="24" lineSpacing="0" textColor="0xff9b0f" horizontalCenter="-87"/>
+
+	<e:Label y="121" text="Remaining HP" fontFamily="Times" size="24" x="111" lineSpacing="0" textColor="0xE6DCB8"/>
+	<e:ProgressBar id="barhp" x="256" y="113" value="100" anchorOffsetX="0" anchorOffsetY="0" skinName="ProgressBarEUI1" slideDuration="0"/>
+	<e:Label id="lbGuiShuName" y="155" text="Previous Owner:" fontFamily="Times" size="24" lineSpacing="0" textColor="0xFF9B0F" horizontalCenter="-87"/>
+	<e:Group id="groupBoss" x="267" y="563"/>
+
+	<e:Image y="96" anchorOffsetY="0" source="klm_zycs_zd" x="507" height="585" scale9Grid="77,131,16,70"/>
+	<e:Scroller x="505" y="122" height="536" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" width="199">
+		<e:List id="list" itemRendererSkinName="TianShiPanelItemEUI" anchorOffsetX="0" anchorOffsetY="0" x="-72" y="0">
+				
+<e:ArrayCollection>
+			
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			
+
+<e:Object/>
+			
+</e:ArrayCollection>
+
+<e:layout>
+			<e:VerticalLayout gap="-12"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+	<e:Group width="480" height="109" x="26" y="683" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Scroller id="Scrollerlist1" y="-7" anchorOffsetX="0" anchorOffsetY="0" x="0" scrollPolicyH="on" scrollPolicyV="off">
+		<e:List id="listReward" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingLeft="0" paddingRight="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="631" x="222" source="klm_zycs_fbjl"/>
+
+
+
+
+	<e:Label id="timeTxt" y="850" text="0" fontFamily="Times" size="24" lineSpacing="0"             visible.level="false" visible.challenge="false" textColor="0xf01414" horizontalCenter="-93"/>
+	<e:Label id="lbLv" y="850" text="0" fontFamily="Times" size="24" lineSpacing="0"            textColor="0xf01414"  visible.die="false" visible.challenge="false" horizontalCenter="-93"/>
+	<e:Group y="816" horizontalCenter="-94" visible.die="false" visible.level="false">
+		<e:Label id="labelCount" text="0" y="6" size="24" fontFamily="Times" textAlign="left" verticalAlign="middle" textColor="0xFFFFFF" x="0" visible.die="false" visible.level="false"/>
+		<e:Button id="btnAdd" label="Challenge" anchorOffsetX="0" anchorOffsetY="0" y="0" scaleX="1" scaleY="1" icon="public_zycs_Button_jia" x="26" skinName="Btn0Skin"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="challengeBtn" label="Challenge" anchorOffsetX="0" anchorOffsetY="0" y="853" scaleX="1" scaleY="1" horizontalCenter="-92.5" skinName="BtnMin1_1" x="194" visible.die="false" visible.level="false"/>
+
+	<e:Image x="559" y="674" source="tssy_zycs_lian" height="46" fillMode="repeat"/>
+	<e:Image x="629" y="674" source="tssy_zycs_lian" height="46" fillMode="repeat"/>
+	<e:Group id="group" x="530" y="712" width="152" height="93">
+		<e:Image x="0" y="0" source="pt_zycs_hscb"/>
+		<e:Group id="groupPassJinDu" x="0" scrollEnabled="true" anchorOffsetY="0" bottom="0">
+		<e:Group id="groupBoxMc" bottom="0" height="93">
+			<e:Image x="0" scaleX="1" scaleY="1" source="pt_zycs_cscb" bottom="0"/>
+		</e:Group>
+		</e:Group>
+		<e:Button id="btnReward" label="Challenge" anchorOffsetX="0" anchorOffsetY="0" y="17" scaleX="1" scaleY="1" skinName="Btn0Skin" icon="pt_zycs_baox" x="34"/>
+		<e:Label id="lbRewardCount" text="0" y="56" size="20" fontFamily="Times" textAlign="left" verticalAlign="middle" textColor="0xFFFFFF" scaleX="1" scaleY="1" touchEnabled="false" horizontalCenter="0"/>
+		<e:Image y="84" source="tssy_zycs_tzjl" x="26"/>
+	</e:Group>
+	<e:Label id="labelSetting" y="875" text="Boss Reminder Settings" fontFamily="Times" size="24" touchEnabled="true" x="468" textColor="0x13ee22"/>
+	<!--<e:Image x="0" y="-47" fillMode="repeat" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_洛克神殿\L-洛克神殿.jpg"/>-->
+
+</e:Skin>

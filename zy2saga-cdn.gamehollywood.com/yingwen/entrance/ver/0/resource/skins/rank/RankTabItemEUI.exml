@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankTabItemEUI" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="162" height="50">
+	<e:Image id="bg" source="phb_zycs_btn0" source.down="phb_zycs_btn1"/>
+
+	<e:Image id="redPoint" y="0" source="mainui_zycs_hongdian" x="142"/>
+	<e:Label id="consuTxt" text="T1 Boss" fontFamily="Times" size="20" textAlign="center" y="15" width="148" x="7" textColor="0xffebc8"/>
+
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FuwenLibraryItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="selectImg" source="fuwen_zycs_xuanzhongkuang" visible="false"/>
+	<e:Label id="nameTxt" y="145" size="20" width="130" fontFamily="Times" textColor="0xDFD1B5" textAlign="center" text="0" x="0"/>
+	<e:Image id="iconImg" source="fuwen_zycs_01" x="0" y="0"/>
+	<e:Image id="buyBg" scale9Grid="69,4,12,20" source="fuwen_zycs_juxing02" x="18" y="51" visible="false"/>
+	<e:Label id="buyTxt" size="18" fontFamily="Times" text="Buy Now" textColor="0x22df32" x="29" y="56" visible="false"/>
+
+</e:Skin>

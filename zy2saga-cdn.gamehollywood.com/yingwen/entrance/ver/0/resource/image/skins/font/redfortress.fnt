@@ -1,0 +1,11 @@
+{"file":"redfortress.png","frames":{
+"0":{"x":87,"y":57,"w":39,"h":57,"offX":2,"offY":3,"sourceW":43,"sourceH":63},
+"1":{"x":88,"y":0,"w":26,"h":55,"offX":8,"offY":4,"sourceW":43,"sourceH":63},
+"2":{"x":44,"y":57,"w":41,"h":56,"offX":0,"offY":3,"sourceW":43,"sourceH":63},
+"3":{"x":42,"y":115,"w":39,"h":56,"offX":3,"offY":3,"sourceW":43,"sourceH":63},
+"4":{"x":44,"y":0,"w":42,"h":55,"offX":0,"offY":5,"sourceW":43,"sourceH":63},
+"5":{"x":0,"y":0,"w":42,"h":56,"offX":1,"offY":4,"sourceW":43,"sourceH":63},
+"6":{"x":42,"y":173,"w":39,"h":56,"offX":2,"offY":4,"sourceW":43,"sourceH":63},
+"7":{"x":83,"y":175,"w":39,"h":55,"offX":3,"offY":5,"sourceW":43,"sourceH":63},
+"8":{"x":0,"y":58,"w":40,"h":56,"offX":2,"offY":4,"sourceW":43,"sourceH":63},
+"9":{"x":87,"y":116,"w":39,"h":57,"offX":3,"offY":3,"sourceW":43,"sourceH":63}}}

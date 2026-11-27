@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BuyCountSkin2" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="552" height="492">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Image y="15" source="chibang_zycs_tishi" x="249"/>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	<e:Button id="btnOk" label="Confirm" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" y="360" x="331"/>
+	<e:Button id="closeBtn" label="Cancel" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" y="360" x="88"/>
+		<e:Button id="btnBiYou" label="Use Protection" anchorOffsetX="0" width="120" anchorOffsetY="0" height="51" x="105" bottom="74" skinName="BtnMin1_6" visible="false"/>
+	<e:Label id="lbContent" text="0" fontFamily="Times" size="22" anchorOffsetX="0" width="456" anchorOffsetY="0" textAlign="center" lineSpacing="7" textColor="0xd2c864" verticalAlign="middle" x="47" minHeight="108" bottom="246" top="77"/>
+		<e:CheckBox id="checkBoxs" label="Don't show this notice" skinName="CheckBoxEUI" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" bottom="203" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

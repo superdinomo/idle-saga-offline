@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBossPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" xmlns:euiextension="euiextension.*" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="43" source="zhanmeng_zycs_di2_jpg"/>
+	<e:Label id="timeTxt" text="Event Reset Time:" y="79" fontFamily="Times" size="20" textAlign="center" x="54" textColor="0xaf9b73"/>
+	<e:Image y="123" source="public_zycs_di01" x="217"/>
+	<e:Label id="nameTXt" text="Demon" y="127" fontFamily="Times" size="24" textAlign="center" textColor="0xFF9B0F" width="228" x="246"/>
+	<e:Label id="powerTxt" text="Boss CP: 998" y="174" fontFamily="Times" size="20" textAlign="center" x="188" textColor="0xd8c94e"/>
+	<e:Label text="HP Remain:" y="211" fontFamily="Times" size="20" textAlign="center" x="165" textColor="0xd8c94e"/>
+	<e:ProgressBar id="hpBar" value="100" y="206" x="294" width="312" skinName="ProgressBar4"/>
+	<e:Button id="leftBtn" label="" y="417" skinName="Btn0Skin" icon="zuji_zycs_jiantou" scaleX="-1" x="125"/>
+	<e:Button id="rightBtn" label="" y="417" skinName="Btn0Skin" icon="zuji_zycs_jiantou" x="595"/>
+	<e:Image id="stateImg" y="676" source="zhanmeng_zycs_yjs" horizontalCenter="0.5"/>
+	<e:Image y="728" source="zhanmeng_zycs_tgjl" x="302"/>
+	<e:Image y="758" height="182" source="public_zycs_dk01" scale9Grid="36,20,626,17" x="11"/>
+	<e:Image id="ylqImg" y="978" source="zhanmeng_zycs_jlylq" x="281" visible="false"/>
+	<e:Label id="unlockTxt" text="Eliminate the previous Boss to unlock" y="985" fontFamily="Times" size="24" textAlign="center" textColor="0xff0404" bold="true" x="200" visible="false"/>
+	<e:Label id="unlockTxt0" text="Raise Event Hall level to unlock more Boss Dungeon" y="985" fontFamily="Times" size="24" textAlign="center" textColor="0xFF0404" bold="true" x="164" visible="false"/>
+	<e:Label id="lineTxt" text="Go to Upgrade" y="1053" fontFamily="Times" size="20" textAlign="center" x="561" textColor="0x23c42a" visible="false"/>
+	<e:Label text="(Team Challenge grants additional challenge rewards)" y="947" fontFamily="Times" size="20" textAlign="center" textColor="0xcdc8be" horizontalCenter="0"/>
+	<e:Group y="978" horizontalCenter="0" height="44">
+		<e:Label id="countTxt" text="0" y="12" fontFamily="Times" size="20" textAlign="center" textColor="0xd8c94e" x="0"/>
+		<e:Button id="helpBtn" x="163" y="0" skinName="Btn0Skin" icon="zs_zycs_wenhao"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="802" height="94" horizontalCenter="7.5">
+		<e:layout>
+			<e:HorizontalLayout gap="69"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="teamBtn" y="1033" skinName="BtnMin1_1" x="286" label="Team Challenge"/>
+	<e:Image id="helpBg" width="566" height="80" x="77" y="767" source="equip_zycs_di" scale9Grid="29,33,32,33"/>
+	<e:Label id="helpTxt" y="787" text="Spending Challenge Attempts to get challenge rewards. You can perform assistance when attempts are used up. \nAssistance has no limit but grants no challenge rewards." fontFamily="Times" size="20" touchEnabled="false" textAlign="center" x="81" scaleX="1" scaleY="1" textColor="0xAF9B73" width="565" anchorOffsetX="0"/>
+</e:Skin>

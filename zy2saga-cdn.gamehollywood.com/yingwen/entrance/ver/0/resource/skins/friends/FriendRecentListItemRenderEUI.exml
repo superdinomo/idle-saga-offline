@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FriendRecentListItemRenderEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" width="696" height="97">
+	<e:Image x="0" y="0" scale9Grid="91,35,484,109" source="hy_zycs_di"/>
+	<e:Image x="38" y="18" source="mianui_zycs_touxiangkuang_02"/>
+	<e:Label id="label_name" text="0" fontFamily="Times" size="18" x="108" y="17" textColor="0x23becd"/>
+	<e:Label id="label_lastChat" text="0" fontFamily="Times" size="18" x="108" y="53" textColor="0xcdc8be"/>
+	<e:Image id="img_userIcon" x="36" y="11" scaleX="0.7" scaleY="0.7" source="mianui_zycs_zhanshi0"/>
+	<e:Image id="redPoint" x="584" y="49" source="hy_zycs_btn"/>
+	<e:Label id="redPointNum" text="0" fontFamily="Times" size="18" x="590" width="40" textAlign="center" textColor="0xcdc8be" y="53"/>
+
+	
+</e:Skin>

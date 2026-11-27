@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleGerenAwardPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" x="0" y="0" />
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="ldsz_zycs_grjlbg_jpg" horizontalCenter="0" y="51"/>
+	<e:Button id="helpBtn" x="16" y="-46" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Image y="80" source="ldsz_zycs_jldi2" horizontalCenter="0" width="300"/>
+	<e:Image y="85" source="ldsz_zycs_grjfpm" horizontalCenter="0"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_fgqy" y="909" x="13" anchorOffsetY="0" height="180"/>
+	<e:Image y="918" source="ldsz_zycs_jfdb" horizontalCenter="0"/>
+	<e:Image y="921" source="liuguang_zycs_huawen" scaleX="-1" x="624"/>
+	<e:Image y="921" source="liuguang_zycs_huawen" x="95"/>
+
+	<e:Scroller y="140" width="692" height="750" horizontalCenter="0" anchorOffsetY="0">
+		<e:List id="listRank" itemRendererSkinName="GuildBattleGerenRankItemEUI" y="-34" width="0">
+			<e:layout>
+				<e:VerticalLayout  gap="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller y="936" horizontalCenter="0" width="730" height="138" scaleX="0.8" scaleY="0.8">
+		<e:List id="listDabiao" itemRendererSkinName="GuildBattleGerenDabiaoItemEUI" y="1.25">
+			<e:layout>
+				<e:HorizontalLayout gap="5"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="Ranking rewards will be issued via mail upon the end of the event" fontFamily="Times" size="24" textAlign="center" y="1046"  horizontalCenter="0" textColor="0xe3d7be"/>
+</e:Skin>

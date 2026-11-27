@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuZhanFbPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1280">
+	<w:Config id="1586b13ea96"/>
+	<e:Group id="groupMyself" y="0" touchEnabled="false" left="0">
+		<e:Image y="0" anchorOffsetY="0" height="96" x="0" width="204" scale9Grid="5,37,10,13" source="ygzc_zycs_t2"/>
+		<e:Label text="Yourself" x="68" y="3" size="20" fontFamily="Times" textColor="0xaf9b73" textAlign="center"/>
+		<e:Scroller id="scrollMyself" height="65" y="28" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0">
+		<e:List id="listMySelf" x="1" itemRendererSkinName="RedFortFbFaceItemskin">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupFloor" y="0" horizontalCenter="-4">
+		<e:Image y="0" anchorOffsetY="0" horizontalCenter="0" source="ygzc_zycs_tb"/>
+		<e:Image y="68" anchorOffsetX="0" horizontalCenter="0" scale9Grid="61,3,13,23" source="ygzc_zycs_di"/>
+		<e:Label id="labelFbName" text="Ancient Battlefield" fontFamily="Times" size="20" y="11" textColor="0xf5e65a" horizontalCenter="0" visible="false"/>
+		<e:Label text="Event Countdown" fontFamily="Times" size="20" y="4" textColor="0xF5E65A" horizontalCenter="0.5"/>
+		<e:Label id="labelFbTime" text="10:20" fontFamily="Times" size="20" y="25" textColor="0xF5E65A" horizontalCenter="0.5"/>
+		<e:Label id="labelKillCount" text="0" fontFamily="Times" size="20" y="73" textColor="0xaf9b73" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Group id="groupTarget" y="0" touchEnabled="false" right="0">
+		<e:Image y="0" anchorOffsetY="0" height="96" x="0" width="204" scale9Grid="6,42,8,9" source="ygzc_zycs_t1"/>
+		<e:Label id="labelTargetName" text="Opponent Info" y="3" size="20" fontFamily="Times" textAlign="center" textColor="0xf01414" horizontalCenter="2"/>
+		<e:Scroller id="scrollTarget" height="65" y="28" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0">
+		<e:List id="listTarget" x="1" itemRendererSkinName="RedFortFbFaceItemskin">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Group id="groupNoTarget" x="30" y="30" visible="false">
+		<e:Label text="Not Selected" fontFamily="Times" size="20" textColor="0xaf9b73" y="21"/>
+		<e:Image anchorOffsetY="0" x="85" source="mianui_zycs_touxiangkuang_02"/>
+			<e:Image x="102" y="10" source="csys_zycs_wh"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupEnemy" y="211" right="0" x="492" touchEnabled="false">
+		<e:Image y="0" x="0" touchEnabled="false" source="klm_zycs_jt"/>
+		<e:Image y="6" x="33" touchEnabled="false" source="csys_zycs_sydr"/>
+		<e:Scroller id="scrollerEnemy" height="360" y="41" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" width="145" scrollPolicyV="on" x="2">
+		<e:List id="listEnemy" x="1" itemRendererSkinName="BossHomeFbPanelFaceEUI">
+			<e:layout>
+			<e:VerticalLayout paddingLeft="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupDropLog" y="676" left="4">
+		<e:Button id="btDropLog" label="Drop Records" icon="ygzc_zycs_dljl" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin"/>
+	</e:Group>
+	<e:Button id="btnGuaji" y="785" label="Go to Center" icon="gzc_zycs_zddg" skinName="Btn0Skin" left="10"/>
+	<e:Button id="btnStopGuaji" y="785" icon="csys_zycs_tzdg" skinName="Btn0Skin" left="10"/>
+	<e:ToggleButton id="btnToggleEnemy" label="" y="167" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mainui_lt_zycs_sjx" source.down="mainui_lt_zycs_sjxs"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="btnToggleAtk" label="" bottom="212" horizontalCenter="-317">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mainui_lt_zycs_sjx" source.down="mainui_lt_zycs_sjxs"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Group id="groupAtk" bottom="212" y="882" touchEnabled="false" horizontalCenter="-59" width="466" height="151">
+		<e:Image x="39" touchEnabled="false" rotation="90" y="0" source="klm_zycs_jt"/>
+		<e:Image y="44" x="6" touchEnabled="false" source="csys_zycs_gjz"/>
+		<e:Scroller id="scrollerAtk" height="149" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" width="426" scrollPolicyV="off" x="40" y="0">
+		<e:List id="listAtk" x="1" itemRendererSkinName="BossHomeFbPanelFaceEUI">
+			<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>	<e:layout>
+			<e:HorizontalLayout paddingLeft="0" gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="btnClose" label="" icon="public_zycs_lkfb" scaleX="1" scaleY="1" skinName="Btn0Skin" bottom="154" right="11" visible="false"/>
+</e:Skin>

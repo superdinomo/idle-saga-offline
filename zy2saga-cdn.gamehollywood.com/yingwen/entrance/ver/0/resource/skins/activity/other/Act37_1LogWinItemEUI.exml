@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act37_1LogWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="540" height="63">
+
+
+	<e:Label id="lbTime" fontFamily="Times" size="20" text="2020, July " textColor="0xCDC8BE" textAlign="center" y="6" x="14"/>
+	<e:Label id="lbItemCount" fontFamily="Times" size="20" text="Gift items to player" textColor="0xCDC8BE" textAlign="center" y="33" x="14"/>
+
+
+
+
+
+
+
+
+</e:Skin>

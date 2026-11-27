@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act61ZhenYinRewardTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="129,76,92,17" source="sjhj_zycs_di_jpg"/>
+		<e:Scroller anchorOffsetX="0" width="257" anchorOffsetY="0" maxHeight="420" y="238" x="252" scaleY="0.8" scaleX="0.8">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" anchorOffsetX="0" x="1.67" y="0">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="11" source="chibang_zycs_tishi" horizontalCenter="0"/>	
+	<e:Button id="btnOk"  y="369" skinName="BtnMin1_1" label="Confirm" horizontalCenter="0"/>
+	<e:Label id="lbTips" text="热度值达到xxx可领取" fontFamily="黑体" size="22" width="456" y="90" textAlign="center" verticalAlign="middle" textColor="0xd2c864" x="48" lineSpacing="5"/>
+		<e:Label text="My Faction Rewards:" fontFamily="黑体" size="22" y="263" textAlign="center" verticalAlign="middle" textColor="0xD2C864" x="40"/>
+	</e:Group>
+</e:Skin>

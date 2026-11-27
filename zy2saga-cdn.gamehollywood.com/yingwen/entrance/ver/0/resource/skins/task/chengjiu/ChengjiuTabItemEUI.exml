@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChengjiuTabItemEUI" states="up,down,disabled"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="110" height="140">
+	<e:Image id="selectIcon" visible.disabled="false" pixelHitTest="true" visible.up="false" source="chengjiu_zycs_chuangguanzhuanjia_02"/>
+	<e:Image id="iconDisplay" pixelHitTest="true" visible.disabled="false" source="chengjiu_zycs_chuangguanzhuanjia_01" visible.down="false"/>
+	<e:Image id="redPoint" x="85" y="5" source="mainui_zycs_hongdian" visible="false"/>
+</e:Skin>

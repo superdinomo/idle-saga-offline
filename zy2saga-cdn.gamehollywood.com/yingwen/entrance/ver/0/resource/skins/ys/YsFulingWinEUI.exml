@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsFulingWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="720" height="1280">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Button id="closeBtn0" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637"/>
+		<e:Image y="-3" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="234"/>
+		<e:Image y="9" horizontalCenter="0" source="btz_zycs_zbfl_png"/>
+		<e:Image y="68" source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="624" width="249" x="21"/>
+		<e:Image y="248" source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="444" width="419" x="276"/>
+		<e:Scroller y="69" x="21" height="616" width="250">
+			<e:List id="listTab" itemRendererSkinName="YsFulingTabItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="-3"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object />
+						<e:Object />
+						<e:Object />
+						<e:Object />
+						<e:Object />
+						<e:Object />
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="scroller" y="262" x="286" width="400" height="411">
+			<e:List id="listAttr" itemRendererSkinName="YsFulingAttrItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Component id="item" y="81" x="415" skinName="YsEquipItemEUI"/>
+		<e:Button id="btnLeft" y="127" icon="ys_zycs_k4" skinName="Btn0Skin" label="" x="354"/>
+		<e:Button id="btnRight" y="127" icon="ys_zycs_k4" skinName="Btn0Skin" label="" x="616" scaleX="-1"/>
+		<e:Group id="groupConsu" y="707" x="329">
+			<e:Image x="0" y="0" source="zycs_320002"/>
+			<e:Label id="lbConsu" text="50" y="16" fontFamily="Times" size="24" textAlign="left" x="11" textColor="0xEBDCB4"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnFuling" skinName="BtnMin1_1" y="748" label="Soulbound" x="286"/>
+	</e:Group>
+
+</e:Skin>

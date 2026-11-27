@@ -1,0 +1,23 @@
+<e:Skin class="ShenShouTansuoResultWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720" height="1054">
+	<w:Config id="1586b1383e3" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="ss_zycs_bg_png"/>
+		<e:Image y="17" x="229" source="ss_zycs_tsbt"/>
+		<e:Image y="98" x="229" source="ss_zycs_sr2"/>
+		<e:Image y="101" source="liuguang_zycs_huawen" scaleX="-1" x="507"/>
+		<e:Image y="101" x="47" source="liuguang_zycs_huawen"/>
+		<e:Image y="287" x="229" source="ss_zycs_ptjl2"/>
+		<e:Image y="290" source="liuguang_zycs_huawen" scaleX="-1" x="507"/>
+		<e:Image y="290" x="47" source="liuguang_zycs_huawen"/>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label id="labdec" text="Congrats! You have gained Cryptid ATK Pill" y="138" size="20" textAlign="center" fontFamily="Times" width="512" x="23" textColor="0xff2f26"/>
+		<e:Component id="itemReward" skinName="ItemSkin" y="171" x="230"/>
+		<e:List id="listReward" useVirtualLayout="false" itemRendererSkinName="ItemSkin" y="339"  horizontalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout gap="15"/>
+			</e:layout>
+		</e:List>
+		<e:Button id="btnEnter" y="467" skinName="BtnMin1_2" x="210" label="Claim"/>
+	</e:Group>
+</e:Skin>

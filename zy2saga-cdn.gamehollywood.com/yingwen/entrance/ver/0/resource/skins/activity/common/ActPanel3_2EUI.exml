@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel3_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" source="khsy_zycs_bg_jpg" x="13"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_khsy" horizontalCenter="0"/>
+	<e:Label y="289" text="Time Remain:" fontFamily="Times" size="24" x="28" lineSpacing="10" textColor="0xe3d7be"/>
+	<e:Label id="date" y="290" text="0" fontFamily="Times" size="24" x="198" lineSpacing="10" textColor="0x13ee22"/>
+	<e:Label id="lbCurCount" y="289" text="Current Scores: 9999" fontFamily="Times" size="24" x="416" lineSpacing="10" textAlign="center" textColor="0x13ee22"/>
+	<e:ProgressBar id="bar0" value="100" y="195" maximum="700" skinName="ProgressBarEUI25" x="42"/>
+	<e:Scroller y="176" x="83" width="500" height="105">
+		<e:List id="listBar" itemRendererSkinName="ActDabiaoMinItem3_2EUI">
+			<e:layout>
+				<e:HorizontalLayout gap="20"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scroller" x="58" y="148" height="140" width="552" visible="false">
+	<e:Group width="907">
+		<e:ProgressBar id="bar" value="60" y="48" maximum="800" width="985" skinName="ProgressBarEUI25"/>
+		<e:Component id="item0" y="29" x="41" skinName="ActDabiaoMinItem3_2EUI" visible="false"/>
+		<e:Component id="item1" y="29" x="125" skinName="ActDabiaoMinItem3_2EUI" visible="false"/>
+		<e:Component id="item2" y="29" x="224" skinName="ActDabiaoMinItem3_2EUI" visible="false"/>
+		<e:Component id="item3" y="29" x="324" skinName="ActDabiaoMinItem3_2EUI" visible="false"/>
+		<e:Component id="item4" y="29" x="423" skinName="ActDabiaoMinItem3_2EUI"/>
+		<e:Component id="item5" y="29" x="523" skinName="ActDabiaoMinItem3_2EUI"/>
+		<e:Component id="item6" y="29" x="622" skinName="ActDabiaoMinItem3_2EUI"/>
+		<e:Component id="item7" y="29" x="722" skinName="ActDabiaoMinItem3_2EUI"/>
+		<e:Component id="item8" y="29" x="821" skinName="ActDabiaoMinItem3_2EUI"/>
+	</e:Group>
+	</e:Scroller>
+	<e:Image x="596" y="151" source="khsy_zycs_mfhl"/>
+	<e:Component id="item9" x="590" y="150" skinName="ActDabiaoMaxItem3_2EUI"/>
+	<e:List id="listTab" x="25" y="325" itemRendererSkinName="ActPanelTabItem3_2EUI">
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Scroller y="388" scrollPolicyH="off" scrollPolicyV="on" x="26" width="668" height="695">
+		<e:List id="list" itemRendererSkinName="ActItem3_2EUI">
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsFulingTabItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="250" height="122">
+	<w:Config id="15d981d06da"/>
+	<e:Image id="imgSelect" visible.up="false" source="ys_zycs_xz5"/>
+	<e:Image x="4" y="4" width="242" source="qianghua_zycs_kuang4" scale9Grid="42,35,18,19" height="114"/>
+
+
+
+	<e:Image id="imgIcon" width="80" height="80" source="mianui_icon_bianshen1" x="24" y="21" visible="false"/>
+	<e:Component id="item" y="42" x="14" skinName="ItemSkin" scaleX="0.7" scaleY="0.7"/>
+	<e:Group id="groupMc" width="0" height="0" x="16" y="29"/>
+	<e:Label id="lbName" text="Ingot Voucher" y="12" size="20" fontFamily="Times" textAlign="center" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Label id="lbAttr" text="Gold Type Boss\nDMG Bonus +0.38%" y="41" size="20" fontFamily="Times" textAlign="left" textColor="0xFFFFFF" x="86" lineSpacing="3" anchorOffsetX="0" width="154"/>
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="230" y="0"/>
+</e:Skin>

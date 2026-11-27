@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="LabelEditorWinEUI" width="1000"
+        height="720">
+	<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" right="0" top="0"/>
+	<e:Label id="labelPrev" text="1" y="270" fontFamily="Times" size="24" width="400" height="400" horizontalCenter="0"/>
+	<e:List id="listColor" width="200" height="200" y="270" horizontalCenter="362" itemRendererSkinName="LabelEditorColorItemEUI">
+		
+	</e:List>
+	<e:Button id="btnCopy" label="Copy" x="87" y="294" skinName="BtnMin1_1"/>
+	<e:Component id="item" x="131" y="119" skinName="ItemSkin"/>
+	<e:EditableText id="tiPrev" width="400" height="200" text="Enter" x="300" y="52" fontFamily="Times" size="20"/>
+</e:Skin>

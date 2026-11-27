@@ -1,0 +1,26 @@
+<e:Skin class="ChiBangEquipAlterPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" touchEnabled="false" horizontalCenter="0" source="shenyu_zycs_zbzh2_jpg"/>
+	<e:Image y="444" touchEnabled="false" source="qianghua_zycs_next" horizontalCenter="0"/>
+	<e:Component id="itemLeft" y="398" x="188" skinName="ChiBangEquipItemEUI1" touchEnabled="true"/>
+	<e:Component id="itemRight" y="398" skinName="ChiBangEquipItemEUI1" touchEnabled="true" x="404"/>
+	<e:Label text="Please select Feather Gear" y="654" size="24" textColor="0xe6dcb8" fontFamily="Times" x="279"/>
+	<e:Scroller id="" scrollPolicyH="off" scrollPolicyV="off" y="683" width="654" height="154" anchorOffsetX="0" horizontalCenter="0">
+		<e:List id="listItem"  itemRendererSkinName="ChiBangEquipItemEUI1" y="10">
+	<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupConsume" y="875" horizontalCenter="0">
+		<e:Label y="6" text="Cost: " fontFamily="Times" size="24" textAlign="left" touchEnabled="false" x="0" textColor="0xe3d7be"/>
+		<e:Image y="0" x="50" source="zycs_320002"/>
+		<e:Label id="consumeTxt0" y="6" text="0/5" fontFamily="Times" size="24" textAlign="left" touchEnabled="false" x="84" textColor="0xe3d7be"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnEnter" y="916" label="Transfer" skinName="BtnMin1_1mid" horizontalCenter="0"/>
+	<!--<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神羽\S-神羽-装备-装备转换.jpg" y="-47" locked="true" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleLotteryTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3cc8ef" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" touchEnabled="false" scale9Grid="88,64,2,3"
+		         x="0"  source="ldsz_zycs_jcbg2_jpg"/>
+		<e:Image y="-16" scale9Grid="56,7,80,44" source="zhaunsheng_zycs_bt2"  x="223"/>
+		<e:Image id="imgTitle" y="14" horizontalCenter="0"  source="ldsz_zycs_lzjc"/>
+		<e:Button id="closeBtn" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"  x="637"/>
+		<e:Button id="btnSend" y="457" skinName="BtnMin1_1" label="Go to Bet" x="286"/>
+	</e:Group>
+</e:Skin>

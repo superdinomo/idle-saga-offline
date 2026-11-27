@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultWinMapBossSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1"/>
+	<e:Group id="group" width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="mapGroup" x="0" y="0">
+			<e:Image id="bg" x="0" y="0" anchorOffsetY="0" source="js_zycs_qz_png"/>
+			<e:Image y="265" anchorOffsetY="0" source="js_zycs_ywd_png" x="61"/>
+			<e:Image y="280" anchorOffsetY="0" x="233" source="js_zycs_gxjs"/>
+			<e:Image id="imgTitle" x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png"/>
+			<e:Button id="btnClose" label="Claim (9s)" x="246" y="944" anchorOffsetX="0" anchorOffsetY="0" icon="anz_zycs_lqjl" skinName="BtnMin1_6"/>
+			<e:Scroller height="440" y="470" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+				<e:List id="list" itemRendererSkinName="ItemSkin" >
+				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43" requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingBottom="12" paddingTop="12"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Image x="129" y="422" source="js_zycs_hdwp"/>
+			<e:BitmapLabel id="mapNum" touchEnabled="false" text="g1" y="313" font="jsnum_fnt" horizontalCenter="0"/>
+			<e:Group x="217" y="340">
+				<e:Image x="0" y="0" source="js_zycs_bzjy"/>
+				<e:Image x="96" y="-2" source="zycs_320000"/>
+				<e:BitmapLabel id="imgExpNum" touchEnabled="false" text="998_s" font="jsnum1_fnt" x="130" letterSpacing="-5"/>
+				<e:Group id="mcExpGroup" verticalCenter="-3" right="-10"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="217" y="370">
+				<e:Image x="0" y="0" source="js_zycs_bzjb"/>
+				<e:Image x="96" y="-2" source="zycs_320001"/>
+				<e:BitmapLabel id="imgGoldNum" touchEnabled="false" text="998_s" font="jsnum1_fnt" x="130" y="0" letterSpacing="-5"/>
+				<e:Group id="mcGoldGroup" verticalCenter="-3" right="-10"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Image id="mapIcon" touchEnabled="false" y="273" x="89" source="map_zycs_icon1a"/>
+	</e:Group>
+</e:Skin>

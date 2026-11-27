@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CDkeyPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="13" y="44" source="fl_zycs_zxlbbg_jpg"/>
+	<e:Image y="46" source="fl_zycs_di2_jpg" horizontalCenter="0"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" source="fl_zycs_dt" horizontalCenter="0"/>
+	<e:Image scale9Grid="6,5,3,4" anchorOffsetY="0" anchorOffsetX="0" y="728" horizontalCenter="11" source="fl_zycs_jhm_png"/>
+	<e:Image scale9Grid="6,5,3,4" anchorOffsetY="0" anchorOffsetX="0" y="826" source="fl_zycs_jx" horizontalCenter="0"/>
+	<e:EditableText id="input" width="537" text="" y="835" fontFamily="Times" size="24" verticalAlign="middle" textColor="0x848282" anchorOffsetY="0" anchorOffsetX="0" height="52" maxChars="28" prompt="Tap to enter activation code" x="92"/>
+	<e:Button id="sendBtn" label="Claim" y="970" anchorOffsetX="0" anchorOffsetY="0" x="298" skinName="BtnMin1_2mid"/>
+</e:Skin>

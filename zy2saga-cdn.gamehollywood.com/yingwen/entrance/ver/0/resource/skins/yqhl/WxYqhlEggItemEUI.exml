@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WxYqhlEggItemEUI" currentState="rot" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="egg,rot"  width="114">
+	<e:Image id="imgIocn" touchEnabled="true" source="xyzd_zycs_d1" includeIn="egg" anchorOffsetX="57" anchorOffsetY="126" x="57" y="126"/>
+	<e:Image id="imgEgg" touchEnabled="false" source="xyzd_zycs_d2" y="71" includeIn="rot" horizontalCenter="0"/>
+	<e:Button id="smashBtn" label="Hit Him" y="183" horizontalCenter="0" includeIn="egg" skinName="BtnMin1_1small"/>
+	<e:Component id="item" y="0" skinName="ItemSkin" horizontalCenter="0" includeIn="rot"/>
+</e:Skin>

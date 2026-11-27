@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem49_1BigEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="74">
+	<w:Config id="1586bd49103"/>
+	<e:Image touchEnabled="true" y="0" source="hddt_zycs_qddjk"/>
+	<e:Image id="imgItem" y="8" width="55" height="55" source="zycs_320032" horizontalCenter="0"/>
+	<e:Image id="imgName" touchEnabled="true" y="103" source="hddt_zycs_qd3" horizontalCenter="0.5"/>
+	<e:Image id="imgYlq" y="21" source="lilian_zycs_ylq1"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" right="-1" top="-5"/>
+</e:Skin>

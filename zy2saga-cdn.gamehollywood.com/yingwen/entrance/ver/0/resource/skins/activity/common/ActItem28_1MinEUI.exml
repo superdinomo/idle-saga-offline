@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem28_1MinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bdedfef" />
+	<e:Component id="itemIcon" x="0" skinName="ItemSkin"  scaleX="0.87" scaleY="0.87" y="0"/>
+	<e:Label id="lbCount" text="9/9" y="56" fontFamily="Times" size="20" textColor="0xcdc8be"  right="7" stroke="1"/>
+</e:Skin>

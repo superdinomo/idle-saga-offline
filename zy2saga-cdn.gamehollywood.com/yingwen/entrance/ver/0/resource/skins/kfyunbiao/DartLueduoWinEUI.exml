@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartLueduoWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+
+	<e:Group width="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="-16" scale9Grid="56,7,80,44" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Image y="14" horizontalCenter="0.5" source="hwbz_zycs_ldlb"/>
+		<e:Button id="btnChange" label="Refresh" y="754" horizontalCenter="-0.5" skinName="BtnMin1_1"/>
+		<e:Scroller width="690" height="676" y="64" horizontalCenter="0">
+			<e:List id="list" y="-3" itemRendererSkinName="DartLueduoWinItemEUI">
+			<!--<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>-->
+				<e:layout>
+					<e:VerticalLayout gap="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="labelTips" text="Unfortunately, we are unable to find any related treasure" textAlign="center" size="24" horizontalCenter="0" x="206" fontFamily="Times" textColor="0xf01414" verticalCenter="-132"/>
+	<e:Button id="closeBtn" x="639" y="-1" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+	</e:Group>
+
+</e:Skin>

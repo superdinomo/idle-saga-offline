@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem11_101EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="118">
+	<w:Config id="1586bd49103"/>
+	<e:Image id="imgPay" x="0" source="zmth_zycs_en10499" verticalCenter="0"/>
+	<e:Scroller x="135" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="15" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object />
+					<e:Object />
+					<e:Object />
+					<e:Object />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="584" label="Snatch Up" skinName="BtnMin1_2mid" verticalCenter="0"/>
+	<e:Button id="btnGet" x="584" label="Claim" skinName="BtnMin1_2mid" verticalCenter="0"/>
+	<e:Image id="imgYgm" x="581" source="zmth_zycs_ygm" verticalCenter="0"/>
+</e:Skin>

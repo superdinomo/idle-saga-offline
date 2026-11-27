@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildFbRewardBtnSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="2" y="5" visible.disabled="false" source="guildfb_09"/>
+	<e:Image x="-2" y="1" visible.up="false" visible.disabled="false" source="guildfb_16"/>
+	<e:Image x="2" y="1" visible.up="false" visible.down="false" source="guildfb_17" y.disabled="5" x.disabled="4" y.up="5"/>
+</e:Skin>

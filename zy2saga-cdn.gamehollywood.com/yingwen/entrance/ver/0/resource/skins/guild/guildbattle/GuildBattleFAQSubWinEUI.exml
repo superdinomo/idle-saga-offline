@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleFAQSubWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group width="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" source="ldsz_zycs_bg10_jpg" horizontalCenter="0"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source="ldsz_zycs_hdbt2"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="547"/>
+
+		<e:Label id="lbTitle" text="Event Registration" y="76" size="24" fontFamily="Times" x="130" textColor="0xf5e65a"/>
+		<e:Scroller id="scroller" height="561" y="116" width="444" x="146" scrollPolicyH="off">
+			<e:Group>
+				<e:Label id="lbDec" text="" size="24" fontFamily="Times" textColor="0xcdc8be" lineSpacing="4" width="435"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Button id="btnLeft" y="353" skinName="Btn0Skin" icon="zuji_zycs_jiantou" scaleX="-1" x="82"/>
+		<e:Button id="btnRight" y="353" skinName="Btn0Skin" icon="zuji_zycs_jiantou" x="638"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MoLianResultEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="lost,win">
+	<w:Config id="15d0e19cdf1" />
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-41.5">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png" source.lost="js_zycs_qzh_png"/>
+		<e:Image x="100" y="255" anchorOffsetY="0" source="myzt_zycs_tgcs"/>
+		<e:Label id="lbDesc" text="4" y="253" size="24" fontFamily="Times" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" touchEnabled="false" x="199" visible.lost="false" textColor="0xffffff"/>
+		<e:Group x="94" y="310" visible.lost="false">
+			<e:ProgressBar id="batHp" x="60" y="19" skinName="ProgressBarEUI24" maximum="100" value="50"/>
+			<e:Image y="7" x="0" anchorOffsetY="0" source="myzt_zycs_jlk"/>
+			<e:Image id="imgHead" y="15" x="8" anchorOffsetY="0" source="myzt_zycs_tx1"/>
+			<e:Label id="lbCurHP" text="Current HP" y="0" size="20" fontFamily="Times" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" touchEnabled="false" x="65" textColor="0xFF9B0F"/>
+		</e:Group>
+		<e:Button id="closeBtn0" label="" x="457" y="944" skinName="Btn0Skin" icon="public_zycs_lkfb"/>
+		<e:Image id="imgTitle" x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png" source.lost="js_zycs_sb_png"/>
+		<e:Image id="imghyh" y="309" horizontalCenter="0" includeIn="lost"  source="js_zycs_zjzl"/>
+		<e:Button id="closeBtn" label="Claim" x="246" y="937" anchorOffsetX="0"
+		          anchorOffsetY="0"  icon="" skinName="BtnMin1_6"/>
+		<e:Scroller width="338" height="368" y="466" anchorOffsetX="0" anchorOffsetY="0" visible.lost="false" x="141">
+			<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="411" x="-24" y="0" anchorOffsetY="0"
+			        height="392">
+				<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image x="98" y="418" source="js_zycs_hdwp" visible.lost="false"/>
+		<e:Component id="resultCreateRole" y="358" skinName="ResultCreateRoleEUI" horizontalCenter="0" visible.win="false"/>
+</e:Group>
+</e:Skin>

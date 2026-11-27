@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleGerenScoreRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+
+
+
+
+
+	<e:Group x="0" y="0" anchorOffsetX="0" width="678" anchorOffsetY="0" height="123">
+		<e:Image y="0" x="0" source="qianghua_zycs_kuang4" scale9Grid="34,32,29,34" width="100%" height="100%"/>
+		<e:Label id="lbRank" text="0" fontFamily="Times" size="24" textAlign="center" textColor="0xcdc8be" horizontalCenter="-280" verticalCenter="0"/>
+		<e:Image id="imgRank" source="ldsz_zycs_ph2" horizontalCenter="-280" verticalCenter="0"/>
+		<e:Label id="lbGuildName" text="[Guild] Name" fontFamily="Times" size="20" textAlign="center" y="51" x="344" textColor="0xe3d7be"/>
+		<e:Label id="lbRoleName" text="S999." fontFamily="Times" size="20" textAlign="center" y="51" textColor="0xf5e65a" horizontalCenter="-119"/>
+		<e:Label id="lbScore" text="Points" fontFamily="Times" size="20" x="562" textAlign="center" textColor="0xff9b0f" y="51" visible="false"/>
+		<e:BitmapLabel id="bitScore" y="50" text="1234567890" letterSpacing="-3" font="powernum_fnt" horizontalCenter="243"/>
+	</e:Group>
+
+
+
+
+
+
+	
+	<!--<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_领地圣战\L-领地圣战-积分排名.jpg" x="0" y="-45" locked="true" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act50RewardListTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="3" width="693">
+	<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" source="xb_zycs_gxbg_png" scale9Grid="86,118,521,7" top="0" bottom="7"/>
+		<e:Scroller id="scroller"  anchorOffsetX="0" width="576" anchorOffsetY="0" horizontalCenter="4.5" top="128" bottom="143" maxHeight="420">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" width="540" anchorOffsetX="0" x="-38" y="0">
+			
+				
+				
+				
+				
+				
+			
+				<e:layout>
+					<e:TileLayout requestedColumnCount="5" verticalGap="2" paddingLeft="15" paddingRight="15" paddingBottom="15" paddingTop="15" horizontalGap="18"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller scrollPolicyH="auto" scrollPolicyV="off" maxWidth="620" horizontalCenter="0.5" y="424">
+			<e:List id="listConsume" itemRendererSkinName="ComItemConsumeEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="10"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnSend" y="466" label="Summon" skinName="BtnMin1_1" x="286"/>
+	</e:Group>
+</e:Skin>

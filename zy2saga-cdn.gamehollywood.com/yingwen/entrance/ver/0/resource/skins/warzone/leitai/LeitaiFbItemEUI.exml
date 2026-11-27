@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LeitaiFbItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="147" height="142" states="atking,normal">
+	<w:Config id="1586b362dfe" />
+	<e:Image id="imgBg" horizontalCenter="0" source="klm_zycs_yk2" source.normal="klm_zycs_yk" y.normal="7" />
+	<e:Group id="groupScroller" width="84" height="84" bottom="45" x="31" scrollEnabled="true">
+		<e:Group id="groupMc" width="84" height="84" x="0" bottom="0" />
+	</e:Group>
+	<e:Image id="imgBoss" y="8" x="30" source="" />
+	<e:Group id="groupImg" height="100" right="16">
+		<e:Image id="imgGSZ" source="klm_zycs_gs" />
+		<e:Image id="imgGuild" source="klm_zycs_tm" />
+		<e:layout>
+			<e:VerticalLayout gap="2" />
+		</e:layout>
+	</e:Group>
+	<e:Image source="public_zycs_jx1" horizontalCenter="0" y="112" />
+	<e:Label id="labelName" text="0" y="119" size="18" textAlign="center" fontFamily="Times" width="180" verticalAlign="middle" horizontalCenter="0" stroke="1" textColor="0xe3d7be" />
+</e:Skin>

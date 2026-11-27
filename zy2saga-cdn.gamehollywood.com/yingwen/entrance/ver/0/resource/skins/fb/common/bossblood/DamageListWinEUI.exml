@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DamageListWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" touchEnabled="false" right="0" left="0" bottom="0" top="0">
+		<e:Component id="damageListComponent" skinName="DamageListComponentSkin" y="62" x="411" />
+</e:Group>
+</e:Skin>

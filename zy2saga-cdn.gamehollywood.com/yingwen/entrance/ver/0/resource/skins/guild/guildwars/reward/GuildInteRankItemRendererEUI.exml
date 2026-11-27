@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildInteRankItemRendererEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="698" height="45">	
+	<e:Label id="rank" text="0" fontFamily="Times" size="20" x="34" width="83" textAlign="center" textColor="0x968f7c" y="13"/>
+	<e:Label id="guildName" text="0" fontFamily="Times" size="20" x="146" textAlign="center" width="165" textColor="0x968f7c" y="13"/>
+	<e:Label id="guildOwn" text="0" fontFamily="Times" size="20" x="313" textAlign="center" width="165" textColor="0x968f7c" y="13"/>
+	<e:Label id="point" fontFamily="Times" size="20" x="528" text="0" textAlign="center" width="121" textColor="0x968f7c" y="13"/>
+	<e:Image width="100%" x="0" source="zs_zycs_fengexian" y="43"/>
+</e:Skin>

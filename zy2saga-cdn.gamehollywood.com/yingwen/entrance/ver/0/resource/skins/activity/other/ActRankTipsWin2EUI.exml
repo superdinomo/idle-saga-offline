@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActRankTipsWin2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group id="group" y="200" right="155" width="433">
+		<e:Image touchEnabled="true" y="0" x="0" source="mainui_zycs_tsk"/>
+
+		<e:Label id="lbDec" fontFamily="Times" size="18" text="Ranking Ace \nRewards" x="131" textColor="0xcdc8be" textAlign="left" bottom="17" anchorOffsetY="0" height="70" anchorOffsetX="0" width="288"/>
+		<e:Image id="imgArrow" fillMode="clip" scaleX="1" scaleY="1" y="45" x="423" source="mianui_zycs_yindao_jiantou"/>
+		<e:Image id="imgBg" touchEnabled="true" y="0" x="0" source="public_zycs_greybg2" width="100%" height="100%" alpha="0.01"/>
+
+		<e:Button id="closeBtn0" label="" x="407" y="33" skinName="Btn0Skin" icon="mainui_zycs_x"/>
+	</e:Group>
+</e:Skin>

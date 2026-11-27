@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleGerenScoreRankLastPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" x="0" y="0"/>
+	<e:Image touchEnabled="false" y="34" source="ldsz_zycs_grjfbg_jpg" x="13"/>
+	<e:Image y="34" source="public_zycs_cjx" x="13"/>
+	<e:Image y="37" x="156" source="public_zycs_sjx"/>
+	<e:Image y="37" x="325" source="public_zycs_sjx"/>
+	<e:Image y="37" x="508" source="public_zycs_sjx"/>
+	<e:Label text="Ranking" fontFamily="Times" size="20" x="60" textAlign="center" y="40" textColor="0xFF9B0F"/>
+	<e:Label text="Player Name" fontFamily="Times" size="20" x="201" textAlign="center" y="40" textColor="0xFF9B0F"/>
+	<e:Label text="My Guild" fontFamily="Times" size="20" x="372" textAlign="center" y="40" textColor="0xFF9B0F"/>
+	<e:Label text="Points" fontFamily="Times" size="20" x="582" textAlign="center" y="40" textColor="0xFF9B0F"/>
+
+
+	<e:Scroller y="73" height="828" width="690" x="20">
+		<e:List id="listRank" itemRendererSkinName="GuildBattleGerenScoreRankItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="4"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		<!--<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>-->
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbMyRank" text="My Rank" fontFamily="Times" size="24" x="132" textAlign="center" y="920" textColor="0xf5e65a"/>
+	<e:Label id="lbMyScore" text="My Points " fontFamily="Times" size="24" x="452" textAlign="center" y="920" textColor="0xff9b0f"/>
+	<!--<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_领地圣战\L-领地圣战-积分排名.jpg" x="0" y="-45" locked="true" visible="false"/>-->
+
+
+</e:Skin>

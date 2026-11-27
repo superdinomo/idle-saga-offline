@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildManagerEvenRenderEUI" width="678" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Label id="labelInfo" x="29" fontFamily="Times" size="24" text="0" textAlign="left" width="635" anchorOffsetX="0" textColor="0xaf9b73" bottom="6" top="6"/>
+	<e:Image width="90%" bottom="2" horizontalCenter="0" source="jiadian_zycs_fengexian"/>
+</e:Skin>

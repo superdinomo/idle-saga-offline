@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel21_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="694"
+        height="800">
+	<e:Image x="0" y="0" source="hddt_zycs_di7_jpg" />
+	<e:Button id="btnLeft" y="176" label="" x="96" icon="zuji_zycs_jiantou" skinName="Btn0Skin" scaleX="-1" />
+	<e:Button id="btnRight" y="176" label="" x="597" icon="zuji_zycs_jiantou" skinName="Btn0Skin" />
+			<e:Scroller id="menuScroller" y="152" height="130" width="507" x="92" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="menuList" useVirtualLayout="false" itemRendererSkinName="ActItem21_1EUI">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	<e:Image x="147" y="291" source="public_zycs_jx1" width="386" scale9Grid="62,4,5,23"/>
+	<e:Label id="labelDesc" text="Queen Frost (Challengeable when Character reaches Lv.200)" y="297" size="20" fontFamily="Times"  horizontalCenter="0" textColor="0xff9b0f"/>
+	<e:Image x="113" y="352" source="liuguang_zycs_huawen" />
+	<e:Image x="297" y="349" source="hddt_zycs_qfss" />
+	<e:Image x="581" y="352" source="liuguang_zycs_huawen" scaleX="-1" />
+	<e:Label id="labelQFSS" text="Boss is defeated by XXXXXXXXX. Whole server get:" y="385" textColor="0xAF9B73" size="24" fontFamily="Times" x="137"/>
+	<e:Scroller width="312" height="96" x="149" y="424" anchorOffsetY="0" anchorOffsetX="0">
+		<e:List id="listQFSS" itemRendererSkinName="ItemSkin" x="30" y="60" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:HorizontalLayout gap="14"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnQFSSHasGetAward" y="443" label="" x="526" skinName="BtnMin1_8" icon="anz_zycs_ylq" enabled="false"/>
+	<e:Button id="btnQFSSGetAward" y="443" label="" x="526" skinName="BtnMin1_8" icon="anz_zycs_lq"/>
+	<e:Image id="imgQFSSWDC" x="528" y="423" source="hddt_zycs_wdc"/>
+	<e:Image x="113" y="560" source="liuguang_zycs_huawen" />
+	<e:Image x="297" y="557" source="hddt_zycs_grss" />
+	<e:Image x="581" y="560" source="liuguang_zycs_huawen" scaleX="-1" />
+	<e:Label id="labelGRSS" text="Claim when you become Boss Damage No. 1 1 time:" y="597" textColor="0xAF9B73" size="24" fontFamily="Times" horizontalCenter="0"/>
+	<e:Scroller width="312" height="96" x="149" y="635" anchorOffsetY="0" anchorOffsetX="0">
+		<e:List id="listGRSS" itemRendererSkinName="ItemSkin" x="30" y="60" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:HorizontalLayout gap="14"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnGRSSGo" y="651" label="" x="526" skinName="BtnMin1_8" icon="anz_zycs_ljqw" />
+	<e:Button id="btnGRSSHasGetAward" y="651" label="" x="526" skinName="BtnMin1_8" icon="anz_zycs_ylq" enabled="false"/>
+	<e:Button id="btnGRSSGetAward" y="651" label="" x="526" skinName="BtnMin1_8" icon="anz_zycs_lq"/>
+	<e:Image id="imgGTH" x="6" y="762" source="public_zycs_gth" />
+	<e:Label id="labelData" y="768" text="Event Ends In: 4D 8H 24M 1S" fontFamily="Times" size="24" x="49" lineSpacing="10" textColor="0xAF9B73"/>
+</e:Skin>

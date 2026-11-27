@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EquipTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="myRole,item" >
+	<w:Config id="1586b3502a7" />
+	<e:Group id="group" width="562" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="background0" width="562" x="1" bottom="0" top="0" scale9Grid="26,25,5,5" source="public_zycs_nt" touchEnabled="false"/>
+		<e:Group x="0" bottom="19" top="0">
+			<e:Group x="0" y="0" anchorOffsetX="0" width="562" height="216" anchorOffsetY="0">
+				<e:Image id="imgQualityBg" anchorOffsetX="0"  source="zbxx_zycs_5" x="5" y="2"/>
+				<e:Image y="11" source="tips_zycs_di" horizontalCenter="0.5"/>
+				<e:Image id="imageState" y="-1" anchorOffsetX="0" x="477" source="equip_zycs_yizhuangbei"/>
+				<e:Component id="itemIcon" x="25" y="59" skinName="ItemSkin" />
+				<e:Label id="labelName" text="Gear Name" y="18" fontFamily="Times" size="24" textColor="0xf5ffff" anchorOffsetX="0"
+				         textAlign="left"  horizontalCenter="0"/>
+				<e:Group x="131" y="58" height="25">
+					<e:Label id="lbEquipScore" y="0" text="Gear Rating:" fontFamily="Times" size="22" x="0" textColor="0xcdc8be"/>
+					<e:Image id="imgEquipScore" touchEnabled="false" x="0" y="0" maxWidth="15" maxHeight="25"  visible.myRole="false" source=""/>
+					<e:Label id="lbEquipScoreB" y="10" fontFamily="Times" size="22" x="196" textColor="0xCDC8BE" visible.myRole="false" text=""/>
+					<e:layout>
+						<e:HorizontalLayout gap="31" horizontalAlign="center" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+				<e:Label id="LabelTotalScore" y="95" text="Total Rating:" fontFamily="Times" size="22" x="131" textColor="0xcdc8be"/>
+				<e:Label id="LabelLevelLimit" y="128" text="Equip Level:" fontFamily="Times" size="22" x="131"
+				          textColor="0xcdc8be"/>
+				<e:Label id="LabelCareer" y="160" text="Class Requirement: Wizard" fontFamily="Times" size="22" x="131" textColor="0xcdc8be"/>
+				<e:Image anchorOffsetX="0" x="4" y="203" source="public_zycs_gdx" width="555"/>
+			</e:Group>
+			<e:Group id="groupBaseAttr" x="0" y="274" width="562">
+				<e:Component id="beaseAttrItem" y="0" skinName="EquipTipsJiChuItemEUI" horizontalCenter="0"/>
+			</e:Group>
+			<e:Scroller id="scrollerOtherAttr" width="562" x="418" y="122" maxHeight="450">
+			<e:Group id="groupOtherAttr"  scrollEnabled="true">
+				<e:Component id="zhuoYueAttrItem" y="0" skinName="EquipTipsJiChuItemEUI" horizontalCenter="0"/>
+				<e:Component id="gemAttrItem" y="0" horizontalCenter="0" skinName="EquipTipsGemItemEUI"/>
+				<e:Component id="zhuiJiaAttrItem" y="0" skinName="EquipTipsJiChuItemEUI" horizontalCenter="0" scaleY="0"/>
+				<e:Component id="peiyangAttrItem" y="0" skinName="EquipTipsJiChuItemEUI" horizontalCenter="0" scaleY="0"/>
+				<e:Component id="jinglianAttrItem" y="77" skinName="EquipTipsJingLianItemEUI" horizontalCenter="0.5" scaleY="1"/>
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" gap="0"/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+			<e:Group id="groupEquipType" y="745" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="12" width="562">
+				<e:Image width="562" height="2" x="0" y="0" source="zs_zycs_fengexian" scaleX="1" scaleY="1"/>
+				<e:Label id="LabelEquipType" text="T9 1-Star Weapon" y="15" size="22" textColor="0xffb824" fontFamily="Times" anchorOffsetY="0" left="40"/>
+				<e:Label id="LabelEquipTypeB" text="T9 1-Star Weapon" y="15" size="22" textColor="0xffb824" fontFamily="Times" anchorOffsetY="0" visible.myRole="false" right="40"/>
+			</e:Group>
+			<e:Group id="groupSign" height="96" y="735" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="2"
+			         width="562">
+			<e:Image id="imageSign" y="8" scaleX="1" scaleY="1" horizontalCenter="0"  source="zs_zycs_fengexian" width="562"/>
+			<e:Button id="btnReplaceEquip" label="Gear Change" y="27" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"
+			          skinName="BtnMin1_1" horizontalCenter="0.5" />
+		</e:Group>
+		<e:Group id="groupTUjing" width="562" y="745" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="0.9" x="31">
+			<e:Image y="2" scale9Grid="35,0,91,4" anchorOffsetX="0" width="562"
+			         scaleX="1" scaleY="1"  source="zs_zycs_fengexian" x="0"/>
+			<e:Label text="[Source]" x="43" y="16" size="22" textColor="0xffb824" fontFamily="Times" />
+			<e:Label id="lbtujin" text="Content" x="52" y="41" size="22" textColor="0xffb824" fontFamily="Times" anchorOffsetY="0" />
+		</e:Group>
+		
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+		<e:Image id="background" width="562" x="1" bottom="0" top="0" scale9Grid="26,25,5,5" source="public_zycs_wk" touchEnabled="false" locked="true"/>
+</e:Group>
+
+</e:Skin>

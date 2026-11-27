@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act38BigRewardTipsEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="145" height="203">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" anchorOffsetX="0" anchorOffsetY="0" x="0" source="hddt_zycs_zddj"/>
+	<e:Button id="btnClose" label="" x="113" y="-12" skinName="Btn0Skin" icon="public_zycs_cha"/>
+	<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" y="46" horizontalCenter="-5.5"/>
+	<e:Label id="lbName" text="Superb Item" y="146" fontFamily="Times" textColor="0xcd47ff" size="20" horizontalCenter="-5.5"/>
+
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YongZheBossItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="148">
+	<w:Config id="15b806387d2"/>
+	<e:Image y="0" x="4" source="public_zycs_jx1" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"/>
+	<e:Image y="31" source="public_zycs_yk" x="15" touchEnabled="false"/>
+	<e:Label id="lbgq" y="5" text="Stage 1" fontFamily="Times" size="20" lineSpacing="0" textColor="0xE6DCB8" horizontalCenter="0" touchEnabled="false"/>
+	<e:Image id="headIcon" y="47" anchorOffsetX="0" anchorOffsetY="0" x="29" source="" touchEnabled="false"/>
+	<e:Image id="imgytg" y="50" x="14" source="yzzt_zycs_ytg" touchEnabled="false"/>
+	<e:Image id="selectImg" scale9Grid="36,63,119,74" y="18" x="-33" anchorOffsetY="0" anchorOffsetX="0" source="yzzt_zycs_xz" touchEnabled="false"/>	
+</e:Skin>

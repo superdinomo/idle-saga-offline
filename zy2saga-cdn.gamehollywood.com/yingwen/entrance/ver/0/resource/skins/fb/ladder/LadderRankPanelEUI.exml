@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderRankPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Scroller x="11" width="698" height="957" y="78">
+		<e:List id="list" itemRendererSkinName="LadderRankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="43" source="public_zycs_cjx" x="13" height="34" width="694"/>
+	<e:Image y="46" x="156" source="public_zycs_sjx"/>
+	<e:Image y="46" x="325" source="public_zycs_sjx"/>
+	<e:Image y="46" x="508" source="public_zycs_sjx"/>
+	<e:Label text="Ranking" size="20" fontFamily="Times" y="50" x="67" textColor="0xff9b0f"/>
+	<e:Label text="Rank" size="20" fontFamily="Times" y="50" x="220" textColor="0xff9b0f"/>
+	<e:Label text="Name" size="20" fontFamily="Times" y="50" x="398" textColor="0xff9b0f"/>
+	<e:Label text="Net Victories" size="20" fontFamily="Times" y="50" x="579" textColor="0xff9b0f"/>
+	<e:Image source="zs_zycs_fengexian" x="13" y="1033"/>
+	<e:Label text="My Results:" fontFamily="Times" size="20" textAlign="center" x="94" textColor="0xf5e65a" y="1057"/>
+	<e:Image id="icon" x="212" source="ladder_zycs_rank3a_png" y="1034"/>
+	<e:BitmapLabel id="duanBmp" text="9" font="ladderyellow_1_fnt" x="234" y="1056"/>
+	<e:Label id="rankTxt" text="Ranking" fontFamily="Times" size="20" textAlign="center" x="343" textColor="0xf5e65a" y="1057"/>
+	<e:Label id="point" text="Net Victories" fontFamily="Times" size="20" textAlign="center" x="518" textColor="0xf5e65a" y="1057"/>
+
+</e:Skin>

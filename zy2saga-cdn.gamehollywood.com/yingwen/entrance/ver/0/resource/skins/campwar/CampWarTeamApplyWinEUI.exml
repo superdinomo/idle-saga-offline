@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarTeamApplyWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image height="896" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="-16" source="zhaunsheng_zycs_bt2" x="223"/>
+
+
+		<e:Image y="14" x="313" source="smsz_zycs_sqlb1"/>
+		<e:Button id="closeBtn0" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+		<e:Scroller id="scroller" y="78" height="631" width="678" x="21">
+			<e:List id="list" itemRendererSkinName="CampWarTeamApplyItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="5"/>
+				</e:layout>
+
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	<e:Button id="btnNo" x="154" label="Ignore All" skinName="BtnMin1_1" bottom="68"/>
+		<e:Button id="btnYes" label="Approve All" skinName="BtnMin1_2" x="415" bottom="68"/>
+
+	</e:Group>
+</e:Skin>

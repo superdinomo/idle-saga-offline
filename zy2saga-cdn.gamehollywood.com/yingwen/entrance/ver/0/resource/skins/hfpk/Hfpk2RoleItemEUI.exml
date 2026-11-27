@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Hfpk2RoleItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="340">
+	<w:Config id="15d981d06da"/>
+	<e:Image id="imgGroupName" y="27" horizontalCenter="0.5" source="hfdfs_zycs_gj1"/>
+	<e:Image id="none" y="196" source="llcz_zycs_xydw" x="0"/>
+	<e:Group id="groupMC" y="398" horizontalCenter="4.5"/>
+	<e:Label id="lbName" text="S.Miracle xXMoo MoralityXx" horizontalCenter="0" size="20" fontFamily="Times" textAlign="center" y="61" textColor="0xf5e65a"/>
+
+</e:Skin>

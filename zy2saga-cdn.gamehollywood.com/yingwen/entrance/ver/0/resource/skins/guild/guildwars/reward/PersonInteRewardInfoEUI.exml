@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PersonInteRewardInfoEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134">	
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image height="913" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" width="694" x="13" y="43"/>
+	<e:Image y="61" source="public_zycs_di01" x="221"/>
+	<e:Label y="65" text="Personal Scores Ranking Rewards" fontFamily="Times" size="24" textAlign="center" verticalAlign="middle" textColor="0xf5e65a" x="264"/>
+	<e:Scroller x="14" height="749" y="105" width="693">
+		<e:List id="list1" itemRendererSkinName="GuildInteRewardItemRendererEUI">
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scroller" y="1012" width="569" height="66" x="76">
+		<e:List id="list" itemRendererSkinName="PersonRewardRendererEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="30"/>
+		</e:layout>
+			<!--
+				
+					
+					
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+	<e:Image y="967" source="public_zycs_di01" x="217"/>
+	<e:Label y="971" text="Scores Basic Rewards" fontFamily="Times" size="24" textAlign="center" verticalAlign="middle" textColor="0xf5e65a" x="288"/>
+	<e:Button id="leftBtn" label="" y="1028" skinName="Btn0Skin" icon="liuguang_zycs_next" scaleX="-1" x="76"/>
+	<e:Button id="rightBtn" label="" y="1028" skinName="Btn0Skin" icon="liuguang_zycs_next" x="644"/>
+</e:Skin>

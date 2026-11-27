@@ -1,0 +1,9 @@
+<e:Skin class="ShenShouTansuoRewardItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="134" height="149">
+	<w:Config id="1586b1383e3" />
+	<e:Component id="item" skinName="ItemSkin" y="20" x="20"/>
+	<e:Image id="imgYlq" pixelHitTest="true" touchEnabled="false" source="task_zycs_ylq" horizontalCenter="-27.5" verticalCenter="-34.5" scaleX="1.5" scaleY="1.5" visible="false"/>
+	<e:Image id="imgKlq" pixelHitTest="true" touchEnabled="false" verticalCenter="-7" source="jzhd_zycs_klq" horizontalCenter="0.5" visible="false"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="99" y="14" visible="false"/>
+	<e:Label id="lbCount" textAlign="center" verticalAlign="middle" text="(8 Attempts)" size="24" fontFamily="Times" stroke="1" strokeColor="0x000000" y="125" width="134" x="0" textColor="0xd8c94e"/>
+</e:Skin>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act63BuyWinEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" height="1280" width="720" states="buy,get,got" >
+	<e:Group horizontalCenter="0" height="434" width="720" verticalCenter="0">
+		<e:Image id="imgBg" x="0" y="-27" touchEnabled="false" scale9Grid="88,64,2,3" source="hddt_zycs_lxlb_png"/>
+		<e:Label id="lbCount" y="334.04" text="今日限购:0/1" fontFamily="黑体" size="20" lineSpacing="10" textColor="0xffffff" right="22"/>
+		<e:Label id="lbRate" y="134.04" text="Chance Display" fontFamily="黑体" size="20" lineSpacing="10" textColor="0x13EE22" x="594.52"/>
+		<e:Button id="closeBtn0" label="" x="663" y="57" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:Scroller y="187" scrollPolicyH="auto" maxWidth="650" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:ArrayCollection>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				</e:ArrayCollection>
+		
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" gap="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group x="274" y="328" visible.get="false" visible.got="false">
+			<e:Button id="btnBuy" label="100元抢购" y="0" x="0" skinName="BtnMin1_19"/>
+			<e:Button id="btnConsume" label="50点券抢购" y="0" x="0" skinName="BtnMin1_19"/>
+		</e:Group>
+		<e:Button id="btnGet" label="Claim" y="328" x="274" skinName="BtnMin1_19" visible.buy="false" visible.got="false"/>
+
+
+		<e:Image id="imgYlq" y="315" x="311" source="public_zycs_ylq" visible.get="false" visible.buy="false"/>
+	</e:Group>
+</e:Skin>

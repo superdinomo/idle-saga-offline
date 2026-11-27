@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItemTask15_2EUI" 
+        currentState="canact" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="noact,canact,act"  width="668" height="164">
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Scroller x="16" scrollPolicyH="off" y="59" width="465">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="18"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image x="517" anchorOffsetX="0" anchorOffsetY="0" source="lilian_zycs_ylq" visible.noact="false" visible.canact="false" y="42"/>
+	<e:Label id="taskName" text="Top up" fontFamily="Times" size="24" textColor="0xE6DCB8" x="10" y="18"/>
+	<e:Label id="lbjd" size="24" text="0/1" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" y="46" textColor="0x13ee22" horizontalCenter="240" visible.act="false" x="556"/>
+	<e:Button id="btnGoto" label="Go" x="499" visible.act="false" visible.canact="false" y="76" skinName="BtnMin1_2"/>
+	<e:Button id="btnAct" label="Claim" x="499" visible.noact="false" visible.act="false" y="76" skinName="BtnMin1_1"/>
+</e:Skin>

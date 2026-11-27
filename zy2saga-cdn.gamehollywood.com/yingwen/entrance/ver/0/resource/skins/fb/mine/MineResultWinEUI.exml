@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586bde6cc9"/>
+	<e:Group horizontalCenter="0" verticalCenter="-34">
+	<e:Image x="0" y="0" source="sjhj_zycs_kcwc_jpg"/>
+		<e:Component id="actDouble" touchEnabled="false" y="89" skinName="ActDoubleEUI" x="301"/>
+		<e:Button id="closeBtn" label="" x="469" y="-3" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="nameBg" y="43" source="sjhj_zycs_t1" x="178"/>
+		<e:Image id="nameImg" y="49" source="sjhj_zycs_kg1" x="228"/>
+		<e:Image x="36" y="212" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_pt"/>
+		<e:Image id="icon" x="30" y="109" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_mode1"/>
+			<e:List id="rewardList" itemRendererSkinName="ItemSkin" y="181" horizontalCenter="91.5" height="94">
+			<e:layout>
+				<e:HorizontalLayout gap="12"/>
+			</e:layout>
+			</e:List>
+		<e:Image y="324" source="qianghua_zycs_diwen1" width="276" x="139" fillMode="scale"/>
+		<e:Label text="Loot Status" size="20" fontFamily="Times" y="331" textColor="0xff9b0f" x="237"/>
+		<e:Label text="Obtained Rewards" size="20" fontFamily="Times" y="132" textColor="0xFF9B0F" x="328"/>
+		<e:Label id="robImg" text="Congrats! Your miner is not looted!" size="20" fontFamily="Times" y="433" textColor="0x23ca23" x="137"/>
+		<e:Scroller id="scrollerLog" y="390" scrollPolicyH="off" scrollPolicyV="on" width="390" height="110" x="82">
+			<e:List id="listLog" itemRendererSkinName="MineResultLogItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="10"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	<e:Button id="receiveBtn" skinName="BtnMin1_1" y="549" x="105" label="Claim"/>
+		<e:Button id="buyBtn" skinName="BtnMin1_1" y="549" x="314" label="Double Claim"/>
+		<e:Component id="unitPrice" y="516" skinName="PriceIconSkin" x="354"/>
+	</e:Group>
+</e:Skin>

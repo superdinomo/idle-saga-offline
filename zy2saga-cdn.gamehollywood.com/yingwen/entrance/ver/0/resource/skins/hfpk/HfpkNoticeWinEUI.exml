@@ -1,0 +1,12 @@
+<e:Skin class="HfpkNoticeWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group id="group" horizontalCenter="0" y="260" width="450" height="132">
+		<e:Image id="imgBg" x="0" y="0"  source="ldsz_zycs_sxdi1"/>
+		<e:Group id="groupMC" y="0" width="0" height="0" horizontalCenter="0">
+		</e:Group>
+		<e:Image x="13" y="24" source="sjhj_zycs_tx"/>
+		<e:Image id="imgHead" x="22" y="32" width="76" height="76" source="mianui_zycs_zhanshi0"/>
+		<e:Label id="lbDec" text="Gratitude: 998" size="24" textAlign="center" fontFamily="Times"  horizontalCenter="25" textColor="0xffffff" verticalCenter="6" lineSpacing="5"/>
+	</e:Group>
+</e:Skin>

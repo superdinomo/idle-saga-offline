@@ -1,0 +1,34 @@
+<e:Skin class="DaZaoEquipSelectPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+         width="284" height="350">
+	<w:Config id="1586b1383e3" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="27" anchorOffsetY="0" x="2" width="265" height="320" source="public_zycs_greybg4" scale9Grid="14,18,5,3" anchorOffsetX="0"/>
+		<e:Image y="23" anchorOffsetY="0" x="0" width="270" height="327" source="public_zycs_wk" scale9Grid="22,24,4,2"/>
+		<e:Button id="closeBtn" label="" x="231" y="24" skinName="Btn0Skin" icon="sc_zycs_x"/>
+		<e:Label id="lbName" text="Tap to place in gear" size="22" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="44" x="69"/>
+		<e:Scroller id="itemScroller" height="263" y="81" x="3" anchorOffsetY="0">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="DaZaoEquipSelectPanelItemEUI">
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:VerticalLayout paddingLeft="5" paddingRight="5" paddingTop="5"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	
+</e:Skin>

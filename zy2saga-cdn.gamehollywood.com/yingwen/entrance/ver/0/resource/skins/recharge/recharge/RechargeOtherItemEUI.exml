@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RechargeOtherItemEUI" currentState="nobuy" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="buy,nobuy"  height="203" width="334">
+	<e:Image id="imgBg" y="0" x="0" anchorOffsetY="0" anchorOffsetX="0" source="sc_zycs_yueka_jpg"/>
+	<e:Label id="lbPrice" text="6" y="170" fontFamily="Times" size="24" textColor="0xe6dcb8" horizontalCenter="0" visible.buy="false"/>
+	<e:Label id="lbPrice0" text="Purchased" y="170" fontFamily="Times" size="24" horizontalCenter="0" visible.nobuy="false" textColor="0x00ff08"/>
+	<e:Label id="lbName" text="Value Month Pass" y="11" fontFamily="Times" size="24" horizontalCenter="0" textColor="0xf5e65a"/>
+	<e:Label id="lbDesc" text="Value Month Pass" y="84" fontFamily="Times" size="22" x="122" textColor="0xe6dcb8" width="204"/>
+</e:Skin>

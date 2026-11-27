@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleFbFAQWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group width="720" height="641" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" scale9Grid="56,7,80,44" x="0" source="ldsz_zycs_dtjs_jpg"/>
+		<e:Image y="-16" scale9Grid="56,7,80,44" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Image id="imgTitle" y="12" source="ldsz_zycs_dtjs" x="276"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637" y="0"/>
+		<e:CheckBox id="checkBox" y="557" skinName="CheckBoxEUI" label="" x="194"/>
+		<e:Label text="Dismiss reminder this time" y="558" size="24" fontFamily="Times" x="233" textColor="0xffffff"/>
+		<e:Label id="lbDec" text="Tap on blank space to close" y="658" size="24" fontFamily="Times" textColor="0xFFFFFF" horizontalCenter="0"/>
+
+
+
+
+
+	</e:Group>
+</e:Skin>

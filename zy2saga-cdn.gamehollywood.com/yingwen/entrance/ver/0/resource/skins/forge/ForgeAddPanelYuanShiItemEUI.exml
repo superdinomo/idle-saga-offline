@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ForgeAddPanelYuanShiItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"     states="lock,unlock"  width="95" height="95">
+	<w:Config id="1586bf85aa4"/>
+	<e:Image id="imgBg" fillMode="clip"  anchorOffsetY="0" source="zhuijia_zycs_k1" x="0" y="0"/>
+	<e:Image id="imgIcon" fillMode="clip" anchorOffsetY="0" source="" horizontalCenter="0" verticalCenter="0"/>
+	
+	<e:Image id="imgLock" visible.unlock="false" source="zhuijia_zycs_suo" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="72" y="1"/>
+	<e:Image fillMode="clip" anchorOffsetY="0" x="60" y="67" source="zhuija_zycs_yk" visible.lock="false"/>
+	<e:Label id="lbCount" text="5" y="71" size="20" fontFamily="Times" textColor="0xff9b0f" visible.lock="false" horizontalCenter="26.5"/>
+</e:Skin>

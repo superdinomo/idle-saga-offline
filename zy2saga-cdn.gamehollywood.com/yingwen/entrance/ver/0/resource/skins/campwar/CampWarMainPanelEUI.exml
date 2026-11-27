@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+    <w:Config id="15af9c70173" />
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="43" touchEnabled="false" x="13" source="smsz_zycs_bg10_jpg"/>
+	<e:ProgressBar id="progBarRatio" y="71" value="50" slideDuration="0" maximum="100" skinName="ProgressBarEUI23" x="39"/>
+	<e:Group id="groupBarMc" y="102" width="0" x="360"/>
+	<e:Group id="groupRatio" y="102" width="561" x="80" height="0"/>
+	<e:Image y="57" touchEnabled="false" x="17" source="smsz_zycs_shen1"/>
+	<e:Image y="57" touchEnabled="false" x="623" source="smsz_zycs_mo1"/>
+	<e:Label id="lbScoreCampShen" text="God: 100" x="92" y="67" size="22" textAlign="left" fontFamily="Times" textColor="0xE3D7BE"/>
+	<e:Label id="lbScoreCampMo" text="100: Demon" y="67" size="22" textAlign="left" fontFamily="Times" textColor="0xE3D7BE" right="102"/>
+
+	<e:Label id="lbTime" text="Ending Countdown of This Season: H M S" x="21" y="152" size="20" textAlign="left" fontFamily="Times" textColor="0xE3D7BE"/>
+	<e:Image y="270" touchEnabled="false" height="30" scale9Grid="2,2,16,16" source="public_zycs_sd" x="13"/>
+	<e:Label text="My Faction:" x="38" y="274" size="20" textAlign="left" fontFamily="Times" textColor="0xE3D7BE"/>
+	<e:Image id="imgCamp" y="188" touchEnabled="false" x="49" source="smsz_zycs_shen1"/>
+	<e:Label id="lbCamp" text="Deity" y="274" size="20" textAlign="left" fontFamily="Times" textColor="0xE3D7BE" x="132"/>
+	<e:Button id="btnRank" y="380" icon="smsz_zycs_smb" skinName="Btn0Skin" x="597"/>
+	<e:Button id="btnReward" y="491" icon="smsz_zycs_zyjl" skinName="Btn0Skin" x="597"/>
+	<e:Button id="btnShop" y="597" icon="smsz_zycs_smsc" skinName="Btn0Skin" x="597"/>
+
+	<e:Label id="lbTimeDec" text="Event Time: 20:00 - 20:30 daily" x="21" y="653" size="24" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0x13ee22"/>
+	<e:Label id="lbTimeDec0" text="Event not available on Saturday. Double points on Sunday" x="21" y="682" size="24" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0x13ee22"/>
+	<e:Image x="312" y="737" source="smsz_zycs_czjl"/>
+	<e:Image x="119" y="738" source="liuguang_zycs_huawen"/>
+	<e:Image x="599" y="738" source="liuguang_zycs_huawen" scaleX="-1"/>
+	<e:ProgressBar id="progBar" y="871" value="10" slideDuration="0" skinName="ProgressBarEUI12" width="608" x="56" maximum="10"/>
+	<e:Component id="item0" y="779" skinName="CampWarMainBoxItemEUI" x="92"/>
+	<e:Component id="item1" y="779" skinName="CampWarMainBoxItemEUI" x="210"/>
+	<e:Component id="item2" y="779" skinName="CampWarMainBoxItemEUI" x="384"/>
+	<e:Component id="item3" y="779" skinName="CampWarMainBoxItemEUI" x="597"/>
+	<e:Label id="lbPkCount" text="Remaining Combat Attempts for Today 10/10" y="967.5" fontFamily="Times" size="24" textColor="0xe3d7be" x="234"/>
+	<e:Label id="lbHelpCount" text="Remaining Assistance Attempts Today 10/10" y="967.5" fontFamily="Times" size="24" textColor="0xe3d7be" x="234"/>
+
+	<e:Button id="btnDaTing" y="1015" label="Team Hall" skinName="BtnMin1_2" x="286"/>
+
+
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouEquipStarEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image x="0" y="0" source="smzl_zycs_zhuzi0"/>
+	<e:Image id="imgYuan" x="0" y="0" source="smzl_zycs_zhuzi1"/>
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+</e:Skin>

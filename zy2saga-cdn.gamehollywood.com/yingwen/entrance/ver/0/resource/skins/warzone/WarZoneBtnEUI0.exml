@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WarZoneBtnEUI0" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui">
+
+	<e:Group x="30" y="46">
+		<e:Image x="0" y="0" visible.disabled="false" source="zylts_zycs_n2"/>
+		<e:Image x="0" y="0" source="zylts_zycs_n2a" visible.up="false"/>
+	</e:Group>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" visible.disabled="false" source="zhanmeng_zycs_bqk" visible.up="false"/>
+		<e:Image x="10" y="7" source="zhanmeng_zycs_bq"/>
+		<e:Image x="18" y="41.5" source="zylts_zycs_zylts"/>
+		<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="33" y="2" visible="false"/>
+	</e:Group>
+
+
+
+</e:Skin>

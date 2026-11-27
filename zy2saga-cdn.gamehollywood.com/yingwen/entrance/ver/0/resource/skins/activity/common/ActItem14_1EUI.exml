@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem14_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="0,1,2" >
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Label id="lbDec" text="Log in today to claim" x="5" fontFamily="Times" size="24" y="18" textAlign="left" textColor="0xcdc8be"/>
+	<e:Scroller x="16" scrollPolicyH="off" scrollPolicyV="off" y="59" width="432">
+		<e:List id="listAward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="18"/>
+			</e:layout>
+			<!--
+				
+					
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnGet" x="500" label="Claim" skinName="BtnMin1_2" verticalCenter="0" visible.2="false"/>
+	<e:Image id="imgYlq" x="511" source="public_zycs_ylq" verticalCenter="0" visible.0="false" visible.1="false"/>
+</e:Skin>

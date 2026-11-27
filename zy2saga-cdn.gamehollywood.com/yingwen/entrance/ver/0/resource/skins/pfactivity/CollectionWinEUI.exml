@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CollectionWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" >
+	<w:Config id="1586b36a128" />
+	<e:Group id="group" horizontalCenter="0" x="312" width="720" verticalCenter="0">
+		<e:Image  source="scyx_zycs_bg_png"/>
+		<e:Button id="closeBtn" y="51" icon="sc_zycs_x" skinName="Btn0Skin" x="632" scaleX="1.5" scaleY="1.5"/>
+		<e:Scroller y="135" x="96">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="20" paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

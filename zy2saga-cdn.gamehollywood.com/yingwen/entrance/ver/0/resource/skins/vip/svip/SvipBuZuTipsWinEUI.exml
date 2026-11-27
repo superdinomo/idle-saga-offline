@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SvipBuZuTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+	xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group anchorOffsetX="0" width="571" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="public_zycs_dikuang" anchorOffsetX="0" width="571" anchorOffsetY="0" height="352" scale9Grid="89,64,7,6"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+		<e:Image y="12" horizontalCenter="0" source="chibang_zycs_tishi"/>
+		<e:Button id="closeBtn" label="" x="488" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="84" anchorOffsetX="0" width="494" anchorOffsetY="0" height="117" source="public_zycs_tsk1" scale9Grid="22,52,20,12" x="39"/>
+		<e:Label id="lbDesc" text="Auto challenge requires SVIP2, would you like to go and upgrade SVIP" y="118" textColor="0xf5e65a" size="20" fontFamily="Times" horizontalCenter="0.5" width="469"/>
+		<e:Button id="closeBtn0" y="231" anchorOffsetX="0" width="134" anchorOffsetY="0" height="52" label="Cancel" left="91" skinName="BtnMin1_1a"/>
+		<e:Button id="btnOK" y="230" skinName="BtnMin1_1" anchorOffsetX="0" anchorOffsetY="0" height="52" label="Confirm" width="134" x="341"/>
+	</e:Group>
+	</e:Skin>

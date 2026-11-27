@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengWuItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<w:Config id="15d981d06da"/>
+	<e:Image id="imgDi" y="105" source="sw_zycs_diw" x="3"/>
+	<e:Image source="sw_zycs_k" x="0" y="0"/>
+	<e:Image id="imgSelect" visible.up="false" source="sw_zycs_k1"/>
+	<e:Image id="imgIcon" width="80" height="80" source="mianui_icon_bianshen1" x="39" y="22"/>
+	<e:Group id="groupMc" width="0" height="0" x="16" y="29"/>
+	<e:Label id="lbCount" text="Acquire at Stage 1" y="107" size="22" fontFamily="Times" textAlign="center" textColor="0xffffff" width="158" x="0" wordWrap="true"/>
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="98" y="17"/>
+</e:Skin>

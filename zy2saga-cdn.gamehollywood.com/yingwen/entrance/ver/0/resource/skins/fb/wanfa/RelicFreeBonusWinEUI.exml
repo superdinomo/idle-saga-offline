@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RelicFreeBonusWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="1" verticalCenter="-168">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Image y="15" horizontalCenter="-2" source="hjbd_zycs_hjyj"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Button id="btnBuy" label="Claim" y="364"  anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" icon="anz_zycs_lq" x="210"/>
+		<e:Label text="A treasure is discovered in Golden Ruins. Need certain CP to claim." x="70" y="84" size="20" fontFamily="Times"
+		          width="405" textColor="0x9d8764" textAlign="center"/>
+		<e:Label id="lbYaoqiu" text="0" x="158" y="280" size="20" fontFamily="Times"
+		         anchorOffsetX="0" width="294" textAlign="left"  textColor="0xd2c864"/>
+		<e:Label id="lbYaoqiu0" text="Requirement:" x="104" y="280" size="20" fontFamily="Times" anchorOffsetX="0" textAlign="center" textColor="0xff9b0f"/>
+		<e:Label id="lbRuin" text="Treasure will be neutralized after 10:00" y="247" size="20" fontFamily="Times"  textColor="0xf01414" width="217" textAlign="center" x="166"/>
+		<e:Label id="lbName" text="0" y="220" size="20" fontFamily="Times" textColor="0xC80000" width="181" textAlign="center" x="183"/>
+		<e:Label id="lbMypower" text="0" x="158" y="308" size="20" fontFamily="Times"
+		         anchorOffsetX="0" width="331" textAlign="left"  textColor="0xd2c864"/>
+		<e:Component id="consume1" y="120" skinName="ItemSkin" anchorOffsetX="0"
+		             touchEnabled="true"  x="229"/>
+	</e:Group>
+</e:Skin>

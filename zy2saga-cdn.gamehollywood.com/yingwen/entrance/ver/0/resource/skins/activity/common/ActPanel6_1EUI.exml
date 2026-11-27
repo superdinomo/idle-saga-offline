@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel6_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="41" source="hddt_zycs_cbcjbg_jpg" x="12"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbcj" x="278"/>
+	<e:Group x="25" y="62">
+		<e:Image id="img0" y="26" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="250"/>
+		<e:Image y="25" pixelHitTest="true" touchEnabled="false" x="414" id="img1" source="hddt_zycs_cbxz1" rotation="30"/>
+		<e:Image y="104" pixelHitTest="true" touchEnabled="false" x="556" id="img2" source="hddt_zycs_cbxz1" rotation="60"/>
+		<e:Image y="246" pixelHitTest="true" touchEnabled="false" x="639" id="img3" source="hddt_zycs_cbxz1" rotation="90"/>
+		<e:Image y="406" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="639" id="img4" rotation="120"/>
+		<e:Image y="547" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="560" id="img5" rotation="150"/>
+		<e:Image y="630" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="420" id="img6" rotation="180"/>
+		<e:Image y="630" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="258" id="img7" rotation="210"/>
+		<e:Image y="551" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="118" id="img8" rotation="240"/>
+		<e:Image y="411" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="35" id="img9" rotation="270"/>
+		<e:Image y="248" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="35" id="img10" rotation="300"/>
+		<e:Image y="108" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbxz1" x="113" id="img11" rotation="330"/>
+	</e:Group>
+	<e:Group x="43" y="81">
+		<e:Component id="item0" y="16" skinName="ItemSkin" x="270"/>
+		<e:Component id="item1" y="57" skinName="ItemSkin" x="383"/>
+		<e:Component id="item2" y="148" skinName="ItemSkin" x="478"/>
+		<e:Component id="item3" y="262" skinName="ItemSkin" x="514"/>
+		<e:Component id="item4" y="377" skinName="ItemSkin" x="478"/>
+		<e:Component id="item5" y="469" skinName="ItemSkin" x="383"/>
+		<e:Component id="item6" y="509" skinName="ItemSkin" x="270"/>
+		<e:Component id="item7" y="469" skinName="ItemSkin" x="156"/>
+		<e:Component id="item8" y="377" skinName="ItemSkin" x="61"/>
+		<e:Component id="item9" y="262" skinName="ItemSkin" x="30"/>
+		<e:Component id="item10" y="148" skinName="ItemSkin" x="61"/>
+		<e:Component id="item11" y="57" skinName="ItemSkin" x="156"/>
+	</e:Group>
+	<e:Image y="176" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_tj" x="287"/>
+	<e:Image y="544" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_dj" x="288"/>
+	<e:Group id="groupLog" width="325" height="303" x="198" y="229"/>
+	<e:Label id="lbLog" text="Blessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing\nBlessing" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" y="289" height="200" width="218" x="251"/>
+	<e:Label id="btnWeight" text="Rate Disclosure" y="712" size="24" textAlign="left" fontFamily="Times" textColor="0x13EE22" right="21"/>
+	<e:Label id="lbDec" text="Each drawing grants 10 points" y="781" size="24" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" width="366" x="177"/>
+	<e:ProgressBar id="barExp" slideDuration="0" value="1" maximum="2" y="821" x="38" skinName="ProgressBarEUI14"/>
+	<e:Button id="btnBox" y="809" x="612" icon="tm_zycs_xbx" skinName="Btn0Skin"/>
+	<e:Label id="lbTime" text="Event Countdown: 12:12:12" y="935" size="24" textAlign="center" fontFamily="Times" textColor="0xcdc8be" width="376" x="172"/>
+	<e:Button id="btnOne" label="Draw x1" y="1009" x="138" skinName="BtnMin1_1"/>
+	<e:Button id="btnTen" label="Draw x10" y="1009" x="431" skinName="BtnMin1_2"/>
+	<e:Image source="zycs_320002" y="968" x="175"/>
+	<e:Label id="lbConsumeOne" text="99" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="215" y="974"/>
+	<e:Image source="zycs_320002" y="968" x="457"/>
+	<e:Label id="lbConsumeTen" text="99" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="497" y="974"/>
+	<e:Label id="btnLog" text="My Records" y="1044" size="20" textAlign="left" fontFamily="Times" textColor="0x13ee22" right="22"/>
+</e:Skin>

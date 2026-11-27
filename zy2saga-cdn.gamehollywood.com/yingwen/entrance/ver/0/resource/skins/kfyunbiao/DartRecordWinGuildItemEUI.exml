@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartRecordWinGuildItemEUI" width="680" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" height="140" states="end,setout,break " >
+	<e:Label id="labelTime" x="32" size="24" text="2020-1-28 22:00:00" verticalAlign="middle" y="14" lineSpacing="2" fontFamily="Times" textColor="0xffffff" y.end="11"/>
+	<e:Label id="labelName" x="30" size="24" text="Lv.1 Guild Treasure" verticalAlign="middle" y="39" lineSpacing="2" fontFamily="Times" textColor="0xff9b0f" textColor.setout="0xffffff" textColor.break="0xffffff" y.end="36"/>
+	<e:Label id="labelInfo" x="31" size="24" text="You have already reached the destination. It has been taken down for 4 times in total" verticalAlign="middle" y="64" lineSpacing="2" fontFamily="Times" textColor="0xf01414" textColor.setout="0xff9b0f" text.setout="Set out Now" textColor.break="0xffffff" text.break="looted the treasure of our guild" width="637" y.end="59"/>
+	<e:Label id="labelGuildScore" x="31.63" size="24" text="Guilds Points Earned: 1300" verticalAlign="middle" y="110" lineSpacing="2" fontFamily="Times" textColor="0xffffff" visible.setout="false" includeIn="end"/>
+	<e:Label id="labelrolenum" x="30" size="24" text="Escorting Players: 7" verticalAlign="middle" y="108" lineSpacing="2" fontFamily="Times" textColor="0xFFFFFF" includeIn="setout"/>
+	<e:Label id="labelMyScore" x="379" size="24" text="Personal Points Gained: 15" verticalAlign="middle" y="110" lineSpacing="2" fontFamily="Times" textColor="0xffffff" visible.setout="false" includeIn="end"/>
+	<e:Image scale9Grid="98,0,16,2" source="zs_zycs_fengexian" horizontalCenter="0" width="680" bottom="0"/>
+
+
+</e:Skin>

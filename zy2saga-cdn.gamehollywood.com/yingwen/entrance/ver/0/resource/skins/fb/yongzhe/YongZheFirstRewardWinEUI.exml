@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YongZheFirstRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="1" verticalCenter="-8" width="720" height="882">
+		<e:Image  source="public_zycs_dikuang" scale9Grid="90,66,7,5" x="94" y="24" anchorOffsetX="0" width="553" anchorOffsetY="0" height="774"/>
+		<e:Image horizontalCenter="11.5" y="20"  source="public_zycs_tyts"/>
+		<e:Image horizontalCenter="11.5" y="36" source="yzzt_zycs_yzfb"/>
+		<e:Scroller id="scroller" width="488" height="660" y="94" x="131" scaleX="1" scaleY="1" scrollPolicyH="off" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list" x="10" itemRendererSkinName="YongZheFirstRewardWinItemEUI"  useVirtualLayout="true" anchorOffsetX="0" width="486">
+				<e:layout>
+					<e:VerticalLayout gap="3" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object aaa="null"/>
+						<e:Object aaa="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+
+
+	<e:Button id="closeBtn" x="564" y="19" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+</e:Group>
+</e:Skin>

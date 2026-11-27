@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZSPanelOneKeyZSTipsTaksItemEUI" 
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="noact,act"  width="332" height="130">
+	<e:Image x="0" y="-2" anchorOffsetX="0" anchorOffsetY="0" height="100%" source="qianghua_zycs_kuang4" width="100%" scale9Grid="11,34,68,33"/>
+	<e:Image x="201" y="40" anchorOffsetX="0" anchorOffsetY="0" source="lilian_zycs_ylq" visible.noact="false"/>
+	<e:Label id="taskName" text="Quest Name" fontFamily="Times" size="18" textColor="0xE6DCB8" x="11" y="7" width="188" height="45"/>
+	<e:Label id="lbjd" size="20" text="Quest Progress" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" textColor="0x5AC832" y="15" horizontalCenter="96.5"/>
+	<e:Button id="btnAct" label="Claim Now" x="202" anchorOffsetX="0" anchorOffsetY="0" visible.act="false" verticalCenter="24" skinName="BtnMin1_1mid"/>
+	<e:Component id="itemReward" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="49" y="59" scaleX="0.65" scaleY="0.65"/>
+	<e:Image x="10" y="15" anchorOffsetX="0" anchorOffsetY="0" source="zhuansheng_zycs_rx" scale9Grid="11,1,68,15"/>
+</e:Skin>

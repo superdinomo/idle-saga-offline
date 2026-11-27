@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DailyAwardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image height="398" touchEnabled="false" width="553" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="125" height="143" touchEnabled="false" width="479" source="public_zycs_tsk1" scale9Grid="15,27,43,20" x="37"/>
+		<e:Image y="-2" touchEnabled="false" source="chibang_zycs_biaoti_di" x="151"/>
+		<e:Image y="15" source="llcz_zycs_mrjl" x="228"/>
+		<e:Button id="closeBtn0" label="" x="469" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	<e:Label id="desc" y="83" text="Roland Castle Capturing Guild Member can claim daily rewards" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" textColor="0xcdc8b1" x="107"/>
+		<e:Scroller height="94" y="150" skinName="Btn0Skin" width="352" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="35" paddingLeft="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	<e:Button id="sure" y="287" x="216" skinName="BtnMin1_1mid" label="Confirm"/>
+	</e:Group>
+</e:Skin>

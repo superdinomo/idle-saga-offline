@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LingQiSkillItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="252">
+	<w:Config id="15d981d06da" />
+	<e:Component id="item" x="0" skinName="SkillPassivityItemEUI" scaleX="0.5" scaleY="0.5" y="10"/>
+	<e:Label id="lbName" text="Skill name" y="0" size="22" textAlign="left" fontFamily="Times" x="59" textColor="0xe5d3b5"/>
+	<e:Label id="lbDec" text="CRIT rate increase by 25% when character HP is lower than 33%" y="28" size="20" textAlign="left" fontFamily="Times" lineSpacing="3" left="59" right="0" textColor="0xe5d3b5"/>
+
+</e:Skin>

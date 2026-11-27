@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderRankPanel2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Scroller width="698" x="11" height="957" y="78">
+		<e:List id="list" itemRendererSkinName="LadderRankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="43" source="public_zycs_cjx" x="13" height="34" width="694"/>
+	<e:Image y="46" x="156" source="public_zycs_sjx"/>
+	<e:Image y="46" x="325" source="public_zycs_sjx"/>
+	<e:Image y="46" x="508" source="public_zycs_sjx"/>
+	<e:Label text="Ranking" size="20" fontFamily="Times" y="50" x="67" textColor="0xff9b0f"/>
+	<e:Label text="Rank" size="20" fontFamily="Times" y="50" x="220" textColor="0xff9b0f"/>
+	<e:Label text="Name" size="20" fontFamily="Times" y="50" x="398" textColor="0xff9b0f"/>
+	<e:Label text="Net Victories" size="20" fontFamily="Times" y="50" x="579" textColor="0xff9b0f"/>
+
+</e:Skin>

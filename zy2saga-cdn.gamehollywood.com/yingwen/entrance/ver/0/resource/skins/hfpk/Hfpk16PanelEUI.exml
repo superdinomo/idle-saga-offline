@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Hfpk16PanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="42" touchEnabled="false" source="hfdfs_zycs_xzs_jpg" x="13"/>
+		<e:Group y="176" x="197">
+			<e:Image id="line1_0" x="0" y="0" touchEnabled="false" source="hfdfs_zycs_x1" scaleY="-1" scaleX="-1"/>
+			<e:Image x="0" touchEnabled="false" id="line1_1" source="hfdfs_zycs_x1" scaleX="-1" y="0"/>
+			<e:Image x="0" y="154" touchEnabled="false" id="line1_2" source="hfdfs_zycs_x1" scaleX="-1" scaleY="-1"/>
+			<e:Image x="0" y="155" touchEnabled="false" id="line1_3" source="hfdfs_zycs_x1" scaleX="-1"/>
+			<e:Image x="0" y="314" touchEnabled="false" id="line1_4" source="hfdfs_zycs_x1" scaleX="-1" scaleY="-1"/>
+			<e:Image x="0" y="315" touchEnabled="false" id="line1_5" source="hfdfs_zycs_x1" scaleX="-1"/>
+			<e:Image x="0" y="468" touchEnabled="false" id="line1_6" source="hfdfs_zycs_x1" scaleX="-1" scaleY="-1"/>
+			<e:Image x="0" y="469" touchEnabled="false" id="line1_7" source="hfdfs_zycs_x1" scaleX="-1"/>
+			<e:Image x="324" y="0" touchEnabled="false" id="line1_8" source="hfdfs_zycs_x1" scaleY="-1"/>
+			<e:Image x="324" touchEnabled="false" id="line1_9" source="hfdfs_zycs_x1" y="0"/>
+			<e:Image x="324" y="154" touchEnabled="false" id="line1_10" source="hfdfs_zycs_x1" scaleY="-1"/>
+			<e:Image x="324" y="155" touchEnabled="false" id="line1_11" source="hfdfs_zycs_x1"/>
+			<e:Image x="324" y="314" touchEnabled="false" id="line1_12" source="hfdfs_zycs_x1" scaleY="-1"/>
+			<e:Image x="324" y="315" touchEnabled="false" id="line1_13" source="hfdfs_zycs_x1"/>
+			<e:Image x="324" y="468" touchEnabled="false" id="line1_14" source="hfdfs_zycs_x1" scaleY="-1"/>
+			<e:Image x="324" y="469" touchEnabled="false" id="line1_15" source="hfdfs_zycs_x1"/>
+			<e:Image id="line2_0" x="-3" y="76" touchEnabled="false" source="hfdfs_zycs_x3" scaleY="-1"/>
+			<e:Image x="-3" y="79" touchEnabled="false" id="line2_1" source="hfdfs_zycs_x3"/>
+			<e:Image x="-3" y="390" touchEnabled="false" id="line2_2" source="hfdfs_zycs_x3" scaleY="-1"/>
+			<e:Image x="-3" touchEnabled="false" id="line2_3" source="hfdfs_zycs_x3" y="393"/>
+			<e:Image x="327" y="76" touchEnabled="false" id="line2_4" source="hfdfs_zycs_x3" scaleX="-1" scaleY="-1"/>
+			<e:Image x="327" y="79" touchEnabled="false" id="line2_5" source="hfdfs_zycs_x3" scaleX="-1"/>
+			<e:Image x="327" y="390" touchEnabled="false" id="line2_6" source="hfdfs_zycs_x3" scaleX="-1" scaleY="-1"/>
+			<e:Image touchEnabled="false" id="line2_7" source="hfdfs_zycs_x3" scaleX="-1" y="393" x="327"/>
+			<e:Image id="line3_0" y="233" touchEnabled="false" source="hfdfs_zycs_x4" scaleX="-1" scaleY="-1" x="76"/>
+			<e:Image id="line3_1" y="236" touchEnabled="false" source="hfdfs_zycs_x4" scaleX="-1" x="76"/>
+			<e:Image id="line3_2" x="248" y="233" touchEnabled="false" source="hfdfs_zycs_x4" scaleY="-1"/>
+			<e:Image id="line3_3" x="248" y="236" touchEnabled="false" source="hfdfs_zycs_x4"/>
+			<e:Image id="line4_0" x="73" y="233" touchEnabled="false" source="hfdfs_zycs_x2"/>
+			<e:Image id="line4_1" x="211" y="233" touchEnabled="false" source="hfdfs_zycs_x2"/>
+		</e:Group>
+		<e:Group id="groupItem" y="112" x="12">
+			<e:Component id="item0" x="0" y="0" skinName="Hfpk16RoleItemEUI"/>
+			<e:Component id="item1" x="0" y="79" skinName="Hfpk16RoleItemEUI"/>
+			<e:Component id="item2" x="0" y="155" skinName="Hfpk16RoleItemEUI"/>
+			<e:Component id="item3" x="0" y="234" skinName="Hfpk16RoleItemEUI"/>
+			<e:Component id="item4" x="0" y="313" skinName="Hfpk16RoleItemEUI"/>
+			<e:Component id="item5" x="0" y="392" skinName="Hfpk16RoleItemEUI"/>
+			<e:Component id="item6" x="0" y="468" skinName="Hfpk16RoleItemEUI"/>
+			<e:Component id="item7" x="0" y="547" skinName="Hfpk16RoleItemEUI"/>
+			<e:Component id="item8" x="529" y="0" skinName="Hfpk16RoleItemEUI" currentState="you"/>
+			<e:Component id="item9" x="529" y="79" skinName="Hfpk16RoleItemEUI" currentState="you"/>
+			<e:Component id="item10" x="529" y="155" skinName="Hfpk16RoleItemEUI" currentState="you"/>
+			<e:Component id="item11" x="529" y="234" skinName="Hfpk16RoleItemEUI" currentState="you"/>
+			<e:Component id="item12" x="529" y="313" skinName="Hfpk16RoleItemEUI" currentState="you"/>
+			<e:Component id="item13" x="529" y="392" skinName="Hfpk16RoleItemEUI" currentState="you"/>
+			<e:Component id="item14" x="529" y="468" skinName="Hfpk16RoleItemEUI" currentState="you"/>
+			<e:Component id="item15" x="529" y="547" skinName="Hfpk16RoleItemEUI" currentState="you"/>
+		</e:Group>
+		<e:Group x="186" y="155">
+			<e:Button id="btnBet1_0" y="0" label="Bet" x="0" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet1_1" y="158" label="Bet" x="0" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet1_2" y="316" label="Bet" x="0" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet1_3" y="470" label="Bet" x="0" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet1_4" y="0" label="Bet" x="288" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet1_5" y="158" label="Bet" x="288" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet1_6" y="316" label="Bet" x="288" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet1_7" y="470" label="Bet" x="288" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet2_0" y="79" label="Bet" x="40" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet2_1" y="392" label="Bet" x="40" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet2_2" y="79" label="Bet" x="250" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet2_3" y="392" label="Bet" x="250" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet3_0" y="237" label="Bet" x="56" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet3_1" y="237" label="Bet" x="231" skinName="BtnMin1_2small" width="57"/>
+			<e:Button id="btnBet4_0" y="380" label="Bet" skinName="BtnMin1_2small" width="57" x="147"/>
+			<e:Button id="btnLog1_0" y="-6" x="1" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_1" y="153" x="1" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_2" y="310" x="1" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_3" y="466" x="1" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_4" y="-6" x="291" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_5" y="153" x="291" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_6" y="310" x="291" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_7" y="466" x="291" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_8" y="74" x="42" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_9" y="387" x="42" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_10" y="74" x="252" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_11" y="387" x="252" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_12" y="233" x="59" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_13" y="233" x="233" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+			<e:Button id="btnLog1_14" y="375" x="149" skinName="Btn0Skin" icon="hfdfs_zycs_ck"/>
+		</e:Group>
+		<e:Image y="360" source="sjhj_zycs_tx" x="313"/>
+		<e:Image id="imgGroupName" y="319" source="hfdfs_zycs_zu1" horizontalCenter="0.5"/>
+		<e:Image id="imgIcon" y="368" source="mianui_zycs_zhanshi0" width="76" height="76" x="323"/>
+		<e:Image id="imgWh" source="hfdfs_zycs_wh" x="341" y="374"/>
+		<e:Image y="459" source="hfdfs_zycs_gj" x="332"/>
+		<e:Label id="lbBetCount" text="Remaining Bet Attempts This Round: 9" y="78" size="24" fontFamily="Times" textAlign="center" horizontalCenter="0" textColor="0xE3D7BE"/>
+		<e:Label id="lbName" text="Name" y="495" size="20" fontFamily="Times" textColor="0xE3D7BE" horizontalCenter="0"/>
+		<e:Button id="btnRank" y="636" label="CP Rank" horizontalCenter="0.5" skinName="BtnMin1_1"/>
+		<e:Button id="btnSignup" y="636" label="Register" horizontalCenter="0.5" skinName="BtnMin1_1"/>
+		<e:Label id="lbDec" text="Group Match Best of 3 Mechanism" y="705" horizontalCenter="0" size="24" fontFamily="Times" textColor="0xe3d7be"/>
+		<e:Label id="lbTime" text="16:00 August 19th 64 to 32" y="740" horizontalCenter="0" size="24" fontFamily="Times" textColor="0x13ee22"/>
+		<e:List id="listTime" y="782" horizontalCenter="0.5" itemRendererSkinName="HfpkTimeItemEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="-2"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<e:TabBar id="listTab" y="871" selectedIndex="0" itemRendererSkinName="Hfpk16TabEUI" horizontalCenter="0">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="11"/>
+			</e:layout>
+		</e:TabBar>
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ProgressBarEUI9" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15bf798a322" fillMode="clip" scale9Grid="22,9,88,16"/>
+	<e:Image
+	         source="mianui_zycs_jd1"/>
+	<e:Image id="thumb" fillMode="scale" anchorOffsetX="0" y="5" x="5" source="mianui_zycs_jd2"/>
+	<e:Group x="0" y="1">
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="0" x="0" source="mianui_zycs_jd2" width="15" height="15"/>
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="4" x="19" source="mianui_zycs_jd2" width="15" height="15"/>
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="10" x="43" source="mianui_zycs_jd2" width="15" height="15"/>
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="10" x="73" source="mianui_zycs_jd2" width="15" height="15"/>
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="4" x="100" source="mianui_zycs_jd2" width="15" height="15"/>
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="0" x="121" source="mianui_zycs_jd2" width="15" height="15"/>
+	</e:Group>
+	<e:Group x="0" y="1" width="130" visible="false">
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="0" x="0" source="mianui_zycs_jd2" width="15" height="15"/>
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="6" x="32" source="mianui_zycs_jd2" width="15" height="15"/>
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="7" x="89" source="mianui_zycs_jd2" width="15" height="15"/>
+		<e:Image id="" fillMode="scale" anchorOffsetX="0" y="0" x="121" source="mianui_zycs_jd2" width="15" height="15"/>
+	</e:Group>
+</e:Skin>

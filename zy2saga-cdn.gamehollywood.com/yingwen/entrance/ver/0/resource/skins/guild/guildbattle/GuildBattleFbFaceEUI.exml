@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleFbFaceEUI" currentState="state0" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="147" height="127" states="state0,state1" >
+	<w:Config id="1586b362dfe" />
+	<e:Group x="-16" y="0" width="180" height="127">
+		<e:Image source="klm_zycs_yk2" x.state0="36" y="0" source.state1="ldsz_zycs_bosskuang" y.state1="-11" x.state1="22" horizontalCenter="-0.5"/>
+		<e:Group id="groupScroller" width="84" height="84" x="47" scrollEnabled="true" bottom="30" bottom.state1="31">
+		<e:Group id="groupMc" width="84" height="84" x="0" bottom="0"/>
+		</e:Group>
+		<e:Image id="imgType" y="42" source="ldsz_zycs_zlbs" horizontalCenter="0.5"/>
+		<e:Image source="public_zycs_jx1" y="97" x="20"/>
+		<e:Image id="imgSelect" source="ldsz_zysc_xz2" horizontalCenter="-0.5" verticalCenter="-5.5" source.state1="ldsz_zysc_xz1" horizontalCenter.state1="-2" verticalCenter.state1="-10" visible.state1="false" visible="false"/>
+		<e:Label id="lbName" text="0" y="104" size="18" textAlign="center" fontFamily="Times" verticalAlign="middle" stroke="1" textColor="0xe3d7be" horizontalCenter="0"/>
+
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

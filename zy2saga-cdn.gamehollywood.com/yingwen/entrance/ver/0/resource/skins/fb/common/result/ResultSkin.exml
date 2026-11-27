@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1" />
+	<e:Group id="group" width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png" />
+		<e:Image id="imgTitle" x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png" />
+		<e:Label id="hintTxt" text="Hint: This challenge won’t deduct attempts" y="227" size="20" fontFamily="Times" textAlign="left" scaleX="1" scaleY="1"
+		         anchorOffsetX="0" anchorOffsetY="0" x="67" textColor="0xFF9B0F" visible="false" />
+		<e:Button id="closeBtn0" label="" x="457" y="944" skinName="Btn0Skin" icon="public_zycs_lkfb" />
+		<e:Label id="lbdesc" text="" x="110" y="283" size="22" textColor="0xDFD1B5" fontFamily="Times" />
+		<e:Button id="closeBtn" label="Challenge the Next Floor (3s)" x="244" y="944" anchorOffsetX="0" anchorOffsetY="0" icon="anz_zycs_lqjl"
+		          skinName="BtnMin1_6" />
+		<e:Scroller id="scroller" height="440" y="462" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin"
+			        height="392">
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43"  requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="scroller0" width="338" height="208" y="715" anchorOffsetX="0" anchorOffsetY="0" x="141">
+			<e:List id="list0" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="411" x="-24" y="0" anchorOffsetY="0"
+			        height="392">
+				<e:layout>
+					<e:TileLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgwptitle" x="94" y="420" source="js_zycs_hdwp" />
+		<e:Image id="imgwptitle2" x="94" y="682" source="js_zycs_lszg" />
+		<e:Image id="imgwptitle0" y="682" source="js_zycs_wftz" x="68" visible="false" />
+		<e:Group id="groupmoney" width="238" height="118" x="91" y="244" anchorOffsetY="0" anchorOffsetX="0">
+			<e:layout>
+				<e:TileLayout horizontalGap="6" verticalGap="0" rowHeight="30" />
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupSroce" x="385" y="230" anchorOffsetX="0" anchorOffsetY="0" width="204" height="333">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="js_zycs_tb_png" x="0" y="0" />
+			<e:Image id="imgSroce" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-7"
+			         verticalCenter="-86" source="js_zycs_SSS_png" />
+			<e:Image id="imgNewLog" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="4"
+			         verticalCenter="65" x="10" y="10" source="js_zycs_xjl" />
+		</e:Group>
+	</e:Group>
+</e:Skin>

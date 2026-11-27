@@ -1,0 +1,31 @@
+<e:Skin class="DaZaoRankPanelEUI" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        states="max,normal" >
+	<w:Config id="1586b1383e3" />
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" y="0" source="craft_zycs_bg1_jpg"/>
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="532" x="191" source="public_zycs_di01" scale9Grid="140,12,8,8" width="496" height="152"/>
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="501" x="203" source="liuguang_zycs_huawen"/>
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="501" x="689" scaleX="-1" source="liuguang_zycs_huawen"/>
+	<e:Image x="197" y="20" source="craft_zycs_bq"/>
+	<e:Label text="Material Source" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="26" x="215" textColor="0xff9b0f"/>
+	<e:Image x="197" y="138" source="craft_zycs_bq"/>
+	<e:Label text="Forge Gear" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="144" x="215" textColor="0xff9b0f"/>
+	<e:Label id="lbConsumeDesc" text="Material Source" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="57" x="230" width="460" height="80" textColor="0xe3d7be"/>
+	<e:Label id="lbEquipDesc" text="Guaranteed to gain XXX Gear x1 (Designated part)" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="175" x="208" textColor="0xe3d7be" width="475"/>
+	<e:Label text="Current" size="22" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="264" x="298"  x.max="413" width="73"/>
+	<e:Label id="lbConsumeType" text="Advance Consumption" size="22" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="500" horizontalCenter="100" textColor="0xff9b0f"/>
+	<e:Label id="lbMaxDesc" text="The current gear has reached the highest tier, unable to advance further" size="22" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="743" horizontalCenter="103.5" visible.normal="false" width="417"/>
+	<e:Label text="Insufficient materials, tap on materials icon to view the acquire method" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="699" visible.max="false" width="420" x="244"/>
+	<e:Component id="itemCur" y="270" anchorOffsetX="0" touchEnabled="true" x="265" skinName="DaZaoEquipItemEUI" x.max="369"/>
+	<e:Label id="lbUpLevel" text="After Advancement" size="22" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="264" x="478" visible.max="false"/>
+	<e:Component id="itemNext" y="270" anchorOffsetX="0" touchEnabled="true" x="493" visible.max="false" skinName="DaZaoEquipItemEUI"/>
+	<e:Image y="322" visible.max="false" source="qianghua_zycs_next" x="428"/>
+	<e:Button id="btnDaZao" label="Forge All" y="793" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="88.5" visible.max="false" skinName="BtnMin1_1"/>
+	<e:Scroller id="Scrollerlist" y="532" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" visible.max="false" horizontalCenter="94" height="152">
+		<e:List id="listConsume" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	
+</e:Skin>

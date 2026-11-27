@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouSRPreviewItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="678">
+	<w:Config id="1586b362dfe"/>
+	<e:Image width="100%" source="qianghua_zycs_kuang4" scale9Grid="34,36,23,26" x="0" height="100%" y="0"/>
+	<e:Image y="8" x="178" source="ss_zycs_k2"/>
+	<e:Image id="imgSR" y="25" horizontalCenter="0.5" source="shenqi_zycs_5" scaleX="1.2" scaleY="1.2"/>
+	<e:List id="list" itemRendererSkinName="ShenShouSRPreviewSubItemEUI" currentState="disabled" useVirtualLayout="false" x="30" top="68" bottom="16">
+		<e:layout>
+			<e:TileLayout />
+		</e:layout>
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object/>
+			<e:Object/>
+		</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+
+</e:Skin>

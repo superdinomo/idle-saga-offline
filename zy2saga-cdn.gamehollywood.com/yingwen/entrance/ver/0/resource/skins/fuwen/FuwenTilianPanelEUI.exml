@@ -1,0 +1,35 @@
+<e:Skin class="FuwenTilianPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image height="509" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" y="45" width="694" x="13"/>
+
+	<e:Image y="1000" touchEnabled="false" source="zs_zycs_fengexian" x="13"/>
+	<e:Component id="item0" x="35" y="819" skinName="FuwenLibraryItemEUI"/>
+	<e:Component id="item1" x="165" y="819" skinName="FuwenLibraryItemEUI"/>
+	<e:Component id="item2" y="819" skinName="FuwenLibraryItemEUI" x="295"/>
+	<e:Component id="item3" x="425" y="819" skinName="FuwenLibraryItemEUI"/>
+	<e:Component id="item4" y="819" skinName="FuwenLibraryItemEUI" x="555"/>
+	<e:Image y="713" source="fuwen_zycs_xiandi" x="95"/>
+	<e:Image id="imgLine" y="713" source="fuwen_zycs_xian_05" x="95"/>
+	<e:Image y="573" source="fuwen_zycs_fazhen_02" x="272"/>
+	<e:Image y="610" x="35" source="zycs_320011"/>
+	<e:Image y="1040" source="zycs_320011" x="597"/>
+	<e:Label y="587" size="20" fontFamily="Times" textColor="0xDFD1B5" textAlign="left" text="Currently Owned:" x="45" anchorOffsetX="0"/>
+	<e:Label y="1024" size="20" fontFamily="Times" textColor="0xDFD1B5" textAlign="left" text="Cost: " x="604"/>
+	<e:Label id="labelDes" y="290" size="20" fontFamily="Times" textAlign="left" text="No Rune has been extracted now" textColor="0xf5e65a" x="270"/>
+	<e:Label id="labelTotleCount" y="617" size="20" fontFamily="Times" textColor="0xDFD1B5" textAlign="left" text="0" x="75"/>
+	<e:Label id="labelConsumeCount" y="1047" size="20" fontFamily="Times" textColor="0xDFD1B5" textAlign="left" text="0" x="637"/>
+	<e:Image id="btnZhengli" x="625" y="575" source="fuwen_zycs_zhengli"/>
+	<e:Scroller id="scroller" y="45" x="30" width="660" height="509">
+		<e:List id="list" itemRendererSkinName="FuwenItemEUI" currentState="disabled" useVirtualLayout="true">
+			<e:layout>
+				<e:TileLayout  requestedColumnCount="5" horizontalGap="0" verticalGap="-36"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnLianqu" y="1019" skinName="BtnMin1_1" x="409" label="Extraction"/>
+	<e:Button id="btnLianqu10" y="1019" x="178" skinName="BtnMin1_1" label="Auto Extraction"/>
+	<e:Image id="imgMC" y="654" source="" x="360"/>
+	<e:Component id="actRedPointGoto" y="1024" x="28" skinName="ActRedPointGotoEUI" touchEnabled="true"/>
+</e:Skin>

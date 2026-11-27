@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BuyCountSkinNew3" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="552" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg" scale9Grid="69,383,414,21" top="0" bottom="-46"/>
+		<e:Group x="0" y="0">
+			<e:Image y="15" source="chibang_zycs_tishi" x="249"/>
+			<e:Button id="closeBtn" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+			<e:Label id="numLabel" y="84" text="Spend diamonds to purchase 9" fontFamily="Times" size="24" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" lineSpacing="5" verticalAlign="middle" textColor="0xcdc8be" horizontalCenter="0"/>
+			<e:Component id="itemIcon" x="227" scaleX="1" scaleY="1" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" y="138"/>
+			<e:Group id="group1" width="390" height="38" y="244" anchorOffsetY="0" anchorOffsetX="0" x="76">
+				<e:Label id="lbContent0" y="24" text="Total Price" fontFamily="Times" size="20" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" lineSpacing="5" verticalAlign="justify" x="65" textColor="0xaf9b73"/>
+				<e:Component id="allPrice" y="24" skinName="PriceIconSkin" x="65"/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:CheckBox id="checkBoxs" label="Don't show this notice" skinName="CheckBoxEUI" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="295" horizontalCenter="0"/>
+			<e:Button id="buyBtn" y="360" label="Purchase" skinName="BtnMin1_1" x="315"/>
+			<e:Button id="btnRecharge" y="360" label="Top Up" skinName="BtnMin1_1" x="88"/>
+		</e:Group>
+		<e:Group id="groupGain" y="428" x="37">
+			<e:Image y="0" x="191" source="zz_zycs_hqtj"/>
+			<e:Image y="3" source="liuguang_zycs_huawen" scaleX="-1" x="478"/>
+			<e:Image y="3" source="liuguang_zycs_huawen" x="0"/>
+			<e:List id="gainList" itemRendererSkinName="GainGoodsItemEUI" horizontalCenter="0" x="69" y="26">
+				
+				
+					
+				
+				
+				<e:layout>
+				<e:TileLayout horizontalGap="35" horizontalAlign="center" requestedColumnCount="4"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Group>
+</e:Skin>

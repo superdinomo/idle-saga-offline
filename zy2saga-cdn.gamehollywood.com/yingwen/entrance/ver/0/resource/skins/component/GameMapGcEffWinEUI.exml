@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMapGcEffWinEUI" minWidth="100" minHeight="31" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" width="720" height="1280" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgBgTop" y="2" x="0" source="gc_zycs_op2_jpg" width="720" height="638"/>
+		<e:Image id="imgBgDonw" x="1" y="639" source="gc_zycs_op2_jpg" scaleY="-1" width="720" height="638" anchorOffsetX="1" anchorOffsetY="638"/>
+		<e:Image id="imgBgHaedZ" source="gc_zycs_bw1_png" x="82" y="433"/>
+		<e:Image id="imgBgHaedX" y="522" source="gc_zycs_bw2_png" x="204"/>
+		<e:Image id="imgBgHaedS" y="389" source="gc_zycs_bw3_png" x="182"/>
+		<e:Image y="808" source="gc_zycs_dk" x="217"/>
+		<e:Image id="imgName" y="842" source="gc_zycs_name94" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

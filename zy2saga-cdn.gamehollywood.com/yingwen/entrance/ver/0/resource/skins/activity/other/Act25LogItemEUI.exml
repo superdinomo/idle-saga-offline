@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act25LogItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="694" height="60">
+
+	<e:Label id="lbTime" text="2019-1-1" x="15" y="3" size="20" fontFamily="Times" textAlign="left" textColor="0x23becd"/>
+	<e:Label id="lbDes" fontFamily="Times" size="20" x="15" text="Congrats " y="32" textColor="0xcdc8be"/>
+
+	<e:Image touchEnabled="false" source="zs_zycs_fengexian" width="100%" x="0" bottom="0"/>
+	
+</e:Skin>

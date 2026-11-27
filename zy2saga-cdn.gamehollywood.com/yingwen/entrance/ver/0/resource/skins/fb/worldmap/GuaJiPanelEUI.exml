@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image touchEnabled="false" y="43" source="cg_zycs_bg_jpg" x="13"/>
+		<e:Image id="imgBg" y="43" source="cg_zycs_d1_jpg" x="13"/>
+		<e:Image y="77" x="28" source="cg_zycs_k1" scale9Grid="42,27,6,6" width="185" height="85"/>
+		<e:Image id="imgName" y="89" x="76" source="cg_zycs_m1"/>
+		<e:Label id="lbRange" text="Difficulty: Lv.10-100" y="126" size="22" fontFamily="Times" textAlign="center" textColor="0xe3d7be" width="230" x="5"/>
+
+
+		<e:Scroller y="546" x="35" width="460">
+			<e:List id="listRank" itemRendererSkinName="GuaJiPanelItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="14"/>
+				</e:layout>
+			
+				
+				
+				
+				
+				
+			
+			</e:List>
+		</e:Scroller>
+		<e:Image y="512" x="487" source="cg_zycs_yk"/>
+		<e:Scroller scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" y="525" x="545">
+			<e:List id="listReward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			
+				
+				
+				
+			
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgTouch" source="cg_zycs_yk" width="97" x="545" height="97" y="527" alpha="0"/>
+		<e:Image id="redPointReward" source="mainui_zycs_hongdian" x="624" y="520"/>
+		<e:Label id="lbGuan" text="Stage 999 Rewards" y="635" size="24" fontFamily="Times" width="184" textAlign="center" x="501" textColor="0xeb8e0e"/>
+		<e:Image y="709" source="liuguang_zycs_huawen" scaleX="-1" x="615"/>
+		<e:Image y="709" source="liuguang_zycs_huawen" x="105"/>
+		<e:Group y="700" horizontalCenter="0">
+			<e:Image y="706" x="288" source="cg_zycs_d"/>
+			<e:BitmapLabel id="bmpGuan" x="0" text="9999" y="0" font="cgnum_fnt" letterSpacing="0"/>
+			<e:layout>
+			<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image source="shenqi_zycs_di3" x="11" scale9Grid="87,10,524,63" height="226" y="739"/>
+		<e:Image y="750" x="106" source="mianui_zycs_jinbi"/>
+		<e:Label id="lbGold" text="099/Hour" y="764" fontFamily="Times" size="24" x="162" textColor="0xe3d7be"/>
+		<e:Image y="750" x="387" source="mianui_zycs_jingyan"/>
+		<e:Label id="lbExp" text="099/Hour" y="764" fontFamily="Times" size="24" x="445" textColor="0xe3d7be"/>
+		<e:Scroller id="scroller" y="827" height="136" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="28"/>
+			</e:layout>
+			
+				
+				
+				
+				
+				
+				
+			
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnKsgj" x="555" y="388" skinName="Btn0Skin" icon="cg_zycs_ksgj"/>
+		<e:Button id="btnRank" x="365" y="546" skinName="Btn0Skin" icon="cg_zycs_phb"/>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="1022"  x="286" label="Challenge"/>
+		<e:Button id="btnHelp" x="593" y="1018" skinName="Btn0Skin" icon="cg_zycs_qz" />
+		<e:ProgressBar id="barBo" slideDuration="0" value="1" maximum="2" y="1018" skinName="ProgressBarEUI12" x="166"/>
+		<e:Label id="lbBoCount" text="Eliminate 2 waves of monsters to unlock the stage" y="1051" fontFamily="Times" size="22" textColor="0xff0000" width="475" textAlign="center" x="112"/>
+		<e:Label id="lbTongGuan" text="Highest floor reached" y="1042" fontFamily="Times" size="24" textColor="0xFF0000" textAlign="center" x="301"/>
+	</e:Group>
+</e:Skin>

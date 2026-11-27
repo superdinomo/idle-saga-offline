@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WxYqhlEggPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+	<w:Config id="15af9c70173" />
+	<e:Group id="group" x="0" y="25" width="720">
+		<e:Image y="20" touchEnabled="false" source="xyzd_zycs_bg_jpg" horizontalCenter="0"/>
+		<e:Image y="-77" source="dljl_zycs_k_png" horizontalCenter="0"/>
+		<e:Image y="-25" horizontalCenter="0" source="yqhl_zycs_t_xyzd"/>
+		<e:Label id="lb_tips" text="There is one grand prize in the 9 Golden Eggs. Smash the eggs through Inviting Friends or Spending Diamonds. Good luck!" y="97" fontFamily="Times" size="20" anchorOffsetX="0" width="579" textAlign="left" lineSpacing="5" x="71"/>
+		<e:Label id="lb_time" text="Event Countdown: 12:25:30" y="153" fontFamily="Times" size="20" anchorOffsetX="0" textAlign="left" lineSpacing="5" x="70"/>
+		<e:Label id="lb_count" text="Remaining free smash Attempts: 0" y="922" fontFamily="Times" size="20" anchorOffsetX="0" textAlign="left" lineSpacing="5" x="93"/>
+		<e:Label id="lb_link" text="Rewards Preview" y="154" fontFamily="Times" size="20" anchorOffsetX="0" textAlign="center" lineSpacing="5" x="588" textColor="0x13ee00"/>
+		<e:Label id="lb_invite" text="Invite" y="922" fontFamily="Times" size="20" anchorOffsetX="0" lineSpacing="5" x="557" textAlign="center" textColor="0x13EE00"/>
+		<e:Component id="item0" x="95" y="201" skinName="WxYqhlEggItemEUI"/>
+		<e:Component x="303" y="201" skinName="WxYqhlEggItemEUI" id="item1"/>
+		<e:Component x="509" y="201" skinName="WxYqhlEggItemEUI" id="item2"/>
+		<e:Component id="item3" x="95" y="439" skinName="WxYqhlEggItemEUI"/>
+		<e:Component x="303" y="439" skinName="WxYqhlEggItemEUI" id="item4"/>
+		<e:Component x="509" y="439" skinName="WxYqhlEggItemEUI" id="item5"/>
+		<e:Component id="item6" x="95" y="675" skinName="WxYqhlEggItemEUI"/>
+		<e:Component x="303" y="675" skinName="WxYqhlEggItemEUI" id="item7"/>
+		<e:Component x="509" y="675" skinName="WxYqhlEggItemEUI" id="item8"/>
+		<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="592" y="910" touchEnabled="false"/>
+	</e:Group>
+
+
+
+
+</e:Skin>

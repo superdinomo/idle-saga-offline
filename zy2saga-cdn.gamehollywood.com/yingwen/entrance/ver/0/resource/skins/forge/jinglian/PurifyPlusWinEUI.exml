@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PurifyPlusWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="-27">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="title" y="26" source="jinglian_zycs_zuhexiaoguo" x="312"/>
+		<e:Image y="392" touchEnabled="false" width="447" source="zs_zycs_fengexian" x="137"/>
+		<e:Image source="qianghua_zycs_diwen1" width="324" y="180" x="198"/>
+		<e:Label id="levelTitle" text="0" y="187" size="20" textAlign="center" fontFamily="Times" textColor="0xafaaa0" width="590" x="65"/>
+		<e:Label id="labelLvCur" text="ATK" x="243" y="230" size="20" textColor="0x61d317" fontFamily="Times" lineSpacing="3"/>
+		<e:Label id="labelLvCur_1" text="ATK\nATK" x="357" y="230" size="20" textColor="0x61D317" fontFamily="Times" lineSpacing="14"/>
+		<e:Image source="qianghua_zycs_diwen1" width="324" y="420" x="198"/>
+		<e:Label id="levelMaxTxt" text="(Max Level reached)" fontFamily="Times" size="22" y="426" textColor="0xEA1617" bold="true" x="304"/>
+		<e:Label id="levelNextTitle" text="0" y="427" size="20" textAlign="center" fontFamily="Times" textColor="0x636363" width="590" x="65"/>
+		<e:Label id="labelLvNext" text="ATK" x="243" y="471" size="20" fontFamily="Times" textColor="0x636363" lineSpacing="3"/>
+		<e:Label id="labelLvNext_1" text="ATK\nATK" x="357" y="471" size="20" fontFamily="Times" textColor="0x636363" lineSpacing="14"/>
+	</e:Group>
+</e:Skin>

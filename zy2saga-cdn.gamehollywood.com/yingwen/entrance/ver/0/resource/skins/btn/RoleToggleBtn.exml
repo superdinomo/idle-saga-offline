@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleToggleBtn" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1586b28ffb8"/>
+    <e:Image source="role_zycs_touxiangkuang" horizontalCenter="-0.5" verticalCenter="1"/>
+    <e:Image id="iconDisplay" verticalCenter="0" horizontalCenter="0" scaleX="1" scaleY="1"  source="mianui_zycs_sheshou0"/>
+
+	<e:Label id="txt" text="0" size="20" textAlign="center" horizontalCenter="0.5" verticalCenter="0" textColor="0x978080" stroke="1" strokeColor="0" bold="true" width="75" anchorOffsetY="0" height="70" verticalAlign="middle" fontFamily="Times" visible="false"/>
+	<e:Image horizontalCenter="-0.5" verticalCenter="0" visible.disabled="false" visible.up="false" anchorOffsetX="0" anchorOffsetY="0" source="role_zycs_xuanzekuang"/>
+
+
+	<e:Label id="lbjob" text="0" x="63.5" y="4.5" size="20" fontFamily="Times" textColor="0xffcd6c" visible="false"/>
+	<e:Image id="imgJob" x="27" y="22" source="role_zycs_g"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="91" y="16.5" source="mainui_zycs_hongdian" visible="false"/> </e:Skin>

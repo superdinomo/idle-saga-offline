@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bloodBarBossHomeDun" xmlns:e="http://ns.egret.com/eui" >
+	<e:Image scale9Grid="16,2,11,3" source="xt_zycs_j1"/>
+	<e:Image id="thumb" fillMode="scale" source="xt_zycs_j2"/>
+</e:Skin>

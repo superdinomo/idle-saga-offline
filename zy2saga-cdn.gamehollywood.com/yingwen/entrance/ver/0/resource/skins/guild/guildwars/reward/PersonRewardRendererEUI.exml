@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PersonRewardRendererEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="125" height="66">
+	<e:Label id="desc" y="11" text="0" fontFamily="Times" size="20" textAlign="center" verticalAlign="middle" x="6" width="48" textColor="0xff9b0f"/>
+	<e:Label y="35" text="Points" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="10" textColor="0xff9b0f"/>	
+	<e:List id="itemList" x="59" itemRendererSkinName="ItemSkin" scaleX="0.7" scaleY="0.7">
+		<e:layout>
+		<e:HorizontalLayout gap="10"/>
+		</e:layout>
+		<!--
+			
+				
+			
+		-->
+	</e:List>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" right="0" top="0" visible="false"/>
+</e:Skin>

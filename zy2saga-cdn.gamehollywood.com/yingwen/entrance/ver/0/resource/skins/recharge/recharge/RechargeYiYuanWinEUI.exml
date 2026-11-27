@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RechargeYiYuanWinEUI" width="720" height="1280" currentState="received" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*"  states="buy,received,yiReceived" >
+	<w:Config id="1586b36a128" />
+	<e:Group id="group" width="720" height="798" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image  source="yyqg_zycs_bg_png"/>
+		<e:Button id="closeBtn" y="56" icon="sc_zycs_x" skinName="Btn0Skin" x="638"/>
+		<e:Scroller y="332" height="230" width="336" x="308">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="553">
+			
+					
+						
+						
+						
+						
+						
+						
+					
+				
+				<e:layout>
+					<e:TileLayout paddingTop="12" paddingBottom="12" paddingRight="12" horizontalGap="14" verticalGap="20"  paddingLeft="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="(Available for SVIP1 and above, $1 Snag won't be counted towards the 1st Top-up amount)" y="618" size="20" fontFamily="Times" horizontalCenter="-1" textColor="0xE3D7BE" width="582" textAlign="center"/>
+		<e:Button id="btnBuy" label="$1 Snag" y="687" horizontalCenter="0" visible.received="false" visible.yiReceived="false" skinName="BtnMin1_17" label.buy="$0.99 Snag"/>
+		<e:Button id="btnReceived" label="Claim" y="687" horizontalCenter="0" visible.buy="false" visible.yiReceived="false" skinName="BtnMin1_17"/>
+		<e:Label text="Claimed" y="714" size="20" fontFamily="Times" textColor="0x13EE22" horizontalCenter="-1" visible.buy="false" visible.received="false"/>
+		<e:Label id="lbTimer" text="Event Countdown: 1010" y="760" size="20" fontFamily="Times" horizontalCenter="-1" visible.received="false" visible.yiReceived="false" textColor="0xe3d7be"/>
+	</e:Group>
+</e:Skin>

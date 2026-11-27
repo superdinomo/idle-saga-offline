@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KeyboardWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        >
+	<w:Config id="15ddfc10774"/>
+	<e:Group id="group1" y="0" x="0" name="Keyboard">
+		<e:Image source="jiadian_zycs_shuzi_dakuang" scale9Grid="28,37,170,136"/>
+		<e:Group id="groupKey" x="11" y="31" name="Keyboard">
+			<e:Button id="btn_1" label="1" skinName="BtnMin2_1" name="1"/>
+			<e:Button id="btn_2" label="2" skinName="BtnMin2_1"   name="2"/>
+			<e:Button id="btn_3" label="3" skinName="BtnMin2_1"   name="3"/>
+			<e:Button id="btn_10" skinName="BtnMin2_1" label="C"  name="c"/>
+			<e:Button id="btn_4" skinName="BtnMin2_1" label="4"  name="4"/>
+			<e:Button id="btn_5" skinName="BtnMin2_1" label="5"  name="5"/>
+			<e:Button id="btn_6" skinName="BtnMin2_1" label="6"  name="6"/>
+			<e:Button id="btn_0" skinName="BtnMin2_1" label="0" name="0"/>
+			<e:Button id="btn_7" skinName="BtnMin2_1" label="7"   name="7"/>
+			<e:Button id="btn_8" skinName="BtnMin2_1" label="8"  name="8"/>
+			<e:Button id="btn_9" skinName="BtnMin2_1" label="9"   name="9"/>
+			<e:Button id="btn_11" skinName="BtnMin2_1" label="OK"   name="ok"/>
+			<e:layout>
+				<e:TileLayout horizontalGap="4" verticalGap="4" requestedColumnCount="4" rowHeight="49" columnWidth="48"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

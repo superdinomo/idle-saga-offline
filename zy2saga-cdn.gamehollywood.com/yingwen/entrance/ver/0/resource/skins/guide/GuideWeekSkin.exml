@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuideWeekSkin" currentState="s2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="200" height="200" states="s1,s2,s3,s4"  width.s4="200">
+	<w:Config id="15cf35f5bef"/>
+	<e:Group id="group" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" anchorOffsetX.s1="70" anchorOffsetY.s1="115" anchorOffsetX.s3="70" anchorOffsetY.s2="35" anchorOffsetX.s4="197" anchorOffsetY.s4="35" touchEnabled.s1="false" touchChildren.s1="false" touchEnabled="false" touchChildren="false" x.s1="0" y.s1="0" width.s1="140" y.s2="0" x.s3="0" x.s4="0" y.s4="0" height.s1="115" width.s2="172" height.s2="70" width.s3="140" height.s3="100" width.s4="197" height.s4="70" x.s2="0">
+		<e:Group id="groupWord" y.s4="0" y.s2="0" width="140" x.s3="0" height.s2="70" height.s3="70" height.s4="70" left.s2="32" top.s3="32" right.s4="42" bottom.s1="37" x.s1="0">
+			<e:Image id="imgScale" x.s3="0" y.s4="0" y.s2="0" fillMode="scale" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" height="70" horizontalCenter.s1="0" width.s1="140" width="140" verticalCenter.s2="0" horizontalCenter.s3="0" verticalCenter.s4="0" bottom.s1="0" left.s2="0" top.s3="0" right.s4="0" source="mianui_zycs_ydk" scale9Grid="32,28,73,8"/>
+			<e:Label id="labelWord" text="0" size="22" fontFamily="Times" textAlign.s3="center" verticalAlign="middle" wordWrap="true" horizontalCenter.s1="0" anchorOffsetX.s2="0" anchorOffsetY.s2="0" horizontalCenter.s3="0" scaleX="1" scaleY="1" verticalCenter.s4="0" verticalCenter.s2="0" textColor="0xfffac8" border="false" borderColor="0x000000" strokeColor="0x652b00" stroke="1.5" bottom.s1="22" left.s2="23" textAlign.s2="center" top.s3="22" textAlign.s4="center" right.s4="23" textAlign.s1="center" x="12" y="24" lineSpacing="3"/>
+		</e:Group>
+		<e:Image id="imgArrow" y.s3="0" y.s1="110" fillMode="clip" scaleX="1" scaleY="1" rotation="270" rotation.s2="0" rotation.s3="90" rotation.s4="180" x.s4="187" x.s2="0" horizontalCenter.s1="0" verticalCenter.s2="0" horizontalCenter.s3="0" verticalCenter.s4="0" source="mianui_zycs_ydjt"/>
+	</e:Group>	
+</e:Skin>

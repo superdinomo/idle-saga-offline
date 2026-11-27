@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel33_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="41" x="13" source="hddt_zycs_dqph_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="204" source="public_zycs_cjx" x="13" height="34" width="694"/>
+	<e:Image y="207" x="155" source="public_zycs_sjx"/>
+	<e:Image y="207" x="360" source="public_zycs_sjx"/>
+	<e:Label text="Ranking" size="20" fontFamily="Times" y="211" x="66" textColor="0xFF9B0F"/>
+	<e:Label text="Name" size="20" fontFamily="Times" y="211" x="239" textColor="0xFF9B0F"/>
+	<e:Label text="Rewards" size="20" fontFamily="Times" y="211" x="512" textColor="0xFF9B0F"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_dqph"/>
+	<e:Image pixelHitTest="true" touchEnabled="false" source="hhdt_zycs_xfph1" y="949" x="13"/>
+	<e:Label y="179" text="Time Remain:" fontFamily="Times" size="20" x="37" lineSpacing="10" textColor="0xe3d7be"/>
+	<e:Label id="lbTime" y="179" text="x x:x" fontFamily="Times" size="20" x="180" lineSpacing="10" textColor="0x13ee22"/>
+	<e:Scroller y="237" height="710" scrollPolicyH="off" width="694" x="13">
+		<e:List id="list" itemRendererSkinName="ActItem33_2EUI">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbRank" text="The 50th Place: s5.Miracle xXMoo MoralityXx" fontFamily="Times" size="24" y="964" textAlign="center" x="52" textColor="0xcdc8be"/>
+	<e:Label id="lbValue" text="Spent Vouchers: 988" fontFamily="Times" size="24" y="964" textAlign="center" x="470" textColor="0xcdc8be"/>
+	<e:Label id="lbRankMy" text="My Rank: The 2nd Place" size="24" fontFamily="Times" y="999" x="52" textColor="0xFF9B0F"/>
+	<e:Label id="lbValueMy" text="Spent Vouchers: 988" size="24" fontFamily="Times" y="999" x="470" textColor="0xFF9B0F"/>
+	<e:Label text="Ranking Rewards will be issued via mails" fontFamily="Times" size="24" y="1056" textAlign="center" x="240" textColor="0xe3d7be"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

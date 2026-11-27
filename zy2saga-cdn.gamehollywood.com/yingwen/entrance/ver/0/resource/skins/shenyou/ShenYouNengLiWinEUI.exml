@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouNengLiWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="1" verticalCenter="11">
+		<e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Button id="closeBtn0" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637"/>
+		<e:Image y="-3" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="234"/>
+
+
+		<e:Image id="imgTitle" y="13"  horizontalCenter="0" source="shenyou_zycs_title"/>
+
+		<e:Image x="49" source="public_zycs_tsk1" scale9Grid="9,9,54,58" width="629" height="720" y="88"  anchorOffsetY="0"/>
+		<e:Scroller id="scroller" y="93" height="707" x="54" anchorOffsetY="0" width="620">
+			<e:List id="list" itemRendererSkinName="ShenYouNengLiWinItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="5"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbAttr" text="Total Protection Shield Point: 1000" x="52" y="56" size="24" textColor="0xf5e65a" fontFamily="Times"/>
+
+
+	</e:Group>
+</e:Skin>

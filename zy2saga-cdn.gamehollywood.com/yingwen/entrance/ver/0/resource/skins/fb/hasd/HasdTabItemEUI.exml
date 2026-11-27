@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HasdTabItemEUI" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down">
+	<e:Image id="imgBg1" visible.up="false" pixelHitTest="true"   x="0" y="0" source="gd_zycs_qy2"/>
+	<e:Image id="imgBg0" pixelHitTest="true" source="gd_zycs_qy1"/>
+	<e:Image id="iconDisplay" pixelHitTest="true"  source="gd_zycs_sd1" x="31" y="30"/>
+	<e:Image id="redPoint" x="158" y="10" source="mainui_zycs_hongdian"/>
+	<e:Image x="21" y="75" source="gd_zycs_jux"/>
+	<e:Label id="lbStage" text="Avatar's Spirit T9" fontFamily="Times" size="16" textColor="0x5AC832" touchEnabled="true" y="76" width="136" textAlign="right" x="25"/>
+
+
+
+</e:Skin>

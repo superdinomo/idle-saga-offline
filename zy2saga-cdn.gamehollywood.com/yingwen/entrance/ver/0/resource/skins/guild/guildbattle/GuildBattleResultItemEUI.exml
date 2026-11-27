@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleResultItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="692" height="104">
+	<e:Image source="ldsz_zycs_di7" y="0"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="24" textAlign="center" textColor="0xcdc8be" verticalCenter="0" horizontalCenter="-276"/>
+	<e:Image id="imgRank" verticalCenter="0" source="ldsz_zycs_ph1" horizontalCenter="-276"/>
+
+	<e:Label id="lbGuildName" text="Guild Name" fontFamily="Times" size="24" x="165" textAlign="center" y="23" textColor="0xcdc8be"/>
+	<e:Label id="lbRoleName" text="Leader" fontFamily="Times" size="24" x="165" textAlign="center" y="61" textColor="0xcdc8be"/>
+	<e:Image id="imgBm" x="611" source="ldsz_zycs_bm" y="0"/>	
+</e:Skin>

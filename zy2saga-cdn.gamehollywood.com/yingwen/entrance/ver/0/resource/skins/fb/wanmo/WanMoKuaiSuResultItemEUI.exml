@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WanMoKuaiSuResultItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="696" height="124"  states="ceng,dian,sum"  height.sum="155">
+	<e:Label id="lbCend" y="47" text="Already challenged to Floor 51" fontFamily="Times" size="20" textAlign="center" anchorOffsetX="0" right="530" visible.dian="false" visible.sum="false" textColor="0xe6dcb8"/>
+	<e:Label y="10" text="Total Rewards" fontFamily="Times" size="20" textAlign="center" anchorOffsetX="0" textColor="0xFF9B0F" horizontalCenter="0" right="318" visible.ceng="false" visible.dian="false"/>
+	<e:Label id="lbDian" text="......." fontFamily="Times" size="15" horizontalCenter="0.5" visible.sum="false" visible.ceng="false" width="7" y="8" textColor="0xe6dcb8"/>
+	<e:List id="list" x="195" y="13" height="95" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" visible.dian="false" y.sum="45" horizontalCenter.sum="0" left.ceng="183">
+		<e:layout>
+		<e:HorizontalLayout gap="9"/>
+		</e:layout>
+	</e:List>
+	<e:Image y="121" source="zs_zycs_fengexian" visible.sum="false"/>
+</e:Skin>

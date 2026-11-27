@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WCLevelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="205" height="271">
+	<w:Config id="15d981d06da"/>
+	<e:Image touchEnabled="false" y="5" source="msbd_zycs_kd" x="9"/>
+
+
+	<e:Group id="groupMC" y="191" x="103">
+	</e:Group>
+	<e:Image id="imgMask" y="5" x="9" source="public_zycs_greybg0" scale9Grid="2,2,16,16" width="188" height="225"/>
+	<e:Image id="imgBg" touchEnabled="false" source="msbd_zycs_wk3"/>
+
+
+
+	<e:Label id="lbName" text="Miracle xXMoo MoralityXx" y="236" fontFamily="Times" size="20" textAlign="center" verticalAlign="middle" horizontalCenter="0.5" stroke="1" strokeColor="0xf600ff" textColor="0xffffff"/>
+	<e:Label id="lbLevel" text="Lv.999" y="196" size="24" textAlign="left" fontFamily="Times" horizontalCenter="0.5" textColor="0xffffff" stroke="1" strokeColor="0xf600ff"/>
+	<e:Group id="groupWjh" x="0" y="0">
+		<e:Image y="0" x="0" source="msbd_zycs_hs"/>
+		<e:Image y="23" x="27" source="msbd_zycs_wjh"/>
+	</e:Group>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="0" x="185"/>
+
+</e:Skin>

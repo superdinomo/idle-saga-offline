@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act31RankWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="hddt_zycs_phbg_jpg" />
+		<e:Image id="imgTitle"  source="hddt_zycs_pm" y="13" x="197"/>
+		<e:Button id="closeBtn" label="" x="463" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:ViewStack id="viewStack1" x="17" y="111" anchorOffsetX="0" width="520" anchorOffsetY="0" height="391"
+		             selectedIndex="0">
+			<e:Group name="Personal Ranking" id="groupAttr0" height="380" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"
+			         scaleY="1" x="0" y="0">
+				<e:Scroller scrollPolicyH="off" height="392" anchorOffsetY="0">
+					<e:List id="list1" itemRendererSkinName="Act31RankWinItemEUI" y="-1">
+						<e:layout>
+							<e:VerticalLayout gap="1" />
+						</e:layout>
+						
+							
+								<!--
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								-->
+							
+						 
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+			<e:Group name="Server Ranking" id="groupAttr1" width="679" height="380" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"
+			         x="0" y="0">
+					 			<e:Scroller scrollPolicyH="off" height="392" anchorOffsetY="0">
+					<e:List id="list2" itemRendererSkinName="Act31RankWinItemEUI">
+						<e:layout>
+							<e:VerticalLayout gap="1" />
+						</e:layout>
+						
+							
+							<!--
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								-->
+							
+						
+					</e:List>
+				</e:Scroller>
+					 </e:Group>
+		</e:ViewStack>
+		<e:Label y="82" text="Ranking" fontFamily="Times" size="20" x="58" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Info" fontFamily="Times" size="20" x="215" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Rewards" fontFamily="Times" size="20" x="414" textColor="0xFF9B0F" />
+		<e:Label id="lbRank" text="My Rank: " y="527" size="18" textAlign="center" fontFamily="Times" x="30" textColor="0xe3d7be" />
+		<e:Label id="lbScore" text="My Points: " y="527" size="18" textAlign="center" fontFamily="Times" x="361" textColor="0xe3d7be" />
+		<e:TabBar dataProvider="{viewStack1}" id="tab1" selectedIndex="0" itemRendererSkinName="BtnTab3_aZYCSSkin"
+		          horizontalCenter="0.5" y="616">
+			<e:layout>
+				<e:HorizontalLayout gap="57" />
+			</e:layout>
+		</e:TabBar>
+		<e:Image id="imgXwyd" touchEnabled="false" y="209" source="public_zycs_xwyd_png" x="51" visible="false" />
+		<e:Label id="lbDesc" text="You can claim server ranking rewards when your personal scores reach 1000" y="553" size="18" fontFamily="Times" textColor="0xff9b0f" x="31" width="474"/>
+		<e:Label text="Ranking rewards will be issued via mail upon the end of the event" y="590" size="18" fontFamily="Times" textColor="0xe3d7be" width="491" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

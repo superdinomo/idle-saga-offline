@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhuZaiDamageItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="50">
+	<e:Label id="txt0" y="15" textColor="0xDFD1B5" height="21" text="0" fontFamily="Times" textAlign="center" width="79" size="20" x="71"/>
+	<e:Label id="txt1" y="15" textColor="0xDFD1B5" height="21" text="0" fontFamily="Times" size="20" horizontalCenter="0"/>
+	<e:Label id="txt2" y="15" textColor="0xDFD1B5" size="20" text="0" fontFamily="Times" textAlign="center" height="21" horizontalCenter="249.5"/>
+	<e:Image y="48" touchEnabled="false" source="zs_zycs_fengexian" horizontalCenter="0"/>
+</e:Skin>

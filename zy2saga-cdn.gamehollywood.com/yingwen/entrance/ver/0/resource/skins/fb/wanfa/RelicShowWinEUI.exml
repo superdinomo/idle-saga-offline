@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RelicShowWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="time,challenge" >
+	<e:Group id="group" horizontalCenter="2" verticalCenter="11" height="886" width="720">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0"
+		          source="hjbd_zycs_tips_jpg"/>
+		<e:Button id="closeBtn" label="" x="639" y="-1" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="77" horizontalCenter="-4.5" source="hjbd_zycs_cx"/>
+		<e:Image y="14" horizontalCenter="-2" source="chibang_zycs_tishi"/>
+		<e:Image y="518" anchorOffsetX="0" anchorOffsetY="0"
+		         scale9Grid="12,6,123,16"  source="public_zycs_di01" horizontalCenter="0"/>
+		<e:Image y="553" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="12,6,123,16" horizontalCenter="1" source="em_zycs_k4" width="408" height="160"/>
+		<e:Label id="lbBossName" text="0" y="525" size="20" fontFamily="Times" scaleX="1" scaleY="1"
+		         textColor="0xff9b0f" textAlign="center"  horizontalCenter="0"/>
+		<e:Button id="btnOk" y="740" label="Challenge" anchorOffsetX="0" anchorOffsetY="0"              x="414" skinName="BtnMin1_1" icon="" visible.time="false"/>
+		<e:Button id="btnEsc" y="740" label="Later" anchorOffsetX="0" anchorOffsetY="0"              x="149" skinName="BtnMin1_1" icon="" visible.time="false"/>
+		<e:Label id="lbTime" text="0" y="757" size="24" fontFamily="Times" textAlign="center" scaleX="1" scaleY="1" textColor="0xF41111" anchorOffsetX="0" horizontalCenter="0" visible.challenge="false"/>
+		<e:Group width="504" height="103" y="586" anchorOffsetY="0" anchorOffsetX="0" x="108">
+			<e:Scroller id="Scrollerlist" y="-7" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0">
+				<e:List id="list" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+				
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>		<e:layout>
+						<e:HorizontalLayout gap="11" horizontalAlign="center" verticalAlign="middle" />
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupEntity" width="0" height="0" y="485" horizontalCenter="0"/>
+	</e:Group>
+	<!--<e:Image x="0" y="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\H_黄金部队\H-黄金魔王-提示.jpg" locked="true"/>-->
+</e:Skin>

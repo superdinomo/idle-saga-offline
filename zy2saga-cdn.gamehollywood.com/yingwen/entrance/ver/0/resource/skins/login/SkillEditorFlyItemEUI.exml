@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillEditorFlyItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="400" width="200" >
+	<e:Group id="group" left="0" top="0" bottom="0" right="0" anchorOffsetX="0">
+		<e:Group width="200" height="321" y="35" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Label text="tween (Zoom,Transparency, and rotation)" y="0" size="16" fontFamily="Times" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Label text="Initial Delay" x="6" y="24" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenStartTime" width="63" height="24" x="75" y="21" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="End Delay" x="6" y="46" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenEndTime" width="63" height="24" x="75" y="44" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Start X" x="10" y="72" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenX1" width="63" height="24" x="53" y="68" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Start Y" x="9" y="96" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenY1" width="63" height="24" x="53" y="93" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="R " x="122" y="84" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenR1" width="63" height="24" x="135" y="81" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="End X" x="10" y="133" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenX2" width="63" height="24" x="53" y="128" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="End Y" x="9" y="160" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenY2" width="63" height="24" x="53" y="157" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="R " x="122" y="140" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenR2" width="63" height="24" x="135" y="138" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Transparency" x="8" y="203" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenAlpha" width="63" height="24" x="75" y="201" skinName="TextInputCommonSkin" text="1" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="X Zoom" x="8" y="227" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenScaleX" width="63" height="24" x="75" y="224" skinName="TextInputCommonSkin" text="1" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Y Zoom" x="8" y="251" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenScaleY" width="63" height="24" x="75" y="249" skinName="TextInputCommonSkin" text="1" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Rotate Angle" x="5" y="274" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenRotation" width="63" height="24" x="75" y="274" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+
+		</e:Group>
+		<e:RadioButton id="radioIsSelected" label="Selected" x="77" skinName="RadioButtonEUI" groupName="groupSelect" scaleX="0.8" scaleY="0.8" bottom="10"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Group>
+<e:Label id="labelIndex" text="1" y="2" size="26" fontFamily="Times" horizontalCenter="0" width="100"
+         verticalAlign="bottom" textAlign="center" textColor="0xfc0505" bold="true" />
+</e:Skin>

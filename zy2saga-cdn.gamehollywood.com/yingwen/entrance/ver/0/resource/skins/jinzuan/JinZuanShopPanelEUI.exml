@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JinZuanShopPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" source="public_zycs_dikuang" scale9Grid="72,59,43,21"/>
+	<e:Image y="43" x="13" source="jz_zycs_bg3_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" pixelHitTest="true" source="dljl_zycs_k_png"/>
+	<e:Image y="-7" source="jz_zycs_title3" horizontalCenter="0"/>
+	<e:Image touchEnabled="false" source="public_zycs_fgqy" y="960" x="13"/>
+	<e:Scroller id="scrollItem" height="639" y="319" anchorOffsetY="0" x="29">
+		<e:List id="listItem" itemRendererSkinName="JinZuanShopPanelEUIItemEUI">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:TileLayout requestedColumnCount="3" horizontalGap="12" verticalGap="31"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" x="0" source="vip_zycs_k2" y="1079"/>
+	<e:Component id="priceIcon" y="963" skinName="PriceIconSkin" horizontalCenter="0" x="336"/>
+	<e:Button id="btnRefresh" name="buy" y="999" label="Refresh" horizontalCenter="-0.5" skinName="BtnMin1_2" x="286"/>
+	<e:Label id="lbTime" text="Refresh Time" y="1065" size="22" fontFamily="Times" textColor="0x13ee22" horizontalCenter="0" x="317"/>
+</e:Skin>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GongMingPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="shenqi,meilin,sz,wing,mount" >
+	<w:Config id="15d981d06da" />
+
+
+	<e:Group id="gpMain">
+		<e:Image id="imgBg" touchEnabled="false"  width="720" source="gm_zycs_bg1_jpg"/>
+
+
+
+			<e:Group id="groupMc" width="0" height="0" y="306"  y.meilin="422.24" y.sz="467" y.wing="542.72" y.shenqi="278.72" horizontalCenter.shenqi="0" horizontalCenter.meilin="0" horizontalCenter.wing="0" horizontalCenter.mount="0" y.mount="425" horizontalCenter.sz="0"/>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="63" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="bmpPower" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Group id="groupLv" x="276" y="107">
+			<e:Image y="0" source="zycs_sm_lvdi" x="0"/>
+			<e:Group y="6" anchorOffsetY="0" horizontalCenter="0">
+			<e:BitmapLabel id="bmpLv" x="0" text="1" y="0" font="shenmonum_fnt"/>
+			<e:Image source="shenqi_zycs_jie"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="4"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+
+
+		<e:Image id="imgWjh" y="234.97" x="546.06" source="jh_zycs_wjh"/>
+		<e:Image y="416" source="shenqi_zycs_di1" horizontalCenter="0"/>
+		<e:Image id="imgName" source="shenmo_zycs_mz3" y="434" horizontalCenter="0.5"/>
+
+
+
+
+
+
+
+
+		<e:Group y="473.02" horizontalCenter="0">
+			<e:Image y="0" anchorOffsetX="0" source="gm_zycs_jcdi" horizontalCenter="0"/>
+			<e:Group id="groupEffMc" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupPtBuff" verticalCenter="-10.5" horizontalCenter="0">
+				<e:Image y="-5" x="-170" scaleX="1" scaleY="1" source="ylbj_zycs_attrruby"/>
+				<e:Image id="imgzjzs" y="5" x="-160" source="gm_zycs_des_jl"/>
+				<e:BitmapLabel id="lbAttr" x="179" y="4" font="ylbjtips_fnt" text="100%"/>
+				<e:BitmapLabel id="lbAttr2" x="189" y="14" text="+10.0%" font="ylbjnum2_fnt"/>
+				<e:Image id="lbAttr_jt" y="15" x="-150" scaleX="0.9" scaleY="0.9" source="zdlupnum_g"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="lb_shuoming" text="(% bonus for all basic stats including upgrade, morph, ensoul and resonate)" y="63.33" horizontalCenter="0" fontFamily="SimHei" size="16"/>
+		</e:Group>
+		<e:Image y="591"  source="gm_zycs_jcsx" horizontalCenter="0"/>
+		<e:Image y="595" source="liuguang_zycs_huawen" scaleX="-1" x="660"/>
+		<e:Label id="btnAttr" text="总加成" x="619" y="597" size="20" textAlign="left" fontFamily="SimHei" textColor="0x11f51c"/>
+		<e:Image y="596" source="liuguang_zycs_huawen" x="60"/>
+
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" horizontalCenter="0" y="640">
+			<e:layout>
+				<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2" />
+			</e:layout>
+		</e:DataGroup>
+
+		<e:Scroller id="scroller" y="724" height="150" anchorOffsetX="0" maxWidth="600" horizontalCenter="0">
+			<e:List id="listIcon" useVirtualLayout="false" y="1" itemRendererSkinName="HuanHuaItemEUI">
+				<e:layout>
+					<e:HorizontalLayout  paddingLeft="12" paddingRight="15" gap="-8"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+				<!--<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>-->
+
+			</e:List>
+		</e:Scroller>
+
+		<e:Group id="groupPt" x="266" y="864" width="188">
+			<e:Scroller scaleX="0.7" scaleY="0.7" scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" y="-8" horizontalCenter="0">
+				<e:List id="listConsume" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+				</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object/>
+							<e:Object/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+			<e:Image id="imgYml" touchEnabled="false" y="59" x="33" source="bxsb_zycs_ymj"/>
+			<e:Button id="btnSend" y="79" label="Resonate" skinName="BtnMin1_1" horizontalCenter="0"/>
+		</e:Group>
+
+
+
+
+
+	</e:Group>
+	<e:Button id="btnHelp" x="459" y="955" skinName="Btn0Skin" icon="zs_zycs_wenhao"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem13_3EUI" currentState="rank1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="220" height="261" states="rank1,rank2,rank3" >
+	<w:Config id="1586bd49103"/>
+	<e:Image horizontalCenter="0" source="jzhd_zycs_t1" bottom="0" source.rank2="jzhd_zycs_t2" source.rank3="jzhd_zycs_t3"/>
+	<e:Label id="lbName" text="Player Name Name" y="70" size="18" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" width="149" x="36" y.rank2="79" y.rank3="79"/>
+	<e:Label id="lbPower" text="CP: 999999" y="101" size="18" fontFamily="Times" textAlign="center" horizontalCenter="0" textColor="0x5ac832" horizontalCenter.rank2="0" y.rank2="111" y.rank3="111"/>
+	<e:Component id="item" y="139" currentState="sjian" skinName="ItemSkin" x="63"/>
+</e:Skin>

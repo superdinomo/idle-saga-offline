@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LiLianPanelTaskItemEUI" currentState="2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="0,1,2"  height="49" width="698">
+	<e:Image y="0" x="0" anchorOffsetY="0" source="lilian_zycs_di"/>
+	<e:Label id="lbName" text="fsdfsfdastf" x="34" size="24" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" textColor="0xe6dcb8" verticalCenter="0" width="308"/>
+	<e:Label id="lbPro" text="1/1" size="24" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" x="357" textColor="0xe6dcb8" verticalCenter="0"/>
+	<e:Label id="lbShenWang" text="Prestige +100" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" textColor="0xE6DCB8" horizontalCenter="160" verticalCenter="0"/>
+	<e:Button id="btnOk" label="Claim" visible.0="false" visible.2="false" x="581" skinName="BtnMin1_1small" y="5"/>
+	<e:Button id="btnGoto" label="Go" visible.1="false" visible.2="false" x="581" skinName="BtnMin1_1asmall" y="5"/>
+	<e:Image id="imgMeiRiReward" x="593" visible.0="false" visible.1="false" verticalCenter="1" source="lilian_zycs_ylq1"/>
+</e:Skin>

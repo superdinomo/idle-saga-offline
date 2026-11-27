@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FuwenEquipListPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image height="982" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" y="45" width="694" x="13"/>
+	<e:Scroller id="scroller" y="75" x="21" width="678" height="945">
+		<e:List id="list" itemRendererSkinName="FuwenEquipItemEUI" currentState="disabled" useVirtualLayout="false" allowMultipleSelection="true">
+			<e:layout>
+				<e:VerticalLayout gap="11"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label y="1053" text="Filtered Element" fontFamily="Times" size="20" x="44" touchEnabled="false" textColor="0xFFB02D"/>
+	<e:CheckBox id="checkBox0" x="530" y="1046" skinName="CheckBoxEUI" label="Uncommon"/>
+	<e:CheckBox id="checkBox1" x="378" y="1046" skinName="CheckBoxEUI" label="Rare"/>
+	</e:Skin>

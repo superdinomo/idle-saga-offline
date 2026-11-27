@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FirstreChargeeVeryDayEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1054" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:ViewStack id="viewStack" y="0" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" x="0">
+		<e:Component id="panel1" skinName="FirstreChargeeVeryDayEUI1" name="Top-up 100 Diamonds"/>
+		<e:Component id="panel2" skinName="FirstreChargeeVeryDayEUI2" name="Top-up 500 Diamonds"/>
+		<e:Component id="panel3" skinName="FirstreChargeeVeryDayEUI3" name="Top-up 1000 Diamonds"/>
+	</e:ViewStack>
+	<e:TabBar id="tab" x="33" y="636" dataProvider="{viewStack}" itemRendererSkinName="BtnTab1Skin">
+		<e:layout>
+		<e:HorizontalLayout gap="5"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Image source="dljl_zycs_k3" x="0" y="981" touchEnabled="false" pixelHitTest="true"/>
+</e:Skin>

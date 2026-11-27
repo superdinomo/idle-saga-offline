@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatMainSkin1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupChat" x="0" anchorOffsetX="0" anchorOffsetY="0" y="0" touchEnabled="false">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false" x="0"
+		         source="mianui_zycs_liaotiankuang" />
+		<e:Scroller id="itemScroller" width="455" height="81" x="128" y="3" anchorOffsetX="0" scrollPolicyH="off"
+		            anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false" scrollPolicyV="off">
+			<e:Group>
+				<e:List id="itemList" itemRendererSkinName="ChatItemMinSkin"
+				        touchEnabled="false" right="0" left="0" bottom="0">
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:Image id="btnChatControlBg" y="6" anchorOffsetX="0" anchorOffsetY="0" width="590" height="77" alpha="0" x="125"
+		         source="public_zycs_greybg1" />
+		<e:Button id="btnChatControl" label="" x="592" y="4" skinName="Btn0Skin" icon="mainui_lt_zycs_sjxs" scaleX="1"
+		          scaleY="1" visible="false" />
+		<e:Button id="btnFriends" icon="mianui_zycs_haoyouhaoyou" scaleX="1" scaleY="1" skinName="Btn0Skin"
+		          anchorOffsetX="0" anchorOffsetY="0" y="16"  left="50"/>
+		<e:Button id="btnShop" icon="mianui_zycs_shop" scaleX="1" scaleY="1" skinName="Btn0Skin" anchorOffsetX="0" anchorOffsetY="0" y="14" right="56"/>
+		<e:Image id="redPoint" source="mainui_zycs_hongdian" scaleX="1" scaleY="1" x="83" y="7" />
+		<e:Image source="mianui_zycs_fengexian"  verticalCenter="0" left="110"/>
+		<e:Image source="mianui_zycs_fengexian" verticalCenter="0" x="607"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleGerenRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="692" height="138">
+	<e:Image y="0" height="138" width="692" source="llcz_zycs_di01"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="24" textAlign="center" textColor="0xcdc8be" horizontalCenter="-264" verticalCenter="0"/>
+	<e:Image id="imgRank" verticalCenter="5" horizontalCenter="-264" source="ldsz_zycs_ph1"/>
+
+	<e:List id="list" itemRendererSkinName="ItemSkin" x="140" verticalCenter="0" width="550">
+		<e:layout>
+		<e:HorizontalLayout gap="10" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	
+</e:Skin>

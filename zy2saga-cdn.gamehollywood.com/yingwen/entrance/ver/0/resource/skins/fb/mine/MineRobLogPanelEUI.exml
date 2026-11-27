@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineRobLogPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Scroller id="scroller" y="73" height="977" width="678" x="21">
+		<e:List id="list" itemRendererSkinName="MineRobLogItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="6"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

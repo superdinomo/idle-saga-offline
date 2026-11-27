@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsSkillZuheItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="96">
+	<e:Image source="fuwen_zycs_kuang01_01"/>
+	<e:Image id="imgIcon" source="mianui_icon_bianshen1" x="8" y="8" width="80" height="80"/>
+	<e:Label id="lbLv" text="2" y="101" size="24" fontFamily="Times" textAlign="center" horizontalCenter="0" textColor="0xf5e65a"/>
+	<e:Label id="lbName" text="Skill Name" y="125" size="20" fontFamily="Times" textAlign="center" textColor="0xFFFFFF" x="11" visible="false"/>
+
+
+	
+	
+</e:Skin>

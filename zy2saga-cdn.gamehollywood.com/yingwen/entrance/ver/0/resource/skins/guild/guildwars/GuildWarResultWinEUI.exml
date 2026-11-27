@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildWarResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="620" height="1134">
+		<e:Image x="0" y="0" source="js_zycs_qz_png"/>
+		<e:Image y="134" x="237" source="js_zycs_js_png"/>
+		<e:Image y="249" x="205" source="ch_zycs_18_png"/>
+	<e:Button id="confirmBtn" y="933" skinName="BtnMin1_1"  x="244" label="Claim"/>
+		<e:Label id="timeTxt" text="（3S）" y="993" size="20" textAlign="center" fontFamily="Times" width="202" textColor="0xCDC8BE" x="209"/>
+	<e:Image y="373" source="js_zycs_jx2" x="-17"/>
+	<e:Label id="guildName" text="Guild" y="394" fontFamily="Times" size="20" x="283" textAlign="left" textColor="0xcdc8be"/>
+		<e:Image x="189" y="394" source="js_zycs_zlzm"/>
+	<e:Image x="69" y="665" source="js_zycs_jx1"/>
+	<e:Image x="69" y="475" source="js_zycs_jx1"/>
+		<e:Image x="89" y="491" source="js_zycs_zmjf"/>
+		<e:Image x="356" y="491" source="js_zycs_zmpm"/>
+		<e:Image x="89" y="681" source="js_zycs_grjf"/>
+		<e:Image x="356" y="681" source="js_zycs_grpm"/>
+	<e:Label id="guildPoint" text="0" y="492" fontFamily="Times" size="20" x="188" textColor="0xcdc8be"/>
+	<e:Label id="myPoint" text="0" y="682" fontFamily="Times" size="20" x="188" textColor="0xcdc8be"/>
+	<e:Label id="guildRank" text="0" y="492" fontFamily="Times" size="20" x="455" textColor="0xcdc8be"/>
+	<e:Label id="myRank" text="0" y="682" fontFamily="Times" size="20" x="455" textColor="0xcdc8be"/>
+		<e:Scroller y="550" x="95" width="430" height="94">
+			<e:List id="list2" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="18"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller y="735" x="95" width="430" height="94">
+			<e:List id="list1" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="18"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RongLianUpLevelTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Image id="backGround" top="0" left="0" right="0" bottom="0" source="public_zycs_greybg1"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" width="668" height="677" verticalCenter="0" touchEnabled="false">
+		<e:Image y="2" source="jl_zycs_jhzs_png" horizontalCenter="0"/>
+		<e:Image y="62" source="zbrl_zycs_gxsj" horizontalCenter="0"/>
+		<e:Image id="imgIcon" y="150" source="zbrl_zycs_ljz_png" x="167"/>
+		<e:Group id="groupMC" width="0" height="0" y="350" x="334"/>
+		<e:BitmapLabel id="bitLevel" y="330" text="1" font="rongliannum_fnt" horizontalCenter="0"/>
+		<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="541" source="public_zycs_di01" scale9Grid="140,12,8,8" width="664" height="60" horizontalCenter="2"/>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="558" horizontalCenter="2">
+			<e:layout>
+			<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+			</e:layout>
+			
+			
+				
+				
+			
+			
+		</e:DataGroup>
+		<e:Group id="groupMC1" width="0" height="0" y="347" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

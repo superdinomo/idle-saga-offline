@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderAwardDuanPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720">
+	<e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="87" source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="625" width="639" x="41"/>
+	<e:Scroller y="93" x="41" width="639" height="572">
+		<e:List id="listRank" itemRendererSkinName="LadderAwardDuanItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		<!--
+			
+			
+			
+			
+			
+			
+		-->
+		</e:List>
+	</e:Scroller>
+	<e:Image y="731" source="role_zycs_tb2" x="13"/>
+	<e:Label text="Rank Rewards will be issued via mails" fontFamily="Times" size="20" textAlign="center" y="736" textColor="0xCDC8BE" x="260"/>
+</e:Skin>

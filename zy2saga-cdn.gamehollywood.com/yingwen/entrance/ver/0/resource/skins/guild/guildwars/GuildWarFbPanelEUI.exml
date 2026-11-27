@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildWarFbPanelEUI" height="1280" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<e:Group y="0" left="0">
+		<e:Image y="0" height="126" x="0" width="221" source="gzc_zycs_t2" scale9Grid="5,37,150,13"/>
+		<e:Label text="Guild Ranking" y="2" fontFamily="Times" size="20" textColor="0xf5e65a" x="71"/>
+		<e:Label id="rankName1" text="0" x="10" y="37" fontFamily="Times" size="20" textAlign="center" stroke="1" strokeColor="000000" textColor="0xcdc8be"/>
+		<e:Label id="rankPoint1" text="0" x="155" y="37" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Label id="rankPoint2" text="0" x="155" y="67" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Label id="rankPoint3" text="0" x="155" y="97" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Label id="rankName2" text="0" x="10" y="67" fontFamily="Times" size="20" textAlign="center" stroke="1" strokeColor="000000" textColor="0xcdc8be"/>
+		<e:Label id="rankName3" text="0" x="10" y="97" fontFamily="Times" size="20" textAlign="center" stroke="1" strokeColor="000000" textColor="0xcdc8be"/>
+		<e:Button id="seeRank" y="0" icon="llcz_zycs_xx" skinName="Btn0Skin" x="185" label=""/>
+	</e:Group>
+	<e:Group y="0" horizontalCenter="0">
+		<e:Image source="llcz_zycs_d" x="21"/>
+		<e:Image y="70" x="0" source="sz_zycs_jx"/>
+		<e:Label id="scene" text="Canyon Gate" y="15" fontFamily="Times" size="20" textAlign="center" textColor="0xf5e65a" width="195" x="22"/>
+		<e:Label id="lastTime" text="0" y="76" fontFamily="Times" size="20" width="169" textAlign="center" x="35" textColor="0xcdc8be"/>
+	</e:Group>
+	<e:Group y="0" right="0">
+		<e:Image y="0" x="0" source="gzc_zycs_t1" scale9Grid="6,42,152,9" width="221" height="126"/>
+		<e:Label id="guildPoint" text="0" x="104" y="67" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Label id="ownPoint" text="0" x="104" y="97" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Label id="comNum" text="0" x="104" y="37" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Label text="Guilds Points" x="12" y="67" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Label text="My Points" x="12" y="97" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Label text="Scene Alliance" x="12" y="37" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+		<e:Button id="seeMyGuild" label="" x="185" y="0" icon="llcz_zycs_xx" skinName="Btn0Skin"/>
+		<e:Label text="Guild Battle Situation" y="2" fontFamily="Times" size="20" textColor="0xF5E65A" x="71"/>
+	</e:Group>
+	<e:Group id="ruleDesc" y="118" horizontalCenter="0">
+		<e:ProgressBar id="sceneBar" width="150" value="1" skinName="ProgressBar5" maximum="3" x="10" y="6"/>
+		<e:Image source="llcz_zycs_yx" x="0" y="0"/>
+		<e:Image source="llcz_zycs_yx" x="48" y="0"/>
+		<e:Image source="llcz_zycs_yx" x="98" y="0"/>
+		<e:Image source="llcz_zycs_yx" x="146" y="0"/>
+		<e:Image id="scene1" source="llcz_zycs_q" x="3" y="1.5"/>
+		<e:Image id="scene2" x="51" y="1.5" source="llcz_zycs_q"/>
+		<e:Image id="scene3" x="101" y="1.5" source="llcz_zycs_q"/>
+		<e:Image id="scene4" x="149" y="1.5" source="llcz_zycs_q"/>
+	</e:Group>
+	<e:Group id="flag" horizontalCenter="0.5" bottom="279" width="482" height="174">
+		<e:Image x="0" y="0" touchEnabled="false" source="xt_zycs_k1" height="125"/>
+		<e:Label id="timeDesc" y="26" size="18" text="0" fontFamily="Times" x="246" textColor="0xDFD1B5"/>
+		<e:Label id="nameTxt" y="26" size="18" text="Roland Castle Royal Flag" fontFamily="Times" x="141" textColor="0xF15A25"/>
+		<e:Image id="head" x="31" y="12" source=""/>
+		<e:ProgressBar id="bloodBar" x="122" y="53" value="100" skinName="bar2Skin" slideDuration="0"/>
+		<e:Group id="hudun1" y="78" x="118">
+			<e:ProgressBar id="hudun" value="100" skinName="bloodBarBossHomeDun" slideDuration="0"/>
+			<e:Label text="(Gathering will be interrupted when the shield is 0)" y="8" fontFamily="Times" size="18" textColor="0xDFD1B5" x="48"/>
+		</e:Group>
+		<e:Button id="btnReward" anchorOffsetX="0" anchorOffsetY="0" icon="public_zycs_jl" skinName="Btn0Skin2" x="22" y="130" label="Rewards"/>
+	</e:Group>
+	<e:Group id="flagDes" horizontalCenter="0.5" bottom="337" touchEnabled="false" touchChildren="false" width="391" height="70">
+		<e:Image x="0" y="0" anchorOffsetY="0" width="100%" height="100%" source="equip_zycs_di" scale9Grid="38,32,23,33"/>
+		<e:Label id="roleName" text="0" fontFamily="Times" size="20" y="11" width="392" textAlign="center" textColor="0xdfd1b5" x="0"/>
+		<e:Label id="guildName" text="0" fontFamily="Times" size="20" y="39" width="315" textAlign="center" textColor="0x2f6ff6" x="38"/>
+	</e:Group>
+	<e:Button id="playNext" label="Enter the City" y="789" skinName="Btn0Skin" icon="llcz_zycs_xyqy" right="25" width="86" height="91"/>
+	<e:ToggleButton id="btnToggleEnemy" label="" y="197" right="5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mainui_lt_zycs_sjx" source.down="mainui_lt_zycs_sjxs"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Group id="attList" y="240" right="-3">
+		<e:Scroller id="bar1" width="145" height="360" x="2" y="32" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="list1" x="5" y="6" itemRendererSkinName="BossHomeFbPanelFaceEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image y="0" x="0" touchEnabled="false" source="klm_zycs_jt"/>
+		<e:Image y="6" x="33" touchEnabled="false" source="csys_zycs_sydr"/>
+	</e:Group>
+	<e:Group id="gongxun" y="883" right="0">
+		<e:Image y="0" source="public_zycs_jx1" width="100" x="19"/>
+		<e:Label id="point" text="0/15" y="5" fontFamily="Times" size="20" textColor="0xdfd1b5" width="138" textAlign="center" x="0"/>
+	</e:Group>
+	<e:Group id="weixie" bottom="195" horizontalCenter="-59" width="466" height="151">
+		<e:Scroller id="bar2" width="426" height="142" x="40" y="0" scrollPolicyH="on" scrollPolicyV="off">
+		<e:List id="list2" x="5" y="6" itemRendererSkinName="BossHomeFbPanelFaceEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image y="0" x="37" touchEnabled="false" rotation="90" source="klm_zycs_jt"/>
+		<e:Image y="43" x="5" touchEnabled="false" source="csys_zycs_gjz"/>
+	</e:Group>
+	<e:ToggleButton id="btnToggleAtk" label="" bottom="210" horizontalCenter="-316.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mainui_lt_zycs_sjx" source.down="mainui_lt_zycs_sjxs"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Group id="flagGroup" y="652" right="25">
+		<e:Button id="palaceFlag" label="Gather Royal Flag" icon="llcz_zycs_bj" x="0" skinName="Btn0Skin" y="0"/>
+	</e:Group>
+	<e:Group y="585" left="-6">
+		<e:Button id="taskTraceBtn" y="0" skinName="Btn0Skin" icon="llcz_zycs_mbjl" x="22"/>
+		<e:Image y="90" width="100" height="26" scale9Grid="13,2,85,14" source="public_zycs_jx1" x="14"/>
+		<e:Label id="taskTraceName0" text="0" x="0" y="95" size="20" width="127" fontFamily="Times" textColor="0xFF8534" textAlign="center"/>
+	</e:Group>
+	<e:Button id="btnGuaji" y="841" label="Go to Center" icon="csys_zycs_zddg" skinName="Btn0Skin" left="15" width="86" height="91"/>
+	<e:Button id="btnStopGuaji" y="841" icon="csys_zycs_tzdg" skinName="Btn0Skin" left="15" width="84" height="91"/>
+	<e:Button id="btnClose" label="" icon="public_zycs_lkfb" skinName="Btn0Skin" right="35" bottom="15" visible="false"/>
+	
+</e:Skin>

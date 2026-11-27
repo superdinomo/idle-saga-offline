@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GodEquipWakeItemEUI" states="up,down,disabled"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="150" height="150">
+	<e:Image id="imgBg" y="0" visible.disabled="false" x="0" source="sz_zycs_djk01"/>
+	<e:Image id="iconDisplay" pixelHitTest="true" visible.disabled="false" source="" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="selectIcon" visible.disabled="false" visible.up="false" pixelHitTest="true" source="sz_zycs_djk02"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="24" x="106" visible="false"/>
+	<e:Image y="111" source="public_zycs_jx1" width="101" horizontalCenter="0"/>
+	<e:Label id="lbStatus" text="0" y="116" size="20" fontFamily="Times" horizontalCenter="0" textColor="0xf5e65a"/>
+</e:Skin>

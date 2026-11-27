@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiPanelItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbName" text="1.Miracle xXMoo MoralityXx CP: 359 m" y="0" size="24" fontFamily="Times" textAlign="center" touchEnabled="false" x="0" textColor="0xeee052"/>
+</e:Skin>

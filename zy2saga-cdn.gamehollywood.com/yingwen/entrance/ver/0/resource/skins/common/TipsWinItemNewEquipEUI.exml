@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TipsWinItemNewEquipEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="320" height="240">
+	<e:Group id="group" x="0" y="0" height="240" width="320" anchorOffsetY="0">
+		<e:Image id="imgBg" touchEnabled="false" scaleX="1" scaleY="1" source="mianui_zycs_k" scale9Grid="28,26,7,6" anchorOffsetY="0" height="240" y="0" width="320" x="0" locked="true"/>
+		<e:Component id="itemBase" x="18" skinName="ItemSkin" y="61"/>
+		<e:Image touchEnabled="false" y="20" scaleX="1" scaleY="1" fillMode="clip" anchorOffsetX="0" source="mianui_zycs_tk" scale9Grid="114,2,12,13" width="313" horizontalCenter="0.5"/>
+		<e:Image id="imgTitle" touchEnabled="false" y="12" scaleX="1" scaleY="1" fillMode="clip" scale9Grid="14,13,21,11" anchorOffsetX="0" horizontalCenter="0" source="mianui_zycs_ghzb"/>
+		<e:Image touchEnabled="false" x="120" y="57" scaleX="1" scaleY="1" fillMode="clip" scale9Grid="14,13,21,11" anchorOffsetX="0" source="mianui_zycs_td"/>
+		<e:Label id="labelName" text="Excellent Gear Eight Characters in total" size="20" fontFamily="Times" touchEnabled="false" x="125" y="64" scaleX="1" scaleY="1" textColor="0x23becd" textAlign="left" verticalAlign="middle"/>
+		<e:Label id="lbDesc" text="Gear Rating" size="20" fontFamily="Times" touchEnabled="false" x="126" y="95" scaleX="1" scaleY="1" textAlign="center" verticalAlign="middle" textColor="0xe6dcb8"/>
+		<e:Button id="btnUse" y="173" label="Gear (5)" anchorOffsetX="0" horizontalCenter="0" skinName="BtnMin1_1mid"/>
+		<e:BitmapLabel id="bmpNumber" x="127" y="124" text="0" font="txnum_fnt"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortResultItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="45" width="698">
+	<w:Config id="1586b362dfe"/>
+	<e:Image x="0" width="100%" source="zs_zycs_fengexian" y="43"/>
+	<e:Label id="rankTxt" size="20" fontFamily="Times" text="0" textAlign="center" y="13" textColor="0xcdc8be" horizontalCenter="-291"/>
+	<e:Label id="nameTxt" size="20" fontFamily="Times" text="0" textAlign="center" y="13" textColor="0xf5e65a" horizontalCenter="-66"/>
+	<e:Label id="countTxt" size="20" fontFamily="Times" text="0" textAlign="center" y="13" textColor="0xcdc8be" horizontalCenter="221"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RongLianTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" width="552" anchorOffsetY="0" height="490" horizontalCenter="-12" verticalCenter="-28">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Image y="11" horizontalCenter="0.5" source="zbrl_zycs_ts"/>
+		<e:Button id="btnOk" label="Confirm" y="359" skinName="BtnMin1_1" horizontalCenter="0.5"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label id="lbBlankText" text="Insufficient Gear Bag space, confirm to smelt" y="190" fontFamily="Times" horizontalCenter="0" size="24" textColor="0xe6dcb8"/>
+	</e:Group>
+</e:Skin>

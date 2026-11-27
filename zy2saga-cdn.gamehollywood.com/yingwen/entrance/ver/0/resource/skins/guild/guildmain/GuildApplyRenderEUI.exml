@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildApplyRenderEUI" width="678" height="123" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Image x="0" y="0" width="100%" height="100%" source="qianghua_zycs_kuang4" scale9Grid="32,28,36,43"/>
+	<e:Label id="labelRank" text="0" x="37" size="20" fontFamily="Times" y="52"/>
+	<e:Label id="labelGuildName" text="Play" x="96" y="34" fontFamily="Times" size="20" textColor="0xf5e65a"/>
+	<e:Label id="labelPower" text="Play" y="18" fontFamily="Times" size="20" textColor="0xaf9b73" textAlign="center" x="478"/>
+	<e:Label text="Leader:" x="96" y="69" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Label id="lebalName" text="Play" x="212" y="69" fontFamily="Times" size="20" textColor="0x23becd"/>
+	<e:Label text="Players:" x="355" y="69" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Label id="labelMemberCount" text="0" x="451" y="70" fontFamily="Times" size="20" textColor="0x23becd"/>
+	<e:Button id="btnApply" x="548" skinName="BtnMin1_2" y="56" label="Apply" width="97" height="45"/>
+</e:Skin>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleManorRankLastPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" x="0" y="0"/>
+	<e:Image touchEnabled="false" x="13" y="34" scale9Grid="21,20,129,121" source="ldsz_zycs_sjzkbg_jpg"/>
+	<e:Image touchEnabled="false" y="34" source="ldsz_zycs_zydi" scale9Grid="21,20,129,121" width="694" x="13" height="925"/>
+
+	<e:Scroller y="48" width="690" x="15" height="906">
+		<e:List id="listRank" itemRendererSkinName="GuildBattleMobaiManorItemEUI">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="13"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbTips" text="You need to check the status after the battle ends" y="461" fontFamily="Times" size="24" textColor="0xf01414" horizontalCenter="0"/>
+
+
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_领地圣战\L-领地圣战-领主膜拜2.jpg" y="-45" locked="true" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnTab1ZYCSSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="118" height="116">
+	<e:Image  touchEnabled="false"  visible.disabled="false"  source="public_zycs_biaoqian02"  visible.down="false"  x="0" y.disabled="0" y.down="0" includeIn="up,disabled" y.up="17"/>
+	<e:Image x="0" touchEnabled="false" source="public_zycs_biaoqian01"  includeIn="down"/>
+	<e:Image id="iconDisplay" touchEnabled="false"  visible.down="false" horizontalCenter="0" verticalCenter="0" horizontalCenter.up="0" verticalCenter.up="-3.5" source="bqz_zycs_zb1_png"/>
+	<e:Image id="selectIcon" touchEnabled="false"  visible.up="false"  horizontalCenter="0.5" verticalCenter="-6.5" source="bqz_zycs_zb0_png"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0"  source="mainui_zycs_hongdian" x="89" y="2" visible="false"/>
+</e:Skin>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TodayFirstLoginWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" >
+	<w:Config id="1586b36a128" />
+	<e:Group id="group" horizontalCenter="0" x="312" width="720" verticalCenter="0">
+		<e:Image id="imgBg"  source="yyhl_zycs_bg1_png"/>
+		<e:Button id="closeBtn" y="35" icon="sc_zycs_x" skinName="Btn0Skin" x="643"/>
+		<e:Scroller y="390" height="230" width="550" horizontalCenter="0">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout paddingTop="12" paddingBottom="12" paddingRight="12" horizontalGap="14" verticalGap="20"  paddingLeft="12"/>
+				</e:layout>
+				<!--<e:ArrayCollection>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:ArrayCollection>-->
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnGo" label="Go" y="669" horizontalCenter="0"  skinName="BtnMin1_17"/>
+	</e:Group>
+</e:Skin>

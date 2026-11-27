@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem52_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="164" states="state0,state1,state2,state3" >
+	<w:Config id="1586b362dfe"/>
+	<e:Image y="0" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Label id="lbDec" text="Pack Name" x="43" fontFamily="黑体" size="24" y="18" textAlign="left" textColor="0xCDC8BE"/>
+	<e:Label id="lbBuyNum" fontFamily="黑体" size="24" lineSpacing="10" text="每日限购10/10" y="18" x="258" textColor="0xcdc8be"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="20" y="44">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="14" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnPay" x="523" y="38" label="998元" skinName="BtnMin1_2mid" visible.state2="false" visible.state3="false" y.state1="82"/>
+	<e:Button id="btnBuy" x="523" y="97" label="999" visible.state1="false" visible.state3="false" skinName="BtnMin1_24" icon="zycs_320032" y.state2="82"/>
+	<e:Image x="529" visible.state0="false" visible.state1="false" visible.state2="false" source="lxzg_zycs_ysj" y="55"/>
+
+</e:Skin>

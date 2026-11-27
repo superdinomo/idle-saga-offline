@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QMDBBoxRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Group verticalCenter="-128.5" horizontalCenter="-0.5">
+		<e:Image y="4" x="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="90,66,7,5" source="qmdb_jl2_jpg"/>
+		<e:Button id="closeBtn" label="" x="470" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="16" source="qmdb_zycs_t1" x="181"/>
+		<e:List id="list" y="102" itemRendererSkinName="ItemSkin" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="0">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object aaa="null"/>
+				<e:Object aaa="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="19" horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EverydayTurntableItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="94" height="94">
+	<e:Component id="item" skinName="ItemSkin"/>
+	<e:Image id="imgSuper" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cjtj" horizontalCenter="0" y="50"/>
+	<e:Image id="imgBig" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cjdj" horizontalCenter="0" y="50"/>
+	<e:Image id="imgGot" y="7" pixelHitTest="true" touchEnabled="false" source="public_zycs_ylq" anchorOffsetX="0" width="121" horizontalCenter="-0.5"/>
+</e:Skin>

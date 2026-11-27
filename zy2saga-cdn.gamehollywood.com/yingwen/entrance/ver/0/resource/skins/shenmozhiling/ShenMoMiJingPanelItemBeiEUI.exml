@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoMiJingPanelItemBeiEUI" 
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="5" height="5">
+	<e:Group y="-122" horizontalCenter="-3.5">
+		<e:BitmapLabel id="bitBei" x="0" y="8" font="beishunum_fnt" text="1"/>
+		<e:Image x="23" y="0" source="smzl_zycs_bei"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="-7" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

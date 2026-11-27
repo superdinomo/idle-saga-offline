@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SmsdBoxWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1280">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" source="public_zycs_dikuang" scale9Grid="83,62,16,9" x="0" width="553" height="500"/>
+		<e:Image y="-4" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="151"/>
+		<e:Button id="closeBtn" label="" x="470" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="12" anchorOffsetX="0" anchorOffsetY="0" source="kfsd_zycs_bxkq" x="230"/>
+		<e:Image y="145" source="public_zycs_tsk1" scale9Grid="9,9,54,58" width="479" height="144" x="37"/>
+		<e:Label y="62" text="High chance to unlock the following Superb Rewards:" fontFamily="Times" size="22" lineSpacing="0" textAlign="left" textColor="0xe3d7be" x="39" width="416"/>
+		<e:Label y="263" text="Ultimate Unlock grants a higher chance to gain" fontFamily="Times" size="18" lineSpacing="0" textAlign="left" textColor="0xe3d7be" x="43"/>
+		<e:Label y="263" text="Superb Rewards" fontFamily="Times" size="18" lineSpacing="0" textAlign="left" x="390" textColor="0xff9b0f"/>
+		<e:Label id="lbCount" y="110" text="Attempts Remain: 40" fontFamily="Times" size="20" lineSpacing="0" textAlign="left" x="276" textColor="0xe3d7be"/>
+		<e:Button id="btnAdd" label="" x="480" y="99" skinName="Btn0Skin" icon="public_zycs_jia"/>
+		<e:Scroller y="153" scaleX="0.8" scaleY="0.8" x="39" width="594">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+				
+					
+						
+						
+						
+						
+						
+						
+					
+				
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgZs" x="118" y="302" source="zycs_320002"/>
+		<e:Image id="imgItem" x="358" y="302" source="zycs_340011"/>
+		<e:Label id="lbZs" y="309" text="1000" fontFamily="Times" size="24" lineSpacing="0" textAlign="left" x="159" textColor="0xe3d7be"/>
+		<e:Label id="lbItem" y="309" text="0/1" fontFamily="Times" size="24" lineSpacing="0" textAlign="left" x="399" textColor="0xe3d7be"/>
+		<e:Button id="btnSend0" label="Normal Unlock" y="343" x="85" skinName="BtnMin1_1a"/>
+		<e:Button id="btnSend1" label="Ultimate Unlock" y="343" skinName="BtnMin1_1" x="319"/>
+		<e:Label id="lbTime" y="419" text="00:00:00" fontFamily="Times" size="24" lineSpacing="0" textAlign="center" horizontalCenter="0" textColor="0x13ee22"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

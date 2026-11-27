@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YZZHTaskPanelExpItemEUI" currentState="2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="0,1,2"  width="692" height="87">
+	<e:Image y="0" x="0" anchorOffsetY="0" source="yzsh_zycs_di1_png"/>
+	<e:Image id="imgBg" anchorOffsetY="0" anchorOffsetX="0" source="yzsh_zycs_jyd" x="54" y="5"/>
+	<e:Label id="lbExp" text="+200" y="62" size="24" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" height="22" textAlign="center" textColor="0xE6DCB8" horizontalCenter="-251"/>
+	<e:Label id="lbName" text="Single Boss" x="155" y="10" size="24" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" height="22" textAlign="center" textColor="0xff9b0f"/>
+	<e:Label id="lbDesc" text="Kill Single Boss 2 times" x="157" y="50" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" height="22" textAlign="center" textColor="0xE6DCB8"/>
+	<e:Label id="lbTime" text="Claimable on Oct. 10th 2020" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" height="22" textAlign="center" textColor="0xf01414" y="33" visible.1="false" visible.2="false" x="437"/>
+	<e:Button id="btnOk" label="Claim" visible.0="false" visible.2="false" x="538" skinName="BtnMin1_1small" y="24"/>
+	<e:Image id="imgMeiRiReward" x="550" visible.0="false" visible.1="false" source="lilian_zycs_ylq1" y="27"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTipsGemAttrItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+       >
+	<e:Image id="imgTitle" touchEnabled="false" x="0" y="3" maxWidth="15" maxHeight="25" source="chibang_zycs_star_02" width="25"/>
+	<e:Label id="lbGemName" size="20" textColor="0xDFD1B5" fontFamily="Times" textAlign="left" text="Gem Name" x="26" y="5" stroke="1"/>
+
+	<e:Label id="lbAttr" size="20" textColor="0xDFD1B5" fontFamily="Times" textAlign="left" text="Stats" x="26" y="29" stroke="1"/>
+</e:Skin>

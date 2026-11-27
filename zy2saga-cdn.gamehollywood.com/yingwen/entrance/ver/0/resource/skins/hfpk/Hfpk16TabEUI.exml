@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Hfpk16TabEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled" >
+	<e:Image x="0" y="0" visible.up="false" visible.disabled="false" source="hfdfs_zycs_k3"/>
+	<e:Image id="iconDisplay" visible.disabled="false" y="1" source="hfdfs_zycs_1" x="9"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="6" x="100"/>
+
+</e:Skin>

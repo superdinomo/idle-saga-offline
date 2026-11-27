@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildWarMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="34" touchEnabled="false" source="llcz_zycs_bg_jpg" x="13"/>
+	<e:Image y="94" fillMode="scale" touchEnabled="false" x="50" source="llcz_zycs_hdsj"/>
+	<e:Label id="openDesc" text="10" x="49" y="132" size="24" textAlign="left" fontFamily="Times" textColor="0xBEBE2E"/>
+	<e:Button id="help" y="84" icon="jl_zycs_wenhao" skinName="Btn0Skin" x="149" label=""/>
+	<e:Group id="mcGroup" y="718" x="361"/>
+	<e:Image id="none" y="486" source="llcz_zycs_xydw" x="186"/>
+	<e:Button id="guildAwardBtn" y="455" icon="llcz_zycs_zmjl" skinName="Btn0Skin" x="600"/>
+	<e:Button id="dailyAward" y="697" icon="llcz_zycs_meirijl" skinName="Btn0Skin" x="600"/>
+	<e:Button id="redBag" label="" y="575" skinName="Btn0Skin" icon="llcz_zycs_hbjl" x="600"/>
+	<e:Label id="redBagNum" text="0" y="678" fontFamily="Times" size="20" textColor="0x23CA23" x="605" width="83" textAlign="center"/>
+	<e:Image y="767" source="llcz_zycs_jlxq" x="302"/>
+	<e:Image height="152" y="797" source="public_zycs_dk01" x="12" scale9Grid="11,20,675,18"/>
+	<e:Scroller id="scroller" y="832" height="94" horizontalCenter="0">
+		<e:List id="rewardList" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="27"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="rewardSee" text="Siege Rewards" y="1019" fontFamily="Times" size="24" textColor="0x23ca23" x="130"/>
+	<e:Button id="play" y="984" skinName="BtnMin1_1" x="285" label="Enter Battlefield"/>
+	<e:Label id="LastSee" text="Situation of Last War" y="1018.5" fontFamily="Times" size="24" textColor="0x23ca23" x="494"/>
+
+</e:Skin>

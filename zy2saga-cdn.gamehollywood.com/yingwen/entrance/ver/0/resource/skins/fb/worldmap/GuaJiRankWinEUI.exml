@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiRankWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" touchEnabled="false" source="cg_zycs_bg2_jpg"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="463"/>
+		<e:Image y="-5" touchEnabled="false" source="sl_zycs_k1" scale9Grid="52,7,95,44" width="253" x="147"/>
+		<e:Image y="11" touchEnabled="false" source="cg_zycs_gsph" x="225"/>
+		<e:Label text="Ranking" y="82" fontFamily="Times" size="20" textAlign="center" x="67" textColor="0xEB8E0E"/>
+		<e:Label text="Info" y="82" fontFamily="Times" size="20" textAlign="center" textColor="0xEB8E0E" x="253"/>
+		<e:Label text="Floor" y="82" fontFamily="Times" size="20" textAlign="center" x="436" textColor="0xEB8E0E"/>
+		<e:Scroller id="scroller" width="488" height="527" y="109" x="29">
+			<e:List id="list" itemRendererSkinName="GuaJiRankItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+			</e:List>
+		</e:Scroller>
+		<e:Label text="My Rank: " y="657" fontFamily="Times" size="20" textAlign="center" x="99" textColor="0xE3D7BE"/>
+		<e:Label id="lbRank" text="Not listed" y="657" fontFamily="Times" size="20" textAlign="center" x="199" textColor="0xff0000"/>
+		<e:Label text="My Floors:" y="657" fontFamily="Times" size="20" textColor="0xE3D7BE" textAlign="center" x="316"/>
+		<e:Label id="lbGuan" text="999" y="657" fontFamily="Times" size="20" textAlign="center" x="416" textColor="0xeb8e0e"/>
+	</e:Group>
+</e:Skin>

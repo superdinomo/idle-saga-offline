@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem23_3EUI" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image  touchEnabled="false"  visible.disabled="false"   visible.down="false"  x="0" y="0" includeIn="up,disabled" source="public_zycs_button09"/>
+	<e:Image x="0" touchEnabled="false"  includeIn="down" source="public_zycs_button10"/>
+	<e:Image id="imgDay" source="csk2_zycs_day1" horizontalCenter="0" y="10"/>
+	<e:Image id="redPoint"  source="mainui_zycs_hongdian" y="0" x="102"/>
+</e:Skin>

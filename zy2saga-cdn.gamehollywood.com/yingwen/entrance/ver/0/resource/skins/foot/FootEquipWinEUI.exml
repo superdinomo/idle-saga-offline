@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FootEquipWinEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group verticalCenter="0" horizontalCenter="0" width="720">
+		<e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:ViewStack id="viewStack" y="0" selectedIndex="0" x="0"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637"/>
+		<e:Image y="-3" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="234"/>
+		<e:Image id="imgTitle" y="13" horizontalCenter="0" source="zuji_zycs_fjlb"/>
+		<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_fgqy" y="731" x="13"/>
+
+		<e:TabBar id="tab" selectedIndex="0" itemRendererSkinName="BtnTab3ZYCSSkin" y="744" horizontalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout gap="44"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+	</e:Group>
+</e:Skin>

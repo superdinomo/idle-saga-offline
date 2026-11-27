@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GNYGRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="ylq,kql,nlq" >
+	<w:Config id="15d981d06da"/>
+
+	<e:Group id="group" horizontalCenter="0.5" verticalCenter="-78" width="553" height="360">
+		<e:Image source="public_zycs_dikuang" width="100%" height="100%" scale9Grid="74,59,37,17"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+		<e:Image y="11" horizontalCenter="0.5" source="gnyg_zycs_kqgnjl"/>
+
+
+		<e:Image y="79" width="494" height="158" source="public_zycs_tsk1" scale9Grid="22,52,20,12" horizontalCenter="0"/>
+
+		<e:Scroller height="134" y="91" horizontalCenter="0" maxWidth="477">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin">
+			
+				
+					
+					
+					
+					
+				
+			
+				<e:layout>
+					<e:HorizontalLayout gap="18" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="" x="469" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Button id="btnGet" label="Claim" y="246" skinName="BtnMin1_1" horizontalCenter="0" visible.ylq="false" enabled.nlq="false"/>
+		<e:Image id="imgYlq" source="lilian_zycs_ylq" y="239" horizontalCenter="0" visible.kql="false" visible.nlq="false"/>
+
+	</e:Group>
+</e:Skin>

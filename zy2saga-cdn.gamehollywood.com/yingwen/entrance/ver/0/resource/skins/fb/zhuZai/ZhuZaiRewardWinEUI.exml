@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhuZaiRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" y="0" width="720">
+		<e:Component id="mainName" anchorOffsetX="0" touchEnabled="false" x="0" y="0" skinName="MianNameSkin1" width="720" height="47"/>
+		<e:Image x="0" y="47" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3"/>
+		<e:Image x="13" y="90" anchorOffsetX="0" width="695" anchorOffsetY="0" source="sjbs_zycs_bg1_jpg"/>
+		<e:Button id="closeBtn" label="" x="639" y="46" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="8" horizontalCenter="-230" source="btz_zycs_jlyl_png"/>
+		<e:Image y="150" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="123,8,27,18" horizontalCenter="0" source="public_zycs_di01"/>
+		<e:Image y="98" anchorOffsetY="0" anchorOffsetX="0" width="412" horizontalCenter="1" source="zz_zycs_wzdk" scale9Grid="79,19,10,1"/>
+		<e:Label id="lbName" text="0" y="108" fontFamily="Times" size="24" textAlign="center" textColor="0xAF9B73" horizontalCenter="0"/>
+		<e:Component id="itemReward1" y="1037" x="191" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true"/>
+		<e:Component id="itemReward2" y="1037" x="497" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true"/>
+		<e:Label text="DMG Ranking" y="153" fontFamily="Times" size="24" textAlign="center" textColor="0xf5e65a" horizontalCenter="1"/>
+		<e:Label text="Lucky Rewards" y="1058" fontFamily="Times" size="24" textAlign="center" x="387" width="99" textColor="0x5ac832"/>
+		<e:Label text="Kill Rewards" y="1058" fontFamily="Times" size="24" textAlign="center" x="97" width="84" textColor="0x5ac832"/>
+		<e:Scroller x="19" y="201" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="off" height="814" width="685">
+			<e:List id="list" itemRendererSkinName="ZhuZaiRewardItemEUI" anchorOffsetX="0" x="-39" y="-1">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>	<e:layout>
+					<e:VerticalLayout gap="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupPage" x="47" y="1146" scaleX="1" scaleY="1">
+			<e:Scroller id="scrollerBase" width="530" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off">
+			<e:TabBar id="tab" x="0" y="2" anchorOffsetX="0" itemRendererSkinName="BtnTab1ZYCSSkin" width="624">
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="-3" paddingTop="16"/>
+				</e:layout>
+			</e:TabBar>
+			</e:Scroller>
+			<e:Group x="0" y="16" visible="false">
+			<e:Button id="leftBtnBase" y="0" icon="public_zycs_jtzs" skinName="Btn0Skin" label="" x="0" scaleX="-1"/>
+			<e:Button id="rightBtnBase" y="0" icon="public_zycs_jtzs" skinName="Btn0Skin" label="" x="535"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Button id="closeBtn0" label="" skinName="Btn0Skin" icon="public_zycs_Button_back" right="0" bottom="0"/>
+	<!--<e:Image y="0" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_世界BOSS\S-世界BOSS2.jpg" x="0" locked="true" visible="false"/>-->
+</e:Skin>

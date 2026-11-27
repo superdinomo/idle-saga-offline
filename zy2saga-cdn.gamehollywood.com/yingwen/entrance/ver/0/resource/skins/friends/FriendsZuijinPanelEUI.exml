@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendsZuijinPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="41" x="13" source="friends_zycs_bg1_jpg"/>
+	<e:Scroller scrollPolicyV="on" scrollPolicyH="off" width="696" x="12" y="78" height="921">
+		<e:List id="list_recent" itemRendererSkinName="FriendRecentListItemRenderEUI">
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+			<!--
+				
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+</e:Skin>

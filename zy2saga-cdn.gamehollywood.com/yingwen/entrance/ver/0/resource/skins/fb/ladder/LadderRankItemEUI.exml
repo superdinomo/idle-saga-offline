@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="698" height="65">
+	<e:Image width="100%" scale9Grid="7,8,43,49" source="zs_zycs_fengexian" y="63"/>
+	<e:Label id="rank" text="0" fontFamily="Times" size="20" width="53" textAlign="center" x="48" textColor="0xcdc8be" y="23"/>
+	<e:Image id="imgRank" source="jjc_zycs_no1" x="39" y="6"/>	
+	<e:Label id="roelName" text="0" fontFamily="Times" size="20" textAlign="center" width="165" x="324" textColor="0xcdc8be" y="23"/>
+	<e:Label id="point" fontFamily="Times" size="20" x="536" text="0" textAlign="center" width="121" textColor="0xcdc8be" y="23"/>
+	<e:Image id="icon" x="200" y="5" source="ladder_zycs_rank1a_png"/>
+	<e:BitmapLabel id="duanBmp" text="9" font="ladderyellow_1_fnt" x="222" y="26"/>
+</e:Skin>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChengHaoPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134" width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" horizontalCenter="0" anchorOffsetY="0" source="ch_zycs_bg_jpg"/>
+	<e:Image y="77" source="ch_zycs_chzsx" x="283"/>
+	<e:DataGroup id="attrsTotal" itemRendererSkinName="ChengHaoAttrItemEUI" x="158" y="131">
+		<e:layout>
+		<e:TileLayout horizontalGap="0" verticalGap="17" requestedRowCount="2" columnWidth="270" />
+		</e:layout>
+	</e:DataGroup>
+	<e:Label text="Title Stats will provide all characters of player with stats" y="255" size="24" textAlign="center" fontFamily="Times" textColor="0x9b9b9b" horizontalCenter="0"/>
+	<e:Scroller id="scroller" width="678" height="795" y="295" anchorOffsetY="0" horizontalCenter="-2">
+		<e:List id="list" itemRendererSkinName="ChengHaoItemEUI" useVirtualLayout="true">
+		
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<e:layout>
+			<e:VerticalLayout gap="11"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

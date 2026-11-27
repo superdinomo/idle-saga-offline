@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildInteRewardItemRendererEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="693" height="153">
+	<e:Image y="0" x="0" source="llcz_zycs_di01"/>	
+		<e:List id="list" x="187" itemRendererSkinName="ItemSkin" y="30" height="94">
+		<e:layout>
+			<e:HorizontalLayout gap="25" paddingLeft="0"/>
+		</e:layout>
+		</e:List>
+	<e:Label id="rankLabel" text="The 1st Place" x="64" fontFamily="Times" size="24" y="65" textColor="0xcdc8be"/>
+</e:Skin>

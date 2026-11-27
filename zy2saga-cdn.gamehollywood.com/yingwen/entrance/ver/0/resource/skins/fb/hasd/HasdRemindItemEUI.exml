@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HasdRemindItemEUI" height="50" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Label id="bossName" text="0" y="13" fontFamily="Times" size="20"  textColor="0x5ac832" textAlign="center" left="19"/>
+	<e:Label id="levelShow" text="0" y="13" fontFamily="Times" size="20"  textColor="0xcdc8be" textAlign="center" horizontalCenter="-61"/>
+	<e:Label id="txt" x="406" fontFamily="Times" size="22" textColor="0xDB7021" verticalCenter="-0.5" text="Haven’t met the challenge level" visible="false"/>
+	<e:CheckBox id="checkBoxs" label="Remind upon respawning" x="383" skinName="CheckBoxEUI" scaleX="1" scaleY="1"
+	            anchorOffsetX="0" anchorOffsetY="0"  y="8"/>
+	<e:Image y="48" touchEnabled="false" source="zs_zycs_fengexian" horizontalCenter="0"/>
+</e:Skin>

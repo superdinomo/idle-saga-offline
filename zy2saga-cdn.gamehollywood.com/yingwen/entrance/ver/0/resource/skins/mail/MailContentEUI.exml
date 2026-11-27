@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MailContentEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group id="group" verticalCenter="0" horizontalCenter="0" width="720" height="866">
+		<e:Image y="0" x="0" source="public_zycs_dikuang" scale9Grid="85,63,15,9" width="720" height="866"/>
+		<e:Image y="-16" source="zhaunsheng_zycs_bt2" x="223"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637" y="0"/>
+		<e:Image y="92" source="public_zycs_tsk1" scale9Grid="24,33,22,19" height="624" width="636" x="42"/>
+		<e:Scroller height="317" y="119" anchorOffsetX="0" anchorOffsetY="0" x="60" width="600">
+			<e:Group anchorOffsetY="0" height="615">
+			<e:Label id="textLabel" text="" fontFamily="Times" size="24" anchorOffsetY="0" scaleX="1" scaleY="1" width="600" anchorOffsetX="0" textColor="0xE6DCB8" lineSpacing="5"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Image y="439" source="yj_zycs_fj" horizontalCenter="0"/>
+		<e:Image y="440" source="liuguang_zycs_huawen" x="142"/>
+		<e:Image y="440" source="liuguang_zycs_huawen" scaleX="-1" x="578"/>
+	<e:Image y="13" anchorOffsetX="0" anchorOffsetY="0" source="yj_zycs_yjnr" horizontalCenter="0"/>
+	<e:Scroller id="Scrollerlist" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0" verticalCenter="153">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			<e:layout>
+				<e:TileLayout horizontalGap="27" requestedColumnCount="5" verticalGap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+		<e:Label id="desc" text="There is no attachment in this mail" y="537" size="24" textAlign="center" fontFamily="Times" textColor="0xaf9b73" horizontalCenter="0"/>
+		<e:Button y="744" label="Claim" id="receiveBtn" horizontalCenter="0.5" skinName="BtnMin1_1"/>
+</e:Group>
+</e:Skin>

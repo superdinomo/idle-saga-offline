@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildMemberRenderEUI" width="678" height="143" currentState="s6vs43210" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" states="s6vs43210,s6VSs5,s012345VSs6,snVSsn,s5VS43210" >
+	<e:Image x="0" y="0" width="100%" height="100%" source="qianghua_zycs_kuang4" scale9Grid="33,35,32,29"/>
+	<e:Image source="hddt_zycs_bsk1" x="24" y="10"/>
+	<e:Image id="imgHead" x="43" source="mianui_zycs_zhanshi0" y="28"/>
+	<e:Label id="labelOffice" text="Play" x="150" y="25" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Label id="labelGongxian" text="Play" x="150" y="63" fontFamily="Times" size="20" textColor="0xaf9b73"/>
+	<e:Label id="labelPower" text="Play" x="150" y="98" fontFamily="Times" size="20" textColor="0xaf9b73"/>
+	<e:Label id="labelOnLine" text="Play" x="409" y="62" fontFamily="Times" size="20" textColor="0x13CE0C" textAlign="center"/>
+	<e:Button id="btnTanhe" x="527" width="100" height="50" visible.s6vs43210="false" visible.s6VSs5="false" visible.snVSsn="false" visible.s5VS43210="false" y="47" label="Impeach" skinName="BtnMin1_1mid"/>
+	<e:Button id="btnShanrang" x="527" width="100" height="44" visible.s6vs43210="false" visible.s012345VSs6="false" visible.snVSsn="false" visible.s5VS43210="false" y="20" label="Transfer" skinName="BtnMin1_1mid"/>
+	<e:Button id="btnJiangzhi" x="527" width="100" height="44" visible.s6vs43210="false" visible.s012345VSs6="false" visible.snVSsn="false" visible.s5VS43210="false" y="79" label="Demote" skinName="BtnMin1_1mid"/>
+	<e:Button id="btnTichu" x="527" width="100" height="44" visible.s6VSs5="false" visible.s012345VSs6="false" visible.snVSsn="false" y.s5VS43210="47" y="20" label="Kick" skinName="BtnMin1_1mid"/>
+	<e:Button id="btnRenming" x="527" width="100" height="44" visible.s6VSs5="false" visible.s012345VSs6="false" visible.snVSsn="false" visible.s5VS43210="false" y="79" label="Appoint" skinName="BtnMin1_1mid"/>
+	
+</e:Skin>

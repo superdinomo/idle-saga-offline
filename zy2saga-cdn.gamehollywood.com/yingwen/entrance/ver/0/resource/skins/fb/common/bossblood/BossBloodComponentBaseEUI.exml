@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BossBloodComponentBaseEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Image id="hpBg" anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" source="xt_zycs_k2" width="331" height="19"/>
+	<e:Image id="grayImg" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="xt_zycs_xt7" width="331" height="18" fillMode="repeat"/>
+	<e:Image id="imgHp" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" width="331" height="18" fillMode="repeat" source="xt_zycs_k2"/>
+	<e:Label id="label_hp" text="0" scaleX="1" scaleY="1" size="14" fontFamily="Microsoft YaHei" textColor="0xffbe3f" y="3" horizontalCenter="0"/>
+	<e:Group id="bloodTipsGroup" x="292" y="1">
+		<e:BitmapLabel id="hpxBmp" y="0" x="0" text="X99" font="qmnum_fnt"/>
+	</e:Group>
+</e:Skin>

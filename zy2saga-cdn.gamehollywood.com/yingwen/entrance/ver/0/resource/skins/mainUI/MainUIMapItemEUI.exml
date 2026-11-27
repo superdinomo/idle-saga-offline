@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUIMapItemEUI" currentState="main" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="main,fuben,nonamefuben" >
+	<w:Config id="15e5704a722" />
+	<e:Group id="groupMap" width="217" anchorOffsetY="0" anchorOffsetX="0" height="114" visible.nonamefuben="false" visible.fuben="false">
+		<e:Image id="imgBg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="-37" y="0"  source="mianui_zycs_huicheng_kuang" right.main="0"/>
+		<e:Button id="btnCity" icon="mianui_zycs_huicheng" skinName="Btn0Skin" x="129" y="1" />
+		<e:Group y="29" right="95">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="0" y="0" source="zycs_320000"/>
+			<e:Label id="labelExp" text="100000" size="18" fontFamily="Times" textAlign="left" anchorOffsetY="0" scaleX="1" scaleY="1" anchorOffsetX="0" verticalAlign="middle" touchEnabled="false" textColor="0x5ac832" y="9" right.main="94" y.main="39" x="35"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="-4" right="95">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="0" y="0" source="zycs_320006"/>
+			<e:Label id="labelGold" text="100000" size="18" fontFamily="Times" textAlign="left" anchorOffsetY="0" scaleX="1" scaleY="1" anchorOffsetX="0" verticalAlign="middle" touchEnabled="false" textColor="0x5AC832" y="10" includeIn="main" x="35"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom" gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupMap1" anchorOffsetY="0" anchorOffsetX="0" y="0" height="28" x="47" visible.nonamefuben="false" visible.main="false">
+		<e:Image id="imgNameBg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="0" y="0" source="public_zycs_fbd"/>
+		<e:Label id="labelMapName1" text="0" size="18" fontFamily="Times" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false" textColor="0xB09059" y="3" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

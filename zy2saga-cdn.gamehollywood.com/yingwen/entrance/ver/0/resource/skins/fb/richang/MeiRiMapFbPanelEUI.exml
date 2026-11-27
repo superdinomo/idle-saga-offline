@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MeiRiMapFbPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1280"  states="state1,state2" >
+	<w:Config id="1586bf85aa4" />
+	<e:Group id="group" touchEnabled="false" horizontalCenter="0" bottom="214" height.state1="88" height.state2="58">
+		<e:Image touchEnabled="false" fillMode="repeat" x="0" y="0" source="rc_zycs_di1" visible.state2="false"/>
+		<e:Image touchEnabled="false" fillMode="repeat" x="0" y="0" source="rc_zycs_di" visible.state1="false"/>
+		<e:Label id="lbTime" y="5" text="Time Remain:" fontFamily="Times" size="20" touchEnabled="false" textAlign="left" x="9" textColor="0xf0f0f0"/>
+		<e:Label id="lbCount" y="34" text="Killed Monsters: 0" fontFamily="Times" size="20" touchEnabled="false" textAlign="left" x="9" textColor="0xf0f0f0" />
+		<e:Label id="lbReward" text="Total Gain" fontFamily="Times" size="20" touchEnabled="false" textAlign="left" x="9" visible.state2="false" textColor="0xf0f0f0" y="63"/>
+	</e:Group>
+</e:Skin>

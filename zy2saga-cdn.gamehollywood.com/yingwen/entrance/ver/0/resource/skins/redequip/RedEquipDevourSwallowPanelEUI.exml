@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipDevourSwallowPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<w:Config id="15d981d06da"/>
+
+	<e:Image id="bg" source="zhzh_zycs_tsbg_jpg" horizontalCenter="0" y="40"/>
+
+
+
+	<e:Scroller width="698" height="457" x="13" y="532" anchorOffsetX="0" scaleX="1" scaleY="1" anchorOffsetY="0">
+		<e:List id="list" x="40" anchorOffsetY="0" height="387.88" itemRendererSkinName="RedEquipDevourSwallowItemEUI">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:TileLayout paddingLeft="-1" requestedColumnCount="4" paddingTop="24" paddingRight="-21" verticalGap="16"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnOneKeyDevour" y="452" label="Devour All" skinName="BtnMin1_2mid" horizontalCenter="0"/>
+	<e:Button id="btnOneKeySelect" y="452" label="Select All" skinName="BtnMin1_2mid" horizontalCenter="0"/>
+
+
+
+	<e:Component id="grid0" x="361" y="171" skinName="RedEquipDevourGridItemEUI" scaleX="1" anchorOffsetX="49" anchorOffsetY="49"/>
+	<e:Component id="grid1" x="361" y="171" skinName="RedEquipDevourGridItemEUI" anchorOffsetX="49" anchorOffsetY="49"/>
+	<e:Component id="grid2" x="361" y="171" skinName="RedEquipDevourGridItemEUI" anchorOffsetX="49" anchorOffsetY="49"/>
+	<e:Component id="grid3" x="361" y="171" skinName="RedEquipDevourGridItemEUI" anchorOffsetX="49" anchorOffsetY="49"/>
+	<e:Component id="grid4" x="361" y="171" skinName="RedEquipDevourGridItemEUI" scaleY="1" anchorOffsetX="49" anchorOffsetY="49"/>
+	<e:Component id="mainGrid" width="180" height="180" y="81" horizontalCenter="0" skinName="RedEquipDevourMainGridItemEUI"/>
+	<e:CheckBox id="chkDoubleConfirm" label="Double Confirm" x="457" y="468" skinName="CheckBoxEUI1"/>
+
+
+
+	<e:Group width="720" height="67" x="0" y="362" anchorOffsetY="0">
+		<e:Image id="imgGuideTip" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" source="zhzh_zycs_json.zhzh_zycs_wztx1"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

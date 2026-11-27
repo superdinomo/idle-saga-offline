@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleOpenTipsItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="117" height="181">
+	<e:Image id="imgBG" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="10,10,64,64" verticalCenter="-38.5" horizontalCenter="0.5" source="public_zycs_daojukuang_01"/>
+	<e:Image id="imgIcon" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-41.5" horizontalCenter="0" source=""/>
+	<e:Label id="lbSkillName" y="102" text="Skill Name" fontFamily="Times" size="20" touchEnabled="false" textAlign="center" textColor="0xe6dcb8" horizontalCenter="0"/>
+	<e:Label id="lbDesc" y="127" text="0" fontFamily="Times" size="20" touchEnabled="false" textColor="0x23CA23" horizontalCenter="0.5" textAlign="center"/>
+</e:Skin>

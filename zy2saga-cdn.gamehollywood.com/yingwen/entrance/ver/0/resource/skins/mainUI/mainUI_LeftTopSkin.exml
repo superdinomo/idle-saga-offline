@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mainUI_LeftTopSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1280">
+	<w:Config id="15e5704a722" />
+	<e:Group id="groupMap" width="217" anchorOffsetY="0" anchorOffsetX="0" y="46" right="1" height="114">
+		<e:Image id="imgBg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="-37" y="0"  source="mianui_zycs_huicheng_kuang"/>
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="-29" y="-1" source="mianui_zycs_huicheng_didian_button"/>
+		<e:Button id="btnCity" icon="mianui_zycs_huicheng" skinName="Btn0Skin" x="129" y="1" />
+		<e:Label id="labelMapName" text="World Map" size="18" fontFamily="Times" textAlign="center" anchorOffsetX="0"
+		         anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="true" textColor="0xb09059" y="5.5" x="8"  width="110"/>
+		<e:Label id="labelExp" text="100000" size="18" fontFamily="Times" textAlign="left" anchorOffsetY="0" scaleX="1"
+		         scaleY="1" anchorOffsetX="0" verticalAlign="middle" touchEnabled="false" textColor="0x5ac832" y="35"  right="94"/>
+	</e:Group>
+</e:Skin>

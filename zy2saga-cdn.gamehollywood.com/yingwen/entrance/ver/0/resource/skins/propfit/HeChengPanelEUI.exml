@@ -1,0 +1,19 @@
+<e:Skin class="HeChengPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="42" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="hc_zycs_bg_jpg" horizontalCenter="0"/>
+	<e:Scroller id="itemScroller" y="89" scrollPolicyH="off" maxHeight="1025" height="917" anchorOffsetX="0" horizontalCenter="0" anchorOffsetY="0">
+		<e:List id="itemList" itemRendererSkinName="HeChengTabItemEUI">
+			
+				
+					
+				
+			
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

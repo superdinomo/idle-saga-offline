@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SmsdBossItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="up,down" width="256" height="182">
+	<e:Image x="9" y="9" source="kfsd_zycs_bsxs" source.down="kfsd_zycs_bsxs1"/>
+	<e:Image x="0" y="0" visible.up="false" source="kfsd_zycs_bsxs2"/>
+	<e:Image y="10" x="61" source="public_zycs_yk"/>
+	<e:Image y="1" x="8" source="kfsd_zycs_zs"/>
+	<e:BitmapLabel id="bmpJ" text="13" y="69" font="qhnum_fnt" letterSpacing="0" horizontalCenter="-93"/>
+	<e:BitmapLabel text="r" y="46" font="qhnum_fnt" horizontalCenter="-91.5"/>
+	<e:Image id="imgHaeh"  source="" horizontalCenter="-9" verticalCenter="-22"/>
+
+
+	<e:Image y="111" x="9"  source="kfsd_zycs_jx"/>
+	<e:Label id="nameTxt" y="121" text="0" fontFamily="Times" size="20" textAlign="center" anchorOffsetX="0"
+	         horizontalCenter="-8" textColor="0xe6dcb8" />
+	<e:Label id="timeTxt" y="148" text="0.0.0" fontFamily="Times" size="20" textAlign="center"
+	          horizontalCenter="-8" textColor="0xf01414"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="23" top="4" />
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsFulingAttrItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down" >
+	<e:Image id="imgSelect" x="0" visible.up="false" source="ys_zycs_xz4"/>
+	<e:Image id="imgBg" source="ys_zycs_z0" x="4" y="4"/>
+	<e:Label id="lbAttr" text="Soulbind Stats" size="20" fontFamily="Times" textAlign="center" horizontalCenter="0" textColor="0xffffff" verticalCenter="0"/>
+	<e:Label id="lbLock" text="Element Gear reach 3 Star to unlock" size="24" fontFamily="Times" textAlign="center" horizontalCenter="0" textColor="0xf01414" y="26"/>
+</e:Skin>

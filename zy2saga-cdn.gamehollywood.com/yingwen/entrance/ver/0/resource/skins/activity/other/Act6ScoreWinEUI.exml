@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act6ScoreWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" source="public_zycs_dikuang" scale9Grid="83,62,16,9" x="0" width="546" height="724"/>
+		<e:Image y="-5" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="147"/>
+		<e:Image id="imgTitle" y="11" source="hddt_zycs_cbcjts" horizontalCenter="0"/>
+		<e:Image y="73" x="33" source="public_zycs_tsk1" scale9Grid="9,9,54,58" width="479" height="584"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="463" y="0"/>
+		<e:Scroller y="79" scrollPolicyH="off" height="569" width="462" x="41">
+			<e:List id="list" itemRendererSkinName="Act6ScoreItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+				
+					
+						
+						
+						
+						
+						
+					
+				
+			</e:List>
+		</e:Scroller>
+
+	</e:Group>
+
+</e:Skin>

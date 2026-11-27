@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShouYouYinJiComponentItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   width="11" height="11">
+	<w:Config id="171aaf648e1"/>
+	<e:Image id="star" y="0" source="mainui_zycs_hdk1"/>
+
+
+
+
+
+
+
+
+</e:Skin>

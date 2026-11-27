@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartBaoxiangWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group id="group" horizontalCenter="0.5" verticalCenter="-78" width="553" height="475">
+		<e:Image source="public_zycs_dikuang" width="100%" height="100%" scale9Grid="74,59,37,17"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+		<e:Image y="12" horizontalCenter="0" source="hwbz_zycs_jllq"/>
+		<e:Image width="494" source="public_zycs_tsk1" scale9Grid="22,52,20,12" horizontalCenter="0" top="80" bottom="146"/>
+		<e:Button id="closeBtn0" label="" x="469" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label id="labelMyScore" text="My Points: 0" x="50" y="86" fontFamily="Times" size="20" textColor="0xe3d7be"/>
+		<e:Label id="labelJifen" text="Please find below the personal points basic rewards: 1500 points" x="50" y="110" fontFamily="Times" size="20" textColor="0xff9b0f" width="445"/>
+			<e:List id="listAward" itemRendererSkinName="ItemSkin" y="166" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout gap="10"  paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+		<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>-->
+	</e:List>
+		<e:Label text="Points and rewards will be reset at 0:00 of every Monday" fontFamily="Times" size="20" textColor="0xE3D7BE" horizontalCenter="0" bottom="159"/>
+		<e:Button id="btnGet" label="Claim" skinName="BtnMin1_1" horizontalCenter="0" bottom="61"/>
+		<e:Button id="btnGetHui" label="Claim" skinName="BtnMin1_1" horizontalCenter="0" bottom="61" currentState="hui"/>
+		<e:Image id="imgYLQ" x="216" y="343" source="public_zycs_ylq"/>
+
+	</e:Group>
+</e:Skin>

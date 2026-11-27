@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnKfJJCEUI" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image visible.disabled="false" y="37" x="32" source="kf_zycs_kfjjc" source.up="kf_zycs_kfjjc" source.down="kf_zycs_kfjjc1"/>
+	<e:Image x="1" y="8" source="kf_zycs_dtbq" source.down="kf_zycs_dtbq1" visible.disabled="false"/>
+	<e:Image x="17" y="29" visible.disabled="false" source="kf_zycs_dtm1"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="180" y="46" visible.disabled="false"/>
+</e:Skin>

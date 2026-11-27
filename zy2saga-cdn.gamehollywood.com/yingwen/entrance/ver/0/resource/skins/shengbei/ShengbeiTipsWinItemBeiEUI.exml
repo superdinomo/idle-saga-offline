@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShengbeiTipsWinItemBeiEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="30"
+        width="200">
+	<e:Image id="imgIcon" touchEnabled="false" maxWidth="15" maxHeight="25" source="bxsb_zycs_ts" y="8"/>
+	<e:Label id="labelAttr" size="20" textColor="0xDFD1B5" fontFamily="Times" textAlign="left" text="HP" x="23" stroke="1" y="6"/>
+
+</e:Skin>

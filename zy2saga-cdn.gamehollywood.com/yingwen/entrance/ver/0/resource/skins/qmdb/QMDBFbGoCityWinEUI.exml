@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QMDBFbGoCityWinEUI" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="720">
+	<w:Config id="1586b13ea96" />
+	<e:Group top="102" right="1">
+		<e:Group id="groupGoCity" width="338" height="182" x="0" y="30">
+			<e:Image y="0" anchorOffsetX="0" scale9Grid="9,9,54,58" left="0" right="0" anchorOffsetY="0" source="mianui_zycs_yindao_kuang"/>
+			<e:Image y="61" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_yindao_jiantou" x="254" rotation="-90"/>
+			<e:Label text="Gather has ended\n tap to return to battle!" size="22" scaleX="1" scaleY="1" fontFamily="Times" x="186" textAlign="left" y="91" textColor="0xfffac8"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

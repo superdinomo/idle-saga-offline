@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ProgressBar4" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15bf798a322" fillMode="clip" scale9Grid="22,9,88,16"/>
+	<e:Image
+	         x="0" width="100%" source="zm_zycs_xtk" scale9Grid="20,8,3,14"/>
+	<e:Image id="thumb" fillMode="scale" anchorOffsetX="0" left="13" right="13" top="9" bottom="9" scale9Grid="21,1,131,11" source="zm_zycs_xt1"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle"           size="16" fontFamily="Times"           horizontalCenter="0" stroke="1" strokeColor="0x000000" height="16" text="0" textColor="0xc8be96" verticalCenter="-1"/>
+</e:Skin>

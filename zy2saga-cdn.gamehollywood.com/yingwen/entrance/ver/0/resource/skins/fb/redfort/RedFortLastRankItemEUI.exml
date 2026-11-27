@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortLastRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="693" height="153">
+	<w:Config id="1586b362dfe"/>
+	<e:Image y="0" x="0" anchorOffsetY="0" source="llcz_zycs_di01"/>
+	<e:Label id="rankTxt" size="20" fontFamily="Times" text="0" x="32" width="135" textAlign="center" y="67" textColor="0xe5d3b5"/>
+	<e:Image id="rankImg" source="jjc_zycs_no1" x="65" y="51"/>
+	<e:Label id="labName" size="24" fontFamily="Times" text="0" width="200" textAlign="center" y="65" x="247" textColor="0xe5d3b5"/>
+	<e:Label id="labNum" size="24" fontFamily="Times" text="0" width="180" textAlign="center" x="506" y="65" textColor="0xe5d3b5"/>
+
+
+</e:Skin>

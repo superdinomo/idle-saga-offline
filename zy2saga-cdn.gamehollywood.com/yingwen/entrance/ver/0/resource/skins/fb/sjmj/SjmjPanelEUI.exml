@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SjmjPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="42" source="sjmj_zycs_bg_jpg"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:CheckBox id="checkBox" x="27" y="768" skinName="CheckBoxEUI" label="Auto Replenish Miracle Point"/>
+	<e:ProgressBar id="hpBar" value="100" y="765" x="357" width="274" anchorOffsetX="0" skinName="ProgressBarEUI12"/>
+	<e:Button id="btnJia" x="642" y="765" skinName="Btn0Skin" icon="public_zycs_Button_jia"/>
+	<e:Image id="redPointJia" source="mainui_zycs_hongdian" x="668" y="756"/>
+
+
+	<e:Scroller id="scrollerBoss" y="56" x="2" width="717" height="697" bounces="false">
+		<e:List id="list" useVirtualLayout="false" itemRendererSkinName="SjmjFloorItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="-27" paddingRight="0" paddingTop="-19"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" y="52" source="sjmj_zycs_k4" x="17" locked="true"/>
+	<e:Scroller id="scroller" y="808" horizontalCenter="0" scrollPolicyV="off" scrollPolicyH="on" width="660">
+		<e:List id="tabList" useVirtualLayout="false" itemRendererSkinName="SjmjTypeItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="6"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+
+
+
+
+	<!--<e:Image y="-47" touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\Y_元素秘境\Y-元素秘境.jpg" locked="true"/>-->
+</e:Skin>

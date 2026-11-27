@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortLastRankPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="13" width="694" source="jiadian_zycs_di" scale9Grid="12,12,76,76" height="1049" y="42"/>
+	<e:Image y="43" source="public_zycs_cjx" x="13" width="694"/>
+	<e:Image y="45" x="218" source="public_zycs_sjx"/>
+	<e:Image y="45" x="508" source="public_zycs_sjx"/>
+	<e:Scroller id="scroller" x="14" width="693" height="939" y="87">
+		<e:List id="list" itemRendererSkinName="RedFortLastRankItemEUI" useVirtualLayout="true">
+		<e:layout>
+			<e:VerticalLayout gap="8"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="Scores Ranking" x="73" fontFamily="Times" size="20" y="49" textAlign="left" textColor="0xAF9B73"/>
+	<e:Label text="Player" x="342" fontFamily="Times" size="20" y="49" textAlign="left" textColor="0xAF9B73"/>
+	<e:Label text="Points" x="590" fontFamily="Times" size="20" y="49" textAlign="left" textColor="0xAF9B73"/>
+	<e:Label id="labDes" text="Previous Ranking is not available" fontFamily="Times" size="24" textAlign="left" textColor="0xe5d3b5" x="288" y="517"/>
+	<e:Label id="labMyRan" text="My Ranking: Not listed" fontFamily="Times" size="24" textAlign="left" textColor="0xe5d3b5" x="264" y="1047"/>
+</e:Skin>

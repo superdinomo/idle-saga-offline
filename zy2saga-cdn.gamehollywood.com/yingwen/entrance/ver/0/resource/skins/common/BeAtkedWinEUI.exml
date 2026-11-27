@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BeAtkedWinEUI" width="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1280">
+	<w:Config id="1586b13ea96"/>
+	<e:Image id="imgLeft" y="0" x="0" touchEnabled="false" source="public_zycs_gh" scaleX="1" scaleY="1" height="100%"/>
+	<e:Image id="imgRight" touchEnabled="false" source="public_zycs_gh" scaleX="1" scaleY="1" height="100%" rotation="180" right="0" top="0"/>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="VipComponentEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="117" height="56">
+	<w:Config id="15d981d06da"/>
+
+
+
+	<e:Group width="233" height="56" anchorOffsetX="117">
+		<e:Image source="mianui_zycs_viptips" x="0" y="0"/>
+		<e:BitmapLabel id="bmpLabelGuan" y="10" text="9" font="vipnum4_fnt" horizontalCenter="-44"/>
+		<e:Image x="133" y="9.5" source="mianui_zycs_dz"/>
+		<e:BitmapLabel id="bmpLabelVip" y="9" text="10" letterSpacing="-5" font="vipnum4_fnt" left="221"/>
+	</e:Group>
+
+
+</e:Skin>

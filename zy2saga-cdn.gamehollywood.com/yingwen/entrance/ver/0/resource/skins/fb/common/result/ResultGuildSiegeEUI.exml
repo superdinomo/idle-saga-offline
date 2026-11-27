@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultGuildSiegeEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="lost,win">
+	<w:Config id="15d0e19cdf1" />
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png" source.lost="js_zycs_qzh_png"/>
+		<e:Image x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png" source.lost="js_zycs_sb_png"/>
+		<e:Image y="272" includeIn="lost"  source="js_zycs_zjzl" horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="Claim" x="246" y="937" anchorOffsetX="0"
+		          anchorOffsetY="0"  icon="anz_zycs_lqjl" skinName="BtnMin1_6"/>
+		<e:Scroller height="440" y="466" anchorOffsetX="0" anchorOffsetY="0" visible.lost="false" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin" >
+				<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43" requestedColumnCount="4" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Component id="resultCreateRole" skinName="ResultCreateRoleEUI" horizontalCenter="0"  y="340" visible.win="false"/>
+		<e:Image x="98" y="418" source="js_zycs_hdwp" visible.lost="false"/>
+</e:Group>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildInteRewardInfoEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="209" source="bag_zycs_diwen" x="21"/>
+	<e:Image y="94" source="llcz_zycs_di02" x="8"/>
+	<e:Image y="59" source="public_zycs_di01" horizontalCenter="0"/>
+	<e:Label y="63" text="Roland Castle Capture Rewards" fontFamily="Times" size="24" textAlign="center" verticalAlign="middle" textColor="0xf5e65a" x="276"/>
+	<e:Image y="274" source="public_zycs_di01" x="217"/>
+	<e:Label y="278" text="Scores Ranking Rewards" fontFamily="Times" size="24" textAlign="center" verticalAlign="middle" textColor="0xf5e65a" x="288"/>
+	<e:Image x="98" source="llcz_zycs_llbz" y="160"/>
+	<e:List id="itemList" x="194" y="132" itemRendererSkinName="ItemSkin" height="94">
+		<e:layout>
+		<e:HorizontalLayout gap="25"/>
+		</e:layout>
+	</e:List>
+	<e:Scroller y="322" width="693" x="14" height="726">
+		<e:List id="list1" itemRendererSkinName="GuildInteRewardItemRendererEUI">
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>	
+</e:Skin>

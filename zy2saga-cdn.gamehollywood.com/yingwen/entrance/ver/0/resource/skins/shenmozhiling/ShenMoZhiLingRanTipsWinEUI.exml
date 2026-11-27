@@ -1,0 +1,24 @@
+<e:Skin class="ShenMoZhiLingRanTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720" height="1280">
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%"/>
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0"/>
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%"/>
+	<e:Group width="720" height="505" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="-50" x="159" source="jl_zycs_jhzs_png"/>
+		<e:Image y="13" x="300" source="tssd_zycs_jjcg"/>
+		<e:Image y="507" x="99" source="jl_zycs_dz_png"/>
+		<e:Component id="panelYuan" skinName="ShenMoZhiLingYuanPanelEUI" anchorOffsetX="0" y="71" horizontalCenter="-13" touchEnabled="false" touchChildren="false" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="imgStage" x="193" y="123" fillMode="clip" source="zuji_zycs_1"/>
+		<e:Image id="imgTitle" x="196" y="201" source="tssd_zycs_tssd"/>
+
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Image id="backGround" source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0" alpha="0.01" locked="true"/>
+
+</e:Skin>

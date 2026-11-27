@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act63RewardListTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="3" width="693">
+	<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" source="xb_zycs_gxbg_png" scale9Grid="86,118,521,7" top="0" bottom="12"/>
+		<e:Scroller  anchorOffsetX="0" width="576" anchorOffsetY="0" horizontalCenter="4.5" top="128" bottom="143" maxHeight="420" height="281">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" width="540" anchorOffsetX="0" x="-38" y="0">
+			
+				
+				
+				
+				
+				
+			
+				<e:layout>
+					<e:TileLayout requestedColumnCount="5" verticalGap="2" paddingLeft="15" paddingRight="15" paddingBottom="15" paddingTop="15" horizontalGap="18"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnDraw1" label="Draw Once" y="454" x="160" skinName="BtnMin1_1"/>
+		<e:Button id="btnDraw2" label="10x Draw" y="454" skinName="BtnMin1_2" x="384"/>
+		<e:Component id="itemConsume1" y="419" skinName="ComItemConsumeEUI" horizontalCenter="-111.5"/>
+		<e:Component id="itemConsume2" y="419" skinName="ComItemConsumeEUI" horizontalCenter="114.5"/>
+	</e:Group>
+</e:Skin>

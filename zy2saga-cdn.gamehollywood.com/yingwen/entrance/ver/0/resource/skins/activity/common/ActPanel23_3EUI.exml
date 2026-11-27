@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel23_3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="43" x="13" source="hddt_zycs_csk124_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_csk"/>
+	<e:Image y="775" pixelHitTest="true" touchEnabled="false" source="csk2_zycs_di" x="185"/>
+	<e:Group id="groupMC" width="0" height="0" y="760" x="430"/>
+	<e:Image y="320" pixelHitTest="true" touchEnabled="false" x="54" source="hddt_zycs_cskk"/>
+	<e:Image id="imgT" y="305" pixelHitTest="true" touchEnabled="false" x="603" source=""/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="363" x="89">
+		<e:List id="listBtn" itemRendererSkinName="ActItem23_3EUI">
+			<e:layout>
+				<e:VerticalLayout gap="47"/>
+			</e:layout>
+		
+			
+			
+			
+			
+			
+			
+			
+		
+		</e:List>
+	</e:Scroller>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" horizontalCenter="84" y="780">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="33" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+		
+			
+			
+			
+			
+		
+		</e:List>
+	</e:Scroller>
+	<e:Label y="185" text="Time Remain:" fontFamily="Times" size="24" x="36" lineSpacing="10" textColor="0xffffff"/>
+	<e:Label id="lbTime" y="185" text="0" fontFamily="Times" size="24" x="213" lineSpacing="10" textColor="0x13ee22"/>
+	<e:Button id="btnSend" y="961" label="Claim" skinName="BtnMin1_17" x="270"/>
+	<e:Button id="btnChongz" y="961" label="Top Up" skinName="BtnMin1_17" x="270"/>
+	<e:Image id="imgYlq" y="958" pixelHitTest="true" touchEnabled="false" source="public_zycs_ylq" x="299"/>
+	<e:Label id="lbChongz" text="Top-up Today: $100" fontFamily="Times" size="24" lineSpacing="10" y="931" textAlign="center" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Label id="lbDay" text="Top-up Days: 1/3" fontFamily="Times" size="24" lineSpacing="10" y="1041" width="239" textAlign="center" x="241" textColor="0xffffff"/>
+	<e:Image id="imgNeedDay" touchEnabled="false" source="csk2_zycs_t2" y="984" horizontalCenter="0.5"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<!--<e:Image touchEnabled="false" x="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\C_超时空计划2\C超时空计划2.jpg" y="-46" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BravePanelSkin" currentState="challenge" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" states="level,die,challenge,buy,nobuy,noChallenge"  height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="43" x="13" source="yzsd_zycs_bg_jpg"/>
+	<e:Image x="124" y="69" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="123,8,27,18" source="public_zycs_di01"/>
+	<e:Image y="94" scale9Grid="77,37,16,3" anchorOffsetY="0" right="19" source="fb_zycs_tybg_png"/>
+	<e:ProgressBar id="barhp" x="256" y="113" value="100" anchorOffsetX="0" anchorOffsetY="0" skinName="ProgressBarEUI1" slideDuration="0"/>
+	<e:Group id="groupBoss" x="273" y="587"/>
+	<e:Scroller y="122" height="490" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" x="505">
+		<e:List id="list" itemRendererSkinName="BravePanelItemSkin" anchorOffsetX="0" anchorOffsetY="0" >
+		<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>	<e:layout>
+			<e:VerticalLayout gap="-12"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+
+	<e:Label id="lbName" y="73" text="0" fontFamily="Times" size="24" lineSpacing="0" textColor="0xff9b0f"  horizontalCenter="-87"/>
+	<e:Label id="lbGuiShuName" y="164" text="0" fontFamily="Times" size="22" lineSpacing="0" textColor="0xFF9B0F" horizontalCenter="-91.5"/>
+	<e:Image y="631" x="313" source="qm_zycs_dlyl"/>
+	<e:Image y="657" anchorOffsetY="0" height="155" horizontalCenter="0" anchorOffsetX="0" source="public_zycs_dk01" scale9Grid="300,23,119,15"/>
+
+	<e:Label y="121" text="Remaining HP" fontFamily="Times" size="24" x="57" lineSpacing="0"  textColor="0xe6dcb8"/>
+	<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off" maxWidth="660" y="680" horizontalCenter="0.5">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+	<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>	<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="15" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+	<e:Label id="timeTxt" y="854" text="0" fontFamily="Times" size="22" lineSpacing="0"             horizontalCenter="-0.5" visible.level="false" visible.challenge="false" visible.buy="false" visible.nobuy="false" textColor="0xf01414" visible.noChallenge="false"/>
+	<e:Label id="lbLv" y="854" text="0" fontFamily="Times" size="22" lineSpacing="0"            textColor="0xf01414"  horizontalCenter="-0.5"  includeIn="level"/>
+	<e:Label y="854" text="Your rebirth level is too high. Your kill won’t drop any rewards" fontFamily="Times" size="22" lineSpacing="0" textColor="0xF01414" horizontalCenter="-0.5" visible.level="false" visible.die="false" visible.challenge="false" visible.buy="false" visible.nobuy="false"/>
+	<e:Group id="groupChallenge" y="824.66" width="300" visible.level="false" visible.die="false" x="210" visible.noChallenge="false">
+		<e:Button id="challengeBtn" label="Challenge" anchorOffsetX="0" anchorOffsetY="0"              y="31" scaleX="1" scaleY="1"  horizontalCenter="0" label.buy="Purchase Attempts" label.nobuy="Purchase Attempts" enabled.nobuy="false" visible.buy="false" visible.nobuy="false" skinName="BtnMin1_1" icon.challenge=""/>
+		<e:Button id="btnBuy" label="Purchase Attempts" anchorOffsetX="0" anchorOffsetY="0" y="31" scaleX="1" scaleY="1" enabled.nobuy="false" includeIn="buy,nobuy" skinName="BtnMin1_1" icon="" x="76"/>
+		<e:Component id="priceIcon" y="-6" skinName="PriceIconSkin" scaleX="1" scaleY="1" horizontalCenter="0" visible.nobuy="false" visible.challenge="false"/>
+		<e:Label id="labelCount" text="Challenge Attempts: 3/3" y="-2" size="20" fontFamily="Times" textAlign="left" verticalAlign="middle"              horizontalCenter="0" visible.buy="false" visible.nobuy="false" textColor="0x13ee22" horizontalCenter.challenge="1" y.challenge="-2"/>
+		<e:Label id="labelNoBuy" text="Purchase Attempts are used up today" y="-3" size="20" fontFamily="Times" textAlign="left" verticalAlign="middle" horizontalCenter="0" textColor="0xf01010" includeIn="nobuy"/>
+	</e:Group>
+	<e:Label id="labelSetting" y="875" text="Boss Reminder Settings" fontFamily="Times" size="24" textColor="0x5AC832" touchEnabled="true" x="461"/>
+	<!--<e:Image y="-47" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="300,23,119,15" x="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\Y_勇者圣殿\Y-勇者圣殿.jpg" locked="true" visible.nobuy="false" visible.die="false" visible.level="false"/>-->
+</e:Skin>

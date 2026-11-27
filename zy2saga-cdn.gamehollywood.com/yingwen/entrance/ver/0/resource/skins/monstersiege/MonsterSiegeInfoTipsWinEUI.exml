@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterSiegeInfoTipsWinEUI" width="720" height="1280" currentState="noCount" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*"  states="die,noCount,enter,ytz" >
+	<w:Config id="1586b3502a7"/>
+
+	<e:Group  horizontalCenter="0" y="175" anchorOffsetY="0" height="933" width="720">
+		<e:Image y="-11" x="0" anchorOffsetY="0" width="720" height="942" source="public_zycs_dikuang" scale9Grid="80,69,23,0"/>
+		<e:Image y="46" x="40" width="640" height="669" anchorOffsetY="0" source="public_zycs_tsk1" scale9Grid="37,33,12,6"/>
+
+
+		<e:Button id="closeBtn" label="" x="632" y="-20" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="-25" horizontalCenter="0.5" source="zhaunsheng_zycs_bt2"/>
+
+		<e:Image y="5" source="gwgc_zycs_gwxx" horizontalCenter="0.5"/>
+		<e:Image y="5" source="gwgc_zycs_gwxx" horizontalCenter="0.5"/>
+		<e:Image y="190" source="mwwc_zycs_shdbjl" x="286"/>
+		<e:Image y="194" source="liuguang_zycs_huawen" x="96"/>
+		<e:Image y="194" source="liuguang_zycs_huawen" x="612" scaleX="-1"/>
+		<e:Image y="342" source="liuguang_zycs_huawen" x="106"/>
+
+
+		<e:Image y="339" source="mwwc_zycs_shpm" x="310"/>
+		<e:Image y="342" source="liuguang_zycs_huawen" x="612" scaleX="-1"/>
+		<e:Label id="lbDesc" text="Siege Monsters can be challenged up to: 3 times\nSiege Monsters can be challenged up to: 3 times\nSiege Monsters can be challenged up to: 3 times" x="47" y="75" size="20" fontFamily="Times" textColor="0xe3d7be" lineSpacing="5" width="622"/>
+		<e:Label id="lbMonsterName" text="Monster Name" x="47" y="53" size="20" fontFamily="Times" textColor="0xE3D7BE" lineSpacing="5"/>
+		<e:Label id="lbBeActCount" text="Times being attacked: 2" x="451" y="170" size="20" fontFamily="Times" textColor="0x13ee22"/>
+		<e:Label id="lbZhengDunTimer" text="Regrouping: " y="170" size="20" fontFamily="Times" textColor="0xf01414" x="48"/>
+
+		<e:Scroller id="Scrollerlist" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="221" maxWidth="660">
+			<e:List id="listDaBiaoReward" itemRendererSkinName="ItemSkin">
+			<!--<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>-->
+			<e:layout>
+				<e:HorizontalLayout gap="18" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" y="364" maxWidth="660" height="351" width="640" scrollPolicyH="off" scrollPolicyV="auto" horizontalCenter="4">
+			<e:List id="listScoreRank" itemRendererSkinName="MonsterSiegeInfoTipsWinItemEUI"  height="303">
+			<!--<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>-->
+				<e:layout>
+					<e:VerticalLayout gap="-12"/>
+				</e:layout>
+
+			</e:List>
+		</e:Scroller>
+		<e:Label text="Damage Ranking Rewards will be issued via mails when the monster is regrouping " y="727" size="24" fontFamily="Times" horizontalCenter="0.5" textColor="0xff9b0f" width="606"/>
+
+		<e:Label id="lbCount" text="Remaining Challenge Attempts: 2/3 (Recovers one time after 99 seconds)" y="773" size="24" fontFamily="Times" horizontalCenter="0.5" textColor="0xe3d7be" width="607"/>
+		<e:Label id="lbYtz" text="Challenged" y="826" size="24" fontFamily="Times" horizontalCenter="0.5" textColor="0xFF9B0F"/>
+
+		<e:Button id="btnOk" label="ATK" y="820" anchorOffsetY="0" skinName="BtnMin1_1" icon="" horizontalCenter="0" touchEnabled.die="true" touchEnabled.noCount="true" enabled.noCount="false" enabled.die="false" label.ytz="Challenged" enabled.ytz="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	<!--<e:Image x="0" anchorOffsetX="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\M_魔物围城\M-魔物围城-副本入口弹窗1.jpg" locked="true" visible="false"/>-->
+
+</e:Skin>

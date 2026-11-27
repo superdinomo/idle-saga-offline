@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleRedBagWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280" states="send,rob" >		
+	<e:Group width="548" height="764" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="llcz_zycs_hb2_png"/>
+		<e:Image y="94" source="llcz_zycs_hb1" x="221"/>
+		<e:Image source="js_zycs_di_png" x="2" fillMode="clip" height="284" y="480"/>
+		<e:Image includeIn="rob" y="347" source="ldsz_zycs_sy" horizontalCenter="-33"/>
+		<e:Button id="send" skinName="Btn0Skin" icon="llcz_zycs_hbb" y="530" visible.rob="false" x="174"/>
+		<e:Button id="rob" skinName="Btn0Skin" icon="llcz_zycs_qhb" y="530" visible.send="false" x="174"/>
+		<e:Button id="closeBtn0" label="" x="489" y="0" skinName="Btn0Skin" icon="llcz_zycs_X"/>
+		<e:Image y="24" source="ldsz_zycs_lqjl" horizontalCenter="0"/>
+		<e:Label text="Total Red Packet Amount: " includeIn="rob" y="235" fontFamily="Times" size="24" x="93" textColor="0xe3d7be"/>
+
+		<e:Label id="priceLabel" size="24" fontFamily="Times" textAlign="left" text="0" x="321" touchEnabled="false" visible.send="false" y="234" textColor="0xfcfc5a" stroke="1" x.rob="390" y.rob="235"/>
+		<e:Component id="price" skinName="PriceIconSkin" includeIn="send" x="282" y="230"/>
+		<e:Image includeIn="rob" source="zycs_320002" x="352" y="231"/>
+		<e:Image y="276" includeIn="send" source="llcz_zycs_xian" x="48"/>
+
+		<e:Label text="Available Funds:" includeIn="send" y="233" size="24" fontFamily="Times" x="120" textColor="0xe3d7be"/>
+		<e:Label text="Amount" includeIn="send" x="53" y="361" size="30" fontFamily="Times" textColor="0xff9b0f"/>
+		<e:BitmapLabel id="remainBag" includeIn="rob" y="351" text="9" font="ldhbnum_fnt" x="313"/>
+
+		<e:Button id="btn3" label="" x="158" y="354" skinName="Btn0Skin" icon="public_zycs_j" includeIn="send"/>
+
+		<e:Button id="btn4" label="" includeIn="send" x="340" y="354" skinName="Btn0Skin" icon="public_zycs_jia"/>
+
+		<e:Button id="btn6" label="Maximum" includeIn="send" x="394" y="354" icon="public_zycs_max" skinName="Btn0Skin"/>
+
+		<e:Image includeIn="send" x="212" y="358" width="119" height="37" source="public_zycs_shurukuang" scale9Grid="18,7,69,11"/>
+
+		<e:TextInput id="num2" x="216" y="362" restrict="0-9" width="109" height="28" skinName="skins.TextInputSkin" visible.rob="false"/>
+	</e:Group>
+</e:Skin>

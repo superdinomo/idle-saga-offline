@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartGuildRankPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="692" height="137">
+	<e:Image id="bg" source="hwbz_zycs_di1" x="0" y="0" />
+	<e:Label id="rankTxt" text="4" size="45" textAlign="center" verticalCenter="0" textColor="0xf3d00b"
+	         horizontalCenter="-267"  fontFamily="Times"/>
+	<e:Image id="rankImg"  source="public_zycs_ranknum_1_a" horizontalCenter="-272" verticalCenter="0"/>
+	<e:Label id="eGuildName" text="Guild Name Seven Characters" size="24" y="10" x="222"  textColor="0xffffff" fontFamily="Times"/>
+	<e:Label id="sServer" text="S999." size="24" y="10" x="162"  textColor="0xf3d00b" fontFamily="Times"/>
+	<e:Label id="score" text="99999" textColor="0xF3D00B" size="24" y="10" x="554"  fontFamily="Times"/>
+	<e:List id="eList" itemRendererSkinName="ItemSkin" x="139" y="22">
+		<e:layout>
+			<e:HorizontalLayout gap="6"  paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Image id="scoreIcon" source="zycs_380050" scaleX="0.8" scaleY="0.8" x="523" y="9"/>
+</e:Skin>

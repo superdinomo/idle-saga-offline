@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChengJiuItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="678" height="164">
+	<e:Image width="100%" y="0" x="0" height="100%" source="qianghua_zycs_kuang4" scale9Grid="26,23,48,51"/>
+	<e:Image x="32" y="7" source="chengjiu_zycs_juxing_02"/>
+	<e:Label id="titleTF" text="0" x="15" y="13" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" width="261" height="22" textAlign="center" textColor="0xf5e65a"/>
+	<e:Label id="progressTF" text="0" y="108" size="20" fontFamily="Times" width="179" textAlign="center" textColor="0xcdc8be" x="499"/>
+	<e:Button id="sendBtn" x="519" y="43" skinName="BtnMin1_1" label="Claim"/>
+	<e:DataGroup id="list" itemRendererSkinName="ItemSkin" currentState="disabled" useVirtualLayout="false" x="128" y="54">
+		<e:layout>
+			<e:HorizontalLayout gap="22"/>
+		</e:layout>
+		</e:DataGroup>
+	<e:Image x="53" y="65" source="chengjiu_zycs_jiangli"/>
+</e:Skin>

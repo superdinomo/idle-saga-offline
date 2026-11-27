@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem34_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="134" width="694">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" scale9Grid="41,12,250,63" source="zs_zycs_fengexian" bottom="0"/>
+	<e:Label id="lbRank" text="99" fontFamily="Times" size="24" textAlign="left" textColor="0xffffff" y="55" width="87" x="33"/>
+	<e:Image id="imgRank" x="10" source="public_zycs_ranknum_1_a" verticalCenter="0.5"/>
+	<e:Label id="lbName" text="Miracle xXMoo MoralityXx" fontFamily="Times" size="20" y="43" textAlign="center" x="156" textColor="0xf5e65a"/>
+	<e:Label id="lbValue" text="Points: 99" fontFamily="Times" size="20" y="81" textAlign="center" textColor="0xcdc8be" x="156"/>
+	<e:Scroller x="362" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="15"/>
+			</e:layout>
+			
+				
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+</e:Skin>

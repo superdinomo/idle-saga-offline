@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" width="518">
+		<e:Image top="0" bottom="0" source="public_zycs_tips_png" scale9Grid="64,16,390,5"/>
+		<e:Image id="imgQualityBg" anchorOffsetX="0" source="zbxx_zycs_5" x="5" y="2"/>
+		<e:Button id="closeBtn0" label="" y="5" skinName="Btn0Skin" icon="public_zycs_cha" x="481"/>
+		<e:Component id="itemIcon" x="58" y="71" skinName="ItemSkin"/>
+		<e:Image y="15" source="tips_zycs_di" x="140"/>
+		<e:Label id="lbName" text="Gear Name" y="23" fontFamily="Times" size="24" textColor="0xFfFFFF" textAlign="center" width="404" x="57"/>
+		<e:Label id="lbLv" text="Use Level: 1" y="85" fontFamily="Times" size="24" textAlign="left" x="172" textColor="0xffffff"/>
+		<e:Label id="lbCount" text="Owned: 1" y="115" fontFamily="Times" size="24" textColor="0xFfFFFF" textAlign="left" x="172"/>
+		<e:Group x="20" top="211" bottom="308">
+			<e:Group x="0" y="0">
+				<e:Image x="-17" y="0" source="zbxx_zycs_xj"/>
+				<e:Label text="Item Description" y="4" fontFamily="Times" size="24" textAlign="left" x="-15" textColor="0xffb824"/>
+				<e:Label id="lbDesc" text="Activate or increase Artifact [Demon Wings] to provide the Character with " fontFamily="Times" size="20" textColor="0xFfFFFF" textAlign="left" x="2" lineSpacing="6" width="456" y="40"/>
+				<e:Label id="lbattr" text="Stats:\nStats:\nStats:" fontFamily="Times" size="20" textColor="0xFfFFFF" textAlign="left" x="2" lineSpacing="6" y="143"/>
+			</e:Group>
+			<e:Group id="groupTeSu" x="10" y="183" width="478">
+				<e:Image y="13" source="shenyou_zycs_tssx" x="169"/>
+				<e:Label id="lbTeSuAttr" text="Stats" fontFamily="Times" size="24" textColor="0xFFFFFF" textAlign="left" lineSpacing="6" horizontalCenter="0" bottom="-8" top="46"/>
+			</e:Group>
+			<e:Group id="groupGain" x="0" y="212">
+				<e:Image y="16" source="zz_zycs_hqtj" horizontalCenter="0"/>
+				<e:Image y="19" source="liuguang_zycs_huawen" scaleX="-1" x="478"/>
+				<e:Image y="19" source="liuguang_zycs_huawen" x="0"/>
+				<e:Group top="42" bottom="-5" horizontalCenter="0">
+				<e:List id="gainList" itemRendererSkinName="GainGoodsItemEUI" horizontalCenter="0">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+				</e:ArrayCollection>
+					<e:layout>
+					<e:TileLayout horizontalGap="35" horizontalAlign="center" requestedColumnCount="4"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Image x="18" source="shenqi_zycs_di2" bottom="249" rotation="270"/>
+		<e:Label text="Display" fontFamily="Times" size="24" textColor="0xFfFFFF" textAlign="left" x="42" bottom="259"/>
+		<e:Group id="groupMc" x="259" bottom="150" width="0" height="0" scaleX="0.7" scaleY="0.7">
+
+		</e:Group>
+		<e:Image top="0" bottom="0" scale9Grid="26,25,5,5" source="public_zycs_wk" width="100%" touchEnabled="false" locked="true"/>
+	</e:Group>
+</e:Skin>

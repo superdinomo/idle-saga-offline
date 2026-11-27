@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderChallengeWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586bde6cc9"/>
+	<e:Image source="public_zycs_greybg2" scale9Grid="1,1,1,1" right="0" top="0" bottom="0" left="0" width="640" height="1030" anchorOffsetX="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+	<e:Image x="0" y="0" source="dfwz_zycs_vsd_png"/>
+		<e:Label id="timeTxt" fontFamily="Times" size="24" y="18" text="0" textAlign="center" width="222" textColor="0xf5e654" x="249"/>
+		<e:Label id="myLevel" fontFamily="Times" size="24" y="40" text="Bronze Stage 5" textAlign="left" textColor="0xf5e654" right="521"/>
+		<e:Image y="133" x="73" source="qm_zycs_txk"/>
+		<e:Image y="238" source="hddt_zycs_jx" width="255" height="39" x="19"/>
+		<e:Label id="myName" fontFamily="Times" size="24" y="245" text="0" textAlign="center" textColor="0xf5e654" horizontalCenter="-213"/>
+		<e:Image id="myIcon" x="103" y="148" source="mianui_zycs_zhanshi0"/>
+		<e:Label id="otherLevel" fontFamily="Times" size="24" y="40" text="Bronze Stage 5" textAlign="right" textColor="0xf5e654" x="516"/>
+		<e:Image x="485" y="133" source="qm_zycs_txk"/>
+		<e:Image y="238" source="hddt_zycs_jx" width="255" height="39" x="433"/>
+		<e:Image id="otherIcon" x="515" y="148" source="mianui_zycs_zhanshi0"/>
+		<e:Label id="otherName" fontFamily="Times" size="24" y="245" text="0" textAlign="center" textColor="0xf5e654" horizontalCenter="201"/>
+		<e:Image id="scrollIcon" x="515" y="148" source="mianui_zycs_zhanshi0"/>
+		<e:Image id="maskImg" x="507" width="115" height="100" y="115" source="mianui_zycs_zhanshi0" visible="false"/>
+		<e:Label id="ingImg" fontFamily="Times" size="24" y="18" text="Matching..." textColor="0xf5e654" x="306"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="97" x="274" source="dfwz_zycs_v"/>
+		<e:Image y="142" x="264" source="dfwz_zycs_s"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LingQiYinJiPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image touchEnabled="false" x="13" y="41" source="lq_zycs_bg2_jpg"/>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="65" horizontalCenter="0">
+			<e:Image x="0" source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Component id="item0" y="97" touchEnabled="true" skinName="FuHunItemEUI" x="291"/>
+		<e:Component id="item1" y="246" touchEnabled="true" skinName="FuHunItemEUI" x="465"/>
+		<e:Component id="item2" y="385" touchEnabled="true" skinName="FuHunItemEUI" x="291"/>
+		<e:Component id="item3" y="246" x="117" touchEnabled="true" skinName="FuHunItemEUI"/>
+		<e:Label id="btnAttr" text="Total Bonus" x="619" y="588" size="20" textAlign="left" fontFamily="Times" textColor="0x11f51c"/>
+		<e:Image y="579" source="shenqi_zycs_sxjc" x="288"/>
+		<e:Image y="582" source="liuguang_zycs_huawen" scaleX="-1" x="615"/>
+		<e:Image y="582" source="liuguang_zycs_huawen" x="105"/>
+
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" horizontalCenter="0" y="639">
+			<e:layout>
+			<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:DataGroup>
+		<e:Scroller scaleX="0.8" scaleY="0.8" scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" horizontalCenter="0" y="840">
+			<e:List id="listConsume" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnSend" skinName="BtnMin1_1" x="286" y="938" label="Train"/>
+		<e:Button id="helpBtn" x="661" y="950" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	</e:Group>
+</e:Skin>

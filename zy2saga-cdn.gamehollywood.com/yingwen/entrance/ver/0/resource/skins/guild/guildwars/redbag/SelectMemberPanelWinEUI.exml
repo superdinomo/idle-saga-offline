@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SelectMemberPanelWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="-7" width="720" height="882">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Image y="30" source="llcz_zycs_xzcy" x="312"/>
+		<e:Button id="closeBtn0" label="" x="639" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Scroller width="682" x="19" height="652" y="99">
+			<e:List id="list" itemRendererSkinName="MemberItem3RendererEUI" useVirtualLayout="false">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	<e:Button id="sureBtn" y="768" skinName="BtnMin1_1" x="285" label="Confirm"/>
+	<e:Label id="chooseNum" text="Selected 9/9" x="95" y="797" size="20" fontFamily="Times" textColor="0xDFD1B5"/>	
+</e:Group>
+</e:Skin>

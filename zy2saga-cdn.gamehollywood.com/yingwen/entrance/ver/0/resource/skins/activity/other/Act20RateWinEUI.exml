@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act20RateWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0"  source="jsdd_zycs_di"/>
+		<e:Image id="imgTitle" y="11" horizontalCenter="0"  source="jsdd_zycs_glgs"/>
+		<e:Button id="closeBtn" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"  x="463"/>
+		<e:Scroller scrollPolicyH="off" height="432" x="34" y="88">
+			<e:List id="list" itemRendererSkinName="Act20RateWinItemEUI" anchorOffsetX="0" width="470">
+				<e:layout>
+					<e:VerticalLayout gap="12"/>
+				</e:layout>
+
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

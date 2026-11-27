@@ -1,0 +1,5 @@
+{"file":"card.png","frames":{
+"1":{"x":0,"y":104,"w":70,"h":102,"offX":5,"offY":0,"sourceW":80,"sourceH":102},
+"2":{"x":0,"y":0,"w":79,"h":102,"offX":0,"offY":0,"sourceW":80,"sourceH":102},
+"3":{"x":81,"y":0,"w":77,"h":102,"offX":1,"offY":0,"sourceW":80,"sourceH":102},
+"5":{"x":160,"y":0,"w":76,"h":102,"offX":2,"offY":0,"sourceW":80,"sourceH":102}}}

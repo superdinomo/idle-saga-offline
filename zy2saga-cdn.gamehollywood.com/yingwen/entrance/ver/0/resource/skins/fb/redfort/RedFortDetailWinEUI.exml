@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortDetailWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="-27">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Image y="69" source="public_zycs_cjx" width="695" x="13"/>
+		<e:Image y="72" x="235" source="public_zycs_sjx"/>
+		<e:Image y="72" x="461" source="public_zycs_sjx"/>
+		<e:Button id="closeBtn0" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Scroller id="scroller" height="676" y="104" scrollPolicyH="off" scrollPolicyV="on" width="698" x="11">
+		<e:List id="list" useVirtualLayout="true" itemRendererSkinName="RedFortDetailItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image id="title" y="30" source="csys_zycs_yszk" x="312"/>
+		<e:Label text="Player Name" x="83" fontFamily="Times" size="20" y="76" textAlign="left" textColor="0xff9b0f"/>
+		<e:Label text="Arrived Floor" x="309" fontFamily="Times" size="20" y="76" textAlign="left" textColor="0xff9b0f"/>
+		<e:Label text="Points" x="532" fontFamily="Times" size="20" y="76" textAlign="center" width="100" textColor="0xff9b0f"/>
+		<e:Label id="myCengTxt" text="My Floors" x="221" y="802" size="20" fontFamily="Times" textColor="0xcdc8be"/>
+		<e:Label id="myCountTxt" text="My Points " x="378" y="802" size="20" fontFamily="Times" textColor="0xcdc8be"/>
+	</e:Group>
+</e:Skin>

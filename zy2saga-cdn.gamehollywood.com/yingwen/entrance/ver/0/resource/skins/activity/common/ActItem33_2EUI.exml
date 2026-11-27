@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem33_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="134" width="694">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" scale9Grid="41,12,250,63" source="zs_zycs_fengexian" bottom="0"/>
+	<e:Label id="lbRank" text="99" fontFamily="Times" size="24" textAlign="center" textColor="0xffffff" y="55" width="87" x="33"/>
+	<e:Image id="imgRank" source="public_zycs_ranknum_1_a" verticalCenter="0.5" horizontalCenter="-273"/>
+	<e:Label id="lbName" text="Player Name Seven Characters" fontFamily="Times" size="24" y="38" textAlign="center" x="142" textColor="0xffffff"/>
+	<e:Label id="lbValue" text="Spent Vouchers: XXXXXX" fontFamily="Times" size="24" y="67" textAlign="center" x="142" textColor="0x13ee22"/>
+	<e:Scroller x="367" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="1" anchorOffsetX="0" width="318">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="15"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object qqqq="null"/>
+					<e:Object qqqq="null"/>
+					<e:Object qqqq="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			
+				
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+</e:Skin>

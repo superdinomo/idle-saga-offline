@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PataXYXFloorPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3"/>
+	<e:Image y="42" anchorOffsetX="0" anchorOffsetY="0" x="13" source="chengjiu_zycs_di_jpg"/>
+
+	<e:Group id="groupL" x="84" maxHeight="700" bottom="126">
+		<e:Component id="itemL0" skinName="PataXYXFloorPanelItemLEUI" scaleY="1"/>
+		<e:Component id="itemL1" skinName="PataXYXFloorPanelItemLEUI" scaleY="1"/>
+		<e:Component id="itemL2" skinName="PataXYXFloorPanelItemLEUI" scaleY="1"/>
+		<e:Component id="itemL3" skinName="PataXYXFloorPanelItemLEUI" scaleY="1"/>
+		<e:Component id="itemL4" skinName="PataXYXFloorPanelItemLEUI" scaleY="1"/>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Group id="groupR" x="404" maxHeight="840" bottom="126">
+		<e:Component id="itemR0" skinName="PataXYXFloorPanelItemREUI" scaleY="1"/>
+		<e:Component id="itemR1" skinName="PataXYXFloorPanelItemREUI" scaleY="1"/>
+		<e:Component id="itemR2" skinName="PataXYXFloorPanelItemREUI" scaleY="1"/>
+		<e:Component id="itemR3" skinName="PataXYXFloorPanelItemREUI" scaleY="1"/>
+		<e:Component id="itemR4" skinName="PataXYXFloorPanelItemREUI" scaleY="1"/>
+		<e:Component id="itemR5" skinName="PataXYXFloorPanelItemREUI" scaleY="1"/>
+		<e:layout>
+		<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupEntIty" width="0" height="0" x="196" y="158"/>
+	<e:Label id="lbLeft" text="2-3" size="24" fontFamily="SimHei" textAlign="center" textColor="0xFFFFFF" horizontalCenter="-170" y="1020"/>
+	<e:Label id="lbRight" text="2-3" size="24" fontFamily="SimHei" textAlign="center" textColor="0xFFFFFF" horizontalCenter="170" y="1020"/>
+</e:Skin>

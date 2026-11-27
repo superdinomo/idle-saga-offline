@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DaZaoEquipConsumeItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="107" height="107">
+	<e:Image id="imgBg" source="craft_zycs_k"/>
+	<e:Component id="itemTarget" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgPlus" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0" source="craft_zycs_jh"/>
+
+</e:Skin>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterSiegeLogTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*"  >
+	<w:Config id="1586b3502a7"/>
+
+	<e:Group verticalCenter="15.5"  horizontalCenter="0" width="720" height="912">
+		<e:Image y="30" x="0" anchorOffsetY="0" width="720" height="882" source="public_zycs_dikuang" scale9Grid="80,69,23,0"/>
+		<e:Image y="14" source="zhaunsheng_zycs_bt2" horizontalCenter="0.5"/>
+
+
+		<e:Button id="closeBtn" label="" x="632" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="44" horizontalCenter="0.5" source="mwwc_zycs_tzjl"/>
+		<e:Image y="118" x="40" width="640" height="620" source="public_zycs_tsk1" scale9Grid="9,9,54,58"/>
+
+
+
+
+
+
+
+
+
+		<e:Button id="btnOk" label="Confirm" y="771" anchorOffsetY="0" skinName="BtnMin1_1" icon="" horizontalCenter="-0.5"/>
+		<e:Label id="lbTimer" size="19" text="Only the player’s own challenge record will be counted, reset on Monday" fontFamily="Times" verticalAlign="justify" stroke="1" strokeColor="0x000000" y="91" horizontalCenter="0" textColor="0xe3d7be"/>
+		<e:Scroller width="640" height="612" y="118" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="auto" x="40">
+			<e:List id="list" x="-1" y="105" itemRendererSkinName="MonsterSiegeLogTipsWinItemEUI" anchorOffsetY="0" height="615">
+<!--				
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>	-->
+					<e:layout>
+				<e:VerticalLayout gap="7"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\M_魔物围城\M-魔物围城-挑战记录.jpg" visible="false"/>-->
+
+</e:Skin>

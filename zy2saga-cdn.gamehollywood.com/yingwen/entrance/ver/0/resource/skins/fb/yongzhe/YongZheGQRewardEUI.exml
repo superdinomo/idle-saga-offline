@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YongZheGQRewardEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15b806387d2"/>
+	<e:Label id="lbgq2" y="0" text="Unlock" fontFamily="Times" size="20" lineSpacing="0" textColor="0xE6DCB8" scaleX="1" scaleY="1" textAlign="center" touchEnabled="false" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Group width="95" height="120" y="27" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="false">
+		<e:Label id="itemname" y="98" text="Item Name" fontFamily="Times" size="20" lineSpacing="0" textColor="0xE6DCB8" scaleX="1" scaleY="1" textAlign="center" touchEnabled="false" horizontalCenter="0.5"/>
+		<e:Component id="gqReward2" y="1" skinName="ItemSkin" x="0" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Image id="red" touchEnabled="false" source="mainui_zycs_hongdian" y="3" x="71" scaleX="1" scaleY="1"/>
+		<e:Image id="imgState" touchEnabled="false" y="30" scaleX="1" scaleY="1" x="10" source="lilian_zycs_ylq1"/>
+	</e:Group>	
+</e:Skin>

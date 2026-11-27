@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainQiJiZhiLuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="143" height="142">
+	<w:Config id="15de428879c"/>
+	<e:Group id="group1" anchorOffsetX="0" anchorOffsetY="0" y="0" x="0">
+		<e:Image id="imgbg" y="0" anchorOffsetX="0" source="mianui_zycs_zyzl" horizontalCenter="0"/>
+		<e:Group id="groupMC" width="0" height="0" x="72" y="73"/>
+		<e:Image id="imgIcon" source="" y="3" horizontalCenter="0"/>
+		<e:Image id="imgTitle" y="90.76" horizontalCenter="3" source=""/>
+		<e:Label id="lbGuanqia" text="Label" y="121" size="20" fontFamily="Times" textColor="0xf5e65a" horizontalCenter="0.5" width="120" textAlign="center"/>
+	</e:Group>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="87" y="14"/>
+</e:Skin>

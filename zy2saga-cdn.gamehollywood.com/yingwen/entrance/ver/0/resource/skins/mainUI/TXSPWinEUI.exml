@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TXSPWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<w:Config id="15ddfc10774"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="zycs_txry_jpg"/>
+	</e:Group>
+</e:Skin>

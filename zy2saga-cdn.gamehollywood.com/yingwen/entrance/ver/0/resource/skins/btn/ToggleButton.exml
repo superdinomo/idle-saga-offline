@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ToggleButton" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1586b28ffb8"/>
+
+    <e:Image id="iconDisplay" verticalCenter="0" horizontalCenter="0" scaleX="1" scaleY="1" />
+
+
+
+
+
+
+ </e:Skin>

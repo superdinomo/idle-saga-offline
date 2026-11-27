@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GemSelectItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" width="678" height="174">
+	<w:Config id="1586b3502a7"/>
+	<e:Image horizontalCenter="0" left="0" anchorOffsetX="0" anchorOffsetY="0" height="176" right="0" top="0" source="qianghua_zycs_kuang4" scale9Grid="41,45,22,5"/>
+	<e:Component id="itemIcon" x="39" y="41" skinName="ItemSkin"/>
+	<e:Button id="upgradeBtn" label="Inlaid" x="510" skinName="BtnMin1_1" y="60"/>
+	<e:Image id="imageState" x="155" y="12" touchEnabled="false" source="guoshi_zycs_di"/>
+	<e:Label id="labelName" text="0" x="166" y="16" fontFamily="Times" size="24" textColor="0xf5ffff" width="200" textAlign="left"/>
+	<e:Label y="60" text="Level: " fontFamily="Times" size="20" x="165" textColor="0x9B8764" touchEnabled="false"/>
+	<e:Label y="96" text="Stats:" fontFamily="Times" size="20" x="165" textColor="0x9B8764" touchEnabled="false"/>
+	<e:Label id="levelTxt" y="60" text="0" fontFamily="Times" size="20" x="271" verticalAlign="justify" textColor="0xFFFFFF" touchEnabled="false"/>
+	<e:Label id="attrTxt" y="96" text="0" fontFamily="Times" size="20" x="271" verticalAlign="justify" textColor="0xFFFFFF" touchEnabled="false"/>
+	<e:Image id="imgyjb" y="-1" touchEnabled="false" x="593" source="equip_zycs_yizhuangbei"/>
+</e:Skin>

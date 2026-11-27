@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsLevelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="120" height="120">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgSelect" source="ys_zycs_xz1"/>
+	<e:Image x="17" y="18" source="ys_zycs_k1"/>
+	<e:Image id="imgStar" source="ys_zycs_sj0" verticalCenter="1" horizontalCenter="0"/>
+	<e:Label id="lbCount" text="1" y="89" size="20" fontFamily="Times" textAlign="left" lineSpacing="5" textColor="0xEBDCB4" x="97"/>
+	<e:Group id="groupMc" width="0" height="0" y="60" x="60"/>
+</e:Skin>

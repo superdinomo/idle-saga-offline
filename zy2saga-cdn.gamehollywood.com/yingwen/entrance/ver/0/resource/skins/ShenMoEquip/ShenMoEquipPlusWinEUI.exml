@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoEquipPlusWinEUI" width="720" height="1280" currentState="noact" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="act,noact,max" >
+	<w:Config id="1586b13ea96" />
+	<e:Group width="720" horizontalCenter="0" verticalCenter="-31">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png" width="720" height="882"/>
+		<e:Image y="388" source="qianghua_zycs_fenge" horizontalCenter="0" visible.noact="false" visible.max="false"/>
+		<e:Image y="400" touchEnabled="false" source="zs_zycs_fengexian" width="250" x="235" visible.act="false"/>
+		<e:Image y="433" scaleX="-1" source="public_zycs_di01" visible.noact="false" visible.max="false" x="504"/>
+		<e:Image y="114" scaleX="-1" source="public_zycs_di01" horizontalCenter="2"/>
+		<e:Image id="title" y="30" x="313" source="cbzb_zycs_tzjc"/>
+		<e:Button id="closeBtn" label="" x="639" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label id="lbCurTitle" y="120" text="Set Bonus" fontFamily="Times" size="20" touchEnabled="true" scaleX="1" scaleY="1" text.noact="Set Bonus" horizontalCenter="5" textColor="0xf5e65a"/>
+			<e:List id="listCurAttr" itemRendererSkinName="ShenMoEquipEquipAttrEUI" horizontalCenter="0" y="171">
+			<e:layout>
+				<e:TileLayout horizontalGap="7" verticalGap="5"/>
+			</e:layout>
+			</e:List>
+		<e:Label id="lbNextTitle" y="440" text="Set Bonus of Next Tier" fontFamily="Times" size="20" touchEnabled="true" scaleX="1" scaleY="1" visible.noact="false" visible.max="false" horizontalCenter="5" textColor="0xf5e65a"/>
+			<e:List id="listNextAttr" itemRendererSkinName="ShenMoEquipEquipAttrEUI" horizontalCenter="0" y="495" visible.max="false" visible.noact="false">
+			<e:layout>
+				<e:TileLayout horizontalGap="7" verticalGap="5"/>
+			</e:layout>
+			</e:List>
+	</e:Group>
+</e:Skin>

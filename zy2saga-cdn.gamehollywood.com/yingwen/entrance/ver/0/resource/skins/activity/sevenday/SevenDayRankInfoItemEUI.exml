@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SevenDayRankInfoItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="75" width="692">
+	<w:Config id="1586b362dfe"/>
+	<e:Image width="100%" source="zs_zycs_fengexian" x="0" bottom="0"/>
+	<e:Image id="rankImg" source="jjc_zycs_no2" x="63" y="12"/>
+	<e:Label id="rankTxt" size="20" fontFamily="Times" text="0" x="23" textColor="0xaf9b73" width="150" textAlign="center" y="28"/>
+	<e:Label id="nameTxt" size="20" fontFamily="Times" text="0" x="233" textColor="0xaf9b73" width="173" textAlign="center" y="28"/>
+	<e:Label id="countTxt" size="20" fontFamily="Times" text="0" x="469" textColor="0x1dae36" width="192" textAlign="center" y="28"/>
+</e:Skin>

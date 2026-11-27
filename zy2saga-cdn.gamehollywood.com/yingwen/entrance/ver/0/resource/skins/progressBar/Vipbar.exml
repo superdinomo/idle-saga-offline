@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Vipbar" minWidth="30" minHeight="12" xmlns:e="http://ns.egret.com/eui">
+	<e:Image scale9Grid="12,10,6,4" source="vip_zycs_jdtd" />
+	<e:Image id="thumb" x="76" anchorOffsetX="0" anchorOffsetY="0" source="vip_zycs_jdt"  y="16"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" text="0" size="20" fontFamily="Times" stroke="1"
+	         strokeColor="0x000000" horizontalCenter="0" verticalCenter="-3" bold="true" textColor="0xe6dcb8" />
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBaoLogsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Group horizontalCenter="0" verticalCenter="-34">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn" label="" x="632" y="10" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="28" x="312" source="czhb_zycs_lqjl"/>
+	
+		<e:Label text="Red Packet Total Value:" y="73" fontFamily="Times" size="20" scaleX="1" scaleY="1" x="47" textColor="0xe6dcb8"/>
+		<e:Component id="boostPrice1" y="69" skinName="PriceIconSkin" x="143"/>
+		<e:Label id="receiveCountTxt" text="0" y="105" fontFamily="Times" size="20" scaleX="1" scaleY="1" x="47" textColor="0xe6dcb8"/>
+		<e:Scroller id="scroller" x="18" y="137" height="706" width="691" anchorOffsetX="0" anchorOffsetY="0">
+			<e:DataGroup id="list" itemRendererSkinName="RedBaoLogItemEUI" currentState="disabled" useVirtualLayout="false">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:DataGroup>
+		</e:Scroller>
+</e:Group>
+</e:Skin>

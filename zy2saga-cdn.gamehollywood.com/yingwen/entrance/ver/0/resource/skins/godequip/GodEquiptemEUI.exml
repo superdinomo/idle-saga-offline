@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GodEquiptemEUI" currentState="act" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="unact,act"  width="137" height="140">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" horizontalCenter="0" verticalCenter="0" source="qianghua_zycs_kuang"/>
+	<e:Image id="imgSelect" touchEnabled="false" horizontalCenter="0" verticalCenter="0" source="qianghua_zycs_kuang2" visible="false"/>
+	<e:Image id="imgIcon" anchorOffsetX="37" anchorOffsetY="36" horizontalCenter="0" verticalCenter="0" source=""/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="104" y="6" source="mainui_zycs_hongdian"/>
+	<e:BitmapLabel id="bitLevel" y="29" text="r10" touchEnabled="false" x="26" font="tianmonum_fnt" letterSpacing="-3"/>
+
+</e:Skin>

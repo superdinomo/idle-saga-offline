@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlotXyxBarEUI" minWidth="30" minHeight="11" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetY="0" left="0" right="0" scale9Grid="51,21,337,13" source="wmly_mu_jdt1"/>
+	<e:Image id="thumb" anchorOffsetY="0" y="69" scale9Grid="47,3,282,18" right="28" left="28" source="wmly_mu_jdt0"/>
+	<e:BitmapLabel id="labelDisplay" y="35" font="xyx_mu_wmly_fnt" text="111" horizontalCenter="1"/>
+</e:Skin>

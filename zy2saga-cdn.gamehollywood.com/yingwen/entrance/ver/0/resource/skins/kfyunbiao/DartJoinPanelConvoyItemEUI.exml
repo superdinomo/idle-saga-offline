@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartJoinPanelConvoyItemEUI" width="670" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+	<e:Label id="eName" text="Player Name Seven Characters" size="24" textAlign="center" bold="false" y="8" fontFamily="Times" horizontalCenter="-236" textColor="0xf3d00b"/>
+	<e:Label id="eLv" text="Lv.80" size="24" textAlign="center" anchorOffsetX="0" y="8" horizontalCenter="-21" fontFamily="Times" textColor="0x13ee22"/>
+	<e:Label id="ePower" text="CP: 5000000000000" size="24" x="421.02" fontFamily="Times" y="8" textColor="0xf3d00b"/>
+
+
+
+</e:Skin>

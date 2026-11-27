@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel62_1CellItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" height="279">
+	<e:Group id="group" x="0" y="-146">
+		<e:Image id="imgBg" source="hddt_zycs_tai0" x="0" y="146"/>
+		<e:Image id="imgStartPos" x="138" y="23" source="hddt_zycs_qidian"/>
+		<e:Image id="imgIcon" anchorOffsetX="0" anchorOffsetY="0" y="184" source="public_zycs_pinzhi_02" scaleX="0.7" scaleY="0.7" x="122"/>
+		<e:Image id="imgEffect" y="103" source="hddt_zycs_guangxiao" x="83"/>
+		<e:Image id="imgEndPos" x="138" y="0" source="hddt_zycs_zhongdian"/>
+		<e:Image id="imgBox" x="113" y="175" source="hddt_zycs_tongguan"/>
+	</e:Group>
+	<e:Image id="imgClick1" anchorOffsetX="0" anchorOffsetY="0" y="42" source="public_zycs_pinzhi_02" x="90" width="124" height="58" alpha="0.01"/>
+	<e:Image id="imgClick2" anchorOffsetX="0" anchorOffsetY="0" y="21" source="public_zycs_pinzhi_02" x="132" width="38" height="100" alpha="0.01"/>
+	<e:Image id="imgClick3" anchorOffsetX="0" anchorOffsetY="0" y="62" source="public_zycs_pinzhi_02" x="61" width="187" height="14" alpha="0.01"/>
+</e:Skin>

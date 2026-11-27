@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BaseWinSkin2" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b349dbe" />
+	<e:Group horizontalCenter="0" verticalCenter="0" width="720" height="1280" touchEnabled="false">
+		<e:ViewStack id="viewStack" y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" width="0" height="0" touchEnabled="false"/>
+		<e:Group id="groupPage" x="47" y="1147" scaleX="1" scaleY="1" visible="false">
+			<e:Scroller id="scrollerBase" width="530" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off">
+			<e:TabBar id="tab" x="0" y="2" anchorOffsetX="0" itemRendererSkinName="BtnTab1ZYCSSkin" width="624">
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="-3" paddingTop="16"/>
+				</e:layout>
+			</e:TabBar>
+			</e:Scroller>
+			<e:Group x="0" y="16" visible="false">
+			<e:Button id="leftBtnBase" y="0" icon="public_zycs_jtzs" skinName="Btn0Skin" label="" x="0" scaleX="-1"/>
+			<e:Button id="rightBtnBase" y="0" icon="public_zycs_jtzs" skinName="Btn0Skin" label="" x="535"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

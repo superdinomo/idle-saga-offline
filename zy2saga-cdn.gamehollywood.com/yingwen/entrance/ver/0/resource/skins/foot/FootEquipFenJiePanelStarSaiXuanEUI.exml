@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FootEquipFenJiePanelStarSaiXuanEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="165"  height="39">
+	<e:Image id="imgBg" anchorOffsetX="0" source="zuji_zycs_fgx" y="38" horizontalCenter="0" width="136"/>
+	<e:Label id="lbDesc" text="1-Star and below" y="8" size="24" textColor="0xE3D7BE" fontFamily="Times" x="10"/>
+
+</e:Skin>

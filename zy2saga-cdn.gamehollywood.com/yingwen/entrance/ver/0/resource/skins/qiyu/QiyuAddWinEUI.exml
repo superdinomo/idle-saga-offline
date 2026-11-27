@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QiyuAddWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group id="group" y="550" horizontalCenter="0">
+		<e:Image y="0" x="0" source="qy_zycs_tmd"/>
+		<e:BitmapLabel id="bmpNum" x="148" y="7" text="+223" letterSpacing="-3" font="qynum_fnt"/>
+	</e:Group>
+
+</e:Skin>

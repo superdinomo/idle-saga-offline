@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleEquipItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="94" height="97">
+	<e:Image id="imgBG" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_daojukuang_01"/>
+	<e:Image id="imgEquipBg" x="4" y="2" anchorOffsetX="0" anchorOffsetY="0" source="role_zycs_0"/>
+	<e:Image id="imgColor" anchorOffsetX="0" anchorOffsetY="0" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="groupMc" y="44" x="47"/>
+	<e:Image id="imgIcon" anchorOffsetX="0" anchorOffsetY="0" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgPlus" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" source="public_zycs_jh1" horizontalCenter="0" visible="false"/>
+	<e:BitmapLabel id="bitlv" y="4" font="qianghuanum2_fnt" text="+10" right="6" visible="false"/>
+	<e:BitmapLabel id="bitRank" y="3" text="r12" font="zbjsnum_fnt" x="1" letterSpacing="-4"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="72" y="0" visible="false"/>
+	<e:Group x="4" y="71" height="16">
+		<e:Image id="imgStarBg" x="0" y="0" source="role_zycs_stardi"/>
+		<e:Group id="groupStart" x="1" y="1">
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>	
+	
+</e:Skin>

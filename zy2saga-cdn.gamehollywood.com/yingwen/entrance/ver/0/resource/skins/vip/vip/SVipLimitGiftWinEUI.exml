@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SVipLimitGiftWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="720" height="554" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="xslb_zycs_bg_png"/>
+		<e:Button id="closeBtn" label="" x="634" y="47" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:Group y="140" anchorOffsetX="0" width="107" anchorOffsetY="0" height="45" horizontalCenter="263.5">
+			<e:BitmapLabel id="bitZhe" x="0" y="5" font="xslbnum_fnt" text="1d2" letterSpacing="-7"/>
+			<e:Image x="59" y="0" source="xslb_zycs_zhe"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbDate" y="143" text=" later disappear" fontFamily="Times" size="20" lineSpacing="10" textColor="0x5AC832" right="191"/>
+		<e:Label id="lbDesc" y="392" text="Unlock higher discount after purchasing" fontFamily="Times" size="18" lineSpacing="10" textColor="0xffffff" right="358" strokeColor="0x000000" stroke="1"/>
+		<e:Scroller y="177" scrollPolicyH="off" x="288">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			
+				
+				<!--<e:Object ss="null"/>
+				<e:Object ss="null"/>
+				<e:Object ss="null"/>-->
+				
+			
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Component id="priceIconOld" y="307" skinName="PriceIconSkin" x="416"/>
+		<e:Component id="priceIconNew" y="337" skinName="PriceIconSkin" x="416"/>
+		<e:Button id="btnBuy" y="363" label="Purchase" skinName="BtnMin1_17" x="368"/>
+		<e:Scroller id="scrollerBase" width="403" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off" y="442" x="218">
+			<e:TabBar id="tab1" x="0" y="2" anchorOffsetX="0" itemRendererSkinName="BtnTab6ZYCSSkin" width="624">
+			
+				
+	
+			
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" paddingTop="5" paddingLeft="5" paddingRight="5" paddingBottom="5" gap="2"/>
+			</e:layout>
+			</e:TabBar>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

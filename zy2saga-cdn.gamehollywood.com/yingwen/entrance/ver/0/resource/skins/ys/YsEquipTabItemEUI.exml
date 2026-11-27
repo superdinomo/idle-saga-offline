@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsEquipTabItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<w:Config id="15d981d06da"/>
+
+
+	<e:Image id="imgSelect" visible.up="false" source="ys_zycs_xz3"/>
+	<e:Image id="imgIcon" x="6" y="5" source="ys_zycs_zb"/>
+	<e:Group id="groupMc" width="0" height="0" x="16" y="29"/>
+
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="85" y="15"/>
+</e:Skin>

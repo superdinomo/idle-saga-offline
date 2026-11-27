@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenDianZuZuiTimeWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1"/>
+	<e:Group y="285" horizontalCenter="0">
+		<e:Image height="28" y="0" source="public_zycs_greybg2" scale9Grid="2,2,16,16" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" right="-8" left="-5"/>
+		<e:Label id="lbTime" text="Until the next wave of monsters:00:50" y="4" size="20" fontFamily="Times" horizontalCenter="0.5" textColor="0x5ac832"/>
+	</e:Group>
+</e:Skin>

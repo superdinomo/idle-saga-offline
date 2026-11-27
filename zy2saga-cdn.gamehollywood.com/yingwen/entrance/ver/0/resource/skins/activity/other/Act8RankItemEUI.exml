@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act8RankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="694" height="60">
+	<e:Image id="imgRank" touchEnabled="false" source="public_zycs_ranknum_1" x="40" y="4"/>
+	<e:Image id="imgXwyd" touchEnabled="false" x="212" source="hfxf_zycs_xwyd" y="12"/>
+
+
+	<e:Label id="lbRank" fontFamily="Times" size="20" text="1" textColor="0xcdc8be" width="66" textAlign="center" x="42" y="20"/>
+	<e:Label id="lbName" fontFamily="Times" size="20" x="216" text="Not so fast yet" textColor="0xCDC8BE" y="20"/>
+	<e:Group id="groupNum" horizontalCenter="192" y="14">
+		<e:Label id="lbDec" fontFamily="Times" size="20" x="10" text="Cost Required" textColor="0xCDC8BE" textAlign="center" y="15"/>
+		<e:Image source="zycs_320002" x="69" y="0"/>
+		<e:Label id="lbNum" fontFamily="Times" size="20" x="0" text="999" textColor="0xCDC8BE" textAlign="center" y="5"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Image touchEnabled="false" source="zs_zycs_fengexian" width="100%" x="0" bottom="0"/>
+	
+</e:Skin>

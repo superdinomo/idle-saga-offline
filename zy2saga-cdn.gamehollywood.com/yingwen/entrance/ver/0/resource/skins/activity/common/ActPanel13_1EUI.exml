@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel13_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="buy,limit"  width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="40" x="14" source="hddt_zycs_fsqg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt"/>
+	<e:Label y="173" text="Time Remain:" size="20" x="32" lineSpacing="10" fontFamily="Times" textColor="0xffffff"/>
+	<e:Label id="date" y="174" text="0" fontFamily="Times" size="20" x="176" lineSpacing="10" textColor="0x23CA23"/>
+	<e:Image id="lbName" y="212" source="hddt_zycs_fsday_1" horizontalCenter="0.5"/>
+	<e:Scroller y="319" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="7">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			
+				
+					
+					
+					
+				
+			
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="40" paddingRight="40" paddingTop="40" paddingBottom="40" gap="96"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="imgRate" y="583" source="hddt_zycs_qgzk" x="112"/>
+	<e:Group x="284" y="620">
+		<e:Group x="0" y="0">
+			<e:Label text="Original Price: " x="0" y="1" size="24" fontFamily="Times" textColor="0x888786"/>
+			<e:Image id="imgZs1" touchEnabled="false" x="66" y="-5" source="zycs_320002"/>
+			<e:Label id="lbPrice1" size="24" fontFamily="Times" textAlign="left" text="0" touchEnabled="false" y="1" textColor="0x888786" left="186"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image y="10" source="zhuansheng_zycs_rx" scaleX="0.5" scaleY="0.5" anchorOffsetX="0" anchorOffsetY="0" height="22" left="3" right="0"/>
+	</e:Group>
+	<e:Group x="284" y="654">
+		<e:Label text="Current Price:" x="0" y="3" size="24" fontFamily="Times" textColor="0xcdc8be"/>
+		<e:Image touchEnabled="false" x="66" y="0" source="zycs_320002"/>
+		<e:Label id="lbPrice2" size="24" fontFamily="Times" textAlign="left" text="0" x="109" touchEnabled="false" y="3" textColor="0xEBDCB4"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbBuyCount" text="Remaining Purchase Amount: 1/1" y="792" size="24" fontFamily="Times" horizontalCenter="7" textColor="0xf5e65a"/>
+	<e:Label id="lbQuanFu" text="Remaining in Server: 1/1" y="825" size="24" fontFamily="Times" horizontalCenter="7" textColor="0xf5e65a"/>
+	<e:Button id="btnBuy" y="977" label="Purchase" skinName="BtnMin1_17" horizontalCenter="7" visible.limit="false"/>
+	<e:Label text="Maxed out" y="1003" size="24" fontFamily="Times" horizontalCenter="7" textColor="0xf01414" visible.buy="false"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

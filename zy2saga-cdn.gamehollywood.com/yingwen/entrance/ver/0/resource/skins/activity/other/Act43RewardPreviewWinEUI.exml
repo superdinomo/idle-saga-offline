@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act43RewardPreviewWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0" width="553" height="568">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1" source="public_zycs_dikuang" width="545" scale9Grid="84,61,24,10" height="566" y="3"/>
+		<e:Image y="74" source="public_zycs_tsk1" width="481" height="420" scaleX="1" scaleY="1" scale9Grid="9,9,54,58" horizontalCenter="0"/>
+		<e:Image y="-5" horizontalCenter="1" x="151" scaleX="1" scaleY="1" source="public_zycs_tyts"/>
+
+
+		<e:Image id="imgTitle" y="10"  source="xb_zycs_glgs" horizontalCenter="0"/>
+		<e:Button id="btnClose" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"  x="471"/>
+
+
+
+
+		<e:Label text="Tap blank space to close" y="589" fontFamily="Times" size="22" horizontalCenter="0.5" textColor="0xffffff"/>
+		<e:Scroller width="462" height="406" x="46" y="85" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list" width="491" itemRendererSkinName="Act43RewardPreviewItemEUI" y="2">
+				<e:layout>
+					<e:TileLayout horizontalGap="21" paddingLeft="11" paddingTop="6"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

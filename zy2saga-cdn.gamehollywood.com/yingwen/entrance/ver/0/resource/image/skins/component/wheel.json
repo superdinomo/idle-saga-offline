@@ -1,0 +1,4 @@
+{"file":"wheel.png","frames":{
+"wheel_ball":{"x":162,"y":203,"w":83,"h":82,"offX":0,"offY":1,"sourceW":83,"sourceH":83},
+"wheel_bg":{"x":1,"y":203,"w":159,"h":159,"offX":0,"offY":0,"sourceW":159,"sourceH":159},
+"wheel_direct":{"x":1,"y":1,"w":199,"h":200,"offX":5,"offY":4,"sourceW":210,"sourceH":210}}}

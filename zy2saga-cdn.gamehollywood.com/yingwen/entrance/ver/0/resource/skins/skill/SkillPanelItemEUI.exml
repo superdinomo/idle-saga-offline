@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SkillPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="142" height="150" states="normal,unAct" >
+	<e:Image id="imgBG" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="zz_zycs_k"/>
+	<e:Image id="imgIcon" source="" y="11" x="28" x.unAct="30" y.unAct="10"/>
+	<e:Group id="groupSelect" width="142" height="150" touchEnabled="false"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" x="91" y="75" source="peiyang_zycs_hui" visible.unAct="false"/>
+	<e:Label id="labelName" text="Skill Name" y="104" fontFamily="Times" size="24" horizontalCenter="0" textColor="0xe6dcb8" visible.unAct="false" visible="false"/>
+	<e:Label id="LabelLock" text="Activated by Main Quest" y="104" fontFamily="Times" size="24" horizontalCenter="0" textColor="0xE6DCB8" visible.normal="false" width="180" textAlign="center"/>
+	<e:ProgressBar id="progressBar" x="4" y="132" skinName="ProgressBarEUI11" visible.unAct="false"/>
+	<e:Label id="labelLevel" text="10" y="81" size="18" fontFamily="Times" visible.unAct="false" horizontalCenter="34"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" y="13" x="109" source="mainui_zycs_hongdian" visible="false"/>	
+	
+</e:Skin>

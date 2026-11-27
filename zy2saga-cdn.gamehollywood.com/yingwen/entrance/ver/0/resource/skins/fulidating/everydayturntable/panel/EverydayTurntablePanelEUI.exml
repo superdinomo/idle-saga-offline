@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EverydayTurntablePanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="12" source="hddt_zycs_mrzp_jpg" y="40"/>
+	<e:Image source="dljl_zycs_k_png" y="-58" touchEnabled="false" pixelHitTest="true" horizontalCenter="0"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="mrzp_zycs_bg2"/>
+	<e:Group x="25" y="194">
+		<e:Image id="img0" y="0" pixelHitTest="true" touchEnabled="false" x="368" source="mrzp_zycs_bg3" rotation="36" scaleX="1.1" scaleY="1.1"/>
+		<e:Image y="85" pixelHitTest="true" touchEnabled="false" x="560" id="img1" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1" rotation="72"/>
+		<e:Image id="img2" y="266" pixelHitTest="true" touchEnabled="false" x="665" rotation="108" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1"/>
+		<e:Image id="img3" y="474" pixelHitTest="true" touchEnabled="false" x="643" rotation="144" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1"/>
+		<e:Image id="img4" y="630" pixelHitTest="true" touchEnabled="false" x="503" rotation="180" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1"/>
+		<e:Image id="img5" y="675" pixelHitTest="true" touchEnabled="false" x="297" rotation="216" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1"/>
+		<e:Image id="img6" y="590" pixelHitTest="true" touchEnabled="false" x="105" rotation="252" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1"/>
+		<e:Image id="img7" y="409" pixelHitTest="true" touchEnabled="false" x="0" rotation="288" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1"/>
+		<e:Image id="img8" y="200" pixelHitTest="true" touchEnabled="false" x="21" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1" rotation="324"/>
+		<e:Image id="img9" y="45" pixelHitTest="true" touchEnabled="false" x="162" rotation="360" source="mrzp_zycs_bg3" scaleX="1.1" scaleY="1.1"/>
+	</e:Group>
+	<e:Group x="43" y="214">
+		<e:Component id="item0" y="50" x="335" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item1" y="140" x="461" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item2" y="273" x="497" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item3" y="406" x="458" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item4" y="491" x="335" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item5" y="491" x="205" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item6" y="407" x="78" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item7" y="273" x="38" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item8" y="140" x="73" skinName="EverydayTurntableItemEUI"/>
+		<e:Component id="item9" y="50" x="203" skinName="EverydayTurntableItemEUI"/>
+	</e:Group>
+	<e:Image id="pointer" y="529" pixelHitTest="true" touchEnabled="false" x="356" anchorOffsetX="59.87" anchorOffsetY="198" source="mrzp_zycs_bg1" scaleX="1.1" scaleY="1.1"/>
+	<e:Group y="512" horizontalCenter="0">
+		<e:Image pixelHitTest="true" touchEnabled="false" source="mrzp_zycs_bg4" bottom="0" scale9Grid="49,5,15,30" anchorOffsetX="0" height="35" width="66" x="0"/>
+		<e:Group y="0" x="62">
+			<e:BitmapLabel id="bmpRound" y="3" font="mrzpnum_fnt" text="3" letterSpacing="-1" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnDraw" label="Spin Now" y="969" horizontalCenter="-0.5" skinName="BtnMin1_1"/>
+	<e:Label id="lbTimes" text="x10" size="24" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" x="416" y="926"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Label text="You can only spin once a day, Now or Never!" size="24" textAlign="left" fontFamily="黑体" x="156" y="1054" textColor="0x13ee22"/>
+</e:Skin>

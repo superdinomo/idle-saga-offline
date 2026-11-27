@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderStarSkin" currentState="star5" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   states="star5,star4,star3,star0"  width="269" height="240">
+	<e:Group id="mcGruop" x="130" y="105">
+	</e:Group>
+	<e:Image y="26" source="ladder_zycs_wzbg_png" horizontalCenter="0"/>
+	<e:Image id="star0" y="130" includeIn="star5,star4,star3" source="chibang_zycs_star_02" x="17" y.star4="154" x.star4="31" x.star3="51" y.star3="171"/>
+	<e:Image y="171" id="star1" x="51" x.star3="111" y.star3="195" y.star4="190" x.star4="77" includeIn="star5,star4,star3" source="chibang_zycs_star_02"/>
+	<e:Image y="195" id="star2" x.star3="171" y.star3="171" x.star4="142" includeIn="star5,star4,star3" source="chibang_zycs_star_02" y.star4="190" x="111"/>
+	<e:Image y="171" id="star3" includeIn="star5,star4" y.star4="154" source="chibang_zycs_star_02" x.star0="175" x.star3="175" x.star5="171" x.star4="191" x="171"/>
+	<e:Image y="130" id="star4" includeIn="star5" source="chibang_zycs_star_02" x="205"/>
+	<e:Group id="iconGroup" x="134" y="96" scaleX="1" anchorOffsetX="103" anchorOffsetY="96" scaleY="1">
+		<e:Image id="icon" y="0" x="0" source="ladder_zycs_rank1_png"/>
+		<e:BitmapLabel id="duanBmp" y="106" text="9" x="104" font="ladderyellow_0_fnt" font.star4="ladderyellow_0_fnt" anchorOffsetX="13" anchorOffsetY="18"/>
+	</e:Group>
+</e:Skin>

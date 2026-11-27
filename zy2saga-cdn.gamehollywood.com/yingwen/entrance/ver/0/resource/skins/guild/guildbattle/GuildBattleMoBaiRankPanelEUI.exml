@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleMoBaiRankPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+
+	<e:Group width="720" horizontalCenter="0" y="0" height="1134">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image touchEnabled="false" source="ldsz_zycs_lzmbbg_jpg" x="13" y="34"/>
+
+
+
+		<e:Group id="groupMc" width="0" height="0" y="780" horizontalCenter="0"/>
+		<e:Image id="imgNameBg" touchEnabled="false" y="267" source="public_zycs_jx1" x="291" height="58" scale9Grid="61,18,13,4"/>
+		<e:Label id="lbGuildName" text="S1. First of the World" y="270" fontFamily="Times" size="24" horizontalCenter="0" textColor="0xF5E65A"/>
+
+		<e:Label id="lbName" text="S1. First of the World" y="298" fontFamily="Times" size="24" horizontalCenter="0" textColor="0xF5E65A"/>
+		<e:Image id="imgXwyd" y="341" source="ldsz_zycs_xwyd" x="288"/>
+		<e:Label id="lbAward" text="Each worship grants 1000 Diamonds" y="904" size="24" fontFamily="Times" horizontalCenter="0" textColor="0xFF9B0F"/>
+		<e:Label id="lbCount" text="Remaining Worship Attempts: X" y="1006" size="24" fontFamily="Times" horizontalCenter="0" textColor="0xFF9B0F"/>
+
+
+
+
+
+		<e:Button id="btnSend" y="940" label="Go Worship" skinName="BtnMin1_1" x="286"/>
+
+	</e:Group>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\L_领地圣战\L-领地圣战-领主膜拜2.jpg" y="-45" locked="true" visible="false"/>-->
+</e:Skin>

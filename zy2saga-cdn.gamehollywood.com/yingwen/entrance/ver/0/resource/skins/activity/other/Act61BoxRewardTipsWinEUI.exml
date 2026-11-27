@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act61BoxRewardTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" width="553" height="475">
+		<e:Image source="public_zycs_dikuang" width="100%" height="100%" scale9Grid="74,59,37,17"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+		<e:Image y="12" horizontalCenter="0" source="hddt_zycs_jlxq"/>
+		<e:Image width="494" source="public_zycs_tsk1" scale9Grid="22,52,20,12" horizontalCenter="0" top="80" bottom="146"/>
+		<e:Button id="closeBtn0" label="" x="469" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label id="lbScore" text="我的积分：9" x="50" y="103" fontFamily="SimHei" size="20" textColor="0xe3d7be"/>
+		<e:Label id="lbDesc" text="达到500积分可领取以下奖励" x="50" y="133" fontFamily="SimHei" size="20" textColor="0xff9b0f"/>
+			<e:List id="list" itemRendererSkinName="ItemSkin" y="150" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout gap="10"  paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+		<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>-->
+	</e:List>
+		<e:Label text="Reset after the event" fontFamily="SimHei" size="20" textColor="0xE3D7BE" y="304" horizontalCenter="0.5"/>
+		<e:Image id="imgYlq" x="216" y="343" source="public_zycs_ylq"/>
+		<e:Label id="lbWdb" text="Underintegration" y="373" fontFamily="SimHei" size="20" horizontalCenter="0" textColor="0xff0000"/>
+
+	</e:Group>
+</e:Skin>

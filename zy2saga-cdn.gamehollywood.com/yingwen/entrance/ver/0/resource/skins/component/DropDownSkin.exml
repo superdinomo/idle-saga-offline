@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DropDownSkin" minWidth="100" minHeight="31" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="327">
+	<e:ToggleButton id="btn" touchEnabled="true" label="" y="0"                  right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mainui_lt_zycs_sjx"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:TextInput id="textInput" height="35" y="0" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" right="35" left="0"/>
+	<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" left="0" right="0" top="35" scrollPolicyV="on" height="400">
+		<e:List id="list" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="DropDownItemSkin" scrollEnabled="true">
+			<!--
+				
+					<e:Object label="Data 1"/>
+					<e:Object label="Data 2"/>
+					<e:Object label="Data 3"/>
+					<e:Object label="Data 1"/>
+					<e:Object label="Data 2"/>
+					<e:Object label="Data 3"/>
+				
+			-->
+			<e:layout>
+				<e:VerticalLayout gap="0" horizontalAlign="justify" verticalAlign="justify"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

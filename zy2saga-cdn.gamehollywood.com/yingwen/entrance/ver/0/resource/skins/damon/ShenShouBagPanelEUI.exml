@@ -1,0 +1,13 @@
+<e:Skin class="ShenShouBagPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="720" height="1054">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1054" touchEnabled="false" source="public_zycs_dikuang" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3"/>
+	<e:Scroller id="scroller" width="688" height="963" anchorOffsetX="0" anchorOffsetY="0" x="15" y="45">
+		<e:List id="list" itemRendererSkinName="ShenShouItemEUI" currentState="disabled" useVirtualLayout="true" anchorOffsetY="0" anchorOffsetX="0" x="12" y="13">
+		<e:layout>
+			<e:TileLayout requestedRowCount="0" requestedColumnCount="0" orientation="rows" paddingLeft="10" paddingTop="10" horizontalGap="-20" verticalGap="-5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

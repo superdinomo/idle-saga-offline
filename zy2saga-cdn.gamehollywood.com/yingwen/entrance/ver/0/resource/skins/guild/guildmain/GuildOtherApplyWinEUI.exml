@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildOtherApplyWinEUI" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720">
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-27">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png" width="720" height="882"/>
+		<e:Image y="28"  source="zhanmeng_zycs_zmcy1" x="312"/>
+		<e:Scroller y="112" x="21" width="678" height="624">
+			<e:List id="list" itemRendererSkinName="GuildOtherApplyRenderEUI">
+				<e:layout>
+					<e:VerticalLayout gap="6"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn" label="" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"  x="637"/>
+		<e:CheckBox id="checkBox" x="148" y="781" scaleX="1" scaleY="1"  skinName="RadioButtonEUI" enabled="true"/>
+		<e:Label text="Auto Agree to join the guild: CP≥" x="183" y="786" size="20" fontFamily="Times"  textColor="0xe5d3b5"/>
+		<e:Image y="782" scale9Grid="6,6,3,3" width="210" height="27" x="454"  source="public_zycs_shurukuang" anchorOffsetX="0"/>
+		<e:TextInput id="textInput" x="454" y="782" width="210" height="27" text="0" skinName="skins.TextInputSkin"
+		              restrict="&quot;0-9&quot;" maxChars="11" anchorOffsetX="0"/>
+	</e:Group>
+</e:Skin>

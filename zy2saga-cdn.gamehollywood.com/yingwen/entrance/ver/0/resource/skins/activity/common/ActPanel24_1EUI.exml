@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel24_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="694" height="800">
+	<e:Image x="0" y="0" source="hddt_zycs_flbg_jpg" width="694" height="800"/>
+	<e:Image x="0" y="0" source="hddt_zycs_di8_jpg"/>
+	<e:Image x="496" y="142" source="public_zycs_sjx"/>
+	<e:Label y="85" text="Event Description:" fontFamily="Times" size="18" x="24" lineSpacing="10" textColor="0xFFFFFF"/>
+	<e:Label y="85" text="During event period, Top-up and spend certain amount of diamonds to claim rebate" fontFamily="Times" size="18" x="163" textColor="0xe5c552" width="506"/>
+	<e:Label y="123" text="Time Remain:" fontFamily="Times" size="18" x="24" lineSpacing="10" textColor="0xffffff"/>
+	<e:Label id="date" y="124" text="0" fontFamily="Times" size="18" x="152" lineSpacing="10" textColor="0x5AC832"/>
+	<e:Label id="lbChong" y="111" text="Top-uped: 500" fontFamily="Times" size="18" lineSpacing="10" textColor="0xffffff" x="561"/>
+	<e:Label id="lbXiao" y="133" text="Spent: 500" fontFamily="Times" size="18" lineSpacing="10" textColor="0xFFFFFF" x="561"/>
+	<e:Scroller y="174" scrollPolicyH="off" height="612" x="7" width="682">
+		<e:List id="list" itemRendererSkinName="ActItem24_1EUI">
+			<!--
+				
+					<e:Object ss="null"/>
+					<e:Object ss="null"/>
+					<e:Object ss="null"/>
+				
+			-->
+		</e:List>
+	</e:Scroller>
+</e:Skin>

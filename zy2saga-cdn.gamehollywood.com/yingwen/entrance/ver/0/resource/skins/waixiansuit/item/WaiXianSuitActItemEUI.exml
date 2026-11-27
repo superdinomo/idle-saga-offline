@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaiXianSuitActItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="224" width="210">
+	<e:Image id="imgBg" source="wxtz_zycs_kuang1" left="0" right="0" top="0" bottom="0" scale9Grid="56,54,51,39"/>
+	<e:DataGroup id="dataGroupAttrs" itemRendererSkinName="ComAttrItemEUI" y="50" horizontalCenter="15">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:DataGroup>
+	<e:Label id="lbCount" text="激活2件(2/5)" y="12" size="22" fontFamily="Times" horizontalCenter="0"/>
+	<e:Group id="group" y="134" horizontalCenter="0">
+		<e:Image id="imgRewardIcon" source="zycs_320002" x="0" y="0"/>
+		<e:Group x="0" y="0">
+			<e:Label id="lbRewardCount" text="+1999" y="6" size="22" fontFamily="Times"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnAct" label="Activate" y="170" skinName="BtnMin1_1small" horizontalCenter="0"/>
+	<e:Image id="imgYjh" source="wxtz_zycs_yijihuo" x="45" y="140"/>
+	<e:Image id="imgWjh" scale9Grid="56,54,51,39" source="wxtz_zycs_weijihuo" x="45" y="140"/>
+</e:Skin>

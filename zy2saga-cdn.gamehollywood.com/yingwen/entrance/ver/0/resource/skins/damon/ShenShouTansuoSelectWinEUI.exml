@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouTansuoSelectWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="sshq_zycs_bg4_jpg"/>
+		<e:Image fillMode="scale" y="43" source="ss_zycs_bg2_jpg" x="13"/>
+		<e:Button id="closeBtn" label="" x="639" y="-1" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="53" x="312" source="ss_zycs_tsbt"/>
+		<e:Image y="56" source="liuguang_zycs_huawen" scaleX="-1" x="593"/>
+		<e:Image y="56" x="127" source="liuguang_zycs_huawen"/>
+		<e:List id="listReward" x="141" y="121" itemRendererSkinName="ItemSkin">
+			<e:layout>
+			<e:HorizontalLayout gap="18"/>
+			</e:layout>
+		</e:List>
+		<e:Component id="itemReward" skinName="ItemSkin" x="481" y="121"/>
+		<e:Label id="labReward" text="90%" x="254" y="222" size="24" fontFamily="Times" textAlign="center" textColor="0x5ac832"/>
+		<e:Label id="labRate" text="90%" x="572" y="222" size="24" fontFamily="Times" textAlign="center" textColor="0x5ac832"/>
+		<e:Image y="275" x="21" source="ss_zycs_dwdt_png"/>
+		<e:Image fillMode="scale" y="282" source="ss_zycs_tsdw" x="312"/>
+		<e:Image source="jl_zycs_txk01" y="293" x="122"/>
+		<e:Image source="jl_zycs_txk01" y="293" x="284"/>
+		<e:Image source="jl_zycs_txk01" y="293" x="446"/>
+		<e:Image fillMode="scale" y="347" x="176" source="mianui_zycs_jh"/>
+		<e:Image fillMode="scale" y="347" x="338" source="mianui_zycs_jh"/>
+		<e:Image fillMode="scale" y="347" source="mianui_zycs_jh" x="500"/>
+		<e:List id="listTeam" y="301" itemRendererSkinName="ShenShouItemEUI" x="130">
+				
+<e:ArrayCollection>
+			
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		
+
+	
+</e:ArrayCollection>
+
+	<e:layout>
+			<e:HorizontalLayout gap="28"/>
+			</e:layout>
+		</e:List>
+		<e:Image y="460" x="24" source="ss_zycs_up"/>
+		<e:Image y="463" x="165" source="ss_zycs_xqjl"/>
+		<e:Image touchEnabled="false" scale9Grid="12,12,76,76" y="494" source="ss_zycs_bg3_jpg" x="13"/>
+		<e:Scroller y="496" width="636" height="380" x="42" scrollPolicyH="off" scrollPolicyV="auto">
+			<e:List id="list" itemRendererSkinName="ShenShouItemEUI">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="35" verticalGap="24"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="889" touchEnabled="false" source="ss_zycs_wzd" x="28"/>
+		<e:Label text="Select Time:" size="24" fontFamily="Times" y="907" textColor="0xCDC8BE" x="106"/>
+		<e:TabBar id="tab" selectedIndex="0" y="901" x="230" itemRendererSkinName="BtnTab3EUI">
+			<e:layout>
+			<e:HorizontalLayout gap="24"/>
+			</e:layout>
+		</e:TabBar>
+		<e:Button id="btnEnter" label="Explore Now" icon="" y="956" skinName="BtnMin1_2" x="287"/>
+	</e:Group>
+	<!--<e:Image fillMode="scale" y="-38" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神兽\S-神兽-探险-前往探险.jpg" locked="true" visible="false"/>-->
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem11_4EUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="up,down"  width="149">
+	<w:Config id="1586bd49103"/>
+	<e:Image y="0" x="0" source="czzg_zycs_tap2"/>
+	<e:Image y="0" visible.up="false" source="czzg_zycs_tap1" left="0"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="128" y="10"/>
+	<e:Image id="imgName" horizontalCenter.up="0.5" y.up="32" horizontalCenter="0" horizontalCenter.down="1"  source="wgzg_zycs_tz1" y="32" y.down="32"/>
+</e:Skin>

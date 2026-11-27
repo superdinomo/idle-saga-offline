@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem41_2SubEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Group x="0" y="0">
+		<e:Image id="itemBg" source="public_zycs_daojukuang_01" y="19.67" x="0"/>
+		<e:Group id="groupMC" width="0" height="0" x="47" y="64"/>
+		<e:Image id="itemBg0" source="bs_zycs_jh" width="94" height="97" x="0" y="16" alpha="0.01"/>
+		<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" width="94" height="94" x="0" y="19"/>
+		<e:Button id="btnRefresh" y="0" skinName="Btn0Skin" icon="hddt_zycs_xhdbsx" x="72"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WCLevelTabItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="168" height="106" states="up,down" >
+	<w:Config id="15d981d06da"/>
+
+	<e:Image touchEnabled="false" source="msbd_zycs_xz" visible.up="false"/>
+	<e:Image id="imgBg" touchEnabled="false" x="9" y="9" source="msbd_zycs_dt1"/>
+	<e:Image id="imgName" touchEnabled="false" x="19" y="19" source="msbd_zycs_id1"/>
+
+
+
+
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="0" x="148"/>
+
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildInteRankInfo2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="57" source="public_zycs_di01" x="217"/>
+	<e:Label y="61" text="Results of Previous Siege" fontFamily="Times" size="24" textAlign="center" verticalAlign="middle" textColor="0xf5e65a" x="288"/>
+	<e:Image y="209" source="bag_zycs_diwen" x="21"/>
+	<e:Image y="95" source="llcz_zycs_di02" x="8"/>
+	<e:Image y="144" x="135" source="llcz_zycs_zlzm"/>
+	<e:Image y="194" x="135" source="llcz_zycs_zlyy"/>
+	<e:Label id="guildName" y="150" text="0" fontFamily="Times" size="20" textAlign="center" verticalAlign="middle" x="253" textColor="0x998563"/>
+	<e:Label id="guildDes" y="198" text="Event End Guild Scores Ranking 1" fontFamily="Times" size="20" textAlign="center" verticalAlign="middle" x="253" textColor="0x998563"/>
+	<e:Image y="270" source="public_zycs_cjx" width="694" x="13"/>
+	<e:Image y="272" x="156" source="public_zycs_sjx"/>
+	<e:Image y="272" x="325" source="public_zycs_sjx"/>
+	<e:Image y="272" x="508" source="public_zycs_sjx"/>
+	<e:Label text="Ranking" size="20" fontFamily="Times" y="275" x="67" textColor="0xff9b0f"/>
+	<e:Label text="Guild" size="20" fontFamily="Times" y="275" x="220" textColor="0xff9b0f"/>
+	<e:Label text="Leader" size="20" fontFamily="Times" y="275" x="385" textColor="0xff9b0f"/>
+	<e:Label text="Points" size="20" fontFamily="Times" y="275" x="581" textColor="0xff9b0f"/>
+	<e:Scroller y="309" x="11" width="698" height="754">
+		<e:List id="list" itemRendererSkinName="GuildInteRankItemRendererEUI">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

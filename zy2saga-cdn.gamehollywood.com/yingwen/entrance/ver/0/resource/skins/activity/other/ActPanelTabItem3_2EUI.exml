@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanelTabItem3_2EUI" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="155" height="56">
+	<e:Image source="khsy_zycs_rwbtn1" visible.up="false"/>
+	<e:Image source="khsy_zycs_rwbtn2" y="10" visible.down="false"/>
+	<e:Image id="imgName" y="21" source="khsy_zycs_1" horizontalCenter="0" horizontalCenter.down="0" y.down="15"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="137" y="-2" y.up="9"/>
+
+</e:Skin>

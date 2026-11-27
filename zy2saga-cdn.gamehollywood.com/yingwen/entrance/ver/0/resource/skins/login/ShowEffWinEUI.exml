@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShowEffWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="-27">
+	<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:CheckBox id="checkLoopPlay" x="431" y="104" skinName="CheckBoxEUI" scaleX="0.8" scaleY="0.8" label="Play in Loop"/>
+		<e:Button id="closeBtn" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Button id="btnShowEff" label="Preview Effect" x="427" y="139" width="108" height="50" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_6"/>
+		<e:Label text="Special Effect Document" x="17" y="89.5" fontFamily="Times" size="20"/>
+		<e:Label text="Special Effect Preview" x="319" y="31.5" fontFamily="Times" size="20"/>
+		<e:Image x="130" anchorOffsetY="0" anchorOffsetX="0" y="137" source="mainui_lt_zycs_jx01" width="288" scale9Grid="82,13,105,12"/>
+		<e:EditableText id="textEffName" width="281" height="35" x="137" y="146" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="Special effect name" x="38" y="153.5" fontFamily="Times" size="20"/>
+		<e:Component id="dropDownBodyFoder" x="139" y="82" skinName="DropDownSkin" anchorOffsetX="0" width="273" anchorOffsetY="0" height="33"/>
+		<e:Group id="groupMc" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

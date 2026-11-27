@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultWinKfBossLoseEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<e:Group width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+	<e:Image x="0" y="0"  source="js_zycs_qzh_png"/>
+		<e:Image y="128" anchorOffsetY="0" source="js_zycs_sb_png" x="236"/>
+	<e:Button id="closeBtn" label="Exit"  anchorOffsetX="0" anchorOffsetY="0" y="928" icon="" x="244" skinName="BtnMin1_6"/>
+
+		<e:Image y="251" source="js_zycs_zjzl" horizontalCenter="0"/>
+		<e:Component id="resultCreateRole" y="462" skinName="ResultCreateRoleEUI" horizontalCenter="0"/>
+		<e:Image x="110" y="362" source="js_zycs_bgs"/>
+		<e:Label id="labelW" text="The owner’s attempts are used up, unable to gain rewards" fontFamily="Times" size="20" touchEnabled="false" textAlign="left" x="227" y="363" textColor="0xE6DCB8" width="287"/>
+		<e:Group id="groupHead" x="251" y="335">
+			<e:Image x="0" y="0" source="qm_zycs_txk"/>
+			<e:Image id="imgHead" x="30" y="12" source="mianui_zycs_sheshou0"/>
+			<e:Label id="lbName" text="0" y="113" size="20" fontFamily="Times" textColor="0x5AC832" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

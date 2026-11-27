@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnCreatSkin" states="up,down,disabled" minHeight="25" minWidth="25" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="iconDisplay" width="100%" height="100%" alpha.disabled="0.5"
+	         x.down="0" y.down="0"  scaleX.down="0.95" scaleY.down="0.95" source=""/>
+</e:Skin>

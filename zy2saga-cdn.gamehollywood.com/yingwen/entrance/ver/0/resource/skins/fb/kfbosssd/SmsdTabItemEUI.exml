@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SmsdTabItemEUI" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down">
+
+	<e:Image id="imgBg" source="public_zycs_button10" source.up="public_zycs_button09" height="64" scale9Grid="19,14,82,22" width="151"/>
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="0" x="131"/>
+
+	<e:Label id="lbStage" text="Floor 1" fontFamily="Times" size="24" touchEnabled="true" width="140" textAlign="center" x="6" y="20" textColor="0xe3d7be"/>
+
+
+
+</e:Skin>

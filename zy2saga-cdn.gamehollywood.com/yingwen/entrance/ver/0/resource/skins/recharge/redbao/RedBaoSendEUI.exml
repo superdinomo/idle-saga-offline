@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBaoSendEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" xmlns:euiextension="euiextension.*" width="720" height="1054">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1054" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="43" anchorOffsetY="0" source="czhb_zycs_di_jpg" horizontalCenter="-0.5"/>
+	<e:Image y="78" anchorOffsetY="0" source="czhb_zycs_lj" x="84"/>
+	<e:Image id="rechargeImg" y="340" anchorOffsetY="0" source="czhb_zycs_zc" horizontalCenter="0"/>
+	<e:Image y="531" anchorOffsetY="0" x="272" source="czhb_zycs_ndhb"/>
+	<e:Image y="230" anchorOffsetY="0" x="148" source="czhb_zycs_cz"/>
+	<e:BitmapLabel id="titleVip" y="341" text="12" letterSpacing="-12" font="czhbnum1_fnt" horizontalCenter="-71"/>
+	<e:BitmapLabel id="bitBaoCountTxt" y="535" text="111" letterSpacing="-6" font="czhbnum_fnt" horizontalCenter="40"/>
+	<e:Button id="sendBtn" label="" y="639" skinName="Btn0Skin" icon="llcz_zycs_hbb" x="260"/>
+</e:Skin>

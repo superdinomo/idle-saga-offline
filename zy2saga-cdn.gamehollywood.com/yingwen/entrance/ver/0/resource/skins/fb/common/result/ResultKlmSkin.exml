@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultKlmSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="lost,win">
+	<w:Config id="15d0e19cdf1" />
+	<e:Group id="group" horizontalCenter="0" height="1134" width="620" horizontalCenter.win="0" verticalCenter.win="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png" source.lost="js_zycs_qzh_png" y.win="0" y.lost="0"/>
+		<e:Image id="imgTitle" x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png" source.lost="js_zycs_sb_png"/>
+		<e:Label id="hintTxt" text="Hint: This challenge won’t deduct attempts" y="169" size="20" fontFamily="Times" textAlign="left" scaleX="1" scaleY="1"
+		         anchorOffsetX="0" anchorOffsetY="0" x="125" textColor="0xFF9B0F" visible="false" />
+		<e:Label id="lbdesc" text="" x="110" y="390" size="22" textColor="0xDFD1B5" fontFamily="Times" />
+		<e:Button id="closeBtn" label="Claim (5s)" y="943" anchorOffsetX="0"
+		          anchorOffsetY="0"  icon="" x="244" skinName="BtnMin1_6"/>
+		<e:Scroller height="167" y="469" anchorOffsetX="0" anchorOffsetY="0" y.lost="391" height.lost="108" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0">
+					<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43"  requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgwptitle" x="116" y="423"  y.lost="349" source="js_zycs_pmjl"/>
+		<e:Image id="imgjl" x="211" y="355" source="" />
+		<e:Group x="115" y="287">
+			<e:Image id="imgwptitle0" x="0" y="0" source="js_zycs_zcsh"/>
+			<e:Label id="lbhh" text="0" x="102" y="2" size="22" fontFamily="Times" textColor="0xaf9b73"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="115" y="320">
+			<e:Image id="imgwptitle1" x="0" y="0" source="js_zycs_shpm"/>
+			<e:Label id="lbpm" text="0" x="103" y="2" size="22" fontFamily="Times" textColor="0xaf9b73"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="115" y="355">
+			<e:Image id="imgwptitle2" x="0" y="0" visible.lost="false" source.win="js_zycs_zhyj" source="js_zycs_zhyj"/>
+			<e:Label id="lblastName" text="0" x="103" y="1" size="22" fontFamily="Times" textColor="0xAF9B73" visible.lost="false"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupZhyj" y="661" anchorOffsetX="0" width="620" x="0" visible.lost="false">
+			<e:Image id="imgwptitle7" x="113" y="0" scaleX="1" scaleY="1"  source="js_zycs_last"/>
+			<e:Scroller  height="178" y="30" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+				<e:List id="listLast" itemRendererSkinName="ItemSkin" >
+					
+				<e:layout>
+				<e:TileLayout horizontalGap="28" verticalGap="43" requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingBottom="12" paddingTop="12"/>
+			</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Component id="resultCreateRole" y="531" skinName="ResultCreateRoleEUI" horizontalCenter="0" visible.win="false" horizontalCenter.lost="0" y.lost="501"/>
+	</e:Group>
+</e:Skin>

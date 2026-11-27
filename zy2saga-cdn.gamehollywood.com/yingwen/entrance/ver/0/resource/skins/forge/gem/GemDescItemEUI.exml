@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GemDescItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="315" height="42">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgIcon" x="8" y="8" source="bs_zycs_lx"/>
+	<e:Label id="lbDesc" text="Lv.3 DEF Gem" y="9" size="21" fontFamily="Times" x="35" textColor="0xe6dcb8"/>
+
+</e:Skin>

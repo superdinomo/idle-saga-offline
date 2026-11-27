@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WxYqhlPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+	<w:Config id="15af9c70173" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:ViewStack id="viewStack" y="0" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" x="0">
+		</e:ViewStack>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" y="974" source="xyzd_zycs_di" x="13"/>
+	<e:TabBar id="tab" y="971" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="BtnTab7ZYCSSkin" width="651" x="33">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="3"/>
+		</e:layout>
+	</e:TabBar>
+</e:Skin>

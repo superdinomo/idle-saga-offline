@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuideWeekMeiZiEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"     states="s1a,s4,s1,s2" >
+	<w:Config id="15cf35f5bef"/>
+	<e:Group id="group" touchEnabled="false" touchChildren="false" x.s4="0" y.s4="0">
+		<e:Group id="groupWord" x="0" anchorOffsetY="0" width="400" anchorOffsetX="200" x.s4="-200" y.s4="-64" y.s1="-150" x.s2="200" y.s2="-55" y="33" y.s1a="32">
+			<e:Group y.s4="0" y.s1a="0" horizontalCenter.s1="0" horizontalCenter.s1a="0" y.s2="0" right.s2="25" left.s2="26" right.s4="41">
+				<e:Image id="imgScale" fillMode="scale" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_yindao_kuang" scale9Grid="261,104,41,36" y="-55" left="0" right="0" width.s2="349"/>
+				<e:Label id="labelWord"  size="20" fontFamily="Times" verticalAlign="middle" wordWrap="true" scaleX="1" scaleY="1" textColor="0xfffac8" border="false" borderColor="0x000000" strokeColor="0x652b00" stroke="1.5" lineSpacing="3" textAlign="center" anchorOffsetY="0"  verticalCenter="-4" text=""  right="18" left="159" width="143"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="imgArrow" source="mianui_zycs_yindao_jiantou" y="0" rotation="-90" anchorOffsetX="37" anchorOffsetY="42" x="0" rotation.s4="0" rotation.s1="90" rotation.s2="180" x.s4="-15"/>
+	</e:Group>	
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleDailyAwardItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="692">
+	<e:Image y="40" source="ldsz_zycs_jldi"/>
+	<e:Image y="3" source="ldsz_zycs_jldi2" horizontalCenter="0" width="300"/>
+	<e:Image id="dayImg" y="10" source="ldsz_zycs_mrjl1" horizontalCenter="0"/>
+
+
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="67" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="14" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" horizontalAlign="center"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	
+</e:Skin>

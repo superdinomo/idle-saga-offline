@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem18_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="svip,buy,limit"  width="668" height="164">
+	<w:Config id="1586bdedfef"/>
+	<e:Image id="imgBg" x="0" y="0" anchorOffsetX="0" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Image id="imgActIcon" x="309" y="28" source="public_zycs_huo" anchorOffsetX="19.5" anchorOffsetY="19.5" visible="false"/>
+	<e:Image id="imgDiscountBg" source="store_zycs_tab1" scaleX="-1" x="667" y="0"/>
+	<e:Group width="60" height="68" x="604" y="0">
+		<e:BitmapLabel id="bmpLabelDiscount" font="shopnum1_fnt" text="1.5z" horizontalCenter="0" verticalCenter="0" letterSpacing="-3" rotation="45"/>
+	</e:Group>
+	<e:Button id="btnBuy" name="buy" skinName="BtnMin1_2mid" label="Purchase" scaleX="1" scaleY="1" x="508" verticalCenter="31" visible.svip="false" visible.limit="false" y="89"/>
+	<e:Label id="labelName" text="Item" y="18" fontFamily="Times" size="24" textColor="0xBCAF96" x="14"/>
+	<e:Label id="labelDesc" text="0" y="38" fontFamily="Times" size="24" horizontalCenter="235" textColor="0xffffff" textAlign="center" visible.svip="false" visible.limit="false"/>
+	<e:Group id="groupOld" y="82" x="418" scaleX="0.8" scaleY="0.8" visible.svip="false">
+		<e:Component id="priceIconOld" skinName="PriceIconSkin" horizontalCenter="0"/>
+		<e:Image source="zhuansheng_zycs_rx" scaleX="0.1" scaleY="0.5" width="100%" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Component id="priceIcon" y="111" skinName="PriceIconSkin" scaleX="0.8" scaleY="0.8" x="418" visible.svip="false"/>
+	<e:Label id="labelMax" text="Maxed out" fontFamily="Times" size="20" textColor="0xf01414" x="532" visible.svip="false" visible.buy="false" y="101"/>
+	<e:Group id="groupSVip" right="0" verticalCenter="16" visible.buy="false" visible.limit="false">
+		<e:Image id="imgSVIPBg" x="0" y="0" source="store_zycs_tab2"/>
+		<e:Image id="imgSVIPLv" x="14" y="3" source="store_zycs_sv1"/>
+	</e:Group>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="3" y="43">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="14" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			
+		</e:List>
+	</e:Scroller>
+</e:Skin>

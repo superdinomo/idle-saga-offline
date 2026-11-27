@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act6ResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" source="public_zycs_dikuang" scale9Grid="83,62,16,9" x="0" width="546" height="595"/>
+		<e:Image y="-4" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="147"/>
+
+		<e:Image id="title" y="13" source="hddt_zycs_pmjz" horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="463"/>
+		<e:Image y="163" x="36" source="public_zycs_tsk1" scale9Grid="9,9,54,58" width="479" height="357"/>
+		<e:Label id="lbTime" text="Opening Rank has ended on Nov. 3rd of 2019" y="61" size="18" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="44" width="412"/>
+		<e:Label id="lbRank" text="My Rank: " y="111" size="18" textAlign="center" fontFamily="Times" x="44" textColor="0xff900f"/>
+		<e:Label text="These are the top 10 players in the ranking" y="134" size="18" textAlign="center" fontFamily="Times" x="44" textColor="0xcdc8be"/>
+		<e:Label id="lbRankList" text="Artifact   10%\nArtifact   10%\nArtifact   10%\nArtifact   10%\nArtifact   10%\nArtifact   10%\nArtifact   10%\nArtifact   10%\nArtifact   10%\nArtifact   10%\n" y="175" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="57" lineSpacing="10"/>
+	</e:Group>
+</e:Skin>

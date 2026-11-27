@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildApplyPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="sHasGuild,sNoGuild"  height="1134" width="720">
+	<e:Image x="0" y="0" height="100%" touchEnabled="false" width="100%" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="43" source="zhanmeng_zycs_bg_jpg"/>
+	<e:Label text="Please select a guild to join" y="50" size="20" fontFamily="Times" textColor="0xf5e65a" x="270"/>
+	<e:Scroller y="78" x="21" width="678" height="919">
+		<e:List id="list" itemRendererSkinName="GuildApplyRenderEUI">
+			<e:layout>
+				<e:VerticalLayout gap="4"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="labelNoGuild" text="There is no Guild" visible.sHasGuild="false" textColor="0xf01414" fontFamily="Times" y="460" horizontalCenter="0"/>
+	<e:Button id="btnCreat" y="1022" skinName="BtnMin1_1" x="294" label="Create a Guild"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChatWinItemEUI2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="625">
+	<w:Config id="15a8a14961e"/>
+	<e:Label id="lbtitle" text="Data" x="3" y="4" size="20" textColor="0xff0000" fontFamily="Times" touchEnabled="false" bold="true"/>
+	<e:Label id="lbstr" y="4" fontFamily="Times" size="20" wordWrap="true" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" left="108" right="0" lineSpacing="7" text="Data" textColor="0xf0f0f0"/>
+	<e:Image id="imgTap" x="62" anchorOffsetX="0" anchorOffsetY="0" height="25" width="562" y="0" alpha="0" source="public_zycs_greybg1" scale9Grid="2,2,16,16"/>
+	<e:Group id="btn_group" x="60" height="25" y="0" visible="false">
+		<e:Button id="btn_add" label="Follow" icon="role_10" x="0" width="116" height="50" scaleY="0.7" scaleX="0.7" y="-5" skinName="BtnMin1_6"/>
+		<e:Button id="btn_delete" label="Block" icon="role_10" x="84" skinName="BtnMin1_6" width="116" height="50" scaleY="0.7" scaleX="0.7" y="-5"/>
+		<e:Button id="btn_chat" label="PM" icon="role_10" x="168" skinName="BtnMin1_6" width="116" height="50" scaleY="0.7" scaleX="0.7" y="-5"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QiYuePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image touchEnabled="false"  y="42" source="emqy_zycs_bg_jpg" x="13"/>
+	<e:Image id="imgComplete" y="102" x="98.5"  source="emqy_zycs_hqsx"/>
+	<e:Image id="imgYjh" x="299" y="51"  source="public_zycs_yijihuo"/>
+	<e:Scroller scrollPolicyH="off" y="228" horizontalCenter="0" width="676" height="725">
+		<e:List id="list" itemRendererSkinName="QiYueItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="7" />
+			</e:layout>
+			
+				
+					
+					
+					
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="menuScroller" scrollPolicyV="off" scrollPolicyH="off" y="961" height="130" width="696" x="12">
+		<e:List id="menuList" itemRendererSkinName="QiYuePanelBtnEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="-16" />
+			</e:layout>
+			
+				
+					
+					
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbJinDu" text="Progress: 0/9" y="61" size="24" fontFamily="Times" x="186"
+	         textColor="0xe5d3b5" />
+	<e:Image id="imgAttr" y="145" anchorOffsetX="0" anchorOffsetY="0"  source="emqy_zycs_jc1" horizontalCenter="0"/>
+	<e:Image id="imgTitle" x="40" y="53"  source="emqy_zycs_t1"/>
+</e:Skin>

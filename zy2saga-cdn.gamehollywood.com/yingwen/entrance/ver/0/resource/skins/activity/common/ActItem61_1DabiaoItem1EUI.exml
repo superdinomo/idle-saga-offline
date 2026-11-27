@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem61_1DabiaoItem1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="100" height="60">
+	<e:Group id="imgGr" horizontalCenter="0">
+		<e:Image id="imgIcon" y="1.5" touchEnabled="false"  scaleX="1" scaleY="1" source="hddt_zycs_zybx" horizontalCenter="0"/>
+		<e:Label id="lbCount" y="38" text="10000" fontFamily="SimHei" size="22" lineSpacing="10" textAlign="center" textColor="0xf2f2f2" scaleX="1" scaleY="1" bold="true" stroke="1" horizontalCenter="0"/>
+		<e:Image id="imgShine" y="1.5" touchEnabled="false" scaleX="1" scaleY="1" source="hddt_zycs_zybxxz" horizontalCenter="0"/>
+		<e:Image id="redPoint" x="35" y="4" scaleX="1" scaleY="1" source="mainui_zycs_hongdian"/>
+	</e:Group>
+	<e:Image id="imgYlq" touchEnabled="false"  scaleX="0.8" scaleY="0.8" source="public_zycs_ylq" y="0" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChengJiuPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" height="1054" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image height="825" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" width="694" x="13" y="14"/>
+	<e:Label id="scoreTxt" text="Achievement Points: 9" x="129" y="58" size="20" fontFamily="Times" textColor="0xAF9B73"/>
+	<e:Button id="receiveBtn" x="481" y="40" skinName="BtnMin1_2" icon="anz_zycs_yjlq"/>
+	<e:Scroller x="21" width="682" height="739" y="100">
+		<e:List id="list" itemRendererSkinName="ChengJiuItemEUI" x="4" useVirtualLayout="true">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+
+	<e:Scroller id="tabScroller" y="869" width="649" height="140" anchorOffsetX="0" horizontalCenter="0">
+		<e:List id="tabList" itemRendererSkinName="ChengjiuTabItemEUI" useVirtualLayout="true">
+		<e:layout>
+			<e:HorizontalLayout gap="24"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+	<e:Button id="leftBtn" label="" y="897" icon="zuji_zycs_jiantou" skinName="Btn0Skin" scaleX="-0.65" scaleY="0.65" x="77" visible="false"/>
+	<e:Button id="rightBtn" label="" y="897" icon="zuji_zycs_jiantou" skinName="Btn0Skin" scaleX="0.65" scaleY="0.65" x="643" visible="false"/>
+</e:Skin>

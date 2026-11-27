@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FruititemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="678" height="114">
+	<w:Config id="1586b362dfe"/>
+	<e:Image width="100%" y="0" x="0" height="100%" source="qianghua_zycs_kuang4" scale9Grid="26,23,48,51"/>
+	<e:Image y="23" x="133" source="guoshi_zycs_di"/>
+    <e:Component id="item" x="39" skinName="ItemSkin"  anchorOffsetX="0" y="10"/>
+	<e:Label id="nameTxt" y="30" size="20" fontFamily="Times"  text="Initial" x="143" textColor="0xd8c94e"/>
+
+
+	<e:Label id="attrTxt" y="73" size="20" fontFamily="Times"  text="INT" x="143" verticalAlign="middle" textColor="0xc4943c"/>
+	<e:Label id="attrTxt_1" y="73" size="20" fontFamily="Times" text="0" x="280" verticalAlign="middle" textColor="0x00ff00"/>
+	<e:Label id="currCountTxt" y="31" size="20" fontFamily="Times" textAlign="left" text="Own: 0" verticalAlign="top" lineSpacing="10" textColor="0xFFFFFF" x="541"/>
+	<e:Label id="useCountTxt" y="73" size="20" fontFamily="Times" textAlign="left" text="（0/220）" verticalAlign="top" lineSpacing="10" textColor="0xFFFFFF" x="530"/>
+
+	<e:Label id="maxTxt" text="Max Level" fontFamily="Times" size="22" x="500" y="49" textColor="0x00ff00"/>
+</e:Skin>

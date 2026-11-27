@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartPlunderPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+
+	<e:Image scale9Grid="0,388,552,335" y="42" source="hwbz_zycs_bg2_jpg" horizontalCenter="0"/>
+
+	<e:Image y="51" height="200" scale9Grid="350,26,2,8" x="12" source="zs_zycs_xinxidi"/>
+	<e:Image y="79" source="mainui_zycs_zxlb1" width="190" height="36" scale9Grid="23,6,23,8" horizontalCenter="0"/>
+	<e:Group y="85" horizontalCenter="0">
+		<e:Label text="My Points:" x="0" y="1" size="24" fontFamily="Times" textColor="0xf5e65a"/>
+		<e:Label id="eScoreLab" text="1344" x="117" y="0" size="24" textColor="0xffffff" fontFamily="Times"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+
+	<e:Group id="groupPro" height="99" anchorOffsetX="0" anchorOffsetY="0" top="109" x="25">
+		<e:ProgressBar id="bar" value="50" y="29" skinName="ProgressBarEUI2" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Group x="133.47" y="19">
+			<e:Group x="-8" y="-6">
+				<e:Image scaleX="0.8" scaleY="0.8" x="13.5" y="84" source="hwbz_zycs_yjdi" width="80" height="27"/>
+				<e:Button id="eBoxBtn0" label="Button" y="0" skinName="Btn0Skin" icon="hwbz_zycs_box1" x="5.53"/>
+				<e:Group id="box0" x="45" y="38"/>
+				<e:Image id="redPoint0" touchEnabled="false" x="63" y="1" source="mainui_zycs_hongdian"/>
+				<e:Label id="eLab0" text="Claimed" y="85" size="20" textAlign="center" textColor="0xffffff" horizontalCenter="3" fontFamily="Times"/>
+			</e:Group>
+			<e:Group x="144.98" y="-6">
+				<e:Image source="hwbz_zycs_yjdi" scaleX="0.8" scaleY="0.8" x="13.5" y="84" width="80" height="27"/>
+				<e:Button id="eBoxBtn1" label="Button" y="0" skinName="Btn0Skin" icon="hwbz_zycs_box2" x="5.55"/>
+				<e:Group id="box1" x="45" y="38"/>
+
+				<e:Image id="redPoint1" touchEnabled="false" x="63" y="1" source="mainui_zycs_hongdian"/>
+				<e:Label id="eLab1" text="1000" y="85" size="20" textAlign="center" textColor="0xffffff" horizontalCenter="3" fontFamily="Times"/>
+			</e:Group>
+			<e:Group x="302.34" y="-6">
+				<e:Image source="hwbz_zycs_yjdi" scaleX="0.8" scaleY="0.8" x="13.5" y="84" width="80" height="27"/>
+				<e:Button id="eBoxBtn2" label="Button" y="0" skinName="Btn0Skin" icon="hwbz_zycs_box3" x="5.55"/>
+				<e:Group id="box2" x="45" y="38"/>
+
+				<e:Image id="redPoint2" touchEnabled="false" x="63" y="1" source="mainui_zycs_hongdian"/>
+				<e:Label id="eLab2" text="1500" y="85" size="20" width="70" textAlign="center" textColor="0xffffff" horizontalCenter="3" fontFamily="Times"/>
+			</e:Group>
+			<e:Group x="449.51" y="-6">
+				<e:Image source="hwbz_zycs_yjdi" scaleX="0.8" scaleY="0.8" x="13.5" y="84" width="80" height="27"/>
+				<e:Button id="eBoxBtn3" label="Button" y="0" skinName="Btn0Skin" icon="hwbz_zycs_box4" x="5.55"/>
+				<e:Group id="box3" x="45" y="38"/>
+
+				<e:Image id="redPoint3" touchEnabled="false" x="63" y="1" source="mainui_zycs_hongdian"/>
+				<e:Label id="eLab3" text="2000" y="85" size="20" width="70" textAlign="center" textColor="0xffffff" horizontalCenter="3" fontFamily="Times"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+
+
+	<e:Group id="eTimeGroup0" horizontalCenter="-101" verticalCenter="-299">
+		<e:Label text="Time Remain:" x="2" size="24" y="5" textColor="0xffffff" fontFamily="Times"/>
+		<e:Label id="refreshTime0" text="19:30:10" x="120" size="24" y="5" textColor="0xffffff" fontFamily="Times"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="eTimeGroup1" x="408" y="250">
+		<e:Label text="Loot CD:" x="2" size="24" y="6" textColor="0xffffff" fontFamily="Times"/>
+		<e:Label id="refreshTime1" text="18:00:00" x="114" size="24" y="6" textColor="0xFF0000" fontFamily="Times"/>
+	</e:Group>
+	<e:Group id="eTimeGroup2" horizontalCenter="-1" verticalCenter="64">
+		<e:Label text="Next Ship:" x="2" size="24" y="6" textColor="0xff9b0f" fontFamily="Times"/>
+		<e:Label id="refreshTime2" text="19:30:10" x="160" size="24" y="6" textColor="0xf01414" fontFamily="Times"/>
+
+	</e:Group>
+	<e:Group id="eTimeGroup3" horizontalCenter="-1" verticalCenter="96">
+		<e:Label text="Until Escort:" x="2" size="24" y="6" textColor="0xff9b0f" fontFamily="Times"/>
+		<e:Label id="refreshTime3" text="19:30:10" x="160" size="24" y="6" fontFamily="Times" textColor="0xf3d00b"/>
+
+	</e:Group>
+	<e:Scroller id="eCarScroller" scrollPolicyV="off" height="629" width="692" horizontalCenter="-1" scrollPolicyH="off" verticalCenter="120.5" anchorOffsetY="0" anchorOffsetX="0">
+		<e:List id="eCarList" itemRendererSkinName="DartPlunderPanelCarItemEUI" x="0" y="-4">
+			<e:layout>
+				<e:TileLayout orientation="columns" requestedRowCount="3" horizontalGap="100" verticalGap="10" paddingTop="100"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null="null"/>
+					<e:Object null="null"/>
+					<e:Object null="null"/>
+					<e:Object null="null"/>
+					<e:Object null="null"/>
+					<e:Object null="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+
+		</e:List>
+	</e:Scroller>
+	<e:Button id="eLogBtn" label="Challenge" icon="hwbz_zycs_buldjl" horizontalCenter="-275.5" top="258" skinName="Btn0Skin"/>
+	<e:Button id="eListBtn" label="Challenge" icon="hwbz_zycs_buldlb" horizontalCenter="-276.5" x="10" top="362" skinName="Btn0Skin"/>
+
+
+	<e:Group x="610" y="271">
+		<e:Button id="eLingBtn" label="Challenge" icon="hwbz_zycs_ldl" touchEnabled="true" skinName="Btn0Skin" x="0" y="0"/>
+		<e:Label id="eLingNum" text="4" size="20" textAlign="right" textColor="0x07ff00" stroke="1" touchEnabled="false" x="58" y="61" fontFamily="Times"/>
+	</e:Group>
+	<e:Group x="609" y="365">
+		<e:Button id="eChangeBtn" label="" icon="hwbz_zycs_hyp" touchEnabled="true" skinName="Btn0Skin" x="0" y="0"/>
+		<e:Label id="eChangeNum" text="4" size="20" textAlign="right" textColor="0x07ff00" stroke="1" touchEnabled="false" x="59" y="55" fontFamily="Times"/>
+	</e:Group>
+	<e:Group id="mc1" x="210" y="700" touchChildren="false" touchEnabled="false" touchThrough="true"/>
+	<e:Group id="mc2" x="539" y="550" touchChildren="false" touchEnabled="false" touchThrough="true"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</e:Skin>

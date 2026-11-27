@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FuwenEquipItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" height="164" width="678">
+	<w:Config id="1586b3502a7"/>
+	<e:Image width="100%" y="0" x="0" height="100%" source="qianghua_zycs_kuang4" scale9Grid="26,23,48,51"/>
+	<e:Component id="itemIcon" x="20" y="3" skinName="FuwenItemEUI" touchEnabled="false"/>
+	<e:Button id="upgradeBtn" x="512" skinName="BtnMin1_1" y="58" label="Upgrade"/>
+	<e:Label id="hintTxt" size="24" fontFamily="Times" textAlign="left" text="Identical Rune equipped" verticalAlign="top" lineSpacing="10" textColor="0xDACCA7" x="435" y="70"/>
+	<e:Image y="21" x="160" source="guoshi_zycs_di"/>
+	<e:Label id="labelName" text="0" x="170" y="28" fontFamily="Times" size="22" textColor="0xf5ffff" textAlign="left"/>
+	<e:Label y="66" text="Level: " fontFamily="Times" size="20" x="170" textColor="0x9B8764" touchEnabled="false"/>
+	<e:Label y="96" text="Stats:" fontFamily="Times" size="20" x="170" textColor="0x9B8764" touchEnabled="false"/>
+	<e:Label id="levelTxt" y="66" text="0" fontFamily="Times" size="20" x="276" verticalAlign="justify" textColor="0xFFFFFF" touchEnabled="false"/>
+	<e:Label id="attrTxt" y="96" text="0" fontFamily="Times" size="20" x="276" verticalAlign="justify" textColor="0xFFFFFF" touchEnabled="false"/>
+</e:Skin>

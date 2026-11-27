@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="VipTequanTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+
+	<e:Group id="group" horizontalCenter="0.5" verticalCenter="-14" width="553" height="533">
+		<e:Image height="533" source="public_zycs_dikuang" scale9Grid="71,61,37,17" width="553"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+		<e:Image y="79" width="398" height="374" source="public_zycs_tsk1" scale9Grid="22,52,20,12" horizontalCenter="0"/>
+		<e:Image id="imgVipLv" y="12" horizontalCenter="0" source=""/>
+		<e:Scroller width="369" height="351" y="92" horizontalCenter="0">
+			<e:List id="listAttr" currentState="disabled" useVirtualLayout="false" itemRendererSkinName="SvipPanelAttrItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="8"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+		<e:Button id="btnLeft" label="" x="61" y="241" skinName="Btn0Skin" icon="zuji_zycs_jiantou"  scaleY="0.5" scaleX="-0.5"/>
+		<e:Button id="btnRight" label="" x="490" y="241" skinName="Btn0Skin" icon="zuji_zycs_jiantou"  scaleX="0.5" scaleY="0.5"/>
+		<e:Button id="closeBtn0" label="" x="469" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FootEquipChuanDaiItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="620" height="122">
+	<e:Image width="620" height="122" y="0" scale9Grid="28,33,9,12" source="qianghua_zycs_kuang4"/>
+	<e:Component id="itemIcon" x="16" skinName="ItemSkin" y="16"/>
+	<e:Image id="imgClick" width="94" height="94" y="16" scale9Grid="28,33,9,12" source="qianghua_zycs_kuang4" x="16" alpha="0.01" touchEnabled="true"/>
+	<e:Label id="lbName" text="Gold Whisper" y="22" size="24" fontFamily="Times" textAlign="center" textColor="0xf5e65a" x="116"/>
+	<e:Label id="lbAttr" text="Gold Whisper\nGold Whisper" y="54" size="20" fontFamily="Times" textAlign="left" x="116" textColor="0xe3d7be" lineSpacing="5"/>
+	<e:Button id="btnEquip" label="Equip" x="452" name="equip" y="40" skinName="BtnMin1_1mid"/>
+	<e:Image id="imgYzb" x="448" source="zuji_zycs_ycd" y="11"/>
+</e:Skin>

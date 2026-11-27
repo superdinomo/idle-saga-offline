@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunqiUpWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="400"
+        height="30">
+	<e:Label id="labelAttr" text="Awaken Point 0" size="20" fontFamily="Times" x="12" y="4"/>
+	<e:Label id="labelActLevel" text="Activate at Lv.5" x="307" size="20" fontFamily="Times" y="3" textColor="0xf01414"/>
+	
+</e:Skin>

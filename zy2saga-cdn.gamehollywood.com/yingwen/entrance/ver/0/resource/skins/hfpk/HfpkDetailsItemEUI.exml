@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkDetailsItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Label id="lbWinL" fontFamily="Times" size="20" y="0" text="Victory" textAlign="center" x="0" textColor="0x13ee22"/>
+	<e:Label id="lbCount" fontFamily="Times" size="20" y="0" text="Round 1" textAlign="center" horizontalCenter="0" textColor="0xcdc8be"/>
+	<e:Label id="lbWinR" fontFamily="Times" size="20" y="0" text="Defeat" textAlign="center" textColor="0xf01414" x="303"/>
+
+
+
+
+
+
+
+
+</e:Skin>

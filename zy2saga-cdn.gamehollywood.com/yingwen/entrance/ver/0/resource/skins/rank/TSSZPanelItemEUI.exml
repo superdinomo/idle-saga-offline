@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TSSZPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="688" states="s1,s2,s3,s4"  height="102">
+	<e:Image source="cg_zycs_di1" horizontalCenter="0" source.s2="cg_zycs_di2" source.s3="cg_zycs_di3" source.s4="" width="100%" height="100%"/>
+	<e:Image id="imgRank" visible.s4="false" verticalCenter="0" source="tssz_zycs_no1" source.s2="tssz_zycs_no2" horizontalCenter="-242" source.s3="tssz_zycs_no3"/>
+	<e:Label id="lbRank" text="0" textAlign="center" fontFamily="Times" size="22" textColor="0xcdc8be" visible.s1="false" visible.s2="false" visible.s3="false" horizontalCenter="-241" verticalCenter="0"/>
+	<e:Label id="lbName" text="S456.Neighbor Wong" textAlign="center" fontFamily="Times" size="22" textColor="0xf5e65a" horizontalCenter="-18" verticalCenter="0"/>
+	<e:Label id="lbPower" text="CP: 9999999" textAlign="center" fontFamily="Times" size="24" verticalCenter="0" textColor="0xe3d7be" horizontalCenter="222"/>
+	<e:Image source="jjc_zycs_fgx" horizontalCenter="0" bottom="0"/>
+</e:Skin>

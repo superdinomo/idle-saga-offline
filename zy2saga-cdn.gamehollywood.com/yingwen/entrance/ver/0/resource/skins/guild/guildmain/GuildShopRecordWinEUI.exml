@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildShopRecordWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Image y="30"  source="zhanmeng_zycs_zm" x="334"/>
+		<e:Button id="closeBtn" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Scroller width="698" height="675" x="11" y="104" scrollPolicyV="auto" scrollPolicyH="off">
+			<e:List id="list" itemRendererSkinName="GuildShopRecordRenderEUI">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

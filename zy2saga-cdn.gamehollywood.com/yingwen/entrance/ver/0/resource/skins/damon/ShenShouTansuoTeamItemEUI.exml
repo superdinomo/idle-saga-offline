@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouTansuoTeamItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="678" height="213" states="team,select,lock,lock1" >
+	<w:Config id="1586b362dfe"/>
+	<e:Image x="0" y="0" source="ss_zycs_di4"/>
+	<e:List id="listShenShou" useVirtualLayout="false" itemRendererSkinName="ShenShouItemEUI" includeIn="team" y="-4" x="19">
+<e:layout>
+			<e:HorizontalLayout gap="-8"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="imgID" y="-4" x="0" source="ss_zycs_f1"/>
+
+	<e:Image x="72" y="145" includeIn="team" source="ss_zycs_ptjl"/>
+	<e:Image x="282" y="145" includeIn="team" source="ss_zycs_ts"/>
+	<e:Image x="424" y="145" includeIn="team" source="ss_zycs_cgl"/>
+	<e:Label id="labRate" text="90%" x="520" y="143" size="24" fontFamily="Times" textAlign="left" includeIn="team" width="72" textColor="0x5ac832"/>
+	<e:List id="listReward" useVirtualLayout="false" itemRendererSkinName="ItemSkin" y="139" x="128" includeIn="team" scaleX="0.7" scaleY="0.7">
+		<e:layout>
+		<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:List>
+	<e:Component id="itemReward" skinName="ItemSkin" x="339" y="139" includeIn="team" scaleX="0.7" scaleY="0.7"/>
+	<e:Label id="labT" text="Time Remain" x="423" fontFamily="Times" size="22" y="171" textAlign="center" includeIn="team" textColor="0xcdc8be"/>
+	<e:Label id="labTime" text="4.1597" fontFamily="Times" size="22" textAlign="left" includeIn="team" textColor="0x5ac832" y="171" x="546"/>
+	<e:Label text="Please unlock the previous queue first" fontFamily="Times" size="24" textAlign="center" y="111" horizontalCenter="0" textColor="0x13ee22" visible.team="false" visible.select="false" visible.lock="false"/>
+	<e:Button id="btnCD" x="631" skinName="Btn0Skin" icon="ss_zycs_right" includeIn="team" y="164"/>
+	<e:Button id="btnEnter" label="Exchange Now" x="529" skinName="BtnMin1_1" icon="" y="49" y.select="138" y.lock="138" x.lock="275" x.select="275" label.lock="Unlock" label.select="Select Cryptid" y.lock1="138" x.lock1="275" label.lock1="Unlock" visible.lock1="false" x.team="522" y.team="77"/>
+	<e:Group id="groupDec" y="91" includeIn="select,lock,lock1" horizontalCenter="0" visible.lock1="false">
+		<e:Label id="labDec" text="Tap on the button to select Cryptid" fontFamily="Times" size="30" y="0" textAlign="center" textColor="0xF5E654" x="0"/>
+		<e:Image id="imgZuanshi" x="197" scaleX="1" scaleY="1" source="zycs_320002"/>
+		<e:Label id="labDec2" text=" to unlock" fontFamily="Times" size="30" y="0" textAlign="center" x="10" textColor="0xff2f26"/>
+		<e:layout>
+			<e:HorizontalLayout gap="2"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

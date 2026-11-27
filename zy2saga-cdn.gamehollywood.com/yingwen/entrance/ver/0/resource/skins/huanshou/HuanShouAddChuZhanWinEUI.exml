@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouAddChuZhanWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" x="0" source="hs_zycs_bg2_jpg"/>
+
+		<e:Image y="14" source="hs_zycs_hsts" horizontalCenter="0"/>
+
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="0"/>
+
+
+		<e:Label id="lbDec" text="Spend 1 Eudemon Deploy Decree to add 1 deploy place permanently" y="83" size="22" textAlign="left" fontFamily="Times" textColor="0xe3d7be" horizontalCenter="1" width="453" wordWrap="true"/>
+		<e:Component id="item" y="144" skinName="ItemSkin" x="230"/>
+		<e:Button id="btnSend" y="280" skinName="BtnMin1_1" label="Expand" x="202"/>
+
+
+
+
+
+
+	</e:Group>
+
+</e:Skin>

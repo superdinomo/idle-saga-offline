@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MinerItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="342" height="362">
+	<e:Image id="bg" x="0" y="0" source="sjhj_zycs_jx1_png"/>
+	<e:Image y="184" x="103" source="sjhj_zycs_pt"/>
+	<e:Image id="icon" y="81" x="97" source="sjhj_zycs_mode4"/>
+	<e:Image id="nameBg" y="0" source="sjhj_zycs_t1" x="72"/>
+	<e:Image id="nameImg" y="5" source="sjhj_zycs_kg1" x="123"/>
+	<e:Group y="238" horizontalCenter="0">
+		<e:List id="rewardList" itemRendererSkinName="ItemSkin" x="0" y="0">
+			<e:layout>
+			<e:HorizontalLayout gap="11"/>
+			</e:layout>
+		</e:List>
+		<e:List id="rewardList2" itemRendererSkinName="ItemSkin" x="0" y="0">
+			<e:layout>
+			<e:HorizontalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+		<e:layout>
+			<e:HorizontalLayout gap="11"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="noRob" y="302" x="236" source="sjhj_zycs_bkld"/>
+	<e:Image id="mining" y="210" touchEnabled="false" source="sjhj_zycs_kcz" x="136"/>
+	<e:Image id="selectImg" source="sjhj_zycs_jxfg_png" x="4" y="0" visible="false"/>
+	<e:Component id="actDouble" touchEnabled="false" y="44" skinName="ActDoubleEUI" horizontalCenter="0"/>
+</e:Skin>

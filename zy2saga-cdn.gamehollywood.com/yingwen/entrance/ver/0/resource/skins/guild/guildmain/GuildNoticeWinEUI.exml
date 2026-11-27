@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildNoticeWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="398" touchEnabled="false" width="553" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="-4" touchEnabled="false" source="chibang_zycs_biaoti_di" x="151"/>
+		<e:Button id="closeBtn0" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="-4" x="470"/>
+	<e:Button id="saveBtn" y="294" skinName="BtnMin1_1" x="210" label="Save"/>
+	<e:Label id="textInput" x="49" y="66" size="20" fontFamily="Times" type="input" multiline="true" maxChars="120" wordWrap="true" text="1. Daily \n1. Daily" textColor="0xe5d3b5" lineSpacing="15" height="159" width="456"/>
+	<e:Label text="(Up to 120 characters)" x="42" y="248" size="20" fontFamily="Times" textColor="0x686868"/>
+	<e:Button id="closeBtn1" label="" x="368" y="220" icon="" skinName="Btn0Skin"/>
+		<e:Image y="276" width="510" source="zs_zycs_fengexian" x="22"/>
+		<e:Image y="12" source="zhanmeng_zycs_ggxg" x="228"/>
+	</e:Group>
+</e:Skin>

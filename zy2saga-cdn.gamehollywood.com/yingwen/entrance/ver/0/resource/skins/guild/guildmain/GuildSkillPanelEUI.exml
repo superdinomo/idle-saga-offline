@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildSkillPanelEUI" width="720" height="1134" currentState="h1" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="h1,h2">
+	<e:Group id="group" width="720" height="1134">
+		<e:Image height="1134" touchEnabled="false" source="public_zycs_dikuang" width="720" scale9Grid="88,64,2,3"/>
+		<e:Image y="34"  source="zhanmeng_zycs_bg_jpg" x="13"/>
+		<e:Image y="126" scale9Grid="73,10,444,65" anchorOffsetY="0" source="zhanmeng_zycs_juxing01" horizontalCenter="0"/>
+		<e:Group width="687" height="150" y="129" x="15">
+			<e:Scroller scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="listSkill" itemRendererSkinName="GuildSkillItemEUI" anchorOffsetX="0" anchorOffsetY="0">
+				<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="6"/>
+			</e:layout>
+		</e:Group>
+		<e:Image y="388" horizontalCenter="0" source="zhanmeng_zycs_juxing02_png" height="517"/>
+		<e:Component id="skillItem" anchorOffsetX="0" x="98" y="440" skinName="GuildSkillItemEUI"/>
+		<e:Label id="lbName" text="Fearless (Lv.0)" x="246" y="463" size="24" fontFamily="Times" textColor="0xcd8cff"/>
+		<e:Label id="lbDesc" text="+ ATK" x="247" y="516" size="24" fontFamily="Times" textColor="0xaf9b73"
+		         visible.h2="false" />
+		<e:ProgressBar id="progressBar" y="509" x="241" slideDuration="0" anchorOffsetX="0" anchorOffsetY="0" visible.h1="false" skinName="ProgressBarEUI3"/>
+		<e:Group id="attrGroup" y="596" x="0" width="720" height="300">
+			<e:Image horizontalCenter="0" width="700" source="zs_zycs_fengexian"/>
+			<e:Label text="Current Stats:" x="147" y="25" size="24" fontFamily="Times" textColor="0xcdc8be"/>
+			<e:Label text="Stats of Next Level:" x="472" y="25" size="24" fontFamily="Times" textColor="0xcdc8be"/>
+			<e:Label id="lbCurAttr" text="0" y="75" size="24" fontFamily="Times" textColor="0x5ac832" horizontalCenter="-166"/>
+			<e:Label id="lbNextAttr" text="0" y="75" size="24" fontFamily="Times" textColor="0x5ac832" horizontalCenter="158"/>
+			<e:Image y="55" x="344" source="qianghua_zycs_next"/>
+			<e:Image y="148" horizontalCenter="0" width="700" source="zs_zycs_fengexian"/>
+			<e:Label text="Contribution:" x="147" y="182" size="24" fontFamily="Times" textColor="0xaf9b73"/>
+			<e:Component id="priceGongXiang" y="178" skinName="PriceIconSkin" x="280"/>
+			<e:Component id="priceXiaoHao" y="230" skinName="PriceIconSkin" x="280"/>
+			<e:Component id="pricejb" y="230" skinName="PriceIconSkin" x="409" scaleX="1" scaleY="1"/>
+			<e:Label text="Cost: " x="147" y="234" size="24" fontFamily="Times" textColor="0xaf9b73"/>
+		</e:Group>
+		<e:Group id="maxGroup" y="701" horizontalCenter="0" visible="false">
+			<e:Label text="Current Stats" y="0" size="24" fontFamily="Times" textColor="0xCDC8BE" horizontalCenter="0"/>
+			<e:Label id="lbCurAttr0" text="0" y="30" size="24" fontFamily="Times" textColor="0x5AC832" horizontalCenter="0"/>
+			<e:Label text="This skill has reached the highest level. No need for further upgrading." x="0" y="116" size="24" fontFamily="Times" textColor="0x5AC832" text.h1="This skill has reached the highest level. No need for further upgrading." width="655"/>
+		</e:Group>
+		<e:Group id="groupGoto" height="79" y="905" horizontalCenter="0">
+			<e:Label text="Unable to upgrade skill, please raise the building level of the  skill altar first" y="4" size="24" textColor="0xf01010" fontFamily="Times" x="13" scaleX="1" scaleY="1" width="655"/>
+			<e:Label id="lbGoto" text="Go to Upgrade" y="55" size="24" fontFamily="Times" x="9" textColor="0x5ac832" scaleX="1" scaleY="1" width="655" textAlign="right"/>
+		</e:Group>
+		<e:Button id="btnOk" label="Upgrade" y="996" skinName="BtnMin1_1" x="283"/>
+	</e:Group>
+</e:Skin>

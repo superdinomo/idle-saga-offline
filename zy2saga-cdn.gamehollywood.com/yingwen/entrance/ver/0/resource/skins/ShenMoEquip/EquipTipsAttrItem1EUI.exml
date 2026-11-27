@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTipsAttrItem1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="395">
+	<e:Group x="0" y="0" height="30">
+		<e:Image id="imgTitle" touchEnabled="false" x="0" y="0"  source=""/>
+		<e:Label id="lbTitle" size="20" fontFamily="Times" textAlign="left" text="Medium Stats" x="10" y="4"
+		         stroke="1" width="371"  textColor="0xcd47ff"/>
+	</e:Group>
+	<e:Label id="lbAttr" size="20" fontFamily="Times" textAlign="left" text="Medium Stats" x="10" y="29" stroke="1" width="371" textColor="0xcd47ff"/>
+</e:Skin>

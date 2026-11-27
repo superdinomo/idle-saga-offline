@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouEquipItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="94">
+	<e:Image id="imgBG" source="hs_zycs_d1"/>
+
+
+	<e:Group id="groupMc" y="47" x="47"/>
+	<e:Image id="imgPlus" x="30" y="24" source="public_zycs_jh2"/>
+	<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="-10"/>
+
+	<e:BitmapLabel id="bitlv" y="4" text="l60" x="5" font="qianghuanum3_fnt" letterSpacing="-5"/>
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="72" y="0"/>
+	<e:Image id="imgSelect" anchorOffsetX="0" anchorOffsetY="0" source="xb_zycs_gou" x="14" y="6" visible="false"/>
+	<e:Group x="4" y="71" height="16">
+		<e:Image id="imgStarBg" x="0" y="0" source="role_zycs_stardi"/>
+		<e:Group id="groupStart">
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+			<e:Image source="role_zycs_star"/>
+			<e:Image source="role_zycs_star"/>
+			<e:Image source="role_zycs_star"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="lbName" textAlign="center" verticalAlign="middle" text="Epic 1-Star Claw" size="18" fontFamily="Times" strokeColor="0x000000" y="92" horizontalCenter="0" textColor="0xffffff"/>	
+	
+</e:Skin>

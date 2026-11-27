@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortDieWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<e:Image id="colorCanvas" source="public_zycs_greybg2" scale9Grid="1,1,1,1" right="0" top="0" bottom="0" left="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+	<e:Image id="bg" x="0" y="0.5"  source="js_zycs_qzh_png"/>
+		<e:Image id="imgTitle" y="128" anchorOffsetY="0" source="js_zycs_sb_png" x="236"/>
+		<e:Label id="timeTxt" text="0" fontFamily="Times" size="20" x="100" y="511" textColor="0xCDC8BE" scaleX="1" scaleY="1"/>
+		<e:Component id="ybPrice" y="506" skinName="PriceIconSkin" x="416"/>
+	<e:Button id="fuhuoBtn0" label="Awaiting to Respawn" x="87" y="554"  anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_6"/>
+		<e:Button id="fuhuoBtn1" label="Respawn on the Spot" y="554" anchorOffsetX="0" anchorOffsetY="0" x="404" skinName="BtnMin1_6"/>
+
+	</e:Group>
+</e:Skin>

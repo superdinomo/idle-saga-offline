@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnMin1_2small" states="up,down,disabled,hui"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="98" height="40">
+	<e:Image id="imageDisplay" x="0" y="0" x.down="1" y.down="1" width="100%" height="100%"
+	        
+	          source.up="public_zycs_button04" source.down="public_zycs_button04" source.disabled="public_zycs_button00" source.hui="public_zycs_button00" source="public_zycs_button04"/>
+	<e:Image id="iconDisplay" horizontalCenter.hui="0" horizontalCenter.disabled="0" horizontalCenter.up="0" verticalCenter.hui="0" verticalCenter.disabled="0" verticalCenter.up="0" source="" horizontalCenter.down="1" verticalCenter.down="1"/>
+	<e:Label id="labelDisplay" size="18" verticalAlign="middle"
+	         textAlign="center" width="100%" horizontalCenter.down="1"
+	         verticalCenter.down="1" horizontalCenter="0" verticalCenter="0" text="0"  fontFamily="Times" borderColor="0xc90808" alpha="1" stroke="2" strokeColor="0x812e00" textColor.disabled="0xededed" strokeColor.disabled="0x838383" strokeColor.hui="0x838383" textColor.hui="0xededed" textColor="0xfff9d4" stroke.disabled="0" stroke.hui="0"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="-2" top="-2" visible="false"/>
+</e:Skin>

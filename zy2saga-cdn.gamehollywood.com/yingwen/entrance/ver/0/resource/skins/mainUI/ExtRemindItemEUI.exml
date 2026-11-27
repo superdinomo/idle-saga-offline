@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExtRemindItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   height="83" states="s1,s2"  minWidth="206">
+    <w:Config id="15cc59234d7" />
+	<e:Group id="groupRemind" x="0" anchorOffsetX="0" y="0">
+		<e:Image y="2" left="0" right="0" scaleX.s2="-1" source="mianui_zycs_sxk" scale9Grid="69,19,75,13"/>
+		<e:Label id="lbRemindDesc" text="0" y="3" fontFamily="Times" size="20" textAlign="center" textColor="0xDFD1B5" anchorOffsetY="0" height="35" verticalAlign="middle" anchorOffsetX="0" horizontalCenter="-2" left="4" right="8"/>
+	</e:Group>
+</e:Skin>

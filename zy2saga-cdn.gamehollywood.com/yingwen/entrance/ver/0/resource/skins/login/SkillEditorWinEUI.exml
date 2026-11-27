@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="SkillEditorWinEUI" width="1400"
+        height="1070">
+	<e:Group id="groupMap" top="190" bottom="0" left="0" right="0">
+	</e:Group>
+	<e:Group id="groupPos" top="190" bottom="0" left="0" right="0"/>
+	<e:Group id="groupEffDown1" top="190" bottom="0" left="0" right="0" />
+	<e:Group id="groupEffDown2" top="190" bottom="0" left="0" right="0"/>
+	<e:Group id="groupEffUp1" top="190" bottom="0" left="0" right="0"/>
+	<e:Group id="groupEffUp2" top="190" bottom="0" left="0" right="0"/>
+	<e:Group id="groupMask" left="0" top="0" bottom="0" right="0">
+	</e:Group>
+	<e:Scroller id="scrollerFly" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" top="190" right="0" left="0" bottom="0" touchEnabled="true">
+		<e:List id="listFly" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="SkillEditorFlyItemEUI" scrollEnabled="false" touchEnabled="true" touchChildren="true">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" top="190" right="0" left="0"
+	            bottom="0" touchEnabled="true">
+		<e:List id="listType" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="SkillEditorTypeItemEUI" scrollEnabled="false" touchEnabled="true" touchChildren="true" useVirtualLayout="false">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupInput" y="2" left="20" anchorOffsetX="0" width="388" anchorOffsetY="0" height="184">
+		<e:Label id="labelBody" text="Body" size="20" fontFamily="Times" x="0" y="6" touchEnabled="true"/>
+		<e:Label text="Special Effect" size="20" fontFamily="Times" y="42" x="1"/>
+		<e:Label text="Action" size="20" fontFamily="Times" y="78" x="0"/>
+		<e:Label id="labelWeapon" text="Weapon" size="20" fontFamily="Times" y="116" x="0" touchEnabled="true"/>
+		<e:Label id="labelXishu" text="Parameter" size="20" fontFamily="Times" y="150" x="0" touchEnabled="true"/>
+		<e:Label text="Strong Body" size="20" fontFamily="Times" y="44.5" x="196"/>
+		<e:Label id="labelWing" text="Wings" size="20" fontFamily="Times" y="79.5" x="195" touchEnabled="true"/>
+		<e:Label text="Strong Weapon" size="20" fontFamily="Times" y="116" x="197"/>
+		<e:Label text="Zoom" size="20" fontFamily="Times" y="152" x="197"/>
+		<e:Component id="dropDownXishu" x="50" y="144" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownWeapon" x="50" y="108" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownScale" x="241" y="145.5" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownWeaponStrength" x="241" y="108" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownWing" x="241" y="72" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownAction" x="50" y="72" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownBodyStrength" x="241" y="37" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownSkill" x="50" y="36" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownBodyId" x="193" y="2" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+		<e:Component id="dropDownBodyFoder" x="50" y="0" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+	</e:Group>
+	<e:Group x="411.5" y="4" width="597" anchorOffsetY="0" height="183" anchorOffsetX="0">
+		<e:Group x="5" y="8" width="627" touchEnabled="false" anchorOffsetX="0">
+			<e:Button id="btnAddType" label="" y="8.5" skinName="Btn0Skin" icon="public_zycs_Button_jia" x="3.5"/>
+			<e:Button id="btnDelType" label="" y="8.5" skinName="Btn0Skin" icon="public_zycs_Button_jian" x="38"/>
+			<e:Button id="btnPrev" label="" y="42" skinName="Btn0Skin" icon="mainui_lt_zycs_sjx" rotation="90" scaleY="1" x="104" scaleX="-1"/>
+			<e:Button id="btnNext" label="" y="41" skinName="Btn0Skin" icon="mainui_lt_zycs_sjx" rotation="-90" scaleY="1" x="112" scaleX="1"/>
+			<e:Label text="Tips" x="150" y="16" fontFamily="Times" size="16"/>
+			<e:Label text="Record" x="313" y="103" fontFamily="Times" size="16"/>
+			<e:ToggleSwitch id="toggleTips" label="ToggleButton" x="186" y="15" skinName="skins.ToggleSwitchSkin" selected="false" scaleX="0.7" scaleY="0.7"/>
+			<e:ToggleSwitch id="toggleRecordPos" label="ToggleButton" x="351.5" y="98" skinName="skins.ToggleSwitchSkin" selected="false"/>
+			<e:Button id="btnSetAppereance" label="Set Appearance" x="0" y="49" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnReloadSkill" label="Reload Skill" x="0" y="91" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnShowList" label="Special Effect List" x="104" y="49" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnAddSkill" label="Import Skill" x="103" y="91" skinName="BtnMin1_6" width="100" height="40" visible="false"/>
+			<e:Button id="btnMobileMode" label="Mobile Mode" x="103" y="91" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnResult" label="Generate configure" x="207" y="49" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnSaveGame" label="Save to Game" x="311" y="49" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnImportConfig" label="Guide Configure" x="414" y="49" skinName="BtnMin1_6" width="74" height="40"/>
+			<e:TextInput id="inputImportConfig" width="30" height="31" x="490" y="52" skinName="TextInputCommonSkin"/>
+			<e:Button id="btnMouseXY" label="Switch Coordinate" x="207" y="90" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnClean" label="Clear Special Effect" x="524" y="87.5" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnReset" label="Reset Selection" x="524" y="46" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnMap" label="Map" x="333" y="6" skinName="BtnMin1_6" width="76" height="40"/>
+			<e:Button id="btnMapPos" label="Redirect" x="495" y="5" skinName="BtnMin1_6" width="76" height="40"/>
+			<e:TextInput id="tiMapPosX" width="37" height="24" x="411" y="15" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" text="0"/>
+			<e:TextInput id="tiMapPosY" width="37" height="24" x="451" y="15" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" text="0"/>
+			<e:TextInput id="tiRecordPosR" width="60" height="24" x="423" y="101" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" text="3"/>
+			<e:Component id="dropDownMap" x="238" y="8" skinName="DropDownSkin" anchorOffsetX="0" width="94" anchorOffsetY="0" height="33"/>
+		</e:Group>
+		<e:Group x="8.5" y="139" anchorOffsetX="0" width="672" touchEnabled="false">
+			<e:EditableText id="tiRadomResult" text="" size="18" anchorOffsetX="0" border="true" multiline="true" anchorOffsetY="0" fontFamily="Times" width="151" height="40" y="1" x="334" scaleX="1" scaleY="1" wordWrap="true" textColor="0xffffff"/>
+			<e:Component id="dropDownRadomType" x="0" y="4" skinName="DropDownSkin" anchorOffsetX="0" width="90" anchorOffsetY="0" height="33"/>
+			<e:TextInput id="tiRadomMin" width="77" height="24" x="99" y="9" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label text="-" x="176.5" y="11" fontFamily="Times" size="20"/>
+			<e:TextInput id="tiRadomMax" width="78" height="24" x="186.5" y="9" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:TextInput id="tiRadomIndex" width="78" height="24" x="591" y="9" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button id="btnImport" label="Import" x="271.5" y="0" skinName="BtnMin1_6" width="62" height="40" anchorOffsetX="0"/>
+			<e:Button id="btnRadom" label="Random Value" x="487.5" y="1" skinName="BtnMin1_6" width="100" height="40"/>
+		</e:Group>
+		<e:Group x="634" y="14.5" width="351" anchorOffsetX="0" anchorOffsetY="0" height="119" touchEnabled="false">
+			<e:Button id="btnShowFlyList" label="Floating Text List" x="0" y="0" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnLoadFly" label="Load Floating Text" x="0" y="41" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnShowFlyPlay" label="Play Floating Text" x="0" y="82" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Button id="btnResultFly" label="Generate configure" x="247" y="3" skinName="BtnMin1_6" width="100" height="40"/>
+			<e:Component id="dropDownFly" x="104" y="7" skinName="DropDownSkin" anchorOffsetX="0" width="140" anchorOffsetY="0" height="33"/>
+			<e:Label text="id" x="107" y="55" fontFamily="Times" size="16" scaleX="1" scaleY="1"/>
+			<e:TextInput id="tiFlyUrl" width="74" height="24" x="130" y="52" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Amount" x="210" y="58" fontFamily="Times" size="16"/>
+			<e:TextInput id="tiFlyCount" width="60" height="24" x="250" y="52" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" text="1" scaleX="1" scaleY="1"/>
+			<e:Label text="DMG" x="108" y="92" fontFamily="Times" size="16" scaleX="1" scaleY="1"/>
+			<e:TextInput id="tiFlyNum" width="93" height="24" x="150" y="88" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" text="10000" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group width="299" height="44" x="683.5" y="136" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="btnMcRate" label="Setting Speed" x="-1" y="3" skinName="BtnMin1_6" width="100" height="40" scaleX="1" scaleY="1"/>
+			<e:TextInput id="tiMcRate" width="78" height="24" x="103" y="10" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" text="1"/>
+			<e:TextInput id="tiMcFrame" width="78" height="24" x="219" y="11" skinName="TextInputCommonSkin" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" text="1"/>
+			<e:Button id="btnMcRateNext" label="" y="41" skinName="Btn0Skin" icon="mainui_lt_zycs_sjx" rotation="-90" scaleY="1" x="185.5" scaleX="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" right="0" top="0"/>
+</e:Skin>

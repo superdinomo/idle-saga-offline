@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JJCRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="687" height="115" states="s1,s2,s3,s4" >
+	<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="687" source="qianghua_zycs_kuang4" scale9Grid="34,34,10,5" height="116"/>
+	<e:Image id="imgRank" visible.s4="false" source="jjc_zycs_no1" x="21" source.s2="jjc_zycs_no2" source.s3="jjc_zycs_no3" y="32"/>
+	<e:Label id="lbRank" text="0" x="31" anchorOffsetX="0" width="48" textAlign="center" fontFamily="Times" size="20" textColor="0xcdc8be" verticalCenter="0" visible.s1="false" visible.s2="false" visible.s3="false"/>
+	<e:Label id="lbName" text="0" x="119" anchorOffsetX="0" textAlign="center" fontFamily="Times" size="20" textColor="0xf5e65a" y="47" width="150"/>
+	<e:Label id="lbGuild" text="0" x="278" anchorOffsetX="0" textAlign="center" fontFamily="Times" size="20" textColor="0xAF9B73" y="47" width="150"/>
+	<e:BitmapLabel id="bmpPower" y="48" font="smallnum_fnt" text="123123123" horizontalCenter="211"/>	
+</e:Skin>

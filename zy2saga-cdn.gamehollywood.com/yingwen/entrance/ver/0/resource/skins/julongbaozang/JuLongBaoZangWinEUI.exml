@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JuLongBaoZangWinEUI" width="720" height="1280"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+       >
+	<w:Config id="1586b13ea96" />
+	<e:Group width="720" horizontalCenter="0" y="153" height="818">
+
+		<e:Image id="imgBg" touchEnabled="false" y="0" x="0" source="jlbz_zycs_zjm_png"/>
+		<e:Button id="closeBtn" label="" x="652" y="64" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:Button id="helpBtn" x="202" y="190" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+		<e:Label id="lbTime" text="刷新剩余时间：11:11:00" fontFamily="Times" size="24" textColor="0xFFFFFF" x="254" y="198"/>
+
+		<e:Component id="item0" touchEnabled="true" x="16" y="435" skinName="JuLongBaoZangWinItemEUI"/>
+		<e:Component id="item1" touchEnabled="true" y="435" skinName="JuLongBaoZangWinItemEUI" x="249"/>
+		<e:Component id="item2" touchEnabled="true" y="435" skinName="JuLongBaoZangWinItemEUI" x="478"/>
+		<e:Group id="groupMc" width="0" height="0" y="360" x="360"/>
+
+		<e:Button id="btnSend" y="703" label="Refresh" skinName="BtnMin1_2" x="286"/>
+		<e:Group id="groupConsume" y="719" x="452">
+			<e:Image x="0" y="0" source="zycs_340041"/>
+			<e:Label id="lbConsume" text="999/999" fontFamily="Times" size="24" textColor="0xFFFFFF" x="34" y="4"/>
+		</e:Group>
+		<e:CheckBox id="checkBox" y="784" skinName="CheckBoxEUI" label="Skip animation" selected="true" horizontalCenter="5.5"/>
+
+	</e:Group>
+
+</e:Skin>

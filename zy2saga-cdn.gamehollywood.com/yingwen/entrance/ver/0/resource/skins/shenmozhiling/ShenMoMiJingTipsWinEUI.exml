@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoMiJingTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="max,normal" >
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupMC" width="0" height="0" x="0" y="0"/>
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="hddt_zycs_gxhd_png" scale9Grid="73,111,442,8" height="341"/>
+		<e:Label id="lbCount" text="Treasure Hunt Attempts: 2/5" y="311" size="20" fontFamily="Times" horizontalCenter="0" textColor="0xE6DCB8"/>
+		<e:Scroller horizontalCenter="0" y="112">
+			<e:List id="itemList" itemRendererSkinName="ItemSkin" y="0" x="0" anchorOffsetX="0">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="20" horizontalAlign="center" paddingLeft="12" paddingTop="12" paddingBottom="12" paddingRight="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupConsume" height="37" y="225" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" visible.max="false">
+			<e:Image id="imgConsume" x="120" y="10" source="zycs_320003" width="25" height="25"/>
+			<e:Label id="lbConsume" text="9999999" y="10" size="20" fontFamily="Times" x="120" textAlign="left" verticalAlign="middle" textColor="0xFFFFFF"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnOK" y="260" scaleX="1" scaleY="1" icon="" skinName="BtnMin1_2mid" label="Continue Treasure Hunt" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

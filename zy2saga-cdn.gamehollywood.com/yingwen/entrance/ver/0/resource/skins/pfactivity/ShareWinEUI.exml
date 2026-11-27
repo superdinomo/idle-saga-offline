@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShareWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="normal,cd" >
+	<w:Config id="1586b36a128" />
+	<e:Group id="group" horizontalCenter="0" x="312" width="720" height="630" verticalCenter="0">
+		<e:Image source="share_zycs_fx_png" />
+		<e:Button id="closeBtn" y="56" icon="sc_zycs_x" skinName="Btn0Skin" x="638"/>
+		<e:Scroller y="278" height="230" width="336" x="301">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="553">
+				<!--
+					
+						
+						
+						
+						
+						
+						
+					
+				-->
+				<e:layout>
+					<e:TileLayout paddingTop="12" paddingBottom="12" paddingRight="12" horizontalGap="14" verticalGap="20"  paddingLeft="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="labelCount" text="Share Attempts (0/3)" y="522" fontFamily="Times" size="24" horizontalCenter="0" textColor="0x13ee22"/>
+		<e:Button id="btnGetAward" label="Share Now" y="555" skinName="BtnMin1_2" horizontalCenter="0"  label.normal="Claim" visible.cd="false"/>
+		<e:Button id="btnCD" label="" y="555" skinName="BtnMin1_2" horizontalCenter="0" enabled="false" visible.normal="false"/>
+		<e:Label id="labelCd" text="04:36" y="573" fontFamily="Times" size="24" horizontalCenter="0" textColor="0xf01414" visible.normal="false"/>
+	</e:Group>
+	<e:Image id="imgArrow" source="share_zycs_fx2_png" right="27" top="0"/>
+</e:Skin>

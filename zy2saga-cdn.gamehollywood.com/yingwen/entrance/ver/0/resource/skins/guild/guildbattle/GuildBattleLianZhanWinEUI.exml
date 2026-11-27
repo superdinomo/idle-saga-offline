@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleLianZhanWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group id="group" width="574" height="125" horizontalCenter="0" verticalCenter="-250">
+		<e:Image touchEnabled="true" y="0" x="0" source="ldsz_zycs_lsts"/>
+		<e:Image x="4" y="51" source="ldsz_zycs_zy1k"/>
+		<e:Image id="imgIconS" x="4" y="50" source="mianui_zycs_zhanshi0" scaleX="0.7" scaleY="0.7"/>
+		<e:Image x="498" y="51" source="ldsz_zycs_zy2k"/>
+		<e:Image id="imgIconT" x="498" y="50" source="mianui_zycs_zhanshi0" scaleX="0.7" scaleY="0.7"/>
+		<e:Label id="lbDec" fontFamily="Times" size="20" text="Miracle xXMoo MoralityXx delivered the final blow \nkilling Miracle xXMoo MoralityXx" y="57" textColor="0xCDC8BE" lineSpacing="0" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="lbDec0" fontFamily="Times" size="20" text="completed 5 killstreak, invincible!" y="99" lineSpacing="0" textAlign="left" horizontalCenter="0" textColor="0xff9b0f"/>
+	</e:Group>
+</e:Skin>

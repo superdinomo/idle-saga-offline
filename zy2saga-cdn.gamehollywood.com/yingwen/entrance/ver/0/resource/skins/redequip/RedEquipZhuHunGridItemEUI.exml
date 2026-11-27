@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipZhuHunGridItemEUI" width="180" height="99" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="currentState1,currentState2" >
+	<e:Image source="zhzh_zycs_di" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="groupWear"/>
+	<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source="zhzh_zycs_di1"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="19" x="115"/>
+	<e:Button id="imgAdd" label="Button" skinName="Btn0Skin" icon="zhzh_zycs_jia" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgName" source="zhzh_zycs_m1" verticalCenter="0" verticalCenter.currentState1="0.5" right.currentState1="130" verticalCenter.currentState2="0.5" left.currentState2="130"/>
+	<e:Image id="imgLock"  source="zhzh_zycs_suo" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="groupUnlockSlot"/>
+	<e:Group id="groupCanWear"/>
+</e:Skin>

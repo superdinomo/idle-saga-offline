@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipBossPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1137">
+	<e:Image x="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="49" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="public_zycs_greybg0" width="689" height="889" horizontalCenter="-2.5" scale9Grid="2,2,16,16"/>
+
+	<e:Label y="860.5" text="Attempts resets at 0:00 daily" fontFamily="Times" size="24"  textColor="0xe3d7be" x="36"/>
+
+
+
+
+
+	<e:Label id="lbDesc" y="890" text="You can perform Raid All with SVIP2" fontFamily="Times" size="24" x="36" textColor="0xff9b0f"/>
+	<e:Scroller id="scroller" x="18" y="81" height="750"  anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="list" anchorOffsetX="0" itemRendererSkinName="EquipBossPanelItemEUI"  anchorOffsetY="0" useVirtualLayout="true" height="771">
+					
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		<e:layout>
+				<e:VerticalLayout paddingTop="0" gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image x="11" y="831" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="public_zycs_zbx1"/>
+	<e:Button id="btnActSVip" label="Activate SVIP" x="530" anchorOffsetX="0" anchorOffsetY="0" y="855" skinName="BtnMin1_2"/>
+	<e:Button id="btnOneKey" label="Raid All" x="530" anchorOffsetX="0" anchorOffsetY="0" y="855" skinName="BtnMin1_1"/>
+
+
+
+</e:Skin>

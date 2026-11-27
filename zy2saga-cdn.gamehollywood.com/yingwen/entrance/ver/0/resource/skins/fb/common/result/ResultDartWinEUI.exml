@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultDartWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="15c8d32c190" />
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png" scaleX="1" scaleY="1"/>
+		<e:Image id="title" x="236" y="128" anchorOffsetY="0" source="js_zycs_sl_png" scaleX="1" scaleY="1"/>
+
+
+
+		<e:Button id="closeBtn" label="Claim (10s)" y="905" horizontalCenter="0" skinName="BtnMin1_6"/>
+		<e:Image id="imgwptitle" x="101" y="419" source="js_zycs_jpjl"/>
+
+
+
+
+
+		<e:Group id="effGroup"   touchChildren="false" touchEnabled="false" y="120" horizontalCenter="-60" x="230"  />
+		<e:Group width="400" height="39" y="322" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+			<e:Label id="eTips" text="Take-down Hint: Congrats! You have successfully taken down X Zone YY Guild’s Z Caravan" size="22" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0" textColor="0xf49d00" fontFamily="Times" lineSpacing="5" width="514" horizontalCenter="0"/>
+			<e:Label text="Defeat Hint: is defeated by X Zone XXX Guild’s XXX" size="20" textColor="0xF49D00" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			<e:Label text="Battle Won: Unfortunately, the caravan has been taken down by X Zone X Guild’s XX before you" size="20" textColor="0xF49D00" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller id="scroller" height="440" y="462" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="eList" itemRendererSkinName="ItemSkin" height="392">
+			<e:layout>
+				<e:TileLayout horizontalGap="28" verticalGap="43" requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+
+
+
+
+	</e:Group>
+</e:Skin>

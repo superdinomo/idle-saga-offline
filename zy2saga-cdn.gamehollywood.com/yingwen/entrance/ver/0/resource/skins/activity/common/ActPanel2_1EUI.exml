@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel2_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="800" width="694">
+	<e:Image height="800" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" width="694" y="0" x="0"/>
+	<e:Image id="imgTitle" y="0" source="xg_zycs_di_jpg" x="0" width="694" height="160"/>
+	<e:Label id="lbTime" y="119" text="Time Remain:" fontFamily="Times" size="24" x="425" lineSpacing="10" textColor="0xaf9b73"/>
+	<e:Scroller
+	            x="1" width="693" height="621" y="161">
+		<e:List id="list" itemRendererSkinName="ActItem2_1EUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

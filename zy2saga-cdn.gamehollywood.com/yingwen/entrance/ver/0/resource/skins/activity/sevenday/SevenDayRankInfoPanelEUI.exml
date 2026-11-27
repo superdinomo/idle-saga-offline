@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SevenDayRankInfoPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Image x="0" y="0" height="1054" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="53" source="public_zycs_cjx" width="694" x="13"/>
+	<e:Image y="57" x="213" source="public_zycs_sjx"/>
+	<e:Image y="57" source="public_zycs_sjx" x="443"/>
+	<e:Image height="825" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" width="694" x="13" y="87"/>
+	<e:Scroller id="scroller" y="87" x="14" width="692" height="825">
+		<e:List id="list" itemRendererSkinName="SevenDayRankInfoItemEUI" useVirtualLayout="true">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="Ranking" x="90" fontFamily="Times" size="20" y="60" textAlign="left" textColor="0xff9b0f"/>
+	<e:Label text="Player" fontFamily="Times" size="20" y="60" textAlign="left" textColor="0xff9b0f" x="314"/>
+	<e:Label id="dabiaoTxt" text="Total Enhance Level" x="483" fontFamily="Times" size="20" y="60" textAlign="center" width="195" textColor="0xff9b0f"/>
+	<e:Label id="lbDesc" text="The ranking refreshes every half hour" y="952" size="24" textColor="0xf5e65a" fontFamily="Times" x="228"/>
+</e:Skin>

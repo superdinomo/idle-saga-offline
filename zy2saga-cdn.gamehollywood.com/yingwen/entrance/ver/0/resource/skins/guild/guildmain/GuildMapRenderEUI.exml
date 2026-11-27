@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildMapRenderEUI" width="350" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Label id="labelName" text="Player" x="0" fontFamily="Times" size="20" textAlign="left" y="8" textColor="0xe5c552"/>
+	<e:Label id="labelOffice" text="Leader" x="170" fontFamily="Times" size="20" textAlign="center" textColor="0xcdc8be" y="8"/>
+	<e:Label id="labelGongxian" text="500" x="289" fontFamily="Times" size="20" verticalAlign="justify" textAlign="right" textColor="0xcdc8be" y="8"/>
+
+	
+</e:Skin>

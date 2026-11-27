@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoMiJingPanelItemCountEUI" 
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"    width="0" height="0">
+	<e:Group x="0" y="0" width="5" height="5">
+		<e:Label id="lbBei" text="X25" y="-170" size="24" fontFamily="Times" horizontalCenter="0"/>
+		<e:Image id="imgIcon" y="-245" source="zycs_310101" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

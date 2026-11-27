@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FumoItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   width="157" height="141">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="107" y="2" source="mainui_zycs_hongdian" visible="false"/>
+	<e:Group y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true" horizontalCenter="0">
+		<e:Image id="imgIcon" touchEnabled="false" x="1" y="1" source="fm_zycs_fy"/>
+		<e:Image id="imgSelect" touchEnabled="false" x="0" y="0" source="fm_zycs_xz"/>
+	</e:Group>
+	<e:Image id="imgName" y="86" horizontalCenter="0.5" source="fm_zycs_fy01" scaleX="0.8" scaleY="0.8"/>
+	<e:Label id="lbLv" text="0" y="121" size="20" fontFamily="Times" textColor="0xe6dcb8" horizontalCenter="0"/>
+
+</e:Skin>

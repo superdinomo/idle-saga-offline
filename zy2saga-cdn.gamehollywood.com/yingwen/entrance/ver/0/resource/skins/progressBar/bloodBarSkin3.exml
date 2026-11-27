@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bloodBarSkin3" width="145" height="16" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%"
+	         height="100%" source="jzhd_zycs_jdt2" scale9Grid="4,4,30,8"/>
+	<e:Image id="thumb" fillMode="scale" left="1" right="1" source="jzhd_zycs_jdt1" y="0" scale9Grid="4,4,30,8"/>
+	<e:Label id="labelDisplay" text="100%" size="13" fontFamily="Times" horizontalCenter="0.5" y="2"/>
+</e:Skin>

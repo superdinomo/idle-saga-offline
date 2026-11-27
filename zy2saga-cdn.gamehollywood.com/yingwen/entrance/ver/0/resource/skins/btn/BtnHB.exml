@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnHB" states="up,down,disabled"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="44" width="172">
+	<e:Image id="imageDisplay" x="0" y="0" x.down="1" y.down="1"
+	        
+	          scale9Grid.down="39,18,83,18" scale9Grid.up="39,18,83,18" source.disabled="public_zycs_an" source="public_zycs_anh" source.up="public_zycs_anh" source.down="public_zycs_anh"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="11" top="5" visible="false"/>
+	<e:Label id="labelDisplay" text="0" size="20" fontFamily="Times" textColor="0xffebc8" stroke="1" horizontalCenter.down="1" textAlign="center" verticalAlign="middle" height="20" y="11" horizontalCenter="0" y.down="12" textColor.disabled="0xf0f0f0"/>
+</e:Skin>

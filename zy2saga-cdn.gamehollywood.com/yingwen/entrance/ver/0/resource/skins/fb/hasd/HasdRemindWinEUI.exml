@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HasdRemindWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="1" verticalCenter="-93">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="28" horizontalCenter="0" source="tcbt_zycs_bstx"/>
+		<e:Image y="94" source="public_zycs_cjx" horizontalCenter="0"/>
+		<e:Image x="377" y="97" source="public_zycs_sjx"/>
+		<e:Image x="250" y="97" source="public_zycs_sjx"/>
+		<e:Scroller y="134" height="696" x="16" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" width="690">
+			<e:List id="list0" width="539" height="418" itemRendererSkinName="HasdRemindItemEUI" y="23" anchorOffsetX="0" anchorOffsetY="0" x="-2">
+				<e:layout>
+					<e:VerticalLayout gap="-3" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object 啊="null"/>
+						<e:Object 啊="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="BOSS" x="104" fontFamily="Times" size="20" y="101" textColor="0xff9b0f" />
+		<e:Label id="lbLv" text="Level" fontFamily="Times" size="20" y="101" textColor="0xff9b0f"  x="294"/>
+		<e:Label text="Reminder Status" x="482" fontFamily="Times" size="20" y="100" textColor="0xff9b0f" />
+	</e:Group>
+</e:Skin>

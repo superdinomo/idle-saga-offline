@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DailyOnlinePanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="canGet,cantGet,hasGet" width="693" height="153">
+	<e:Image source="llcz_zycs_di01"/>
+<e:Scroller x="57" width="437" height="110" y="36" scrollPolicyH="off" scrollPolicyV="off">
+		<e:List id="list" itemRendererSkinName="ItemSkin" width="442" x="-1" y="0" anchorOffsetX="0">
+			<e:layout>
+				<e:HorizontalLayout gap="10" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="labelDesc" text="Stay online for 2 minutes to claim" x="58" y="10" size="18" fontFamily="Times"/>
+	<e:Label id="lbTime" text="0" size="20" fontFamily="Times" touchEnabled="false" textColor="0xffffff" y="20" horizontalCenter="250" visible.hasGet="false" visible.canGet="false"/>
+	<e:Button id="btnGet" label="Claim" x="536" visible.cantGet="false" visible.hasGet="false" skinName="BtnMin1_2mid" verticalCenter="0"/>
+	<e:Image id="imgYLQ" x="536" visible.canGet="false" visible.cantGet="false" source="fl_zycs_ylq" verticalCenter="0"/>
+	<e:Image id="imgWDC" x="536" visible.canGet="false" source="fl_zycs_wdc" visible.hasGet="false" y="49"/>
+</e:Skin>

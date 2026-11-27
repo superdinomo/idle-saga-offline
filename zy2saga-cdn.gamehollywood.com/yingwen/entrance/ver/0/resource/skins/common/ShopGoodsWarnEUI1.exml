@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShopGoodsWarnEUI1" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   >
+	<e:Group id="bgGroup" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-50" horizontalCenter="0.5" width="553" >
+		<e:Image y="0" x="0" source="sjhj_zycs_di_jpg" scale9Grid="69,380,414,26" height="100%"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Component id="itemIcon" y="125" skinName="ItemSkin" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image y="13" source="djts_zycs_tszt" x="250"/>
+		<e:Label id="titleTxt" text="Insufficient materials, obtain it through the following methods" fontFamily="Times" size="20" textColor="0xFF9B0F" width="433" x="60" top="274"/>
+		<e:Group id="listGroup" x="16" touchEnabled="false" anchorOffsetX="0" width="523" top="45" bottom="20">
+		<e:Group id="listGroupTxt" touchEnabled="false" y="283" anchorOffsetX="0" width="496" horizontalCenter="0">
+			<e:Image id="imgTitle" y="9" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="hd_zycs_qttj"/>
+			<e:Image y="12" source="liuguang_zycs_huawen" x="12"/>
+			<e:Image y="12" source="liuguang_zycs_huawen" scaleX="-1" x="483"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" top="317" bottom="31">
+			<e:List id="gainList" itemRendererSkinName="GainGoodsItemEUI" horizontalCenter="0">
+			<!--<e:ArrayCollection>		
+			<e:Object/>
+			<e:Object/>
+</e:ArrayCollection>-->
+				
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:TileLayout horizontalGap="35" horizontalAlign="center" requestedColumnCount="4"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+		</e:Group>
+		<e:Label id="itemName" text="0" x="193" y="225" fontFamily="Times" size="20" textColor="0x20C528" textAlign="left" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+
+</e:Skin>

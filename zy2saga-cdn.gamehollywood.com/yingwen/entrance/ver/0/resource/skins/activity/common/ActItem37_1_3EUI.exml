@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem37_1_3EUI" currentState="hasPlayer" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="hasPlayer,noPlayer" width="208" height="241">
+	<w:Config id="1586bd49103"/>
+	<e:Image y="0" x="0" source="qqsh_zycs_k6"/>
+	<e:Image y="-1" x="-2" source="qqsh_zycs_c1"/>
+	<e:Group y="23" horizontalCenter="0" visible.noPlayer="false" width="140" height="114">
+		<e:Image y="0" source="sjhj_zycs_tx" x="23"/>
+		<e:Image id="imgHead" y="7" width="76" height="76" source="mianui_zycs_zhanshi0" x="32"/>
+		<e:Label id="lbName" text="Player Name Seven Characters" y="85" size="20" textAlign="center" fontFamily="Times" textColor="0x13ee22" width="199" x="-30"/>
+	</e:Group>
+	<e:Button id="btnSend" anchorOffsetX="0" horizontalCenter="0" y="137" skinName="Btn0Skin" icon="qqsh_zycs_zs" visible.noPlayer="false"/>
+	<e:Image id="imgXwyd" anchorOffsetY="0" source="qqsh_zycs_xwyd" horizontalCenter="0" verticalCenter="0" visible.hasPlayer="false" scaleX="0.8" scaleY="0.8"/>
+</e:Skin>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterSiegeResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*"  >
+	<w:Config id="1586b3502a7"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png"/>
+
+
+		<e:Group x="94" y="287">
+			<e:Image x="0" y="0" source="js_zycs_zcsh"/>
+			<e:Label id="lbhh" text="0" x="94" y="2" size="22" fontFamily="Times" textColor="0xAF9B73"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="top"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="94" y="320">
+			<e:Image x="0" y="0" source="js_zycs_shpm"/>
+			<e:Label id="lbpm" text="0" x="95" y="2" size="22" fontFamily="Times" textColor="0xAF9B73"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="imgwptitle" x="94" y="420" source="js_zycs_hdwp"/>
+
+		<e:Image id="imgTitle" x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png"/>
+		<e:Scroller id="scroller" height="440" y="495" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin" height="392">
+			<e:layout>
+				<e:TileLayout horizontalGap="28" verticalGap="43" requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+
+
+
+		<e:Button id="closeBtn" label="Confirm" y="935" skinName="BtnMin1_6" x="244"/>
+
+
+
+
+
+	</e:Group>
+
+
+</e:Skin>

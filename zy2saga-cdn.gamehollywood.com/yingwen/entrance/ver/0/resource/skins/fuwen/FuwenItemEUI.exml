@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FuwenItemEUI" currentState="equip" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="lock,idle,equip"  width="132" height="173">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="bgImg" source="fuwen_zycs_kuang02_01" source.lock="fuwen_zycs_suokuang" source.idle="fuwen_zycs_kuang01_01" y="18" x.lock="0" y.lock="0" x="18"/>
+	<e:Image id="selectImg" includeIn="idle,equip" y="0" source="fuwen_zycs_kuang02_00" x="0" visible="false"/>
+	<e:Image id="iconImg" includeIn="idle,equip" source.equip="" y.equip="26" x.equip="26" source="public_zycs_jh2" y="49" x="49"/>
+	<e:Label id="nameTxt" y="117" size="20" width="216" fontFamily="Times" textColor="0xDFD1B5" textAlign="center" text="Name" includeIn="lock,equip" x="-42"/>
+	<e:Label id="levelTxt" y="92" size="16" width="34" fontFamily="Times" textColor="0xDFD1B5" textAlign="center" text="0" height="18" includeIn="equip" x="84"/>
+	<e:Group y="139" horizontalCenter="0">
+		<e:Image id="attrBg" includeIn="idle,equip" y="0" source="fuwen_zycs_jeuxing01" width="132" scale9Grid="19,4,117,26" height="100%" horizontalCenter="0" visible="false"/>
+		<e:Label id="attrTxt" size="20" fontFamily="Times" textAlign="left" text="HP 100000" includeIn="equip" textColor="0x5dc12a" horizontalCenter="0" lineSpacing="3" top="7" bottom="7" visible="false"/>
+	</e:Group>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="94" y="16" visible="false"/>
+
+</e:Skin>

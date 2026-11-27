@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GemItemEUI" currentState="act" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="125" height="125" states="act,unAct" >
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="103" y="1" source="mainui_zycs_hongdian" visible="false"/>
+	<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source="bs_zycs_jh"/>
+	<e:Image id="lbDesc" verticalCenter="-1.5" source="bs_zycs_ksj" horizontalCenter="0"/>
+	<e:BitmapLabel id="bitLv" y="1" text="l1" font="qjzlnum1_fnt" horizontalCenter="0" visible.unAct="false"/>
+
+</e:Skin>

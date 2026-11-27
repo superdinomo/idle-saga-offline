@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultMyBigEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="600" height="154">
+	<e:Image x="0" y="7" source="liuguang_zycs_huawen"/>
+	<e:Image y="0" source="js_zycs_wybq" horizontalCenter="0"/>
+	<e:Image y="7" source="liuguang_zycs_huawen" scaleX="-1" right="0"/>
+	<e:Group y="37" horizontalCenter="0" maxWidth="600">
+		<e:List id="iconlist" itemRendererSkinName="ResultLostItemSkin" anchorOffsetX="0" anchorOffsetY="0" y="-1" x="99">
+			
+			
+				
+				
+				
+				
+			
+			
+			<e:layout>
+				<e:HorizontalLayout gap="24"/>
+			</e:layout>
+		</e:List>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="1"/>
+		</e:layout>
+	</e:Group>
+	</e:Skin>

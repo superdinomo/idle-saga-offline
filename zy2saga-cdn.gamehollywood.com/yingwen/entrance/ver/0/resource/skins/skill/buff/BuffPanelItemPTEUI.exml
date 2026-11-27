@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BuffPanelItemPTEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="676" height="144">
+	<e:Image width="100%" y="0" x="0" height="100%" source="buff_zycs_di_jpg"/>
+	<e:Group x="44" y="26">
+		<e:Image x="0" source="public_zycs_daojukuang_01"/>
+		<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="-2"/>
+	</e:Group>
+	<e:Image y="5" source="public_zycs_di01" horizontalCenter="0"/>
+	<e:Label id="labelName" text="0" y="9" fontFamily="Times" size="24" textAlign="center" textColor="0xf5e65a" horizontalCenter="0"/>
+	<e:Label id="labelContent" text="0" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" lineSpacing="0" textColor="0xe6dcb8" verticalCenter="17" width="494" x="156"/>
+	<e:Label id="labelTime" text="0" fontFamily="Times" size="24" textAlign="center" textColor="0x13ee22" y="46" horizontalCenter="252"/>
+</e:Skin>

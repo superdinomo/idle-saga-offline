@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildGiftPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" xmlns:euiextension="euiextension.*" height="1134" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="34" source="zhanmeng_zycs_di1_jpg"/>
+	<e:Image y="80" height="123" source="qianghua_zycs_kuang4" scale9Grid="34,38,30,23" width="518" x="101"/>
+	<e:Image y="159" width="515" source="zs_zycs_fengexian" x="102"/>
+	<e:Label id="rechargeLogTxt0" text="0" y="93" fontFamily="Times" size="20" textAlign="center" x="150" textColor="0xaf9b73"/>
+	<e:Label id="rechargeLogTxt1" text="0" y="122" fontFamily="Times" size="20" textAlign="center" x="150" textColor="0xaf9b73"/>
+	<e:Label id="logingTxt" text="More Record" y="172" fontFamily="Times" size="20" textAlign="center" x="498" textColor="0x1dae36"/>
+	<e:Image y="223" anchorOffsetY="0" source="zhanmeng_zycs_ts1" x="35"/>
+	<e:Label id="giftLevelTxt" text="When" y="303" fontFamily="Times" size="20" textAlign="center" x="69" textColor="0xafaaa0"/>
+	<e:Label text="Gift Growth:" y="339" fontFamily="Times" size="20" textAlign="center" x="69" textColor="0xafaaa0"/>
+	<e:ProgressBar id="integralBar" value="90" y="394" skinName="ProgressBarEUI3" width="576" x="72"/>
+	<e:Label id="integralBarTxt" y="404" size="20" fontFamily="Times" text="0" textAlign="left" textColor="0xd8c94e" horizontalCenter="0"/>
+	<e:Image y="457" touchEnabled="false" source="zs_zycs_fengexian" width="690" x="15"/>
+	
+	<e:Scroller id="scroller" y="505" horizontalCenter="0" height="310">
+		<e:List id="list" itemRendererSkinName="GuildGiftItemEUI">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" paddingLeft="30" paddingRight="30" horizontalGap="57" verticalGap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="rewardBtn" y="997" skinName="BtnMin1_1" x="286" label="Claim All"/>
+</e:Skin>

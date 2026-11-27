@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItemReward15_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" height="178" width="179">
+	<e:Image id="imgSelect" x="0" y="0" touchEnabled="false" scale9Grid="88,64,2,3" source="hddt_zycs_zsxz"/>
+	<e:Image id="imgMaxBg" touchEnabled="false" horizontalCenter="0.5" verticalCenter="-1.5" source="hddt_zycs_zsui"/>
+	<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgBg" touchEnabled="false" scale9Grid="88,64,2,3" y="29" x="30" source=""/>
+	<e:Image id="imgYlq" touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_ylq" horizontalCenter="0" verticalCenter="0"/>
+	
+</e:Skin>

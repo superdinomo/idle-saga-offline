@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem47_1BigEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="118">
+	<w:Config id="1586bd49103"/>
+	<e:Image touchEnabled="true" source="cjlc_zycs_yuan"/>
+	<e:Group id="groupMc" width="0" height="0" y="59" x="59"/>
+	<e:Image id="imgName" touchEnabled="true" y="128" source="cjlc_zycs_1" horizontalCenter="0.5"/>
+	<e:Image id="imgYlq" source="public_zycs_ylq" y="102" horizontalCenter="0"/>
+</e:Skin>

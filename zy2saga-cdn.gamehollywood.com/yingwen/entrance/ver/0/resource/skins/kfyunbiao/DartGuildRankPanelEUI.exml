@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DartGuildRankPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" x="13" y="42" source="hwbz_zycs_bg4_jpg"/>
+	<e:Image touchEnabled="false" x="145" y="55" source="jh_zycs_xz"/>
+	<e:Label text="Season Settle Time:" x="186" size="24" y="61" fontFamily="Times" textColor="0xF3D00B"/>
+	<e:Label text="Sunday 22:40" x="430" size="24" y="61" fontFamily="Times" textColor="0xffffff"/>
+	<e:Scroller x="14" y="103" width="692" height="863">
+		<e:List id="eList" itemRendererSkinName="DartGuildRankPanelItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="14"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image touchEnabled="false" y="970" source="hwbz_zycs_di4" x="13"/>
+	<e:Group x="68" y="972">
+		<e:Image id="scoreIcon" source="zycs_380050" scaleX="0.8" scaleY="0.8" x="493" y="9"/>
+		<e:Label text="Guilds points:" x="2" size="24" y="6" fontFamily="Times" textColor="0xf3d00b"/>
+		<e:Label id="eGuildScore" text="0" x="102" size="24" y="6" fontFamily="Times" textColor="0x13ee22"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="972" x="323">
+		<e:Label text="Guild Ranking:" x="2" size="24" y="6" fontFamily="Times" textColor="0xf3d00b"/>
+		<e:Label id="eGuildRank" text="Not listed" x="102" size="24" y="6" fontFamily="Times" textColor="0x13ee22"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

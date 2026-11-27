@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouTabEUI" states="up,down" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down">
+	<e:Image id="selectIcon" visible.up="false" pixelHitTest="true"   horizontalCenter="0" verticalCenter="0" source="hs_zycs_ktx"/>
+
+	<e:Group id="group" y="16" width="118" height="132" x="16">
+		<e:Image id="imgQuality2" x="0" y="0" source="hs_zycs_k2"/>
+		<e:Image id="iconDisplay" pixelHitTest="true" source="hs_zycs_hstx5" x="0" y="-15"/>
+
+		<e:Label id="lbName" textAlign="center" verticalAlign="middle" text="Shark" size="20" fontFamily="Times" strokeColor="0x000000" y="109" horizontalCenter="0" textColor="0xe3d7be"/>
+		<e:Image id="imgYcz" pixelHitTest="true" x="-12" y="-13" source="hs_zycs_ycz"/>
+	</e:Group>
+	<e:Image id="redPoint" x="113" y="33" source="mainui_zycs_hongdian"/>
+</e:Skin>

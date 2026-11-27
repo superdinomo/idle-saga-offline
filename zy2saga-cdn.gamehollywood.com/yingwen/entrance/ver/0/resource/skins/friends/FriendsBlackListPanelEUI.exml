@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendsBlackListPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="41" source="friends_zycs_bg_jpg" x="13"/>
+	<e:Scroller y="78" x="12" width="696" height="921">
+		<e:List id="list_blackList" itemRendererSkinName="BlackListItemRenderEUI" >
+		<e:layout>
+			<e:VerticalLayout gap="6"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="label_num" text="0" x="182" y="1039" size="24" fontFamily="Times" verticalAlign="middle" textAlign="center" textColor="0xcdc8be"/>
+	<e:Label id="label" text="Block Amount: " x="62" y="1039" size="24" fontFamily="Times" textColor="0xcdc8be"/>
+	<e:Label id="checkBoxTxt" y="1039" text="Refuse PM from non-followers" fontFamily="Times" size="24" x="451" touchEnabled="false" textColor="0xcdc8be"/>
+	<e:CheckBox id="checkBox0" x="652" y="1038" skinName="CheckBoxEUI"/>
+</e:Skin>

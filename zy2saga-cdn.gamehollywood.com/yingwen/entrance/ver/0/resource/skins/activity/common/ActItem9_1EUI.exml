@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem9_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="up,down" >
+	<w:Config id="1586b362dfe"/>
+	<e:Label id="lbCount" text="Unlock with 50 pieces" y="13" size="20" fontFamily="Times" textColor="0xefd98d" width="101" textAlign="center" x="0"/>
+	<e:Image y="44" source="hddt_zycs_cbxz" visible.up="false"/>
+	<e:Image y="58" source="hddt_zycs_zkdi" x="14"/>
+	<e:Image source="hddt_zycs_cbyz" x="22" y="66" visible.up="false"/>
+	<e:Image id="imgZhe" touchEnabled="false" y="82" source="hddt_zycs_5z" horizontalCenter="0.5"/>
+
+</e:Skin>

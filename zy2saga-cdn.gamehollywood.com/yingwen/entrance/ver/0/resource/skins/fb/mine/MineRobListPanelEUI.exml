@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineRobListPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" height="1134">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="42" x="13" source="sjmg_zycs_bg_jpg"/>
+
+		<e:Label text="Loot Remain:" y="69" fontFamily="Times" size="20" x="30" scaleX="1" scaleY="1" textColor="0xeae6e1"/>
+		<e:Label id="lbRobCount" text="5/5" y="69" fontFamily="Times" size="20" x="170" scaleX="1" scaleY="1" textColor="0x13ee22"/>
+		<e:Scroller y="115" x="13" width="694" height="953">
+			<e:List id="list" itemRendererSkinName="MineRobListPanelItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="14"/>
+				</e:layout>
+			<!--
+				
+				
+				
+				
+				
+				
+				
+			-->
+			</e:List>
+		</e:Scroller>
+
+
+
+
+
+
+	</e:Group>
+
+</e:Skin>

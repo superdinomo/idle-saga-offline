@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActRateItemEUI" width="476" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Label id="lbName" text="点券*10" fontFamily="黑体" size="20" lineSpacing="8" textColor="0xd2c864" x="14" scaleX="1" scaleY="1"/>
+	<e:Label id="lbRate" text="点券*10" fontFamily="黑体" size="20" lineSpacing="8" textColor="0xD2C864" scaleX="1" scaleY="1" right="36"/>
+</e:Skin>

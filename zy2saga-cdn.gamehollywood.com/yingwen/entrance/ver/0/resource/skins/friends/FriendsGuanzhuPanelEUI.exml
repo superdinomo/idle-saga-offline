@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendsGuanzhuPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="41" source="friends_zycs_bg_jpg" x="13"/>
+	<e:Scroller scrollPolicyV="on" scrollPolicyH="off" y="78" width="696" x="12" height="921">
+		<e:List id="list_friends" itemRendererSkinName="FriendListItemRenderEUI" >
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+			<!--
+				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+	<e:Label text="Followed:" x="62" y="1039" size="24" fontFamily="Times" textColor="0xcdc8be"/>
+	<e:Label id="label_num" text="0" x="182" y="1039" size="24" fontFamily="Times" textColor="0xcdc8be"/>
+	<e:Button id="btn_add" x="522" y="1023" skinName="BtnMin1_1" label="Follow"/>
+</e:Skin>

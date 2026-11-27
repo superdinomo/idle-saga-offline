@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChiBangEquipAlterSelectWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+	<e:Image y="28" source="cbzb_zycs_bb" horizontalCenter="0.5"/>
+	<e:Button id="closeBtn" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Scroller id="" scrollPolicyH="off" scrollPolicyV="auto" y="83" x="28" width="672" height="665" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="5" horizontalGap="37" paddingLeft="23" paddingRight="3" paddingTop="19" verticalGap="29"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnEnter" y="773" skinName="BtnMin1_1"  x="286" label="Select"/>
+	</e:Group>
+</e:Skin>

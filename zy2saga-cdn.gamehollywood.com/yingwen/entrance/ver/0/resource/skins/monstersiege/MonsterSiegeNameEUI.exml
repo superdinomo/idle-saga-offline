@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterSiegeNameEUI" currentState="s1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*"   states="s1,s2"  width="160" height="57">
+	<w:Config id="1586b3502a7"/>
+	<e:Image x="11" y="0" visible.s2="false" source="public_zycs_jx1"/>
+	<e:Label id="labelName" text="0" y="5" size="20" fontFamily="Times" horizontalCenter="0" visible.s2="false" text.s1=""/>
+	<e:Label id="labelTime" text="0" y="34" size="20" fontFamily="Times" horizontalCenter="0" y.s2="7" text.s1="" textColor="0x13ee22"/>
+</e:Skin>

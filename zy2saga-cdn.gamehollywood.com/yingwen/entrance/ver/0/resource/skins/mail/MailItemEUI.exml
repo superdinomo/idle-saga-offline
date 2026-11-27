@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MailItemEUI" xmlns:e="http://ns.egret.com/eui" width="682" height="142">
+	<e:Image alpha="1" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" scale9Grid="43,22,47,26" source="yj_zycs_di"/>
+	<e:Label id="nameLabel" text="0" x="70" y="23" fontFamily="Times" size="24"  textColor="0xff9b0f" width="450"/>
+	<e:Label id="dateLabel" text="0" x="70" y="74" size="24" fontFamily="Times"  textColor="0xe6dcb8" width="450"/>
+	<e:Image id="treasure"  source="yj_zycs_jl" x="490" y="6"/>
+</e:Skin>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleGuWuWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3cc8ef" />
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="-41" touchEnabled="false" scale9Grid="88,64,2,3"
+		         anchorOffsetY="0" x="0"  source="ldsz_zycs_gwbg_jpg"/>
+
+		<e:Image id="imgTitle" y="-30" source="em_zycs_zdgw" horizontalCenter="0" />
+		<e:Button id="closeBtn" label="" x="470" y="-45" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+
+
+		<e:Image y="424" x="102" source="ldsz_zycs_grgw" />
+		<e:Image y="423" x="362" source="ldsz_zycs_zmgw" />
+
+
+		<e:Label id="lbMyAttr" text="Inspiration Stats\nInspiration Stats" y="81" size="20" fontFamily="Times" textColor="0x13EE22"
+		         horizontalCenter="-131" textAlign="left" lineSpacing="3" />
+		<e:Label text="Personal Inspiration Attempts Limit:" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" y="630" lineSpacing="5"
+		         x="25" textColor="0xcdc8be"  width="244"/>
+		<e:Label id="lbEnemyAttr" text="Inspiration Stats\nInspiration Stats" y="80" size="20" fontFamily="Times" horizontalCenter="126.5"
+		         textAlign="left" lineSpacing="3"  textColor="0x13ee22"/>
+		<e:Label id="lbGr" text="10/10 Times" fontFamily="Times" size="22" textAlign="center" verticalAlign="middle" y="654"
+		         lineSpacing="5" x="84" textColor="0x13ee22"  width="114"/>
+		<e:Label text="Legion Inspiration Attempts Limit:" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" y="630" lineSpacing="5"
+		         x="286" textColor="0xcdc8be"  width="235"/>
+		<e:Label id="lbJt" text="10/10 Times" fontFamily="Times" size="22" textAlign="center" verticalAlign="middle" y="654"
+		         lineSpacing="5" textColor="0x13EE22" x="344" />
+
+		<e:Scroller y="204" x="12" height="204" anchorOffsetY="0">
+			<e:List id="listMy" itemRendererSkinName="GuildBattleGuWuItemEUI" x="1">
+				<e:layout>
+					<e:VerticalLayout gap="3" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller y="204" x="278" height="204" anchorOffsetY="0">
+			<e:List id="listEnemy" itemRendererSkinName="GuildBattleGuWuItemEUI" y="18">
+				<e:layout>
+					<e:VerticalLayout gap="3" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbGrDec" text="Each inspiration increases character’s HP and ATK by 5%" fontFamily="Times" size="18" textAlign="left" verticalAlign="middle"
+		         y="449" lineSpacing="3" x="27" width="241" anchorOffsetX="0" textColor="0xcdc8be" />
+
+		<e:Label text="Current Effect:" fontFamily="Times" size="22" textAlign="center" verticalAlign="middle" y="544" lineSpacing="5"
+		         x="76"  textColor="0xff9b0f"/>
+		<e:Label id="lbGrAttr" text="+0% HP" fontFamily="Times" size="20" textAlign="center" verticalAlign="middle" y="569"
+		         textColor="0x13EE22"  horizontalCenter="-139"/>
+
+
+
+
+		<e:Group id="groupGr" x="66" y="681" anchorOffsetY="0" height="100">
+			<e:Image y="0" x="39" source="zycs_320002"/>
+			<e:Label id="lbGrConsu" y="9" size="20" fontFamily="Times" textAlign="left" text="5000" verticalAlign="top" lineSpacing="10" x="75" textColor="0xf5e65a"/>
+			<e:Button id="btnGrGuwu" y="37" skinName="BtnMin1_1" x="0" label="Inspire"/>
+		</e:Group>
+		<e:Label id="lb_grMax" y="739" size="20" fontFamily="Times" textAlign="center" text="Inspiration has reached the limit" verticalAlign="top" lineSpacing="10" textColor="0xf01414" x="14"/>
+		<e:Label id="lbJtDec" text="Each inspiration grants all guild members: 10% HP and ATK 10k additional ATK" fontFamily="Times" size="18" textAlign="left"
+		         verticalAlign="middle" y="449" lineSpacing="3" x="287" width="240" anchorOffsetX="0" textColor="0xcdc8be" />
+		<e:Label text="Current Effect:" fontFamily="Times" size="22" textAlign="center" verticalAlign="middle" y="544" lineSpacing="5"
+		         x="347"  textColor="0xff9b0f"/>
+		<e:Label id="lbJtAttr" text="+10% HP\n+10% HP\n+10% HP" fontFamily="Times" size="20" textAlign="center" verticalAlign="middle" y="569"
+		         textColor="0x13EE22"  horizontalCenter="132"/>
+
+
+		<e:Group id="groupJt" x="334" y="676">
+			<e:Image y="8" x="28" source="zycs_320030"/>
+			<e:Label id="lbJtConsu" y="15" size="20" fontFamily="Times" textAlign="left" text="5000" verticalAlign="top" lineSpacing="10" x="67" textColor="0xf5e65a"/>
+			<e:Button id="btnJtGuwu" y="46" skinName="BtnMin1_1" x="0" label="Inspire"/>
+		</e:Group>
+		<e:Label id="lb_jtMax" y="738" size="20" fontFamily="Times" textAlign="center" text="Inspiration has reached the limit" verticalAlign="top" lineSpacing="10" x="279" textColor="0xf01414"/>
+		<e:Image x="77" y="52" source="ldsz_zycs_jfgw1"/>
+		<e:Image x="335" y="52" source="ldsz_zycs_dfgw1"/>
+		<e:Label id="name1" text="Current Effect:" fontFamily="Times" size="24" textAlign="center" y="20" lineSpacing="5" x="26" textColor="0xFF9B0F" width="240"/>
+		<e:Label id="name2" text="Current Effect: 3333" fontFamily="Times" size="24" y="20" lineSpacing="5" x="287" textColor="0xFF9B0F" anchorOffsetX="0" width="240" textAlign="center"/>
+		<e:Image x="52" y="166" source="ldsz_zycs_jfgw2"/>
+		<e:Image x="313" y="166" source="ldsz_zycs_dfgw2"/>
+	</e:Group>
+</e:Skin>

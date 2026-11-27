@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildManageRenderEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" states="sHall,sOther,sMax"  width="678" height="243">
+	<e:Image x="0" y="0" width="678" height="243" anchorOffsetX="0" anchorOffsetY="0" source="qianghua_zycs_kuang4" scale9Grid="32,32,29,17"/>
+	<e:Label id="labelName" text="0" x="27" y="23" fontFamily="Times" size="20" textColor="0xf5e65a"/>
+	<e:Label id="labelUpLv" text="0" x="27" y="67" fontFamily="Times" size="20" textColor="0x5ac832" visible.sHall="false"/>
+	<e:Label text="Funds Cost:" x="27" y="133" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Button id="btnUp" y="47" label="Upgrade" x="519" visible.sMax="false" skinName="BtnMin1_1mid"/>
+	<e:Label id="labelDesc" text="0" x="27" y="169" size="20" fontFamily="Times" textColor="0xaf9b73" lineSpacing="8" anchorOffsetY="0" height="48" anchorOffsetX="0" width="391"/>
+	<e:ProgressBar id="progressBar" x="130" y="117" value="0" slideDuration="0" skinName="ProgressBarEUI2" width="527"/>
+</e:Skin>

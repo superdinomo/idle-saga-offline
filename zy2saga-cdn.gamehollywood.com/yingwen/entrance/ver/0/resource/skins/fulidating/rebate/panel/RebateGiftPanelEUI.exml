@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RebateGiftPanelEUI" currentState="buy" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134" states="buy,buyed,received" >
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="40" source="hddt_zycs_fllb_jpg" horizontalCenter="0"/>
+	<e:Image source="dljl_zycs_k_png" y="-58" touchEnabled="false" pixelHitTest="true" horizontalCenter="0"/>
+	<e:Image y="-7" pixelHitTest="true" touchEnabled="false" horizontalCenter="0.5" source="fllb_zycs_bg1"/>
+	<e:Scroller y="47" scrollPolicyH="auto" x="15" width="687">
+		<e:List id="listGift" itemRendererSkinName="RebateGiftItemEUI">
+		<e:layout>
+			<e:HorizontalLayout gap="7"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="948" visible.buyed="false" x="324" visible.received="false">
+		<e:Image id="iconConsume" x="303" y="4" source="zycs_320030"/>
+		<e:Label id="lbConsume" text="388" size="24" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" x="26" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Group y="951" visible.buy="false" x="33">
+		<e:Label text="Rebate Days left:" size="20" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" x="-11" y="0"/>
+		<e:Label id="lbRestRebateDay" text="10" size="20" textAlign="left" fontFamily="黑体" x="159" textColor="0x13ee22" x.buyed="156"/>
+	</e:Group>
+	<e:Group y="949" x="471" visible.buy="false">
+		<e:Label text="Rebate/time:" size="20" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" x="10" y="0"/>
+		<e:Image id="iconRebate" y="-4" source="zycs_320030" x="126"/>
+		<e:Label id="lbRebate" text="388" size="20" textAlign="left" fontFamily="黑体" x="161" textColor="0x13ee22"/>
+	</e:Group>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Image id="imgDesc" touchEnabled="false" scale9Grid="88,64,2,3" y="343" x="252" source="fllb_zycs_g1"/>
+	<e:Image id="imgPower" touchEnabled="false" scale9Grid="88,64,2,3" y="575" x="256" source="fllb_zycs_b1"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" y="457" source="hddt_zycs_fagh_png" x="31"/>
+	<e:Group id="groupMcIcon" y="602" x="174">
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller y="749" scrollPolicyH="auto" maxWidth="650" horizontalCenter="0.5" height="163">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin" anchorOffsetY="0" height="118">
+			<e:layout>
+				<e:HorizontalLayout gap="27" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnBuy" label="Buy Now" y="990" horizontalCenter="0" visible.buyed="false" skinName="BtnMin1_16"/>
+	<e:Button id="btnRebate" label="Voucher Return" y="990" horizontalCenter="0" visible.buy="false" visible.received="false" skinName="BtnMin1_16"/>
+	<e:Button id="btnRebated" label="Claimed" y="990" horizontalCenter="0" visible.buyed="false" visible.buy="false" skinName="BtnMin1_16"/>
+</e:Skin>

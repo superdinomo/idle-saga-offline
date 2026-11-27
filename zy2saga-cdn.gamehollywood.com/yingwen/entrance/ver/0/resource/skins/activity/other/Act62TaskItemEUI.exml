@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act62TaskItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="0,1,2" >
+	<e:Image id="imgBg" source="hddt_zycs_jsphdi2" scale9Grid="175,14,168,88"/>
+	<e:Label id="lbValue" fontFamily="黑体" size="22" text="(1/10)" textAlign="center" y="83" textColor="0x13EE22" horizontalCenter="-187"/>
+	<e:Button id="btnSend" label="Claim" y="42" skinName="BtnMin1_1" x="354" visible.1="false" visible.2="false"/>
+	<e:Button id="btnGoto" label="Go" y="42" x="353" skinName="BtnMin1_1a" visible.0="false" visible.2="false"/>
+	<e:Label id="lbDesc" text="我的抽奖" size="24" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" lineSpacing="10" y="23" x="24" width="330"/>
+	<e:Label id="lbScore" text="我的积分:233" size="24" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" lineSpacing="10" y="11" horizontalCenter="167"/>
+	<e:Image id="imgYlq" x="368" y="28" source="public_zycs_ylq" visible.0="false" visible.1="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</e:Skin>

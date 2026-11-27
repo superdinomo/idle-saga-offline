@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act6WeightWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" source="public_zycs_dikuang" scale9Grid="83,62,16,9" x="0" width="553" height="532"/>
+		<e:Image y="-4" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="147"/>
+
+		<e:Image id="title" y="13" source="xb_zycs_glgs" x="229"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="470"/>
+		<e:Image y="85" x="36" source="public_zycs_tsk1" scale9Grid="9,9,54,58" width="479" height="374"/>
+		<e:Label text="Extra rewards will be granted upon reaching certain points" y="90" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" width="451" horizontalCenter="0"/>
+		<e:Label text="Wheel Chance:" y="131" size="24" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" x="52"/>
+		<e:Label id="lbWeight" text="Artifact\nArtifact\nArtifact\nArtifact\nArtifact\nArtifact\nArtifact\nArtifact\nArtifact\nArtifact\nArtifact\nArtifact\n" y="157" size="22" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="51" lineSpacing="2"/>
+	</e:Group>
+</e:Skin>

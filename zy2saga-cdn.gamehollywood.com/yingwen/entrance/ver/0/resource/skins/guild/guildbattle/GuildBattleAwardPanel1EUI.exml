@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleAwardPanel1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720">
+    <e:Image x="0" y="0" height="866" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+             source="public_zycs_dikuang" />
+    <e:Image y="87" source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="625" width="639" x="41" />
+	<e:Label text="Only" y="61" size="20" fontFamily="Times" textColor="0xe3d7be" x="61"/>
+	<e:Label text="The guild member who joins Territory War" y="61" size="20" fontFamily="Times" x="105" textColor="0x13ee22"/>
+	<e:Label text="to obtain" y="61" size="20" fontFamily="Times" textColor="0xE3D7BE" x="456"/>
+
+    <e:Scroller y="120" x="41" width="639" height="580">
+        <e:List id="listRank" itemRendererSkinName="GuildBattleAwardItem1EUI">
+            <e:layout>
+                <e:VerticalLayout gap="0" />
+            </e:layout>
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object />
+                    <e:Object />
+                    <e:Object />
+                    <e:Object />
+                </e:Array>
+            </e:ArrayCollection>
+        </e:List>
+    </e:Scroller>
+    <e:Image y="89" source="public_zycs_cjx" height="34" width="634" x="43" />
+    <e:Image y="92" x="185" source="public_zycs_sjx" />
+    <e:Image y="731" source="role_zycs_tb2" x="13" />
+    <e:Label text="Ranking" size="20" fontFamily="Times" y="96" x="95" textColor="0xFF9B0F" />
+    <e:Label text="Rewards" size="20" fontFamily="Times" y="96" x="418" textColor="0xFF9B0F" />
+    <e:Label text="Ranking Rewards will be issued via mails" fontFamily="Times" size="20" textAlign="center" y="736" textColor="0xCDC8BE"  horizontalCenter="0"/>
+</e:Skin>

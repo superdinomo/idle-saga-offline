@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultYunBiaoLostWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="0" source="js_zycs_qzh_png" />
+		<e:Image id="imgTitle" y="128" anchorOffsetY="0" source="js_zycs_sb_png" x="236" />
+		<e:Image id="imgwptitle" x="101" y="310"  source="js_zycs_sbjl"/>
+		<e:Label id="lbDesc" text="Take-down Hint:\n Congrats! You have successfully taken down X Zone YY Guild’s Z Caravan" size="24" textAlign="center" scaleX="1" scaleY="1" textColor="0xF49D00" fontFamily="Times" horizontalCenter="0" verticalCenter="-302" lineSpacing="5" width="524"/>
+		<e:Scroller height="124" y="341" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin" 
+			        height="343">
+				
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				
+				<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43"  requestedColumnCount="4" paddingTop="12" paddingLeft="12" paddingRight="12" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupmoney" width="386" height="68" x="104" y="236" anchorOffsetY="0" anchorOffsetX="0">
+			<e:layout>
+				<e:TileLayout horizontalGap="6" verticalGap="0" rowHeight="30" />
+			</e:layout>
+		</e:Group>
+		<e:Button id="closeBtn" label="Exit" anchorOffsetX="0" anchorOffsetY="0" y="928" icon="" x="244"
+		          skinName="BtnMin1_6" />
+		<e:Component id="resultCreateRole" y="500" skinName="ResultCreateRoleEUI" horizontalCenter="0"/>
+		<e:Image id="imghyh" y="321" source="js_zycs_zjzl"  horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

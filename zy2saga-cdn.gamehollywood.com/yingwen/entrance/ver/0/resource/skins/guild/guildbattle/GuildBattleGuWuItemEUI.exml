@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleGuWuItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Label id="lbRoleName" text="S999.Miracle xXMoo " fontFamily="Times" size="18" textAlign="center" textColor="0xf5e65a"/>
+	<e:Label id="lbCount" text="1 Attempt" fontFamily="Times" size="18" x="180" textAlign="center" textColor="0xff9b0f"/>
+</e:Skin>

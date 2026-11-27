@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem2_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b362dfe"/>
+	<e:Image y="0" source="hddt_zycs_lanbg_jpg"/>
+	<e:Image id="imgDay" x="320" y="30" source="hddt_zycs_xsyt"/>
+	<e:Image id="imgSvip" x="301" y="30" source="hddt_zycs_svip"/>
+	<e:Image id="imgZbg" touchEnabled="false" x="0" y="0" source="store_zycs_tab1"/>
+	<e:Group x="0" y="0" width="60" height="68">
+		<e:BitmapLabel id="bmpDiscount" text="1.5z" letterSpacing="-5" font="shopnum1_fnt" rotation="-45" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:List id="list" itemRendererSkinName="ItemSkin" x="52" y="42" height="94">
+		<e:layout>
+		<e:HorizontalLayout gap="13"/>
+		</e:layout>
+		
+			
+				
+				
+			
+		
+	</e:List>
+	<e:Button id="btnBuy" x="499" y="54" skinName="BtnMin1_2" label="Purchase"/>
+	<e:Label id="labelBuyCount" fontFamily="Times" size="22" lineSpacing="10" textColor="0xDFD1B5" text="Purchasable: 10/10" y="122" horizontalCenter="235"/>
+	<e:Group id="groupPrice" x="341" y="74">
+		<e:Component id="price" skinName="PriceIconSkin" x="0" y="35"/>
+		<e:Component id="price0" skinName="PriceIconSkin" x="0" y="0"/>
+	</e:Group>
+
+</e:Skin>

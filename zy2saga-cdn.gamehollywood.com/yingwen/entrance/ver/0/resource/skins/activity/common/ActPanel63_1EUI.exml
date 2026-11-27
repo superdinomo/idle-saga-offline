@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel63_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" touchEnabled="false" y="49" horizontalCenter="0" source="hddt_zycs_lxlh_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hxzr"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Image y="793.33" horizontalCenter="-1" source="hddt_zycs_jlxq"/>
+	<e:Scroller scrollPolicyH="auto" scrollPolicyV="off" y="824" maxWidth="650" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbTime" y="85" text="Count down: 00:00:00" fontFamily="黑体" size="24" lineSpacing="10" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Image touchEnabled="true" y="409" horizontalCenter="0" source="hddt_zycs_lxdz6"/>
+	<e:Image id="imgIcon" touchEnabled="true" y="429" horizontalCenter="0" source="hddt_zycs_lx6"/>
+	<e:Image touchEnabled="true" y="712" horizontalCenter="0" source="hddt_zycs_hd"/>
+	<e:Image touchEnabled="true" y="723" horizontalCenter="0" source="hddt_zycs_lxqy"/>
+	<e:Image y="795.71" source="liuguang_zycs_huawen" x="119.08"/>
+	<e:Image y="794.19" source="liuguang_zycs_huawen" scaleX="-1" x="596.8"/>
+	<e:Component id="item2" y="247.96" x="136" skinName="ActItem63_1EUI"/>
+	<e:Component id="item3" y="199.96" x="284" skinName="ActItem63_1EUI"/>
+	<e:Component id="item4" y="248.96" x="433" skinName="ActItem63_1EUI"/>
+	<e:Component id="item5" y="360.96" x="548.48" skinName="ActItem63_1EUI"/>
+	<e:Component id="item1" y="371" x="11.68" skinName="ActItem63_1EUI"/>
+	<e:Group x="135" y="995">
+		<e:Button id="btnDraw1" x="0" y="0" label="Draw Once" skinName="BtnMin1_1"/>
+		<e:Group y="59" horizontalCenter="0">
+			<e:Image id="imgItemIcon1" source="zycs_320002" x="0" y="0" width="32" height="32"/>
+			<e:Label id="lbItemCount1" y="12.96" text="1/3" fontFamily="黑体" size="20" lineSpacing="10" textColor="0x13EE22" x="29"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group x="427.52" y="995">
+		<e:Button id="btnDraw2" x="0" y="0" label="10x Draw" skinName="BtnMin1_2"/>
+		<e:Group y="56" horizontalCenter="0">
+			<e:Image id="imgItemIcon2" source="zycs_320002" x="0" y="0" width="32" height="32"/>
+			<e:Label id="lbItemCount2" y="15.96" text="1/3" fontFamily="黑体" size="20" lineSpacing="10" textColor="0x13EE22" x="60"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Label id="lbCount" y="1072" text="Remaining keys: 0" fontFamily="黑体" size="20" lineSpacing="10" textColor="0xffffff" horizontalCenter="0" visible="false"/>
+	<e:Label id="lbRate" y="756" text="Chance Display" fontFamily="黑体" size="20" lineSpacing="10" textColor="0x13EE22" x="575"/>
+</e:Skin>

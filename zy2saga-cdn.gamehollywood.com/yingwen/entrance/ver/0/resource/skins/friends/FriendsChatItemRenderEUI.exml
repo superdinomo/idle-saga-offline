@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FriendsChatItemRenderEUI" currentState="s0" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="s0,s1" width="630">
+	<w:Config id="158483085e3"/>
+	<e:Group id="group_date" x="207" y="0">
+		<e:Label id="label_date" fontFamily="Times" size="20" textColor="0xfcfcfc" textAlign="center" verticalAlign="middle" text="0" width="216"/>
+	</e:Group>
+	<e:Group width="100%" bottom="0" x="0">
+		<e:Group x.s0="12" left.s0="0" right.s1="0">
+			<e:Image x="2" y="7" source="mianui_zycs_touxiangkuang_02"/>
+			<e:Image id="img_userIcon" source="mianui_zycs_zhanshi0" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Group id="group_bubble" right.s1="72" left.s0="72" y="0">
+			<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" source="hy_zycs_ltk1" scale9Grid="32,15,21,14" source.s1="hy_zycs_ltk2" scale9Grid.s1="21,20,10,12"/>
+			<e:Label id="label_msg" fontFamily="Times" size="20" textColor="0xF7B910" text="0" left="20" top="10" right="20" bottom="10" maxWidth="300" maxHeight="100" maxChars="80" lineSpacing="3" minHeight="40" minWidth="40" textAlign="left" verticalAlign="middle" textAlign.s1="left" textColor.s0="0xcdc8be" textColor.s1="0xcdc8be"/>
+		</e:Group>
+	</e:Group>
+
+	
+</e:Skin>

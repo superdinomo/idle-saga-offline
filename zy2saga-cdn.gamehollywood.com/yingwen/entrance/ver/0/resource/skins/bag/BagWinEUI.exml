@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BagWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b349dbe" />
+	<e:Group height="1280" touchThrough="false" width="720" horizontalCenter="0" y="0">
+		<e:Component id="mainName" anchorOffsetX="0" touchEnabled="false" x="0" y="0" skinName="MianNameSkin1" width="720" height="47"/>
+		<e:Image x="0" y="47" anchorOffsetY="0" height="1054" touchEnabled="false"
+		         anchorOffsetX="0" width="720"  scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="8" x="97" source="" />
+		<e:Image x="24" y="232" anchorOffsetY="0" touchEnabled="false" scale9Grid="105,74,412,15" source="bag_zycs_diwen" />
+		<e:ViewStack id="viewStack" y="95" selectedIndex="1" x="0" anchorOffsetX="0" anchorOffsetY="0" width="720"
+		             height="1000">
+			<e:Group name="bqz_zycs_zb_png" height="965" anchorOffsetX="0" width="720" anchorOffsetY="0" x="0" touchEnabled="false">
+			
+				<e:Button id="btnFit"  x="364" y="898" anchorOffsetX="0" anchorOffsetY="0"
+				          skinName="BtnMin1_1"  label="Merge"/>
+				<e:Button id="btnSmelt"  x="526" y="898" anchorOffsetX="0" anchorOffsetY="0"
+				          skinName="BtnMin1_1"  label="Smelt"/>
+				<e:Scroller id="itemScroller" width="720" height="880" anchorOffsetY="0" anchorOffsetX="0">
+					<e:List id="itemList" height="621" width="322" x="0" y="-1" scrollEnabled="true" anchorOffsetY="0"
+					        useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+						<e:layout>
+							<e:TileLayout requestedColumnCount="5" paddingLeft="65" paddingRight="24" paddingTop="21" verticalGap="34"
+							              horizontalGap="33" />
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+				<e:Image x="137" y="909" scale9Grid="5,4,31,24" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_shurukuang" />
+				<e:Label id="labelBagCapacity" y="913" text="200/200" fontFamily="Times" size="20" x="135" width="121" textAlign="center" verticalAlign="middle" anchorOffsetX="0" textColor="0xffffff"/>
+				<e:Label text="Capacity:" x="50" y="911" fontFamily="Times" size="24" textColor="0xD6880A" />
+				<e:Button id="btnAdd" y="906" icon="public_zycs_Button_jia" skinName="Btn0Skin" x="261" />
+			</e:Group>
+			<e:Group name="bqz_zycs_dj_png" height="965" anchorOffsetX="0" width="720" anchorOffsetY="0">
+				<e:Scroller id="itemGoodsScroller" width="720" height="965" anchorOffsetY="0" anchorOffsetX="0">
+					<e:List id="itemListGoods" height="621" width="322" x="0" y="-1" scrollEnabled="true" anchorOffsetY="0"
+					        useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+						<e:layout>
+							<e:TileLayout requestedColumnCount="5" paddingLeft="65" paddingRight="24" paddingTop="21" verticalGap="34"
+							              horizontalGap="33" />
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:ViewStack>
+		<e:TabBar id="tab" x="48" y="1089" dataProvider="{viewStack}" anchorOffsetX="0" itemRendererSkinName="BtnTab1ZYCSSkin">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="-3" />
+			</e:layout>
+		</e:TabBar>
+		<e:Button id="closeBtn" label="" x="639" y="46" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	</e:Group>
+</e:Skin>

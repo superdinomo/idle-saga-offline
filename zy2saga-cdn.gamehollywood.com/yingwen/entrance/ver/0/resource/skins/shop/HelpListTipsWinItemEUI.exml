@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HelpListTipsWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="479">
+	<w:Config id="1586bdedfef"/>
+	<e:Image y="3" source="public_zycs_di01" horizontalCenter="0"/>
+	<e:Label id="labelName" text="Item" y="8" fontFamily="Times" size="24" textColor="0xBCAF96" horizontalCenter="0"/>
+	<e:Image width="479" source="public_zycs_tsk1" scale9Grid="22,52,20,12" x="0" top="44" bottom="0"/>
+	<e:Label id="labelDesc" text="assadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassadassad" fontFamily="Times" size="24" textColor="0xBCAF96" width="462" horizontalCenter="1" lineSpacing="4" top="51" bottom="9"/>
+</e:Skin>

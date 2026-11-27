@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouGoodTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b36a128"/>
+	<e:Group id="group" verticalCenter="-36" anchorOffsetX="0" width="336" anchorOffsetY="0" height="279" horizontalCenter="0">
+		<e:Group id="group2" width="200" height="200" y="0" scaleX="1" scaleY="1" x="-20">
+			<e:Group id="group1" width="200" height="200" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Component id="itemIcon" y="44" horizontalCenter="11" x="123" scaleX="1" scaleY="1" skinName="ShenShouItemEUI"/>
+			<e:Image y="-37" horizontalCenter="0" x="62" scaleX="1" scaleY="1" source="bag_zycs_gxhd"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

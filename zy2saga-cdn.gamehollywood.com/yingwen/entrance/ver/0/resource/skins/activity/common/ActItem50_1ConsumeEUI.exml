@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem50_1ConsumeEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="109">
+	<w:Config id="1586bd49103"/>
+	<e:Image touchEnabled="false" source="hddt_zycs_kuang2" x="0" y="0"/>
+	<e:Image id="imgIcon" touchEnabled="false" source="" horizontalCenter="0.5" verticalCenter="-8"/>
+	<e:Image touchEnabled="false" y="87" source="hddt_zycs_kuang1" x="6"/>
+	<e:Label id="lbNum" y="94" text="99/99" fontFamily="黑体" size="24" lineSpacing="10" horizontalCenter="0.5" textColor="0xCDC8BE"/>
+</e:Skin>

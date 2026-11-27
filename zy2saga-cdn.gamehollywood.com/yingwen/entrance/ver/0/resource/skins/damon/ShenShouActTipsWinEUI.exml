@@ -1,0 +1,38 @@
+<e:Skin class="ShenShouActTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720" height="1280">
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%"/>
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0"/>
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%"/>
+	<e:Group width="720" anchorOffsetY="0" height="505" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="-50" x="159" source="jl_zycs_jhzs_png"/>
+		<e:Image source="jl_zycs_jhcg" y="13" horizontalCenter="0"/>
+		<e:Image y="337" x="99" source="jl_zycs_dz_png"/>
+		<e:Image id="countBg" y="484" source="public_zycs_di01" width="497" x="112"/>
+		<e:Group id="groupEntity" y="394" horizontalCenter="0"/>
+		<e:Label id="countTxt" text="Current Activated Bonds: 3" fontFamily="Times" size="24" y="489" width="344" textAlign="center" textColor="0xCDC8BE" x="188"/>
+		<e:Group y="526" horizontalCenter="0">
+			<e:Image source="tips_zycs_zqjb2"/>
+			<e:BitmapLabel id="totalPower" text="100" font="powernum_fnt" y="5" x="170"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller id="scroller" y="556" height="176" horizontalCenter="0">
+			<e:List id="list" useVirtualLayout="false" itemRendererSkinName="ShenShouItemEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Image id="backGround" source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0" alpha="0.01" locked="true"/>
+
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel36_1SengListItem1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="323" height="117">
+	<w:Config id="1586bd49103"/>
+	<e:Group x="1" y="0">
+		<e:Image y="0" source="sjhj_zycs_tx" x="23"/>
+		<e:Image id="imgHead" y="7" width="76" height="76" source="mianui_zycs_zhanshi0" x="32"/>
+		<e:Label id="lbName" text="Player Name Seven Characters" y="94" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" x="0"/>
+	</e:Group>
+	<e:Label id="lbDesc" text="Recommended" y="15" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" x="-2" rotation="332.5"/>
+	<e:Button id="btnSend" label="Send" anchorOffsetX="0" skinName="BtnMin1_2mid" x="188" verticalCenter="0"/>
+</e:Skin>

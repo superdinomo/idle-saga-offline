@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendsAddWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280">
+	<w:Config id="15d9cf6c15c"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" x="0" source="sjhj_zycs_di_jpg"/>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="img_title" y="15" source="hy_zycs_tjgz" x="228"/>
+		<e:Label text="Enter Name" size="20" fontFamily="Times" x="89" y="194" textColor="0xcdc8be"/>
+		<e:Image x="182" y="191" width="168" source="public_zycs_shurukuang" scale9Grid="14,9,84,11" height="27"/>
+		<e:EditableText id="editText_name" prompt=" Please enter player name" size="20" textAlign="left" verticalAlign="middle" width="162" fontFamily="Times" x="185" y="192" height="24"/>
+		<e:Button id="btn_add" y="179" x="358" label="Add" skinName="BtnMin1_1mid"/>
+	</e:Group>
+</e:Skin>

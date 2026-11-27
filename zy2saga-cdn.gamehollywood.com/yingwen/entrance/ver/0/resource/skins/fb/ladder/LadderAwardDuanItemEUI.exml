@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderAwardDuanItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="639" height="143">
+	<e:Image width="100%" bottom="0" source="zs_zycs_fengexian"/>
+	<e:Image source="role_zycs_tb1" y="2" x="5"/>
+	<e:Label id="lbName" text="Diamond Rewards" size="24" fontFamily="Times" y="6" x="25" textColor="0xFF9B0F"/>
+	<e:Scroller y="38" width="599" x="20" height="94">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+			<e:HorizontalLayout gap="14"/>
+			</e:layout>
+			<!--
+				
+					
+					
+					
+					
+					
+					
+				
+			-->
+		</e:List>	
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FirstreChargeeVeryDayEUI2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="720" height="1054">
+	<e:Image x="13" y="43" source="sc_zycs_di01_jpg" />
+	<e:Image y="42" scale9Grid="56,45,8,12" width="696" height="582" x="12" source="public_zycs_k2" />
+	<e:Image y="9" x="286" source="sc_zycs_schl" />
+	<e:Image y="24" source="dljl_zycs_k2_png" x="0" />
+	<e:Image y="-57" source="sc_zycs_k_png" x="-2" touchEnabled="false" pixelHitTest="true" />
+	<e:Image y="-5" source="sc_zycs_mrsc" x="278" />
+	<e:Image y="63" source="sc_zycs_bymsz" x="86" />
+	<e:Image y="232" x="87" source="sc_zycs_baox" />
+	<e:Image y="271" source="sc_zycs_jlwz" x="481" />
+	<e:Image y="184" x="497" source="zycs_320002" width="80" height="80" id="imgIcon0" />
+	<e:Image y="339" x="526" source="zycs_320002" width="80" height="80" id="imgIcon1" />
+	<e:Image y="492" x="466" source="zycs_320002" width="80" height="80" id="imgIcon2" />
+	<e:Image y="427" source="sc_zycs_tssy" x="510" />
+	<e:Image y="580" x="435" source="sc_zycs_zjsxd" />
+	<e:Image y="693" source="shc_zycs_di03_jpg" x="13" />
+	<e:Image y="692" source="public_zycs_k1" scale9Grid="56,45,8,12" width="696" height="215" x="12" />
+	<e:Image y="693" x="135" source="sc_zycs_jz" />
+	<e:BitmapLabel id="bmpWorth" y="703" text="8888" letterSpacing="-8" horizontalCenter="0" font="scnum_fnt" x="308" />
+	<e:Label id="labelRechargeOne" text="Top-up $6 in a single order to gain immediately" y="919" fontFamily="Times" size="24" stroke="1.2"
+	         strokeColor="0x82652D" textColor="0xE6DCB8" width="523" textAlign="center" x="99" />
+	<e:Button id="btnGetAward" label="" y="952" icon="anz_zycs_lqjl" skinName="BtnMin1_8" x="294" />
+	<e:Button id="btnRecharge" label="" y="952" icon="anz_zycs_czlq" skinName="BtnMin1_8" x="294" />
+	<e:Button id="btnHasGet" y="952" icon="anz_zycs_ylq" skinName="BtnMin1_8" enabled="false" x="294" />
+	<e:Scroller y="780" scrollPolicyH="off" horizontalCenter="0" height="94" x="263">
+		<e:List id="list" itemRendererSkinName="ItemSkin" x="1">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Object name="Top-up 60 Diamonds" />
+				<e:Object name="Top-up 1000 Diamonds" />
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

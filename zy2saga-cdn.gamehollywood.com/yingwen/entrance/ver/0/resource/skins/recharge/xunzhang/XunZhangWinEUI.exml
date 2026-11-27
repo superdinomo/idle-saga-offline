@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunZhangWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="max,normal" >
+	<w:Config id="1586b13ea96" />
+	<e:Group width="720" height="882" horizontalCenter="0" verticalCenter="2">
+		<e:Image x="0" y="-2" source="public_zycs_bg3_png"/>
+		<e:Button id="closeBtn" label="" x="639" y="5" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="13" horizontalCenter="-0.5" source="zlxz_zycs_bt"/>
+		<e:Image y="47" source="hjsl_zycs_gx" horizontalCenter="0.5"/>
+		<e:Button id="btnOneKey" label="Activate All" y="750" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" visible.max="false" horizontalCenter="0"/>
+		<e:Image y="741" visible.normal="false" source="zlxz_zycs_yjh" horizontalCenter="0"/>
+		<e:Component id="itemIcon" x="76" y="105" skinName="ItemSkin"/>
+		<e:Label id="lbName" text="0" x="175" y="101" fontFamily="Times" size="24" textAlign="left" textColor="0xe6dcb8"/>
+		<e:Label id="lbSkillName" text="Dragonima Storm:" x="175" y="126" fontFamily="Times" size="24" textAlign="left" textColor="0xE6DCB8"/>
+		<e:Label id="lbSkillDesc" text="10% chance to stun the player for 2s, CD time lasts for 5s" x="175" y="153" fontFamily="Times" size="20" textAlign="left" textColor="0xE6DCB8" width="326"/>
+		<e:Label id="lbDesc" text="Purchase Fortune Kitty to gain 500000 CP " x="191" y="153" fontFamily="Times" size="24" textAlign="left" textColor="0xE6DCB8" visible="false"/>
+		<e:Label id="lbdescAct" text="Not activated" x="560" y="177" fontFamily="Times" size="24" textAlign="left" textColor="0xE6DCB8" visible="false"/>
+		<e:Label text="Inactive CP:" y="137" fontFamily="Times" size="24" textAlign="left" textColor="0xff9b0f" x="512" visible.max="false"/>
+		<e:Group y="167" right="88" visible.max="false">
+			<e:Label id="lbPower" text="9999999999" y="1" fontFamily="Times" size="24" textAlign="left" textColor="0xff9b0f" x="25"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbTuJin" text="Source" x="547" y="779" fontFamily="Times" size="24" textAlign="left" textColor="0x5ac832"/>
+		<e:Scroller id="scrollBar" y="267" height="444" width="637" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" scrollPolicyH="off">
+			<e:List id="list" itemRendererSkinName="XunZhangWinItemEUI">
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+				<e:layout>
+					<e:VerticalLayout gap="6"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

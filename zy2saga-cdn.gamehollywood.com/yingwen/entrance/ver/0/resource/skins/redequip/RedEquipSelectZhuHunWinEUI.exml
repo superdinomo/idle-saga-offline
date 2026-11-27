@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipSelectZhuHunWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"    >
+	<e:Group id="group" width="720" height="882" anchorOffsetY="0" horizontalCenter="0" y="192">
+		<e:Image y="0" x="0" source="zhzh_zycs_qrts_png"/>
+		<e:Image id="title" source="zhzh_zycs_json.zhzh_zycs_xzzh" horizontalCenter="0" y="30" x="225" scaleX="1" scaleY="1"/>
+		<e:Button id="btnClose" label="Button" x="639" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao" scaleX="1" scaleY="1"/>
+		<e:Scroller width="679" height="716" y="97" anchorOffsetX="0" scaleX="1" scaleY="1" anchorOffsetY="0" x="19">
+			<e:List id="list" x="-1" anchorOffsetY="0" y="4.55" anchorOffsetX="0" itemRendererSkinName="RedEquipSelectZhuHunItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="10"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

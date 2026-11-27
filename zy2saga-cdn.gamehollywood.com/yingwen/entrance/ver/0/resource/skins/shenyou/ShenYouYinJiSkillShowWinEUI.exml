@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouYinJiSkillShowWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group verticalCenter="-25.5" horizontalCenter="0" width="678" height="937">
+		<e:Image y="0" scale9Grid="83,62,16,9" x="0"  anchorOffsetX="0" anchorOffsetY="0" source="shenyou_zycs_bg5_jpg"/>
+
+
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="sc_zycs_x" x="636" y="2" />
+
+		<e:Group y="684" width="0" height="0" horizontalCenter="0">
+			<e:Group id="groupDonw1" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupDonw2" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupMiddle" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupTop1" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupTop2" width="0" height="0" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+			<e:Group id="groupTop0" width="0" height="0" y="-260" anchorOffsetX="0" anchorOffsetY="0" x="-200"/>
+		</e:Group>
+		<e:Label id="lbSkillName" text="Skill Name" y="17" size="30" fontFamily="Times" textAlign="left" x="138" textColor="0xf5e65a"/>
+		<e:Label id="lbSkillCD" text="Charging Time: 9s" y="78" size="24" fontFamily="Times" textAlign="left" x="137" textColor="0xFFFFFF"/>
+		<e:Label id="lbSkillDesc" text="Still need 5 levels to activate skill [Zeal] Lv.2" y="123" size="20" fontFamily="Times" width="626" textAlign="left" x="25" textColor="0xFFFFFF"/>
+
+		<e:Label id="lbSkillXiaoGuo1" text="Skill Effect" y="761" size="22" fontFamily="Times" width="634" textAlign="left" x="21" textColor="0xFFFFFF" lineSpacing="5"/>
+
+
+		<e:Image id="imgBG" source="public_zycs_daojukuang_01" y="16" x="23"/>
+		<e:Image id="imgIcon" width="80" height="80" x="29" y="20" source="shenyou_zycs_yjzs"/>
+		<e:Group width="0" height="0" id="groupEntity1" x="200" y="420"/>
+		<e:Group width="0" height="0" id="groupEntity2" x="510" y="630"/>
+		<e:Group id="groupMC" width="0" height="0" x="339" y="469"/>
+
+
+
+
+
+
+	</e:Group>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神佑\S-神佑系统-神格-神格之殇4.jpg" visible="false"/>-->
+</e:Skin>

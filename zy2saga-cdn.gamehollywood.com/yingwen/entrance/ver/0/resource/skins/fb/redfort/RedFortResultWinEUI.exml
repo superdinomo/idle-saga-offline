@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-27">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Image y="29" source="csys_zycs_csys" horizontalCenter="0.5"/>
+		<e:Button id="awardBtn" y="763" skinName="BtnMin1_1"
+		           x="294" label="Claim"/>
+		<e:Label id="timeTxt" text="0" y="816" size="20" textAlign="center" fontFamily="Times" width="385" x="168" textColor="0xff0404"/>
+		<e:Image y="69" x="13" width="695" source="public_zycs_cjx"/>
+		<e:Image y="72" x="122" source="public_zycs_sjx"/>
+		<e:Button id="closeBtn0" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="72" x="461" source="public_zycs_sjx"/>
+		<e:Label text="Ranking" x="49" fontFamily="Times" size="20" y="76" textAlign="left" textColor="0xff9b0f"/>
+		<e:Label text="Player Name" fontFamily="Times" size="20" y="76" textAlign="left" x="253" textColor="0xff9b0f"/>
+		<e:Label text="Points" x="532" fontFamily="Times" size="20" y="76" textAlign="center" width="100" textColor="0xff9b0f"/>
+		<e:Label id="myRank" text="Ranking" x="62" fontFamily="Times" size="20" y="480" textAlign="left" anchorOffsetY="0" textColor="0xcdc8be"/>
+		<e:Label id="myScore" text="Points" fontFamily="Times" size="20" y="480" textAlign="center" anchorOffsetY="0" width="192" textColor="0xf5e65a" x="264"/>
+		<e:Label id="myFloor" text="Floor" x="541" fontFamily="Times" size="20" y="480" textAlign="center" textColor="0xcdc8be"/>
+		<e:Scroller id="scrollerRank" width="698" y="104" x="11" height="270">
+			<e:List id="listRank" useVirtualLayout="true" itemRendererSkinName="RedFortResultItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="422" source="csys_zycs_wdjf" x="300"/>
+		<e:Image source="zs_zycs_fengexian" y="520" x="13"/>
+		<e:Image y="545" source="csys_zycs_wdjl" x="301"/>
+		<e:Image y="582" source="shenyu_zycs_di" scale9Grid="87,34,524,204" height="151" x="11"/>
+			<e:List id="listItem" itemRendererSkinName="ItemSkin" y="614"
+			        horizontalCenter="0" height="94">
+				<e:layout>
+					<e:HorizontalLayout gap="25"/>
+				</e:layout>
+			</e:List>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FirstRechargePanelEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="get,nobuy,day,yetget">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1054" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image source="dljl_zycs_k3" x="0" y="981" touchEnabled="false" pixelHitTest="true" />
+	<e:Image x="13" y="43" source="sc_zycs_xbg1_jpg" />
+	<e:Image y="24" source="dljl_zycs_k2_png" x="0" />
+	<e:Group id="groupEntity" x="550" y="400" />
+	<e:Image y="-57" source="sc_zycs_k_png" x="-2" pixelHitTest="true" touchEnabled="false" />
+	<e:Image y="-5" source="sc_zycs_schl"  horizontalCenter="0"/>
+	<e:Image y="52" x="65"  source="sc_zycs_czfl"/>
+	<e:Image y="506" source="sc_zycs_diwen1_png" x="15" anchorOffsetY="0" height="133" />
+	<e:Image y="465" source="sc_zycs_schllb" x="272" visible="false" />
+	<e:Group id="groupPower" x="135" y="385">
+		<e:Image y="0" source="sc_zycs_diwen" x="0"/>
+		<e:Image y="19" x="68" source="sc_zycs_zlbz"/>
+		<e:BitmapLabel id="bmpPower" x="229" y="18" text="67888" letterSpacing="-8" font="czhbnum1_fnt"/>
+	</e:Group>
+	<e:Image id="imgName1" y="350" source="sc_zycs_jyys" horizontalCenter="-222.5"/>
+	<e:Image id="imgName2" y="350" source="sc_zycs_xkzj"  horizontalCenter="-62.5"/>
+	<e:Image id="imgName3" y="423" source="sc_zycs_xkzj" horizontalCenter="195.5"/>
+	<e:Scroller y="501" scrollPolicyH="off" height="122" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin" y="1">
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:HorizontalLayout paddingTop="25" gap="20" paddingLeft="25" paddingRight="25"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+<e:Group x="17" y="654" visible.get="false" visible.day="false" visible.yetget="false">
+	<e:Button id="btnRecharge1" label="" y="0" icon="sc_zycs_10y" x="53" skinName="BtnMin1_12" />
+	<e:Button id="btnRecharge2" label="" y="0" icon="sc_zycs_20y" x="381" skinName="BtnMin1_12" />
+	<e:Button id="btnRecharge3" label="" y="150" icon="sc_zycs_50y" x="53" skinName="BtnMin1_12" />
+	<e:Button id="btnRecharge4" label="" y="150" icon="sc_zycs_100y" skinName="BtnMin1_12" x="381" />
+	<e:Label id="lbRecharge1" text="Gain 50000 Diamonds" y="112" size="24" fontFamily="Times" x="79" width="200"
+	         textColor="0xe5d3b5" textAlign="center" />
+	<e:Label id="lbRecharge2" text="Gain 50000 Diamonds" y="112" size="24" fontFamily="Times" x="407" width="200"
+	         textColor="0xe5d3b5" textAlign="center" />
+	<e:Label id="lbRecharge3" text="Gain 50000 Diamonds" y="262" size="24" fontFamily="Times" x="79" width="200"
+	         textColor="0xe5d3b5" textAlign="center" />
+	<e:Label id="lbRecharge4" text="Gain 50000 Diamonds" y="262" size="24" fontFamily="Times" width="200" x="407"
+	         textColor="0xe5d3b5" textAlign="center" />
+	<e:Image y="155" x="485" source="sc_zycs_szzlb" touchEnabled="false" pixelHitTest="true" />
+	<e:Image y="167" x="376" touchEnabled="false" pixelHitTest="true" source="djts_zycs_tjbq" />
+	<e:Image y="296" source="sc_zycs_dbwz" x="0" />
+</e:Group>
+<e:Group x="70" y="654" anchorOffsetX="0" width="605" anchorOffsetY="0" height="351" visible.nobuy="false">
+	<e:Button id="btnOk" label="" y="210" icon="anz_zycs_ac" skinName="BtnMin1_12" horizontalCenter="0.5"  icon.yetget="anz_zycs_acc" enabled.yetget="false" icon.get="anz_zycs_ac" visible.day="false"/>
+	<e:Image id="imgDay" touchEnabled="false" source="sc_zycs_day1" y="267" x="235" visible.get="false" visible.yetget="false"/>
+	<e:Image x="4" y="-58" source="sc_zycs_baox1_png"/>
+	<e:Image x="253" y="11" source="sc_zycs_czfl1"/>
+</e:Group>
+<e:Scroller height="57" width="692" y="454" horizontalCenter="0" scrollPolicyH.get="off" scrollPolicyV.get="off" scrollPolicyH="off" scrollPolicyV="off">
+	<e:List id="menuList" scrollEnabled="false" itemRendererSkinName="FirstRechargeBtnRenderEUI" useVirtualLayout="false" height="45" y="-1">
+		
+			
+			
+			
+		
+		<e:layout>
+			<e:HorizontalLayout gap="4" />
+		</e:layout>
+	</e:List>
+</e:Scroller>
+</e:Skin>

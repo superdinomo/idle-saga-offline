@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuideGoGameEUI2" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b13ea96" />
+	<e:Group>
+		<e:Group id="groupGoCity">
+			<e:Image id="img_bg" source="public_zycs_zbjlk" scale9Grid="12,16,74,3" width="234" height="87"/>
+			<e:Label id="lb_str" text="前往主城！" size="18" fontFamily="SimHei" textAlign="left" textColor="0xffffff" lineSpacing="5" maxWidth="125" horizontalCenter="0" y="34"/>
+			<e:Image id="img_jiantou" y="26" x="191" scaleX="1" scaleY="1" source="public_zycs_jtzs"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

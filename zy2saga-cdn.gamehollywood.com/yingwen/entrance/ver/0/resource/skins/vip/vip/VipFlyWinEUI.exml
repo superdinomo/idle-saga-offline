@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="VipFlyWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b36a128" />
+	<e:Group id="groupLv" y="586" horizontalCenter="0" x="312">
+		<e:Image source="vip_zycs_k3" x="0"/>
+		<e:Image x="21" y="23" source="vip_zycs_xz"/>
+		<e:BitmapLabel id="bmpLabelLv" y="49" text="9" letterSpacing="-6" font="vipnum1_fnt" horizontalCenter="-0.5"/>
+	</e:Group>
+	<e:Image y="708" source="vip_zycs_msz" horizontalCenter="0" x="220"/>
+</e:Skin>

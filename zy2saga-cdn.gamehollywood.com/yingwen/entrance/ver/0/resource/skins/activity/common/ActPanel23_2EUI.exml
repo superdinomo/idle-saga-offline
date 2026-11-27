@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel23_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Group id="group" width="720" height="1134">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+		<e:Image id="imgBg" touchEnabled="false" scale9Grid="12,12,76,76" source="hddt_zycs_lxczbg_jpg" y="43"  horizontalCenter="0"/>
+		<e:Image id="imgDesc" y="55" x="24" source="hflx_zycs_msz2"/>
+		<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true" />
+		<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hddt" />
+		<e:Label id="lbTime" text="Time Remain:" y="166" size="24" textAlign="left" fontFamily="Times" x="38" textColor="0xe3d7be" />
+		<e:Button id="btnRecharge" x="554" y="140" skinName="BtnMin1_2mid" label="Top Up" />
+		<e:Scroller scrollPolicyH="off" scrollPolicyV="on" width="692" height="813" y="262" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ActItem23_2EUI">
+				<e:layout>
+					<e:VerticalLayout gap="3" />
+				</e:layout>
+				<!--
+				
+					
+				
+			
+			-->
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbDes" text="During event period, Top-up 1000 diamonds daily to claim" y="210" size="20" textAlign="left" fontFamily="Times" x="23"
+	         textColor="0xCDC8BE"  anchorOffsetX="0" width="465"/>
+	<e:Label id="lbDay" text="0 Day Achieved" y="218" size="24" textAlign="left" fontFamily="Times" textColor="0x5ac832"  right="22"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+</e:Group>
+</e:Skin>

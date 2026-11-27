@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnMin1_5" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imageDisplay" x="0" y="0" x.down="1" y.down="1"
+	        
+	         scale9Grid.disabled="27,16,24,3"  scale9Grid="16,15,55,11" source.disabled="mainui_lt_zycs_yjjx" source="mainui_lt_zycs_yjjx" source.up="mainui_lt_zycs_yjjx" source.down="mainui_lt_zycs_yjjx"/>
+	<e:Label id="labelDisplay" size="22" verticalAlign="middle"
+	         textAlign="center" width="100%" horizontalCenter.down="1"
+	         verticalCenter.down="0" horizontalCenter="0" verticalCenter="-1" text="0"  fontFamily="Times" textColor="0xffebc8" borderColor="0xc90808" alpha="1"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="-2" top="-2" visible="false"/>
+</e:Skin>

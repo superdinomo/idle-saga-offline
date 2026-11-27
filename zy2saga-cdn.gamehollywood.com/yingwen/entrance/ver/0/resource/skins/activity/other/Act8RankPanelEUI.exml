@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act8RankPanelEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Image x="0" y="0" height="1054" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="71" width="694" source="jiadian_zycs_di" scale9Grid="12,12,76,76" x="13" height="862"/>
+	<e:Image y="45.85" source="public_zycs_cjx" width="694" x="13"/>
+	<e:Image y="50" x="156" source="public_zycs_sjx"/>
+	<e:Image y="50" x="421" source="public_zycs_sjx"/>
+	<e:Image y="885" source="phb_zycs_dz" x="196"/>
+	<e:Label y="54" text="Ranking" fontFamily="Times" size="20" x="67" textColor="0xFF9B0F"/>
+	<e:Label y="54" text="Name" fontFamily="Times" size="20" x="269" textColor="0xFF9B0F"/>
+	<e:Label y="54" text="Spent Dia" fontFamily="Times" size="20" x="502" textColor="0xFF9B0F"/>
+	<e:Label y="959" text="The ranking refreshes every half hour" fontFamily="Times" size="24" textColor="0xf5e65a" right="20"/>
+	<e:Label id="lbMyRank" text="My Rank: " y="896" size="24" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" width="343" x="189"/>
+	<e:Scroller y="80" scrollPolicyH="off" x="13" width="694" height="770">
+		<e:List id="list" itemRendererSkinName="Act8RankItemEUI">
+		<!--
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		-->
+			<e:layout>
+				<e:VerticalLayout gap="11"/>
+			</e:layout>
+
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

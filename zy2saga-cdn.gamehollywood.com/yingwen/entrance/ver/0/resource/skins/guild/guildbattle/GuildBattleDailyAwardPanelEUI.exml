@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleDailyAwardPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" x="0" y="0" />
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="ldsz_zycs_mrjlbg_jpg" horizontalCenter="0" y="54"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_fgqy" y="973" x="13" anchorOffsetY="0" height="121"/>
+
+
+	<e:Scroller y="78" height="880" anchorOffsetY="0" width="692" horizontalCenter="0">
+		<e:List id="listRank" itemRendererSkinName="GuildBattleDailyAwardItemEUI" y="-1">
+			<e:layout>
+				<e:VerticalLayout gap="6" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="helpBtn" x="16" y="-46" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+
+
+
+
+	<e:Label text="Claim daily after the event ends" fontFamily="Times" size="24" textAlign="center" y="981"  horizontalCenter="0" textColor="0xe3d7be"/>
+	<e:TabBar id="tab" selectedIndex="0" y="1022" itemRendererSkinName="BtnTab5ZYCSSkin" horizontalCenter="0" x="167">
+		<e:layout>
+			<e:HorizontalLayout gap="10" />
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+</e:Skin>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleDetailsPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" x="0" y="0"/>
+	<e:Image y="46" source="ldsz_zycs_bg5_jpg" x="13"/>
+	<e:Image x="319" y="57" source="ldsz_zycs_bsxq"/>
+	<e:Image x="126" y="58" source="liuguang_zycs_huawen"/>
+	<e:Image x="606" y="58" source="liuguang_zycs_huawen" scaleX="-1"/>
+	<e:Image x="218" y="362" source="ldsz_zycs_tb5"/>
+	<e:Image x="240" y="265" source="ldsz_zycs_tb4"/>
+	<e:Image x="218" y="392" source="ldsz_zycs_tb6"/>
+	<e:Image x="220" y="432" source="ldsz_zycs_tb7"/>
+	<e:Image x="220" y="474" source="ldsz_zycs_tb8"/>
+	<e:Image x="219" y="864" source="ldsz_zycs_tb5"/>
+	<e:Image x="241" y="767" source="ldsz_zycs_tb4"/>
+	<e:Image x="219" y="894" source="ldsz_zycs_tb6"/>
+	<e:Image x="220" y="934" source="ldsz_zycs_tb7"/>
+	<e:Image x="220" y="976" source="ldsz_zycs_tb8"/>
+	<e:Label id="lbTime" text="Match Time Remain: 00:00:00" y="120" fontFamily="Times" size="24" textColor="0x23CA23" horizontalCenter="0"/>
+	<e:Label id="lbWinScore" text="Victory Points: 10000" y="170" fontFamily="Times" size="24" textColor="0x23CA23" horizontalCenter="0"/>
+	<e:Label id="lbGuildName0" text="S1. First of the World" y="267" fontFamily="Times" size="24" x="281" textColor="0xff9b0f"/>
+	<e:Button id="btnRefresh0" label="Refresh" width="42" height="26" x="486" y="265" skinName="BtnMin1_1small" visible="false"/>
+	<e:Label id="lbScore0" text="Current Points: 10000" y="318" fontFamily="Times" size="24" x="269" textColor="0xff9b0f"/>
+	<e:Label id="lbScoreMon0" text="Points gained by killing minions: 10000" y="364" fontFamily="Times" size="20" x="262" textColor="0xcdc8be"/>
+	<e:Label id="lbScoreEne0" text="Points gained by killing enemies: 10000" y="402" fontFamily="Times" size="20" x="262" textColor="0xcdc8be"/>
+	<e:Label id="lbScoreNpc0" text="Points gained by killing guardian: 10000" y="438" fontFamily="Times" size="20" x="262" textColor="0xcdc8be"/>
+	<e:Label id="lbScoreBoss0" text="Points gained by killing Boss: 10000" y="478" fontFamily="Times" size="20" x="262" textColor="0xcdc8be"/>
+
+
+
+
+
+
+	<e:Button id="btnRefresh1" label="Refresh" width="42" height="24.67" x="486" y="767" skinName="BtnMin1_1small" anchorOffsetY="0" visible="false"/>
+	<e:Label id="lbGuildName1" text="S1. First of the World" y="769" fontFamily="Times" size="24" x="282" textColor="0xff9b0f"/>
+	<e:Label id="lbScore1" text="Current Points: 10000" y="820" fontFamily="Times" size="24" x="270" textColor="0xff9b0f"/>
+	<e:Label id="lbScoreMon1" text="Points gained by killing minions: 10000" y="866" fontFamily="Times" size="20" x="263" textColor="0xCDC8BE"/>
+	<e:Label id="lbScoreEne1" text="Points gained by killing enemies: 10000" y="904" fontFamily="Times" size="20" x="263" textColor="0xCDC8BE"/>
+	<e:Label id="lbScoreNpc1" text="Points gained by killing guardian: 10000" y="940" fontFamily="Times" size="20" x="263" textColor="0xCDC8BE"/>
+	<e:Label id="lbScoreBoss1" text="Points gained by killing Boss: 10000" y="980" fontFamily="Times" size="20" x="263" textColor="0xCDC8BE"/>
+</e:Skin>

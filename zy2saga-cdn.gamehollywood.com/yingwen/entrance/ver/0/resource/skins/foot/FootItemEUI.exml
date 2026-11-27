@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FootItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down"  width="150" height="105">
+	<e:Image id="imgSelect" visible.up="false" source="zuji_zycs_xz" x="3" y="5"/>
+
+
+	<e:Image id="imgIcon" x="11" y="13" source="zuji_zycs_z3"/>
+
+	<e:Group id="groupMc" width="0" height="0" x="18" y="20"/>
+
+	<e:Image id="imgPz" y="20" x="14" source="zuji_zycs_pz2"/>
+	<e:Image id="imgLock" y="19" source="zuji_zycs_suo" x="24"/>
+	<e:Image id="imgAn" y="14" source="zuji_zycs_yy" x="11"/>
+
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="123" y="16"/>
+</e:Skin>

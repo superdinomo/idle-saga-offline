@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act45BagWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group width="552" horizontalCenter="0" verticalCenter="0" height="695">
+		<e:Image x="0" y="0" touchEnabled="false" source="tzmg_zycs_bg_jpg"/>
+		<e:ViewStack id="viewStack" y="0" selectedIndex="0" x="0"/>
+
+		<e:TabBar id="tab" selectedIndex="0" itemRendererSkinName="BtnTab3ZYCSSkin" horizontalCenter="0.5" y="571">
+			<e:layout>
+			<e:HorizontalLayout gap="35"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+		<e:Image id="imgTitle" y="10" horizontalCenter="0" source="tzmg_zycs_hdmg"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="-4" x="469"/>
+	</e:Group>
+</e:Skin>

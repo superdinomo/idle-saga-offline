@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel62_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" height="1280" width="720">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group width="575" height="662" y="180" horizontalCenter="0">
+			<e:Component id="item" skinName="ActPanel62_1ItemEUI" height="662"/>
+		</e:Group>
+		<e:Image id="imgBg" touchEnabled="false" scale9Grid="88,64,2,3" source="hddt_zycs_bgkuang_png" x="0" y="0"/>
+		<e:Button id="btnRank" y="598" x="68" skinName="Btn0Skin" icon="hddt_zycs_jsphicon"/>
+		<e:Button id="btnLog" y="676" x="60" skinName="Btn0Skin" icon="hddt_zycs_record"/>
+		<e:Button id="btnPlunder" y="762" x="71" skinName="Btn0Skin" icon="hddt_zycs_lueduo"/>
+		<e:Button id="btnCommon" y="874" x="240" skinName="Btn0Skin" icon="hddt_zycs_chouka1"/>
+		<e:Button id="btnSpecial" y="874" x="240" skinName="Btn0Skin" icon="hddt_zycs_chouka2"/>
+		<e:Button id="btnSwitch" y="920" x="495" skinName="Btn0Skin" icon="hddt_zycs_switch"/>
+		<e:Button id="btnTask" y="917.48" x="109" skinName="Btn0Skin" icon="hddt_zycs_jstask"/>
+		<e:Label id="lbDesc" y="795" text="Top up $4.99 to gain 1 special point" fontFamily="黑体" size="18" lineSpacing="10" x="360" textColor="0xffffff"/>
+		<e:Label id="lbSumSpecialCount" y="818" text="Points gained " fontFamily="黑体" size="18" lineSpacing="10" textColor="0xFFFFFF" x="483"/>
+		<e:Label id="lbTime" y="185" text="活动倒计时: 6天22时55分12秒" fontFamily="黑体" size="20" lineSpacing="10" textColor="0xffffff" x="225"/>
+		<e:Button id="btnClose" label="" x="628.96" y="71.66" skinName="Btn0Skin" icon="public_zycs_cha1"/>
+		<e:Button id="btnHelp" x="510" y="174" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+		<e:CheckBox id="checkAnimation" label="Skip animation" x="303" y="1105" skinName="CheckBoxEUI1"/>
+		<e:BitmapLabel id="bmpCount" y="1064" font="chouqian_fnt" text="s323" letterSpacing="-7" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

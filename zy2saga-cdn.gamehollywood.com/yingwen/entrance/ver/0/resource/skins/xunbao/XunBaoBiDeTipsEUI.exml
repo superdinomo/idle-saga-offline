@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoBiDeTipsEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="135" height="186">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="13,13,81,81" x="0" source="xb_zycs_scbd"/>
+	<e:Button id="btnClose" label="" x="113" y="-12" skinName="Btn0Skin" icon="public_zycs_cha"/>
+	<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" y="50" horizontalCenter="0"/>
+
+</e:Skin>

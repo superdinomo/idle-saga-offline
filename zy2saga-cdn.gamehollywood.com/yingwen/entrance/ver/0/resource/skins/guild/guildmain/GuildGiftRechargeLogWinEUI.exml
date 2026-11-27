@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildGiftRechargeLogWinEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Image y="69" source="public_zycs_cjx" x="13" width="694"/>
+		<e:Image y="72" x="275" source="public_zycs_sjx"/>
+		<e:Button id="closeBtn0" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Scroller id="scroller" y="104" x="11" width="698" height="675">
+		<e:List id="list" itemRendererSkinName="GuildGiftRechargeLogItemEUI" useVirtualLayout="true" >
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image id="title" y="29" source="zhanmeng_zycs_czjl" x="312"/>
+		<e:Label text="Date" x="121" fontFamily="Times" size="20" y="76" textAlign="left" textColor="0xaf9b73"/>
+		<e:Label text="Record" x="475" fontFamily="Times" size="20" y="76" textAlign="left" textColor="0xaf9b73"/>
+	</e:Group>
+</e:Skin>

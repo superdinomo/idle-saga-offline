@@ -1,0 +1,27 @@
+<e:Skin class="QiyuEventItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b1383e3" />
+	<e:Image id="imgIcon" y="0" x="0" source="qy_zycs_xbg3_jpg"/>
+	<e:Image id="imgTitle" y="10" source="qy_zycs_msz1" horizontalCenter="0"/>
+	<e:Group id="groupDec" verticalCenter="1.5" width="296" x="14">
+		<e:Image y="0" source="public_zycs_dibu" x="0" scale9Grid="23,3,144,19" width="100%" height="100%"/>
+		<e:Label id="lbDec" text="0" size="20" textAlign="center" fontFamily="Times" left="5" right="5" top="3" bottom="2" textColor="0x13ee22"/>
+	</e:Group>
+	<e:List id="rewardList" itemRendererSkinName="ItemSkin" horizontalCenter="0" scaleX="0.7" scaleY="0.7" y="196">
+		<e:layout>
+		<e:HorizontalLayout gap="11" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+		
+			
+				
+				
+				
+			
+		
+	</e:List>
+	<e:Button id="btnSend" label="Go" y="286" skinName="BtnMin1_2" x="88"/>
+	<e:Label id="lbTime" text="Unsealing...\n00:00:00" size="20" textAlign="left" fontFamily="Times" horizontalCenter="0" textColor="0xf01414" y="295"/>
+
+
+
+
+</e:Skin>

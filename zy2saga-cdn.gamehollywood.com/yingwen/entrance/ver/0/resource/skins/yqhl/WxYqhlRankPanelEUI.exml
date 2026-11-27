@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WxYqhlRankPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+	<w:Config id="15af9c70173" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="43" x="13" source="yqhl_zycs_yqbp_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="yqhl_zycs_t_yqhl"/>
+	<e:Image y="110" x="289" source="zbrl_zycs_xx"/>
+	<e:Image y="157" x="289" source="zbrl_zycs_xx"/>
+	<e:Label text="On the 1-7th day after the server opening, based on player’s successful attempts to share to friends" y="111" fontFamily="Times" size="20" textAlign="center" x="320" textColor="0xffffff"/>
+	<e:Label text="Ranking rewards will be issued via mail upon the end of the event!" y="135" fontFamily="Times" size="20" textColor="0xFFFFFF" textAlign="center" x="320"/>
+
+	<e:Group x="320" y="159">
+		<e:Label text="Friend needs to log in to the game after sharing" y="0" fontFamily="Times" size="20" textAlign="center" x="0" textColor="0x13EE22"/>
+		<e:Label text="to be counted as successful share!" y="0" fontFamily="Times" size="20" textColor="0xFFFFFF" textAlign="center" x="180"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="212" x="379" source="public_zycs_gth"/>
+	<e:Group x="420" y="221">
+		<e:Label text="Event Countdown:" y="0" fontFamily="Times" size="20" textColor="0xFFFFFF" textAlign="center" x="0"/>
+		<e:Label id="lbTime" text="00:00:00" fontFamily="Times" size="20" textAlign="center" y="0" x="128" textColor="0x13ee22"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Component id="itemRank1" x="8" y="313" skinName="WxYqhlRankItemTopEUI"/>
+	<e:Component id="itemRank2" x="360" y="271" skinName="WxYqhlRankItemEUI"/>
+	<e:Component id="itemRank3" x="360" y="464" skinName="WxYqhlRankItemEUI"/>
+	<e:Component id="itemRank4" x="360" y="657" skinName="WxYqhlRankItemEUI"/>
+
+	<e:Label id="lbRank" text="My Ranking: Not listed" fontFamily="Times" size="24" textAlign="center" textColor="0xCDC8BE" y="854" x="112"/>
+	<e:Label id="lbCount" text="Successful Share to Friend: 1" fontFamily="Times" size="24" textAlign="center" textColor="0xCDC8BE" y="854" x="406"/>
+	<e:Button id="btnSend" y="897" skinName="BtnMin1_1" label="Raise Ranking" x="410"/>
+	<e:Button id="btnRank" y="897" skinName="BtnMin1_1" label="View Ranking" x="157"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" y="974" source="xyzd_zycs_di" x="13"/>
+</e:Skin>

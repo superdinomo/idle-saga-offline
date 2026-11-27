@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel61_1EUI" currentState="noAct" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134"  states="noAct,normal,over" >
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" horizontalCenter="0" y="49" source="hddt_zycs_zydbp_jpg"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_hxzr"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Label id="lbTime" text="Event time down: 12:12:12" y="72" size="24" textAlign="center" fontFamily="SimHei" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Group id="groupEntity1" scaleX="1" scaleY="1" x="189" y="510"/>
+	<e:Group id="groupEntity2" scaleX="1" scaleY="1" horizontalCenter="169" y="510"/>
+	<e:Image source="hddt_zycs_zyvsbj" y="310" x="288"/>
+	<e:Image id="imgZhenYin1" y="585"  source="hddt_zycs_wdzy" visible.noAct="false" horizontalCenter="-165"/>
+	<e:Image id="imgZhenYin2" y="585" source="hddt_zycs_wdzy" visible.noAct="false" horizontalCenter="165"/>
+	<e:Group y="177" horizontalCenter="-155">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" height="37" width="230" source="public_zycs_sd" y="0" horizontalCenter="0"/>
+		<e:Label id="lbName1" text="同心结" fontFamily="SimHei" size="26" y="6" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group y="177" horizontalCenter="155">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" height="37" width="230" source="public_zycs_sd" y="0" horizontalCenter="0"/>
+		<e:Label id="lbName2" text="同心结" fontFamily="SimHei" size="26" y="6" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btnJoinLeft" label="Join Faction" y="648" visible.normal="false" visible.over="false" skinName="BtnMin1_1a" x="120"/>
+	<e:Button id="btnJoinRight" label="Join Faction" y="648" visible.normal="false" visible.over="false" skinName="BtnMin1_1" x="451"/>
+	<e:Label y="608" text="Join faction and vote for the outfit you like" fontFamily="黑体" size="22" lineSpacing="10" horizontalCenter="0" textColor="0x13EE22" visible.normal="false" visible.over="false"/>
+	<e:Group y="125" visible.noAct="false" left="1">
+		<e:Image x="15" y="-68" touchEnabled="false" pixelHitTest="true" source="hddt_zycs_qfrd"/>
+		<e:Label id="lbLeftAllNum" text="123456" y="-9" size="20" textColor="0xf7c327" bold="true" fontFamily="SimHei" horizontalCenter="9.5"/>
+		<e:ProgressBar id="barExpAllLeft" value="0" anchorOffsetX="0" scaleX="1" scaleY="1" skinName="ProgressBarEUI30" x="59" rotation="-90" y="536"/>
+		<e:Scroller scaleX="1" scaleY="1" y="12" x="24">
+			<e:List id="listLeft" itemRendererSkinName="ActItem61_1DabiaoItem1EUI">
+			<e:layout>
+				<e:VerticalLayout gap="35" verticalAlign="bottom"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnRank1" label="Join Faction" y="524" icon="hddt_zycs_zybd" scaleX="1" scaleY="1" x="26" skinName="Btn0Skin"/>
+	</e:Group>
+	<e:Group y="125" visible.noAct="false" right="14">
+		<e:Image x="-8" y="-68" touchEnabled="false" pixelHitTest="true" source="hddt_zycs_qfrd"/>
+		<e:Label id="lbRightAllNum" text="123456" y="-9" size="20" textColor="0xF7C327" bold="true" fontFamily="SimHei" horizontalCenter="-1.5"/>
+		<e:ProgressBar id="barExpAllRight" value="100" maximum="0" anchorOffsetX="0" rotation="-90" scaleX="1" scaleY="1" x="34" y="536" skinName="ProgressBarEUI31"/>
+		<e:Scroller scaleX="1" scaleY="1" y="12" x="0">
+			<e:List id="listRight" itemRendererSkinName="ActItem61_1DabiaoItem1EUI">
+			<e:layout>
+				<e:VerticalLayout gap="35" verticalAlign="bottom"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnRank2" label="Join Faction" y="524" icon="hddt_zycs_zybd" scaleX="1" scaleY="1" x="0" skinName="Btn0Skin"/>
+	</e:Group>
+	<e:Button id="btnRank" label="Join Faction" y="609" icon="hddt_zycs_zyrdzb" scaleX="1" scaleY="1" x="304" skinName="Btn0Skin" visible.noAct="false"/>
+	<e:Button id="btnBoxLeft" y="649" icon="hddt_zycs_zydxlj" skinName="Btn0Skin" visible.noAct="false" x="160"/>
+	<e:Button id="btnBoxRight" y="649" x="495" icon="hddt_zycs_zydxlj" skinName="Btn0Skin" visible.noAct="false"/>
+	<e:Label id="lbLeftBoxNum" text="X3" size="20" textAlign="left" fontFamily="SimHei" y="706" visible.noAct="false" textColor="0xffffff" x="184"/>
+	<e:Label id="lbRightBoxNum" text="X3" size="20" textAlign="left" fontFamily="SimHei" y="707" visible.noAct="false" textColor="0xffffff" x="518"/>
+	<e:ProgressBar id="barExp" slideDuration="300" value="2" maximum="10" y="853.71" width="561" skinName="ProgressBarEUI29" x="104"/>
+	<e:Scroller scaleX="1" scaleY="1" y="770" x="177">
+		<e:List id="listMyBar" itemRendererSkinName="ActItem61_1DabiaoItem2EUI">
+			<e:layout>
+				<e:HorizontalLayout gap="17"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="223" y="922" height="179" width="151">
+		<e:Image y="14" x="30" source="hddt_zycs_zyyhk"/>
+		<e:Button id="btnConsume1" icon="jsdd_zycs_xh" skinName="Btn0Skin" width="85" height="85" x="35" y="15"/>
+		<e:Label id="lbAdd1" text="Gratitude: 10 points/time" size="18" textAlign="left" fontFamily="黑体" x="10" y="127" textColor="0xffffff"/>
+		<e:Image y="101" x="29" source="hddt_zycs_zyhk"/>
+		<e:Label id="lbConsumeName1" text="Name" size="22" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" y="101" horizontalCenter="0.5"/>
+		<e:Group y="148" horizontalCenter="0">
+			<e:Image id="imgConsume1" source="zycs_320002" x="0" y="0" width="25" height="25"/>
+			<e:Label id="lbConsume1" text="0/1" size="24" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" y="10" x="34"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group x="372" y="922" height="179" width="151">
+		<e:Image y="14" x="30" source="hddt_zycs_zyyhk"/>
+		<e:Button id="btnConsume2" icon="jsdd_zycs_xh" skinName="Btn0Skin" width="85" height="85" x="35" y="15"/>
+		<e:Label id="lbAdd2" text="Gratitude: 10 points/time" size="18" textAlign="left" fontFamily="黑体" x="10" y="127" textColor="0xFFFFFF"/>
+		<e:Image y="101" x="29" source="hddt_zycs_zyhk"/>
+		<e:Label id="lbConsumeName2" text="Name" size="22" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" y="101" horizontalCenter="0.5"/>
+		<e:Group y="148" horizontalCenter="0">
+			<e:Image id="imgConsume2" source="zycs_320002" x="0" y="0" width="25" height="25"/>
+			<e:Label id="lbConsume2" text="0/1" size="24" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" y="10" x="34"/>
+			<e:layout>
+			<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group x="522" y="922" height="179" width="151">
+		<e:Image y="14" x="30" source="hddt_zycs_zyyhk"/>
+		<e:Button id="btnConsume3" icon="jsdd_zycs_xh" skinName="Btn0Skin" width="85" height="85" x="35" y="15"/>
+		<e:Label id="lbAdd3" text="Gratitude: 10 points/time" size="18" textAlign="left" fontFamily="黑体" x="10" y="127" textColor="0xFFFFFF"/>
+		<e:Image y="101" x="29" source="hddt_zycs_zyhk"/>
+		<e:Label id="lbConsumeName3" text="Name" size="22" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" y="101" horizontalCenter="0.5"/>
+		<e:Group y="148" horizontalCenter="0">
+			<e:Image id="imgConsume3" source="zycs_320002" x="0" y="0" width="25" height="25"/>
+			<e:Label id="lbConsume3" text="0/1" size="24" textAlign="left" fontFamily="黑体" textColor="0xCDC8BE" y="10" x="34"/>
+			<e:layout>
+			<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image x="25" y="822" source="hddt_zycs_zyrd"/>
+	<e:Image x="67" y="977" source="hddt_zycs_zygg"/>
+	<e:Image id="imgLeftPrecede" x="311" y="156" source="hddt_zycs_zslx" visible.noAct="false"/>
+	<e:Image id="imgVictory1" x="159" y="131" source="hddt_zycs_zyslbq" visible.noAct="false" visible.normal="false"/>
+	<e:Image id="imgVictory2" x="486" y="131" source="hddt_zycs_zyslbq" visible.noAct="false" visible.normal="false"/>
+	<e:Label text="Touch and hold the item icon to quick use it" size="18" textAlign="center" fontFamily="黑体" x="25" y="1060" textColor="0xe3d7be" anchorOffsetX="0" width="184" anchorOffsetY="0" height="36"/>
+	<e:Image id="imgRightPrecede" x="365" y="155" source="hddt_zycs_zslx" visible.noAct="false"/>
+</e:Skin>

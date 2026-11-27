@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="KlmRecordWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+	xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image y="28" source="zz_zycs_shpm" horizontalCenter="0"/>
+		<e:Image y="94" source="public_zycs_cjx" horizontalCenter="0"/>
+		<e:Image x="496" y="97" source="public_zycs_sjx"/>
+		<e:Image x="262" y="97" source="public_zycs_sjx"/>
+		<e:Label y="99" text="DMG Ranking" fontFamily="Times" size="20" x="90" textColor="0xFF9B0F"/>
+		<e:Label y="100" text="Name" fontFamily="Times" size="20" textColor="0xFF9B0F" horizontalCenter="3"/>
+		<e:Label y="101" text="DMG" fontFamily="Times" size="20" x="594" textColor="0xFF9B0F"/>
+		<e:Scroller x="19" y="131" width="685" height="703" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list" height="392" width="571" x="1" y="-1" itemRendererSkinName="KlmRecordItemEUI" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YsDanWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="720" height="1280" states="normal,max" >
+	<w:Config id="15d981d06da"/>
+
+
+
+
+
+
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="524" touchEnabled="false" width="553" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Button id="closeBtn0" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="0"/>
+		<e:Image y="-3" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="151"/>
+		<e:Image id="imgTitle" y="14" horizontalCenter="0.5" source="shenyou_zycs_title"/>
+		<e:Image source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="378" y="88" width="469" x="42"/>
+		<e:Image y="107" x="78" source="public_zycs_daojukuang_02"/>
+		<e:Image id="imgIcon" width="80" height="80" x="80" y="109" source="shenyou_zycs_sk1"/>
+		<e:Label id="lbLv" text="Deity Quenched: 6/10" y="118" size="20" fontFamily="Times" textAlign="left" x="185" textColor="0xE3D7BE"/>
+		<e:Label id="lbCount" text="Own Amount: 0" y="158" size="20" fontFamily="Times" textAlign="left" x="185" textColor="0xE3D7BE"/>
+		<e:Label id="lbCurAttr" text="Current Stats" y="238" size="20" fontFamily="Times" textAlign="left" x="95" textColor="0xE3D7BE" horizontalCenter.max="0" lineSpacing.normal="5" text.normal="Water ATK: 1215000" x.normal="65"/>
+		<e:Label id="lbNextAttr" text="Next Level Stats" y="238" size="20" fontFamily="Times" textAlign="left" x="355" textColor="0xE3D7BE" visible.max="false" lineSpacing.normal="5" text.normal="Water ATK: 1215000" x.normal="288"/>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="388" label="Deity Quench" x="202" visible.max="false"/>
+		<e:Image id="imgYml" touchEnabled="false" y="371" source="bxsb_zycs_ymj" x="216" visible.normal="false"/>
+		<e:Button id="btnSendALL" skinName="BtnMin1_1" y="388" label="Fast Deity Quench " x="328" visible="false"/>
+	</e:Group>
+</e:Skin>

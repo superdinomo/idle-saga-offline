@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TianMoEquipUpLevelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   width="137" height="140">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" horizontalCenter="0" verticalCenter="0" touchEnabled="false" source="qianghua_zycs_kuang"/>
+	<e:Image id="imgSelect" touchEnabled="false" horizontalCenter="0" verticalCenter="0" source="qianghua_zycs_kuang2" visible="false"/>
+	<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+	<e:Image id="imgLvBg" y="18" source="public_zycs_xq" scaleX="1" scaleY="1" x="15" touchEnabled="false"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="109" y="11" source="mainui_zycs_hongdian" touchEnabled="false"/>
+	<e:BitmapLabel id="bitlbLevel" text="r12" touchEnabled="false" font="tianmonum_fnt" letterSpacing="-3" horizontalCenter="-34" verticalCenter="-35"/>
+
+</e:Skin>

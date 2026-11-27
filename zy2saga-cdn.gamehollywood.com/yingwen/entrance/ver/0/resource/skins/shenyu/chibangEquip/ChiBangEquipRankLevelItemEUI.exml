@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChiBangEquipRankLevelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down,disabled"  width="175" height="89">
+	<e:Image id="imgbg1" x="0" anchorOffsetY="0" anchorOffsetX="0" y="0" source="cbzb_zycs_xz2" visible.down="false"/>
+	<e:Image x="-1" anchorOffsetY="0" anchorOffsetX="0" y="0" source="cbzb_zycs_xz0" visible.up="false" visible="false"/>
+	<e:Image id="imgbg2" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="cbzb_zycs_xz1" visible.up="false"/>
+	<e:Image id="imgName" x="20" anchorOffsetY="0" anchorOffsetX="0" source="cbzb_zycs_2" x.down="34" y="30"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="131" y="1" source="mainui_zycs_hongdian"/>	
+	
+</e:Skin>

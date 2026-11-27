@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ResultWinBossHomeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1"/>
+	<e:Group id="group" horizontalCenter="0" height="1134" verticalCenter="0" width="620">
+		<e:Image id="bg" x="0" y="0" anchorOffsetY="0" source="js_zycs_qz_png"/>
+		<e:Image id="imgTitle" x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png"/>
+		<e:Image id="imgjl" x="110" y="423" source="js_zycs_gsjl"/>
+		<e:Label id="lbdesc" text="" x="110" y="391" size="22" textColor="0xDFD1B5" fontFamily="Times" />
+		<e:Button id="closeBtn" label="Claim" x="246" y="928" anchorOffsetX="0"
+		          anchorOffsetY="0"  icon="anz_zycs_lqjl" skinName="BtnMin1_6"/>
+		<e:Scroller height="368" y="470" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin"
+			        height="392">
+				<e:layout>
+					<e:TileLayout horizontalGap="28" verticalGap="43" requestedColumnCount="4" paddingLeft="12" paddingRight="12" paddingBottom="12" paddingTop="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgGs" x="110" y="275"  source="js_zycs_bgs"/>
+		<e:Image x="251" y="250" source="qm_zycs_txk"/>
+		<e:Image id="imgHead" x="281" y="262" source="mianui_zycs_sheshou0"/>
+		<e:Label id="lbName" text="0" y="366" size="20" fontFamily="Times" textColor="0x5ac832" horizontalCenter="15"/>
+		<e:Group id="groupBossScore" x="110" y="383">
+			<e:Image x="0" y="0" source="js_zycs_bsjf"/>
+			<e:Label id="lbScore" text="0" y="4" size="20" fontFamily="Times" textColor="0xe6dcb8" x="119"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbTips" text="Your rebirth level is too high, elimination yields no rewards" y="614" size="24" fontFamily="Times" textColor="0xf01414" horizontalCenter="0" width="466" textAlign="center"/>
+	</e:Group>
+</e:Skin>

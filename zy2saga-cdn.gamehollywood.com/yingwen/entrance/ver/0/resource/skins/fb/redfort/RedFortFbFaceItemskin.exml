@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortFbFaceItemskin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b362dfe"/>
+	<e:Group id="groupMonster" x="0" y="0">
+		<e:Image x="0" source="hddt_zycs_bsk1" width="65" height="65" y="0"/>
+		<e:Image id="imgMonster" width="38" height="38" source="public_zycs_greybg0" x="14" y="14"/>
+	</e:Group>
+	<e:Component id="roleItem" x="0" y="0" skinName="MainRoleItemEUI"/>
+</e:Skin>

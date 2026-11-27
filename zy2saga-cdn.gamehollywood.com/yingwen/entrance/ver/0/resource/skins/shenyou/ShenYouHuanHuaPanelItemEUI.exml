@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouHuanHuaPanelItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down"  width="161" height="125">
+	<e:Image id="imgSelect" x="0" y="0" source="shenyou_zycs_xz" visible.up="false"/>
+	<e:Image source="shenyou_zycs_k" horizontalCenter="0" verticalCenter="0"/>
+
+
+	<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source="shenyou_zycs_hh1"/>
+
+	<e:Group id="groupMc" width="0" height="0" x="18" y="20"/>
+
+	<e:Image id="imgPz" y="12" x="12" source="zuji_zycs_pz2"/>
+
+	<e:Image id="imgAn" source="shenyou_zycs_yy" x="9" y="9"/>
+
+
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="134" y="6"/>
+</e:Skin>

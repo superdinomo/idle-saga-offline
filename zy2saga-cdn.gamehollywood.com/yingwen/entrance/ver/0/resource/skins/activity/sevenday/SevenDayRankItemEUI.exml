@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SevenDayRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Image id="imgBg" x="0" y="0" source="llcz_zycs_di01"/>
+	<e:Scroller x="192" scrollPolicyH="off" scrollPolicyV="off" height="94" y="30">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="13"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="rewardBtn" x="533" skinName="BtnMin1_8" icon="anz_zycs_lq" y="50"/>
+	<e:Image x="42" source="sd_zycs_jrsw" y="20"/>
+	<e:Label id="rankTxt" text="0" x="39" fontFamily="Times" size="24" y="77" width="130" textAlign="center" textColor="0xf5e65a"/>
+	<e:Label id="rankNametxt" text="CP" x="39" fontFamily="Times" size="24" textColor="0xAF9B73" y="49" width="130" textAlign="center"/>
+	<e:Image id="rewardedTip" x="540" source="public_zycs_ylq" y="31"/>
+</e:Skin>

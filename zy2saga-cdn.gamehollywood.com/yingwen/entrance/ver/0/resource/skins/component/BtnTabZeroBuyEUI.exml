@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnTabZeroBuyEUI" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="157" height="86">
+	<e:Image  touchEnabled="false"     y.disabled="0" y.down="1" source="public_zycs_bq2" source.up="public_zycs_bq2" source.down="public_zycs_bq1"/>
+	<e:Image id="iconDisplay" touchEnabled="false"  horizontalCenter="0" verticalCenter="-15" source="{data.source}" verticalCenter.down="-14"/>
+	<e:Image id="redPoint"  source="mainui_zycs_hongdian" x="131" y="2"/>
+</e:Skin>

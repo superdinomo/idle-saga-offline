@@ -1,0 +1,82 @@
+<e:Skin class="DaZaoFenJiePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="693" height="1048">
+	<w:Config id="1586b1383e3" />
+	<e:Image height="100%" y="0" width="100%" x="0" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_greybg1" scale9Grid="6,10,7,3"/>
+	<e:Image x="192" y="20" source="zbfj_zycs_btzs"/>
+	<e:Image x="223" y="359" source="zbfj_zycs_btzs"/>
+	<e:Image x="223" y="700" source="zbfj_zycs_btzs"/>
+	<e:Image x="691" y="20" source="zbfj_zycs_btzs" scaleX="-1"/>
+	<e:Image x="661" y="359" source="zbfj_zycs_btzs" scaleX="-1"/>
+	<e:Image x="661" y="700" source="zbfj_zycs_btzs" scaleX="-1"/>
+	<e:Image rotation="90" y="299" horizontalCenter="89.5" source="qianghua_zycs_next"/>
+	<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="734" x="191" source="public_zycs_di01" scale9Grid="140,12,8,8" width="496" height="158"/>
+	<e:Label id="lbSelectCount" text="Selected Gear (0/8)" size="18" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="361" horizontalCenter="93" textColor="0xaf9b73"/>
+	<e:Image height="238" y="47" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="491" x="197" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image height="238" y="396" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="491" x="197" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller id="itemScroller" width="489" height="234" y="48" x="197" scrollPolicyH="off" anchorOffsetY="0">
+		<e:List id="listBagItem" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="DaZaoFenJieSelectItemEUI">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4" horizontalGap="28" verticalGap="9" paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller width="489" height="236" y="397" x="197" scrollPolicyH="off" scrollPolicyV="off" anchorOffsetY="0">
+		<e:List id="listSelectItem" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin" width="684">
+		
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4" horizontalGap="28" verticalGap="20" paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller horizontalCenter="92.5" verticalCenter="305">
+		<e:List id="listFenJieItem" itemRendererSkinName="ItemSkin">
+		
+			
+			<!--
+			-->
+			
+		
+			<e:layout>
+				<e:HorizontalLayout paddingTop="15" paddingBottom="15" paddingRight="15" paddingLeft="15"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image rotation="90" y="644" horizontalCenter="88.5" source="qianghua_zycs_next"/>
+	<e:Label text="Salvage Gain" size="18" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" y="703" horizontalCenter="88.5" textColor="0xaf9b73"/>
+	<e:Label text="Tap on the gear you wish to salvage or tap again to cancel" size="18" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" y="6" x="293" textColor="0xaf9b73" width="298"/>
+	<e:Label text="Salvage guarantees to gain Boss Spirit" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" y="921" horizontalCenter="89.5"/>
+	<e:Button id="btnSelect" label="Select All" y="959" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" x="262"/>
+	<e:Button id="btnFenJie" label="Salvage All" y="959" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1" x="470"/>
+	
+</e:Skin>

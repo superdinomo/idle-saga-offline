@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunFbPanelFaceEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="147" height="142">
+	<e:Component id="item" x="0" y="0" skinName="BossHomeFbPanelFaceEUI"/>
+	<e:Image id="imgFc" y="-9" source="lhzd_zycs_fc" x="48"/>
+
+
+
+
+
+	
+</e:Skin>

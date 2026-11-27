@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengLingTaoZhuangWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" y="292">
+		<e:Image y="0" scale9Grid="83,62,16,9" x="0"  source="shengling_zycs_tzbg_jpg"/>
+		<e:Image y="-4" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="151" />
+		<e:Image id="title" y="13"  source="shengling_zycs_tzsx" x="229"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="0" />
+
+		<e:Scroller id="scroller" y="114" height="317" x="45" width="465" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list" itemRendererSkinName="ShengLingTaoZhuangItemEUI" anchorOffsetX="0" width="458" x="-16" y="0">
+				<e:layout>
+					<e:VerticalLayout gap="11"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="Spirit Imprint Set Stats" size="24" textAlign="left" fontFamily="Times" lineSpacing="10" y="60"
+		          textColor="0xff9b0f" horizontalCenter="0"/>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="466" label="Activate All" x="202" />
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendsChatPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" y="41" source="friends_zycs_bg_jpg" x="13"/>
+	<e:Label id="label_name" text="0" y="62" size="24" fontFamily="微软雅黑" textColor="0xCDC8BE" width="386" textAlign="center" x="167"/>
+	<e:Scroller id="scroller_chat" x="45" width="630" bottom="150" top="112">
+		<e:List id="list_chat" itemRendererSkinName="FriendsChatItemRenderEUI" >
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="contentJustify" verticalAlign="middle" gap="5"/>
+		</e:layout>
+			<!--
+				
+					
+					
+				
+			-->
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btn_send" label="Send" y="1028" x="557" skinName="BtnMin1_1mid" height="47" width="119"/>
+	<e:Button id="btn_add" x="37" y="1028" label="Follow" skinName="BtnMin1_1mid" width="119" height="47"/>
+	<e:Button id="btn_delete" x="174" y="1028" label="Block" skinName="BtnMin1_1mid" width="119" height="47"/>
+	<e:Image width="200" x="335" height="27" y="1038" source="public_zycs_shurukuang" scale9Grid="11,9,96,10"/>
+	<e:EditableText id="editText_input" text="" prompt="Please enter" size="20" textAlign="left" verticalAlign="middle" fontFamily="Times" x="340" y="1042" width="194" textColor="0x505050" height="20"/>
+</e:Skin>

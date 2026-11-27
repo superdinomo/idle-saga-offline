@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortDabiaoRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn0" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Scroller id="scroller" y="94" scrollPolicyH="off" scrollPolicyV="on" x="21" width="678" height="741">
+		<e:List id="list" useVirtualLayout="true" itemRendererSkinName="RedFortDabiaoRewardItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="5"/>
+			</e:layout>
+			<!--
+				
+					
+					
+					
+				
+			-->
+		</e:List>
+		</e:Scroller>
+		<e:Image id="title" y="30" source="csys_zycs_bxjl" x="313"/>
+	</e:Group>
+</e:Skin>

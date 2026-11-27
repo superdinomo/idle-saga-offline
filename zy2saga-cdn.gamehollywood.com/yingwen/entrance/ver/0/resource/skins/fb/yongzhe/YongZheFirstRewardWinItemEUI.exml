@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YongZheFirstRewardWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"           >
+	<e:Image y="0" x="-6" source="yzzt_zycs_di3" scale9Grid="60,21,364,8" height="184"/>
+	<e:Image y="50" x="18" source="yzzt_zycs_ss"/>
+	<e:Image id="imgxwyd" y="51" x="96" source="yzzt_zycs_xwyd"/>
+
+
+	<e:Group y="4" left="7" width="466" anchorOffsetX="0">
+		<e:Label y="0" text="Any player in the server clears Extreme Altar" fontFamily="Times" size="20" textAlign="center" anchorOffsetX="0" x="0" textColor="0xf5e65a"/>
+		<e:Label id="lbFloor" y="0" text="Floor 1 Stage 1" fontFamily="Times" size="18" textAlign="center" anchorOffsetX="0" x="339" textColor="0xf5e65a"/>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbName" y="51" text="Player Name Seven Characters" fontFamily="Times" size="20" anchorOffsetX="0" textColor="0x13ee22" x="95"/>
+	<e:Image id="lbreceive" touchEnabled="false" y="106" scaleX="1" scaleY="1" x="351" source="lilian_zycs_ylq1"/>
+
+	<e:List id="list" x="70" y="83" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+		<e:HorizontalLayout gap="9"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object aaa="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+
+	<e:Button id="btn" y="107" label="Claim" x="338" skinName="BtnMin1_1small"/>
+</e:Skin>

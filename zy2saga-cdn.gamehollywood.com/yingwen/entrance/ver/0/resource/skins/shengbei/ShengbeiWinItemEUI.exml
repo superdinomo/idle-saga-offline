@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengbeiWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   width="96" height="96" states="noStone,normal" >
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" source="dstf_zycs_jnk"/>
+	<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" visible.noStone="false" source="bxsb_zycs_ys0"/>
+	<e:Image id="imgSelect" x="-23" y="-23" source="sksk_zycs_xzk" visible="false"/>
+	<e:Image id="imgJia" source="mianui_zycs_jh" verticalCenter="0" horizontalCenter="0" visible.normal="false"/>
+	<e:Image id="redPoint" x="78" y="2" source="mainui_zycs_hongdian" visible="false"/>
+
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyOnlineComEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="70" height="73">
+	<w:Config id="15ddfc10774"/>
+	<e:Group id="group" y="0" horizontalCenter="0" width="70" height="73">
+		<e:Image id="imgBg" source="mainui_zycs_zxlb" x="3" y="0"/>
+		<e:Group id="groupMc" y="33" x="35"/>
+		<e:Image source="mainui_zycs_zxlb1" y="52" horizontalCenter="0"/>
+		<e:BitmapLabel id="bmpLabelTime" x="2" y="50" text="00m00" font="djs2num_fnt" letterSpacing="-7" visible="false"/>
+		<e:Image id="redPoint" touchEnabled="false" source="mainui_zycs_hongdian" x="50" y="0" visible="false"/>
+		<e:Label id="labelCanGet" text=" to claim" y="54" size="16" fontFamily="Times" textColor="0x13ee22" horizontalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,13 @@
+{"file":"poisonnum.png","frames":{
+"-":{"x":15,"y":80,"w":19,"h":7,"offX":1,"offY":11,"sourceW":22,"sourceH":29},
+"+":{"x":40,"y":79,"w":19,"h":18,"offX":1,"offY":5,"sourceW":22,"sourceH":29},
+"0":{"x":22,"y":0,"w":19,"h":25,"offX":2,"offY":2,"sourceW":22,"sourceH":29},
+"1":{"x":0,"y":80,"w":13,"h":24,"offX":5,"offY":2,"sourceW":22,"sourceH":29},
+"2":{"x":21,"y":27,"w":19,"h":24,"offX":2,"offY":2,"sourceW":22,"sourceH":29},
+"3":{"x":0,"y":27,"w":19,"h":24,"offX":2,"offY":2,"sourceW":22,"sourceH":29},
+"4":{"x":42,"y":27,"w":19,"h":24,"offX":1,"offY":2,"sourceW":22,"sourceH":29},
+"5":{"x":0,"y":0,"w":20,"h":25,"offX":1,"offY":2,"sourceW":22,"sourceH":29},
+"6":{"x":20,"y":53,"w":18,"h":25,"offX":2,"offY":2,"sourceW":22,"sourceH":29},
+"7":{"x":40,"y":53,"w":18,"h":24,"offX":3,"offY":2,"sourceW":22,"sourceH":29},
+"8":{"x":43,"y":0,"w":19,"h":25,"offX":2,"offY":2,"sourceW":22,"sourceH":29},
+"9":{"x":0,"y":53,"w":18,"h":25,"offX":3,"offY":2,"sourceW":22,"sourceH":29}}}

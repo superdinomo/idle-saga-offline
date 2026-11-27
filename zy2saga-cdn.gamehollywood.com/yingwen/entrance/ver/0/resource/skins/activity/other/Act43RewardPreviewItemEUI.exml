@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act43RewardPreviewItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Group x="0" y="0">
+		<e:Component id="item" skinName="ItemSkin" x="0" y="0"/>
+	</e:Group>
+	<e:Label id="lbRate" text="0.20%" y="138" size="20" anchorOffsetX="0" horizontalCenter="-0.5" width="91" textAlign="center" textColor="0xffd675"/>
+</e:Skin>

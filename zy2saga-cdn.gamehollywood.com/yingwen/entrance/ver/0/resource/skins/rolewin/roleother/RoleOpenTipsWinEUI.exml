@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleOpenTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b36a128"/>
+	<e:Image id="backGround" y="0" scaleX="1" scaleY="1" x="0" width="100%" height="100%" source="jiadian_zycs_di"/>
+	<e:Group id="group" verticalCenter="98.5" anchorOffsetX="0" width="587" anchorOffsetY="0" height="989" horizontalCenter="0.5">
+		<e:Image y="20" scaleX="1" scaleY="1" horizontalCenter="-0.5" source="jl_zycs_jhzs_png"/>
+		<e:Image y="87" scaleX="1" scaleY="1" horizontalCenter="23.5" source="godequip_zycs_bg1_png"/>
+		<e:Image y="85.5" scaleX="1" scaleY="1" horizontalCenter="-1" source="kqjs_zycs_cgkq"/>
+		<e:Image id="imgbg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="10,10,64,64" scaleX="1" scaleY="1" y="475" horizontalCenter="0.5" source="jl_zycs_dz_png"/>
+		<e:Image id="imgIcon" y="96" horizontalCenter="0" source=""/>
+		<e:Group id="groupMc" width="200" height="200" x="198" y="261"/>
+		<e:Group id="groupDonw" width="0" height="0" y="514" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="295"/>
+		<e:Group id="groupMiddle" width="0" height="0" y="514" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="295"/>
+		<e:Group id="groupTop" width="0" height="0" y="514" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="295"/>
+		<e:Group id="groupEntity" width="0" height="0" y="514" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="295"/>
+		<e:Scroller id="scrollerShop" y="672" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" horizontalCenter="0.5">
+			<e:List id="listShop" itemRendererSkinName="RoleOpenTipsItemEUI" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnOk" skinName="BtnMin1_1" horizontalCenter="0" y="856" label="Confirm"/>
+		<e:Image y="639" source="kqjs_zycs_kxxjn" horizontalCenter="0"/>
+		<e:Image x="48" y="643" source="liuguang_zycs_huawen"/>
+		<e:Image x="536" y="643" source="liuguang_zycs_huawen" scaleX="-1"/>
+	</e:Group>
+</e:Skin>

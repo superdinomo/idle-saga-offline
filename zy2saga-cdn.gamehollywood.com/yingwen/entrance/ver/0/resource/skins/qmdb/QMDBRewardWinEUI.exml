@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QMDBRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image y="4" x="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="90,66,7,5" source="qmdb_jl1_jpg"/>
+		<e:Button id="closeBtn" label="" x="470" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="16" source="qmdb_zycs_jl" horizontalCenter="0"/>
+		<e:Scroller y="102" anchorOffsetY="0" height="235" horizontalCenter="-0.5">
+			<e:Group>
+				<e:List id="list" y="0" itemRendererSkinName="ItemSkin" scaleX="1" scaleY="1" horizontalCenter="0">
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+							<e:Object aaa="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+					<e:TileLayout requestedColumnCount="4" horizontalGap="18"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

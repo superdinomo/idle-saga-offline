@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YongZheBossListEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15b806387d2"/>
+	<e:Group x="0" y="0" height="166">
+		<e:Image x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="yzzt_zycs_di2"/>
+		<e:Image x="154" y="84" anchorOffsetY="0" scaleX="1" scaleY="1" source="yzzt_zycs_jt"/>
+		<e:Image x="311" y="84" anchorOffsetY="0" scaleX="1" scaleY="1" source="yzzt_zycs_jt"/>
+		<e:Image x="562" y="36" anchorOffsetY="0" scaleX="1" scaleY="1" source="yzzt_zycs_dj" visible="false"/>
+		<e:Component id="boss0" y="11" skinName="YongZheBossItemEUI" x="21"/>
+		<e:Component id="boss1" y="11" skinName="YongZheBossItemEUI" x="179"/>
+		<e:Component id="boss2" y="11" skinName="YongZheBossItemEUI" x="337"/>
+		<e:Component id="gqReward" y="9.71" x="564.66" skinName="YongZheGQRewardEUI"/>
+	</e:Group>	
+</e:Skin>

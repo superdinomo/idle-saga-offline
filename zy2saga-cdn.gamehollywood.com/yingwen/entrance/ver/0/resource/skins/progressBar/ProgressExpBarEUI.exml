@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ProgressExpBarEUI" minWidth="30" minHeight="12" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="thumb" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_jindutiao_01" scale9Grid="234,1,53,9" left="0" right="0"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" text="0"
+	         size="14" fontFamily="Times" textColor="0xdfd1b5" stroke="1" strokeColor="0x000000" 
+	         horizontalCenter="0.5" y="-3" visible="false"/>
+</e:Skin>

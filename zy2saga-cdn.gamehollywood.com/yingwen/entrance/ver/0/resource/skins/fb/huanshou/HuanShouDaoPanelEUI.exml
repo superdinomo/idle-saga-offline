@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HuanShouDaoPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"  height="1134" states="s1,s2" >
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" x="13" source="hsd_zycs_bg2_jpg" source.s2="hsd_zycs_bg3_jpg"/>
+	<e:Component id="itemBoss0" y="59" x="42" skinName="WuJinDaoPanelItemEUI" x.s2="61" y.s2="86"/>
+	<e:Component id="itemBoss1" y="108" skinName="WuJinDaoPanelItemEUI" x="266" y.s2="52" x.s2="430"/>
+	<e:Component id="itemBoss2" y="73" skinName="WuJinDaoPanelItemEUI" x="484" y.s2="296" x.s2="506"/>
+	<e:Component id="itemBoss3" y="323" skinName="WuJinDaoPanelItemEUI" x="84" y.s2="261" x.s2="23"/>
+	<e:Component id="itemBoss4" y="273" skinName="WuJinDaoPanelItemEUI" x="494" y.s2="431" x.s2="341"/>
+	<e:Component id="itemBoss5" y="438" skinName="WuJinDaoPanelItemEUI" x="374" x.s2="298" y.s2="208"/>
+	<e:Component id="itemBoss6" y="421" skinName="WuJinDaoPanelItemEUI" x="471" visible.s1="false" x.s2="73" y.s2="437"/>
+	<e:Group horizontalCenter="0" verticalCenter="236">
+		<e:Group x="0" y="0">
+			<e:Label id="lbGuishu" y="0" text="Ownership Attempts: 1/3" fontFamily="Timse" size="24" textColor="0xe3d7be" x.s1="166" x="0"/>
+			<e:Label id="lbShuiJing" y="1" text="Eudemon Crystal: 0/20" fontFamily="Timse" size="24" textColor="0xE3D7BE" x.s1="386" x="313"/>
+			<e:layout>
+			<e:HorizontalLayout gap="60"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbShengShi" y="33" text="Eudemon Stone: 1/3" fontFamily="Timse" size="24" textColor="0xE3D7BE" visible.s1="false" x="173"/>
+		<e:layout>
+			<e:VerticalLayout verticalAlign="middle" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+
+
+
+	<e:CheckBox id="checkBoxGuanZhu" label="Follow" x="515" skinName="CheckBoxEUI" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="896"/>
+	<e:Label id="lbTimer" y="840" text="Defeated" fontFamily="Timse" size="24" textColor="0xff0000" horizontalCenter="0.5"/>
+	<e:Image y="619" x="312" source="qm_zycs_dlyl"/>
+	<e:Image x="122" y="620" source="liuguang_zycs_huawen"/>
+	<e:Image x="599" y="620" source="liuguang_zycs_huawen" scaleX="-1"/>
+	<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" maxWidth="560" horizontalCenter="0" verticalCenter="141">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingBottom="12" paddingRight="12"/>
+			</e:layout>
+
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnChallenge" label="Challenge" anchorOffsetX="0" anchorOffsetY="0" y="877" horizontalCenter="-1.5" skinName="BtnMin1_2"/>
+	<e:CheckBox id="checkBoxAuto" y="962" skinName="CheckBoxEUI" label="Auto-challenge" horizontalCenter="-179.5"/>
+	<e:Label id="labelDesc" y="964" text="(Activate Character Halo to unlock)" fontFamily="Times" size="24" x="300" textColor="0xF01414"/>
+
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\H_幻兽岛\H-幻兽岛1.jpg" y="-47"/>-->
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JuLongBaoZangWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="223" height="232">
+	<w:Config id="1586b13ea96" />
+	<e:Image touchEnabled="true" source="jlbz_zycs_djk"/>
+	<e:Group id="groupMc" width="0" height="0" y="103" x="112"/>
+	<e:Image touchEnabled="true" y="177" source="jlbz_zycs_wzd" x="10"/>
+
+
+	<e:Label id="lbName" text="Gift Package Name" y="191" size="24" textAlign="left" fontFamily="Times" horizontalCenter="0" textColor="0xfffcd4" strokeColor="0x892f08" stroke="2"/>
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="168" y="21"/>
+	<e:Image id="imgYgm" source="public_zycs_ygm" x="51" y="67"/>
+	<e:Image id="imgToch" touchEnabled="true" source="public_zycs_greybg3" width="178" height="203" alpha="0.01" y="13" x="23"/>
+
+</e:Skin>

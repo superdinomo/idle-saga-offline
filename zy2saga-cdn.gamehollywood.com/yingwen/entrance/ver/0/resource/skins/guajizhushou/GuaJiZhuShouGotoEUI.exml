@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiZhuShouGotoEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="78" height="101">
+	<w:Config id="1586bd49103"/>
+	<e:Button id="btnGoto" icon="ngzs_zycs_icon" anchorOffsetX="0" skinName="Btn0Skin" y="4" horizontalCenter="0"/>
+	<e:Label id="lbDesc" text="Label" y="81" size="20" fontFamily="Times" horizontalCenter="0"/>
+</e:Skin>

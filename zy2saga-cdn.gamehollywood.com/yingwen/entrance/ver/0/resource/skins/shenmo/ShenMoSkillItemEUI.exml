@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoSkillItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,sure"  width="68">
+	<e:Image id="imgBG" source="shenmo_zycs_yk" x="0" y="1"/>
+	<e:Image id="imgIcon" width="56" height="56" source="" x="4" y="5"/>
+	<e:Image id="imgIcon0" source="shenmo_zycs_fdj" y="48" x="38"/>
+	<e:Image id="imgRedPoint" anchorOffsetX="0" anchorOffsetY="0" y="0" x="43" source="mainui_zycs_hongdian" visible="false"/>
+	<e:Label id="lbName" text="Skill Name" includeIn="normal" y="75" size="20" textColor="0x5ac832" fontFamily="Times" horizontalCenter="0" visible="false"/>	
+	
+</e:Skin>

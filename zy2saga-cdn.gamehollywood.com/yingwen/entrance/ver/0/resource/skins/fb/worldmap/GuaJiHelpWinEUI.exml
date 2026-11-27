@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiHelpWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="370" touchEnabled="false" width="546" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="463"/>
+		<e:Image y="-5" touchEnabled="false" source="sl_zycs_k1" scale9Grid="52,7,95,44" width="253" x="147"/>
+		<e:Image y="11" touchEnabled="false" source="cg_zycs_qzlb" x="225"/>
+		<e:Image width="462" x="42" height="122" y="87" source="qianghua_zycs_kuang4" scale9Grid="26,26,46,45"/>
+		<e:Image x="52" y="106" source="cg_zycs_tab"/>
+		<e:Label text="Cross-server Help Request" y="112" fontFamily="Times" size="20" x="73" textColor="0xb59658"/>
+		<e:Label id="lbHelpAll" text="Server Help Request" y="159" fontFamily="Times" size="20" textColor="0x11f51c" width="445" textAlign="center" x="51"/>
+		<e:Image id="imgAll" width="462" x="42" height="122" y="87" source="qianghua_zycs_kuang4" scale9Grid="26,26,46,45" alpha="0"/>
+		<e:Group x="42" y="230" visible="false">
+			<e:Image width="462" x="0" source="qianghua_zycs_kuang4" height="122" y="0" scale9Grid="26,26,46,45"/>
+			<e:Image x="10" y="19" source="cg_zycs_tab"/>
+			<e:Label text="Guild Help Request" y="25" fontFamily="Times" size="20" x="31" textColor="0xb59658"/>
+			<e:Label id="lbHelpGuild" text="Server Help Request" y="72" fontFamily="Times" size="20" textColor="0x11F51C" width="445" textAlign="center" x="9"/>
+			<e:Image id="imgGuild" width="462" x="0" source="qianghua_zycs_kuang4" height="122" y="0" scale9Grid="26,26,46,45" alpha="0"/>
+		</e:Group>
+		<e:Label id="lbHelp" text="Help Attempts: 1/3" y="246" fontFamily="Times" size="20" textAlign="center" x="94" textColor="0xe3d7be"/>
+		<e:Label id="lbAssist" text="Assist Attempts: 1/3" y="246" fontFamily="Times" size="20" textColor="0xE3D7BE" textAlign="center" x="312"/>
+		<e:Label text="Assist others to gain diamonds" y="287" fontFamily="Times" size="20" textColor="0xE3D7BE" textAlign="center" x="183"/>
+
+
+	</e:Group>
+</e:Skin>

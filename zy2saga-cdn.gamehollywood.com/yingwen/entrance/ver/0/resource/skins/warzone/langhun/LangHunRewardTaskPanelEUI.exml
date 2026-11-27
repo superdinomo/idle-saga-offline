@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunRewardTaskPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720">
+	<e:Image x="0" y="0" touchEnabled="false" source="lhzd_zycs_bg2_jpg"/>
+	<e:Image y="85" touchEnabled="false" source="public_zycs_greybg3" scale9Grid="2,2,16,16" height="629" width="676" x="22"/>
+	<e:Label id="lbDec" text="Quest Rewards reset at 0:00 midnight every Monday" fontFamily="Times" size="24" textAlign="center" y="54" horizontalCenter="0" textColor="0xf5e65a"/>
+
+	<e:Scroller y="89" height="621" width="674" x="26">
+		<e:List id="listRank" itemRendererSkinName="LangHunRewardTaskItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="16"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PersonalInteRankInfoEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="209" source="bag_zycs_diwen" x="21"/>
+	<e:Image y="45" source="public_zycs_cjx" x="13" width="694"/>
+	<e:Image y="49" x="156" source="public_zycs_sjx"/>
+	<e:Image y="49" x="325" source="public_zycs_sjx"/>
+	<e:Image y="49" x="508" source="public_zycs_sjx"/>
+	<e:Label text="Ranking" size="20" fontFamily="Times" y="52" x="67" textColor="0xff9b0f"/>
+	<e:Label text="Name" size="20" fontFamily="Times" y="52" x="220" textColor="0xff9b0f"/>
+	<e:Label text="Guild" size="20" fontFamily="Times" y="52" x="385" textColor="0xff9b0f"/>
+	<e:Label text="Points" size="20" fontFamily="Times" y="52" x="581" textColor="0xff9b0f"/>
+	<e:Scroller y="81" width="698" x="11" height="982">
+		<e:List id="list" itemRendererSkinName="GuildInteRankItemRenderer2EUI">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

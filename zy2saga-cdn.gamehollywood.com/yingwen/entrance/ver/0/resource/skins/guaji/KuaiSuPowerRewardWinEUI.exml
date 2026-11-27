@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="KuaiSuPowerRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<e:Group horizontalCenter="0" verticalCenter="-7" width="720" height="882">
+		<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn0" label="Confirm" y="765" skinName="BtnMin1_1" x="286"/>
+		<e:Button id="btnSaoDang" label="Raid" y="765" skinName="BtnMin1_1" x="150" visible="false"/>
+		<e:Group y="727" height="32" x="142" visible="false">
+			<e:Label id="lbPrice" text="Raid Cost:" y="5" fontFamily="Times" size="20" textAlign="center" x="0" textColor="0xe3d7be"/>
+			<e:Component id="price" skinName="PriceIconSkin" x="144" y="0"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image y="202" anchorOffsetX="0" anchorOffsetY="0" source="js_zycs_di_png" x="89"/>
+		<e:Button id="closeBtn" label="" x="639" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgTitle" y="29" x="313" source="js_zycs_kszd"/>
+		<e:Label id="lbdesc" text="" x="110" y="282" size="22" textColor="0xDFD1B5" fontFamily="Times"/>
+		<e:Scroller width="515" height="388" y="262" anchorOffsetX="0" anchorOffsetY="0" x="103">
+			<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="384" x="3" y="-57" anchorOffsetY="0" height="392">
+			<e:layout>
+				<e:TileLayout horizontalGap="46" paddingTop="0" verticalGap="32"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="(Basic Gear has been smelted automatically)" y="673" size="24" textColor="0xe6dcb8" fontFamily="Times" horizontalCenter="0"/>
+		<e:Label text="Find rewards below:" y="164" size="24" textColor="0xE6DCB8" fontFamily="Times" x="66"/>
+	</e:Group>
+</e:Skin>

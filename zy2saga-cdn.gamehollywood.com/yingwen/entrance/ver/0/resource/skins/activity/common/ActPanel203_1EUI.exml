@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel203_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="694" height="800">
+	<e:Image height="808" touchEnabled="false" source="jiadian_zycs_di" scale9Grid="12,12,76,76" width="694" y="0" x="0" anchorOffsetY="0"/>
+	<e:Image y="0" source="sd_zycs_di_jpg" x="0"/>
+	<e:Image y="159" source="sd_zycs_bg_jpg" x="-2"/>
+	<e:Label id="timeTxt" text="0" y="119" size="24" textAlign="left" fontFamily="Times" textColor="0xaf9b73" x="425"/>
+	<e:Label id="myDegreeTxt" text="0" x="39" y="86" size="24" textAlign="left" fontFamily="Times" textColor="0xaf9b73"/>
+	<e:Label id="myRankTxt" text="0" x="39" y="119" size="24" textAlign="left" fontFamily="Times" textColor="0xaf9b73"/>
+	<e:Button id="linkBtn" label="" y="745" skinName="BtnMin1_8" icon="anz_zycs_qwts" x="187"/>
+	<e:Button id="seeRankBtn" y="746" skinName="BtnMin1_8" icon="anz_zycs_ckph" x="374"/>
+	<e:Image y="13" x="-3" source="sd_zycs_gx"/>
+	<e:Image id="imgTitle" y="21" source="sd_zycs_t101" horizontalCenter="-192"/>
+	<e:Label text="Rank rewards will be issued via mails at 0:00. Basic rewards can be claimed in real time" y="722" size="20" textAlign="left" fontFamily="Times" textColor="0xaf9b73" horizontalCenter="0" width="631"/>
+	<e:Component id="sevendayrankitemTop1" y="158" skinName="SevenDayRank1ItemEUi" x="0"/>
+	<e:Component id="sevendayrankitemTop2" x="404" y="169" skinName="SevenDayRank3ItemEUI"/>
+	<e:Component id="sevendayrankitemTop3" x="404" y="354" skinName="SevenDayRank3ItemEUI"/>
+	<e:Component id="sevendayrankitemTop4" y="548" skinName="SevenDayRank10ItemEUI" x="365"/>
+	<e:Image y="168" x="6" source="sd_zycs_num1"/>
+</e:Skin>

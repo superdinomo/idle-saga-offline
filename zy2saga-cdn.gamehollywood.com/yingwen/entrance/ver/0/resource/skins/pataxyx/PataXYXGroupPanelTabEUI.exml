@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PataXYXGroupPanelTabEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled"  width="148" height="153">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" visible.up="false" visible.disabled="false" source="fb_zycs_xz_png"/>
+	<e:Image id="iconDisplay" visible.disabled="false" verticalCenter="8" horizontalCenter="0" source="fb_zycs_qmbs_png"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="104" y="25" visible="false"/>
+</e:Skin>

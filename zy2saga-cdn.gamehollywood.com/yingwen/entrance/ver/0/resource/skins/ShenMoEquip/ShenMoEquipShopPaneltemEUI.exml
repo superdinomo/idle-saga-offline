@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoEquipShopPaneltemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="513" height="125">
+	<w:Config id="1586bdedfef"/>
+	<e:Image x="0" y="-1" width="513" anchorOffsetX="0" source="qianghua_zycs_kuang4" scale9Grid="41,33,18,34" anchorOffsetY="0" height="126"/>
+	<e:Component id="itemIcon" x="27"  skinName="ItemSkin" y="16"/>
+	<e:Button id="buyBtn" x="350" name="buy" icon="" y="36" skinName="BtnMin1_2mid" label="Exchange"/>
+	<e:Label id="lbName" text="Item" x="138" y="21" fontFamily="Times" size="24" textColor="0xBCAF96"/>
+	<e:Label id="money" text="0" y="72" fontFamily="Times" size="24" textColor="0xBCAF96" x="179"/>
+	<e:Image id="imgIcon" x="136" y="67" source="zycs_310028"/> 
+</e:Skin>

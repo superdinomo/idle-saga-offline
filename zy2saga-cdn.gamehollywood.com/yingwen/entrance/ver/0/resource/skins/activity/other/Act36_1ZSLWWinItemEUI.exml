@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act36_1ZSLWWinItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="462" height="122">
+	<e:Image x="0" y="0" source="qianghua_zycs_kuang4" scale9Grid="35,28,31,40" width="462" height="122"/>
+	<e:Component id="item" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" y="14" x="16"/>
+	<e:Label id="lbItemName" fontFamily="Times" size="20" text="Item name" textColor="0xCDC8BE" textAlign="center" y="16" x="126"/>
+	<e:Label id="lbItemCount" fontFamily="Times" size="20" text="Own Amount: " textColor="0xCDC8BE" textAlign="center" y="71" x="126"/>
+	<e:Button id="btnSend" label="Send" skinName="BtnMin1_2" anchorOffsetX="0" verticalCenter="0" x="296"/>
+
+
+
+
+
+
+
+</e:Skin>

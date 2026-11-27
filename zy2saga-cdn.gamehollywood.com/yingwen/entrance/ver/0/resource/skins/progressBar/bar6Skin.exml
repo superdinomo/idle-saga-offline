@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bar6Skin" minWidth="30" minHeight="11" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="lhzd_zycs_jd1" scale9Grid="17,2,108,12"/>
+	<e:Image id="thumb" y="1" source="lhzd_zycs_jd3" scale9Grid="11,4,66,5" left="1" right="1"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="16" textColor="0xE8FFD9" fontFamily="Times" horizontalCenter="0" verticalCenter="0" text="100/100" stroke="1"/>
+</e:Skin>

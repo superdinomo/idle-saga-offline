@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TipsWinItemGoodEquipEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="466" height="149">
+	<e:Group x="0" y="0">
+		<e:Image id="imgBg" width="465" touchEnabled="false" x="0" y="0" scaleX="1" scaleY="1" height="149" scale9Grid="29,26,6,3" source="public_zycs_biankuang" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Component id="itemBase" x="31" skinName="ItemSkin" verticalCenter="0.5"/>
+		<e:Image touchEnabled="false" x="125" y="74" scaleX="1" scaleY="1" fillMode="clip" scale9Grid="14,13,21,11" anchorOffsetX="0" width="285" source="public_zycs_bkd"/>
+		<e:Label id="labelName" text="0" size="26" fontFamily="Times" touchEnabled="false" x="133" y="82" scaleX="1" scaleY="1" textColor="0x23becd" textAlign="left" verticalAlign="middle"/>
+		<e:Label id="labelName0" text="Gain Superb Item!" size="30" fontFamily="Times" touchEnabled="false" x="136" y="34" scaleX="1" scaleY="1" textAlign="left" verticalAlign="middle" textColor="0xff9b0f"/>
+	</e:Group>
+</e:Skin>

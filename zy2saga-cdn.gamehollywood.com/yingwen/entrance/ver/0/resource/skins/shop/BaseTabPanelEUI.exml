@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BaseTabPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0" width="720" height="1134">
+		<e:ViewStack id="viewStack" y="0" selectedIndex="0" x="0"/>
+		<e:TabBar id="tab" selectedIndex="0" y="1025" itemRendererSkinName="BtnTab5ZYCSSkin" left="40">
+			<!--
+				
+					
+					
+					
+				
+			-->
+			<e:layout>
+			<e:HorizontalLayout gap="7"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Group>
+</e:Skin>

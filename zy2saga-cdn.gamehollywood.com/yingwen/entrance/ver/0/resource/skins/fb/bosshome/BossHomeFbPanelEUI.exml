@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BossHomeFbPanelEUI" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b13ea96" />
+	<e:Group id="groupBoss" anchorOffsetY="0" height="160" y="17" horizontalCenter="-13">
+		<e:Component id="bossBloodComponent" x="0" y="0" skinName="BossBloodComponentSkin"/>
+		<e:Group id="groupRawead" y="82" horizontalCenter="2">
+			<e:Image y="0" source="public_zycs_zbjlk" scale9Grid="12,16,74,2" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%"/>
+			<e:Scroller id="scrollerItem" scaleX="0.68" scaleY="0.68" anchorOffsetY="0" top="13" left="15" right="15" bottom="8">
+			<e:List id="listItemReward" scrollEnabled="false" itemRendererSkinName="ItemSkin" useVirtualLayout="false" y="-1">
+				
+		<e:layout>
+					<e:HorizontalLayout gap="27" />
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group height="1280" touchEnabled="false" y="0" left="0" right="0">
+		<e:Group id="groupBelonger" y="187" horizontalCenter="197">
+			<e:ProgressBar id="hpBarBelong" value="100" y="15" x="16" skinName="bloodBarBossHomePlayer" touchEnabled="false" maximum="100"/>
+			<e:Label id="labelNameBelong" text="" x="125" y="29" size="20" touchEnabled="false" fontFamily="Times" textColor="0xaf9b73"/>
+			<e:Image id="imgFaceBelong" y="19" x="22" touchEnabled="false" source="mianui_zycs_sheshou0"/>
+			<e:Button id="btnQiangduo" y="84" label="Snag Ownership" x="144" skinName="BtnHB" anchorOffsetX="0"/>
+		</e:Group>
+		<e:Group id="groupAtk" y="324" right="0">
+			<e:Component id="target" x="1" y="42" skinName="BossHomeFbPanelFaceEUI"/>
+			<e:Image y="0" x="0" touchEnabled="false" source="klm_zycs_jt"/>
+			<e:Image y="6" x="33" touchEnabled="false" source="klm_zycs_zzgj"/>
+		</e:Group>
+		<e:Group id="groupBeAtk" y="285" left="0">
+			<e:Image y="0" x="4" touchEnabled="false" source="klm_zycs_jt"/>
+			<e:Image y="7" x="37" touchEnabled="false" source="klm_zycs_sdgj"/>
+			<e:Scroller x="1" y="53" width="150" height="425" scaleX="1" scaleY="1">
+				<e:List id="list" x="1" y="13" itemRendererSkinName="BossHomeFbPanelFaceEUI">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group bottom="212" horizontalCenter="4">
+		<e:Button id="btnAtkBoss" label="Attack Boss" anchorOffsetX="0" skinName="BtnHB" x="0" y="0"/>
+		<e:Button id="btnAtkBelong" label="Attack Owner" anchorOffsetX="0" x="190" skinName="BtnHB" y="0"/>
+	</e:Group>
+</e:Skin>

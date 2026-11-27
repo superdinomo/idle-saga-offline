@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildOtherApplyRenderEUI" width="678" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Image x="0" y="0" width="100%" height="100%" source="qianghua_zycs_kuang4" scale9Grid="29,32,35,35"/>
+	<e:Label id="labelPower" text="CP: 998" y="68" fontFamily="Times" size="20" textAlign="center" x="138" textColor="0xf5e65a"/>
+	<e:Label id="labelName" text="[VIP7]Miracle xXMoo MoralityXx" x="138" y="31" fontFamily="Times" size="20" textColor="0x23becd"/>
+	<e:Button id="btnAgree" x="389" y="37" label="Agree" skinName="BtnMin1_1mid"/>
+	<e:Button id="btnRefuse" x="537" y="37" skinName="BtnMin1_1mid" label="Refuse"/>
+	<e:Image width="90" height="90" source="hddt_zycs_bsk1" scaleX="1.5" scaleY="1.5" x="13" y="-7"/>
+	<e:Image id="imgHead" x="36" source="mianui_zycs_zhanshi0" y="16"/>
+</e:Skin>

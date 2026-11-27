@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortRankFloorPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="13" width="694" source="jiadian_zycs_di" scale9Grid="12,12,76,76" height="1049" y="42"/>
+	<e:Image y="43" source="public_zycs_cjx" x="13" width="694"/>
+	<e:Image y="45" x="218" source="public_zycs_sjx"/>
+	<e:Label text="Floor" fontFamily="Times" size="20" y="49" textAlign="left" x="93" textColor="0xff9b0f"/>
+	<e:Label text="Rewards" x="436" fontFamily="Times" size="20" y="49" textAlign="left" textColor="0xff9b0f"/>
+	<e:Scroller id="scroller" width="693" x="14" height="993" y="87">
+		<e:List id="list" itemRendererSkinName="RedFortRankFloorPanelItemEUI" useVirtualLayout="true">
+		<e:layout>
+			<e:VerticalLayout gap="8"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DartLueduoWinItemEUI" width="690" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Image fillMode="clip" source="hwbz_zycs_di3" y="1"/>
+	<e:Label id="labelName" text="S.999 Guild Name Seven Characters" x="41" size="24" bold="false" scaleX="1" scaleY="1" y="14" fontFamily="Times" textColor="0xf01414"/>
+	<e:Label id="labelLv" text="Treasure Level: Lv.4" x="343" size="24" stroke="0" y="15" fontFamily="Times" bold="false" textColor="0xff9b0f"/>
+	<e:Label id="labelHusong" text="Escorting Players: 20/26" x="38" size="24" textColor="0xf3d00b" stroke="1" y="48" fontFamily="Times"/>
+	<e:Label id="labelLueduo" text="Loot Attempts: 4 attempts" x="347" size="24" stroke="0" y="48" fontFamily="Times" textColor="0xf5e65a"/>
+
+
+
+
+
+	<e:Button id="btnLueduo" label="Loot" skinName="BtnMin1_2small" y="22" x="572"/>
+
+
+
+
+	
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem25_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="cur1,cur2"  width.cur1="206" height.cur1="191" width.cur2="206" height.cur2="241">
+	<w:Config id="1586bd49103"/>
+	<e:Image id="imgSelect" x="0" y="0" source="hddt_zycs_xz1" source.cur2="hddt_zycs_xz2"/>
+	<e:Image id="imgBg" source="hddt_zycs_zs" x="55" y="47" source.cur2="hddt_zycs_cs" y.cur2="67" x.cur2="50"/>
+	<e:Image id="imgNum" source="hddt_zycs_8" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

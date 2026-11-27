@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainUITipsPowerItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group id="group">
+		<e:Image id="lbtitle0" source="mianui_zycs_sxtsk" scale9Grid="30,3,117,22" height="100%" left="0" right="-24" alpha="0.5"/>
+		<e:Image id="lbtitle1" source="mianui_zycs_jt" y="2" x="26"/>
+		<e:Group x="51" y="1">
+			<e:Image id="lbtitle" x="0" source="sx_zycs_t1" y="0"/>
+			<e:BitmapLabel id="powerBmp" x="175" text="+00" font="sjtsnum_fnt" y="1"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

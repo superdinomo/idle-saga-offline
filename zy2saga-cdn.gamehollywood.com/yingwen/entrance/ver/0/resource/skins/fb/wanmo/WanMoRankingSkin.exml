@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WanMoRankingSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" width="720" scale9Grid="88,64,2,3"/>
+	<e:Scroller id="itemScroller" y="79" scrollPolicyH="off" width="698" x="11" height="979" anchorOffsetY="0">
+		<e:List id="itemList" itemRendererSkinName="WanMoRankingItemSkin">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="My Rank: " x="37" y="1065" fontFamily="Times" size="20" textColor="0xf5e65a"/>
+	<e:Label id="lbMyRanking" text="100+" x="145" y="1067" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Image y="43" source="public_zycs_cjx" width="690" x="15"/>
+	<e:Label id="lbjob" text="Ranking" x="66.22" y="49" size="20" textColor="0xFF9B0F" fontFamily="Times"/>
+	<e:Label id="lblevel" text="Player Name" x="304.22" y="49" size="20" fontFamily="Times" textColor="0xFF9B0F"/>
+	<e:Label id="lblevel0" text="Cleared Floors" x="558.22" y="49" size="20" fontFamily="Times" textColor="0xFF9B0F"/>
+</e:Skin>

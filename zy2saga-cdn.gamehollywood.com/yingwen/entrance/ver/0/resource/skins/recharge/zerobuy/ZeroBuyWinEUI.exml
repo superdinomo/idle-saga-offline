@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZeroBuyWinEUI" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1280">
+	<e:Group id="group" width="720" height="850" horizontalCenter="0" verticalCenter="-20">
+		<e:Image fillMode="scale" y="0" scale9Grid="54,37,10,34"  source="lyg_zycs_bg_png"/>
+		<e:Button id="closeBtn" y="38" icon="sc_zycs_x" skinName="Btn0Skin" x="638"  scaleX="1.2" scaleY="1.2"/>
+		<e:Image y="124" source="lyg_zycs_msz" x="53" />
+		<e:Image id="imgJZ" y="120" source="lyg_zycs_4" right="520" />
+		<e:Image y="109" x="199" source="zycs_64_320030" />
+		<e:Image id="imgName" y="109" x="369" source="lyg_zycs_msz1" />
+		<e:Image id="imgDay" y="194" source="lyg_zycs_1" right="171" />
+		<e:Scroller x="88" scrollPolicyH="off" scrollPolicyV="off" y="253" width="240" height="340">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" horizontalGap="28"  verticalGap="12"/>
+				</e:layout>
+				
+				
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		</e:List>
+	</e:Scroller>
+	<e:Component id="item" y="399" x="466" skinName="ItemSkin" />
+	<e:Image id="imgYGM" y="383" source="public_zycs_ygm" x="149" />
+	<e:Image id="imgYLQ" y="405" x="454" source="public_zycs_ylq" />
+	<e:Group id="groupDesc" x="375" y="564">
+		<e:Image y="0" source="lyg_zycs_di" x="0" />
+		<e:Label id="labelTips" text="Sign in on the 3rd day to claim" y="4" size="20" fontFamily="Times" textColor="0xf5e65a" x="26" />
+	</e:Group>
+		<e:Group y="604" horizontalCenter="0">
+			<e:Image fillMode="scale" y="11" x="0" source="lyg_zycs_json.lyg_zycs_zl"/>
+			<e:BitmapLabel id="bitPower" x="99" y="1" font="lygnum_fnt" text="123456" letterSpacing="-8"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+	<e:Button id="btnGet" y="704" label="Claim" skinName="BtnMin1_17" horizontalCenter="1" />
+	<e:Button id="btnBuy" y="704" label="Buy Now" skinName="BtnMin1_17" horizontalCenter="1" />
+	<e:Label id="labelDesc" text="Can claim Voucher" y="727" size="24" textAlign="center" fontFamily="Times" horizontalCenter="1.5"
+	         textColor="0x13ee22" />
+		<e:Group y="670" horizontalCenter="0">
+			<e:Image y="0" source="zycs_320030" x="0"/>
+			<e:Label id="labelPrice" text="3888" y="5" size="24" textAlign="center" fontFamily="Times" x="43" textColor="0xe3d7be"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	<e:TabBar id="tabType" y="783" itemRendererSkinName="BtnTabZeroBuyEUI" horizontalCenter="0.5">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" />
+		</e:layout>
+		
+<e:ArrayCollection>
+			
+				<e:Object source="lyg_zycs_yjlb" />
+				<e:Object source="lyg_zycs_fhlb" />
+				<e:Object source="lyg_zycs_jbsz" />
+			
+</e:ArrayCollection>
+		
+	</e:TabBar>
+</e:Group>
+</e:Skin>

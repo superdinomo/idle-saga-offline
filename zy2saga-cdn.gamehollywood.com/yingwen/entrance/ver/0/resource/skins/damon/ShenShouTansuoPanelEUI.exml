@@ -1,0 +1,66 @@
+<e:Skin class="ShenShouTansuoPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image fillMode="scale" x="13" y="42" source="sshq_zycs_bg3_jpg"/>
+	<e:Image y="68" x="427" source="ss_zycs_tsjl"/>
+	<e:Image y="71" source="liuguang_zycs_huawen" scaleX="-1" x="709"/>
+	<e:Image y="71" x="243" source="liuguang_zycs_huawen"/>
+	<e:List id="listRewardTitle" x="295" y="79" itemRendererSkinName="ShenShouTansuoRewardItemEUI">
+			
+<e:ArrayCollection>
+			
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		
+
+	
+</e:ArrayCollection>
+
+	<e:layout>
+		<e:HorizontalLayout gap="-22"/>
+		</e:layout>
+	</e:List>
+	<e:ProgressBar id="barCount" value="9" y="198" x="58" width="305" maximum="9" skinName="ProgressBarEUI3"/>
+	<e:Image id="countBg0" y="198" x="148" source="task_zycs_yxbs"/>
+	<e:Image y="198" x="230" source="task_zycs_yxdk" id="countBg1"/>
+	<e:Image y="198" x="312" source="task_zycs_yxdk" id="countBg2"/>
+	<e:Label id="labCount0" text="3" y="206" fontFamily="Times" size="20" textAlign="center" x="164" textColor="0xD8C94E"/>
+	<e:Label id="labCount1" text="6" y="206" fontFamily="Times" size="20" textAlign="center" x="246" textColor="0xcdc8be"/>
+	<e:Label id="labCount2" text="9" y="206" fontFamily="Times" size="20" textAlign="center" x="328" textColor="0xcdc8be"/>
+	<e:Image y="165" x="13" source="ss_zycs_cs"/>
+	<e:Image y="194" x="13" source="ss_zycs_jrts"/>
+	<e:Label id="labCount" text="Attempts: 8" y="214" fontFamily="Times" size="20" textAlign="center" x="12" textColor="0xD8C94E" width="101"/>
+	<e:List id="listRewardCount" x="120" y="226" itemRendererSkinName="ShenShouTansuoRewardItemEUI" scaleX="0.7" scaleY="0.7">
+		<e:ArrayCollection>
+			
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		
+
+	
+</e:ArrayCollection><e:layout>
+			<e:HorizontalLayout gap="-15"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="helpTxt" text="Explore Attempts resets at 0:00 everyday" y="263" size="20" textAlign="left" fontFamily="Times" x="468" textColor="0xFF9B0F" width="234"/>
+	<e:Image y="270" fillMode="scale" touchEnabled="false" x="435" source="jinglian_zycs_shuoming"/>
+
+	<e:Scroller id="scroller" y="323" width="678" x="21" height="679" anchorOffsetY="0">
+		<e:List id="list" useVirtualLayout="false" itemRendererSkinName="ShenShouTansuoTeamItemEUI">
+		<e:ArrayCollection>
+			
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+		
+
+	
+</e:ArrayCollection>	<e:layout>
+				<e:VerticalLayout gap="8"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

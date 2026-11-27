@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act61RankWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="hddt_zycs_phbg_jpg" />
+		<e:Image id="imgTitle" y="11" horizontalCenter="0"  source="hddt_zycs_zyph"/>
+		<e:Button id="closeBtn" label="" x="463" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Scroller scrollPolicyH="off" height="392" anchorOffsetY="0" y="111" x="16" width="520">
+			<e:List id="list" y="-1" itemRendererSkinName="Act61RankWinItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+		<e:Label y="82" text="Ranking" fontFamily="黑体" size="20" x="58" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Message" fontFamily="黑体" size="20" x="215" textColor="0xFF9B0F" />
+		<e:Label y="82" text="Rewards" fontFamily="黑体" size="20" x="414" textColor="0xFF9B0F" />
+		<e:Label id="lbRank" text="我的排名：" y="527" size="20" textAlign="center" fontFamily="黑体" x="99" textColor="0xe3d7be" />
+		<e:Label id="lbScore" text="我的积分：" y="527" size="20" textAlign="center" fontFamily="黑体" x="316" textColor="0xe3d7be" />
+		<e:Label id="lbZhenYin" text="The opposing Faction" y="527" size="20" textAlign="center" fontFamily="黑体" textColor="0xE3D7BE" horizontalCenter="0"/>
+		<e:TabBar id="tabBar" selectedIndex="0"
+		          horizontalCenter="0.5" y="616" itemRendererSkinName="BtnTab3ZYCSSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="57" />
+			</e:layout>
+		</e:TabBar>
+		<e:Image id="imgXwyd" touchEnabled="false" y="209" source="public_zycs_xwyd_png" x="51"  visible="false"/>
+
+		<e:Label text="Ranking rewards are sent by email after the event" y="570" size="20" fontFamily="SimHei" horizontalCenter="0" textColor="0xe3d7be"/>
+	</e:Group>
+</e:Skin>

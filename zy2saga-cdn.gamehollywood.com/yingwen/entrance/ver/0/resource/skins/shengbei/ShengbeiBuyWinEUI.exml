@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengbeiBuyWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="buy,receive" >
+	<e:Group horizontalCenter="0" width="719" height="811" verticalCenter="-33">
+		<e:Image source="bxsb_zycs_bg1_png" y="0" horizontalCenter="-1"/>
+		<e:Button id="closeBtn" y="56" icon="sc_zycs_x" skinName="Btn0Skin" x="638"/>
+		<e:Image y="40" source="bxsb_zycs_bt1" horizontalCenter="-1"/>
+		<e:Image y="169" source="bxsb_zycs_jg" x="74"/>
+		<e:Image y="151" x="261" source="bxsb_zycs_msz"/>
+		<e:Image y="330" x="339" source="hjsl_zycs_hhlb"/>
+		<e:Group id="entityGroup" x="76" y="241" width="190" height="332"/>
+		<e:Image y="546" x="71" source="hjsl_zycs_diz"/>
+		<e:Image y="548" x="56" source="hjsl_zycs_sf"/>
+		<e:Image y="567" x="59" source="bxsb_zycs_power"/>
+		<e:Scroller y="391" height="210" width="331" anchorOffsetY="0" anchorOffsetX="0" x="308">
+			<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="553">
+			<!--
+				
+				
+				
+				
+				
+				
+				
+				
+			-->
+				<e:layout>
+					<e:TileLayout paddingLeft="5" paddingTop="5" paddingBottom="5" paddingRight="5" horizontalGap="16" verticalGap="10"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnReceive" label="Claim" y="675" visible.buy="false" skinName="BtnMin1_2" horizontalCenter="0"/>
+		<e:Button id="btnBuy" label="0" y="675" visible.receive="false" skinName="BtnMin1_2" horizontalCenter="0"/>
+		<e:Label text="(This can be counted towards total Top-up and SVIP)" y="745" size="20" fontFamily="Times" textColor="0xe3d7be" horizontalCenter="0"/>
+		<e:Group y="629" horizontalCenter="0">
+			<e:Label text="Buy now to gain" y="13" size="20" fontFamily="Times" horizontalCenter="-131" textColor="0xE3D7BE" x="20"/>
+			<e:Image id="imgDiamon" x="557" y="3" source="zycs_320030"/>
+			<e:Label id="lbDesc" text="980 Vouchers won't affect the daily acquire limit" y="118" size="20" fontFamily="Times" horizontalCenter="0" textColor="0xE3D7BE" x="30"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

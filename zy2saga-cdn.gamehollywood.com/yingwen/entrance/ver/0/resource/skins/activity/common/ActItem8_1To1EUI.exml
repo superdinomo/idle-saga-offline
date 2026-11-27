@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem8_1To1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="347">
+	<w:Config id="1586bd49103"/>
+		<e:List id="list" itemRendererSkinName="ItemSkin"  horizontalCenter="0.5" y="380">
+	<e:layout>
+				<e:HorizontalLayout gap="10" paddingLeft="0" paddingRight="0" paddingBottom="0" paddingTop="0"/>
+			</e:layout>
+		</e:List>
+	<e:Group y="90" horizontalCenter="0">
+		<e:Label text="Requirement Cost:" y="0" size="20" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="0"/>
+		<e:Image y="231" x="-17" source="zycs_320002" scaleX="1" scaleY="1"/>
+		<e:Label id="lbXf" text="Cost Required" y="0" size="20" textAlign="left" fontFamily="Times" textColor="0xcdc8be" x="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="6"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbName" text="Player Name" y="497" size="20" fontFamily="Times" textColor="0x1a89fa" textAlign="center" horizontalCenter="0"/>
+	<e:Label id="lbLjxf" text="Total Spending: 99" y="524" size="20" fontFamily="Times" textAlign="center" horizontalCenter="0" textColor="0x5ac832"/>
+	<e:Image y="311" source="sd_zycs_fz" x="54"/>
+	<e:Image id="img" y="181" horizontalCenter="0.5" source="ch_zycs_12_png"/>
+	<e:Image y="0" horizontalCenter="0" source="sd_zycs_n1"/>
+	<e:Image id="imgXwyd" touchEnabled="false" source="hfxf_zycs_xwyd" y="500" x="110"/>
+</e:Skin>

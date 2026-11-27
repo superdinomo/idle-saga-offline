@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MonsterSiegeRankPanelListItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="690" height="88">
+	<e:Label id="lbRank" text="0" size="24" fontFamily="Times" textAlign="center" y="30" x="60" textColor="0xffffff"/>
+	<e:Image id="imgRank" source="ldsz_zycs_ph1" scaleX="0.75" scaleY="0.75" horizontalCenter="-280" x="29" verticalCenter="0"/>
+	<e:Label id="lbName" text="S999. My Name Seven Characters" size="20" fontFamily="Times" textAlign="center" y="34" x="116" textColor="0xf5ee65"/>
+	<e:Label id="lbScore" text="Event Points:0" size="20" fontFamily="Times" textAlign="center" x="327" y="35" textColor="0xff9b0f"/>
+	<e:Scroller id="Scrollerlist" x="514" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7" width="263" verticalCenter="0">
+		<e:List id="list" x="-107" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" height="108" width="315">
+		<!--<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>-->
+		<e:layout>
+			<e:HorizontalLayout gap="15" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image width="100%" source="ldsz_zysc_fgx" bottom="0" horizontalCenter="0"/>
+
+
+
+
+
+
+</e:Skin>

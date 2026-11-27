@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FumoEquipItemEUI" currentState="act" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="unact,act"  width="137" height="140">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" x="0" source="qianghua_zycs_kuang"/>
+	<e:Image id="imgSelect" x="0" y="0" touchEnabled="false" source="qianghua_zycs_kuang2" visible="false"/>
+	<e:Image id="imgEquipBg" anchorOffsetX="0" anchorOffsetY="0" source="role_zycs_0" horizontalCenter="-0.5" verticalCenter="0"/>
+	<e:Group id="groupMc" x="69" y="70"/>
+	<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="47" y="27" width="81" height="28" visible.unact="false">
+		<e:Image id="imgStart1" source="chibang_zycs_star_02" scaleX="0.5" scaleY="0.5"/>
+		<e:Image id="imgStart2" source="chibang_zycs_star_02" scaleX="0.5" scaleY="0.5" x="10" y="10"/>
+		<e:Image id="imgStart3" source="chibang_zycs_star_02" scaleX="0.5" scaleY="0.5" x="20" y="20"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="-3"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupJie" width="28" height="28" x="21" y="28" anchorOffsetX="0" anchorOffsetY="0" visible.unact="false">
+		<e:Image x="-2" y="-3" scaleX="0.8" scaleY="0.8" source="public_zycs_xq"/>
+		<e:BitmapLabel id="bitlbLevel" y="3" text="l12" touchEnabled="false" font="tianmonum_fnt" letterSpacing="-3" horizontalCenter="-1.5"/>
+	</e:Group>
+	<e:Image id="redPoint" x="105" y="12" source="mainui_zycs_hongdian"/>
+	<e:Image id="imgLock" source="qianghua_zycs_suo" horizontalCenter="0" verticalCenter="0"/>
+
+</e:Skin>

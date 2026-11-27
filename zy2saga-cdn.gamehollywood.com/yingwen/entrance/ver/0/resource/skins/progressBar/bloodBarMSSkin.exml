@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bloodBarMSSkin" currentState="s2" xmlns:e="http://ns.egret.com/eui" width="160" height="57" states="s1,s2,s3" >
+	<e:Image y="0" x="0" source="gwgc_zycs_pt" source.s1="gwgc_zycs_xy" source.s2="gwgc_zycs_ss" source.s3="gwgc_zycs_cs"/>
+	<e:Image y="20" x="53" source="gwgc_zycs_xt2"/>
+	<e:Image id="thumb" fillMode="clip" left="53" right="1" source="gwgc_zycs_xt1" scale9Grid="13,9,81,1" y="21" height="15"/>
+	<e:Image y="23" x="86" source="gwgc_zycs_fgx"/>
+	<e:Image y="23" x="123" source="gwgc_zycs_fgx"/>
+</e:Skin>

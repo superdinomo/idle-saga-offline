@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SevenDayRank3ItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="285" height="165">
+	<w:Config id="1586bd49103"/>
+	<e:Scroller y="53" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0.5">
+		<e:List id="list" itemRendererSkinName="ItemSkin">	<e:layout>
+				<e:HorizontalLayout paddingLeft="10" paddingTop="10" paddingBottom="10" paddingRight="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="Player Name" y="6" id="lbName" size="20" fontFamily="Times" width="216" textAlign="center" x="35" textColor="0x18bfff"/>
+	<e:Label text="Wings Star Level" y="34" id="lbPower" size="20" fontFamily="Times" textColor="0xfcde18" width="216" textAlign="center" x="35"/>
+</e:Skin>

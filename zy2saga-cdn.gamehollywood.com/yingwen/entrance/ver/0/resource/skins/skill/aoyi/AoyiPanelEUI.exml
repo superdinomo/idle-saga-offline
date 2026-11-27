@@ -1,0 +1,37 @@
+<e:Skin class="AoyiPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134" >
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" x="13" source="skay_zycs_bg_jpg"/>
+	<e:Scroller id="scroller" y="59" x="21" height="797" width="678">
+		<e:List id="list" currentState="disabled" useVirtualLayout="true" itemRendererSkinName="AoyiItemEUI">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			
+				
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:TabBar id="tab" selectedIndex="0" horizontalCenter="0" y="853" itemRendererSkinName="BtnTab4ZYCSSkin">
+		
+		
+			
+			
+			
+		
+		
+		<e:layout>
+		<e:HorizontalLayout gap="4"/>
+		</e:layout>
+	</e:TabBar>
+</e:Skin>

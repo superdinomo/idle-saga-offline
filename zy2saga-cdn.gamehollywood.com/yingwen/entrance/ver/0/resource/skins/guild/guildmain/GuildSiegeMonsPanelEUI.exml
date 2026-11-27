@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildSiegeMonsPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720" height="1280">
+	<e:Image x="0" y="0" source="zhanmeng_zycs_di4_jpg" locked="true" visible="false"/>
+	<e:Component id="monsItem0" skinName="GuildSiegeMonsItemEUI" touchEnabled="false" x="240" y="220"/>
+	<e:Component id="monsItem1" skinName="GuildSiegeMonsItemEUI" touchEnabled="false" x="460" y="520"/>
+	<e:Component id="monsItem2" skinName="GuildSiegeMonsItemEUI" touchEnabled="false" x="0" y="371"/>
+	<e:Component id="monsItem3" skinName="GuildSiegeMonsItemEUI" touchEnabled="false" x="517" y="300"/>
+	<e:Component id="monsItem4" skinName="GuildSiegeMonsItemEUI" touchEnabled="false" x="225" y="670"/>
+	<e:Component id="monsItem5" skinName="GuildSiegeMonsItemEUI" touchEnabled="false" x="320" y="910"/>
+</e:Skin>

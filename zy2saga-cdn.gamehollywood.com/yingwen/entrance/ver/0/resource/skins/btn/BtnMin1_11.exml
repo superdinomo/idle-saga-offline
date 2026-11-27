@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnMin1_11"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled"  width="179" height="54">
+	<e:Image id="public_zycs_button00" scale9Grid="16,15,55,11" source="public_zycs_longbtn" x.down="1" y.down="1" source.disabled="public_zycs_button00"/>
+	<e:Image id="iconDisplay" x.down="2" y.down="2"  horizontalCenter="0" verticalCenter="0" verticalCenter.down="0.5" horizontalCenter.down="0.5"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="-2" top="-2" visible="false"/>
+</e:Skin>

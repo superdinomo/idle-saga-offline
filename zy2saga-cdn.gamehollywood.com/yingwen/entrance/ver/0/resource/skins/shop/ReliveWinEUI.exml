@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ReliveWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Image width="100%" height="100%" x="0" y="0" source="public_zycs_greybg2"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" width="664" height="167" source="mianui_zycs_k" scale9Grid="30,23,3,10"/>
+	<e:Button id="btnRelive" y="102" label="Respawn on the Spot" horizontalCenter="0" skinName="BtnMin1_1mid"/>
+	<e:Label id="labelKiller" y="21" text="0" fontFamily="Times" size="20" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" lineSpacing="5" textColor="0xaf9b73" x="207"/>
+		<e:Label id="labelTime" y="59" text="0" fontFamily="Times" size="20" anchorOffsetX="0" width="250" anchorOffsetY="0" textAlign="center" lineSpacing="5" horizontalCenter="0" textColor="0xaf9b73"/>
+		<e:Image x="163" y="16" source="public_zycs_gth"/>
+	</e:Group>
+</e:Skin>

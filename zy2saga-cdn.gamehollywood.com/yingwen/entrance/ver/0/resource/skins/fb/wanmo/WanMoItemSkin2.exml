@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WanMoItemSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="380" height="272">
+	<w:Config id="15b806387d2"/>
+	<e:Image id="imgbg" y="0" horizontalCenter="1" source="pt_zycs_pt1"/>
+	<e:Image y="193" source="pt_zycs_k" x="76"/>
+	<e:Image y="161" source="pt_zycs_di04" x="41" visible="false"/>
+	<e:Label id="lbname" text="0" width="327" textAlign="center" size="24" y="199" textColor="0xcd8cff" fontFamily="Times" x="26"/>
+	<e:Label id="lbPower" text="Power" width="338" textAlign="center" size="24" y="162" fontFamily="Times" textColor="0xd2c864" x="20" visible="false"/>	
+</e:Skin>

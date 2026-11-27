@@ -1,0 +1,76 @@
+<e:Skin class="JinZuanRewardViewWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group id="group" anchorOffsetX="0" anchorOffsetY="0" height="763" horizontalCenter="0" verticalCenter="0" width="553">
+		<e:Image x="0" y="0" source="jz_zycs_bg4_jpg"/>
+		<e:Image y="76" source="jz_zycs_jpjl" x="230"/>
+		<e:Image y="80" source="liuguang_zycs_huawen" x="30"/>
+		<e:Image y="80" source="liuguang_zycs_huawen" scaleX="-1" x="523"/>
+		<e:Scroller y="99"  scrollPolicyH="off"  height="280" horizontalCenter="0.5" anchorOffsetY="0">
+			<e:List id="list0" itemRendererSkinName="ItemSkin" >
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<e:layout>
+					<e:TileLayout horizontalGap="6" verticalGap="10" requestedColumnCount="5" paddingLeft="12" paddingRight="12" paddingTop="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="404" source="liuguang_zycs_huawen" x="30"/>
+		<e:Image y="404" source="liuguang_zycs_huawen" scaleX="-1" x="523"/>
+		<e:Scroller y="423" scrollPolicyH="off" height="280" horizontalCenter="0.5" anchorOffsetY="0">
+			<e:List id="list1" itemRendererSkinName="ItemSkin">
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+			<e:layout>
+				<e:TileLayout horizontalGap="6" verticalGap="10" requestedColumnCount="5" paddingLeft="12" paddingRight="12" paddingTop="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="400" source="jz_zycs_zxjl" x="230"/>
+		<e:Image y="15"  x="234" source="jz_zycs_ckjl"/>
+		<e:Button id="closeBtn" label="" x="465" y="-1" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+	</e:Group>
+</e:Skin>

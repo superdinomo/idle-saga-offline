@@ -1,0 +1,21 @@
+<e:Skin class="QiyuEventPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720"
+	         scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="42" touchEnabled="false" source="qy_zycs_bg3_jpg" x="13"/>
+	<e:Image touchEnabled="false" source="public_zycs_fgqy" y="1010" x="13" pixelHitTest="true"/>
+	<e:Component id="item1" y="276" skinName="QiyuEventItemEUI" x="27"/>
+	<e:Component id="item2" y="276" skinName="QiyuEventItemEUI" x="370"/>
+	<e:Component id="item3" y="643" skinName="QiyuEventItemEUI" x="27"/>
+	<e:Component id="item4" y="643" skinName="QiyuEventItemEUI" x="370"/>
+	<e:Image id="imgTips" y="427" touchEnabled="false" source="qy_zycs_bg1_png" x="152"/>
+
+	<e:Label text="You can trigger up to 4 Exploration Events at the same time. Completing events will cost Stamina" y="1014" size="20" fontFamily="Times" textColor="0xd8c5a2" width="592" horizontalCenter="0"/>
+	<e:Label id="lbValue" text="Stamina Point: 19/20" y="1058" size="24" fontFamily="Times" x="64" textColor="0x13ee22"/>
+	<e:Label text="(Resets at 0:00 everyday)" y="1058" size="24" fontFamily="Times" x="324" textColor="0x827f7f"/>
+
+
+	<e:Button id="helpBtn" x="651" y="1040" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Button id="btnDuiHuan" x="51" y="102" skinName="Btn0Skin" icon="qy_zycs_dh"/>
+</e:Skin>

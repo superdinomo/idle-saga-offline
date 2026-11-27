@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MemberItem3RendererEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="682" height="152">
+	<e:Image height="100%" width="100%" scale9Grid="47,39,22,17" touchEnabled="true" source="shenmo_zycs_dikuang_02" x="0" y="0"/>
+	<e:CheckBox id="checkBoxs" x="616" skinName="CheckBoxEUI" y="60" touchEnabled="false"/>
+	<e:Image y="19" x="28" source="role_zycs_touxiangkuang"/>
+	<e:Image id="face" source="mianui_zycs_sheshou0" x="38" y="29"/>
+	<e:Label id="job" text="0" x="171" y="22" fontFamily="Times" size="20" textColor="0xf5e65a"/>
+	<e:Label id="nameLable" text="0" x="232" y="22" fontFamily="Times" size="20" textColor="0x23becd"/>
+	<e:Label text="Siege Scores:" x="171" y="60" fontFamily="Times" size="20" textColor="0xafaaa0"/>
+	<e:Label id="payNum" text="0" x="273" y="60" fontFamily="Times" size="20" textColor="0xafaaa0"/>
+	<e:Label id="attr" text="0" x="273" y="98" fontFamily="Times" size="20" textColor="0xafaaa0"/>
+	<e:Label text="CP:" x="171" y="98" fontFamily="Times" size="20" textColor="0xafaaa0"/>
+	<e:Button id="btn1" label="" x="365" skinName="Btn0Skin" icon="public_zycs_j" y="50"/>
+	<e:Button id="btn2" label=""  x="547" skinName="Btn0Skin" icon="public_zycs_jia" y="50"/>
+	<e:Image id="inputBg" source="public_zycs_shurukuang" height="37" x="419" y="54" width="119" scale9Grid="3,3,113,21"/>
+	<e:TextInput id="num1" x="419" restrict="0-9" width="115" height="28" skinName="skins.TextInputSkin" y="59"/>	
+</e:Skin>

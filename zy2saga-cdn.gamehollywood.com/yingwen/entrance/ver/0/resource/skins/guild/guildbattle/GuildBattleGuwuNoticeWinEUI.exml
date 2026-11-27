@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleGuwuNoticeWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="720" height="1280">
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0" width="502" height="112">
+		<e:Image touchEnabled="true" y="0" x="0"  source="ldsz_zycs_gw"/>
+		<e:Label id="lbDec" fontFamily="Times" size="20" text="Miracle xXMoo MoralityXx performed Guild Inspiration" textColor="0xCDC8BE" lineSpacing="0"
+		         textAlign="center" horizontalCenter="0"  verticalCenter="6"/>
+	</e:Group>
+</e:Skin>

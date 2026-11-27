@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act54SignInItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" scale9Grid="35,28,31,40" source="hddt_zycs_xysljdi_png" width="540"/>
+	<e:Label id="lbDesc" fontFamily="黑体" size="20" text="积分达到200可领取（100/200）" textColor="0xCDC8BE" textAlign="center" y="14" x="16"/>
+	<e:Scroller scrollPolicyH="off" scaleX="0.7" scaleY="0.7" x="19" y="38">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="15" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="410" y="50" label="Claim" skinName="BtnMin1_2mid"/>
+	<e:Image id="imgYlq" x="410" source="public_zycs_ylq" y="31"/>
+	<e:Image id="imgWdb" x="410" y="37" source="hddt_zycs_wdb"/>
+
+
+
+
+
+</e:Skin>

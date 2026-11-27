@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act6LuckDrawWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupMc" y="3" scaleX="1" scaleY="1" x="347"/>
+		<e:Image y="0" x="0" scale9Grid="73,127,442,132" source="public_zycs_gxhd_png"/>
+
+		<e:Scroller y="119" scrollPolicyH="off" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+				<e:layout>
+					<e:TileLayout requestedRowCount="2" horizontalGap="23" paddingLeft="30" paddingRight="30" verticalGap="30" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnOne" label="Draw x1" y="456" x="150" skinName="BtnMin1_2"/>
+		<e:Button id="btnTen" label="Draw x10" y="456" x="380" skinName="BtnMin1_2"/>
+		<e:Image source="zycs_320002" y="419" x="188"/>
+		<e:Label id="lbConsumeOne" text="99" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="228" y="424"/>
+		<e:Image source="zycs_320002" y="419" x="411"/>
+		<e:Label id="lbConsumeTen" text="99" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="451" y="424"/>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChiBangEquipItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   width="93" height="93">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" source="public_zycs_daojukuang_01" x="0" y="0"/>
+	<e:Image id="imgColor" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_pinzhi_02" x="0" y="0"/>
+	<e:Group id="groupMc" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:BitmapLabel id="bitlbLevel" y="4" text="r12" touchEnabled="false" font="tianmonum_fnt" letterSpacing="-3" x="4"/>
+	<e:Image id="imgPlus0" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" source="public_zycs_jh1" horizontalCenter="0"/>
+	<e:Image id="imgPlus1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0" source="public_zycs_jh2"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="69" y="3" source="mainui_zycs_hongdian"/>
+
+</e:Skin>

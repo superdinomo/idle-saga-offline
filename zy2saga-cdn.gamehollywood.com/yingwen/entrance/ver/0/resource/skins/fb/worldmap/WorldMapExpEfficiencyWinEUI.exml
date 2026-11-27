@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WorldMapExpEfficiencyWinEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group verticalCenter="-24" touchChildren="false" touchEnabled="false" horizontalCenter="0">
+		<e:Group id="group" anchorOffsetX="255" anchorOffsetY="112" x="255" y="112">
+			<e:Image source="dts_zycs_jx02" touchEnabled="false" scale9Grid="63,142,382,8" height="224" x="0" y="0"/>
+			<e:Label text="Standard EXP efficiency increase" y="55" size="28" fontFamily="Times" textAlign="center" touchEnabled="false" textColor="0xffb619" horizontalCenter="0"/>
+			<e:Group y="150" touchChildren="false" touchEnabled="false" horizontalCenter="0">
+				<e:Image y="46" x="0" source="mianui_zycs_jingyan"/>
+				<e:Label id="lastTxt" text="099/Hour" y="0" fontFamily="Times" size="24" x="96" textColor="0xece5d5"/>
+				<e:Image y="36" x="282" source="public_zycs_lj" rotation="90"/>
+				<e:Label id="currTxt" text="998/Hour" y="10" fontFamily="Times" size="24" x="333" textColor="0x0cf50c"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="90" touchChildren="false" touchEnabled="false" horizontalCenter="0">
+				<e:Image y="46" x="0" source="mianui_zycs_jinbi"/>
+				<e:Label id="lastTxt0" text="099/Hour" y="0" fontFamily="Times" size="24" x="96" textColor="0xECE5D5"/>
+				<e:Image y="36" x="282" source="public_zycs_lj" rotation="90"/>
+				<e:Label id="currTxt0" text="998/Hour" y="10" fontFamily="Times" size="24" x="333" textColor="0x0CF50C"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MineRobListPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="127" width="694">
+	<e:Image x="0" y="0" source="sjhj_zycs_d2"/>
+	<e:Image x="22" source="sjhj_zycs_tx" y="17"/>
+	<e:Image id="imgHead" x="32" y="25" source="mianui_zycs_zhanshi0" width="76" height="76"/>
+	<e:Label id="lbRoleName" text="Character Name" y="15" fontFamily="Times" size="24" x="120" textColor="0xEAE6E1"/>
+	<e:Label id="lbMineName" text="Dragon Miner" fontFamily="Times" size="24" x="120" textColor="0xf01414" y="51"/>
+	<e:Label id="lbPower" text="CP: 998" y="83" fontFamily="Times" size="24" x="120" textColor="0xffbb29"/>
+	<e:Image y="14" source="public_zycs_di01" scale9Grid="35,4,216,26" width="212" x="361"/>
+	<e:Label y="19" text="Loot Rewards" fontFamily="Times" size="24" touchEnabled="false" textAlign="left" x="419" textColor="0xff9402"/>
+	<e:Button id="btnRob" label="Loot" skinName="BtnMin1_2mid" height="39" width="98" y="44" x="572"/>
+	<e:Scroller scaleX="0.7" scaleY="0.7" horizontalCenter="120" y="41">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+		</e:layout>
+		
+			
+			
+			
+			
+		
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildConWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="vip,noVip" >
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="398" touchEnabled="false" width="553" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="-4" touchEnabled="false" source="chibang_zycs_biaoti_di" x="151"/>
+		<e:Image y="12" source="zhanmeng_zycs_jx" x="228"/>
+		<e:Button id="closeBtn" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="-4"/>
+		<e:Image x="39" y="79" source="public_zycs_daojukuang_01"/>
+		<e:Image id="imgIcon0" source="" x="46" y="85"/>
+		<e:Label id="desc0" text="0" y="92" size="20" fontFamily="Times" textColor="0xff9b0f" textAlign="center" x="149" width="255"/>
+		<e:Label id="info0" size="20" fontFamily="Times" textColor="0x149b19" y="133" text="0" width="255" textAlign="center" x="149"/>
+		<e:Label id="count0" text="0" size="20" fontFamily="Times" textAlign="center" textColor="0x149b19" width="106" x="417" bottom="286"/>
+		<e:Button id="btn0" y="120" x="424" visible.noVip="false" label="Donate" skinName="BtnMin1_1small"/>
+		<e:Button id="btnVip" y="120" x="424" visible.vip="false" label="Be VIP" skinName="BtnMin1_1small"/>
+		<e:Image x="39" y="224" source="public_zycs_daojukuang_01"/>
+		<e:Image id="imgIcon1" source="" x="46" y="230"/>
+		<e:Label id="desc1" text="0" x="149" size="20" fontFamily="Times" textColor="0xff9b0f" y="237" width="255" textAlign="center"/>
+		<e:Label id="info1" x="149" size="20" fontFamily="Times" textColor="0x149b19" y="278" text="0" width="255" textAlign="center"/>
+		<e:Label id="count1" text="0" x="417" size="20" fontFamily="Times" textAlign="center" textColor="0x149b19" width="106" bottom="141"/>
+		<e:Button id="btn1" y="266" x="428" label="Donate" skinName="BtnMin1_1small"/>
+		<e:Image y="184" width="510" source="zs_zycs_fengexian" x="22"/>
+	</e:Group>
+</e:Skin>

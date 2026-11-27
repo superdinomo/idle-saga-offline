@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterSiegeFbPanelItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="get,canget,noget"  width="201" height="190">
+	<w:Config id="1586b13ea96" />
+	<e:Group anchorOffsetX="0" width="201" height="190" x="0" y="0">
+		<e:Image y="0" x="0" scale9Grid="26,26,13,6" source="sjbs_zycs_k1"/>
+		<e:Scroller anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0.5" y="36">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>	
+				<e:layout>
+				<e:HorizontalLayout gap="11" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbDesc" text="Damage Basic Rewards" y="4" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" horizontalCenter="0" textColor="0xe3d7be" width="181"/>
+		<e:Label id="lbHurt" text="10/100" y="154" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" visible.get="false" visible.canget="false" textColor="0xf01414" horizontalCenter="0.5"/>
+		<e:Label id="lbYlq" text="Rewards are all claimed" y="154" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" textColor="0x5AC832" visible.canget="false" visible.noget="false" horizontalCenter="0.5"/>
+		<e:Label id="lbOk" text="Claim" y="154" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" textColor="0x5AC832" horizontalCenter="0.5" visible.get="false" visible.noget="false"/>
+	</e:Group>
+</e:Skin>

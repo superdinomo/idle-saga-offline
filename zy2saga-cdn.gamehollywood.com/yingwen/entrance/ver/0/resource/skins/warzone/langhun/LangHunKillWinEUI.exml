@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunKillWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+    <e:Group id="group" horizontalCenter="0" y="300">
+			<e:BitmapLabel id="bitNum" x="106" y="22" font="lhzdnum2_fnt" text="0"/>
+			<e:Image id="imgKill" y="0" x="0" source="lhzd_zycs_n10"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+    </e:Group>
+</e:Skin>

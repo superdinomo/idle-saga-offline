@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenMoEquipEquipAttrEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="61">
+	<w:Config id="1586b362dfe"/>
+	<e:Label id="lbTitle" y="6" text="2-piece T1 Set Stats Bonus:" fontFamily="Times" size="24" touchEnabled="true" x="0" textColor="0xff9b0f"/>
+	<e:Label id="lbAttr" text="2-piece T1 Set Stats Bonus:" fontFamily="Times" size="24" touchEnabled="true" y="33" x="0" textColor="0xe3d7be"/>
+
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SelectRoleWinItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled" width="486" height="131">
+	<e:Image touchEnabled="false" visible.up="false" source="hfxj_zycs_d1"/>
+	<e:Image source="hfxj_zycs_d2"/>
+	<e:Image verticalCenter="-1" horizontalCenter="-171" source="hfxj_zycs_txk"/>
+	<e:Image id="imgHead" verticalCenter="-7.5" horizontalCenter="-170" source="mianui_zycs_zhanshi0"/>
+	<e:Label id="lbName" text="Character Name" x="140" size="20" fontFamily="Times" textColor="0xff9b0f" y="25"/>
+	<e:Label id="lbLevel" text="Level: 100" x="140" size="20" fontFamily="Times" textColor="0xFFEBC8" y="53"/>
+	<e:Label id="lbPower" text="CP: 1000" x="140" size="20" fontFamily="Times" verticalCenter="24.5" textColor="0xFFEBC8"/>
+</e:Skin>

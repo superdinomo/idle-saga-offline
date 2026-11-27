@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarRankPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image fillMode="clip" source="phb_zycs_bg_jpg" y="42"  x="13"/>
+	<e:Image x="0" y="-3" height="1142" touchEnabled="false" source="phb_zycs_k" width="720" scale9Grid="0,121,720,43"  locked="true"/>
+	<e:Image id="none" y="172" source="llcz_zycs_xydw" x="190" />
+	<e:Image y="23"  source="smsz_zycs_date" x="94"/>
+	<e:BitmapLabel id="bmpY0" y="28" text="67" letterSpacing="0" font="smszdatenum_fnt" horizontalCenter="-93"/>
+	<e:BitmapLabel id="bmpY1" y="28" text="67" letterSpacing="0" font="smszdatenum_fnt" horizontalCenter="114"/>
+	<e:BitmapLabel id="bmpR0" y="28" text="67" letterSpacing="0" font="smszdatenum_fnt" horizontalCenter="1"/>
+	<e:BitmapLabel id="bmpR1" y="28" text="67" letterSpacing="0" font="smszdatenum_fnt" horizontalCenter="207"/>
+	<e:Image y="511" scaleX="1" scaleY="1" source="phb_zycs_dym" x="25"/>
+	<e:Group id="groupMc" x="365" y="457"/>
+
+
+
+	<e:Group id="groupBody" y="69" x="7">
+	</e:Group>
+	<e:Component id="firstItem" y="534" x="57" skinName="RankItemBaseRendererEUI"/>
+	<e:Scroller id="scroller" x="11" width="488" height="431" y="623">
+		<e:List id="list" itemRendererSkinName="RankItemBaseRendererEUI">
+			<e:layout>
+				<e:VerticalLayout gap="1" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+	</e:List>
+</e:Scroller>
+	<e:Group id="groupPraise" x="593" y="500" visible="false">
+		<e:Label id="labelMoney" text="0" y="39" fontFamily="Times" size="20" stroke="1" strokeColor="000000" textColor="0xcdc8be" x="42"/>
+		<e:Image y="33" x="6" source="zycs_320002"/>
+		<e:Button id="btnPraise" y="69" x="0" label="Worship" skinName="BtnMin1_1small"/>
+	</e:Group>
+<e:Image x="155" y="1056" scaleX="0.75" scaleY="0.75" source="phb_zycs_dz" />
+<e:Label id="labelMyRank" text="0" y="1063" fontFamily="Times" size="24" textColor="0xFFB92D"
+         textAlign="center" verticalAlign="middle"  horizontalCenter="-81.5"/>
+<e:Scroller id="scrollerTab" x="526" height="442" width="162" y="641">
+	<e:TabBar id="tab" itemRendererSkinName="RankTabItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="33" />
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+</e:Scroller>
+</e:Skin>

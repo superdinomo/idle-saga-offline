@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBagDetailsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280" >
+	<e:Group horizontalCenter="0" verticalCenter="0" width="548" height="764">
+		<e:Image x="0" y="0" source="llcz_zycs_hb2_png"/>
+		<e:Button id="closeBtn0" label="" y="0" skinName="Btn0Skin" icon="llcz_zycs_X" x="489"/>
+		<e:Image y="94" source="llcz_zycs_hb1" x="221"/>
+		<e:Image y="241" source="llcz_zycs_nqdl" x="78"/>
+		<e:Image x="2" source="js_zycs_di_png" fillMode="clip" height="420" y="344"/>
+		<e:Label id="num" text="0" x="326" y="254" size="54" fontFamily="Times" textColor="0xfcfc5a"/>
+		<e:Scroller y="370" width="452" height="308" x="48">
+			<e:List id="list" itemRendererSkinName="RedBagRendererEUI">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="24" source="llcz_zycs_hb" x="152"/>
+	</e:Group>
+</e:Skin>

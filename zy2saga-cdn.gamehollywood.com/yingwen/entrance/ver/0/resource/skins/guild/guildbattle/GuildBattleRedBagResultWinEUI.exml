@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleRedBagResultWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280" >
+
+	<e:Group horizontalCenter="0" verticalCenter="0" width="548" height="764">
+		<e:Image x="0" y="0" source="llcz_zycs_hb2_png"/>
+		<e:Image source="js_zycs_di_png" fillMode="clip" height="420" y="335" x="2"/>
+		<e:Image source="zycs_320002" x="273" y="253"/>
+
+		<e:Image y="94" source="llcz_zycs_hb1" x="221"/>
+		<e:Image y="248" x="140" source="ldsz_zycs_qdl"/>
+		<e:Image y="24" source="ldsz_zycs_lqjl" horizontalCenter="0"/>
+		<e:Button id="closeBtn0" label="" y="0" skinName="Btn0Skin" icon="llcz_zycs_X" x="489"/>
+
+		<e:Label id="num" text="2000" x="325" y="254" size="30" fontFamily="Times" textColor="0xe3d8be"/>
+		<e:Scroller y="356" width="500" height="401" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="GuildBattleRedBagResultItemEUI" y="-1" anchorOffsetY="0">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+	</e:Group>
+</e:Skin>

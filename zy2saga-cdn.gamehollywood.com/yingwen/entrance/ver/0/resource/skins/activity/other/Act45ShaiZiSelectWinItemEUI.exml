@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act45ShaiZiSelectWinItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<w:Config id="15d981d06da" />
+	<e:Image id="imgNumUp" x="8" y="10" source="tzmg_zycs_rytz1_1" visible.down="false"/>
+	<e:Image id="imgNumDown" x="0" y="0" source="tzmg_zycs_rytz1_0" visible.up="false"/>
+</e:Skin>

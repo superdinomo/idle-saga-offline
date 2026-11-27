@@ -1,0 +1,8 @@
+<e:Skin class="DaZaoEquipSelectPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="90"
+        width="252">
+	<w:Config id="1586b1383e3" />
+	<e:Image y="0" anchorOffsetY="0" x="0" width="100%" height="100%" source="craft_zycs_cfx" scale9Grid="6,24,1,46"/>
+	<e:Component id="itemTarget" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" scaleX="0.75" scaleY="0.75" x="13" verticalCenter="1.5"/>
+	<e:Label id="lbName" text="Gear Name" size="20" fontFamily="Times" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xE6DCB8" x="94" verticalCenter="0"/>
+	
+</e:Skin>

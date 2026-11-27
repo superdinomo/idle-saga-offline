@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MeNeedLevelWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-59" width="720" height="882">
+	
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="erjijiemiankuang_png" horizontalCenter="0"/>
+		<e:Button id="closeBtn0" label="" x="632" y="10" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Image id="imgtitle" anchorOffsetX="0" fillMode="scale" touchEnabled="false" includeInLayout="false" y="30" source="hd_zycs_hdzb" x="319"/>
+		<e:Scroller id="scroller" x="23" y="99" height="739" width="679" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+			<e:List id="list0" itemRendererSkinName="MeNeedLevelItemEUI" currentState="disabled" useVirtualLayout="false">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+</e:Group>
+</e:Skin>

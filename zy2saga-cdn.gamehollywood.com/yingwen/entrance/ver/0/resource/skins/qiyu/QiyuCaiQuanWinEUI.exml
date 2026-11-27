@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QiyuCaiQuanWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" x="0" source="qy_zycs_bg2_png"/>
+		<e:Image y="238" source="qy_zycs_jp" x="272"/>
+
+
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_cha1" y="100" x="616"/>
+
+		<e:List id="rewardList" itemRendererSkinName="ItemSkin" horizontalCenter="0.5" y="131">
+			<e:layout>
+			<e:HorizontalLayout gap="11" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+			
+			
+				
+			
+			
+		</e:List>
+		<e:Image y="160" x="103" source="jjc_zycs_txk"/>
+		<e:Image id="myIcon" x="113" y="168" source="mianui_zycs_zhanshi0" width="75" height="75"/>
+		<e:Image id="myResult" y="241" x="103" source="qy_zycs_sl"/>
+		<e:Image id="myQuan" y="292" x="158" source="qy_zycs_dh3a"/>
+		<e:Image x="166" y="415" source="qy_zycs_yy"/>
+		<e:Image x="523" y="160" source="jjc_zycs_txk"/>
+		<e:Image id="npcIcon" x="533" y="168" source="mianui_zycs_fashi0" width="75" height="75"/>
+		<e:Image id="npcResult" y="241" source="qy_zycs_sb" x="520"/>
+		<e:Image id="npcQuan" y="292" x="450" source="qy_zycs_dh2"/>
+		<e:Image x="456" y="415" source="qy_zycs_yy"/>
+		<e:Group id="groupCaiQuan" y="462" x="132">
+			<e:Image y="3" source="liuguang_zycs_huawen" x="0"/>
+			<e:Image y="2" x="191" source="qy_zycs_qxz"/>
+			<e:Image y="3" source="liuguang_zycs_huawen" scaleX="-1" x="455"/>
+			<e:Image id="selectJD" y="27" x="22" source="qy_zycs_xz"/>
+			<e:Image id="selectST" y="27" source="qy_zycs_xz" x="168"/>
+			<e:Image id="selectBu" y="27" source="qy_zycs_xz" x="314"/>
+			<e:Button id="btnJD" y="35" skinName="Btn0Skin" icon="qy_zycs_btn1" x="31"/>
+			<e:Button id="btnST" y="35" skinName="Btn0Skin" icon="qy_zycs_btn2" x="177"/>
+
+			<e:Button id="btnBu" y="35" skinName="Btn0Skin" icon="qy_zycs_btn3" x="323"/>
+		</e:Group>
+		<e:Group id="groupGet" y="485" x="108">
+			<e:Label id="lbDec" text="Congrats! You won" size="24" textAlign="center" fontFamily="Times" y="0" x="0" textColor="0xc0b8a1" width="503"/>
+			<e:Button id="btnSend" label="Claim" y="41" skinName="BtnMin1_2" x="177"/>
+		</e:Group>
+
+
+	</e:Group>
+</e:Skin>

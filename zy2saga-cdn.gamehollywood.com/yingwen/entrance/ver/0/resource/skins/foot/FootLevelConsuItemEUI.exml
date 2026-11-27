@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FootLevelConsuItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down"  width="75" height="75">
+	<!--<e:Image id="imgSelect" source="public_zycs_xuanzhong" visible.up="false"/>-->
+	<e:Image id="imgSelect" visible.up="false" source="zuji_zycs_xz1"/>
+	<e:Component id="itemIcon" skinName="ItemSkin" scaleX="0.7" scaleY="0.7" x="5" y="5"/>
+</e:Skin>

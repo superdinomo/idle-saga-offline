@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem24_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="682" height="202">
+	<w:Config id="1586bd49103"/>
+	<e:Image source="hddt_zycs_dk2_png"/>
+	<e:Image x="6" y="11" fillMode="scale" source="public_zycs_btkuang"/>
+	<e:Group x="18" y="16">
+		<e:Label text="Total Spending" x="0" y="0" size="24" fontFamily="Times" textColor="0xE6DCB8"/>
+		<e:BitmapLabel id="bmpValue" x="190" y="7" text="500" font="cjnum_fnt"/>
+		<e:Label text="Diamond" x="69" y="2" size="24" fontFamily="Times" textColor="0xE6DCB8"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="6"/>
+		</e:layout>
+	</e:Group>
+<e:Scroller x="63" width="437" height="94" y="76">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			
+				
+			
+		</e:List>
+	</e:Scroller>
+	<e:Image x="63" y="75" fillMode="scale" source="public_zycs_xq" pixelHitTest="true" touchEnabled="false"/>
+	<e:Image x="74" y="79" fillMode="scale" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_fl"/>
+	<e:Button id="rewardBtn" label="Claim" x="517" skinName="BtnMin1_8" icon="anz_zycs_lq" y="73"/>
+	<e:Image id="rewardedTip" x="522" source="public_zycs_ylq" y="53"/>
+</e:Skin>

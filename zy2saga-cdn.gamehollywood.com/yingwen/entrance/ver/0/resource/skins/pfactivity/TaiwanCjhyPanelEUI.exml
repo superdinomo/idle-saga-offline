@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaiwanCjhyPanelEUI" width="720" height="1134" currentState="state1" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="state1,state2" >
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image source="cjhy_zycs_bg_jpg" y="41" x="13"/>
+	<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="1" touchEnabled="false" source="cjhy_zycs_cjhy" horizontalCenter="0"/>
+	<e:Image y="112" touchEnabled="false" source="cjhy_zycs_wenan3" x="371"/>
+	<e:Image y="202" touchEnabled="false" source="cjhy_zycs_wenan4" x="309" visible.state2="false"/>
+	<e:Image y="169" touchEnabled="false" x="339" source="cjhy_zycs_wenan5" visible.state1="false"/>
+
+
+
+	<e:Image y="962" touchEnabled="false" horizontalCenter="0" source="cjhy_zycs_wenan2" source.state2="cjhy_zycs_wenan1" y.state2="994"/>
+	<e:Scroller y="514" horizontalCenter="0" x="189">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15" gap="15"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+
+	<e:Button id="btnSend" label="立即儲值" y="365" skinName="BtnMin1_16" x="386" visible.state2="false"/>
+	<e:Label size="24" textAlign="center" verticalAlign="middle" fontFamily="黑体" x="69" text="方法一：单日充值1000元" y="1007" id="lbDec0" textColor="0xffffff" visible.state2="false"/>
+	<e:Label size="24" textAlign="center" verticalAlign="middle" fontFamily="黑体" x="561" text="0/1000" y="1007" id="lbValue0" textColor="0xffffff" visible.state2="false"/>
+	<e:Label id="lbDec1" size="24" textAlign="center" verticalAlign="middle" fontFamily="黑体" x="69" text="方法一：历史累计充值5000元" y="1042" textColor="0xffffff" visible.state2="false"/>
+	<e:Label id="lbValue1" size="24" textAlign="center" verticalAlign="middle" fontFamily="黑体" x="561" text="0/5000" y="1042" textColor="0xffffff" visible.state2="false"/>
+
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+
+</e:Skin>

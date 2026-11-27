@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarRewardItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Label id="lbDec" text="You can claim the rewards when faction scores reach 11224" x="5" fontFamily="Times" size="24" y="18" textAlign="left" textColor="0xcdc8be"/>
+	<e:Label id="lbValue" text="0/6" fontFamily="Times" size="24" y="18" textAlign="center" textColor="0xcdc8be" horizontalCenter="239"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="16" y="48">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="18" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="499" label="Claim" skinName="BtnMin1_2" y="53"/>
+	<e:Button id="btnLink" x="499" label="Top Up" skinName="BtnMin1_1a" y="53"/>
+	<e:Image id="imgYlq" x="511" source="public_zycs_ylq" y="42"/>
+	<e:Image id="imgWdc" x="511" y="37" source="hddt_zycs_wdc"/>
+</e:Skin>

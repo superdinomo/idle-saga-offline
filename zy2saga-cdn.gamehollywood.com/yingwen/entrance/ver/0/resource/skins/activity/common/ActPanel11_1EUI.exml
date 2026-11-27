@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel11_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Button id="btnYuLan" y="620" x="578" skinName="Btn0Skin" icon="hjds_zycs_wgzl"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="43" x="13" scale9Grid="86,662,522,92" source="hjds_zycs_bg1_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_csk"/>
+	<e:Group y="185" x="27">
+		<e:Label y="0" text="Event Countdown:" fontFamily="Times" size="24" x="0" lineSpacing="10" textColor="0xffffff"/>
+		<e:Label id="lbTime" y="0" text="0" fontFamily="Times" size="24" x="100" lineSpacing="10" textColor="0x13ee22"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupMC" width="0" height="0" y="688" x="360"/>
+	<e:Image y="245" pixelHitTest="true" touchEnabled="false" source="hjds_zycs_title" x="45"/>
+	<e:Image id="imgName" y="313" pixelHitTest="true" touchEnabled="false" x="23" source="hjds_zycs_title1"/>
+	<e:Image y="712" x="11" height="164" anchorOffsetY="0" source="public_zycs_jk"/>
+	<e:Image y="735" source="liuguang_zycs_huawen" scaleX="-1" x="599"/>
+	<e:Image y="735" source="liuguang_zycs_huawen" x="122"/>
+	<e:Image y="734" pixelHitTest="true" touchEnabled="false" x="311" source="hjds_zycs_jlxq"/>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" maxWidth="700" y="754" horizontalCenter="0">
+		<e:List id="listReward" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15" gap="11"/>
+		</e:layout>
+		
+			
+				<e:ArrayCollection>
+			<e:Array>
+			<e:Object qqqq="null"/>
+			<e:Object qqqq="null"/>
+			<e:Object qqqq="null"/>
+			<e:Object qqqq="null"/>
+			<e:Object qqqq="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			
+		
+		</e:List>
+	</e:Scroller>
+	<e:Scroller scrollPolicyH="off" scrollPolicyV="off" y="884" horizontalCenter="2.5">
+		<e:List id="listBtn" itemRendererSkinName="ActItem11_1EUI">
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="0" paddingRight="0" gap="7"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object qqqq="null"/>
+			<e:Object qqqq="null"/>
+			<e:Object qqqq="null"/>
+			<e:Object qqqq="null"/>
+			<e:Object qqqq="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" y="961" label="368" skinName="BtnMin1_17" x="270"/>
+	<e:Image id="imgYgm" y="957" pixelHitTest="true" touchEnabled="false" source="public_zycs_ylq" x="300"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Label id="lbBuyCount" y="1041" text="Limit: 1" fontFamily="Times" size="24" lineSpacing="10" textColor="0xFFFFFF" horizontalCenter="0"/>
+	<!--<e:Image x="0" y="-46" touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\W_五一活动\黄金斗士直购\H黄金斗士1.jpg" visible="false"/>-->
+</e:Skin>

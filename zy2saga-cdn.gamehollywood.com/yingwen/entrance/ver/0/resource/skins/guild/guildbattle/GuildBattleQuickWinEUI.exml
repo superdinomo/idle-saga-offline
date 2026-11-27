@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleQuickWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+
+	<e:Group horizontalCenter="0" verticalCenter="77">
+		<e:Image y="0" touchEnabled="false" scale9Grid="88,64,2,3" source="ldsz_zycs_vsbg2_png" horizontalCenter="0"/>
+		<e:Component id="item0" y="-2" x="10" skinName="GuildBattleQuickItemEUI"/>
+		<e:Component id="item1" y="11" x="118" skinName="GuildBattleQuickItemEUI"/>
+		<e:Component id="item2" y="24" x="224" skinName="GuildBattleQuickItemEUI"/>
+		<e:Component id="item3" y="24" x="382" skinName="GuildBattleQuickItemEUI"/>
+		<e:Component id="item4" y="11" x="490" skinName="GuildBattleQuickItemEUI"/>
+		<e:Component id="item5" y="-2" skinName="GuildBattleQuickItemEUI" x="590"/>
+		<e:Button id="btnSend" y="547" skinName="BtnMin1_1" label="Enter Battlefield" horizontalCenter="0"/>
+		<e:Image id="imgTitle" y="-51" source="ldsz_zycs_cz" horizontalCenter="0"/>
+		<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="ldsz_zycs_vsbg1_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image x="28.66" y="265" source="ldsz_zycs_di2" height="50" width="250"/>
+		<e:Image x="431" y="264" source="ldsz_zycs_di2" height="50" width="250"/>
+		<e:Label id="lbGuildNameL" text="S1.Guild Name Ahah" y="273" fontFamily="Times" size="30" x="64" textColor="0xf5e65a" textAlign="left" anchorOffsetX="0"/>
+		<e:Label id="lbGuildNameR" text="Guild Name" y="273" fontFamily="Times" size="30" x="492" textColor="0xf5e65a"/>
+		<e:Image x="28.66" y="268" source="ldsz_zycs_qz5" scaleX="0.25" scaleY="0.25"/>
+		<e:Image x="459" y="267" scaleX="0.25" scaleY="0.25" source="ldsz_zycs_qz4"/>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,15 @@
+{"file":"setting_zycs.png","frames":{
+"setting_zycs_adjust":{"x":364,"y":87,"w":34,"h":35,"offX":0,"offY":0,"sourceW":34,"sourceH":35},
+"setting_zycs_background":{"x":93,"y":131,"w":149,"h":24,"offX":1,"offY":1,"sourceW":151,"sourceH":26},
+"setting_zycs_fwxx":{"x":438,"y":87,"w":32,"h":32,"offX":0,"offY":0,"sourceW":32,"sourceH":32},
+"setting_zycs_h1":{"x":0,"y":36,"w":89,"h":94,"offX":3,"offY":0,"sourceW":96,"sourceH":94},
+"setting_zycs_h2":{"x":93,"y":36,"w":87,"h":91,"offX":4,"offY":1,"sourceW":96,"sourceH":94},
+"setting_zycs_hd":{"x":474,"y":87,"w":32,"h":32,"offX":0,"offY":0,"sourceW":32,"sourceH":32},
+"setting_zycs_l1":{"x":184,"y":36,"w":87,"h":91,"offX":5,"offY":0,"sourceW":97,"sourceH":91},
+"setting_zycs_l2":{"x":275,"y":36,"w":85,"h":91,"offX":6,"offY":0,"sourceW":97,"sourceH":91},
+"setting_zycs_mute":{"x":402,"y":87,"w":32,"h":32,"offX":0,"offY":0,"sourceW":32,"sourceH":32},
+"setting_zycs_off":{"x":364,"y":56,"w":68,"h":27,"offX":0,"offY":0,"sourceW":68,"sourceH":27},
+"setting_zycs_on":{"x":436,"y":56,"w":68,"h":27,"offX":0,"offY":0,"sourceW":68,"sourceH":27},
+"setting_zycs_progress":{"x":364,"y":36,"w":117,"h":16,"offX":0,"offY":0,"sourceW":117,"sourceH":16},
+"setting_zycs_sound":{"x":402,"y":123,"w":32,"h":32,"offX":0,"offY":0,"sourceW":32,"sourceH":32},
+"setting_zycs_title":{"x":0,"y":0,"w":479,"h":32,"offX":0,"offY":0,"sourceW":479,"sourceH":32}}}

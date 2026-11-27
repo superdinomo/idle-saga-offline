@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="KefuWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Group horizontalCenter="0" verticalCenter="-34">
+	<e:Image y="0"  anchorOffsetX="0" anchorOffsetY="0" scale9Grid="120,73,396,17" x="0" source="erjijiemiankuang_png"/>
+		<e:Button id="closeBtn0" label="" y="14" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+		<e:Image y="30" anchorOffsetX="0" fillMode="clip" touchEnabled="false" includeInLayout="false" source="mianui_zycs_kfbt" x="299"/>
+	<e:Label text="Game Tips: \n1. When you run into graphic lag or general lagging. You can try to tap on the portrait on the top left corner to switch the graphic for smoother gameplay. \n2. If you find the in-game music and sound effect bothering, you can try to tap on the portrait at the top left corner of the screen to turn them off." x="34" y="80" size="20" scaleX="1" scaleY="1" textAlign="left" fontFamily="Times" width="638" textColor="0xffffff" anchorOffsetX="0" anchorOffsetY="0" height="125" lineSpacing="5" verticalAlign="middle"/>
+	<e:Label text="(Format: Where/What/When )" x="34" y="217" size="20" scaleX="1" scaleY="1" textAlign="left" fontFamily="Times" textColor="0xffffff" width="640"/>
+		<e:Label id="labelTime" text="00:00:00" x="34" y="267" size="20" textAlign="left" fontFamily="Times" textColor="0xff9148"/>
+		<e:Label text="Feedback Type:" x="37" y="371" size="20" textAlign="left" fontFamily="Times" textColor="0xff9148"/>
+		<e:CheckBox id="checkBox0" x="167" y="370" skinName="CheckBoxEUI" scaleX="0.8" scaleY="0.8" label="BUG" selected="true"/>
+		<e:CheckBox id="checkBox1" x="295" y="370" skinName="CheckBoxEUI" scaleX="0.8" scaleY="0.8" label="Advice"/>
+		<e:CheckBox id="checkBox2" x="436" y="370" skinName="CheckBoxEUI" scaleX="0.8" scaleY="0.8" label="Complain"/>
+		<e:CheckBox id="checkBox3" x="577" y="370" skinName="CheckBoxEUI" scaleX="0.8" scaleY="0.8" label="Other"/>
+		<e:Image height="42" anchorOffsetY="0" width="503" anchorOffsetX="0" y="580" scale9Grid="9,6,19,26" source="fl_zycs_json.fl_zycs_jx" x="109"/>
+		<e:EditableText id="chatInput" width="477" text="(Up to 120 characters)" y="580" fontFamily="Times" size="20" verticalAlign="middle" textColor="0x848282" anchorOffsetY="0" anchorOffsetX="0" height="42" horizontalCenter="0" maxChars="120"/>
+		<e:Button id="btnTijiao" label="Send" name="btnOk" skinName="BtnMin1_1" y="710" x="294"/>
+</e:Group>
+</e:Skin>

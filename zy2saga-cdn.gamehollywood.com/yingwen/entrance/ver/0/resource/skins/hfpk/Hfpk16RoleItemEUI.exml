@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Hfpk16RoleItemEUI" currentState="zuo" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="zuo,you"  width="167">
+	<w:Config id="15d981d06da"/>
+	<e:Image y="0" touchEnabled="false" x.zuo="0" source="hfdfs_zycs_di2" scaleX.you="-1" x.you="167"/>
+	<e:Label id="lbName" text="Player Name Seven Characters" horizontalCenter="0" size="20" fontFamily="Times" textColor="0xffebc8" y="15" borderColor="0xc90808" strokeColor="0xff0000" stroke="1"/>
+</e:Skin>

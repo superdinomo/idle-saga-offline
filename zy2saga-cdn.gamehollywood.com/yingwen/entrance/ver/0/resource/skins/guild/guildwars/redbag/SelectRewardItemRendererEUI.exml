@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SelectRewardItemRendererEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="312" width="682">
+	<e:Image height="100%" width="100%" scale9Grid="47,39,22,17" touchEnabled="false" source="shenmo_zycs_dikuang_02"/>
+	<e:Label id="chooseNum" y="82" text="9/9" fontFamily="Times" size="20" x="503" width="133" textAlign="center" textColor="0xafaaa0"/>
+	<e:Component id="goods" x="79" y="17"  skinName="ItemSkin"/>
+	<e:Label text="Assignable" fontFamily="Times" size="20" x="189" y="53" textColor="0xafaaa0"/>
+	<e:Label text="Selected" fontFamily="Times" size="20" y="130" textColor="0xff9b0f" x="311"/>
+	<e:Label id="payNum" text="0" fontFamily="Times" size="20" x="259" y="53" textColor="0xafaaa0"/>
+	<e:Button id="choosePeople" x="510" y="26" label="Select member" skinName="BtnMin1_2mid"/>
+	<e:Image y="122" source="zs_zycs_fengexian" width="666" x="8"/>
+	<e:Scroller y="157" x="82" width="519" height="142">
+		<e:List id="list" itemRendererSkinName="BossHomeFbPanelFaceEUI">
+			<e:layout>
+			<e:HorizontalLayout gap="39"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

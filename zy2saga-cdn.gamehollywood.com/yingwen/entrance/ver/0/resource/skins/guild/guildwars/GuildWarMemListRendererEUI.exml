@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildWarMemListRendererEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" width="678" height="123">
+	<e:Image y="0" x="0" width="100%" height="100%" source="qianghua_zycs_kuang4" scale9Grid="33,25,31,40"/>
+	<e:Image x="527" y="53" source="llcz_zycs_q"/>
+	<e:Label id="conLab" text="0" x="242" y="57" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Label text="Siege Scores:" x="140" y="57" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Label text="CP:" x="140" y="88" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Label id="attack" text="0" x="242" y="88" fontFamily="Times" size="20" textColor="0xcdc8be"/>
+	<e:Label id="nameLab" text="[Vice Leader]" x="140" y="21" fontFamily="Times" size="20" textColor="0xf5e65a"/>
+	<e:Label id="nameLab0" text="0" x="223" y="21" fontFamily="Times" size="20" textColor="0x23becd"/>
+	<e:Image y="9" x="17" source="role_zycs_touxiangkuang"/>
+	<e:Image id="face" source="mianui_zycs_sheshou0" x="27" y="19"/>
+	<e:Label id="onLine" text="Not Available" x="555" fontFamily="Times" size="20" textColor="0x5ac832" y="52"/>	
+	
+</e:Skin>

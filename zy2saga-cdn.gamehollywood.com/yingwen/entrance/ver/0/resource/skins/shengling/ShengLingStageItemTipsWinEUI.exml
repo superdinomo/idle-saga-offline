@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShengLingStageItemTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group id="group" horizontalCenter="0" width="518" verticalCenter="0">
+		<e:Image id="imgBg" x="0" y="0" scale9Grid="64,240,390,294" source="shengling_zycs_d3_png"/>
+
+		<e:Button id="closeBtn0" label="" y="5" skinName="Btn0Skin" icon="public_zycs_cha" x="481"/>
+		<e:Image y="15" source="tips_zycs_di" x="140"/>
+		<e:Label id="lbName" text="Gear Name" y="23" fontFamily="Times" size="24" textColor="0xFFFFFF" textAlign="center" width="404" x="57"/>
+		<e:Component id="itemIcon" x="36" y="58" skinName="ItemSkin"/>
+		<e:Label id="lbScore" y="83" text="Imprint Rating: 998" fontFamily="Times" size="20" x="143" textAlign="left" textColor="0xffffff"/>
+		<e:Label id="lbJob" y="119" text="Class Requirement: General" fontFamily="Times" size="20" x="143" textAlign="left" textColor="0xffffff"/>
+		<e:Group x="0" y="197">
+		<e:Label id="desc" y="146" text="Used to activate Imprint inside the Dark Spirit. Gather the full Imprints to awaken Spirit effect" fontFamily="Times" size="20" x="26" width="404" verticalAlign="middle" lineSpacing="4" textColor="0xffffff"/>
+		<e:Group id="groupAttr" width="518" y="0" x="0">
+			<e:Image x="0" y="0" source="zbxx_zycs_xj"/>
+			<e:Label text="Spirit Stone Stats" x="26" y="7" size="20" fontFamily="Times" lineSpacing="3" textColor="0xe2743b"/>
+			<e:Label id="lbAttr" text="ATK +99999\nATK +99999\nATK +99999\nATK +99999" x="51" y="47" size="20" fontFamily="Times" lineSpacing="7" textColor="0xffffff"/>
+		</e:Group>
+		<e:Group id="groupSkill" x="0" y="212" width="518">
+
+
+
+			<e:Group x="0" y="22">
+				<e:Image source="zbxx_zycs_xj" x="0" y="0"/>
+				<e:Label text="Exclusive Skill" x="26" y="7" size="20" fontFamily="Times" textColor="0xe2743b"/>
+				<e:Label id="lbSkillName" text="Dark Realm" x="51" y="47" size="20" fontFamily="Times" textColor="0xf5e65a"/>
+				<e:Label id="lbSkillDec" text="Dark Realm\nDark Realm" y="79" size="20" fontFamily="Times" textColor="0xffffff" lineSpacing="4" width="416" x="51"/>
+			</e:Group>
+
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="13"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

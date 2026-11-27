@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PataXYXGroupPanelItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbLv" text="2-3" size="20" fontFamily="SimHei" textAlign="center" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Image id="imgBg" y="29" touchEnabled="false" source="hdlb_zycs_mwwc_bg_png" width="232" height="132" x="0"/>
+	<e:Image id="imgAn" y="29" x="0" width="232" height="132" scale9Grid="2,2,16,16" source="public_zycs_greybg2"/>
+	<e:Image id="imglock" x="30" y="55" touchEnabled="false" source="zhuijia_zycs_suo"/>
+	<e:Component id="item" x="123" y="47" skinName="ItemSkin"/>
+	<e:Image id="imgState" y="161" touchEnabled="false" source="jinglian_zycs_gem6" horizontalCenter="0"/>
+
+
+
+
+
+
+
+</e:Skin>

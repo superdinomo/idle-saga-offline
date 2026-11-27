@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeChengTabItemSubEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down,disabled"   height="47" width="570">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" y="0" x="0" source="public_zycs_greybg2" width="565" height="45" alpha="0.01"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" horizontalCenter="0" source="hc_zycs_gfx" y="43"/>
+	<e:Label id="lbName" text="1-Star Gear (99)" size="20" fontFamily="Times" verticalCenter="-1.5" touchEnabled="false" horizontalCenter="0" textColor.up="0xe3d7be" size.up="20" textColor="0xe3d7be"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="550" y="-1" source="mainui_zycs_hongdian"/>
+</e:Skin>

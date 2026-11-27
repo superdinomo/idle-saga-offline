@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DartRecordWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="1" verticalCenter="-8" width="720" height="882">
+		<e:Image source="erjijiemiankuang_png" />
+		<e:Image source="hwbz_zycs_ldjl" horizontalCenter="0.5" y="30" />
+		<e:Scroller name="Personal Info" width="680" height="682" y="73" horizontalCenter="0" x="20" scaleX="1" scaleY="1">
+			<e:List id="eList" x="10" itemRendererSkinName="DartRecordWinItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="0" />
+				</e:layout>
+				<!--<e:ArrayCollection>
+				<e:Object/>
+				<e:Object/>
+			</e:ArrayCollection>-->
+		</e:List>
+	</e:Scroller>
+		<e:Image y="756" source="role_zycs_tb2" horizontalCenter="0"/>
+	<e:TabBar id="tabBar" width="260" height="52" y="774"  horizontalCenter="0" itemRendererSkinName="XunBaoJiLuBtnEUI" selectedIndex="0">
+			<e:ArrayCollection>
+				<e:Object labelDisplay="Guild"/>
+				<e:Object labelDisplay="Personal"/>
+			</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="12"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Button id="closeBtn" x="640" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+</e:Group>
+</e:Skin>

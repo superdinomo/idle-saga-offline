@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem3_2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="0,1,2"  height="164" width="668">
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_cblcbg1_jpg"/>
+<e:Scroller scrollPolicyH="off" scrollPolicyV="off" height="118" x="3" y="47" width="457">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" gap="19"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="rewardBtn" label="Claim" x="499" visible.1="false" visible.2="false" skinName="BtnMin1_2" y="76"/>
+	<e:Button id="btnGoto" label="Go" x="499" visible.0="false" visible.2="false" skinName="BtnMin1_1" y="76"/>
+	<e:Image id="imgYql" x="511" visible.0="false" visible.1="false" y="60" source="lilian_zycs_ylq"/>
+	<e:Image id="imgWdc" x="514" source="lilian_zycs_wdc" y="62" visible.0="false" visible.1="false" visible.2="false"/>
+	<e:Label id="lbDec" text="Total Sign-in" x="14" y="18" size="24" fontFamily="Times" textColor="0xe3d7be"/>
+	<e:Label id="lbCount" y="40" text="5/6" fontFamily="Times" size="24" lineSpacing="10" textAlign="center" visible.2="false" horizontalCenter="239" textColor="0xe3d7be"/>
+</e:Skin>

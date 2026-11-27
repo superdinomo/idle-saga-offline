@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBagRendererEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="44"  width="452">		
+	<e:Image x="311" source="zycs_320002" y="5"/>
+	<e:Image x="0" source="llcz_zycs_xian" y="39"/>
+	<e:Label id="num" text="0" x="349" size="20" fontFamily="Times" textColor="0xfcfc5a" stroke="1" y="12"/>
+	<e:Label id="nameLabel" text="0" x="43" size="20" fontFamily="Times" textColor="0xcdc8be" y="12"/>
+</e:Skin>

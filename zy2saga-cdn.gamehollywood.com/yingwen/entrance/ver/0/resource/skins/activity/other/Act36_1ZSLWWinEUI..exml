@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act36_1ZSLWWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image y="0" source="public_zycs_dikuang" scale9Grid="83,62,16,9" x="0" width="553" height="650" anchorOffsetY="0"/>
+		<e:Image y="-4" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="147"/>
+		<e:Image id="title0" y="13" x="229" source="hddt_zycs_wdjl"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470" y="0"/>
+		<e:Image y="62" source="public_zycs_tsk1" scale9Grid="9,9,54,58" width="501" height="538" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0"/>
+		<e:Image y="96" source="sjhj_zycs_tx" x="0" horizontalCenter="-185"/>
+		<e:Image id="imgHead" y="103" width="76" height="76" source="mianui_zycs_zhanshi0" x="32" horizontalCenter="-185.5"/>
+		<e:Label id="lbName" text="Player Name Seven Characters" y="105" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" x="158"/>
+		<e:Label id="lbLevel" text="Level: 999" y="132" size="20" textAlign="left" fontFamily="Times" textColor="0xF5E65A" x="158"/>
+		<e:Label id="lbPower" text="Guardian: 999" y="159" size="20" textAlign="left" fontFamily="Times" textColor="0xF5E65A" x="158"/>
+		<e:Label id="lbGuild" text="Guild: Guild Name" y="106" size="20" textAlign="left" fontFamily="Times" textColor="0xF5E65A" x="334"/>
+		<e:Label text="Please confirm the gifting info to avoid misoperation" y="186" size="20" textAlign="left" fontFamily="Times" horizontalCenter="0" textColor="0xf01414"/>
+		<e:Scroller y="214" scrollPolicyH="off" height="391" width="462" x="41">
+			<e:List id="list" itemRendererSkinName="Act36_1ZSLWWinItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object />
+						<e:Object />
+						<e:Object />
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+
+
+
+	</e:Group>
+</e:Skin>

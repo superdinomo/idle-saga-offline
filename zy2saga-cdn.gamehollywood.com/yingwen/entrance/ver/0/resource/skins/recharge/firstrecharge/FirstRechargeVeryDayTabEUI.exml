@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FirstRechargeVeryDayTabEUI" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="15" y="-17" source="public_zycs_tips" visible.down="false" touchEnabled="false" pixelHitTest="true" scale9Grid="14,12,87,4" height="69"/>
+	<e:Image x="0" touchEnabled="false" source="public_zycs_qh1" source.up="public_zycs_qh2" source.down="public_zycs_qh1" y="54"/>
+	<e:Label id="lbYuan" size="20" textColor="0xffebc8" touchEnabled="false" fontFamily="Times" textColor.down="0xffebc8"  horizontalCenter="-9" y="66" text="98" horizontalCenter.up="-9" y.up="68" strokeColor="0x812e00" stroke="1.5"/>
+	<e:Label id="lbDec" size="20" textColor="0xFFEBC8" touchEnabled="false" fontFamily="Times" horizontalCenter="7" text="Artifact Appearance" visible.down="false" y="-12" width="100" lineSpacing="-5"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="96" y="50" source="mainui_zycs_hongdian"/>
+</e:Skin>

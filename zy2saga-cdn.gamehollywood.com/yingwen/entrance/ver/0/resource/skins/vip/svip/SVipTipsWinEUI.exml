@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SVipTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="553" height="520">
+		<e:Image y="0" x="0" source="cg_zycs_bg3_jpg"/>
+		<e:Image y="13" source="chibang_zycs_tishi" x="249"/>
+		<e:Label id="lbTips" text="Upgrade to VIP3 to raise attempts" fontFamily="Times" size="20" y="75" textAlign="center" textColor="0xcdc8be" width="449" x="44"/>
+		<e:Group x="103" y="148">
+			<e:Image x="0" y="0" source="vip_zycs_k3"/>
+			<e:Image y="22" source="public_zycs_svip" x="19"/>
+			<e:BitmapLabel id="curVip" y="50" text="0" letterSpacing="-6" font="vipnum1_fnt" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="354" y="148">
+			<e:Image x="0" y="0" source="vip_zycs_k3"/>
+			<e:Image y="22" source="public_zycs_svip" x="19"/>
+			<e:BitmapLabel id="nextVip" y="50" text="0" letterSpacing="-6" font="vipnum1_fnt" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image y="179" source="qianghua_zycs_next" x="260"/>
+
+
+
+		<e:Label id="lbCountL" text="Daily extra refresh attempts\n 10 times" fontFamily="Times" size="20" y="267" textAlign="center" x="42" width="217" textColor="0xcdc8be" lineSpacing="4"/>
+		<e:Label id="lbCountR" text="Daily extra refresh attempts\n 10 times" fontFamily="Times" size="20" y="267" textAlign="center" x="313" width="180" textColor="0xcdc8be" lineSpacing="4"/>
+		<e:Group id="groupBuy" x="68" y="330">
+			<e:Label text="Cost" y="6" fontFamily="Times" size="20" textAlign="center" x="0" textColor="0xcdc8be"/>
+			<e:Component id="price" skinName="PriceIconSkin" x="46" y="0"/>
+			<e:Label id="lbCount" text="You have purchased today: 0/2" y="6" fontFamily="Times" size="20" textAlign="center" textColor="0xCDC8BE" x="229"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="18"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="closeBtn0" label="" x="466" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	<e:Button id="btnOk" label="Confirm" y="403" skinName="BtnMin1_1" x="210"/>
+	</e:Group>
+</e:Skin>

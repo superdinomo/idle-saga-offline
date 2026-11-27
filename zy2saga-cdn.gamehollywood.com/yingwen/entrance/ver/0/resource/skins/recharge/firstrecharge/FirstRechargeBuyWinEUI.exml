@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FirstRechargeBuyWinEUI" width="720" height="1280" currentState="yireceive"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        states="buy,receive,yireceive,noreceive">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="-12" width="720" height="852">
+		<e:Image x="0" y="0" source="schl_zycs_bg_png" />
+		<e:Button id="closeBtn" label="" x="652" y="84" skinName="Btn0Skin" icon="public_zycs_cha" />
+		<e:Group id="entityGroup" y="310" horizontalCenter="0" />
+		<e:Group id="groupMcIcon" y="500" horizontalCenter="0"/>
+		<e:Image y="26" horizontalCenter="3.5" source="schl_zycs_title" />
+		<e:Image y="133" x="73" source="schl_zycs_sbfl" />
+		<e:Image id="imgRightGG"  source="schl_zycs_day1" bottom="351" right="57" right.buy="53" bottom.buy="353"/>
+		<e:Image id="imgPowerBg" y="483" source="schl_zycs_zld" horizontalCenter="0.5" />
+		<e:Group id="groupPower" y="487" horizontalCenter="1">
+			<e:Image fillMode="scale" y="7" x="0" source="lyg_zycs_json.lyg_zycs_zl"/>
+			<e:BitmapLabel id="bitPower" x="99" y="0" font="lygnum_fnt" text="123456" letterSpacing="-8"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller height="57" y="540" horizontalCenter="0.5" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="menuList" scrollEnabled="false" itemRendererSkinName="FirstRechargeBuyWinBtnRenderEUI"
+			        useVirtualLayout="false" height="45" y="-1">
+				
+					
+					
+					
+				
+				<e:layout>
+					<e:HorizontalLayout gap="0" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller y="592" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0">
+				
+					
+						
+						
+						
+						
+						
+					
+				
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="15" paddingTop="15" paddingBottom="15" paddingRight="15" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnBuy" y="725" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" visible.receive="false"
+		          skinName="BtnMin1_16" icon="anz_zycs_10y" x="255" label="Top-up $1" visible.yireceive="false"
+		          visible.noreceive="false" />
+		<e:Button id="btnReceive" label="Claim" y="725" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"
+		          visible.buy="false" skinName="BtnMin1_16" x="255" visible.yireceive="false" visible.noreceive="false" />
+		<e:Image y="726" horizontalCenter="1" source="fl_zycs_ylq" visible.buy="false" visible.receive="false"
+		         visible.noreceive="false" />
+		<e:Image id="imgDay" touchEnabled="false" horizontalCenter="0" y="750" source="schl_zycs_1day" visible.buy="false"
+		         visible.receive="false" visible.yireceive="false" />
+		<e:Image y="798" source="schl_zycs_di" horizontalCenter="0" visible="false" />
+		<e:Label id="lbDesc" text="Gain 10000 Diamonds" y="802" size="20" fontFamily="Times" textColor="0xe3d7be" horizontalCenter="0"
+		         visible="false" />
+	</e:Group>
+</e:Skin>

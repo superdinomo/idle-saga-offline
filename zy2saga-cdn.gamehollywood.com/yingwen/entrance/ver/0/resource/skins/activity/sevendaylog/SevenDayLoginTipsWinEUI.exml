@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SevenDayLoginTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="248" height="428">
+	<e:Group id="group" y="39" height="389" anchorOffsetX="122" width="245" x="0">
+		<e:Image id="imgBg" touchEnabled="true" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" source="tanchuang_zycs_di"/>
+		<e:Image id="imgArrow" fillMode="clip" scaleX="1" scaleY="1" source="mianui_zycs_ydjt" x="144" y="-38" rotation="90"/>
+		<e:BitmapLabel id="powerBmp" x="121" y="342" text="+5600" font="kpnum_fnt"/>
+		<e:Image id="imgIcon" touchEnabled="true" anchorOffsetX="0" anchorOffsetY="0" y="31" x="-8" source="shenghun_zycs_bigpic3_png" scaleX="0.7" scaleY="0.7"/>
+		<e:Image x="9" y="86" source="tanchuang_zycs_title1"/>
+		<e:Image id="imgTitle" x="7" y="6" source="tanchuang_zycs_biaoti1"/>
+		<e:Button id="closeBtn0" label="" x="207" y="3" skinName="Btn0Skin" icon="public_zycs_cha" visible="false"/>
+		<e:Image x="20" y="342" source="tanchuang_zycs_zhanli"/>
+	</e:Group>
+</e:Skin>

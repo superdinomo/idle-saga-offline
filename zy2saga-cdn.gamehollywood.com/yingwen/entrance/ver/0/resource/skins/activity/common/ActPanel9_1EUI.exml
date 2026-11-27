@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel9_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image x="12" y="41" source="hddt_zycs_cbthbg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_cbth" x="278"/>
+	<e:Label text="Time Remain:" y="229" size="20" textAlign="left" fontFamily="Times" x="53" textColor="0xefd98d"/>
+	<e:Label id="lbTime" text="1 1:1:1" y="230" size="20" textAlign="left" fontFamily="Times" x="196" textColor="0x13EE22"/>
+	<e:Image id="imgName" y="266" pixelHitTest="true" touchEnabled="false" horizontalCenter="0" source="hddt_zycs_cblb1"/>
+	<e:Scroller y="377" scrollPolicyH="off" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin">
+		
+			
+			
+		
+		<e:layout>
+			<e:HorizontalLayout gap="92"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="512" x="47" source="zbrl_zycs_xx"/>
+	<e:Label id="lbBuyCount" text="Currently Purchased: 0/10 piece(s)" size="24" textAlign="left" fontFamily="Times" y="511" x="74" textColor="0xefd98d"/>
+	<e:Image y="544" x="47" source="zbrl_zycs_xx"/>
+	<e:Label id="lbVipCount" text="SVIP2 can purchase 20 pieces" size="24" textAlign="left" fontFamily="Times" y="543" x="74" textColor="0xefd98d"/>
+	<e:ProgressBar id="barExp" slideDuration="0" value="1" maximum="2" y="683" width="443" skinName="bloodBarSkin4" x="139"/>
+	<e:Scroller y="595" scrollPolicyH="off" x="87">
+		<e:List id="listZhe" itemRendererSkinName="ActItem9_1EUI" touchEnabled="false" touchChildren="false">
+		
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbDec" text="It’s 40% off currently. You can buy 5 more to unlock the next discount" y="791" size="20" textAlign="center" fontFamily="Times" textColor="0xCDC8BE" width="590" x="65"/>
+	<e:Image id="imgYuanjia" source="zycs_320002" y="852" x="385"/>
+	<e:Label text="Original Price: " size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="240" y="856"/>
+	<e:Label id="lbYuanJia" text="5000" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="425" y="857"/>
+	<e:Image y="861" x="284" width="155" rotation="4.77" source="public_zycs_hx1"/>
+	<e:Image source="zycs_320002" y="891" x="385"/>
+	<e:Label text="Current Price:" size="24" textAlign="left" fontFamily="Times" textColor="0xCDC8BE" x="243" y="894"/>
+	<e:Label id="lbXianJia" text="5000" size="24" textAlign="left" fontFamily="Times" x="425" y="896" textColor="0xefd98d"/>
+	<e:Button id="btnSend" label="Purchase" y="943" skinName="BtnMin1_2" x="286"/>
+</e:Skin>

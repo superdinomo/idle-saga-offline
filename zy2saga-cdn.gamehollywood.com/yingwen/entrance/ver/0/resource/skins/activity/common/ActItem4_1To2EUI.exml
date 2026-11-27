@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem4_1To2EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103" />
+	<e:Label id="rankTxt" text="The 4-20 place can claim" fontFamily="Times" size="24" textAlign="center" y="0" width="262" x="30"
+	         textColor="0xefd98d" />
+	<e:List id="list" itemRendererSkinName="ItemSkin" horizontalCenter="0" y="24">
+		<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="10" paddingTop="10" paddingBottom="10" paddingRight="10" />
+		</e:layout>
+	</e:List>
+	<e:Label id="lbDabiao" text="CP Requirment to be listed on the ranking: 99998" y="144" size="24" fontFamily="Times" textAlign="center" width="317" x="3"
+	         textColor="0xffffff" />
+</e:Skin>

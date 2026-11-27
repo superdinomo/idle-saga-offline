@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTipsJingLianItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="557">
+	<e:Group id="groupA" x="0" y="0">
+		<e:Image x="0" y="0" scale9Grid="23,4,51,26" source="zbxx_zycs_xj"/>
+		<e:Label id="lbAttrName" text="Refine Stats" y="6" size="22" fontFamily="Times" anchorOffsetY="0" left="10" textColor="0xffb824"/>
+		<e:Label id="lbAttr" text=" Basic Stats" y="42" size="20" fontFamily="Times" anchorOffsetY="0" x="46" textColor="0xe3d7be" lineSpacing="5"/>
+
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

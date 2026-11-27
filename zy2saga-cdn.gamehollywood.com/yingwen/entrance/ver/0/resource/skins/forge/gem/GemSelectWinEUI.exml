@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GemSelectWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group width="720" horizontalCenter="0" height="882" verticalCenter="0">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png" width="720" height="882"/>
+		<e:Image id="title" y="29" x="313" source="bs_zycs_bsxq"/>
+		<e:Scroller id="scroller" x="20" y="86" height="746" width="688" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list" itemRendererSkinName="GemSelectItemEUI" currentState="disabled" useVirtualLayout="false" anchorOffsetY="0" height="310" allowMultipleSelection="true" x="-1">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="" x="640" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	</e:Group>
+	</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HelpListTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group id="group" horizontalCenter="0.5" verticalCenter="-78" width="553">
+		<e:Image source="public_zycs_dikuang" width="100%" height="100%" scale9Grid="74,59,37,17"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+		<e:Image y="12" horizontalCenter="0" source="hddt_zycs_djly"/>
+		<e:Scroller id="scrollList" width="480" x="37" bottom="67" top="74">
+			<e:List id="list" itemRendererSkinName="HelpListTipsWinItemEUI">
+			<e:ArrayCollection>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+			</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="" x="469" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	</e:Group>
+</e:Skin>

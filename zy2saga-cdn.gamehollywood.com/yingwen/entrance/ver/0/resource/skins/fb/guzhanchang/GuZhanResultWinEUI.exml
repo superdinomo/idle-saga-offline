@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuZhanResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<e:Group horizontalCenter="-0.5" verticalCenter="-30" width="553" height="355">
+		<e:Image id="bg" x="0" y="0" anchorOffsetY="0" height="354" width="553" anchorOffsetX="0" source="public_zycs_dikuang" scale9Grid="88,54,19,17"/>
+		<!--<e:Image id="bg0" anchorOffsetY="0" height="184" width="479" anchorOffsetX="0" source="public_zycs_greybg0" scale9Grid="5,7,9,6" horizontalCenter="0" verticalCenter="0"/>-->
+		<e:Button id="closeBtn" label="" x="469" y="-5" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label id="lbdesc" text="" x="110" y="282" size="22" textColor="0xDFD1B5" fontFamily="Times"/>
+		<e:Scroller y="131" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" maxWidth="469">
+			<e:List id="list" itemRendererSkinName="ItemSkin" >
+		<e:ArrayCollection>
+				<e:Array>
+				<e:Object label="Data 1"/>
+				<e:Object label="Data 2"/>
+				</e:Array>
+			</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout gap="23" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="-6" anchorOffsetX="0" anchorOffsetY="0" source="chibang_zycs_biaoti_di" horizontalCenter="0.5"/>
+		<e:Image y="9" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1" source="ygzc_zycs_brdl"/>
+		<e:Label id="closeBtn0" text="Tap blank space to close" y="379" size="20" fontFamily="Times" textAlign="left" touchEnabled="true" horizontalCenter="0" textColor="0xffffff"/>
+	</e:Group>
+</e:Skin>

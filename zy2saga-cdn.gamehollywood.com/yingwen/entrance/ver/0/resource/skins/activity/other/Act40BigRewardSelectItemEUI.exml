@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act40BigRewardSelectItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   states="up,down" >
+
+	<e:Component id="item" skinName="ItemSkin" touchEnabled="true" x="0" y="0" scaleX="0.851" scaleY="0.851"/>
+	<e:Image id="imgPlus" anchorOffsetX="0" anchorOffsetY="0" source="public_zycs_xuanze_gou" x="15" y="16" visible.up="false"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="0" x="60" visible="false"/>
+	<e:Label id="lbCount" y="84" text="(0/1)" fontFamily="Times" size="20" horizontalCenter="0" textColor="0x13ee22"/>
+
+</e:Skin>

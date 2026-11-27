@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LiLianRewardTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" height="355" verticalCenter="0" horizontalCenter="0">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="lilian_zycs_bg_png"/>
+		<e:Label id="lbDec" text="Congrats! Your Prestige level has increased and get the following rewards" y="105" fontFamily="Times" horizontalCenter="0" size="20" textColor="0xe3d7be" width="555"/>
+		<e:Label text="Tap blank space to quit" y="309" fontFamily="Times" horizontalCenter="0" size="24" textColor="0xE3D7BE"/>
+		<e:Scroller id="itemScroller"  horizontalCenter="0.5" y="156">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+			
+				
+				
+				
+				
+			
+				<e:layout>
+					<e:HorizontalLayout gap="20" paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

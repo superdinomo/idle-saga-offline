@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossHomePanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" states="level,zuanshi,item,vip,die"  height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="41" x="13" source="bzj_zycs_bg_jpg"/>
+
+
+
+	<e:Image x="124" y="66" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="123,8,27,18" source="public_zycs_di01"/>
+
+	<e:Label id="lbName" y="70" text="0" fontFamily="Times" size="24" lineSpacing="0" textColor="0xff9b0f" horizontalCenter="-87"/>
+	<e:Label y="117" text="Remaining HP" fontFamily="Times" size="24" x="97" lineSpacing="0" textColor="0xe6dcb8"/>
+	<e:ProgressBar id="barhp" x="241" y="109" value="100" anchorOffsetX="0" anchorOffsetY="0" skinName="ProgressBarEUI1" slideDuration="0"/>
+	<e:Image x="505" y="75" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="123,8,27,18" source="bzj_zycs_v4tz"/>
+	<e:Image y="150" scale9Grid="77,37,16,3" anchorOffsetY="0" right="13" source="klm_zycs_zd" height="653"/>
+
+
+	<e:Group id="groupBoss" x="271" y="553" touchChildren="false" touchEnabled="false"/>
+
+
+
+
+
+	<e:Image y="588" x="224" source="qm_zycs_dlyl"/>
+	<e:Image y="614" anchorOffsetY="0" height="155" horizontalCenter="-89" anchorOffsetX="0" source="public_zycs_dk01" scale9Grid="300,23,119,15"/>
+	<e:Scroller y="644" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off" maxWidth="500" horizontalCenter="-90">
+		<e:List id="listReward" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+					
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingLeft="0" paddingRight="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller x="509" y="171" height="598" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="list" itemRendererSkinName="BossHomePanelItemEUI" anchorOffsetX="0" anchorOffsetY="0">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="-20"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+
+	<e:Button id="btnChallenge" label="Challenge" anchorOffsetX="0" anchorOffsetY="0" y="803" scaleX="0.8" scaleY="0.8" skinName="BtnMin1_1" x="211" visible.die="false" visible.level="false" y.vip="790"/>
+	<e:Label id="lbTimer" y="797" text="Defeated" fontFamily="Times" size="24" x="235" textColor="0xF01414" visible.level="false" visible.zuanshi="false" visible.item="false" visible.vip="false"/>
+	<e:Label id="lbLevel" y="797" text="Insufficient Level" fontFamily="Times" size="24" textColor="0xF01414" visible.die="false" visible.zuanshi="false" visible.item="false" visible.vip="false" horizontalCenter="-89"/>
+	<e:Image x="11" y="866" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" source="public_zycs_zbx1"/>
+	<e:CheckBox id="checkBoxAuto" y="889" skinName="CheckBoxEUI" label="Auto-challenge" x="77"/>
+	<e:Label id="labelDesc" y="889" text="(Activate Premium Privilege to unlock)" fontFamily="Times" size="24" x="305" textColor="0xF01414"/>
+	<e:Group id="groupConsume" visible.level="false" visible.zuanshi="false" visible.vip="false" visible.die="false" y="767" x="224">
+		<e:Image id="imgConsume" x="0" y="0" source="" width="32" height="32"/>
+		<e:Label id="lbConsume" text="Label" x="53" y="0" size="20" fontFamily="Times" textColor="0xe6dcb8"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+<e:Component id="priceIcon" y="765" skinName="PriceIconSkin" visible.level="false" visible.item="false" visible.vip="false" visible.die="false" horizontalCenter="-97.5"/>
+
+</e:Skin>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel47_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Group id="group" width="720" height="1134">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+		<e:Image id="imgBg" touchEnabled="false" y="42"  horizontalCenter="0" source="hddt_zycs_kfcjlc_jpg"/>
+		<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true" />
+		<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0"  source="hddt_zycs_kfcjlc"/>
+		<e:Group id="groupBigReward" width="0" height="0" x="530" y="132"/>
+		<e:Image id="imgTochBig" y="71" touchEnabled="true" source="public_zycs_greybg3" x="470" width="120" height="120" alpha="0.01"/>
+		<e:Image y="57" touchEnabled="true" x="628" source="cjlc_zycs_zjdj"/>
+		<e:ProgressBar id="barBo" slideDuration="0" value="3" maximum="3" y="954" skinName="ProgressBarEUI12" x="110" width="478"/>
+		<e:Image y="906" touchEnabled="true" x="532" source="cjlc_zycs_yuan"/>
+		<e:Group id="groupBigReward2" width="0" height="0" x="591" y="965"/>
+		<e:Image id="imgPayBig2" touchEnabled="true" y="1018" x="493" source="cjlc_zycs_4"/>
+		<e:Image id="imgYlqBig2" x="531" source="public_zycs_ylq" y="1008"/>
+		<e:Image id="imgTochBig2" y="906" touchEnabled="true" source="public_zycs_greybg3" x="532" width="120" height="120" alpha="0.01"/>
+		<e:Label id="lbTime" text="Time left:" y="202" size="22" textAlign="left" fontFamily="Times" x="31"  textColor="0xffffff"/>
+		<e:Scroller scrollPolicyH="off" scrollPolicyV="on" y="252" width="668" height="600" x="26">
+			<e:List id="list" itemRendererSkinName="ActItem47_1EUI">
+				<e:layout>
+					<e:VerticalLayout gap="3" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbRecharge" text="今日充值：99元，总充值100元" y="202" size="22" textAlign="left" fontFamily="Times"  right="23" textColor="0xffffff"/>
+		<e:Component id="itemBig0" touchEnabled="true" x="46" y="906" skinName="ActItem47_1BigEUI"/>
+		<e:Component id="itemBig1" touchEnabled="true" x="194" y="906" skinName="ActItem47_1BigEUI"/>
+		<e:Component id="itemBig2" touchEnabled="true" x="343" y="906" skinName="ActItem47_1BigEUI"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+</e:Group>
+</e:Skin>

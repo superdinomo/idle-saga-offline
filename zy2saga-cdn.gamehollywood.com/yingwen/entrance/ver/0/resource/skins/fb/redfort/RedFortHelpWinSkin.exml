@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedFortHelpWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<e:Image id="colorCanvas" source="public_zycs_greybg2" scale9Grid="1,1,1,1" right="0" top="0" bottom="0" left="0"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="0">
+	<e:Image x="0" y="0"  width="100%" height="100%" source="equip_zycs_di" scale9Grid="35,37,28,22"/>
+		<e:Label id="tx" text="1. The player can kill other players in solo combat to earn points \n2. When in Competitive Mode, the player can stay in the central area to earn high amount of points\n3. When reach a specific amount of points, you can go to a higher floor. In Competitive Mode, the points you earn by staying in the central will raise as the floor raises\n4. Eliminating monsters, players or being eliminated will all grant points\n5. Reach the point objective to claim the floor rewards. After claiming, you can enter the next floor\n6. Based on the points you gained, it provides the top 3000 players with rewards\n7. Rewards are Merlin Whisper Chest and Merlin Magic Book, and Coin\n8. Event time lasts for 10 minutes" size="22" textAlign="left" fontFamily="Times" textColor="0xAFAAA0" lineSpacing="10" top="44" bottom="44" left="34" right="34" width="536" height="355"/>
+
+	</e:Group>
+</e:Skin>

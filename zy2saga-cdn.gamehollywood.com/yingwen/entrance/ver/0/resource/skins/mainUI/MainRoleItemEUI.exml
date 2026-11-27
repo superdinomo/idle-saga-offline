@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainRoleItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="65" height="65">
+	<w:Config id="1586bde13e1" />
+	<e:Image id="imgBg" x="2" anchorOffsetX="0" anchorOffsetY="0"  verticalCenter="1.5" source="mianui_zycs_touxiangkuang_02"/>
+	<e:Image id="imgIcon" x="6.75" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6" scaleY="0.6" verticalCenter="-5" source=""/>
+	<e:Image id="imgLock" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_suo" x="19" y="15" visible="false"/>
+	<e:Image id="imgPlus" x="18" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7" verticalCenter="1" source="mianui_zycs_jh"/>
+	<e:Image id="imgHp1" x="8" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="10" y="20" source="mianui_zycs_xuetiao02_01"/>
+	<e:Group anchorOffsetY="0" id="grouphp" anchorOffsetX="0" x="0" verticalCenter="-3">
+		<e:Image id="imgHp" x="8" y="29" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_xuetiao02_02"/>
+	</e:Group>
+	<e:Image id="imgDIe" x="-4" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" y="10" source="mianui_zycs_yzw" visible="false"/>
+	<e:Label id="lbDie" text="Dead" y="24" size="20" fontFamily="Times" textColor="0xf01414" x="3" visible="false"/>
+</e:Skin>

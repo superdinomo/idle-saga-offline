@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SjmjTypeItemEUI" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="134" height="133">
+	<e:Image id="imgSelect" x="0" y="0" visible.up="false" source="sjmj_zycs_n1a"/>
+
+
+	<e:Image id="imgIcon" source="sjmj_zycs_n1" horizontalCenter="0" verticalCenter="0"/>
+
+
+
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="10" x="99"/>
+
+
+
+
+
+</e:Skin>

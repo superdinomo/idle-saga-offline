@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChiBangRankSuccessTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3502a7" />
+	<e:Image id="colorCanvas" source="public_zycs_greybg2" scale9Grid="1,1,1,1" bottom="1" anchorOffsetX="0" anchorOffsetY="0"
+	         right="1" left="-1" top="-1" />
+	<e:Group id="group" width="569" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="3.5" verticalCenter="-94.5" height="453">
+		<e:Image id="background" width="562" x="5" source="equip_zycs_di" scale9Grid="43,48,17,8"  height="405" anchorOffsetY="0" y="44"/>
+		<e:Image y="97" scale9Grid="69,19,421,46" anchorOffsetY="0" height="153" source="equip_zycs_juxing" anchorOffsetX="0" horizontalCenter="0"/>
+		<e:Image source="cbzb_zycs_jjcg" x="191" y="15"/>
+		<e:Group id="groupJiantou" x="427" y="285">
+			<e:Image y="0" fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image y="25" fillMode="repeat" source="public_zycs_lj"/>
+			<e:Image y="53" fillMode="repeat" source="public_zycs_lj"/>
+			<e:layout>
+			<e:VerticalLayout gap="7"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="arrow" x="275" y="309" source="qianghua_zycs_next"/>
+		<e:Image x="267" y="150" source="tx_zycs_zjt"/>
+		<e:Label id="labelAttr" y="286" size="20" text="Most" fontFamily="Times" textAlign="left" lineSpacing="13" right="334" textColor="0xe6dcb8"/>
+		<e:Label id="labelAttrNext" y="286" size="20" text="0\n0\n0\n" fontFamily="Times" textColor="0x5AC832" textAlign="right" lineSpacing="13" right="145"/>
+		<e:Component id="curItem" y="116" skinName="ItemSkin" currentState="name" touchEnabled="true" x="130" width="94" height="117"/>
+		<e:Component id="nextItem" y="116" skinName="ItemSkin" currentState="name"  touchEnabled="true" x="347" width="94" height="117"/>
+</e:Group>
+
+</e:Skin>

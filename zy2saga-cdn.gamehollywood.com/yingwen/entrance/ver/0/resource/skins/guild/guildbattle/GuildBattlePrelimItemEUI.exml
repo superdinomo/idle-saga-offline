@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattlePrelimItemEUI" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="185" states="normal,kong,kong2"  width="695">
+	<e:Image source="ldsz_zycs_di2" scale9Grid="26,3,161,24" height="38" visible.kong2="false"/>
+	<e:Label id="lbGuildNameL" text="S1.Guild Name" y="7" fontFamily="Times" size="24" x="20" textColor="0xffffff" visible.kong2="false"/>
+	<e:Image y="55" x="10" source="ldsz_zycs_tb1" visible.kong2="false"/>
+	<e:Image y="97" x="16" source="ldsz_zycs_tb2" visible.kong2="false"/>
+	<e:Image y="141" x="12" source="ldsz_zycs_tb4" visible.kong2="false"/>
+	<e:Label id="lbRoleNameL" text="Leader: Miracle xXMoo MoralityXx" y="62" fontFamily="Times" size="20" x="45" textColor="0xffffff" visible.kong2="false"/>
+	<e:Label id="lbCountL" text="Guild Members: 2" y="104" fontFamily="Times" size="20" x="45" textColor="0xffffff" visible.kong2="false"/>
+	<e:Label id="lbLevelL" text="Guild Level: 2" y="148" fontFamily="Times" size="20" x="45" textColor="0xffffff" visible.kong2="false"/>
+	<e:Image id="imgWinL" touchEnabled="false" y="122" x="225" source="ldsz_zycs_win" visible.kong2="false" />
+	<e:Image id="imgBmL" touchEnabled="false" y="-11" x="227" source="ldsz_zycs_bm" visible.kong2="false" />
+	<e:Image id="imgBmR" touchEnabled="false" y="-11" x="628" source="ldsz_zycs_bm" visible.kong="false" visible.kong2="false" />
+	<e:Image id="imgWinR" touchEnabled="false" y="122" x="623" source="ldsz_zycs_win" visible.kong2="false" visible.kong="false"/>
+	<e:Image touchEnabled="false" y="14" x="282" source="dfwz_zycs_v" scaleX="0.8" scaleY="0.8"/>
+	<e:Image touchEnabled="false" y="50" x="275" source="dfwz_zycs_s" scaleX="0.8" scaleY="0.8"/>
+	<e:Image source="ldsz_zycs_di2" scale9Grid="26,3,161,24" height="38" x="400" y="0" visible.kong="false" visible.kong2="false"/>
+	<e:Label id="lbGuildNameR" text="S1.Guild Name" y="7" fontFamily="Times" size="24" x="420" visible.kong="false" textColor="0xffffff" visible.kong2="false"/>
+	<e:Image y="55" x="410" source="ldsz_zycs_tb1" visible.kong="false" visible.kong2="false"/>
+	<e:Image y="97" x="416" source="ldsz_zycs_tb2" visible.kong="false" visible.kong2="false"/>
+	<e:Image y="141" x="412" source="ldsz_zycs_tb4" visible.kong="false" visible.kong2="false"/>
+	<e:Label id="lbRoleNameR" text="Leader: Miracle xXMoo MoralityXx" y="62" fontFamily="Times" size="20" x="445" visible.kong="false" textColor="0xffffff" visible.kong2="false"/>
+	<e:Label id="lbCountR" text="Guild Members: 2" y="104" fontFamily="Times" size="20" x="445" visible.kong="false" textColor="0xffffff" visible.kong2="false"/>
+	<e:Label id="lbLevelR" text="Guild Level: 2" y="148" fontFamily="Times" size="20" x="445" visible.kong="false" textColor="0xffffff" visible.kong2="false"/>
+	<e:Image y="77" x="56" source="ldsz_zycs_xwyd" visible.normal="false" visible.kong="false"/>
+	<e:Image y="77" x="483" source="ldsz_zycs_xwyd" visible.normal="false"/>
+
+</e:Skin>

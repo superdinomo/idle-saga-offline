@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SVipEveryDayAwardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+
+	<e:Group id="group" horizontalCenter="0.5" verticalCenter="-78" width="553" height="360">
+		<e:Image source="public_zycs_dikuang" width="100%" height="100%" scale9Grid="74,59,37,17"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+		<e:Image id="imgVipLv" y="12" horizontalCenter="0" source=""/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source=""/>
+		<e:Image y="79" width="494" height="158" source="public_zycs_tsk1" scale9Grid="22,52,20,12" horizontalCenter="0"/>
+
+		<e:Scroller height="150" y="87" horizontalCenter="0" width="453">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="455" height="150">
+			
+				
+					
+					
+					
+					
+				
+			
+				<e:layout>
+					<e:HorizontalLayout gap="18" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="" x="469" y="-2" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Button id="btnGet" label="Claim" y="246" skinName="BtnMin1_1" horizontalCenter="0"/>
+		<e:Image id="imgYLQ" y="229" source="lilian_zycs_ylq" touchEnabled="false" horizontalCenter="0" visible="false"/>
+
+	</e:Group>
+</e:Skin>

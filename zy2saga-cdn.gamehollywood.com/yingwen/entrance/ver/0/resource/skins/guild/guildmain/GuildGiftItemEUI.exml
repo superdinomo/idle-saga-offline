@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildGiftItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="94">
+	<w:Config id="1586b362dfe"/>
+    <e:Component id="item" skinName="ItemSkin"  anchorOffsetX="0"/>
+	<e:Label id="levelTxt" y="6" size="20" fontFamily="Times" text="0" x="9" textColor="0xcdc8be" stroke="2"/>
+	<e:Label y="98" size="20" fontFamily="Times" text="From" textColor="0xCDC8BE" horizontalCenter="0"/>
+	<e:Label id="nameTxt" y="130" size="20" fontFamily="Times" text="Miracle xXMoo MoralityXx" horizontalCenter="0" textColor="0xff9b0f"/>
+</e:Skin>

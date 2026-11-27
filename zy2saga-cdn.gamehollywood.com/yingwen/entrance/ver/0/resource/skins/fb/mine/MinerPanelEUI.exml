@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MinerPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image y="42" x="13" source="sjhj_zycs_bg1_jpg" />
+	<e:Scroller id="scroller" y="87" x="14" width="692" height="740">
+		<e:List id="list" itemRendererSkinName="MinerItemEUI">
+			<e:layout>
+				<e:TileLayout verticalGap="16" horizontalGap="8" requestedRowCount="2" />
+			</e:layout>
+			<!--<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>-->
+		</e:List>
+	</e:Scroller>
+	<e:Label text="When Bless Points are full, boosting the quality will guarantee success. After a successful boost, the Bless Points will be reset to 0" y="837" size="20" fontFamily="Times" textColor="0xe5d3b5"  anchorOffsetX="0" width="641" wordWrap="true" horizontalCenter="0"/>
+	<e:Label text="Bless" y="886" size="20" fontFamily="Times" x="40" textColor="0xff9b0f" />
+	<e:ProgressBar id="sceneBar" y="877" value="0" maximum="3" x="139" skinName="ProgressBarEUI3" width="545" />
+	<e:Label id="qualityTxt" text="0" y="975" size="22" fontFamily="Times" x="103" width="238" textAlign="center"
+	         textColor="0xe5d3b5" />
+	<e:Label id="miningTxt" text="0" size="22" fontFamily="Times" x="371" width="264" textAlign="center"
+	         textColor="0xe5d3b5"  bottom="137"/>
+	<e:Group id="qualityConsuGroup" x="167" y="970">
+		<e:Label text="Cost: " y="5" size="22" fontFamily="Times" x="0" textColor="0xe5d3b5" />
+		<e:Component id="qualityConsu" y="0" skinName="PriceIconSkin" x="58" />
+	</e:Group>
+	<e:Group id="miningConsuGroup" x="452" y="970">
+		<e:Label text="Cost: " y="5" size="22" fontFamily="Times" x="0" textColor="0xe5d3b5" />
+		<e:Component id="miningConsu" y="0" skinName="PriceIconSkin" x="57" />
+	</e:Group>
+	<e:Button id="qualityBtn" y="1010" skinName="BtnMin1_1" x="152" label="Boost Quality" />
+	<e:Button id="miningBtn" y="1010" skinName="BtnMin1_1" x="436" label="Start Mining" />
+</e:Skin>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenYouYinJiSkillShowWin2EUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="-25.5" width="678" height="937">
+		<e:Image y="0" scale9Grid="83,62,16,9" x="0" anchorOffsetX="0" anchorOffsetY="0" source="shenyou_zycs_bg5_jpg"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="sc_zycs_x" x="636" y="2"/>
+
+		<e:Label id="lbSkillName" text="Skill Name" y="17" size="30" fontFamily="Times" textAlign="left" x="138" textColor="0xF5E65A"/>
+		<e:Label id="lbSkillLevel" text="Maximum Level" y="78" size="24" fontFamily="Times" textAlign="left" x="137" textColor="0xFFFFFF"/>
+		<e:Label id="lbSkillDesc" text="Still need 5 levels to activate skill [Zeal] Lv.2" y="123" size="20" fontFamily="Times" width="626" textAlign="left" x="25" textColor="0xFFFFFF"/>
+
+		<e:Label id="lbSkillXiaoGuo1" text="Skill Effect" y="761" size="22" fontFamily="Times" width="635" textAlign="left" x="21" textColor="0xFFFFFF" lineSpacing="5"/>
+		<e:Image touchEnabled="false" y="822" horizontalCenter="0" source="shenyou_zycs_x"/>
+		<e:Image id="imgBG" source="public_zycs_daojukuang_01" y="16" x="23"/>
+		<e:Image id="imgIcon" x="30" y="21" source="shenyou_zycs_yjzs"/>
+
+
+
+
+
+
+
+
+
+		<e:Group id="groupSend" y="834" horizontalCenter="0" height="57" width="453">
+			<e:Group id="groupConsu" y="0" horizontalCenter="0">
+				<e:Label y="17" size="20" fontFamily="Times" textAlign="left" text="Activation Cost:" verticalAlign="top" lineSpacing="10" x="45" textColor="0xFFFFFF"/>
+				<e:Image id="imgConsu" y="0" x="0" source="zycs_360042"/>
+				<e:Label id="lbConsu" y="7" size="20" fontFamily="Times" textAlign="left" text="111/200" verticalAlign="top" lineSpacing="10" x="35" textColor="0xFFFFFF"/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="groupAct" y="29" horizontalCenter="0">
+				<e:Label id="lbAct" text="Upgrade when Imprint reaches Lv.400" size="22" textAlign="center" fontFamily="Times" x="0" textColor="0xe3d7be" y="0"/>
+				<e:Label id="lbYinJiLevel" text="(Current Level: 15/150)" size="22" textAlign="center" fontFamily="Times" x="0" textColor="0xE3D7BE" y="0"/>
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="bottom" gap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:Button id="btnSend" label="Upgrade" skinName="BtnMin1_1mid" horizontalCenter="0.5" verticalCenter="26.5"/>
+		</e:Group>
+		<e:Image id="imgYml" touchEnabled="false" y="832" source="bxsb_zycs_ymj" horizontalCenter="0"/>
+	
+		<e:Group width="0" height="0" id="groupEntity1" x="200" y="420"/>
+		<e:Group width="0" height="0" id="groupEntity2" x="510" y="630"/>
+		<e:Group width="0" height="0" id="groupMC" horizontalCenter="0" verticalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	<!--<e:Image source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\S_神佑\S-神佑系统-印记-印记之殇.jpg"/>-->
+</e:Skin>

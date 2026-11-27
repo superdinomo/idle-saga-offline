@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HfpkRenQiRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="670" states="s1,s2,s3,s4,s5"  height="85">
+
+	<e:Image id="imgRank" source="jjc_zycs_no1" x="15" source.s2="jjc_zycs_no2" source.s3="jjc_zycs_no3" y="16" visible.s5="false" source.s4="jjc_zycs_no4" x.s4="17" y.s4="17"/>
+	<e:Image source="jjc_zycs_fgx" horizontalCenter="0" bottom="0"/>
+	<e:Label id="lbRank" text="0" textAlign="center" fontFamily="Times" size="20" textColor="0xcdc8be" verticalCenter="0.5" visible.s1="false" visible.s2="false" visible.s3="false" horizontalCenter="-285" visible.s4="false"/>
+	<e:Label id="lbName" text="S456.Neighbor Wong" textAlign="center" fontFamily="Times" size="20" textColor="0xf5e65a" x="101" verticalCenter="0.5"/>
+	<e:Label id="lbRenqi" text="Popularity: 9999" textAlign="center" fontFamily="Times" size="20" x="296" verticalCenter="0" textColor="0xff9b0f"/>
+		<e:Scroller scrollPolicyH="off" x="501" verticalCenter="-0.5" scaleX="0.68" scaleY="0.68">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12" gap="18"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+        </e:Scroller>
+</e:Skin>

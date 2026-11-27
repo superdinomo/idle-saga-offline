@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipDevourGridItemEUI" width="98" height="99" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="zhzh_zycs_json.zhzh_zycs_di" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="imgIcon" width="80" height="80" horizontalCenter="0" verticalCenter="0" source="zhzh_zycs_json.zhzh_zycs_di0"/>
+	<e:Image id="imgAdd" source="zhzh_zycs_jia" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

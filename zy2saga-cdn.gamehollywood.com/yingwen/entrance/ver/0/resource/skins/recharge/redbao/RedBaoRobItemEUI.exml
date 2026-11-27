@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBaoRobItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="685" height="180">
+	<w:Config id="15d12402850"/>
+	<e:Image id="bg" y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="shenmo_zycs_dikuang_02" width="685" height="180" scale9Grid="86,31,191,43"/>
+	<e:Image id="headBg" x="33" y="15" scale9Grid="10,10,64,64" source="role_zycs_touxiangkuang"/>
+	<e:Image id="head" x="45" y="23" anchorOffsetX="0" anchorOffsetY="0" source="mianui_zycs_sheshou0"/>
+	<e:Image id="titleImg" x="205" y="25" anchorOffsetX="0" anchorOffsetY="0" source="czhb_zycs_hb3"/>
+	<e:Image id="ybImg" x="469" y="40" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+	<e:BitmapLabel id="vipBmp" x="129" y="95" font="rankvnum_fnt" text="0" letterSpacing="-8"/>
+	<e:Label id="nameLabel" text="0" x="16" y="131" fontFamily="Times" size="20" scaleX="1" scaleY="1" width="145" textAlign="center" textColor="0xff9b0f"/>
+	<e:Label id="decTxt" text="Come and claim it, you guys" x="269" y="82" fontFamily="Times" size="20" scaleX="1" scaleY="1" textColor="0x23BECD"/>
+	<e:Label id="timeTxt" text="0" x="270" y="118" fontFamily="Times" size="20" wordWrap="true" anchorOffsetX="0" anchorOffsetY="0" textColor="0x15af03"/>
+	<e:Label id="ybTxt" text="0" x="468" y="118" fontFamily="Times" size="20" wordWrap="true" anchorOffsetX="0" anchorOffsetY="0" textColor="0xcdc8be" width="80" textAlign="center"/>
+	
+</e:Skin>

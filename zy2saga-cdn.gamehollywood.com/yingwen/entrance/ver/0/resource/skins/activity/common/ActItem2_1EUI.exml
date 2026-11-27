@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem2_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b362dfe"/>
+	<e:Image y="14" source="llcz_zycs_di01"/>
+	<e:Image id="imgTitle" x="74" source="xg_zycs_qmth"/>
+	<e:Group x="11" y="0">
+		<e:Image touchEnabled="false" x="0" y="0" source="hddt_zycs_xiangoudi"/>
+		<e:Image touchEnabled="false" y="27" source="hddt_zycs_zhe" x="16"/>
+		<e:BitmapLabel id="bmpDiscount" y="6" text="1.5" letterSpacing="-5" horizontalCenter="0" font="xgnum2_fnt"/>
+	</e:Group>
+	<e:List id="list" itemRendererSkinName="ItemSkin" x="72" y="43" height="94">
+		<e:layout>
+		<e:HorizontalLayout gap="13"/>
+		</e:layout>
+		<!--
+			
+				
+				
+				
+			
+		-->
+	</e:List>
+	<e:Component id="price" skinName="PriceIconSkin" x="537" y="79"/>
+	<e:Button id="btnBuy" icon="anz_zycs_gm" x="533" skinName="BtnMin1_8" y="43"/>
+	<e:Label id="labelBuyCount" fontFamily="Times" size="24" lineSpacing="10" textColor="0xDFD1B5" text="(You can" y="111" horizontalCenter="252"/>
+	<e:Component id="price0" skinName="PriceIconSkin" x="536" y="42"/>
+	<e:Label text="Original Price" x="390" y="43" size="24" fontFamily="Times" textColor="0xcdc8be"/>
+	<e:Label text="Current Price" x="390" y="80" size="24" fontFamily="Times" textColor="0xffc231"/>
+
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhulingBuffWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-27">
+		<e:Image x="0" y="0" source="erjijiemiankuang_png"/>
+	<e:Image id="imgTitle" y="26" source="chibang_zycs_zhulingdashi" x="312"/>
+	<e:Button id="closeBtn" label="" x="637" y="15" skinName="Btn0Skin" icon="public_zycs_quxiao" />
+		<e:Group id="groupCur" x="160" y="114">
+			<e:Image width="324" y="0" scale9Grid="115,8,38,19" source="qianghua_zycs_diwen1" x="38"/>
+			<e:Label id="labelTotle" text="0" y="7" size="20" textAlign="center" fontFamily="Times" textColor="0xcdc8be" width="400" x="0"/>
+			<e:Label id="labelCur" text="0" x="65" y="60" size="20" textColor="0x61d317" fontFamily="Times" lineSpacing="14"/>
+		</e:Group>
+	<e:Image y="400" touchEnabled="false" width="250" source="zs_zycs_fengexian" x="235"/>
+		<e:Group id="groupNext" x="160" y="433">
+			<e:Image width="324" y="0" scale9Grid="115,8,38,19" source="qianghua_zycs_diwen1" x="38"/>
+			<e:Label id="labelTotleNext" text="0" y="7" size="20" textAlign="center" fontFamily="Times" textColor="0x636363" width="400" x="0"/>
+			<e:Label id="labelLvNext" text="0" x="83" y="63" size="20" fontFamily="Times" textColor="0x636363" lineSpacing="14"/>
+		</e:Group>
+		<e:Label id="labeMax" text="(Max Tier Reached)" y="566" size="20" anchorOffsetX="0" textAlign="center" fontFamily="Times" textColor="0xf01414" x="320"/>
+		<e:Image y="703" source="qianghua_zycs_fenge" x="215"/>
+		<e:Label id="labelJie" text="0" y="753" size="20" anchorOffsetX="0" width="275" textAlign="center" fontFamily="Times" textColor="0xFF9B0F" x="223"/>
+	</e:Group>
+</e:Skin>

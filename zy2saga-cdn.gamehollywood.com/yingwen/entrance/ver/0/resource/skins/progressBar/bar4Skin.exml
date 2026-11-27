@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bar4Skin" minWidth="30" minHeight="11" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="thumb0" source="fb_zycs_jdt0" scaleY="-1" x="0" y="22"/>
+	<e:Image id="thumb" x="0" source="fb_zycs_jdt1" scale9Grid="55,11,18,2" height="21" scaleY="-1" y="25"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="12" textColor="0xE8FFD9" fontFamily="Times" horizontalCenter="0" verticalCenter="1"/>
+</e:Skin>

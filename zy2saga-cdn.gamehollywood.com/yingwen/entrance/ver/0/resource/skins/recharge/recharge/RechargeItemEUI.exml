@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RechargeItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="first,none,yongjiu"  height="213" width="349">
+	<e:Image y="20" x="26" anchorOffsetY="0" anchorOffsetX="0" source="sc_zycs_dikuang_png"/>
+	<e:Image y="139" source="public_zycs_greybg1" anchorOffsetX="0" width="145" anchorOffsetY="0" height="31" x.first="29" horizontalCenter.none="10" visible.none="false" visible="false"/>
+	<e:Image y="139" source="public_zycs_greybg1" anchorOffsetX="0" width="145" anchorOffsetY="0" height="31" x="201" visible.none="false" visible="false"/>
+	<e:Image id="imgDiamon" source="zycs_320002" x="227" y="138" visible.none="false"/>
+	<e:Image id="imgYb" source="sc_zycs_bg5" horizontalCenter="7" verticalCenter="-23"/>
+	<e:Image y="135" source="sc_zycs_song" x="186" visible.none="false"/>
+	<e:Group x="33" y="137" horizontalCenter.none="12.5" x.first="33">
+		<e:Image y="0" source="sc_zycs_de" x="0" x.none="99" scaleX.none="0" scaleY.none="0"/>
+		<e:Image id="imgDiamon0" source="zycs_320002" x="28" y="0" x.none="127"/>
+		<e:Label id="lbYb" x="62" y="5" text="120" size="24" fontFamily="Times" textAlign="center" x.none="161" textColor="0xffc13d"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbDoubleYb" x="264" y="144" text="120" size="24" fontFamily="Times" textAlign="center" visible.none="false" textColor="0xffc13d"/>
+	<e:Label id="lbPrice" text="6" y="177" fontFamily="Times" size="24" horizontalCenter="11.5" textColor="0xe6dcb8"/>
+	<e:Group id="groupMC" width="0" height="0" x="0" y="0"/>
+	<e:Image id="imgFirstPay" x="0" y="0" source="sc_zycs_scsb" source.none="sc_zycs_rm" y.none="4" x.none="0" source.yongjiu="sc_zycs_yjsb"/>
+</e:Skin>

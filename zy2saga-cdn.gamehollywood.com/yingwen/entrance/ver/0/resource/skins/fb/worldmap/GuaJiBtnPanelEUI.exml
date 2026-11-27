@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiBtnPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="141" height="122">
+	<w:Config id="15d981d06da" />
+	<e:Button id="btnSend" label="" skinName="Btn0Skin" icon="mianui_zycs_cg" y="14" x="31"/>
+	<e:Group id="groupMC" y="50" touchEnabled="false" touchChildren="false" touchThrough="false" x="70"/>
+	<e:Image y="2" touchEnabled="false" width="141" x="0" source="public_zycs_di01" height="30"/>
+	<e:Label id="lbAssist" text="Stage 999" y="7" fontFamily="Times" size="20" textColor="0xE3D7BE" textAlign="center" width="128" x="7"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="94" y="21" touchEnabled="false"/>
+	<e:ProgressBar id="barBo" slideDuration="0" value="3" maximum="3" y="78" skinName="ProgressBarEUI13" horizontalCenter="0"/>
+	<e:Image y="81" touchEnabled="false" source="mianui_zycs_sx" x="60"/>
+	<e:Button id="btnAuto" label="" skinName="Btn0Skin" icon="mianui_zycs_zdtz" y="89" horizontalCenter="0.5"/>
+</e:Skin>

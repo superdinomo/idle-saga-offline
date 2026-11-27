@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleLotteryPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="53" touchEnabled="false" x="25" source="ldsz_zycs_jcsm"/>
+	<e:Image y="116" touchEnabled="false" x="13" source="ldsz_zycs_jcbg_jpg"/>
+
+
+
+
+
+	<e:Scroller width="716" height="796" x="2" y="94">
+		<e:List id="list" itemRendererSkinName="GuildBattleLotteryItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="4" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<!--<e:Image y="913" x="312" source="ldsz_zycs_jcjl"/>
+	<e:Image y="916" source="liuguang_zycs_huawen" scaleX="-1" x="599"/>
+	<e:Image y="916" source="liuguang_zycs_huawen" x="121"/>
+	<e:List id="listAward" itemRendererSkinName="ItemSkin" y="971" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="14"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>-->
+</e:Skin>

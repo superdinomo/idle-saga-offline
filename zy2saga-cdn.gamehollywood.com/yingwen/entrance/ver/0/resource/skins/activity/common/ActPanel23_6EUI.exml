@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel23_6EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1134" width="720">
+	<e:Group id="group" y="0" width="720" height="1134">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+		<e:Image id="imgBg" y="41" x="13" source="hddt_zycs_wgfl_jpg"/>
+		<e:Image x="-2" y="-58" touchEnabled="false" source="dljl_zycs_k_png" pixelHitTest="true" />
+		<e:Image id="imgTitle" y="-6" touchEnabled="false" horizontalCenter="0"  source="hddt_zycs_wgfl"/>
+		<e:List id="listAward" itemRendererSkinName="ItemSkin" y="225" horizontalCenter="0">
+			<e:layout>
+			<e:TileLayout requestedColumnCount="5" horizontalGap="19" verticalGap="9" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="btnHelp" text="Event Info" y="451" size="22" textAlign="left" fontFamily="Times" x="27" textColor="0x13ee22"/>
+		<e:Label id="lbDay" text="Topped up 1 day. Top up more days to claim rewards" y="452" size="22" textAlign="left" fontFamily="Times" right="23" textColor="0xffffff"/>
+		<e:Scroller height="600" scrollPolicyH="off" width="682" y="484" x="19">
+			<e:List id="list" itemRendererSkinName="ActItem23_6EUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1" />
+	</e:Group>
+
+</e:Skin>

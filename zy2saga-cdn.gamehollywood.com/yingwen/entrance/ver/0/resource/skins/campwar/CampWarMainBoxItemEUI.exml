@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarMainBoxItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="state0,state1"  width="69">
+    <w:Config id="15af9c70173" />
+	<e:Image id="imgBox" touchEnabled="false" source="smsz_zycs_bg12_png" source.state1="smsz_zycs_bg11_png" horizontalCenter="0" bottom="87"/>
+	<e:Image scale9Grid="2,3,2,2" anchorOffsetX="0" y="77" touchEnabled="false" horizontalCenter="0" source="smsz_zycs_jt"/>
+	<e:Label id="lbDec" text="One Round" y="135" size="20" textAlign="left" fontFamily="Times" textColor="0xE3D7BE" horizontalCenter="0.5"/>
+	<e:Group id="groupMc" x="0" y="0"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="50" y="5"/>
+</e:Skin>

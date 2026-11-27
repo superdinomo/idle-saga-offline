@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MallXGTHPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134">
+	<e:Group x="0" y="-38">
+		<e:Image x="0" y="38" height="1134" touchEnabled="false" width="720"
+		         source="public_zycs_dikuang"  scale9Grid="72,59,43,21"/>
+		<e:Image y="81" x="13" source="sc_zycs_di_jpg" />
+		<e:Image y="81" x="12" source="sc_zycs_mv1_jpg" />
+		<e:Image y="127" x="284" source="sc_zycs_hygl" />
+		<e:Image y="0" touchEnabled="false" source="sc_zycs_k3" x="0"  />
+		<e:Image y="40" x="326" source="sc_zycs_scbt" />
+		<e:Scroller id="scrollItem" height="732" y="316" width="686" horizontalCenter="0">
+			<e:List id="listItem" itemRendererSkinName="MallXGTHPanelItemEUI">
+				<!--
+					
+						
+					
+				-->
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" horizontalGap="14" verticalGap="7" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image touchEnabled="false" x="0" source="vip_zycs_k2" y="1117" />
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActPanelTab2Item44_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"      states="up,down"  width="138" height="117">
+	<e:Image id="imgIcon" source="qmtg_zycs_lb1_1" bottom="-7"/>
+	<e:Image id="imgSelect" visible.up="false" source="qmtg_zycs_lb1_0" bottom="-6"/>
+
+
+
+
+
+
+</e:Skin>

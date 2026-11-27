@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RechargeEverydayWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-94.5">
+		<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0"
+		          scale9Grid="100,367,475,12" source="mrlc_zycs_di2_png"/>
+		<e:Button id="closeBtn0" label="" x="663" y="17" skinName="Btn0Skin" icon="zuji_zycs_X" />
+		<e:Image y="-31" x="184"  source="mrlc_zycs_dl"/>
+		<e:Image y="143" x="287" source="mrlc_zycs_msz"/>
+		<e:Image y="189" x="397" source="mianui_zycs_dzs" scaleX="0.6" scaleY="0.6"/>
+		<e:Image y="258" x="218" source="mrlc_zycs_di1_png"/>
+		<e:BitmapLabel id="bmpzc" y="136" text="999" letterSpacing="-12" horizontalCenter="94.5" font="czhbnum1_fnt"/>
+		<e:BitmapLabel id="bmpWorth" y="186" text="999" horizontalCenter="159.5" font="czhbnum1_fnt" letterSpacing="-12"/>
+		<e:Button id="btnGetAward" label="" y="426" icon="anz_zycs_lqjl"
+		           x="400" skinName="BtnMin1_8"/>
+		<e:Button id="btnRecharge" label="" y="426" icon="anz_zycs_czlq"
+		           x="400" skinName="BtnMin1_8"/>
+		<e:Button id="btnHasGet" y="419" icon="anz_zycs_ylq"
+		          enabled="true"  x="400" skinName="BtnMin1_8"/>
+		<e:Scroller height="118" y="279" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" horizontalCenter="109.5">
+			<e:List id="list" height="62" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="ItemSkin" x="1">
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalGap="10" paddingLeft="8"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

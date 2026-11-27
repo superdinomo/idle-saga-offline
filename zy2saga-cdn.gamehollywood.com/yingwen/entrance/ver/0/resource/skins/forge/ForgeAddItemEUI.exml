@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ForgeAddItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="137" height="140">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" x="0" source="qianghua_zycs_kuang"/>
+	<e:Image id="imgSelect" x="0" y="0" touchEnabled="false" source="qianghua_zycs_kuang2" visible="false"/>
+	<e:Image id="imgEquipBg" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5" verticalCenter="0" source="public_zycs_pinzhidi_01"/>
+	<e:Group id="groupMc" horizontalCenter="0" y="70"/>
+	<e:Image id="imgIcon" source="" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="redPoint" x="105" y="12" source="mainui_zycs_hongdian" visible="false"/>
+	<e:BitmapLabel id="bitRank" y="28" text="1r" font="zbjsnum_fnt" x="26" visible="false"/>
+	<e:Image id="imgLock" source="qianghua_zycs_suo" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="groupLevel" x="26" y="27">
+		<e:Image x="0" y="2" source="zhuijia_zycs_zhui"/>
+		<e:BitmapLabel id="bitLevel" y="0" text="1" touchEnabled="false" x="23" font="qianghuanum2_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+
+</e:Skin>

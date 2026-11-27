@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnGuildSkillSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="0" y="0" height="100%" alpha="0.01" width="100%" source="guild_zycs_llcz0_png"/>
+	<e:Image x="0" y="30" visible.disabled="false" source="guild_zycs_llcz0_png"/>
+	<e:Image x="155" y="-5" visible.disabled="false" source="zhanmeng_zycs_bqk"/>
+	<e:Image x="165" y="2" source="zhanmeng_zycs_bq"/>
+	<e:Image x="170" y="36.5" source="zhanmeng_zycs_jnst"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="189" y="-4" visible="false"/>
+</e:Skin>

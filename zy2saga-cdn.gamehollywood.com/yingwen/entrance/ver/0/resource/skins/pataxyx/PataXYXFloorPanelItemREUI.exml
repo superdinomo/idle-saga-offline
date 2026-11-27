@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PataXYXFloorPanelItemREUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="232" height="140" >
+	<e:Group id="group" x="116" y="70" anchorOffsetX="116" anchorOffsetY="70">
+		<e:Image id="imgBg" y="0" touchEnabled="false" width="232" height="140" x="0" source="public_zycs_pinzhidi_07a" scale9Grid="12,12,72,72"/>
+		<e:Group id="groupRole" x="80" y="123" width="0" height="0">
+			<e:BitmapLabel id="bmpRole" x="-61" y="-109" text="999" font="sjtsnum_fnt" letterSpacing="-1"/>
+		</e:Group>
+		<e:Group id="groupEnemy" x="90" y="133" width="0" height="0">
+			<e:BitmapLabel id="bmpEnemy" x="69" y="-119" text="999" letterSpacing="-1" font="zjghnum1_fnt"/>
+		</e:Group>
+		<e:Image id="imgTop" touchEnabled="false" width="232" x="0" source="public_zycs_tyts" y="83"/>
+	</e:Group>
+</e:Skin>

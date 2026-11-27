@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildBattleGerenDabiaoItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="189" height="138">
+
+	<e:Label id="lbRank" text="100\nPoints" fontFamily="Times" size="24" textAlign="center" verticalCenter="0" horizontalCenter="-55.5" textColor="0xff9b0f"/>
+
+	<e:List id="list" itemRendererSkinName="ItemSkin" x="68" verticalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="14" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	
+</e:Skin>

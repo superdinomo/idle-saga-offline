@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenDianPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="max,normal">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" width="720" scale9Grid="88,64,2,3" />
+	<e:Image id="imgBg" y="42" x="13"  source="shml_zycs_bg_jpg"/>
+	<e:Component id="actDouble" touchEnabled="false" y="491" skinName="ActDoubleEUI" horizontalCenter="-6.5" visible="false"/>
+	<e:Image x="43" y="69" source="em_zycs_zd" />
+	<e:Image x="19" y="58"  source="em_zycs_klt"/>
+	<e:Image id="imgIcon" x="84" y="76"  source="shml_zycs_shsd"/>
+	<e:BitmapLabel id="indexBmp" x="186" y="76" text="22" letterSpacing="0" font="qianghuanum2_fnt" />
+	<e:Group id="group" width="720" height="367" x="0" y="482" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image x="86" y="132" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip"  source="mlzc_zycs_tzjl"/>
+		<e:Scroller y="121" scrollPolicyH="off" height="158" x="132" width="487">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15" gap="27"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+		<e:Label text="Attempts Remain: " x="84" y="301" fontFamily="Times" textAlign="center" size="24" textColor="0xff9b0f" />
+		<e:Label id="lbVip" text="VIP have extra purchase" y="266" fontFamily="Times" textAlign="center" size="22" textColor="0xFF9B0F"
+		          right="186"/>
+		<e:Image scale9Grid="6,6,3,3" x="296" y="300" source="public_zycs_shurukuang"
+		         height="27" />
+		<e:Label id="lbSurplus" text="0" x="296" y="302" width="119"
+		         textAlign="center" size="22" fontFamily="Times" verticalAlign="middle" />
+		<e:Button id="btnSurplus" label="" x="426" y="291" skinName="Btn0Skin" icon="public_zycs_jia" />
+		<e:Component id="guaJiZhuShouGoto" touchEnabled="true" skinName="GuaJiZhuShouGotoEUI" x="530" y="256" currentState="emo"/>
+		<e:Button id="btnintofuben" label="Enter" y="381" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_1"  x="286"/>
+		<e:Image y="261" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" source="em_zycs_xian" width="510" x="105" />
+	</e:Group>
+	<e:Label id="labelLv" text="M1 R2" y="75" size="24" fontFamily="Times" textAlign="center" verticalAlign="middle"
+	         x="226" textColor="0x13ee22" />
+	<e:Label text="How to Play:" y="121" size="22" fontFamily="Times" textAlign="left" verticalAlign="middle" x="47"
+	         textColor="0xFFFFFF" lineSpacing="5" />
+	<e:Label id="lbDesc" text="Rules" y="145" size="22" fontFamily="Times" textAlign="left" verticalAlign="middle" x="47"
+	         lineSpacing="5" textColor="0xffffff"  width="621"/>
+	<e:Label text="Tips: Rally your teammates to challenge the Dungeon together for more rewards!" y="226" size="22" fontFamily="Times" textAlign="left" verticalAlign="middle" x="44" lineSpacing="5" textColor="0xf01414" visible="false"/>
+	<e:Label id="lbTjPower" text="Recommended CP:" x="47" y="309" size="24" fontFamily="Times" textColor="0xf5e65a" />
+	<e:Label id="lbCurPower" text="Current CP" x="47" y="340" size="24" fontFamily="Times" textColor="0xf5e65a" />
+	<e:Label id="lbZhuZhan" text="Assist Attempts: 5" y="372" size="24" fontFamily="Times" textAlign="center" verticalAlign="middle"
+	         anchorOffsetX="0" anchorOffsetY="0" height="21" x="47" textColor="0xf5e65a" />
+	<e:Group id="groupLevelExp" y="555" visible.max="false" horizontalCenter="0">
+		<e:Image x="0"  y="3" source="shml_zycs_djdd" scale9Grid="84,3,141,23" width="372"/>
+		<e:Image id="imgLevel" source="mlzc_zycs_10102" x="72" y="-1"/>
+
+
+		<e:BitmapLabel id="bitCeng" font="rcnum1_fnt" text="2"  y="1" x="372"/>
+		<e:Image y="-1" x="399"  source="mlzc_zycs_msz2"/>
+
+	</e:Group>
+</e:Skin>

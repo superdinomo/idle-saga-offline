@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildSkillItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,sure"  width="137" height="140">
+	<e:Image id="imgBG" verticalCenter="0" horizontalCenter="0" source="public_zycs_daojukuang_01" source.sure="qianghua_zycs_kuang"/>
+	<e:Image id="imgIcon" width="74" height="74" verticalCenter="-4" source="" horizontalCenter="0" horizontalCenter.sure="-0.5" verticalCenter.sure="0"/>
+	<e:Label id="lbLv" text="Lv.99" size="20" fontFamily="Times" textColor="0xCDC8BE" horizontalCenter="0.5" y="120"/>
+	<e:Image id="imgSelect" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="13,10,46,51" horizontalCenter="0.5" verticalCenter="-3.5" source="public_zycs_xuanzhongkuang" visible="false"/>
+	<e:Image id="imgRedPoint" y="14" x="100" source="mainui_zycs_hongdian" visible="false"/>	
+	
+</e:Skin>

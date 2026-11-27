@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WuJinDaoMainPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1134">
+	<w:Config id="15af9c70173" />
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:ViewStack id="viewStack" y="0" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" x="0">
+		</e:ViewStack>
+
+	<e:Scroller id="scrollerBase" y="1019" maxWidth="667" horizontalCenter="0">
+		<e:TabBar id="tab"  selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="BtnTab3ZYCSSkin">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+	</e:TabBar>
+	</e:Scroller>
+	<e:Group y="1004" horizontalCenter="0" visible="false">
+		<e:Button id="leftBtnBase" y="0" icon="public_zycs_jtzs" skinName="Btn0Skin" label="" x="0" scaleX="-1"/>
+		<e:Button id="rightBtnBase" y="0" icon="public_zycs_jtzs" skinName="Btn0Skin" label="" x="535"/>
+	</e:Group>
+</e:Skin>

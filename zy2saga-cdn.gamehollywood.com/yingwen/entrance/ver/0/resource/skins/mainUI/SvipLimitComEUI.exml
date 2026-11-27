@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SvipLimitComEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="70" height="72">
+	<w:Config id="15ddfc10774"/>
+	<e:Image id="imgBg" x="0" y="0" source="mianui_zycs_xslb"/>
+	<e:Group id="groupMc" x="35" y="36"/>
+</e:Skin>

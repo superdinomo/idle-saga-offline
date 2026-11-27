@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FlyNumberSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bde13e1"/>
+	<e:Group id="group">
+		<e:Image id="bmpWord" x="32" y="41" source="fanshe"/>
+		<e:BitmapLabel id="bmpNumber" x="97" y="1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group> 
+</e:Skin>

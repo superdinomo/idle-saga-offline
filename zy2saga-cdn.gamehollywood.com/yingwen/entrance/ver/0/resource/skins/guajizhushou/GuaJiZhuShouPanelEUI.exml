@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuaJiZhuShouPanelEUI" currentState="nobuy" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1134" width="720" states="buy,nobuy" >
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="40" scale9Grid="87,667,525,5" anchorOffsetY="0" source="ngzs_zycs_bg1_jpg" horizontalCenter="0"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" source="ngzs_zycs_ngzs" horizontalCenter="0"/>
+	<e:Scroller width="681" y="192" height="765" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on" horizontalCenter="0.5">
+			<e:List id="list" width="677" height="629" x="0" y="-14" itemRendererSkinName="GuaJiZhuShouPanelItemEUI"  anchorOffsetX="0" anchorOffsetY="0">
+								<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+	<e:Label id="lbBuyDesc" text="Spend 2800 diamonds to activate 30 days of Game Assistant" x="21" y="985" size="22" fontFamily="Times" textAlign="left" textColor="0xff9b0f" visible.buy="false" width.nobuy="474" x.nobuy="26"/>
+	<e:Label id="lbTf" y="985" text="Assistant Remaining Activation Time:" fontFamily="Times" size="24" x="22" lineSpacing="10" visible.nobuy="false" textColor="0xff9b0f" size.buy="20"/>
+	<e:Label id="lbTimer" y="985" text="0" fontFamily="Times" size="24" x="259" lineSpacing="10" visible.nobuy="false" textColor="0x13ee22" x.buy="332" y.buy="987" size.buy="20"/>
+	<e:Image y="1030" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="61,39,5,23" source="fl_zycs_kthd" x="21" y.nobuy="1041" x.nobuy="25"/>
+	<e:Label id="lbAttr" text="ATK" x="140" y="1030" size="22" fontFamily="Times" textColor="0xFF9B0F" y.nobuy="1041" x.nobuy="144" y.buy="1029" x.buy="144" size.buy="20"/>
+	<e:Button id="btnBuy" y="977" x="507" label.buy="Renew Assistant" label="Activate Assistant" skinName="BtnMin1_17"/>
+	<e:Component id="priceIcon" y="1043" skinName="PriceIconSkin" horizontalCenter="235"/>
+</e:Skin>

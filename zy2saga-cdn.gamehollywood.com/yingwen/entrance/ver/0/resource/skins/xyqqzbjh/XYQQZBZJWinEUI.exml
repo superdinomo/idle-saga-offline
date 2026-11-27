@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XYQQZBZJWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+	<e:Image y="0"  anchorOffsetX="0" anchorOffsetY="0" scale9Grid="120,73,396,17" x="0" source="sqxy_zbjh_png"/>
+		<e:Button id="closeBtn0" label="" y="14" skinName="Btn0Skin" icon="public_zycs_cha1" x="657"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Group>
+</e:Skin>

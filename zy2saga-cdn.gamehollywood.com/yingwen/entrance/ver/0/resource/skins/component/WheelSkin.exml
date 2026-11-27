@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WheelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<e:Image id="imgBg" source="wheel_bg" anchorOffsetX="79.5" anchorOffsetY="79.5"/>
+	<e:Image id="imgWheel" anchorOffsetX="41.5" anchorOffsetY="41.5" source="wheel_ball"/>
+	<e:Image id="imgDir" anchorOffsetX="105" anchorOffsetY="105" source="wheel_direct"/>	
+</e:Skin>

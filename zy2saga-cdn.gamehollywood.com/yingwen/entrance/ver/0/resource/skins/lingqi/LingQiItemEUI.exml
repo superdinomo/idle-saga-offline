@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LingQiItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="130" states="up,down" >
+	<e:Image id="imgSelect" source="public2_zycs_json.public_zycs_xuanzhong" visible.up="false" y="-6"/>
+	<e:Image id="imgBG" source="public_zycs_daojukuang_01" y="14" x="18"/>
+	<e:Image id="imgColor" y="13" source="public_zycs_pinzhi_02" x="19"/>
+	<e:Image id="imgIcon" width="80" height="80" source="mianui_icon_bianshen1" x="25" y="19"/>
+	<e:Image id="imgAn" width="80" height="80" x="25" y="19" source="public_zycs_greybg2" scale9Grid="2,2,16,16"/>
+	<e:Group id="groupMc" width="0" height="0" x="18" y="14"/>
+	<e:Label id="lbSyz" text="In Use" size="18" fontFamily="Times" textColor="0x11F51C" x="24" y="17" width="35"/>
+	<e:Image id="imgSR" y="17" right="22" source="shenqi_zycs_2"/>
+	<e:Label id="lbLv" text="R3 (333)" size="18" fontFamily="Times" textAlign="center" textColor="0xf4f4f4" horizontalCenter="0.5" width="89" wordWrap="true" y="56" anchorOffsetY="0" height="44" verticalAlign="bottom"/>
+	<e:Label id="lbName" text="Wind SlashWind " y="105" size="18" fontFamily="Times" textAlign="center" textColor="0xd851ff" horizontalCenter="0.5" wordWrap="true" width="115" verticalAlign="top" height="36"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="98" y="5"/>
+</e:Skin>

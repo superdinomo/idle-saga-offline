@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FirstBtnEUI" states="up,down,disabled" minHeight="25" minWidth="25" currentState="down" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="iconDisplay" alpha.disabled="0.5" horizontalCenter.down="0" verticalCenter.down="0" y="0" x="0" source="mainui_zycs_xfys"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="40" y="-6" visible="false"/>
+	<e:BitmapLabel id="labelDisplay" y="53" font="djs2num_fnt" text="12m12m12" letterSpacing="-8" horizontalCenter="-12"/>
+</e:Skin>

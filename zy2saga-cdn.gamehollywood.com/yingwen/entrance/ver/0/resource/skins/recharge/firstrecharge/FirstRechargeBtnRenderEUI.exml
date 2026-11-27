@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FirstRechargeBtnRenderEUI" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="56">
+	<e:Image x="0" y.disabled="-1" y.down="-1" x.up="0" x.down="0" touchEnabled="false" source="public_zycs_qh3" source.up="public_zycs_qh4" source.down="public_zycs_qh3" y.up="10"/>
+	<e:Image id="imgTitle" touchEnabled="false" source="sc_zycs_day1" horizontalCenter="0" y="13" horizontalCenter.up="0" y.up="20"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="207" y="1" source="mainui_zycs_hongdian" y.up="12"/>
+</e:Skin>

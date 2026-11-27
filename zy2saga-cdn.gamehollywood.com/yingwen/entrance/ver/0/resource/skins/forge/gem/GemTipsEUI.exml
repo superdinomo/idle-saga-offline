@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GemTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3502a7" />
+	<e:Image id="colorCanvas" source="public_zycs_greybg2" scale9Grid="1,1,1,1" right="0" top="0" bottom="0" left="0"
+	         anchorOffsetX="0" anchorOffsetY="0" />
+	<e:Group y="249" touchEnabled="false" anchorOffsetX="0" horizontalCenter="0">
+		<e:Group id="group" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" width="563" bottom="12">
+			<e:Image id="background" width="563" source="equip_zycs_di" scale9Grid="43,48,17,8" bottom="-25" top="0" anchorOffsetX="0" x="0"/>
+			<e:Image id="imageSign" y="279" scaleX="1" scaleY="1" source="equip_zycs_huwen" horizontalCenter="0.5"/>
+			<e:Image id="imageState" y="-1" anchorOffsetX="0" x="477" source="equip_zycs_yizhuangbei"/>
+			<e:Image y="53" anchorOffsetX="0" width="470" source="equip_zycs_juxing" x="46"/>
+			<e:Image x="161" y="78" source="mianui_zycs_zhandouli"/>
+			<e:BitmapLabel id="totalPower" x="247" y="81" text="100" scaleX="0.8" scaleY="0.8" font="powernum_fnt"/>
+			<e:Label id="labelName" text="Gear Name" x="59" y="17" fontFamily="Times" size="24" textColor="0xF5FFFF" anchorOffsetX="0" width="407" textAlign="left"/>
+			<e:Group width="100" height="100" x="44" y="83">
+				<e:Image id="bgImg" scale9Grid="10,10,66,66" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="public_zycs_daojukuang_01"/>
+				<e:Image id="imgColor" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-3" source="public_zycs_pinzhi_02"/>
+				<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="-4" x="37" y="42" scaleX="1" scaleY="1" source=""/>
+			</e:Group>
+			<e:Label y="110" text="Gem" fontFamily="Times" size="22" x="163" textColor="0xCDC8BE" />
+			<e:Label id="LabelScore" y="144" text="0" fontFamily="Times" size="22" x="164" textColor="0xCDC8BE" />
+			<e:Label id="labelAttr1" y="235" text="0" fontFamily="Times" size="22" x="56"
+			         touchEnabled="false"  textColor="0xcdc8be" lineSpacing="5"/>
+			<e:Label id="lbDesc" text="" fontFamily="Times" size="22" x="57" verticalAlign="justify" touchEnabled="false"
+			         textColor="0xdacca7" width="452" y="314"  anchorOffsetX="0" anchorOffsetY="0" lineSpacing="7"/>
+			<e:Label id="levelTxt" y="177" text="0" fontFamily="Times" size="22" x="164" verticalAlign="justify"
+			         touchEnabled="false" textColor="0xbebe2f" />
+			<e:Label id="attrTxt" y="236" text="0" fontFamily="Times" size="22" x="177" verticalAlign="justify"
+			         touchEnabled="false"  textColor="0xcdc8be" lineSpacing="5"/>
+		</e:Group>
+		<e:Group id="groupBtn" width="123" anchorOffsetX="0" scaleX="1" scaleY="1" anchorOffsetY="0" x="559" bottom="-4">
+			<e:Button id="btnRemove" label="Unequip" x="10" y="10" scaleX="1" scaleY="1"  skinName="BtnMin1_1"/>
+			<e:Button id="upreplace" label="Replace" x="0" y="0" scaleX="1" scaleY="1"  skinName="BtnMin1_1"/>
+			<e:Button id="upUp" label="Upgrade" x="0" y="0" scaleX="1" scaleY="1"  skinName="BtnMin1_1"/>
+			<e:layout>
+				<e:VerticalLayout gap="-4" />
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

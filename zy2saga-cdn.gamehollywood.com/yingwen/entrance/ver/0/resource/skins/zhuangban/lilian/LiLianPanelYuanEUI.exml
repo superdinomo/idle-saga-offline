@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LiLianPanelYuanEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+          width="720" states="state8,state5"  height="358">
+	<w:Config id="1657e4fe528"/>
+	<e:Group y="0" anchorOffsetX="0" width="720" anchorOffsetY="0" height="358" x="0">
+		<e:Component id="itemYuan0" skinName="LiLianPanelYuanItemEUI" x="76" y="239" x.state5="76" y.state5="239"/>
+		<e:Component id="itemYuan1" skinName="LiLianPanelYuanItemEUI" x="110" y="140" x.state5="149" y.state5="95"/>
+		<e:Component id="itemYuan2" skinName="LiLianPanelYuanItemEUI" x="188" y="67" x.state5="334" y.state5="23"/>
+		<e:Component id="itemYuan3" skinName="LiLianPanelYuanItemEUI" y="32" x="287" x.state5="521" y.state5="95"/>
+		<e:Component id="itemYuan4" skinName="LiLianPanelYuanItemEUI" y="32" x="381" x.state5="591" y.state5="239"/>
+		<e:Component id="itemYuan5" skinName="LiLianPanelYuanItemEUI" x="479.5" y="67" visible.state5="false"/>
+		<e:Component id="itemYuan6" skinName="LiLianPanelYuanItemEUI" x="557" y="140" visible.state5="false"/>
+		<e:Component id="itemYuan7" skinName="LiLianPanelYuanItemEUI" x="591" y="239" visible.state5="false"/>
+	</e:Group>
+</e:Skin>

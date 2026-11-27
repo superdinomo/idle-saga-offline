@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouYingJiItemEUI" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="136" height="137">
+	<e:Image id="selectIcon" visible.up="false" pixelHitTest="true"   horizontalCenter="0" verticalCenter="0" source="ss_zycs_xzk"/>
+
+
+	<e:Image id="redPoint" x="114" y="9" source="mainui_zycs_hongdian"/>
+
+
+
+	<e:Group id="group" x="9" y="9">
+		<e:Image id="imgQuality2" source="ss_zycs_xk3" x="0" y="0"/>
+		<e:Image id="iconDisplay" pixelHitTest="true" source="" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgQuality" y="85" source="ss_zycs_s5" x="5"/>
+		<e:Image id="imgQualitySR" y="86" source="shenqi_zycs_5" horizontalCenter="0.5"/>
+	</e:Group>
+
+</e:Skin>

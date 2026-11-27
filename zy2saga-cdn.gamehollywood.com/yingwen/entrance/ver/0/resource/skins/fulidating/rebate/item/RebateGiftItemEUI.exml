@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RebateGiftItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,up" >
+	<e:Image id="imgIcon" scale9Grid="2,2,16,16" source="fllb_zycs_t1" horizontalCenter="0"/>
+	<e:Image scale9Grid="2,2,16,16" source="fllb_zycs_json.fllb_zycs_bg3" visible.up="false"/>
+	<e:Image source.down="fllb_zycs_bg2" source="fllb_zycs_bg2"/>
+	<e:Image id="redPoint" x="166" y="0" source="mainui_zycs_hongdian"/>
+</e:Skin>

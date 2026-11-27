@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuildMapPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720" height="1280">
+	<e:Group id="group" y="0" horizontalCenter="0">
+	<e:Image x="0" y="0"  source="zhanmeng_zycs_di4_jpg" locked="true"/>
+		<e:Image id="imgListBg" x="0" y="6" fillMode="scale" source="public_zycs_btkuang" anchorOffsetY="0" height="155" scale9Grid="37,5,225,30" anchorOffsetX="0" width="362"/>
+	<e:Image x="21" y="11"  source="zhanmeng_zycs_ph"/>
+		<e:ToggleButton id="btnShow" label="" x="231.5" y="14">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mainui_lt_zycs_sjx" source.down="mainui_lt_zycs_sjxs"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	<e:Scroller y="42" x="11" width="350" height="105">
+		<e:List id="list" itemRendererSkinName="GuildMapRenderEUI">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnWar" skinName="BtnGuildWarSkin" y="-31" x="352">
+	</e:Button>
+	<e:Button id="btnManager" x="167" y="437" skinName="BtnGuildManagerSkin">
+	</e:Button>
+	<e:Button id="btnShop" x="484" y="746" skinName="BtnGuildShopSkin">
+	</e:Button>
+	<e:Button id="btnSkill" x="1" y="201" skinName="BtnGuildSkillSkin">
+	</e:Button>
+	<e:Button id="btnAct" y="607" x="-22" skinName="BtnGuildActSkin">
+	</e:Button>
+	</e:Group>
+</e:Skin>

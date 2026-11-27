@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GodEquipActTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b36a128"/>
+	<e:Image id="backGround" y="0" scaleX="1" scaleY="1" source="public_zycs_greybg1" x="0" width="100%" height="100%" scale9Grid="2,2,16,16"/>
+	<e:Group id="group" verticalCenter="-16.5" anchorOffsetX="0" width="587" anchorOffsetY="0" height="759" horizontalCenter="0" touchChildren="false" touchEnabled="false">
+		<e:Image y="-12" scaleX="1" scaleY="1" horizontalCenter="-0.5" source="jl_zycs_jhzs_png"/>
+		<e:Image y="87" scaleX="1" scaleY="1" horizontalCenter="23.5" source="godequip_zycs_bg1_png" touchEnabled="false"/>
+		<e:Image y="52" scaleX="1" scaleY="1" source="jl_zycs_jhcg" x="233"/>
+		<e:Group id="groupMc" x="294" y="336"/>
+		<e:Group id="group1" width="300" height="200" scaleX="1" scaleY="1" horizontalCenter="0" y="280">
+		</e:Group>
+		<e:Image id="imgbg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="10,10,64,64" scaleX="1" scaleY="1" y="564" horizontalCenter="0.5" source="jl_zycs_dz_png"/>
+		<e:Image id="imgIcon" y="119" horizontalCenter="0" source="shenghun_zycs_bigpic3_png"/>
+		<e:Image y="541" anchorOffsetX="0" anchorOffsetY="0" source="xhmz_zycs_k2" horizontalCenter="1"/>
+		<e:Image id="imgName" y="547" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" source="xhmz_zycs_n1"/>
+	</e:Group>
+</e:Skin>

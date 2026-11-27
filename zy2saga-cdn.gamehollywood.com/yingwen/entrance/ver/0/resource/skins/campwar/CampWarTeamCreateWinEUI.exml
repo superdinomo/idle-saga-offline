@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CampWarTeamCreateWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Group width="720" height="896" horizontalCenter="0" verticalCenter="0">
+		<e:Image touchEnabled="false" source="erjijiemiankuang_png" scale9Grid="90,110,540,662" height="912" y="-16"/>
+
+
+		<e:Image y="13" source="btz_zycs_cjdw_png" x="312"/>
+		<e:Button id="btnClose0" label="" y="-1" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+		<e:Image fillMode="clip" source="jjc_zycs_dz1" y="135" x="269"/>
+		<e:Image fillMode="clip" y="412" x="56" source="jjc_zycs_dz3"/>
+		<e:Image fillMode="clip" y="412" source="jjc_zycs_dz3" x="481"/>
+		<e:Image fillMode="clip" y="610" source="jjc_zycs_dz3" x="269"/>
+		<e:Component id="item0" y="42" skinName="CampWarTeamCreateItemEUI" x="231"/>
+		<e:Component id="item1" y="210" skinName="CampWarTeamCreateItemEUI" x="19"/>
+		<e:Component id="item2" y="210" skinName="CampWarTeamCreateItemEUI" x="443"/>
+		<e:Component id="item3" y="407" skinName="CampWarTeamCreateItemEUI" x="231"/>
+
+
+		<e:Group id="groupApply" x="30" y="55">
+			<e:Button id="btnApply" y="0" icon="smsz_zycs_sqlb" skinName="Btn0Skin" x="0" width="94" height="96"/>
+			<e:Image id="redPoint" y="4" x="72" source="mainui_zycs_hongdian"/>
+			<e:Label id="redPointNum" y="5" text="6" fontFamily="Times" size="18" textAlign="left" verticalAlign="middle" x="77" textColor="0xe3d7be" stroke="1"/>
+		</e:Group>
+
+
+
+		<e:Group id="groupAuto" x="20" y="653">
+			<e:CheckBox id="checkBoxTz" x="0" y="0" skinName="CheckBoxEUI" label=""/>
+			<e:Label y="3" text="Auto Match when at full strength" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="38" textColor="0xE3D7BE"/>
+			<e:CheckBox id="checkBox" x="0" y="32" skinName="CheckBoxEUI" label=""/>
+			<e:Label y="35" text="Auto Team Entry Approval" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="38" textColor="0xe3d7be"/>
+			<e:Label y="72" text="CP≥" fontFamily="Times" size="20" textAlign="left" verticalAlign="middle" x="0" textColor="0xE3D7BE"/>
+			<e:Image x="82" y="66" source="smsz_zycs_bg2_png" width="121"/>
+			<e:EditableText id="textInput" width="106" text="200000" x="92" y="66" fontFamily="Times" size="20" verticalAlign="middle" height="30" textAlign="left" restrict="&quot;0-9&quot;" maxChars="16" textColor="0xffffff"/>
+
+
+
+
+
+		</e:Group>
+
+	<e:Button id="btnStart" x="154" label="Match Opponent" skinName="BtnMin1_1" y="769"/>
+		<e:Button id="btnInvite" y="769" label="Send Invitation" x="415" skinName="BtnMin1_2"/>
+		<e:Label text="Cooldown: 5s" y="745" size="20" textAlign="left" fontFamily="Times" textColor="0xF01414" id="lbCd" x="444"/>
+		<e:Component id="com_Chat" skinName="ChatMainSkin1" x="0" y="898"/>
+
+	</e:Group>
+</e:Skin>

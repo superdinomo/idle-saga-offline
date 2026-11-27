@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChiBangEquipAttr1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="60">
+	<w:Config id="1586b362dfe"/>
+	<e:Label id="lbTitle" y="2" text="2-piece T1 Set Stats Bonus:" fontFamily="Times" size="20" touchEnabled="true" textColor="0xaf9b73" x="0"/>
+	<e:Label id="lbAttr" y="36" text="" fontFamily="Times" size="20" touchEnabled="true" textColor="0xf5e65a" x="0"/>
+</e:Skin>

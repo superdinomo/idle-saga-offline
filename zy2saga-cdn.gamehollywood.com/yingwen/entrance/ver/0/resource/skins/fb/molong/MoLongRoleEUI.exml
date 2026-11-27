@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MoLongRoleEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="326" height="79.33">
+	<w:Config id="1586bde13e1" />
+	<e:ProgressBar id="progressBar" y="25" x="2" slideDuration="0" skinName="ProgressBarEUI5" value="100" maximum="100" anchorOffsetX="0" width="275" height="21" direction="rtl" visible="false"/>
+	<e:Group id="groupMC" width="265" height="31" x="2" y="23.97" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group id="groupMC1" height="30" x="10" y="10" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Group id="groupMC2" x="20" y="20" anchorOffsetY="0" scaleX="1" scaleY="1" scrollEnabled="true" height="30">
+		<e:Group id="groupMC3" height="46" x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="265"/>
+		</e:Group>
+		<e:layout>
+		<e:HorizontalLayout gap="0" horizontalAlign="right" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller height="65" y="15" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" x="259">
+		<e:List id="listrole" x="1" itemRendererSkinName="RedFortFbFaceItemskin">
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbHurt" text="1 Million" y="54" size="20" textColor="0xe6dcb8" fontFamily="Times" right="62"/>
+	<e:Label id="lbPercentHurt" text="1 Million" y="26" size="20" textColor="0xE6DCB8" fontFamily="Times" right="62"/>
+	<e:Label id="lbPlayName" text="Player Name" y="0" size="20" textColor="0xE6DCB8" fontFamily="Times" right="4"/>
+</e:Skin>

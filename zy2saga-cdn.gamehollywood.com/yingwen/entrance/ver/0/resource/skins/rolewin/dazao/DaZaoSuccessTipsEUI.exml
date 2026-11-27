@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DaZaoSuccessTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" width="552" anchorOffsetY="0" height="490" horizontalCenter="-12" verticalCenter="-28">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="sjhj_zycs_di_jpg"/>
+		<e:Image y="86" source="tips_zycs_di" horizontalCenter="0"/>
+		<e:Label id="lbBlankText" text="Congrats! You gained" y="93" fontFamily="Times" horizontalCenter="0" size="24" textColor="0x5AC832"/>
+		<e:Component id="itemTarget" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" x="229" y="157"/>
+	<e:Image y="10" horizontalCenter="1" source="craft_zycs_dzcg"/>
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+	</e:Group>
+</e:Skin>

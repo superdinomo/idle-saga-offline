@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ItemFuWenTipsEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b36a128"/>
+	<e:Group id="group" verticalCenter="-36" horizontalCenter="0">
+		<e:Group id="group1">
+			<e:Group id="mcGroup" horizontalCenter="0" y="116"/>
+				<e:List id="list" itemRendererSkinName="FuwenItemEUI" currentState="disabled" useVirtualLayout="true" y="50" horizontalCenter="0">
+					<e:layout>
+						<e:HorizontalLayout paddingLeft="30" paddingRight="30"/>
+					</e:layout>
+				</e:List>
+			<e:Image horizontalCenter="0" x="62" y="-20" source="bag_zycs_gxhd"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

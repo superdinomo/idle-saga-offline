@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PriceIconSkin1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="32">
+	<e:Group id="group" x="0" y="0" height="32">
+		<e:Image id="iconImg" touchEnabled="false" top="3" left="0" x="0" y="5" source="zycs_320002"/>
+		<e:Label id="priceLabel" size="20" fontFamily="Times" textAlign="left" text="0" x="35" touchEnabled="false" y="4" textColor="0xebdcb4"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgYuan" touchEnabled="false" left="0" y="15" scaleX="1" scaleY="1" right="0" height="8" source="zhuansheng_zycs_rx" width="48" visible="false"/>
+</e:Skin>

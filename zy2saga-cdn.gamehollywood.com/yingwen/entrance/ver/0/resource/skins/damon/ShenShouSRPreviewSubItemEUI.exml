@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouSRPreviewSubItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="618" height="165">
+	<w:Config id="1586b362dfe"/>
+	<e:List id="list" itemRendererSkinName="ShenShouItemEUI" currentState="disabled" useVirtualLayout="false" x="0" y="0" height="165" width="618">
+		<e:layout>
+			<e:HorizontalLayout gap="27"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JJCRankPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" height="1134" y="0"/>
+	<e:Image y="22" source="public_zycs_cjx" horizontalCenter="0"/>
+	<e:Image x="121" y="24" source="public_zycs_sjx"/>
+	<e:Image x="328" y="24" source="public_zycs_sjx"/>
+	<e:Image x="496" y="24" source="public_zycs_sjx"/>
+	<e:Label text="Ranking" x="48" anchorOffsetX="0" textAlign="left" fontFamily="Times" size="20" y="29" textColor="0xff9b0f"/>
+	<e:Label text="Player Name" x="194" anchorOffsetX="0" textAlign="left" fontFamily="Times" size="20" y="29" textColor="0xff9b0f"/>
+	<e:Label text="My Guild" x="373" anchorOffsetX="0" textAlign="left" fontFamily="Times" size="20" y="29" textColor="0xff9b0f"/>
+	<e:Label text="CP" x="569" anchorOffsetX="0" textAlign="left" fontFamily="Times" size="20" y="29" textColor="0xff9b0f"/>
+        <e:Scroller width="687" scrollPolicyH="off" x="16" height="1028" y="62">
+                <e:List id="list" itemRendererSkinName="JJCRankItemSkin">
+                        <e:layout>
+                                <e:VerticalLayout gap="6"/>
+                        </e:layout>
+                </e:List>
+        </e:Scroller>
+</e:Skin>
