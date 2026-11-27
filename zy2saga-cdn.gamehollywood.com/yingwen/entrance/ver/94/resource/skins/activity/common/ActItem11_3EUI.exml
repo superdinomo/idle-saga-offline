@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem11_3EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" scale9Grid="41,12,250,63" source="hddt_zycs_cblcbg1_jpg"/>
+	<e:Label id="lbDec" text="Purchase packs to gain the following rewards" x="5" fontFamily="Times" size="24" y="18" textAlign="left" textColor="0xcdc8be"/>
+	<e:Group x="492" y="40">
+		<e:Label id="lbValue" text="Daily Limit: " fontFamily="Times" size="24" y="0" textAlign="center" textColor="0xCDC8BE" x="-18"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller x="16" scrollPolicyH="off" scrollPolicyV="off" y="59" anchorOffsetY="0" height="95">
+		<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetY="0" height="45">
+		<e:layout>
+			<e:HorizontalLayout gap="1"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnSend" x="499" y="76" label="Claim" skinName="BtnMin1_2"/>
+	<e:Button id="btnBuy" x="499" y="76" label="Buy" skinName="BtnMin1_2"/>
+	<e:Image id="imgYlq" x="511" source="public_zycs_ylq" y="60"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipSuitAttrItemEUI" width="720" height="31" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgQuallity" x="137" scaleX="1" scaleY="1" source="zhzh_zycs_pz1" y="2"/>
+	<e:Label id="lbSuit" text="2-piece Set Stats" x="181" fontFamily="Times" size="22" textColor="0x777572" anchorOffsetX="0" y="5" scaleX="1" scaleY="1"/>
+	<e:Label id="lbDesc" text="Fierce Hit+ 0.5" x="413" fontFamily="Times" size="22" textColor="0x777572" anchorOffsetX="0" verticalCenter="0" y="5" scaleX="1" scaleY="1"/>
+</e:Skin>

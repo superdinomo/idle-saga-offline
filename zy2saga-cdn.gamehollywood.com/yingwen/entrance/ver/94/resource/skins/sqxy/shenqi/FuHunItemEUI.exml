@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FuHunItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="185">
+	<w:Config id="15d981d06da"/>
+	<e:Image source="shenqi_zycs_qhy" y="12" horizontalCenter="0"/>
+	<e:Image id="imgSelect" visible.up="false" source="shenqi_zycs_qhy1" horizontalCenter="0"/>
+	<e:Image id="imgIcon" width="102" height="102" source="mianui_icon_bianshen1" y="17" horizontalCenter="0"/>
+	<e:Group id="groupMc" width="0" height="0" y="69" horizontalCenter="0"/>
+	<e:Label id="lbCount" text="1060500/4501200" y="121" size="24" fontFamily="Times" textAlign="center" textColor="0xffffff" width="185" anchorOffsetX="0" x="0"/>
+	<e:Image id="imgName" y="149" source="shenqi_zycs_qh1" horizontalCenter="0"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" y="17" x="116"/>
+
+
+
+
+
+</e:Skin>

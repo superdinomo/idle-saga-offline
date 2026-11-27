@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShenShouItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="134" height="170">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgSelect" source="ss_zycs_xzk" visible="false"/>
+	
+	<e:Image id="imgQuality2" source="ss_zycs_xk3" x="8" y="9"/>
+	<e:Image id="imgIcon" source="" horizontalCenter="0" verticalCenter="-17"/>
+	<e:Image id="imgQuality" y="94" source="ss_zycs_s5" x="13"/>
+	<e:Image id="imgQualitySR" y="95" source="shenqi_zycs_5" horizontalCenter="0"/>
+
+	<e:Label id="nameTxt" text="0000000000000000" fontFamily="Times" size="24" y="126" textColor="0xd3e123" width="130" textAlign="center" horizontalCenter="0"/>
+	<e:Label id="countTxt" text="0" x="32" fontFamily="Times" size="20" y="74" width="79" textAlign="right" textColor="0xCDC8BE" bold="true" visible="false"/>
+	<e:Image id="imgTsz" horizontalCenter="0.5" verticalCenter="-12.5" source="ss_zycs_tsz" visible="false"/>
+	<e:Image id="imgAct" horizontalCenter="0" source="ss_zycs_wjh" y="0" visible="false"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="110" y="15" visible="false"/>
+
+</e:Skin>

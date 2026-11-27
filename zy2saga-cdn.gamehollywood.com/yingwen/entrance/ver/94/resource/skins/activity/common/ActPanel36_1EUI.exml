@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel36_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" source="qqsh_zycs_bg2_jpg" horizontalCenter="0"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Group id="groupEntity" width="0" height="0" y="491" x="360"/>
+	<e:Image pixelHitTest="true" touchEnabled="false" source="qqsh_zycs_mlqq" verticalCenter="-544" horizontalCenter="1.5"/>
+	<e:Image y="110" pixelHitTest="true" touchEnabled="false" source="qqsh_zycs_mlzx" horizontalCenter="0.5"/>
+	<e:Label id="lbTime" text="Event Countdown: 12:12:12" y="67" size="24" textAlign="center" fontFamily="Times" width="376" x="175" textColor="0xf5e65a"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Image touchEnabled="false" source="qqsh_zycs_shts" y="173" horizontalCenter="238" maxWidth="200"/>
+	<e:Image touchEnabled="false" x="504" y="203" source="qqsh_zycs_k4"/>
+	<e:Image id="imgXwyd" y="307" anchorOffsetY="0" source="qqsh_zycs_xwyd" horizontalCenter="0"/>
+	<e:Group x="226" y="357">
+		<e:Image id="imgTiaoJianBg" anchorOffsetY="0" source="public_zycs_jx1" scale9Grid="69,3,2,24" width="269" x="0" top="0" bottom="0"/>
+		<e:Label id="lbTiaoJian" text="Guardian: 999" y="5" size="20" textAlign="center" fontFamily="Times" textColor="0xFFFFFF" width="257" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Group id="groupZeSong" x="226" y="525">
+		<e:Image y="0" anchorOffsetY="0" source="public_zycs_jx1" scale9Grid="69,3,2,24" width="269" x="0"/>
+		<e:Label id="lbZeSong" text="Gift Charm" y="4" size="20" textAlign="left" fontFamily="Times" textColor="0x13ee22" x="94"/>
+	</e:Group>
+	<e:Group x="22" y="99">
+		<e:Image x="0" y="0" source="jsdd_zycs_pm1"/>
+		<e:Image y="224" source="public_zycs_sd" x="17"/>
+		<e:Image x="52" y="32" source="sjhj_zycs_tx"/>
+		<e:Image id="imgHead" x="62" y="39" width="76" height="76" source="mianui_zycs_zhanshi0"/>
+		<e:Label id="lbName" text="Player Name Seven Characters" y="131" size="20" textAlign="left" fontFamily="Times" textColor="0xFFFFFF" horizontalCenter="0"/>
+		<e:Label id="lbValue" text="Charm: 999" y="163" size="20" textAlign="left" fontFamily="Times" textColor="0xF5E65A" horizontalCenter="0"/>
+		<e:Label id="lbShouHuCount" text="Guardian: 999" y="225" size="20" textAlign="left" fontFamily="Times" horizontalCenter="0" textColor="0xffffff"/>
+	</e:Group>
+	<e:Scroller  x="514" y="211" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list1" itemRendererSkinName="ActItem36_1SH2EUI">
+			<e:layout>
+				<e:VerticalLayout gap="4"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller y="579"  height="469" anchorOffsetY="0" width="692" x="13" scrollPolicyH="off">
+		<e:List id="list2" itemRendererSkinName="ActItem36_1EUI" >
+		<e:layout>
+			<e:VerticalLayout gap="8"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="18" y="1062">
+		<e:Label id="lbScoreTitle" text="My Trick Point:" x="-133" y="0" size="22" fontFamily="Times" textColor="0xf5e65a" scaleX="1" scaleY="1"/>
+		<e:Label id="lbMyMeiLi" text="9999" x="0" y="0" size="22" fontFamily="Times" textColor="0x13ee22"/>
+		<e:Label id="lbSend" text="Request Gift" x="62" y="0" size="22" fontFamily="Times" textColor="0x13EE22"/>
+		<e:layout>
+			<e:HorizontalLayout gap="5"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="1063" x="390">
+		<e:Label text="My Rank: " x="0" y="0" size="20" fontFamily="Times" textColor="0xf5e65a"/>
+		<e:Label id="lbMyRank" text="My Rank" x="106" y="1" size="20" fontFamily="Times" textColor="0xf5e65a"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbViewReward" text="Check Rewards" x="574" y="1063" size="20" fontFamily="Times" textColor="0x13ee22"/>
+</e:Skin>

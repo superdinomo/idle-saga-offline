@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel36_2EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="42" touchEnabled="false" scale9Grid="88,64,2,3" source="qqsh_zycs_bg1_jpg" horizontalCenter="0"/>
+	<e:Group y="70" horizontalCenter="0">
+		<e:Image y="0" anchorOffsetX="0" width="434" source="hhdt_zycs_jlylk" horizontalCenter="0"/>
+		<e:Image y="19" source="qqsh_zycs_ayyh" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image pixelHitTest="true" touchEnabled="false" source="qqsh_zycs_jlyl" verticalCenter="-544.5" horizontalCenter="0.5"/>
+	<e:Label id="lbTime" text="Event Countdown: 12:12:12" y="533" size="24" textAlign="center" fontFamily="Times" width="376" x="175" textColor="0xffffff"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Group id="groupEntity" width="0" height="0" y="411" x="360"/>
+	<e:Scroller y="580" scrollPolicyH="off" height="469" anchorOffsetY="0" x="8">
+		<e:List id="list" itemRendererSkinName="ActItem36_2EUI" >
+		<e:layout>
+			<e:VerticalLayout gap="8"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbRewardName" text="Name of Final Prize" y="430" size="24" fontFamily="Times" horizontalCenter="0" visible="false"/>
+	<e:Image touchEnabled="false" y="1054" source="hwbz_zycs_di4" x="13"/>
+	<e:Group x="20" y="1056">
+		<e:Label id="lbScoreTitle" text="My Trick Point:" x="0" y="1" size="24" fontFamily="Times" textColor="0xf5e65a"/>
+		<e:Label id="lbMyMeiLi" text="9999" x="133" y="0" size="24" fontFamily="Times" textColor="0x13ee22"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="1056" x="451">
+		<e:Label text="My Ranking:" x="0" y="0" size="24" fontFamily="Times" textColor="0xf5e65a"/>
+		<e:Label id="lbMyRank" text="My Ranking" x="114" y="0" size="24" fontFamily="Times"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<!--<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\Q_鹊桥守护\Q-鹊桥守护-奖励预览.jpg" y="-47" locked="true" visible="false"/>-->
+</e:Skin>

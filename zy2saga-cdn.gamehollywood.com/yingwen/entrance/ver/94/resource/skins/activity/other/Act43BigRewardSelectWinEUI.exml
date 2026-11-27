@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act43BigRewardSelectWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0" width="553" height="568">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1" source="public_zycs_dikuang" width="545" scale9Grid="84,61,24,10" height="566" y="0" x="5" scaleX="1" scaleY="1"/>
+		<e:Image y="104" source="public_zycs_tsk1" width="481" height="301" scaleX="1" scaleY="1" scale9Grid="9,9,54,58" horizontalCenter="0" x="36" anchorOffsetY="0"/>
+
+		<e:Image y="-4" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="151"/>
+		<e:Image y="12" horizontalCenter="0"  source="hddt_zycs_xhdb16"/>
+		<e:Button id="btnClose" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"  x="470"/>
+		<e:Label id="lbDesc" y="52" text="Choose an item as the Wishing Prize\nDifferent quality requires a different amount of draws" fontFamily="Times" size="20" textColor="0x13ee22" width="439" textAlign="center" wordWrap="true" horizontalCenter="0.5"/>
+		<e:Scroller scrollPolicyH="off" height="286" y="112" width="472" x="41">
+			<e:List id="list" y="-1" itemRendererSkinName="Act43BigRewardSelectItemEUI">
+				<e:layout>
+					<e:TileLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" requestedColumnCount="5" verticalGap="37" horizontalGap="12"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:CheckBox id="checkBox" y="416" skinName="CheckBoxEUI" label="Display unactivated appearance" horizontalCenter="0"/>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="451" label="Confirm" x="202"/>
+		<e:Label text="Tap blank space to close" y="581" fontFamily="Times" size="20" textColor="0xcdc8be" horizontalCenter="0"/>
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

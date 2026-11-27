@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SjzhPyPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0" width="720">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image id="imgBg" touchEnabled="false" y="42" source="sj_zycs_bg1_jpg" x="13"/>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="65" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+
+		<e:Group y="75" left="17">
+			<e:Component id="comDaShi" y="0" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI" x="34"/>
+			<e:Label id="lbDaShi" text="Footprint Master - T0" y="105" fontFamily="Times" size="20" textColor="0xFFD862" textAlign="center" verticalAlign="middle" width="217" x="0"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="-6"/>
+			</e:layout>
+		</e:Group>
+
+
+
+
+		<e:Group y="83" right="18">
+			<e:Group x="0" y="0">
+				<e:Image id="imgSkill" y="0" x="0" source="sj_zycs_1_jn"/>
+				<e:Image id="imgSkillRp" source="mainui_zycs_hongdian" x="75" y="0"/>
+				<e:Image id="imgLvBg" y="64" source="peiyang_zycs_hui" horizontalCenter="33"/>
+				<e:Label id="lbSkillLv" text="Full" y="70" size="20" fontFamily="Times" textColor="0xCDC8BE" textAlign="center" horizontalCenter="33"/>
+			</e:Group>
+			<e:Label id="lbSkill" text="Footprint Master" y="96" fontFamily="Times" size="24" textColor="0xFFD862" textAlign="center" verticalAlign="middle" x="2"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<e:Component id="item0" y="106" touchEnabled="true" skinName="SjzhPyItemEUI" x="235"/>
+		<e:Component id="item1" y="254" touchEnabled="true" skinName="SjzhPyItemEUI" x="451"/>
+		<e:Component id="item2" y="398" touchEnabled="true" skinName="SjzhPyItemEUI" x="235"/>
+		<e:Component id="item3" y="254" x="19" touchEnabled="true" skinName="SjzhPyItemEUI"/>
+		<e:Label id="btnAttr" text="Total Bonus" y="661" size="20" textAlign="left" fontFamily="Times" textColor="0x11f51c" right="41"/>
+		<e:Image y="654" source="shenqi_zycs_sxjc" x="288"/>
+		<e:Image y="657" source="liuguang_zycs_huawen" scaleX="-1" x="615" visible="false"/>
+		<e:Image y="657" source="liuguang_zycs_huawen" x="105" visible="false"/>
+		<e:Image y="688" source="shenqi_zycs_di3" x="11" scale9Grid="87,10,524,63" height="135" visible="false"/>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="711" horizontalCenter="0">
+			<e:layout>
+			<e:TileLayout verticalGap="11" horizontalGap="30" requestedColumnCount="2"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:DataGroup>
+
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="888" x="146" label="Equip"/>
+		<e:Button id="btnQuick" y="888" label="Quick Forge" skinName="BtnMin1_2" x="425"/>
+		<e:Group id="groupConsu" y="855" horizontalCenter="137">
+			<e:Image id="imgConsu0" source="zycs_320001" x="60"/>
+			<e:Label id="lbConsu0" text="0" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="100" y="6"/>
+			<e:Image id="imgConsu1" x="70" y="10" source="zycs_320002"/>
+			<e:Label id="lbConsu1" text="0" fontFamily="Times" size="24" textAlign="left" textColor="0xCDC8BE" x="110" y="16"/>
+			<e:layout>
+			<e:HorizontalLayout gap="6" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="imgYmj" y="878" source="bxsb_zycs_ymj" x="299"/>
+
+	</e:Group>
+</e:Skin>

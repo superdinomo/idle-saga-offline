@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjRankTeamPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="896">
+	<e:Image x="0" y="0" height="896" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Scroller y="120" x="41" width="639" height="580">
+		<e:List id="listRank" itemRendererSkinName="GjRankTeamItemEUI">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="89" source="public_zycs_cjx" height="34" width="634" x="43"/>
+	<e:Image y="92" x="185" source="public_zycs_sjx"/>
+
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_fgqy" y="705" x="13" height="104"/>
+	<e:Label text="Ranking" size="20" fontFamily="Times" y="96" x="79" textColor="0xFF9B0F"/>
+
+	<e:Label text="Rewards" size="20" fontFamily="Times" y="96" x="398" textColor="0xFF9B0F"/>
+	<e:Label id="lbRank" text="My Ranking: Not listed" fontFamily="Times" size="20" textAlign="center" y="711" textColor="0xCDC8BE" horizontalCenter="0"/>
+	<e:Label text="(Rewards will be issued via mails upon the end of the game)" fontFamily="Times" size="20" textAlign="center" y="736" horizontalCenter="-1" textColor="0x13EE22"/>
+
+
+</e:Skin>

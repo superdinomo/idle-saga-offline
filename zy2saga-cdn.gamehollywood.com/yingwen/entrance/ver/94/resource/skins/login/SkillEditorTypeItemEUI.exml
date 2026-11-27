@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillEditorTypeItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="850" width="200"  states="normal,win"  width.win="600">
+	<e:Image height="100%" x="0" y="0" width="100%" alpha="1" y.win="0" source="public_zycs_greybg2" scale9Grid="20,20,0,0" scale9Grid.win="7,6,5,6"/>
+	<e:Group id="group" left="0" top="0" bottom="0" right="0" anchorOffsetX="0">
+		<e:Label text="File Name" x="6" y="79" size="16" fontFamily="Times" />
+		<e:TextInput id="tiFileName" width="137" height="24" x="56" y="76" skinName="TextInputCommonSkin" anchorOffsetX="0"/>
+		<e:Label text="Special effect with direction" y="106" size="16" fontFamily="Times" x="5"/>
+		<e:Label text="Direction Parameters" y="135" size="16" fontFamily="Times" x="6"/>
+		<e:TextInput id="tiIsDirParam" width="110" height="24" x="75" y="132" skinName="TextInputCommonSkin" anchorOffsetX="0"/>
+
+		<e:Group x="88" y="106">
+			<e:RadioButton id="radioIsDir1" label="Bring" x="0" y="0" skinName="RadioButtonEUI"  scaleX="0.7" scaleY="0.7"/>
+			<e:RadioButton id="radioIsDir2" label="Without" x="44" y="0" skinName="RadioButtonEUI" selected="true"  scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Label text="X" x="4" y="168" size="16" fontFamily="Times" x.win="240" y.win="160"/>
+		<e:TextInput id="tiX" width="48" height="24" x="14" y="163" skinName="TextInputCommonSkin" text="0" x.win="260" y.win="156" width.win="320"/>
+		<e:Label text="Y" x="64" y="166" size="16" fontFamily="Times" x.win="240" y.win="185"/>
+		<e:TextInput id="tiY" width="48" height="24" x="74" y="162" skinName="TextInputCommonSkin" text="0" x.win="260" y.win="184" width.win="320"/>
+		<e:Label text="R " x="127" y="166" size="16" fontFamily="Times" x.win="240" y.win="214"/>
+		<e:TextInput id="tiR" width="54" height="24" x="142" y="162" skinName="TextInputCommonSkin" text="0" x.win="260" y.win="211" width.win="320"/>
+		<e:Label text="CX" x="16" y="193" size="16" fontFamily="Times" x.win="232" y.win="241"/>
+		<e:TextInput id="tiCX" width="60" height="24" x="35" y="189" skinName="TextInputCommonSkin" text="0" x.win="260" y.win="238" width.win="320"/>
+		<e:Label text="CY" x="106" y="192" size="16" fontFamily="Times" x.win="232" y.win="270"/>
+		<e:TextInput id="tiCY" width="60" height="24" x="125" y="188" skinName="TextInputCommonSkin" text="0" x.win="260" y.win="267" width.win="320"/>
+		<e:Label text="Delay Play" x="21" y="322" size="16" fontFamily="Times"/>
+		<e:TextInput id="tiDelay" width="80" height="24" x="97" y="320" skinName="TextInputCommonSkin" text="0"
+		             anchorOffsetX="0"/>
+		<e:Label text="Play Speed" x="22" y="298" size="16" fontFamily="Times"/>
+		<e:TextInput id="tiRate" width="80" height="24" x="97" y="295" skinName="TextInputCommonSkin" text="1"
+		             anchorOffsetX="0"/>
+		<e:Label text="Play Attempts" x="91" y="246" size="16" fontFamily="Times"/>
+		<e:TextInput id="tiPlayCount" width="36" height="24" x="158" y="242" skinName="TextInputCommonSkin" text="1"
+		             anchorOffsetX="0"/>
+
+		<e:Label text="X Zoom" x="4" y="220" size="16" fontFamily="Times" x.win="210" y.win="300"/>
+		<e:TextInput id="tiScaleX" width="46" height="24" x="48" y="217" skinName="TextInputCommonSkin" text="1"
+		             anchorOffsetX="0" x.win="260" y.win="297" width.win="320"/>
+		<e:Label text="Y Zoom" x="97" y="220" size="16" fontFamily="Times" x.win="209" y.win="330"/>
+		<e:TextInput id="tiScaleY" width="46" height="24" x="147" y="217" skinName="TextInputCommonSkin" text="1" x.win="260" y.win="327" width.win="320"/>
+		<e:Label text="Transparency" x="2" y="246" size="16" fontFamily="Times"/>
+		<e:TextInput id="tiAlpha" width="36" height="24" x="52" y="243" skinName="TextInputCommonSkin" text="1"/>
+		<e:Label text="Rotate Angle" x="23" y="271" size="16" fontFamily="Times"/>
+		<e:TextInput id="tiRotation" width="80" height="24" x="98" y="269" skinName="TextInputCommonSkin" text="0"/>
+		<e:Label text="Towards Target" y="346" size="16" fontFamily="Times" x="9"/>
+		<e:Group x="3" y="367" height="22" rotation="0">
+			<e:RadioButton id="radioIsRot1" label="Yes" x="0" y="0" skinName="RadioButtonEUI"  scaleX="0.7" scaleY="0.7"/>
+			<e:RadioButton id="radioIsRot2" label="No" x="43" y="0" skinName="RadioButtonEUI" enabled="true"
+			               selected="true"  scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Label text="It will rotate as the target" y="346" size="16" fontFamily="Times" x="85"/>
+		<e:Group x="99" y="367" height="22" rotation="0">
+			<e:RadioButton id="radioIsFollowRot1" label="Yes" x="0" y="0" skinName="RadioButtonEUI" scaleX="0.7" scaleY="0.7"/>
+			<e:RadioButton id="radioIsFollowRot2" label="No" x="43" y="0" skinName="RadioButtonEUI" enabled="true" selected="true" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Group x="102" y="396" height="22" rotation="0">
+			<e:RadioButton id="radioIsSdisMirror1" label="Yes" x="0" y="0" skinName="RadioButtonEUI" scaleX="0.7" scaleY="0.7"/>
+			<e:RadioButton id="radioIsSdisMirror2" label="No" x="43" y="0" skinName="RadioButtonEUI" enabled="true" selected="true" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Label text="Hand point image" y="401" size="16" fontFamily="Times" x="10"/>
+		<e:Label id="labelSDis" text="Graphic Parameters" x="5" y="474" size="16" fontFamily="Times" touchEnabled="true"/>
+		<e:TextInput id="tiSDis" width="116" height="24" x="74" y="470" skinName="TextInputCommonSkin" text="0" width.win="499"/>
+		<e:TextInput id="tiSDis2" width="60" height="24" x="138" y="470" skinName="TextInputCommonSkin" text="0" visible="false"/>
+		<e:Label text="Affected by ATK SPD" y="502" size="16" fontFamily="Times" x="13"/>
+		<e:Group x="104" y="500">
+			<e:RadioButton id="radioIsRate1" label="Yes" x="0" y="0" skinName="RadioButtonEUI" scaleX="0.7" scaleY="0.7"/>
+			<e:RadioButton id="radioIsRate2" label="No" x="46" y="0" skinName="RadioButtonEUI" selected="true" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Label text="Floor with direction" x="9" y="525" size="16" fontFamily="Times"/>
+		<e:Group x="98" y="524">
+			<e:RadioButton id="radioLayer1" label="Bring" x="0" y="0" skinName="RadioButtonEUI" scaleX="0.7" scaleY="0.7"/>
+			<e:RadioButton id="radioLayer2" label="Without" x="44" y="0" skinName="RadioButtonEUI" selected="true" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+
+
+
+
+
+
+
+
+		<e:Group id="groupPath" x="2" y="591" height="114" width="195">
+			<e:Label text="Flight trajectory, effective when the special effect type is flying" y="0" size="12" fontFamily="Times" horizontalCenter="0"/>
+			<e:Label id="labelMoverParam" text="Flying Parameters" x="0" y="62" size="16" fontFamily="Times" touchEnabled="true"/>
+			<e:TextInput id="tiMoverParam" width="186" height="24" x="3" y="85" skinName="TextInputCommonSkin" text="0"/>
+
+
+
+
+
+
+		</e:Group>
+
+
+		<e:Group id="groupTween" width="200" height="117" y="705" x="0">
+			<e:Label text="tween (Zoom,Transparency, Rotation)" y="0" size="16" fontFamily="Times" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Label text="Delay" x="6" y="21" size="16" fontFamily="Times"/>
+			<e:Label text="-" x="115" y="21" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenStartTime" width="63" height="24" x="43" y="18" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+
+			<e:TextInput id="tiTweenEndTime" width="63" height="24" x="133" y="17" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Transparency" x="114" y="72" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenAlpha" width="40" height="24" x="152" y="69" skinName="TextInputCommonSkin" text="1" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="X Zoom" x="6" y="48" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenScaleX" width="44" height="24" x="52" y="44" skinName="TextInputCommonSkin" text="1" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Y Zoom" x="104" y="48" size="16" fontFamily="Times"/>
+
+
+			<e:TextInput id="tiTweenScaleY" width="44" height="24" x="149" y="44" skinName="TextInputCommonSkin" text="1" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Rotate" x="7" y="73" size="16" fontFamily="Times"/>
+			<e:TextInput id="tiTweenRotation" width="63" height="24" x="45" y="70" skinName="TextInputCommonSkin" text="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="Rotation mirror flip" x="6" y="97" size="16" fontFamily="Times"/>
+			<e:Group id="radioIsTweenIsRotationMirrorGroup" x="109" y="94" height="22" rotation="0">
+				<e:RadioButton id="radioIsTweenRotationMirror1" label="Yes" x="0" y="0" skinName="RadioButtonEUI" scaleX="0.7" scaleY="0.7"/>
+				<e:RadioButton id="radioIsTweenRotationMirror2" label="No" x="43" y="0" skinName="RadioButtonEUI" enabled="true" selected="true" scaleX="0.7" scaleY="0.7"/>
+			</e:Group>
+
+		</e:Group>
+		<e:Component id="dropDownType" width="200" x="0" y="33" skinName="DropDownSkin" height="162"  anchorOffsetY="0" visible.win="false"/>
+
+		<e:Component id="dropDownPath" width="200" y="610" skinName="DropDownSkin" height="169"/>
+		<e:Component id="dropDownLayer" width="200" height="252" x="0" y="549" skinName="DropDownSkin" anchorOffsetY="0"/>
+		<e:Component id="dropDownSDis" width="200" x="0" y="428" skinName="DropDownSkin" height="156" anchorOffsetY="0"/>
+		<e:RadioButton id="radioIsSelected" label="Selected" x="3" y="822" skinName="RadioButtonEUI" groupName="groupSelect" scaleX="0.8" scaleY="0.8" visible.win="false"/>
+		<e:RadioButton id="radioIsHit" label="Hit" x="65" y="822" skinName="RadioButtonEUI" groupName="groupHit" scaleX="0.8" scaleY="0.8" visible.win="false"/>
+		<e:ToggleSwitch id="toggleBtnHide" label="" x="132" y="824" skinName="skins.ToggleSwitchSkin" scaleX="0.8" scaleY="0.8" selected="true" visible.win="false"/>
+</e:Group>
+<e:Label id="labelIndex" text="1" y="4" size="24" fontFamily="Times" horizontalCenter="-19" width="66"
+         verticalAlign="bottom" textAlign="center" textColor="0xfc0505" bold="true" />
+	<e:Button id="btnDetail" label="Detail" x="1" y="1" skinName="BtnMin1_6" width="40" height="32" visible.win="false"/>
+	<e:Button id="btnPlay" label="Play" x="160" y="1" skinName="BtnMin1_6" width="40" height="32" visible.win="false"/>
+	<e:Button id="btnCopy" label="Rev" x="117" y="0" skinName="BtnMin1_6" width="40" height="32"/>
+</e:Skin>

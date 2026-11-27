@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LingQiZuZuiTimeWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1"/>
+	<e:Group y="268" horizontalCenter="0">
+		<e:Image height="34" y="0" source="public_zycs_greybg2" scale9Grid="2,2,16,16" width="374" x="0"/>
+		<e:Label id="lbTime" text="Waiting for teammates :00:50" size="20" fontFamily="Times" horizontalCenter="0.5" y="7" textColor="0xf5e65a"/>
+	</e:Group>
+</e:Skin>

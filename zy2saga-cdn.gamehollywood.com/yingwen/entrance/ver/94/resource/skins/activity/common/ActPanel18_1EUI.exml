@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel18_1EUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" x="12" source="hddt_zycs_ldsc_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-5" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_wssc" horizontalCenter="0"/>
+	<e:Label id="lbTime" text="Event countdown: 12:12:12" y="59" size="24" textAlign="center" fontFamily="Times" textColor="0xcdc8be" width="376" x="175"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+	<e:Scroller y="280" scrollPolicyH="off" height="810" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ActItem18_1EUI" >
+			<e:layout>
+				<e:TileLayout horizontalGap="20" requestedColumnCount="2"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<!--<e:Image touchEnabled="false" x="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\Q_鹊桥守护\Q-鹊桥守护-鹊桥商城.jpg" y="-46" locked="true" visible="false"/>-->
+</e:Skin>

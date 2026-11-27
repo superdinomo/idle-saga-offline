@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPkPanelEUI" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="720" >
+	<w:Config id="1586b13ea96" />
+	<e:Group y="18" horizontalCenter="0">
+		<e:Image y="0" touchEnabled="false" fillMode="repeat" x="0" source="gjs_dk_fbjm"/>
+		<e:Component id="itemL0" touchEnabled="true" y="38" x="48" skinName="GjFbPkTopItemEUI"/>
+		<e:Component id="itemL1" skinName="GjFbPkTopItemEUI" touchEnabled="true" y="38" x="259"/>
+		<e:Component id="itemL2" skinName="GjFbPkTopItemEUI" touchEnabled="true" y="38" x="465"/>
+		<e:Component id="itemBuff0" touchEnabled="true" y="94" x="100" skinName="GjFbPkBuffItemEUI" visible="false"/>
+		<e:Component id="itemBuff1" touchEnabled="true" y="94" x="210" skinName="GjFbPkBuffItemEUI" visible="false"/>
+		<e:Component id="itemBuff2" touchEnabled="true" y="94" x="320" skinName="GjFbPkBuffItemEUI" visible="false"/>
+	</e:Group>
+	<e:Group anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" height="47" y="211" horizontalCenter="0" width="410">
+		<e:Button id="btnBuff" y="0" x="0" skinName="Btn0Skin" icon="gjs_an_bfjc"/>
+		<e:Image touchEnabled="false" fillMode="repeat" source="gjs_dk_sysj" y="5" x="121"/>
+
+		<e:Label id="lbTime" text="Remaining Time: 00s" size="18" textAlign="center" fontFamily="Times" touchEnabled="false" y="13" horizontalCenter="0" textColor="0xe3d7be"/>
+		<e:Button id="btnMsg" y="9" x="303" skinName="Btn0Skin" icon="gjs_an_zcxx"/>
+		<e:Image id="btnMsgRedPoint" source="mainui_zycs_hongdian" x="403" y="3"/>
+	</e:Group>
+	<e:Image touchEnabled="false" fillMode="repeat" y="250" x="131" source="gjs_djs" visible="false"/>
+
+	<e:Group id="groupBoss" height="160" y="279" horizontalCenter="19" touchEnabled="false" touchThrough="true">
+		<e:Image y="80" x="83" source="lhzd_zycs_di"/>
+		<e:Component id="bossBloodComponent" x="0" y="0" skinName="BossBloodComponentSkin"/>
+		<e:Image y="81" x="125" source="gjs_hj"/>
+		<e:Label id="lbHuoJingCount" text="Fire Crystal: 9999" y="88" fontFamily="Times" size="20" textAlign="center" x="160" textColor="0xe3d7be"/>
+	</e:Group>
+	<e:Group id="groupFbDesc" y="407" width="212" height="289" x="0">
+		<e:Image y="0" touchEnabled="false" fillMode="repeat" x="0" source="gjs_dk_fbxxk"/>
+		<e:Image y="8" touchEnabled="false" x="155" scaleX="1.4" scaleY="1.4" source=""/>
+		<e:Button id="btnDetail" icon="gjs_an_xiang" skinName="Btn0Skin" x="163" y="5"/>
+
+		<e:Label id="lbTeam" text="Team: Red" y="38" size="18" fontFamily="Times" textAlign="left" lineSpacing="2" x="8" textColor="0xff9b0f"/>
+		<e:Label id="lbGetHuoJing" text="Carrying Fire Crystal: 2310(Rich)" x="8" y="59" size="18" fontFamily="Times" textAlign="left" lineSpacing="2" textColor="0xff9b0f" width="168"/>
+		<e:Label id="lbBaseHuoJing" text="Base Stock: 9999" y="99" size="18" fontFamily="Times" x="8" textAlign="left" lineSpacing="2" textColor="0xff9b0f"/>
+		<e:Label id="lbMsgName" text="奇迹丶牛有德" y="163" size="18" fontFamily="Times" textAlign="left" x="8" textColor="0xff9b0f"/>
+		<e:Label id="lbMsgDec" text="Peaceful farming" y="191" size="18" fontFamily="Times" textAlign="left" textColor="0xe3d7be" width="196" x="8"/>
+		<e:Label id="lbRoleNum" text="Instance Team Member: 6" y="253" size="18" fontFamily="Times" textAlign="left" x="8" textColor="0x13ee22"/>
+	</e:Group>
+	<e:Group id="groupBox" y="708" horizontalCenter="0">
+		<e:Image y="0" touchEnabled="false" source="kfsd_zycs_sq2" x="51"/>
+		<e:Group id="groupMask" x="60" y="9">
+		<e:Image id="imgBoxBar" y="0" touchEnabled="false" source="kfsd_zycs_jdt" x="0"/>
+		</e:Group>
+		<e:Button id="btnBox" icon="gjs_tb_cf" skinName="Btn0Skin" horizontalCenter="0" verticalCenter="-5"/>
+		<e:Image y="101" x="0" touchEnabled="false" source="kfsd_zycs_wzd"/>
+		<e:Label id="lbBoxTime" y="106" text="Collecting" fontFamily="Times" size="20" lineSpacing="0" textAlign="center" horizontalCenter="0" textColor="0x13EE12"/>
+	</e:Group>
+	<e:Group x="2" bottom="383">
+		<e:Button id="btnEmoji" icon="gjs_tb_zdgt" skinName="Btn0Skin" x="0" y="0"/>
+		<e:Button id="btnGuaji" y="106" label="" icon="gzc_zycs_zddg" skinName="Btn0Skin" x="0"/>
+		<e:Button id="btnStopGuaji" y="106" icon="csys_zycs_tzdg" skinName="Btn0Skin" x="0"/>
+
+	</e:Group>
+	<e:Group id="groupEmoji" x="83" bottom="391">
+		<e:Image y="0" x="0" source="smsz_zycs_dhk" scale9Grid="35,22,210,136" width="340"/>
+		<e:Scroller id="scrollerEmoji" width="280" height="167" y="6">
+		<e:List id="listEmoji" itemRendererSkinName="CampWarFbEmojiItemEUI">
+			<e:layout>
+			<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image x="-30" source="mianui_zycs_ydjt" top="12"/>
+	</e:Group>
+	<e:Group id="groupAtk" y="291" right="0" x="569">
+
+		<e:Image y="0" touchEnabled="false" source="klm_zycs_jt" horizontalCenter="0"/>
+		<e:Image y="6" touchEnabled="false" source="klm_zycs_zzgj" horizontalCenter="0"/>
+		<e:Component id="target" x="1" y="34" skinName="GjFbPkFaceEUI"/>
+	</e:Group>
+	<e:Group id="groupEnemy" y="501" right="0">
+		<e:Image y="0" touchEnabled="false" source="klm_zycs_jt" horizontalCenter="0"/>
+		<e:Image touchEnabled="false" source="csys_zycs_sydr" horizontalCenter="0" y="10"/>
+		<e:Scroller id="scrollerEnemy" y="39" width="150" x="5" height="322">
+		<e:List id="listEnemy" x="1" y="13" itemRendererSkinName="GjFbPkFaceEUI">
+			<e:layout>
+			<e:VerticalLayout gap="6"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object />
+					<e:Object />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupBeAtk" bottom="207" left="17">
+		<e:Image y="0" touchEnabled="false" source="klm_zycs_jt" rotation="90" x="39"/>
+		<e:Image y="44" x="9" touchEnabled="false" source="csys_zycs_gjz"/>
+		<e:Scroller id="scrollerAtk" x="40" y="0" height="158">
+		<e:List id="listAtk" itemRendererSkinName="GjFbPkFaceEUI">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+
+
+</e:Skin>

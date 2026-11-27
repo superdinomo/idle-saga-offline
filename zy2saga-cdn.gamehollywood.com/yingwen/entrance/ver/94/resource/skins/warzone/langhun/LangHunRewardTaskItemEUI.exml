@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunRewardTaskItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="hddt_zycs_cblcbg1_jpg"/>
+
+	<e:Label id="lbName" text="Kill 1 player" size="24" fontFamily="Times" x="5" y="18" textColor="0xcdc8be"/>
+
+	<e:Label id="lbCount" text="1/1" size="24" fontFamily="Times" y="18" textColor="0x13ee22" horizontalCenter="239"/>
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="48" x="16">
+		<e:layout>
+		<e:HorizontalLayout gap="18" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Image id="imgYlq" x="511" y="62" source="fl_zycs_ylq"/>
+
+
+	<e:Button id="btnSend" label="Claim" y="79" skinName="BtnMin1_2mid" x="513"/>
+</e:Skin>

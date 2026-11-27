@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjBossDamgeRewardItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="495" height="133">
+	<e:Image x="0" y="0" source="public2_zycs_json.public_zycs_cbui" scale9Grid="21,19,1,1" width="495" height="133"/>
+
+	<e:Label id="lbName" text="DMG to Boss reaches 2m (1m/2m)" size="20" fontFamily="Times" x="18" y="14" textColor="0xcdc8be"/>
+
+
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="38" x="11" scaleX="0.7" scaleY="0.7">
+		<e:layout>
+		<e:HorizontalLayout gap="18" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object />
+				<e:Object />
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Image id="imgYlq" source="fl_zycs_ylq" x="363" y="27"/>
+
+
+	<e:Button id="btnSend" label="Claim" skinName="BtnMin1_1small" x="375" y="47"/>
+</e:Skin>

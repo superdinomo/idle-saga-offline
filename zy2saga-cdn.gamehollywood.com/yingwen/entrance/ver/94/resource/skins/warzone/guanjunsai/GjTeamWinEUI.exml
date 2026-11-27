@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjTeamWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="gjs_zycs_bg10_jpg"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+
+		<e:Button id="closeBtn" label="" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source="btz_gjs_zdxx_png"/>
+		<e:Button id="btnSend" y="161" label="Edit" skinName="BtnMin1_1small1" x="237"/>
+		<e:Image y="74" touchEnabled="false" x="233" source="gjs_tb_zdtxk"/>
+		<e:Image id="imgIcon" x="236" y="76" touchEnabled="false" source="gjs_zh1"/>
+		<e:Image id="imgZd" touchEnabled="false" y="136" source="gjs_zhandui" x="237"/>
+		<e:Label id="lbTeamName" text="Team: Consolidate foundation" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" x="61" y="210"/>
+		<e:Label id="lbPower" text="CP: 99990k" y="248" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" x="318"/>
+		<e:Label id="lbNum" fontFamily="Times" size="20" y="210" text="Players: 5" textAlign="center" textColor="0xcdc8be" x="318"/>
+		<e:Label id="lbRoleName" fontFamily="Times" size="20" y="248" text="队长：奇迹丶牛有德" textAlign="center" x="61" textColor="0xcdc8be"/>
+		<e:Scroller scrollPolicyH="off" y="303" width="524" x="15" height="387">
+			<e:List id="list" itemRendererSkinName="GjTeamItemEUI">
+				<e:layout>
+					<e:VerticalLayout gap="-3"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XingHunPanelEUI" currentState="jinjie" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134" states="normal,lock,jinjie,max" >
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scale9Grid="10,8,50,34" source="mj_zycs_bg_jpg" horizontalCenter="0" y="31"/>
+	<e:Image y="58" anchorOffsetY="0" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Image y="981" source="bxsb_zycs_ymj" x="299" visible.jinjie="false" visible.lock="false" visible.normal="false"/>
+	<e:Group y="76.5" horizontalCenter="0">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="88" y="0" text="6666" font="powernum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgStarIcon" horizontalCenter="7" source="" verticalCenter="-158"/>
+	<e:Group id="groupLine" x="58" y="86" anchorOffsetX="0" anchorOffsetY="0" width="612" height="587" touchEnabled="false">
+		<e:Image id="imgStar0" x="264" y="101" source="mj_zycs_hzl"/>
+		<e:Image x="390" y="159" source="mj_zycs_hzl" id="imgStar1"/>
+		<e:Image x="436" y="276" source="mj_zycs_hzl" id="imgStar2"/>
+		<e:Image x="390" y="387" source="mj_zycs_hzl" id="imgStar3"/>
+		<e:Image x="264" y="443" source="mj_zycs_hzl" id="imgStar4"/>
+		<e:Image x="137" y="387" source="mj_zycs_hzl" id="imgStar5"/>
+		<e:Image x="102" y="276" source="mj_zycs_hzl" id="imgStar6"/>
+		<e:Image x="137" y="159" source="mj_zycs_hzl" id="imgStar7"/>
+	</e:Group>
+	<e:Component id="comXingHunBarEff" x="40" y="79" scaleX="1" scaleY="1" skinName="XingHuanBarEffEUI"/>
+	<e:Label id="lbJie" text="Soul of Demon Ring T0" y="185" fontFamily="Times" size="20" textColor="0xFFD862" textAlign="center" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" horizontalCenter="-248"/>
+	<e:Image y="688" source="public_zycs_di01" x="217"/>
+	<e:Label id="lbstages" text="0" y="691" fontFamily="Times" size="24" textColor="0xFFD862" textAlign="center" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" horizontalCenter="0"/>
+	<e:Image y="748" source="mj_zycs_mjsx" horizontalCenter="0"/>
+	<e:Image y="780" x="11" scale9Grid="310,77,93,96" source="em_zycs_k5" anchorOffsetY="0" height="182"/>
+	<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI2" y="812" width="337" horizontalCenter="0">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		
+		
+			
+			
+		
+		
+	</e:DataGroup>
+	<e:Group x="0" y="966" anchorOffsetX="0" width="720" anchorOffsetY="0" height="118">
+		<e:Group y="6" horizontalCenter="0" visible.lock="false" visible.max="false">
+			<e:Image x="0" y="0" source="zycs_320001"/>
+			<e:Label id="lbcount" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xaf9b73" visible.lock="false" visible.max="false" x="11"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="labelLock" text="0" y="18" fontFamily="Times" size="20" textColor="0xf01414" visible.normal="false" visible.jinjie="false" visible.max="false" horizontalCenter="1"/>
+		<e:Button id="boostBtn" y="43" label="Advance " anchorOffsetX="0" anchorOffsetY="0" enabled="true" scaleX="1" scaleY="1" visible.lock="false" label.jinjie="Advance" label.normal="Advance " label.max="Max Tier" enabled.max="false" skinName="BtnMin1_1" horizontalCenter="0"  visible.max="false"/>
+		<e:Button id="labelStrong" y="43" label="I want to level up" anchorOffsetX="0" anchorOffsetY="0" enabled="true" scaleX="1" scaleY="1" includeIn="lock" skinName="BtnMin1_1" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btnAttr" label="" y="653" skinName="Btn0Skin" icon="role_zycs_zhuangbeijiacheng" x="58" visible="false"/>
+</e:Skin>

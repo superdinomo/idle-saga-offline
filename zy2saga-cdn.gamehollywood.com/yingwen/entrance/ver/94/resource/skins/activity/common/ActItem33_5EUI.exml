@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem33_5EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="705" height="137">
+	<w:Config id="1586bd49103"/>
+	<e:Image x="0" y="0" source="jsdd_zycs_pmdi"/>
+	<e:Label id="lbRank" text="The 4th Place" fontFamily="Times" size="24" textAlign="left" y="10" textColor="0xf5e65a" x="77"/>
+	<e:Image id="imgRank" source="jsdd_zycs_pm2" y="10" x="71"/>
+	<e:Label id="lbName" text="奇迹丶牛有德" fontFamily="Times" size="24" y="59" textAlign="center" x="42" textColor="0xf5e65a"/>
+	<e:Label id="lbValue" text="Gratitude: 99" fontFamily="Times" size="24" y="86" textAlign="center" x="42" textColor="0xffffff"/>
+	<e:Group y="7" right="3">
+		<e:Image x="136" y="0" source="jsdd_zycs_phjl"/>
+		<e:Scroller scrollPolicyH="off" scrollPolicyV="off" x="0" y="27" scaleX="0.9" scaleY="0.9">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="6" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act20RateWinItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Image x="0" y="0" source="cg_zycs_tab"/>
+	<e:Image x="15" source="zbrl_zycs_xx" y="4"/>
+	<e:Label id="lbTitle" text="Lucky Prize" fontFamily="Times" size="22" x="55" textColor="0xFF9B0F" y="5"/>
+	<e:Label id="lbDec" text="Lucky Prize" fontFamily="Times" size="22" x="55" y="43" textColor="0xe3d7be" lineSpacing="12"/>
+
+</e:Skin>

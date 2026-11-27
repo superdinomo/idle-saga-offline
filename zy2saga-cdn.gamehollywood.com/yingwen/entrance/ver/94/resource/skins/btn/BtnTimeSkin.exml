@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnTimeSkin" states="up,down,disabled" minHeight="25" minWidth="25" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="131" width="90">
+	<e:Image id="iconDisplay" alpha.disabled="0.5"
+	         x.down="0" y.down="0"  scaleX.down="0.95" scaleY.down="0.95"  source="mianui_zycs_csys" horizontalCenter="0" bottom="27"/>
+	<e:Image  y="104" source="qjzl_zycs_jx" horizontalCenter="0"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="6" top="14" visible="false"/>
+	<e:Label id="labelDisplay" text="00:00" y="107" size="20" horizontalCenter="0" fontFamily="Times" textColor="0x13ee22"/>
+</e:Skin>

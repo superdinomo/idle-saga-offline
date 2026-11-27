@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem43_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="172" width="178" >
+	<w:Config id="1586bdedfef"/>
+	<e:Image x="-5" y="-7" source="xycj_zycs_pp2"/>
+	<e:Component id="item" skinName="ItemSkin" y="38" x="36"/>
+</e:Skin>

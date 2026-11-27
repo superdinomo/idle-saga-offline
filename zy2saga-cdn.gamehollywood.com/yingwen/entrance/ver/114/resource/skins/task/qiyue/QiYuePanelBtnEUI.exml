@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QiYuePanelBtnEUI" states="up,down,disabled"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" height="130" width="152">
+	<e:Image y="16" source="emqy_zycs_dk0" x="12"/>
+	<e:Image visible.disabled="false" visible.up="false" x="0" y="0" source="emqy_zycs_dk1"/>
+	<e:Image id="imgIcon" visible.disabled="false" y="25" width="64" height="64" source="" x="44"/>
+	<e:Label id="lbName" text="Levelup Boost" y="96" size="18" fontFamily="Times" width="130" textAlign="center" x="11" textColor="0xffffff"/>
+	<e:Image id="redPoint" source="mainui_zycs_hongdian" x="89" y="20"/>
+</e:Skin>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoLianPanelEUI"  currentState="pass" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="720" states="Challenge,payReset,freeReset,noReset,pass,vipReset" height="1134">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="1134" touchEnabled="false" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="41"  x="13" anchorOffsetY="0" source="myzt_zycs_bg_jpg"/>
+	<e:Group x="637.6" y="46" visible="false">
+		<e:Button id="btnLeft" label="" y="53" skinName="Btn0Skin" icon="zycs_zyzl_qieye" rotation="180" anchorOffsetX="77" anchorOffsetY="70" x="0" scaleX="0.8" scaleY="0.8"/>
+		<e:Button id="btnRight" label="" y="0" skinName="Btn0Skin" icon="zycs_zyzl_qieye" x="10.4" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+	<e:ProgressBar id="batHp" x="80" y="75" skinName="ProgressBarEUI24" maximum="100" value="50"/>
+	<e:Image y="63" x="20" anchorOffsetY="0" source="myzt_zycs_jlk"/>
+	<e:Image id="imgHead" y="71" x="28" anchorOffsetY="0" source="myzt_zycs_tx1"/>
+	<e:Label id="lbCurHP" text="Current HP" y="56" size="20" fontFamily="Times" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" touchEnabled="false" x="85" textColor="0xff9b0f"/>
+	<e:Group id="groupBoss" x="254" y="589"/>
+<e:Image x="139" y="146" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="123,8,27,18" source="public_zycs_di01"/>
+		 <e:Group id="groupRight" x="487" y="42" height="966" width="219">
+		<e:Image y="11" anchorOffsetY="0"  source="klm_zycs_zd" scale9Grid="24,92,146,553" height="782" x="13"/>
+		<e:Scroller id="scroller" y="56" height="714" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" x="63">
+		<e:List id="list" itemRendererSkinName="MoLianPanelItemEUI" anchorOffsetX="0" anchorOffsetY="0">
+			<e:ArrayCollection>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:ArrayCollection>
+	<e:layout>
+				<e:VerticalLayout gap="-13" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image x="37" y="873"  source="pt_zycs_tgjl"/>
+		<e:Image id="imgChiBang0" y="794" source="pt_zycs_hscb" x="34"/>
+		<e:Image id="imgChiBang1" y="794" source="pt_zycs_cscb" x="34"/>
+		<e:Image id="imgBaoXiang0" y="802" source="pt_zycs_baox2" x="69"/>
+		<e:Group id="groupPassJinDu" scrollEnabled="true" anchorOffsetY="0" x="69" bottom="100" height="64" width="81">
+			<e:Group id="groupBoxMc" scrollEnabled="true" height="64" bottom="0" width="81">
+			<e:Image id="imgBaoXiang1" x="0" scaleX="1" scaleY="1" source="pt_zycs_baox" top="0" height="64"/>
+			</e:Group>
+		</e:Group>
+	<e:Button id="btnReward" label="Challenge" anchorOffsetX="0" anchorOffsetY="0" y="853" scaleX="1" scaleY="1" x="66" skinName="Btn0Skin" icon="pt_zycs_baox"  visible="false"/>
+		<e:Image x="72" y="831" touchEnabled="false" source="pt_zycs_ztdt"/>
+		<e:Image id="redBoxPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" y="804" x="165" visible="false"/>
+	<e:Label id="lbRewardCount" text="0" y="833" size="20" fontFamily="Times" textAlign="left" verticalAlign="middle" textColor="0xFFFFFF" scaleX="1" scaleY="1"  horizontalCenter="-1.5" touchEnabled="false"/>
+</e:Group>
+<e:Label id="lbName" y="153" text="0" fontFamily="Times" size="20" lineSpacing="0" textColor="0xff9b0f" horizontalCenter="-79" />
+	<e:Label id="lbTjPower" y="186" text="扫荡所需战力：999999" fontFamily="Times" size="20" lineSpacing="0" textColor="0xf5e65a" x="130"/>
+	<e:Label id="lbCurPower" y="210" text="当前战力：999999" fontFamily="Times" size="20" lineSpacing="0" textColor="0xf5e65a" x="170"/>
+<e:Image y="631" x="222"  source="pt_zycs_fbjl"/>
+<e:Image y="657" anchorOffsetY="0" anchorOffsetX="0" x="-80" height="155" scale9Grid="10,28,1,9" source="public_zycs_dk01"/>
+<e:Image id="imgPass" y="630" x="369" includeIn="pass"  source="pt_zycs_ytg"/>
+<e:Group width="439" height="136" x="49" y="667" anchorOffsetY="0" anchorOffsetX="0">
+	<e:Scroller id="Scrollerlist0" y="-7" anchorOffsetX="0" anchorOffsetY="0" x="0"
+	            scrollPolicyH="on" scrollPolicyV="off" maxWidth="384">
+		<e:List id="listReward" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingLeft="0" paddingRight="0" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+	</e:layout>
+</e:Group>
+<e:Group id="groupChallenge" anchorOffsetX="0" verticalCenter="300.5" visible.pass="false" horizontalCenter="-98.5" width="133" height="85">
+	<e:Group id="groupDesc" y="-11" anchorOffsetY="0" height="32" horizontalCenter="0.5" width="78">
+		<e:Label id="labelConsume" text="0" y="0" size="20" fontFamily="Times" textAlign="left" verticalAlign="middle" horizontalCenter="0" x="40" scaleX="1" scaleY="1" textColor="0xcdc8be" visible.Challenge="false"/>
+		<e:Component id="priceIcon" y="21" scaleX="1" scaleY="1"                  skinName="PriceIconSkin1" visible.Challenge="false" visible.payReset="true" visible.freeReset="false" visible.noReset="false" visible.vipReset="false" x="0"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="challengeBtn" label="Challenge" y="44" label.noReset="Paid Reset" enabled.noReset="false" label.payReset="Paid Reset" label.freeReset="Free Reset" skinName="BtnMin1_1" visible.noReset="false" y.freeReset="20" y.Challenge="20" label.vipReset="Paid Reset" enabled.vipReset="false" visible.vipReset="false"/>
+	<e:Button id="btnRecharge" label="Challenge" y="44" skinName="BtnMin1_1" visible.Challenge="false" visible.freeReset="false" visible.payReset="false" label.noReset="Paid Reset" enabled.noReset="false" y.noReset="20" label.vipReset="Paid Reset" enabled.vipReset="true" y.vipReset="20"/>
+</e:Group>
+	<e:Label id="lbDesc" text="Character is killed" x="23" y="819" textColor="0x13ee22" size="20" fontFamily="Times" width="148" x.Challenge="27" y.Challenge="913"/>
+	<e:Label id="lbGoto" text="Go to upgrade Whisper" x="350" y="914" textColor="0x13EE22" size="20" fontFamily="Times" x.Challenge="295"/>
+</e:Skin>

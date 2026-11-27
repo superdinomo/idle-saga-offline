@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MallPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0" width="720" height="1134">
+		<e:Image y="43" x="12" source="sc_zycs_mv1_jpg"/>
+		<e:ViewStack id="viewStack" y="0" selectedIndex="0" x="0"/>
+		<e:Image source="public_zycs_jianban" x="65" height="59" y="212"/>
+		<e:Group y="230" horizontalCenter="0">
+			<e:Label id="lbDesc" y="0" text="$1 Gift Pack, 10% discount is waiting for you," fontFamily="Times" size="24" textAlign="center" lineSpacing="5" verticalAlign="middle" textColor="0xCDC8BE" x="0"/>
+			<e:Label id="btnLink" y="0" text="Go to Purchase" fontFamily="Times" size="24" textAlign="center" lineSpacing="5" verticalAlign="middle" textColor="0x13ee22" x="228"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:TabBar id="tab" selectedIndex="0" y="1025" itemRendererSkinName="BtnTab5ZYCSSkin" left="40">
+			<!--
+				
+					
+					
+					
+				
+			-->
+			<e:layout>
+			<e:HorizontalLayout gap="7"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Group>
+</e:Skin>

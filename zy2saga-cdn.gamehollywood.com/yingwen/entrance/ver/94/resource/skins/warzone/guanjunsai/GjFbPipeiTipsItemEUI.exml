@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPipeiTipsItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="86">
+	<w:Config id="15d981d06da"/>
+	<e:Image y="0" touchEnabled="false" x="0" source="gjs_tb_zdtxk"/>
+	<e:Image id="imgIcon" y="3" touchEnabled="false" source="gjs_zh5" x="3"/>
+	<e:Image id="imgZd" touchEnabled="false" y="62" source="gjs_zhandui" x="4"/>
+	<e:Label id="lbTeam" text="s9999.皇德耀世哈哈" size="18" textAlign="center" fontFamily="Times" touchEnabled="false" y="92" textColor="0xf5e65a" horizontalCenter="0"/>
+	<e:Label id="lbMy" text="My Team" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" y="134" x="3" textColor="0x13ee22"/>
+	<e:Label id="lbType" text="Team Red" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" textColor="0xCDC8BE" y="174" horizontalCenter="0"/>
+
+
+
+
+</e:Skin>

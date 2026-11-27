@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjBetSubItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="104" height="190">
+	<w:Config id="15d981d06da"/>
+	<e:Image y="12" touchEnabled="false" source="gjs_tb_zdtxk" x="10"/>
+	<e:Image id="imgIcon" y="16" touchEnabled="false" x="13" source="gjs_zh8"/>
+	<e:Image id="imgWh" touchEnabled="false" y="26" x="38" source="gjs_wh"/>
+	<e:Image id="imgZd" touchEnabled="false" y="74" source="gjs_zhandui" x="13"/>
+	<e:Image id="imgWin" touchEnabled="false" y="13" x="13" source="gjs_jb_sc"/>
+	<e:Label id="lbTeamName" text="Team Name" y="101" size="18" textAlign="left" fontFamily="Times" lineSpacing="5" horizontalCenter="0" textColor="0xCDC8BE"/>
+	<e:Group id="group" y="118" x="13">
+		<e:Image x="0" y="0" source="zycs_320002"/>
+		<e:Label id="lbZs" text="1000" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" y="164" x="32" textColor="0xffffff"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btnSend" y="154" label="Guess" skinName="BtnMin1_1small1" x="13"/>
+	<e:Label id="lbTips" text="My Guess" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" y="164" textColor="0x13ee22" x="12"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

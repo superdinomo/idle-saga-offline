@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjBossResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1" />
+	<e:Group id="group" horizontalCenter="0" height="1134" width="620" verticalCenter="0">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0" source="js_zycs_qz_png"/>
+		<e:Image id="imgTitle" x="237" y="133" anchorOffsetY="0" source="js_zycs_sl_png"/>
+
+
+		<e:Button id="closeBtn" label="Claim (5s)" y="943" anchorOffsetX="0"
+		          anchorOffsetY="0"  icon="" x="244" skinName="BtnMin1_6"/>
+		<e:Scroller height="440" y="466" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:TileLayout horizontalGap="28" verticalGap="43" requestedColumnCount="4" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image x="116" y="423"  source="js_zycs_hdwp"/>
+		<e:Image x="115" y="287"  source="js_zycs_zcsh"/>
+		<e:Label id="lbNum" text="0" x="217" y="287" size="22" fontFamily="Times"  textColor="0xe3d7be"/>
+	</e:Group>
+</e:Skin>

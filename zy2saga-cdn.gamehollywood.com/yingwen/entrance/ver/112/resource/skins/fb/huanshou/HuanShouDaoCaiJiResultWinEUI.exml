@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouDaoCaiJiResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" width="570" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" height="429">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" width="570" height="429" source="public_zycs_dikuang" scale9Grid="94,63,10,8"/>
+		<e:Image y="-6" source="public_zycs_tyts" x="160"/>
+		<e:Image y="10" source="hsd_zycs_cjcg" x="237"/>
+		<e:Image y="75" anchorOffsetX="0" anchorOffsetY="0" source="tips_zycs_di" x="166"/>
+		<e:Button id="closeBtn" label="" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao" x="488"/>
+		<e:Label id="lbBlankText" text="Gain the following rewards" y="81" fontFamily="Times" size="24" textColor="0x13ee22" horizontalCenter="0"/>
+		<e:Scroller id="itemScroller" horizontalCenter="0" verticalCenter="26.5">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="4" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15" horizontalGap="10" verticalGap="30"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

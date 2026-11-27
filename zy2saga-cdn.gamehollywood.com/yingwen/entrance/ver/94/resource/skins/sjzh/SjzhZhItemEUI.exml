@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SjzhZhItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="130" height="130">
+	<w:Config id="15d981d06da"/>
+	<e:Image id="imgSelect" visible.up="false" source="fuwen_zycs_xuanzhongkuang"/>
+	<e:Component id="item" skinName="ItemSkin" x="18" y="19"/>
+	<e:Label id="lbName" size="16" textAlign="center" fontFamily="Times" text="0"  y="115" textColor="0x46A732" horizontalCenter="0" />
+	<e:Image source="fuwen_zycs_xuanzhongkuang" x="0" y="0" alpha="0.01"/>
+</e:Skin>

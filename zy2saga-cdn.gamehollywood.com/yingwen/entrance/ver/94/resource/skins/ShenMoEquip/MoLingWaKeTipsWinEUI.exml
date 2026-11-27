@@ -1,0 +1,28 @@
+<e:Skin class="MoLingWaKeTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*"  width="720" height="1280">
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%"/>
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0"/>
+	<e:Image source="public_zycs_greybg2" width="100%" height="100%"/>
+	<e:Group id="group" width="720" height="505" horizontalCenter="0" verticalCenter="-43.5">
+		<e:Image y="-50" x="159" source="jl_zycs_jhzs_png"/>
+		<e:Image id="imgTitle" y="13" horizontalCenter="0" source="mljx_zycs_jxcg"/>
+
+		<e:Image y="484" source="public_zycs_jlylk" horizontalCenter="0.5" visible="false"/>
+
+
+
+		<e:Image y="407" x="99" source="jl_zycs_dz_png"/>
+		<e:Group id="groupEntity" y="268" width="0" height="0" horizontalCenter="0" scaleX="0.8" scaleY="0.8"/>
+
+		<e:Group y="499" horizontalCenter="0" visible="false">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="totalPower" text="100" y="4" x="118" font="powernum_fnt"/>
+		</e:Group>
+		<e:Label text="Tap blank space to close" y="560" fontFamily="Times" size="24" x="276" textColor="0xffffff" visible="false"/>
+		<e:Image y="571" source="pubilc_zycs_hengdikuang" horizontalCenter="0" x="264" scaleX="1" scaleY="1"/>
+		<e:Image id="imgName" source="smzl_zycs_title1" y="585" horizontalCenter="0" x="298" scaleX="1" scaleY="1"/>
+
+	</e:Group>
+	<e:Image id="backGround" source="public_zycs_greybg2" width="100%" height="100%" x="0" y="0" alpha="0.01" locked="true"/>
+
+</e:Skin>

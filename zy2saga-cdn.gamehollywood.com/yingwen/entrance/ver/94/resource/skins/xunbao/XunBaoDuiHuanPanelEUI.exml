@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoDuiHuanPanelEUI" currentState="jifen" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134" states="jifen,item"  width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_fgqy" y="948" x="13"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" id="imgTitle" source="xb_zycs_dh" horizontalCenter="0"/>
+	<e:Scroller id="scrollerItem" y="50" scaleX="1" scaleY="1" width="706" height="840" anchorOffsetY="0" horizontalCenter="1" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="auto">
+		<e:List id="listItem" scrollEnabled="false" itemRendererSkinName="XunBaoDuiHuanPanelItemEUI" useVirtualLayout="false" width="669">
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<e:layout>
+			<e:TileLayout paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15" requestedColumnCount="2" horizontalGap="6" verticalGap="6"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="336" y="903" visible.jifen="false">
+		<e:Group y="0" x="0">
+		<e:Image id="imgItem1" x="0" y="0" source="zycs_320001"/>
+		<e:Label id="lbCount1" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+		<e:Group y="0" x="311">
+		<e:Image id="imgItem2" x="0" y="0" source="zycs_320001"/>
+		<e:Label id="lbCount2" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Label id="lbJiFen" text="Treasure hunt points: 1000" y="909" size="20" fontFamily="Times" right="29" visible.item="false"/>
+		<e:TabBar id="tab" anchorOffsetX="0" height="80" y="963" horizontalCenter="0" itemRendererSkinName="BtnTab5ZYCSSkin">
+		<!--<e:ArrayCollection>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+				<e:Object />
+			</e:ArrayCollection>-->
+		<e:layout>
+			<e:TileLayout requestedColumnCount="5" verticalGap="14"/>
+		</e:layout>
+	</e:TabBar>
+</e:Skin>

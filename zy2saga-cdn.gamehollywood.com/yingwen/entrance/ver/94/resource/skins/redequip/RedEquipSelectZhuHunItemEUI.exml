@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipSelectZhuHunItemEUI" width="678" height="222" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"     >
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" source="zhzh_zycs_xzzh1_png"/>
+	<e:Group y="55" x="159">
+		<e:Group x="0" y="0">
+		<e:Image source="public_zycs_zdl" scaleX="0.7" scaleY="0.7" x="0" y="0"/>
+		<e:BitmapLabel id="bmlbPower" x="84" text="66663" y="4" font="powernum_fnt" scaleX="0.7" scaleY="0.7" height="22"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="imgArrow" x="161" y="-3" source="public_zycs_lj" width="18"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imageState" anchorOffsetX="0" x="593" source="equip_zycs_yizhuangbei" y="-2"/>
+	<e:Button id="btnDemount" label="Unequip" x="500" scaleX="1" scaleY="1" skinName="BtnMin1_1" y="117"/>
+	<e:Button id="btnEquip" label="Equip" x="500" scaleX="1" scaleY="1" skinName="BtnMin1_1" y="117"/>
+	<e:Group id="groupItem" anchorOffsetY="0" height="92" width="92" y="18" x="30">
+		<e:Group id="groupMc" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source=""/>
+	</e:Group>
+	<e:Group y="80" horizontalCenter="234">
+		<e:Label size="20" textAlign="right" fontFamily="Times" text="Amount: " anchorOffsetX="0" anchorOffsetY="0" height="23" textColor="0xCDC8BE" y="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Label id="lbCount" size="20" textAlign="right" fontFamily="Times" text="1111" anchorOffsetX="0" anchorOffsetY="0" height="23" y="0" x="53" scaleX="1" scaleY="1" textColor="0x15ef0a"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbName" text="Player Name" y="15" fontFamily="Times" size="24" textColor="0xCDC8BE" horizontalCenter="-122" x="170"/>
+	<e:Label id="lbTypeName" text="Glyph Type: Blast" y="85" fontFamily="Times" size="20" x="160" textColor="0xffd862"/>
+	<e:Label id="lbAttr" text="生命:234\n生命:23" y="109" fontFamily="Times" size="20" textColor="0xCDC8BE" x="160" lineSpacing="5"/>
+</e:Skin>

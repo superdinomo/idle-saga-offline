@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillEditorMoverParamWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="300" width="400">
+	<e:Image height="100%" x="0" y="0" width="100%" alpha="1" source="public_zycs_greybg2"
+	         scale9Grid="7,6,5,6" />
+	<e:Group id="group" width="400" height="300" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="closeBtn" label="Button" icon="public_zycs_quxiao" skinName="Btn0Skin" width="33" height="33" y="0"
+		          scaleX="1" scaleY="1" right="0" />
+		<e:Label id="labelParam" text="(Parameter)" y="73" fontFamily="Times" size="20" x="9" />
+		<e:TextInput id="tiMoverParam" width="378" height="24" x="12" y="101" skinName="TextInputCommonSkin" text="1" />
+		<e:Button id="btnSure" label="Confirm" y="241" skinName="BtnMin1_6" height="40" width="80" horizontalCenter="0" />
+	</e:Group>
+</e:Skin>

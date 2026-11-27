@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LingQiResultEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15d0e19cdf1"/>
+	<e:Group id="group" width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="-1" anchorOffsetY="0"  source="js_zycs_qz_png"/>
+
+		<e:Group x="64" y="266">
+			<e:Image id="imgTitle1" x="0" y="0" anchorOffsetY="0" source="js_zycs_tzsj"/>
+			<e:Label id="lbTime" text="60s" y="1" size="24" textColor="0xE6DCB8" fontFamily="Times" x="116"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image x="64" y="326" anchorOffsetY="0" source="js_zycs_yjbgw"/>
+		<e:Label id="lbCount" text="60s" y="323" size="24" textColor="0xE6DCB8" fontFamily="Times" x="250"/>
+		<e:Image id="imgTitle3" x="64" y="423" anchorOffsetY="0" source="js_zycs_hdwp1"/>
+		<e:Image id="imgTitle" y="133" anchorOffsetY="0" source="js_zycs_js_png" x="237"/>
+		<e:Label id="lbdesc" text="" x="110" y="283" size="22" textColor="0xDFD1B5" fontFamily="Times" />
+		<e:Group id="groupSroce" x="385" y="247" width="196" height="177">
+			<e:Image source="js_zycs_tb_png" x="0" y="0"/>
+			<e:Image id="imgSroce" source="js_zycs_SSS_png" horizontalCenter="0" verticalCenter="-8"/>
+		</e:Group>
+		<e:Scroller id="scroller" y="472" x="80" width="460" height="398">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout horizontalGap="18" verticalGap="43" paddingLeft="15" paddingRight="15" paddingTop="15" paddingBottom="15"/>
+				</e:layout>
+				
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					
+				
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn0" label="" x="457" y="944" skinName="Btn0Skin" icon="public_zycs_lkfb" visible="false"/>
+		<e:Button id="closeBtn" label="Confirm" y="927" icon="anz_zycs_lqjl" skinName="BtnMin1_1" x="236"/>
+	</e:Group>
+</e:Skin>

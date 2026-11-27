@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Pk3v3ResultWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="720" height="1280" states="win,lose,ping" >
+	<e:Group id="group" width="620" height="1134" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="-1" anchorOffsetY="0" source="txzz_zycs_bg3_png" source.lose="txzz_zycs_bg4_png" source.ping="txzz_zycs_bg5_png"/>
+		<e:Image id="imgBgL" y="253" x="31" source="txzz_zycs_k9"/>
+		<e:Image id="imgBgR" y="253" x="310" source="txzz_zycs_k10"/>
+		<e:Image y="275" source="txzz_zycs_x2" x="303"/>
+		<e:Image y="490" x="63" source="txzz_zycs_x1"/>
+		<e:Image y="598" source="txzz_zycs_x1" x="63"/>
+		<e:Image y="490" source="txzz_zycs_x1" x="318"/>
+		<e:Image y="598" source="txzz_zycs_x1" x="318"/>
+		<e:Label id="lbTeamL" text="My Team: " y="221" size="22" fontFamily="Times" textColor="0xFF9B0F" x="78"/>
+		<e:Label id="lbTeamR" text=": Enemy Team" y="221" size="22" fontFamily="Times" textColor="0xFF9B0F" width="219" textAlign="right" x="323"/>
+
+
+		<e:Group y="225" x="32">
+			<e:Image y="0" source="txzz_zycs_t1" x="0"/>
+			<e:ProgressBar id="barL" y="24" value="100" slideDuration="0" maximum="100" x="41" skinName="ProgressBarEUI27"/>
+			<e:ProgressBar id="barL0" y="24" value="100" slideDuration="0" maximum="100" x="41" skinName="ProgressBarEUI27_1"/>
+			<e:ProgressBar id="barR" y="24" value="100" slideDuration="0" maximum="100" x="281" direction="rtl" skinName="ProgressBarEUI28"/>
+			<e:ProgressBar id="barR0" y="24" value="60" slideDuration="0" maximum="100" x="281" direction="rtl" skinName="ProgressBarEUI28_1"/>
+
+		</e:Group>
+		<e:Group x="60" y="289">
+			<e:Image source="sjhj_zycs_tx" x="60" y="1"/>
+			<e:Image id="imgIconL" source="mianui_zycs_zhanshi0" width="76" height="76" x="70" y="10"/>
+			<e:Image id="imgMvpL" x="0" y="0" source="ldsz_zycs_mvp"/>
+			<e:Component id="itemL0" x="13" y="105" skinName="Pk3v3ResultItemEUI"/>
+			<e:Component id="itemL1" x="13" y="214" skinName="Pk3v3ResultItemEUI"/>
+			<e:Component id="itemL2" x="13" y="322" skinName="Pk3v3ResultItemEUI"/>
+		</e:Group>
+
+
+
+
+
+		<e:Group x="329" y="289">
+			<e:Image source="sjhj_zycs_tx" x="70" y="1"/>
+			<e:Image id="imgIconR" width="76" height="76" source="jsdd_zycs_wh" x="80" y="10"/>
+			<e:Image id="imgMvpR" x="10" y="0" source="ldsz_zycs_mvp2"/>
+			<e:Component id="itemR0" x="13" y="105" skinName="Pk3v3ResultItemEUI"/>
+			<e:Component id="itemR1" x="13" y="214" skinName="Pk3v3ResultItemEUI"/>
+			<e:Component id="itemR2" x="13" y="322" skinName="Pk3v3ResultItemEUI"/>
+		</e:Group>
+		<e:Image id="imgJl" x="92" y="749" source="js_zycs_hdwp"/>
+
+
+
+
+		<e:Scroller y="790" horizontalCenter="0">
+			<e:List id="listReward" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout gap="28" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+				</e:layout>
+
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object />
+						<e:Object />
+						<e:Object />
+						<e:Object />
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbScore" text="Wining Points" y="921" size="22" fontFamily="Times" textColor="0x13ee22" x="224"/>
+		<e:Label id="lbScore1" text="CP Bonus Points" y="949" size="22" fontFamily="Times" textColor="0x13ee22" x="224"/>
+		<e:Button id="closeBtn" label="Confirm (3s)" x="244" y="984" anchorOffsetX="0" anchorOffsetY="0" icon="anz_zycs_lqjl" skinName="BtnMin1_6"/>
+
+
+	</e:Group>
+</e:Skin>

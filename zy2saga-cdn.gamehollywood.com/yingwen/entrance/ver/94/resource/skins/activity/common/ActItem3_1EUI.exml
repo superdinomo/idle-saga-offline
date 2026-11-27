@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem3_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="683"
+        height="170" states="0,1,2">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="170" source="shenmo_zycs_dikuang_02" anchorOffsetX="0" width="683" scale9Grid="41,12,250,63"/>
+	<e:Image x="7" y="8" anchorOffsetY="0" source="public_zycs_btkuang"/>
+<e:Scroller x="24" y="56" anchorOffsetY="0" anchorOffsetX="0" width="467" height="99" scrollPolicyH="off" scrollPolicyV="off">
+		<e:List id="list" itemRendererSkinName="ItemSkin" width="442" height="109" x="-1" y="0" anchorOffsetX="0">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="rewardBtn" label="Claim" x="516" visible.1="false" visible.2="false" verticalCenter="0" skinName="BtnMin1_1"/>
+	<e:Button id="btnGoto" label="Go" x="516" skinName="BtnMin1_8" visible.0="false" visible.2="false" verticalCenter="0"/>
+	<e:Image id="rewardedTip" x="532" source="public_zycs_ylq" visible.0="false" visible.1="false" verticalCenter="0.5"/>
+	<e:Label id="lbDesc" text="Top up" x="18" y="15" size="24" fontFamily="Times" textColor="0xe6dcb8"/>
+	<e:Label id="lbDay" text="You have login for 2 days" x="513" y="115" size="20" fontFamily="Times" textColor="0xE6DCB8" visible.2="false" width="166"/>
+	<e:Group id="groupDay" x="18" y="13">
+		<e:Label id="lbDay1" text="Total Sign-in" x="0" y="0" size="24" fontFamily="Times" textColor="0xE6DCB8"/>
+		<e:BitmapLabel id="bitDay" x="190" y="7" font="cjnum_fnt" text="12"/>
+		<e:Label id="lbDay2" text="Day" x="69" y="2" size="24" fontFamily="Times" textColor="0xE6DCB8"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="6"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

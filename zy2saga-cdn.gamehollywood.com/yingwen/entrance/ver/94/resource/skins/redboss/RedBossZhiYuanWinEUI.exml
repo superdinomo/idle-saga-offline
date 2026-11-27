@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedBossZhiYuanWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="720" height="1280">
+	<w:Config id="15d981d06da"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="898" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" anchorOffsetY="0"/>
+		<e:Button id="closeBtn0" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="637"/>
+		<e:Image y="-3" width="252" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="234"/>
+		<e:Image y="14" horizontalCenter="-0.5" source="btz_zycs_zylb_png"/>
+
+		<e:Image y="95" source="public_zycs_tsk1" scale9Grid="9,9,54,58" height="653" width="685" anchorOffsetX="0" anchorOffsetY="0" x="18"/>
+		<e:Scroller y="104" x="27" height="636" width="674" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list" itemRendererSkinName="RedBossZhiYuanWinItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object />
+						<e:Object />
+						<e:Object />
+						<e:Object />
+						<e:Object />
+						<e:Object />
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imgNoPlayer" anchorOffsetX="0" anchorOffsetY="0" source="zh_zycs_zwzy" x="185" verticalCenter="-10"/>
+
+
+
+
+
+		<e:Button id="btnRefresh" skinName="BtnMin1_1" y="770" label="Refresh" x="286"/>
+		<e:Label id="lbTitle" text="Kill Common Scarlet Boss to obtain abundant rewards" y="61" size="24" fontFamily="Times" horizontalCenter="0"/>
+	</e:Group>
+	<!--<e:Image touchEnabled="false" scale9Grid="88,64,2,3" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\Z_真红BOSS\Z-真红BOSS-支援列表1.jpg" locked="true" visible="false"/>-->
+
+</e:Skin>

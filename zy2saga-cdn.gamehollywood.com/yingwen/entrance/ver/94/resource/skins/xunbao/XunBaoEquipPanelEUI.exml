@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XunBaoEquipPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1134" states="7day,none,act"  width="720">
+	<w:Config id="1586be3c5b0"/>
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image y="41" touchEnabled="false" source="xb_zycs_zbbg_jpg" x="13"/>
+	<e:Image id="lbGuangGao" y="125" touchEnabled="false" x="24" source="xb_zycs_zbmsz" y.none="90"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image y="59" touchEnabled="false" x="4" source="xb_zycs_kfqt" visible.none="false" source.act="xb_zycs_kfqt1"/>
+	<e:Label id="lbDoubleTimer" text="Expire after 5 days" x="558" y="85" size="20" fontFamily="Times" visible.none="false"/>
+	<e:Image y="-6" pixelHitTest="true" touchEnabled="false" id="imgTitle" source="xb_zycs_zbxb" horizontalCenter="0"/>
+	<e:Component id="item0" x="69" y="212" skinName="XunBaoEquipPanelItemEUI" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="197" y="212" skinName="XunBaoEquipPanelItemEUI" id="item1" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="324" y="212" skinName="XunBaoEquipPanelItemEUI" id="item2" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="452" y="212" skinName="XunBaoEquipPanelItemEUI" id="item3" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="579" y="212" skinName="XunBaoEquipPanelItemEUI" id="item4" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="69" y="474" skinName="XunBaoEquipPanelItemEUI" id="item9" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="197" y="474" skinName="XunBaoEquipPanelItemEUI" id="item10" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="324" y="474" skinName="XunBaoEquipPanelItemEUI" id="item11" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="452" y="474" skinName="XunBaoEquipPanelItemEUI" id="item12" scaleX="0.75" scaleY="0.75"/>
+	<e:Component x="579" y="474" skinName="XunBaoEquipPanelItemEUI" id="item13" scaleX="0.75" scaleY="0.75"/>
+	<e:Component y="328" id="item5" skinName="XunBaoEquipPanelItem1EUI" x="73"/>
+	<e:Component y="328" id="item6" skinName="XunBaoEquipPanelItem1EUI" x="233"/>
+	<e:Component y="328" id="item7" skinName="XunBaoEquipPanelItem1EUI" x="392"/>
+	<e:Component id="item8" skinName="XunBaoEquipPanelItem1EUI" y="328" x="551"/>
+	<e:Scroller id="" y="578" x="33" anchorOffsetX="0" width="124" anchorOffsetY="0" height="113">
+		<e:List id="listJiLu" scrollEnabled="false" itemRendererSkinName="XunBaoJiLuBtnEUI" useVirtualLayout="false">
+		
+			
+		<e:ArrayCollection>
+				<e:Object labelDisplay="Server" />
+				<e:Object labelDisplay="Personal" />
+			</e:ArrayCollection>
+			
+		
+		<e:layout>
+			<e:VerticalLayout gap="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupJiLu" width="533" height="111" x="167" y="579" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Scroller id="scrollerJiLuOhter" y="0" x="0" scaleX="1" scaleY="1" height="110" anchorOffsetX="0" width="534" anchorOffsetY="0">
+			<e:List id="listJiLuOhter" scrollEnabled="false" itemRendererSkinName="XunBaoJiLuItemEUI" useVirtualLayout="false">
+			
+				
+				
+			
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="scrollerJiLuMy" y="0" x="0" scaleX="1" scaleY="1" height="110" anchorOffsetX="0" width="534" anchorOffsetY="0">
+			<e:List id="listJiLuMy" scrollEnabled="false" itemRendererSkinName="XunBaoJiLuItemEUI" useVirtualLayout="false">
+			
+				
+				
+			
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Label id="lbGaiLv" text="Rate Disclosure" y="745" size="20" fontFamily="Times" textColor="0x13ee22" right="18"/>
+	<e:Label text="The higher the luck points, the greater the chance to gain rare items" y="721" size="20" fontFamily="Times" horizontalCenter="-40.5" textColor="0x888786" width="551"/>
+	<e:Image touchEnabled="false" source="xb_zycs_xyz" x="44" y="775"/>
+	<e:ProgressBar id="progressExp" y="773" skinName="ProgressBarEUI12" width="498" height="32" x="137" anchorOffsetX="0"/>
+	<e:Button id="btnHelp" x="642" y="771" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+	<e:Group y="838" horizontalCenter="-205">
+		<e:Image id="imgXunBao1" x="0" y="0" source="zycs_320001" width="32" height="32"/>
+		<e:Label id="lbXunBao1" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="buyXunBao1" label="Hunt x1" y="875" x="80" skinName="BtnMin1_2"/>
+	<e:Group y="838" horizontalCenter="-3">
+		<e:Image id="imgXunBao10" x="0" y="0" source="zycs_320001" width="32" height="32"/>
+		<e:Label id="lbXunBao10" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="buyXunBao10" label="Hunt x10" y="875" horizontalCenter="0.5" skinName="BtnMin1_2"/>
+	<e:Image touchEnabled="false" x="408" y="845" source="xb_zycs_zk"/>
+	<e:Group y="838" horizontalCenter="205">
+		<e:Image id="imgXunBao50" x="0" y="0" source="zycs_320001" width="32" height="32"/>
+		<e:Label id="lbXunBao50" text="0" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="buyXunBao50" label="Hunt x50" y="875" x="492" skinName="BtnMin1_2"/>
+	<e:Image touchEnabled="false" source="xb_zycs_zk" x="607" y="845"/>
+	<e:Component x="498" y="658" skinName="XunBaoBiDeTipsEUI" id="xunBaoBiDeTips"/>
+	<!--<e:Image x="0" y="-46" touchEnabled="false"  source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\X_寻宝\L-灵器寻宝-装备寻宝.jpg" locked="true" visible="false"/>-->
+
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjLoginPipeiTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="553" height="464">
+		<e:Image x="0" y="0" touchEnabled="false" scale9Grid="88,64,2,3" source="public_zycs_tips_jpg"/>
+
+		<e:Image id="imgTitle" y="13" horizontalCenter="0.5" source="btz_gjs_zqgjs_png"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="-4" right="0"/>
+
+
+
+
+		<e:Label id="lbDec" text="晋级赛即将在今晚20:30开启\n你将加入荣煌战区的皇德耀世队" fontFamily="Times" size="22" textAlign="center" y="200" horizontalCenter="0.5" lineSpacing="10" textColor="0xe3d7be"/>
+		<e:Button id="btnSend" label="Go to View" y="349" horizontalCenter="1" skinName="BtnMin1_1"/>
+	</e:Group>
+</e:Skin>

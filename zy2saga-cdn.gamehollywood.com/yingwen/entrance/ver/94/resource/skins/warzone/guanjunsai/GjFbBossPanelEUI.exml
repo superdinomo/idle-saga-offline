@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbBossPanelEUI" height="1280" currentState="noget" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="720"  states="get,canget,noget">
+	<w:Config id="1586b13ea96" />
+
+	<e:Group anchorOffsetX="0" width="201" right="0" bottom="433" height="190">
+		<e:Image y="0" x="0" scale9Grid="26,26,13,6" source="sjbs_zycs_k1"/>
+		<e:Scroller anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0.5" y="36">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+		
+				
+				<!--<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>	-->
+				<e:layout>
+				<e:HorizontalLayout gap="11" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbDesc" text="Damage Basic Rewards" y="11" fontFamily="Times" size="18" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" horizontalCenter="0.5" textColor="0xe3d7be"/>
+		<e:Label id="lbHurt" text="10/100" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" visible.get="false" visible.canget="false" textColor="0xf01414" horizontalCenter="0.5" verticalCenter="69" width="190"/>
+		<e:Label id="lbYlq" text="Rewards are all claimed" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" textColor="0x5AC832" visible.canget="false" visible.noget="false" horizontalCenter="0.5" width="190" wordWrap="true" verticalCenter="69"/>
+		<e:Label id="lbOk" text="Claim" fontFamily="Times" size="20" textAlign="center" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" textColor="0x5AC832" horizontalCenter="0.5" visible.get="false" visible.noget="false" width="190" verticalCenter="69"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" top="20">
+		<e:Image y="0" x="0" touchEnabled="false" source="kfsd_zycs_wzd"/>
+		<e:Label id="lbBoxTime" y="5" text="Challenge Time: 05:00" fontFamily="Times" size="20" lineSpacing="0" textAlign="center" textColor="0x13EE12" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

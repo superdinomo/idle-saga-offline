@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjBetSubWin2EUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="553" height="412" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="public_zycs_dikuang" width="100%" height="100%" scale9Grid="74,59,37,17"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+
+		<e:Button id="closeBtn" label="" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao" x="470"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source="btz_gjs_jc_png"/>
+		<e:Label id="lbName3" text="Please make a guess of the following teams’ places" y="58" size="18" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xCDC8BE" horizontalCenter="0"/>
+		<e:Group x="68" y="90" width="86">
+			<e:Image id="imgBg0" y="0" touchEnabled="true" x="0" source="gjs_tb_zdtxk"/>
+			<e:Image id="imgIcon0" y="3" touchEnabled="true" source="gjs_zh5" x="3"/>
+			<e:Image id="imgWh0" touchEnabled="true" source="public_zycs_xuanze_gou" x="17" y="15"/>
+			<e:Image id="imgZd0" touchEnabled="false" y="62" source="gjs_zhandui" x="4"/>
+			<e:Label id="lbName0" text="Team Name" y="98" size="18" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xcdc8be" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group y="90" x="233" width="86">
+			<e:Image id="imgBg1" y="0" touchEnabled="true" x="0" source="gjs_tb_zdtxk"/>
+			<e:Image id="imgIcon1" y="3" touchEnabled="true" x="3" source="gjs_zh5"/>
+			<e:Image id="imgWh1" touchEnabled="true" source="public_zycs_xuanze_gou" x="17" y="15"/>
+			<e:Image id="imgZd1" touchEnabled="false" y="62" source="gjs_zhandui" x="4"/>
+			<e:Label id="lbName1" text="Team Name" y="98" size="18" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xcdc8be" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group y="90" width="86" x="399">
+			<e:Image id="imgBg2" y="0" touchEnabled="true" x="0" source="gjs_tb_zdtxk"/>
+			<e:Image id="imgIcon2" y="3" touchEnabled="true" x="3" source="gjs_zh5"/>
+			<e:Image id="imgWh2" touchEnabled="true" source="public_zycs_xuanze_gou" x="17" y="15"/>
+			<e:Image id="imgZd2" touchEnabled="false" y="62" source="gjs_zhandui" x="4"/>
+			<e:Label id="lbName2" text="Team Name" y="98" size="18" textAlign="left" fontFamily="Times" lineSpacing="5" textColor="0xcdc8be" horizontalCenter="0"/>
+		</e:Group>
+
+
+
+		<e:Group id="groupZs" y="254" horizontalCenter="0.5">
+			<e:Image x="0" y="0" source="zycs_320002"/>
+			<e:Label id="lbZs" text="1000" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" y="164" x="32" textColor="0xFFFFFF"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+
+
+
+		<e:Button id="btnSend" y="293" label="Confirm" skinName="BtnMin1_1" x="202"/>
+
+	</e:Group>
+</e:Skin>

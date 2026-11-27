@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPkBuffItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<w:Config id="1586b13ea96" />
+	<e:Label id="lbName" text="Buff Name" fontFamily="Times" size="20" textAlign="center" textColor="0xFFFFFF"/>
+	<e:Image id="imgIcon" y="21" source="yishang0_png"/>
+	<e:Label id="lbDec" text="5000 Fire Crystals" fontFamily="Times" size="20" textAlign="center" textColor="0xFFFFFF" x="0" y="53"/>
+</e:Skin>

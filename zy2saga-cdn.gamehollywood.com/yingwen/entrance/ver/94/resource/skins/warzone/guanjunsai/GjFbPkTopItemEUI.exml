@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPkTopItemEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   width="174">
+	<w:Config id="1586b13ea96" />
+	<e:Label id="lbName" text="Team Red Base Camp" fontFamily="Times" size="18" textAlign="center" textColor="0xe3d7be" horizontalCenter="0"/>
+	<e:Image id="imgIcon" y="28" source="gjs_dby_1" horizontalCenter="0"/>
+	<e:ProgressBar id="barHp" value="80" y="111" touchEnabled="false" maximum="100" skinName="bar7Skin" x="0"/>
+	<e:Button id="btnSet" y="97" x="132" skinName="Btn0Skin" icon="gjs_an_cf"/>
+	<e:Button id="btnGet" y="97" x="132" skinName="Btn0Skin" icon="gjs_an_dq"/>
+	<e:Group id="groupState" x="10" y="59">
+		<e:Image y="3" source="gjs_tb_di_a" x="4"/>
+		<e:Image id="imgState" y="0" source="gjs_tb_cf_a" x="0"/>
+		<e:Group id="groupMC" x="82" y="20"/>
+	</e:Group>
+
+
+
+</e:Skin>

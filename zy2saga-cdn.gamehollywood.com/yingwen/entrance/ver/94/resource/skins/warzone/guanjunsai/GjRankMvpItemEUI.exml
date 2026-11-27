@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjRankMvpItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="639" height="118">
+	<e:Image width="100%" bottom="0" source="zs_zycs_fengexian" height="4"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="24" x="47" width="53" textAlign="center" textColor="0xcdc8be" y="47"/>
+	<e:Image id="imgRank" verticalCenter="0" horizontalCenter="-247" source="phb_zycs_no1"/>
+	<e:Label id="lbXwyd" text="Vacant" fontFamily="Times" size="20" x="127" textAlign="center" y="49" textColor="0xcdc8be"/>
+	<e:Label id="lbName" text="奇迹丶牛有德" fontFamily="Times" size="20" x="127" textAlign="center" y="49" textColor="0xcdc8be"/>
+	<e:Label id="lbScore" text="火晶:123456" fontFamily="Times" size="20" x="127" textAlign="center" y="77" textColor="0xCDC8BE"/>
+
+	<e:List id="list" itemRendererSkinName="ItemSkin" scaleX="0.8" scaleY="0.8" y="12" right="0">
+		<e:layout>
+		<e:HorizontalLayout gap="14" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>	
+</e:Skin>

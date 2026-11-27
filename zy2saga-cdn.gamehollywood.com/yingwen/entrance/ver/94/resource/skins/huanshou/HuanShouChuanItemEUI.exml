@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouChuanItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="679">
+	<e:Image id="imgBorder" x="0" scale9Grid="20,19,2,2" width="100%" bottom="0" top="0" source="hs_zycs_zbd"/>
+	<e:Image id="imgBg" x="2" y="1" source="hs_zycs_zbdd2"/>
+	<e:Image id="imgDress" source="equip_zycs_yizhuangbei" x="599" y="-2"/>
+
+	<e:Image x="95" y="7" source="public_zycs_di01" scale9Grid="35,10,216,15" height="40"/>
+	<e:Component id="item" y="19" x="29" skinName="HuanShouEquipItemEUI"/>
+	<e:Image id="imgItem" x="29" y="19" source="public_zycs_greybg0" scale9Grid="2,2,16,16" width="94" height="94" alpha="0.01"/>
+
+	<e:Label id="lbName" text="Gear Name" size="24" fontFamily="Times" x="176" y="14" textColor="0xe3d7be"/>
+
+	<e:Label id="lbPos" text="Part: 998" size="20" fontFamily="Times" x="149" y="85" textColor="0xE3D7BE"/>
+	<e:Group x="149" y="55">
+		<e:Label id="lbScore" text="Rating: 998" size="20" fontFamily="Times" x="0" y="0" textColor="0xE3D7BE"/>
+		<e:Image id="imgJt" x="95" y="4" source="zdlupnum_g"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="bottom"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Group x="149" y="135">
+		<e:Label id="lbAttr" text="Basic Stats: 9998\nBasic Stats" size="20" fontFamily="Times" x="0" y="0" textColor="0xE3D7BE" lineSpacing="10"/>
+		<e:Image x="95" y="4" source="zuji_zycs_fgx" height="2"/>
+		<e:Label id="lbAttr0" text="Excellent Stats: 9998" size="20" fontFamily="Times" x="0" y="74" textColor="0xE3D7BE" lineSpacing="3"/>
+		<e:Label id="lbAttr1" text="Excellent Stats: 9998" size="20" fontFamily="Times" x="0" y="104" textColor="0xE3D7BE" lineSpacing="3"/>
+		<e:layout>
+			<e:VerticalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+	<e:Button id="btnUp" label="Equip" y="185" x="500" skinName="BtnMin1_2"/>
+	<e:Button id="btnDown" label="Unequip" y="185" x="500" skinName="BtnMin1_1"/>
+</e:Skin>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DamonHuanHuaPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image id="imgBg" touchEnabled="false" x="13" y="41" source="jl_zycs_bg1_jpg"/>
+		<e:Group id="groupMc" width="0" height="0" y="504" x="360"/>
+		<e:Group id="groupSkill" x="516" y="165">
+			<e:Label text="Exclusive Skill" x="29" y="0" size="24" textColor="0xFF9B0F" fontFamily="Times"/>
+			<e:Component id="skillItem0" skinName="ShenMoSkillItemEUI" x="34" y="30"/>
+			<e:Component id="skillItem1" skinName="ShenMoSkillItemEUI" x="105" y="30"/>
+		</e:Group>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="65" horizontalCenter="0">
+			<e:Image x="0" source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Group id="groupLv" x="276" y="107">
+			<e:Image y="0" source="zycs_sm_lvdi" x="0"/>
+			<e:Group y="6" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image source="shenqi_zycs_jie"/>
+			<e:BitmapLabel id="bmpLv" x="0" text="1" y="0" font="shenmonum_fnt"/>
+
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="4"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+
+		<e:Group y="509" horizontalCenter="0">
+			<e:Image y="0" source="pubilc_zycs_hengdikuang" left="-20" right="-20"/>
+			<e:Image id="imgName" source="jl_zycs_h101" y="17" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image id="imgWjh" y="388" x="540" source="jh_zycs_wjh"/>
+		<e:Image id="imgSyz" y="379" x="541" source="shenqi_zycs_syz"/>
+		<e:Button id="btnHuanHua" x="563" y="391" skinName="Btn0Skin" icon="zycs_jl_genghuan"/>
+		<e:Label id="lbActDec" text="Obtain from event. After activation, CP +1000" size="20" textAlign="center" fontFamily="Times" width="636" textColor="0xffffff" bottom="550" horizontalCenter="0"/>
+		<e:Label id="btnAttr" text="Total Bonus" y="589" size="20" textAlign="left" fontFamily="Times" textColor="0x11f51c" right="25"/>
+		<e:Image y="589" source="shenqi_zycs_sxjc" x="288"/>
+		<e:Image y="592" source="liuguang_zycs_huawen" scaleX="-1" x="615"/>
+		<e:Image y="592" source="liuguang_zycs_huawen" x="105"/>
+		<e:Image y="623" source="shenqi_zycs_di3" x="11" scale9Grid="87,10,524,63" height="103"/>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="631" horizontalCenter="0">
+			<e:layout>
+			<e:TileLayout verticalGap="6" horizontalGap="30" requestedColumnCount="2"/>
+			</e:layout>
+		</e:DataGroup>
+		<e:Image touchEnabled="false" y="736" source="shenqi_zycs_di4" x="11"/>
+
+		<e:Scroller id="scroller" y="737" width="496" horizontalCenter="0">
+			<e:List id="listIcon" itemRendererSkinName="HuanHuaItemEUI">
+			<e:layout>
+				<e:HorizontalLayout gap="-8"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller scaleX="0.8" scaleY="0.8" scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" horizontalCenter="-0.5" y="906">
+			<e:List id="listConsume" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout paddingRight="20" paddingTop="20" paddingBottom="20" paddingLeft="20"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="1020" x="286" label="Unlock"/>
+		<e:Button id="helpBtn" x="661" y="946" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+		<e:Image id="imgYml" touchEnabled="false" y="970" source="bxsb_zycs_ymj" x="299"/>
+	</e:Group>
+</e:Skin>

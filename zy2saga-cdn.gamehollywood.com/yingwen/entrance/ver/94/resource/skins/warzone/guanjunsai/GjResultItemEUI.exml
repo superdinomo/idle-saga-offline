@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjResultItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="690" height="118">
+	<e:Image x="0" bottom="0" source="ldsz_zycs_fgx1" width="100%"/>
+	<e:Image id="imgBg" source="gjs_phd1" y="0"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="24" x="41" width="53" textAlign="center" textColor="0xe3d7be" verticalCenter="0"/>
+	<e:Image id="imgRank" verticalCenter="0" horizontalCenter="-277" source="jjc_zycs_no1"/>
+	<e:Image id="imgzhandui" verticalCenter="0" x="99" source="gjs_zhandui"/>
+	<e:Image id="imgduizhang" verticalCenter="0" x="398" source="gjs_dz"/>
+	<e:Image id="imgIcon" x="130" touchEnabled="false" source="smsz_zycs_shen1" y="17" visible="false"/>
+	<e:Label id="lbTeam" text="皇德耀世" fontFamily="Times" size="24" x="182" textAlign="center" textColor="0xff9b0f" y="47"/>
+	<e:Label id="lbName" text="奇迹丶牛有德" fontFamily="Times" size="24" x="430" textAlign="center" textColor="0xf5e65a" y="47"/>
+
+	
+</e:Skin>

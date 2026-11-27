@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjResultWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="720" horizontalCenter="0" verticalCenter="0" height="938">
+		<e:Image source="public_zycs_dikuang" width="100%" height="100%" scale9Grid="74,59,37,17"/>
+		<e:Image y="42" source="gjs_zycs_bg23_jpg" x="13"/>
+		<e:Image y="-4" horizontalCenter="0.5" source="chibang_zycs_biaoti_di"/>
+
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source="btz_gjs_zdgjs_png"/>
+		<e:Group id="groupMc" width="0" height="0" y="409" x="360"/>
+		<e:Button id="closeBtn" label="" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao" x="637"/>
+		<e:Group id="itemGroup" x="10" y="413">
+			<e:Image y="5" scaleX="1" scaleY="1" source="phb_zycs_dym" x="0" scale9Grid="70,13,421,61" anchorOffsetX="0" width="697" anchorOffsetY="0" height="135"/>
+			<e:Component id="item" skinName="GjResultItemEUI" x="6" y="11"/>
+		</e:Group>
+		<e:Scroller id="scroller" y="543" width="690" height="231" x="15" anchorOffsetY="0">
+			<e:List id="list" itemRendererSkinName="GjResultItemEUI">
+			<e:layout>
+				<e:VerticalLayout gap="-4"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+		<e:Group y="800" horizontalCenter="0">
+			<e:Label id="lbRank" text="My Team Ranking: 2" y="0" size="24" fontFamily="Times" textColor="0xe3d7be" horizontalCenter="0"/>
+			<e:Label id="lbName" text="队长名字：奇迹丶牛有德" y="0" size="24" fontFamily="Times" x="322" textColor="0xe3d7be" visible="false"/>
+		</e:Group>
+		<e:Label text="Ranking Rewards will be issued via mails" y="853" size="24" fontFamily="Times" horizontalCenter="0" textColor="0xe3d7be"/>
+	</e:Group>
+</e:Skin>

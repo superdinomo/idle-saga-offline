@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SjzhZhPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group x="0" y="0" width="720">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image id="imgBg" touchEnabled="false" y="42" source="sj_zycs_zhbg_jpg" x="13"/>
+		<e:Label id="lbDec0" text="Click the Avatar Soul to be transferred" y="74" fontFamily="Timse" size="24" textAlign="center" verticalAlign="middle" textColor="0xff9b0f" horizontalCenter="0"/>
+		<e:Label id="lbDec1" text="Click the Avatar Soul obtained" y="672" fontFamily="Timse" size="24" textAlign="center" verticalAlign="middle" textColor="0xFF9B0F" horizontalCenter="0"/>
+		<e:Image touchEnabled="false" y="620" source="zz_zycs_jiantou" rotation="90" x="371"/>
+		<e:Image touchEnabled="false" y="389" source="public_zycs_daojukuang_01" x="313"/>
+		<e:Scroller y="133" height="202" width="658" x="31">
+			<e:List id="listBag" itemRendererSkinName="SjzhZhItemEUI">
+			<e:layout>
+				<e:TileLayout horizontalGap="5" requestedColumnCount="5" paddingLeft="-6" paddingRight="-6" paddingTop="-6" paddingBottom="-6" verticalGap="-3"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="btnLink" text="Go to Acquire" y="217" size="24" textAlign="left" fontFamily="Timse" textColor="0x11F51C" horizontalCenter="0"/>
+		<e:Component id="item" y="369" skinName="SjzhZhItemEUI" x="295"/>
+		<e:Group y="549.17" x="178">
+			<e:Image id="sub10Btn" x="0" y="1" scaleX="1" scaleY="1" anchorOffsetY="0" source="public_zycs_min"/>
+			<e:Image id="sub1Btn" x="69" y="1" source="public_zycs_j"/>
+			<e:Image id="inputback" y="3" width="128" height="38" scale9Grid="6,6,3,3" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="public_zycs_shurukuang" x="119"/>
+			<e:Image id="add1Btn" y="0.83" anchorOffsetY="0" source="public_zycs_jia" x="252"/>
+			<e:Image id="add10Btn" x="306" anchorOffsetY="0" source="public_zycs_max"/>
+			<e:Label id="numLabel" text="0" y="11" size="20" fontFamily="Times" anchorOffsetX="0" width="89" anchorOffsetY="0" height="19" textAlign="center" x="138" restrict="0-9"/>
+		</e:Group>
+		<e:Scroller y="721" x="99" width="522" height="130">
+			<e:List id="list" itemRendererSkinName="SjzhZhItemEUI">
+				<e:layout>
+					<e:HorizontalLayout gap="66"/>
+				</e:layout>
+
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupConsu" y="880" horizontalCenter="0">
+			<e:Image id="imgConsu" x="70" y="10" source="zycs_320002"/>
+			<e:Label id="lbConsu" text="0" fontFamily="Timse" size="24" textAlign="left" textColor="0xCDC8BE" x="110" y="16"/>
+			<e:layout>
+			<e:HorizontalLayout gap="6" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="918" x="286" label="Transfer"/>
+	</e:Group>
+</e:Skin>

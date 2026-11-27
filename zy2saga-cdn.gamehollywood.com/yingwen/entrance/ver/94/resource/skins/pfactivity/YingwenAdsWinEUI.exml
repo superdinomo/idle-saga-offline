@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YingwenAdsWinEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="552" verticalCenter="0" horizontalCenter="0" height="488">
+		<e:Image height="488" touchEnabled="false" width="552" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image source="public_zycs_tyts" horizontalCenter="0" y="-4"/>
+		<e:Image source="public_zycs_greybg2" scale9Grid="2,2,16,16" height="182" y="141" width="479" x="37"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="0" x="470"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source="chibang_zycs_tishi"/>
+		<e:Label id="lbDesc0" text="Get rewards by watching video" y="88" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" x="42"/>
+		<e:Scroller id="scroller" y="169" horizontalCenter="0.5">
+			<e:List id="listAward" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout gap="20" paddingLeft="15" paddingTop="15" paddingRight="15" paddingBottom="15"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbDesc1" text="No more rewards are available for today." y="221" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" horizontalCenter="0"/>
+		<e:Button id="btnSend" label="Confirm" y="360" skinName="BtnMin1_1" x="316"/>
+		<e:Button id="closeBtn0" y="360" x="88" label="Cancel" skinName="BtnMin1_1a"/>
+		<e:Button id="helpBtn" x="491" y="397" skinName="Btn0Skin" icon="jl_zycs_wenhao"/>
+
+	</e:Group>
+</e:Skin>

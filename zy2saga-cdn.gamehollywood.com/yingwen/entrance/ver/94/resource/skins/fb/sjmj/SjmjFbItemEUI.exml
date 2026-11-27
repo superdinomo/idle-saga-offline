@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SjmjFbItemEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="up,down"  width="130">
+	<e:Image x="0" y="3" visible.down="false" source="gd_zycs_btx"/>
+	<e:Image x="0" y="0" visible.up="false" source="gd_zycs_bsxz"/>
+	<e:Image id="imgHaeh" source="" horizontalCenter="0" verticalCenter="-7"/>
+
+
+	<e:Image id="imgTime" y="58" source="gd_zycs_mzd" width="79" x="26"/>
+	<e:Group x="0" height="30" y="106">
+		<e:Image x="0" source="public_zycs_jx1" width="130" top="-5" bottom="-5"/>
+		<e:Label id="nameTxt" text="0" fontFamily="Times" size="20" textAlign="center" textColor="0xe6dcb8" width="130" horizontalCenter="0" wordWrap="true" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="labTime" y="60" text="0" fontFamily="Times" size="18" textAlign="center" horizontalCenter="0" textColor="0xf01414"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="93" y="34"/>
+</e:Skin>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleHuFuPanelEUI" width="720" currentState="uplevel" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="noact,uplevel,max"  height="1134">
+	<w:Config id="1586b13ea96" />
+	<e:Image anchorOffsetY="0" height="1134" touchEnabled="false" source="public_zycs_dikuang" anchorOffsetX="0" width="720" scale9Grid="88,64,2,3"/>
+	<e:Image x="13" y="43" source="mw_zycs_bg_jpg"/>
+	<e:Image y="49" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Image y="989" source="bxsb_zycs_ymj" x="299" visible.noact="false" visible.uplevel="false"/>
+	<e:Group id="groupPower" y="65" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="totalPower" x="87" text="1111123132" font="powernum_fnt" y="0"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgIcon" y="218" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="mw_zycs_1_png" horizontalCenter="1" visible.noact="false"/>
+	<e:Group y="124" horizontalCenter="0" visible.noact="false">
+		<e:Image source="mw_zycs_dik" scale9Grid="46,8,160,51" width="100%"/>
+		<e:Group y="19" left="25" right="25">
+			<e:Image source="mw_zycs_jie"/>
+			<e:BitmapLabel id="lbBit" font="mwnum_fnt" text="1"/>
+			<e:Image source="mw_zycs_dian"/>
+			<e:Image id="imgName" source="mw_zycs_name1"/>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image y="125" source="mw_zycs_wjh" visible.uplevel="false" visible.max="false" x="299"/>
+	<e:Image x="396" y="782" anchorOffsetX="0" anchorOffsetY="0" visible.max="false" visible.noact="false" source="qianghua_zycs_next"/>
+	<e:Label id="lbCurAttr" text="sfdssdf\nsfdssdf\nsfdssdf\nsfdssdf\nsfdssdf\nsfdssdf\nsfdssdf" size="24" fontFamily="Times" verticalCenter="238" horizontalCenter.noact="0" horizontalCenter.max="0" x.max="237" x.noact="237" lineSpacing="6" textColor="0xe3d7be" right.uplevel="339" x="288"/>
+	<e:Label id="lbNextAttr" text="2" size="24" fontFamily="Times" x="462" textColor="0x13ee22" visible.noact="false" visible.max="false" verticalCenter="238" lineSpacing="6"/>
+	<e:Button id="btnOk" y="999" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" x="303" skinName="BtnMin1_1" enabled.max="false" label="Level up" label.noact="Unlock" label.max="Max Level" visible.max="false"/>
+	<e:Label id="lbConsume" text="0" y="954" size="24" fontFamily="Times" width="443" textAlign="center" horizontalCenter="0.5" x="139" visible.max="false" textColor="0xe3d7be"/>
+	<e:Group id="groupIcon" width="0" height="0" y="341" x="361" visible.noact="false"/>
+	<e:Group id="groupDiZuo" width="0" height="0" y="567" horizontalCenter="0"/>
+	<e:Image id="imgSuo" y="221" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="mw_zycs_suo" visible.uplevel="false" visible.max="false" horizontalCenter="2"/>
+	<!--<e:Image anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" scale9Grid="88,64,2,3" x="0" source="E:\develop\zhuoyue2\data\trunk\client\asset\skin\示意图\M_魔纹\m魔纹.jpg" y="-45" visible.max="false" visible.noact="false" visible="false"/>-->
+</e:Skin>

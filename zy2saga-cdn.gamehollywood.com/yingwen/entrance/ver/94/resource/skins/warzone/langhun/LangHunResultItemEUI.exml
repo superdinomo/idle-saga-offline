@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LangHunResultItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="678" height="39">
+	<e:Label id="lbRank" text="1" size="24" fontFamily="Times" textColor="0xE3D7BE" x="50" y="8" width="80" textAlign="center"/>
+	<e:Image id="imgRank" verticalCenter="0" horizontalCenter="-247" source="phb_zycs_no1" scaleX="0.6" scaleY="0.6"/>
+	<e:Label id="lbName" text="S.999奇迹牛有德" size="24" fontFamily="Times" textColor="0xf5e65a" y="8" x="236"/>
+
+	<e:Label id="lbCount" text="999999" size="24" fontFamily="Times" textColor="0xE3D7BE" x="545" y="8"/>
+	<e:Image source="ldsz_zycs_fgx1" x="0" bottom="0" width="100%"/>
+
+
+
+</e:Skin>

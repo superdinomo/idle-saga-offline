@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YszcTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group id="group" horizontalCenter="0" verticalCenter="-84" height="736" width="546">
+		<e:Image height="100%" source="tipsbg2_jpg" scale9Grid="68,72,410,51" width="100%"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source="yszc"/>
+		<e:Scroller id="scroller" width="486" x="30" bottom="146" top="60">
+			<e:List id="lbList" itemRendererSkinName="YszcTipsWinItemEUI" useVirtualLayout="true">
+			<e:ArrayCollection>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="15" horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnOk" label="Confirm" bottom="67" horizontalCenter="0.5" skinName="BtnMin1_1mid"/>
+
+	</e:Group>
+</e:Skin>

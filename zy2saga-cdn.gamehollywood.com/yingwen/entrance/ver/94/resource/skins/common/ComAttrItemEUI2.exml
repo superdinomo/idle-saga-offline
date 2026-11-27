@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ComAttrItemEUI2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" x="0" y="0">
+		<e:Label id="lbCurAttr" text="Stats: " size="22" fontFamily="Times" x="0" y="0" textColor="0xc0b8a1"/>
+		<e:Image id="imgUp" source="zdlupnum_g" y="2" left="198" rotation="90" scaleY="0" includeInLayout="false"/>
+		<e:Label id="lbNextAttr" text="+999999999" size="22" fontFamily="Times" left="225" textColor="0x11f51c"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

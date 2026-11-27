@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipZhuHunItemTipsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="562" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="562" x="1" bottom="0" top="0" scale9Grid="26,25,5,5" source="public_zycs_nt" touchEnabled="false"/>
+		<e:Image id="imgQualityBg" anchorOffsetX="0" x="5" y="2" source="zbxx_zycs_3"/>
+		<e:Image y="11" source="tips_zycs_di" horizontalCenter="0.5"/>
+		<e:Component id="itemIcon" x="25" y="59" skinName="ItemSkin"/>
+		<e:Label id="lbName" text="Element Name" y="18" fontFamily="Times" size="24" textColor="0xFFFFFF" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="lbPower" text="1000" y="88" fontFamily="Times" size="22" textAlign="left" x="131" textColor="0xCDC8BE"/>
+		<e:Label id="lbNameGroup" text="Blast" y="130" fontFamily="Times" size="22" textAlign="left" x="131" textColor="0xCDC8BE"/>
+		<e:Group id="attrGroup" x="3" top="224" bottom="67">
+		<e:Group id="baseGroup">
+			<e:Image x="0" y="0" source="zbxx_zycs_xj"/>
+			<e:Label text="Glyph Stats" fontFamily="Times" size="22" textAlign="left" lineSpacing="6" y="6" x="10" textColor="0xFFB824"/>
+			<e:Label id="lbBaseAttr" text="Stats" fontFamily="Times" size="20" textAlign="left" x="39" lineSpacing="6" top="39" bottom="0" textColor="0xDFD1B5"/>
+		</e:Group>
+		<e:Group id="highGroup">
+			<e:Image x="0" y="0" source="zbxx_zycs_xj"/>
+			<e:Label text="Excellent Stats" fontFamily="Times" size="22" textAlign="left" lineSpacing="6" y="6" x="10" textColor="0xFFB824"/>
+			<e:Label id="lbHighAttr" text="Stats" fontFamily="Times" size="20" textAlign="left" x="39" lineSpacing="6" top="39" bottom="0" textColor="0xDFD1B5"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+		</e:Group>
+		<e:Image width="562" height="2" source="zs_zycs_fengexian" bottom="41"/>
+		<e:Label id="lbDesc" text="Divine 1-Star Weapon" fontFamily="Times" size="22" textAlign="left" x="40" bottom="11" textColor="0xFFB824"/>
+		<e:Image top="0" bottom="0" width="562" scale9Grid="26,25,5,5" source="public_zycs_wk" locked="true"/>
+	</e:Group>
+</e:Skin>

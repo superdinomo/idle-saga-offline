@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem205EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="683"
+        height="170" states="0,1,2">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="170" source="shenmo_zycs_dikuang_02" anchorOffsetX="0" width="683" scale9Grid="41,12,250,63"/>
+	<e:Image x="7" y="8" anchorOffsetY="0" source="public_zycs_btkuang"/>
+<e:Scroller x="24" y="56" anchorOffsetY="0" anchorOffsetX="0" width="437" height="99">
+		<e:List id="list" itemRendererSkinName="ItemSkin" width="442" height="109" x="-1" y="0" anchorOffsetX="0">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="rewardBtn" label="Claim" x="516" skinName="BtnMin1_8" icon="anz_zycs_lq" visible.1="false" visible.2="false" verticalCenter="0"/>
+	<e:Button id="chongZhiBtn" label="Claim" x="516" skinName="BtnMin1_8" icon="anz_zycs_czlq" visible.0="false" visible.2="false" verticalCenter="0"/>
+	<e:Image id="rewardedTip" x="532" source="public_zycs_ylq" visible.0="false" visible.1="false" verticalCenter="0.5"/>
+	<e:Label id="lbDesc" text="Top up" x="18" y="17" size="20" fontFamily="Times" textColor="0xe6dcb8"/>
+</e:Skin>

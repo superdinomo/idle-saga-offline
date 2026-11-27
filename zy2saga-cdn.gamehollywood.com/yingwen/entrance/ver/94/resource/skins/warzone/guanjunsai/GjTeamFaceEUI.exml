@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GjTeamFaceEUI" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="up,down"  width="104">
+	<e:Image x="0" y="0" touchEnabled="false" visible.up="false" source="gjs_tb_xz"/>
+	<e:Image y="12" touchEnabled="false" source="gjs_tb_zdtxk" x="10"/>
+	<e:Image id="imgIcon" y="17" touchEnabled="false" x="14" source="gjs_zh8"/>
+	<e:Image id="imgZd" touchEnabled="false" y="74" source="gjs_zhandui" x="13"/>
+	<e:Image id="imgWh" touchEnabled="false" y="26" x="38" source="gjs_wh"/>
+	<e:Label id="lbTeamName" text="Team Name" y="101" size="18" textAlign="left" fontFamily="Times" lineSpacing="5" horizontalCenter="0" textColor="0xe3d7be"/>
+
+
+
+</e:Skin>

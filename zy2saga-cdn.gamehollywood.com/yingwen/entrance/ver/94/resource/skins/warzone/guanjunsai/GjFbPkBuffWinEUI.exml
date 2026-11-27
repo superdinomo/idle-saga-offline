@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPkBuffWinEUI" width="720" height="1054" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da"/>
+	<e:Group width="553" horizontalCenter="0" verticalCenter="0" height="377">
+		<e:Image scale9Grid="74,59,37,17" source="gjs_zycs_bg21_jpg"/>
+
+
+		<e:Button id="closeBtn" label="" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao" right="0"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0" source="btz_gjs_zcbuff_png"/>
+		<e:Image id="imgIcon" y="77" source="gjs_buff3" horizontalCenter="0"/>
+		<e:Image id="imgJh" y="151" horizontalCenter="0" source="gjs_wjh"/>
+		<e:Label id="lbDec" text="Obtain conditions: Base stock reaches 4000/6000" size="24" textAlign="center" fontFamily="Times" touchEnabled="false" y="192" horizontalCenter="0.5" textColor="0xffffff"/>
+		<e:Label text="All team members obtained stats" size="24" textAlign="center" fontFamily="Times" touchEnabled="false" y="224" horizontalCenter="0.5" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="4" textColor="0xffffff"/>
+		<e:Label id="lbAttr" text="HP Bonus: 2%\nATK: 2%\nDEF: 2%" size="24" textAlign="left" fontFamily="Times" touchEnabled="false" y="256" textColor="0xE3D7BE" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="4" horizontalCenter="0.5"/>
+		<e:Button id="btnL" label="" y="121" skinName="Btn0Skin" icon="public_zycs_jtzs" scaleX="-1" x="128"/>
+		<e:Button id="btnR" label="" y="121" skinName="Btn0Skin" icon="public_zycs_jtzs" x="425"/>
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

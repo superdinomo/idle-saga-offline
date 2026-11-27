@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act43TipsItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="220" width="145">
+	<w:Config id="1586b362dfe"/>
+	<e:Image id="imgBg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="13,13,81,81" x="0" source="xycj_zycs_bdts"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" x="27" y="4" source="xycj_zycs_jpdj"/>
+	<e:Label id="lbName" text="Item Name" size="20" textAlign="center" fontFamily="Times" scaleX="1" scaleY="1" textColor="0xff1515" horizontalCenter="0" bottom="23"/>
+	<e:Group id="groupMc" y="139" x="75"/>
+	<e:Button id="btnClose" label="" x="113" y="2" skinName="Btn0Skin" icon="public_zycs_cha"/>
+
+</e:Skin>

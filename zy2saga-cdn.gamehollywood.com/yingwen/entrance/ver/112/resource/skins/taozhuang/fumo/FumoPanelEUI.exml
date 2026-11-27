@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FumoPanelEUI" currentState="not" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" states="unAtc,atc,max,not" width="720" height="1134">
+	<w:Config id="1586b1383e3" />
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang" />
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" y="43" source="taozhuang_zycsfumo_di_jpg" x="13" />
+	<e:Image y="49" source="public_zycs_jlylk"  horizontalCenter="0"/>
+	<e:Group id="groupPower" y="65" horizontalCenter="0.5">
+		<e:Image x="0" y="1" source="public_zycs_zdl" />
+		<e:BitmapLabel id="bitPower" x="87" text="1111123132" font="powernum_fnt" y="0" />
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Group x="164" y="433">
+		<e:Image source="qianghua_zycs_diwen1" x="0" top="0" bottom="0" scale9Grid="49,10,294,14"/>
+		<e:Label id="lbname" text="0" y="4" size="24" anchorOffsetX="0" textAlign="center" fontFamily="Times" textColor="0xFF9400" width="192" x="100"/>
+	</e:Group>
+	<e:Component id="item" y="284" touchEnabled="false" x="291" skinName="FumoEquipItemEUI" />
+	<e:Label id="lbDesc" text="0" y="943" fontFamily="Times" size="22" textColor="0xf01414" horizontalCenter="0.5"
+	         visible.max="false" />
+	<e:Group y="566" x="142">
+		<e:Image y="0" source="qianghua_zycs_diwen2" />
+		<e:Label text="Enchanstone Stats" size="18" fontFamily="Times" textColor="0xe3d7be" y="16" x="174" />
+		<e:Group width="427" anchorOffsetX="0" anchorOffsetY="0" y="-1" horizontalCenter="-3" height="146">
+			<e:Label id="lbAttr" text="Stats:0\nStats:0\nStats:0" size="20" fontFamily="Times" scaleX="1" scaleY="1"
+			         horizontalCenter.max="0" x="39" horizontalCenter.unAtc="0" x.atc="33" horizontalCenter.not="0"
+			         textColor="0xe3d7be" verticalCenter="13.5" lineSpacing="5" />
+			<e:Label id="lbAttrNext" text="Stats:0\nStats:0\nStats:0" size="20" fontFamily="Times" scaleX="1" scaleY="1" x="279"
+			         visible.max="false" textColor="0x5ac832" visible.unAtc="false" visible.not="false" verticalCenter="13.5"
+			         lineSpacing="5" />
+			<e:Image id="imgArrow" anchorOffsetX="0" anchorOffsetY="0" y="66" visible.max="false" x="236"
+			         source="qianghua_zycs_next" visible.unAtc="false" visible.not="false" />
+		</e:Group>
+	</e:Group>
+	<e:Group y="527" horizontalCenter="0">
+		<e:Image id="imgqhdj" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible.max="false" visible.unAtc="false"
+		         source="fm_zycs_fmcgl" />
+		<e:BitmapLabel id="bitRate" x="138" y="4" text="100%" visible.unAtc="false" visible.max="false" font="fmnum_zycs_fnt" />
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupItems" x="23" y="93">
+		<e:Component id="item0" y="0" x="0" skinName="FumoEquipItemEUI" touchEnabled="true" />
+		<e:Component id="item2" y="159" x="0" skinName="FumoEquipItemEUI" touchEnabled="true" />
+		<e:Component id="item3" y="318" x="0" skinName="FumoEquipItemEUI" touchEnabled="true" />
+		<e:Component id="item4" y="477" x="0" skinName="FumoEquipItemEUI" touchEnabled="true" name="RING2" />
+		<e:Component id="item8" x="0" skinName="FumoEquipItemEUI" touchEnabled="true" name="WEAPON2" y="636" />
+		<e:Component id="item1" y="0" x="537" skinName="FumoEquipItemEUI" touchEnabled="true" />
+		<e:Component id="item6" y="159" x="537" skinName="FumoEquipItemEUI" touchEnabled="true" />
+		<e:Component id="item7" y="318" x="537" skinName="FumoEquipItemEUI" touchEnabled="true" />
+		<e:Component id="item5" y="477" x="537" skinName="FumoEquipItemEUI" touchEnabled="true" />
+		<e:Component id="item9" y="636" x="537" skinName="FumoEquipItemEUI" touchEnabled="true" />
+	</e:Group>
+	<e:Group id="groupGem" x="148" y="164" touchEnabled="false" anchorOffsetX="0" width="428" anchorOffsetY="0"
+	         height="362">
+		<e:Component id="itemFumo1" y="49" skinName="FumoItemEUI" anchorOffsetX="0" touchEnabled="false" x="-13" scaleX="1"
+		             scaleY="1" />
+		<e:Component id="itemFumo2" y="48" skinName="FumoItemEUI" anchorOffsetX="0" touchEnabled="false" x="279" scaleX="1"
+		             scaleY="1" />
+		<e:Component id="itemFumo3" y="232" skinName="FumoItemEUI" anchorOffsetX="0" touchEnabled="false" x="-12" scaleX="1"
+		             scaleY="1" />
+		<e:Component id="itemFumo4" y="233" skinName="FumoItemEUI" anchorOffsetX="0" touchEnabled="false" x="279" scaleX="1"
+		             scaleY="1" />
+	</e:Group>
+	<e:Button id="btnOk" label="Enchant" y="908" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" visible.max="false"
+	          visible.not="false" label.unAtc="Unlock" skinName="BtnMin1_1" icon="" x="285" />
+	<e:Label id="lbSuiPian" text="Salvage extra Enchanstone" y="972" fontFamily="Times" size="24" right="53" textColor="0x13ee22" />
+	<e:Image id="redPointSplit" anchorOffsetX="0" anchorOffsetY="0" x="666" y="966" source="mainui_zycs_hongdian"
+	         rotation="358" />
+	<e:Image height="164" y="722" scale9Grid="32,24,39,46" source="qianghua_zycs_kuang4" width="392" x="164" />
+	<e:Image x="179" y="757" source="qianghua_zycs_xiaohuacailiao" />
+	<e:Group id="groupxh" width="290" height="126" y="740" touchEnabled="false" x="215" visible.max="false">
+		<e:List id="listConsume" x="-1" y="10" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingLeft="15" paddingRight="15"
+				                    paddingTop="15" paddingBottom="15" />
+			</e:layout>
+		</e:List>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="6" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Label text="The Enchanstone stats have reached the limit" y="804" fontFamily="Times" size="20" textColor="0x5AC832" horizontalCenter="6"
+	         visible.unAtc="false" visible.atc="false" visible.not="false" />
+	<e:Label text="Long press to enchant" y="883" fontFamily="SimHei" size="20" horizontalCenter="0" textColor="0x5AC832" visible.atc="true" visible="false"/>
+</e:Skin>

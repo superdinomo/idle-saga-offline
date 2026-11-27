@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act45PreviewItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="411" height="158">
+
+	<e:Group id="groupL" x="0" y="0">
+		<e:Image x="0" y="0" touchEnabled="false" source="tzmg_zycs_csd"/>
+		<e:Label id="lbCeng0" text="Floor 1" fontFamily="Times" size="24" textAlign="left" y="8" textColor="0xCDC8BE" horizontalCenter="0"/>
+		<e:Component id="item0" skinName="ItemSkin" touchEnabled="true" y="52" x="47"/>
+	</e:Group>
+	<e:Group id="groupR" x="223" y="0">
+		<e:Image x="0" y="0" touchEnabled="false" source="tzmg_zycs_csd"/>
+		<e:Label id="lbCeng1" text="Floor 2" fontFamily="Times" size="24" textAlign="left" y="8" textColor="0xCDC8BE" horizontalCenter="0"/>
+		<e:Component id="item1" skinName="ItemSkin" touchEnabled="true" y="52" horizontalCenter="0"/>
+	</e:Group>
+
+
+
+</e:Skin>

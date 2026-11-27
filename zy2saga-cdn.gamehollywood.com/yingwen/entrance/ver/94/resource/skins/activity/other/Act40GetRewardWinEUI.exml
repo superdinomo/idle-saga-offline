@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act40GetRewardWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0" width="553" height="520">
+		<e:Image x="0" y="0"  source="hddt_zycs_xhdb3_jpg"/>
+		<e:Image y="-4" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="151"/>
+		<e:Image id="imgTitle" y="12" horizontalCenter="0"  source="hddt_zycs_xhdb12"/>
+		<e:Button id="closeBtn" label="" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"  x="470"/>
+		<e:Scroller scrollPolicyH="off" y="75" scaleX="0.851" scaleY="0.851" height="339" x="42" width="550">
+			<e:List id="list1" y="-1" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" requestedColumnCount="5" verticalGap="7" horizontalGap="14"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+
+
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="403" label="Confirm" x="202"/>
+		<e:Label id="lbGoto" text="Tap blank space to close" fontFamily="Times" size="20" y="533" x="207" textColor="0xffffff"/>
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

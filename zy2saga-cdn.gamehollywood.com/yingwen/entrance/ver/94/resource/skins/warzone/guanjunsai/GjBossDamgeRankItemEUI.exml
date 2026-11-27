@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjBossDamgeRankItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="488" height="61">
+	<e:Image id="imgBg" y="0" source="gjs_dk2" height="61"/>
+	<e:Image width="100%" bottom="0" source="gjs_fgx"/>
+	<e:Label id="lbRank" text="0" fontFamily="Times" size="20" x="19" width="53" textAlign="center" textColor="0xcdc8be" y="21"/>
+	<e:Image id="imgRank" verticalCenter="0" source="gjs_no1" horizontalCenter="-199"/>
+
+	<e:Label id="lbName" text="奇迹丶牛有德" fontFamily="Times" size="20" textAlign="center" textColor="0xcdc8be" y="21" horizontalCenter="-15"/>
+	<e:Label id="lbNum" text="2 Billion" fontFamily="Times" size="20" textAlign="center" textColor="0xcdc8be" y="21" horizontalCenter="177"/>
+
+	
+</e:Skin>

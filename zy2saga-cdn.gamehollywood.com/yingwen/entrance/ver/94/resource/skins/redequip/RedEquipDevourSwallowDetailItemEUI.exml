@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipDevourSwallowDetailItemEUI" width="94" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"     >
+	<e:Group x="1" y="0">
+		<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" y="0" source="public_zycs_pinzhi_05" x="0"/>
+		<e:Group anchorOffsetY="0" height="92" width="92" y="0" x="0">
+			<e:Group id="groupMc" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source=""/>
+		</e:Group>
+		<e:Label id="lbName" text="Glyph Name" y="96" fontFamily="Times" size="22" textColor="0xCDC8BE" x="2"/>
+	</e:Group>
+</e:Skin>

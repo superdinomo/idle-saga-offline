@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act46BoxWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<e:Group anchorOffsetX="0" width="552" anchorOffsetY="0" height="329" horizontalCenter="0" verticalCenter="0">
+	<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" width="553" height="326" source="public_zycs_dikuang" scale9Grid="94,63,10,8"/>
+		<e:Image y="-6" source="public_zycs_tyts" x="151"/>
+		<e:Image id="imgTitle" y="10" horizontalCenter="0.5" source="hddt_zycs_sjlr1"/>
+
+		<e:Button id="closeBtn" label="" x="470" y="-4" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+		<e:Label id="lbDec" y="58" text="Complete 10 Party Quests to claim" fontFamily="Times" size="22" lineSpacing="3" horizontalCenter="0" textColor="0xe3d7be"/>
+
+		<e:Scroller id="itemScroller" horizontalCenter="0" y="91">
+			<e:List id="list" scrollEnabled="true" useVirtualLayout="true" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="12" paddingTop="12" paddingBottom="12" paddingRight="12" gap="23"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="rewardBtn" label="Claim" skinName="BtnMin1_2" y="214" x="202"/>
+		<e:Image id="imgYql" x="216" y="208" source="lilian_zycs_ylq"/>
+		<e:Image id="imgWdc" x="219" source="lilian_zycs_wdc" y="210"/>
+	</e:Group>
+</e:Skin>

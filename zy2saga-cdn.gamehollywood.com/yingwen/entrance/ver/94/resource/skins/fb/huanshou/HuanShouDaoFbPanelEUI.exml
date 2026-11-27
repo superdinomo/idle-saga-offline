@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HuanShouDaoFbPanelEUI" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1280" width="720">
+	<w:Config id="1586b13ea96"/>
+	<e:Group touchEnabled="false" horizontalCenter="0" width="720" height="170">
+
+		<e:Scroller scrollPolicyH="auto" scrollPolicyV="off" y="0" height="147" horizontalCenter="0">
+		<e:List id="listBoss" itemRendererSkinName="WuJinDaoFbItemEUI" useVirtualLayout="false">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+		<e:Image y="153" source="gd_zycs_syd" x="181"/>
+		<e:Group y="152" horizontalCenter="0.5" width="199">
+			<e:Label id="lbNum" text="Remaining Ownership: 6" y="6" fontFamily="Times" size="20" textAlign="center" textColor="0xF5E65A" horizontalCenter="0"/>
+			<e:Button id="btnAdd" label="" x="164" y="0" skinName="Btn0Skin" icon="public_zycs_Button_jia" visible="false"/>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupBoss" height="160" y="177" horizontalCenter="-13" touchEnabled="false" touchThrough="true">
+		<e:Component id="bossBloodComponent" x="0" y="0" skinName="BossBloodComponentSkin"/>
+		<e:Group id="groupRawead" y="82" horizontalCenter="2">
+			<e:Image y="0" source="public_zycs_zbjlk" scale9Grid="12,16,74,2" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%"/>
+			<e:Scroller id="scrollerItem" scaleX="0.68" scaleY="0.68" anchorOffsetY="0" top="13" left="15" right="15" bottom="8">
+			<e:List id="listItemReward" scrollEnabled="false" itemRendererSkinName="ItemSkin" useVirtualLayout="false" y="-1">
+			<e:layout>
+					<e:HorizontalLayout gap="27" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupBelonger" y="348" horizontalCenter="197">
+		<e:ProgressBar id="hpBarBelong" value="100" y="15" x="16" skinName="bloodBarBossHomePlayer" touchEnabled="false" maximum="100"/>
+		<e:Label id="labelNameBelong" text="" x="125" y="29" size="20" touchEnabled="false" fontFamily="Times" textColor="0xAF9B73"/>
+		<e:Image id="imgFaceBelong" y="19" x="22" touchEnabled="false" source="mianui_zycs_sheshou0"/>
+		<e:Button id="btnQiangduo" y="84" label="Snag Ownership" x="144" skinName="BtnHB" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Group id="groupAtk" y="485" right="0">
+		<e:Component id="target" x="1" y="42" skinName="BossHomeFbPanelFaceEUI"/>
+		<e:Image y="0" x="0" touchEnabled="false" source="klm_zycs_jt"/>
+		<e:Image y="6" x="33" touchEnabled="false" source="klm_zycs_zzgj"/>
+	</e:Group>
+
+	<e:Group y="673" right="7">
+		<e:Button id="btnShuiJing" icon="hsd_zycs_cjsj" skinName="Btn0Skin" x="0" y="0"/>
+		<e:Label id="lbShuiJing" y="90" text="19/20" fontFamily="Times" size="24" lineSpacing="0" textAlign="center" horizontalCenter="0" textColor="0x13EE12"/>
+		<e:Button id="btnShengShi" icon="hsd_zycs_cjss" skinName="Btn0Skin" x="0" y="112"/>
+		<e:Label id="lbShengShi" y="202" text="19/20" fontFamily="Times" size="24" lineSpacing="0" textAlign="center" horizontalCenter="0" textColor="0x13EE12"/>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="groupBeAtk" y="365" left="0">
+		<e:Image y="0" touchEnabled="false" source="klm_zycs_jt" horizontalCenter="0"/>
+		<e:Image y="7" touchEnabled="false" source="klm_zycs_sdgj" horizontalCenter="0"/>
+		<e:Scroller id="scrollerBeAtk" y="53" width="150" height="425" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:List id="list" x="1" y="13" itemRendererSkinName="BossHomeFbPanelFaceEUI">
+			<e:layout>
+			<e:VerticalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupBox" y="708" horizontalCenter="0">
+		<e:Image y="0" touchEnabled="false" source="kfsd_zycs_sq2" x="51"/>
+		<e:Group id="groupMask" x="60" y="9">
+		<e:Image id="imgBoxBar" y="0" touchEnabled="false" source="kfsd_zycs_jdt" x="0"/>
+		</e:Group>
+		<e:Button id="btnBox" y="16" icon="kfsd_zycs_sq1" skinName="Btn0Skin" x="67"/>
+		<e:Image y="101" x="0" touchEnabled="false" source="kfsd_zycs_wzd"/>
+		<e:Label id="lbBoxTime" y="106" text="Collecting" fontFamily="Times" size="20" lineSpacing="0" textAlign="center" horizontalCenter="0" textColor="0x13EE12"/>
+	</e:Group>
+	<e:Group id="groupEnemy" bottom="256" left="104">
+		<e:Image x="0" touchEnabled="false" source="gd_zycs_fjdr" verticalCenter="0"/>
+		<e:Scroller id="scrollerEnemy" x="40" height="142" verticalCenter="0">
+		<e:List id="listEnemy" itemRendererSkinName="BossHomeFbPanelFaceEUI">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group bottom="212" horizontalCenter="4">
+		<e:Button id="btnAtkBoss" label="Attack Boss" skinName="BtnHB" x="0" y="0" scaleX="1"/>
+		<e:Button id="btnAtkBelong" label="Attack Owner" anchorOffsetX="0" x="190" skinName="BtnHB" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+
+
+
+
+</e:Skin>

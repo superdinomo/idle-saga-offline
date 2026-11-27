@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem23_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="0,1,2" width="683" height="170">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="170" source="shenmo_zycs_dikuang_02" anchorOffsetX="0" width="683"/>
+	<e:Image x="13" y="8" anchorOffsetY="0" source="public_zycs_btkuang"/>
+	<e:Group x="18" y="14">
+		<e:Label text="Top up" x="0" y="0" size="20" fontFamily="Times" textColor="0xe6dcb8"/>
+		<e:BitmapLabel id="bmpDay" x="190" y="7" font="cjnum_fnt" text="12"/>
+		<e:Label text="Day" x="69" y="2" size="20" fontFamily="Times" textColor="0xe6dcb8"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="6"/>
+		</e:layout>
+	</e:Group>
+<e:Scroller x="24" y="53" anchorOffsetY="0" anchorOffsetX="0" width="437" height="99">
+		<e:List id="listAward" itemRendererSkinName="ItemSkin" width="442" height="109" x="-1" y="0" anchorOffsetX="0">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnGet" label="Claim" x="516" skinName="BtnMin1_2mid" visible.1="false" visible.2="false" verticalCenter="0" skinName.0="BtnMin1_2mid"/>
+	<e:Button id="btnRecharge" label="Top Up" x="516" visible.0="false" visible.2="false" verticalCenter="0" skinName="BtnMin1_1amid"/>
+	<e:Image id="imgYLQ" x="516" source="public_zycs_ylq" visible.0="false" visible.1="false" verticalCenter="0.5"/>
+</e:Skin>

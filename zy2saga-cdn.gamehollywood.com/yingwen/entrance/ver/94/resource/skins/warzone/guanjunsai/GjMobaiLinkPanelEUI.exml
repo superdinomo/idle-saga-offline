@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjMobaiLinkPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Group width="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image touchEnabled="false" scale9Grid="88,64,2,3" y="32" source="gjs_zycs_bg25_jpg" x="13"/>
+		<e:Group id="groupMc" width="0" height="0" y="780" x="360"/>
+
+		<e:Image touchEnabled="false" y="250" source="public_zycs_jx1" x="291" scale9Grid="88,6,2,11" anchorOffsetY="0" height="38"/>
+		<e:Label id="lbGuildName" text="S1. First of the World" y="238" fontFamily="Times" size="24" horizontalCenter="0" textColor="0xF5E65A" visible="false"/>
+
+		<e:Label id="lbName" text="S1. First of the World" y="257" fontFamily="Times" size="24" textColor="0xf5e65a" horizontalCenter="0"/>
+		<e:Button id="btnSend" y="954" label="Go to Champion" skinName="BtnMin1_1" horizontalCenter="0">
+		</e:Button>
+		<e:Label id="lbCount" text="Times of Worship: 3" y="1032" size="24" fontFamily="Times" textColor="0xE3D7BE" horizontalCenter="0"/>
+		<e:Label id="lbAward" text="Each worship grants 1000 Diamonds" y="905" size="24" fontFamily="Times" horizontalCenter="0" textColor="0xff9b0f"/>
+
+	</e:Group>
+</e:Skin>

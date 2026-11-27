@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnMin1_22" states="up,down,disabled,hui"
+        currentState="down" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="59" width="149">
+	<e:Image id="imageDisplay" x="0" y="0" x.down="1" y.down="1" width="100%" height="100%"
+	        
+	         scale9Grid.disabled="27,16,24,3"  source.down="public_zycs_button01" source.hui="public_zycs_button00" source="public_zycs_button01" source.up="public_zycs_button01" source.disabled="public_zycs_button00"/>
+	<e:Group y="5" horizontalCenter="0">
+		<e:Group x="0" verticalCenter="0">
+			<e:Image id="iconDisplay" y.up="1" source="zycs_320030" y="1" y.down="1" y.disabled="1" y.hui="1" x.up="9" x.down="9" x.disabled="9" x.hui="9" horizontalCenter="0"/>
+			<e:Label id="lbCount" size="20" verticalAlign="middle" textAlign="center" text="1" fontFamily="Times" borderColor="0xC90808" alpha="1" strokeColor="0xFF0000" textColor="0xffffff" y="29" strokeColor.disabled="0x838383" strokeColor.hui="0x838383" horizontalCenter="0"/>
+		</e:Group>
+		<e:Label id="labelDisplay" size="20" verticalAlign="middle" textAlign="center" text="" fontFamily="Times" textColor="0xffebc8" borderColor="0xc90808" alpha="1" stroke="1" strokeColor="0xff0000" textColor.disabled="0xededed" strokeColor.disabled="0x838383" strokeColor.hui="0x838383" textColor.hui="0xededed" strokeColor.up="0xff0000" stroke.up="1" strokeColor.down="0xff0000" x="49" x.down="39" y.down="7"  y.hui="11" y="15"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" right="-1" top="-5" visible="false"/>
+</e:Skin>

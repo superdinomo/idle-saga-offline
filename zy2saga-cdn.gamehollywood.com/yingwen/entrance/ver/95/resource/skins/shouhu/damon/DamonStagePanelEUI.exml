@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DamonStagePanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group id="group" x="0" y="0">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image id="imgBg" touchEnabled="false" x="13" y="41" source="jl_zycs_bg2_jpg"/>
+		<e:Group id="groupMc" width="0" height="0" y="445" x="360"/>
+		<e:Group id="groupSkill" x="521" y="165">
+			<e:Label text="Exclusive Skill" x="26" y="0" size="24" textColor="0xFF9B0F" fontFamily="Times"/>
+			<e:Component id="skillItem0" skinName="ShenMoSkillItemEUI" x="34" y="30"/>
+			<e:Component id="skillItem1" skinName="ShenMoSkillItemEUI" x="105" y="30"/>
+		</e:Group>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="65" horizontalCenter="0">
+			<e:Image x="0" source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+
+		<e:Group id="groupStar" x="96" y="116" width="529" height="49">
+		</e:Group>
+
+		<e:Group y="456" horizontalCenter="0">
+			<e:Image y="0" source="pubilc_zycs_hengdikuang" scale9Grid="45,6,100,42" left="-20" right="-20"/>
+			<e:Group y="17" x="0">
+				<e:Image id="imgStage" x="0" source="jl_zycs_1" y="23"/>
+				<e:Image id="imgName" x="0" y="0" source="jl_zycs_m1"/>
+				<e:layout>
+				<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+
+		<e:Image id="imgSyz" y="344" x="491" source="jh_zycs_syz"/>
+		<e:Button id="btnHuanHua" y="426" skinName="Btn0Skin" icon="public_zycs_hh" x="548"/>
+		<e:Button id="btnGengHuan" x="465" y="426" skinName="Btn0Skin" icon="zycs_jl_genghuan"/>
+		<e:Button id="leftBtn" y="385" icon="zuji_zycs_jiantou" skinName="Btn0Skin" label="" scaleX="-1" x="101"/>
+		<e:Button id="rightBtn" y="385" icon="zuji_zycs_jiantou" skinName="Btn0Skin" label="" x="619"/>
+		<e:Image y="524" source="jl_zycs_jnk" x="11"/>
+		<e:Image y="557" x="46" source="jl_zycs_jjjn"/>
+
+		<e:Scroller id="scroller" y="533" x="122" width="546" height="111">
+			<e:List id="list" itemRendererSkinName="SkillPassivityItemEUI">
+				<e:layout>
+					<e:HorizontalLayout gap="9"  paddingTop="10" paddingLeft="10"/>
+				</e:layout>
+				
+					
+						
+						
+						
+						
+						
+					
+				
+			</e:List>
+		</e:Scroller>
+		<e:Image y="661" source="shenqi_zycs_sxjc" x="288"/>
+		<e:Image y="664" source="liuguang_zycs_huawen" scaleX="-1" x="615"/>
+		<e:Image y="664" source="liuguang_zycs_huawen" x="105"/>
+		<e:Image y="693" source="shenqi_zycs_di3" x="11" scale9Grid="87,10,524,63" height="83"/>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" y="707" horizontalCenter="0">
+			<e:layout>
+				<e:TileLayout verticalGap="11" horizontalGap="30"  requestedColumnCount="2"/>
+			</e:layout>
+			
+				
+					
+					
+					
+					
+				
+			
+		</e:DataGroup>
+		<e:Image y="785" x="112" source="jl_zycs_qmd"/>
+		<e:ProgressBar id="barExp" slideDuration="0" value="1" maximum="2" y="796" x="197" skinName="ProgressBarEUI12"/>
+		<e:Group id="groupUp" x="286" y="853" height="145">
+			<e:Scroller scaleX="0.8" scaleY="0.8" scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" y="-17" x="21">
+				<e:List id="listConsume" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="20" paddingRight="20" paddingTop="20" paddingBottom="20"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:CheckBox id="checkBox" x="202" y="111" skinName="CheckBoxEUI" label="Auto Purchase" visible="false"/>
+			<e:Button id="btnSend" skinName="BtnMin1_1" y="85" x="0" label="Fast Interaction"/>
+		</e:Group>
+
+
+
+
+
+		<e:Button id="helpBtn" x="661" y="950" skinName="Btn0Skin" icon="jl_zycs_wenhao" />
+		<e:Image id="imgYml" touchEnabled="false" y="890" source="bxsb_zycs_ymj" x="299"/>
+		<e:Group id="groupZhiSheng" x="13" y="825">
+			<e:Image touchEnabled="false" y="0" x="0" source="shenmo_zycs_kuang2"/>
+			<e:Component id="itemZhiSheng" skinName="ItemSkin" anchorOffsetX="0" touchEnabled="true" y="13" scaleX="0.9" scaleY="0.9" horizontalCenter="0.5"/>
+			<e:Label id="lbName" text="T3 Avatar Level-ore" y="104" size="20" fontFamily="Times" horizontalCenter="0.5" textColor="0xFF9B0F"/>
+			<e:Button id="btnUseZhiSheng" y="132" skinName="BtnMin1_1small1" labelDisplay="d" label="Use" x="30"/>
+			<e:Button id="btnGet" y="132" skinName="BtnMin1_1small1" labelDisplay="d" label="Obtain" x="30"/>
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

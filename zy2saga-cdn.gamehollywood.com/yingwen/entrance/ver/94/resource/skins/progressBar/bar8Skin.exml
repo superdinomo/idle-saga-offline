@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bar8Skin" minWidth="30" minHeight="11" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="154" height="18">
+	<e:Image source="gjs_js_jdt1" scale9Grid="19,7,116,4" left="0" right="0"/>
+	<e:Image id="thumb" source="gjs_js_jdt" scale9Grid="18,1,111,8" y="4" left="4" right="3"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="20" fontFamily="Times" horizontalCenter="0" verticalCenter="0" text="50" textColor="0xe3d7be"/>
+</e:Skin>

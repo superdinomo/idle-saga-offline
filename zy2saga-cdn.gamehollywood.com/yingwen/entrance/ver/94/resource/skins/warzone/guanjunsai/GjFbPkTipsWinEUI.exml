@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbPkTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" height="825" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+		<e:Image y="-15" scale9Grid="56,7,80,44" source="gjs_tt" horizontalCenter="0.5"/>
+		<e:Image id="imgTitle" y="14" source="gjs_btz_zcxx" horizontalCenter="0"/>
+
+		<e:Image y="60" touchEnabled="false" scale9Grid="2,2,16,16" source="gjs_bj_zcxx_jpg" x="15"/>
+		<e:Image y="753" width="427" alpha="1" source="gjs_tb_di_a" scale9Grid="62,7,24,12" horizontalCenter="0" height="30"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="-4" x="637"/>
+		<e:Label id="lbName" text="Note: Tap the mark on the map to go to the destination" fontFamily="Times" size="18" textAlign="center" y="759" horizontalCenter="0" textColor="0x4eff00"/>
+		<e:Component id="item0" touchEnabled="true" y="302.5" x="348" skinName="GjFbPkTipsItemEUI"/>
+		<e:Component id="item1" touchEnabled="true" y="329" x="103" skinName="GjFbPkTipsItemEUI"/>
+		<e:Component id="item2" touchEnabled="true" y="167.5" x="577" skinName="GjFbPkTipsItemEUI"/>
+		<e:Component id="item3" touchEnabled="true" y="384" x="510" skinName="GjFbPkTipsItemEUI"/>
+		<e:Component id="jidiItem0" touchEnabled="true" y="532" x="43" skinName="GjFbPkTipsItem2EUI"/>
+		<e:Component id="jidiItem1" touchEnabled="true" y="94" x="300" skinName="GjFbPkTipsItem2EUI"/>
+		<e:Component id="jidiItem2" touchEnabled="true" y="595" x="501" skinName="GjFbPkTipsItem2EUI"/>
+
+
+
+
+
+	</e:Group>
+</e:Skin>

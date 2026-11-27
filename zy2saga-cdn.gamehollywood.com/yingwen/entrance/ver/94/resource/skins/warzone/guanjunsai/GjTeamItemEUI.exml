@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjTeamItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="524" height="67">
+	<w:Config id="15d981d06da"/>
+	<e:Image x="0" source="gjs_dk_zdxx" y="0"/>
+	<e:Image id="imgCap" x="0" y="0" source="gjs_dz"/>
+	<e:Label id="lbName" text="s999.奇迹丶牛有德" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" x="23" y="24" textColor="0xf5e65a"/>
+	<e:Label id="lbPower" text="CP: 99999k" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" x="216" y="24" textColor="0xff9b0f"/>
+	<e:Label id="lbNum" text="Champion: 4" size="20" textAlign="center" fontFamily="Times" touchEnabled="false" x="383" y="24" textColor="0x13ee22"/>
+	<e:Image id="imgLine" x="0" source="em_zycs_fgx" width="100%" bottom="0"/>
+
+</e:Skin>

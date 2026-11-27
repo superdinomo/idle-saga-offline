@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Act41RewardSelectWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96" />
+	<e:Group horizontalCenter="0" verticalCenter="0" width="553" height="568">
+		<e:Image y="-34"  source="qjzl_zycs_frame_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1"/>
+		<e:Image y="11" scale9Grid="56,7,80,44" source="public_zycs_tyts" x="182.5" visible="false"/>
+		<e:Image id="imgTitle" y="-16"  horizontalCenter="0.5" source="hddt_zycs_zxjl"/>
+		<e:Button id="closeBtn" label="" y="-8" skinName="Btn0Skin" icon="public_zycs_quxiao"  x="473"/>
+		<e:Label id="lbDec" y="60" text="Select an item as the final prize of this floor" fontFamily="Times" size="20" textColor="0x13ee22" textAlign="center" horizontalCenter="0.5"/>
+		<e:List id="list1" itemRendererSkinName="Act41RewardSelectItemEUI" verticalCenter="-15" horizontalCenter="0.5">
+			<e:layout>
+			<e:TileLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" verticalGap="12" horizontalGap="12" horizontalAlign="center" requestedColumnCount="4"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+
+		<e:Button id="btnSend" skinName="BtnMin1_1" y="456" label="Confirm" horizontalCenter="0"/>
+		<e:Label id="lbGoto" text="Tap blank space to close" y="589" fontFamily="Times" size="22" horizontalCenter="0.5" textColor="0xffffff"/>
+
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

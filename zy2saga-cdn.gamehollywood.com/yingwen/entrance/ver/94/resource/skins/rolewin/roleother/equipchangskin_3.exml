@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="equipchangskin_3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="687">
+	<e:Image id="imgbg" width="688" height="408" x="-2" y="0" anchorOffsetX="0" scale9Grid="28,33,9,12" source="qianghua_zycs_kuang4"/>
+	<e:Component id="itemIcon" x="21" y="21" skinName="ItemSkin"/>
+	<e:Label text="Requirement:" x="24" y="123" fontFamily="Times" size="20" textColor="0xebdcb4"/>
+	<e:Label id="lbjob" text="0" x="25" y="152" size="20" fontFamily="Times" textColor="0xb1a854"/>
+	<e:Label id="lbScore" text="0" x="163" y="61" size="20" fontFamily="Times" textColor="0xb1a854"/>
+	<e:Label id="lbrank" text="0" x="165" y="92" size="20" fontFamily="Times" textColor="0x806e52"/>
+	<e:Label id="lbArrt1" text="0" x="164" y="128" size="20" fontFamily="Times" anchorOffsetY="0" height="56" wordWrap="false" anchorOffsetX="0" width="315" textColor="0xcdc8be"/>
+	<e:Label id="lbArrt2" text="0" x="165" y="191" size="20" fontFamily="Times" anchorOffsetY="0" wordWrap="false" anchorOffsetX="0" width="441" textColor="0x23becd"/>
+	<e:Button id="btnEquip" label="Equip" x="546" y="143" name="equip" height="55" width="120" skinName="BtnMin1_1"/>
+	<e:Label text="Luck Stats" x="193" y="198" size="20" fontFamily="Times" textColor="0xE0E0E0" visible="false"/>
+	<e:Label text="Excellent Stats" x="193" size="20" fontFamily="Times" textColor="0xE0E0E0" y="237" visible="false"/>
+	<e:Label text="Excellent Stats" x="193" size="20" fontFamily="Times" textColor="0xE0E0E0" y="264" visible="false"/>
+	<e:Label text="Excellent Stats" x="193" size="20" fontFamily="Times" textColor="0xE0E0E0" y="291" visible="false"/>
+	<e:Label text="Excellent Stats" x="193" size="20" fontFamily="Times" textColor="0xE0E0E0" y="318" visible="false"/>
+	<e:Label text="Excellent Stats" x="193" size="20" fontFamily="Times" textColor="0xE0E0E0" y="345" visible="false"/>
+	<e:Label text="Excellent Stats" x="193" size="20" fontFamily="Times" textColor="0xE0E0E0" y="372" visible="false"/>
+	<e:Label text=" Basic Stats" x="84" y="281" size="20" fontFamily="Times" textColor="0xE0E0E0" visible="false"/>
+	<e:Label id="lbtype" text="0" x="243" y="93" size="20" fontFamily="Times" textColor="0x806e52"/>
+	<e:Label id="lbNeed" text="0" x="25" y="178" size="20" fontFamily="Times" textColor="0xb1a854"/>
+	<e:Image x="159" y="9.5" anchorOffsetX="0" source="public_zycs_di01"/>
+	<e:Label id="lbName" text="0" y="14.5" size="24" fontFamily="Times" textColor="0xE0E0E0" height="24" textAlign="center" horizontalCenter="-35.5"/>
+	<e:Image id="imgDress" y="-2" x="599" source="equip_zycs_yizhuangbei"/>
+	<e:Image id="imgline1" x="117" y="119" source="role_zycs_x" scale9Grid="32,0,98,4"/>
+	<e:Image id="imgline2" x="117" y="183" source="role_zycs_x" scale9Grid="32,0,98,4"/>
+	<e:Image x="180" y="186" source="role_zycs_x" scale9Grid="32,0,98,4" width="300" visible="false"/>
+	<e:Image x="182" y="227" source="role_zycs_x" scale9Grid="32,0,98,4" width="300" visible="false"/>
+	<e:Image id="imgTipIcon" width="28" height="34" x="390" y="60" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" source="public_zycs_lj"/>
+</e:Skin>

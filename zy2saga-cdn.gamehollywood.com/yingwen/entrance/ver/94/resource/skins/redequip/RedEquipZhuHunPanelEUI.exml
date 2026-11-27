@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RedEquipZhuHunPanelEUI" width="720" height="1134" currentState="gridCount2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="gridCount2,gridCount4,gridCount6,gridCount8" >
+	<w:Config id="15d981d06da"/>
+	<e:Image id="bg" x="0" y="0" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="zhzh_zycs_bg_jpg"/>
+
+	<e:Group id="groupMc" width="0" height="0" horizontalCenter="0" y="502"/>
+	<e:Image id="imgSlot" touchEnabled="false" y="375" x="306" source=""/>
+
+
+
+	<e:Image y="219" source="public_zycs_jlylk" horizontalCenter="0"/>
+	<e:Group y="237" horizontalCenter="0">
+		<e:Image x="0" y="1" source="public_zycs_zdl"/>
+		<e:BitmapLabel id="lbFight" x="118" y="4" text="234567890" font="powernum_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+
+
+
+	<e:Scroller id="scroller" width="637" height="144" y="53" x="48" anchorOffsetY="0" scrollPolicyV="off" anchorOffsetX="0">
+		<e:List id="list" x="-17" y="17" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="RedEquipItemEUI" height="144" width="636">
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="0" gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnRight" y="96" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" x="655"/>
+	<e:Button id="btnLeft" y="96" icon="liuguang_zycs_next" skinName="Btn0Skin" label="" x="66" scaleX="-1"/>
+
+
+	<e:Component id="grid0" x="37" y="398" skinName="RedEquipZhuHunGridItemEUI" x.gridCount8="37" y.gridCount8="398" x.gridCount4="60" y.gridCount4="552" x.gridCount6="39" y.gridCount6="454" x.gridCount2="39" y.gridCount2="454"/>
+	<e:Component id="grid1" x="109" y="293" skinName="RedEquipZhuHunGridItemEUI" x.gridCount8="108" y.gridCount8="293" x.gridCount4="61" y.gridCount4="358" x.gridCount6="83" y.gridCount6="317" x.gridCount2="505" y.gridCount2="454"/>
+	<e:Component id="grid2" x="48" y="519" skinName="RedEquipZhuHunGridItemEUI" x.gridCount4="481" y.gridCount4="552" x.gridCount6="84" y.gridCount6="592" x.gridCount8="50" y.gridCount8="519" visible.gridCount2="false"/>
+	<e:Component id="grid3" x="112" y="616" skinName="RedEquipZhuHunGridItemEUI" x.gridCount4="482" y.gridCount4="358" x.gridCount6="458" y.gridCount6="591" x.gridCount8="112" y.gridCount8="616" visible.gridCount2="false"/>
+	<e:Component id="grid4" x="428" y="616" skinName="RedEquipZhuHunGridItemEUI" visible.gridCount4="false" x.gridCount6="503" y.gridCount6="454" x.gridCount8="428" y.gridCount8="616" visible.gridCount2="false"/>
+	<e:Component id="grid5" x="489" y="520" skinName="RedEquipZhuHunGridItemEUI" visible.gridCount4="false" x.gridCount6="457" y.gridCount6="319" x.gridCount8="489" y.gridCount8="520" visible.gridCount2="false"/>
+	<e:Component id="grid6" x="503" y="398" skinName="RedEquipZhuHunGridItemEUI" visible.gridCount4="false" visible.gridCount6="false" x.gridCount8="503" y.gridCount8="398" visible.gridCount2="false"/>
+	<e:Component id="grid7" x="428" y="293" skinName="RedEquipZhuHunGridItemEUI" visible.gridCount4="false" visible.gridCount6="false" x.gridCount8="428" y.gridCount8="293" visible.gridCount2="false"/>
+
+
+	<e:Button id="btnDevour" y="651" label="" x="630" skinName="Btn0Skin" icon="zhzh_zycs_tsan">
+
+
+	</e:Button>
+	<e:Group id="groupAttr" width="720" height="276" x="0" y="728" anchorOffsetY="0">
+		<e:Scroller y="52" scrollPolicyH="auto" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" height="52">
+			<e:Group anchorOffsetY="0" anchorOffsetX="0" height="52">
+				<e:DataGroup id="dataGroupZhuHunAttr" anchorOffsetX="0" itemRendererSkinName="ComAttrItemEUI2" scrollEnabled="true" anchorOffsetY="0" scaleX="1" scaleY="1">
+					<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+					<e:TileLayout horizontalGap="95" requestedColumnCount="2" verticalGap="8"/>
+					</e:layout>
+				</e:DataGroup>
+			</e:Group>
+		</e:Scroller>
+
+
+
+		<e:DataGroup id="dataGroupSuitAttr" width="720" y="149" anchorOffsetX="0" itemRendererSkinName="RedEquipSuitAttrItemEUI">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+
+		</e:DataGroup>
+		<e:Label id="lbSuit" text="Glyph Set" y="125" scaleX="1" scaleY="1" fontFamily="Times" size="20" right="17"/>
+
+
+
+		<e:Label id="lbDesc1" text="Glyph Unequipped" y="65" scaleX="1" scaleY="1" fontFamily="Times" size="22" horizontalCenter="0" x="310" textColor="0xa2a2a2" visible="false"/>
+
+	</e:Group>
+	<e:Group id="groupShelter" width="678" height="221" anchorOffsetY="0" visible.gridCount8="false" visible.gridCount6="false" visible.gridCount4="false" y="785" x="21" visible="false">
+
+
+
+		<e:Label id="lbDesc" text="Acctivate Scarlet Armor to unlock its Glyph training" size="24" fontFamily="Times" anchorOffsetY="0" anchorOffsetX="0" width="613" textAlign="center" textColor="0x8d836d" lineSpacing="3" horizontalCenter="0.5" verticalAlign="middle" verticalCenter="-25"/>
+		<e:Button id="btnTo" skinName="BtnMin1_1" y="137" label="Unlock" x="264" scaleX="1" scaleY="1" visible="false"/>
+		<e:Button id="btnActive" skinName="BtnMin1_1" y="137" label="Unlock" x="264" scaleX="1" scaleY="1"/>
+		<e:Image id="imgRedPoint" anchorOffsetX="0" anchorOffsetY="0" source="mainui_zycs_hongdian" x="392" y="132"/>
+		<e:Button id="btnUnlock" skinName="BtnMin1_1" y="137" label="Unlock" x="264" scaleX="1" scaleY="1" touchEnabled="true" enabled="true" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

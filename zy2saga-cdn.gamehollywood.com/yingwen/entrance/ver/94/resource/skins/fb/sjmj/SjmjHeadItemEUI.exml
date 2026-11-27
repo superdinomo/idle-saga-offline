@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SjmjHeadItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+         width="130" height="131">
+	<e:Image y="-1" source="public_zycs_yk" x="6"/>
+	<e:Image id="imgHaeh" source="" horizontalCenter="0" verticalCenter="-6"/>
+
+
+
+
+
+	<e:Label id="lbName" y="112" text="0" fontFamily="Times" size="20" textAlign="center" horizontalCenter="0" textColor="0xe6dcb8" visible="false"/>
+	<e:Label id="lbTime" y="112" text="0" fontFamily="Times" size="20" textAlign="center" horizontalCenter="0" textColor="0xf01414"/>
+</e:Skin>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DamonLevelPanelEUI" width="720" height="1134" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d981d06da" />
+	<e:Group x="0" y="0" width="720" height="1134">
+		<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3"
+		         source="public_zycs_dikuang" />
+		<e:Image id="imgBg" touchEnabled="false" x="13" y="41" source="jl_zycs_bg2_jpg"/>
+		<e:Group id="groupMc" width="0" height="0" y="445" x="360"/>
+		<e:Image y="47" source="public_zycs_jlylk" horizontalCenter="0"/>
+		<e:Group y="65" horizontalCenter="0">
+			<e:Image source="public_zycs_zdl"/>
+			<e:BitmapLabel id="power" x="118" text="6666" y="4" font="powernum_fnt"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Image y="107" source="zycs_sm_lvdi" x="276"/>
+		<e:Group y="115" anchorOffsetY="0" horizontalCenter="0">
+			<e:BitmapLabel id="bmpLv" x="0" text="l6666" y="0" font="shenmonum_fnt"/>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnSjzh" y="373" skinName="Btn0Skin" icon="sj_zycs_rk4" right="40"/>
+
+
+		<e:Label id="lbSkillLv" text="Still need 5 levels to activate skill [Zeal] Lv.2" y="494" size="24" fontFamily="Times" width="572"
+		         textAlign="center" x="74"  textColor="0xffffff"/>
+		<e:Image y="524" source="jl_zycs_jnk" x="11"/>
+		<e:Image y="557" x="89" source="jl_zycs_jnpy"/>
+		<e:Scroller id="scroller" y="533" x="181" width="354" height="111">
+			<e:List id="list" itemRendererSkinName="SkillPassivityItemEUI">
+				<e:layout>
+					<e:HorizontalLayout gap="22"  paddingTop="10" paddingLeft="10"/>
+				</e:layout>
+				
+					
+						
+						
+						
+					
+				
+			</e:List>
+		</e:Scroller>
+		<e:Image y="661" source="shenqi_zycs_sxjc" x="288"/>
+		<e:Image y="664" source="liuguang_zycs_huawen" scaleX="-1" x="615"/>
+		<e:Image y="664" source="liuguang_zycs_huawen" x="105"/>
+		<e:Image y="693" source="shenqi_zycs_di3" x="11" scale9Grid="87,10,524,63" height="72"/>
+		<e:DataGroup id="attrs" itemRendererSkinName="ComAttrItemEUI" horizontalCenter="0" verticalCenter="161.5">
+			<e:layout>
+				<e:TileLayout verticalGap="11" horizontalGap="30"  requestedColumnCount="2"/>
+			</e:layout>
+			
+				
+					
+					
+					
+					
+				
+			
+		</e:DataGroup>
+		<e:Image y="773" source="jl_zycs_k1_png" x="303"/>
+		<e:Image id="imgExp" source="jl_zycs_zhu_png" x="314" y="780"/>
+		<e:Image id="imgExpMask" x="314" scaleY="-1" width="93" height="92" source="public_zycs_greybg0" scale9Grid="2,2,16,16" y="872"/>
+		<e:Group id="groupExpMc" width="0" height="0" y="830" x="360"/>
+		<e:Image y="765" source="jl_zycs_k_png" x="245"/>
+		<e:Label id="lbExp" text="0/40" y="814" size="24" fontFamily="Times" width="151" textAlign="center" textColor="0xffffff" x="285" stroke="2"/>
+		<e:Label text="EXP Pool" y="904" size="24" fontFamily="Times" textAlign="center" textColor="0xffffff" x="324"/>
+		<e:Scroller scaleX="0.8" scaleY="0.8" scrollPolicyH="off" scrollPolicyV="off" maxWidth="384" x="165" y="913">
+			<e:List id="listConsume" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12"/>
+				</e:layout>
+					
+						
+					
+				
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnSend" skinName="BtnMin1_1" x="286" y="938"  label="Train All"/>
+		<e:Button id="helpBtn" x="661" y="950" skinName="Btn0Skin" icon="jl_zycs_wenhao" />
+		<e:Image id="imgYml" touchEnabled="false" y="928" source="bxsb_zycs_ymj" x="299"/>
+	</e:Group>
+</e:Skin>

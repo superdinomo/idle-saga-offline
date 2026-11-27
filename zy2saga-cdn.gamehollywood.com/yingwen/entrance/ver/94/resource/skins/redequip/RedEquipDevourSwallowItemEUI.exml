@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedEquipDevourSwallowItemEUI" width="169" height="175" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="select,unSelect" >
+	<e:Image source="zhzh_zycs_json.zhzh_zycs_zhk" y="6"/>
+	<e:Image id="imgSelect" x="-9" y="-12" visible.unSelect="false" source="zhzh_zycs_zbk4" scaleX="1.2" scaleY="1.2"/>
+	<e:Image id="imgIcon" y="20" horizontalCenter="-1.5" source="zhzh_zycs_json.zhzh_zycs_di0"/>
+	<e:Image id="btnSub" y="2" source="zhzh_zycs_json.zhzh_zycs_zuo" x="15" visible.unSelect="false"/>
+	<e:Image y="1" x="127" source="zhzh_zycs_json.zhzh_zycs_you" visible.unSelect="false"/>
+	<e:Label id="lbCount" text="23" y="4" fontFamily="Times" size="22" textColor="0xCDC8BE" x="124" textAlign="center" anchorOffsetX="0" width="35" visible.unSelect="false"/>
+	<e:Label id="lbName" text="Glyph Name" y="112" fontFamily="Times" size="22" horizontalCenter="0.5" textColor="0xc51614"/>
+	<e:Label id="lbDesc" text="已拥有:234" y="141" fontFamily="Times" size="22" textColor="0xCDC8BE" horizontalCenter="0"/>
+</e:Skin>

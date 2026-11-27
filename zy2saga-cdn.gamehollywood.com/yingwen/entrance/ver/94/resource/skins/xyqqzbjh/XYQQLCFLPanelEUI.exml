@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="XYQQLCFLPanelEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720"
+        height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" y="42" x="13" source="lcfl_zycs_di1_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_lcfl" horizontalCenter="0"/>
+	<e:Label id="lbDec" y="727" text="Customer Service QQ:800197000" fontFamily="Times" size="24" x="73" lineSpacing="10" textColor="0xe3d7be" visible="false"/>
+	<e:Label id="lbNum" y="977" text="Today’s To-up: 100/150 USD" fontFamily="Times" size="28" lineSpacing="10" textColor="0xE3D7BE" horizontalCenter="0"/>
+	<e:Button id="btnSend" y="894" label="Copy" x="488" skinName="BtnMin1_2mid"/>
+
+</e:Skin>

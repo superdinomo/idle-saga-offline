@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActPanel45_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1134">
+	<e:Image x="0" y="0" height="1134" touchEnabled="false" width="720" scale9Grid="88,64,2,3" source="public_zycs_dikuang"/>
+	<e:Image id="imgBg" x="14" y="40" source="hddt_zycs_tzmg_jpg"/>
+	<e:Image source="dljl_zycs_k_png" x="-2" y="-58" touchEnabled="false" pixelHitTest="true"/>
+	<e:Label id="lbTime" y="51" text="Event Countdown: " fontFamily="Times" size="24" lineSpacing="10" textColor="0xcdc8be" horizontalCenter="0"/>
+	<e:Image id="imgTitle" y="-6" pixelHitTest="true" touchEnabled="false" source="hddt_zycs_tzmg" horizontalCenter="0"/>
+	<e:Component id="item0" touchEnabled="true" x="167" y="91" skinName="ActItem45_1EUI"/>
+	<e:Component id="item1" touchEnabled="true" x="269" y="91" skinName="ActItem45_1EUI"/>
+	<e:Component id="item2" touchEnabled="true" x="371" y="91" skinName="ActItem45_1EUI"/>
+	<e:Component id="item3" touchEnabled="true" x="472" y="90" skinName="ActItem45_1EUI"/>
+	<e:Component id="item4" touchEnabled="true" x="472" y="191" skinName="ActItem45_1EUI"/>
+	<e:Component id="item5" touchEnabled="true" x="575" y="191" skinName="ActItem45_1EUI"/>
+	<e:Component id="item6" touchEnabled="true" x="575" y="291" skinName="ActItem45_1EUI"/>
+	<e:Component id="item7" touchEnabled="true" x="575" y="391" skinName="ActItem45_1EUI"/>
+	<e:Component id="item8" touchEnabled="true" x="575" y="492" skinName="ActItem45_1EUI"/>
+	<e:Component id="item9" touchEnabled="true" x="575" y="593" skinName="ActItem45_1EUI"/>
+	<e:Component id="item10" touchEnabled="true" x="472" y="593" skinName="ActItem45_1EUI"/>
+	<e:Component id="item11" touchEnabled="true" x="472" y="698" skinName="ActItem45_1EUI"/>
+	<e:Component id="item12" touchEnabled="true" x="371" y="698" skinName="ActItem45_1EUI"/>
+	<e:Component id="item13" touchEnabled="true" x="269" y="698" skinName="ActItem45_1EUI"/>
+	<e:Component id="item14" touchEnabled="true" x="167" y="698" skinName="ActItem45_1EUI"/>
+	<e:Component id="item15" touchEnabled="true" x="167" y="594" skinName="ActItem45_1EUI"/>
+	<e:Component id="item16" touchEnabled="true" x="65" y="594" skinName="ActItem45_1EUI"/>
+	<e:Component id="item17" touchEnabled="true" x="65" y="494" skinName="ActItem45_1EUI"/>
+	<e:Component id="item18" touchEnabled="true" x="65" y="394" skinName="ActItem45_1EUI"/>
+	<e:Component id="item19" touchEnabled="true" x="65" y="294" skinName="ActItem45_1EUI"/>
+	<e:Component id="item20" touchEnabled="true" x="65" y="194" skinName="ActItem45_1EUI"/>
+	<e:Component id="item21" touchEnabled="true" x="167" y="194" skinName="ActItem45_1EUI"/>
+	<e:CheckBox id="checkBox" y="624" skinName="CheckBoxEUI" label="Skip Animation" horizontalCenter="0"/>
+	<e:Group id="groupEntIty" width="0" height="0" x="196" y="158"/>
+	<e:Image y="200.34" source="tzmg_zycs_bcdj" x="290"/>
+	<e:Image id="imgBig" y="223" source="tzmg_zycs_bx" x="313" touchEnabled="true"/>
+	<e:Component id="itemBig" touchEnabled="true" y="222" skinName="ItemSkin" x="313"/>
+	<e:Label y="371" text="Collect runes to claim the prize of the floor\nand unlock the next floor and richer rewards" fontFamily="黑体" size="22" lineSpacing="2" horizontalCenter="0.5" textColor="0xffffff" anchorOffsetX="0" width="397" textAlign="center"/>
+	<e:Image id="imgYinJi" source="mj_zycs_hzh" y="511" width="2" height="2" x="360" visible="false"/>
+	<e:Scroller id="scrollerYinJi" y="468" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0">
+		<e:List id="listYinJi" itemRendererSkinName="ActItem45_1SubEUI">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="2" verticalGap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnBag" label="" y="867" skinName="Btn0Skin" icon="tzmg_zycs_cbbb" horizontalCenter="-237.5"/>
+	<e:Label id="lbCeng" text="Current: 1 Floor" fontFamily="Times" size="22" textAlign="left" y="974" textColor="0xff9b0f" x="37" width="170"/>
+	<e:Label text="Click the dice to throw" fontFamily="Times" size="24" textAlign="left" y="823" textColor="0xFF9B0F" horizontalCenter="121"/>
+	<e:Button id="btnPt" label="" y="860" skinName="Btn0Skin" icon="tzmg_zycs_pttz1" x="315"/>
+	<e:Button id="btnZx" label="" y="860" skinName="Btn0Skin" icon="tzmg_zycs_rytz1" x="534"/>
+	<e:Group y="957" x="319">
+		<e:Image id="imgItemPt" x="0" y="0" width="32" height="32" source="zycs_450096"/>
+		<e:Label id="lbItemPt" text="0/1" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="957" x="538">
+		<e:Image id="imgItemZx" x="0" y="0" width="32" height="32" source="zycs_450097"/>
+		<e:Label id="lbItemZx" text="0/1" y="16" fontFamily="Times" size="20" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="Can choose number\nBetter use it on higher floors" fontFamily="黑体" size="20" textAlign="left" x="488" y="1013" textColor="0xffffff"/>
+	<e:Button id="btnAuto" y="1002" label="Auto Throw" x="285" skinName="BtnMin1_2"/>
+	<e:Image touchEnabled="false" x="-1" source="vip_zycs_k2" bottom="-1"/>
+</e:Skin>

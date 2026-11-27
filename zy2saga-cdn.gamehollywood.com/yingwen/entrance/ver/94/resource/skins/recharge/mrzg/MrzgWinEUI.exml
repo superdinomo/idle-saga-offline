@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MrzgWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group verticalCenter="0" horizontalCenter="0" width="720">
+		<e:Image id="imgBg" y="0" touchEnabled="false" anchorOffsetY="0" source="mrzg_zycs_di1_png" x="0"/>
+		<e:Image id="imgTitle" y="41" horizontalCenter="0.5" source="mrzg_zycs_title1_1"/>
+		<e:Button id="closeBtn" label="" x="662" y="40" skinName="Btn0Skin" icon="public_zycs_cha"/>
+		<e:Label id="lbTime" text="活动倒计时：00:00:00" y="126" size="22" fontFamily="Times" textAlign="center" horizontalCenter="0.5" textColor="0xffffff"/>
+		<e:Image id="imgDec0" y="158" horizontalCenter="0" source="mrzg_zycs_json.mrzg_zycs_pay1_1_1"/>
+		<e:Image id="imgDec1" y="262" horizontalCenter="54.5" source="mrzg_zycs_tips1_1"/>
+		<e:Image id="imgDec2" y="321" horizontalCenter="109" source="mrzg_zycs_ty"/>
+		<e:Group id="groupMc" height="0" y="560" width="0" x="182">
+			<e:Group id="offsMc" width="0" height="0"/>
+		</e:Group>
+
+
+
+		<e:Scroller y="376" x="302">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="3" paddingLeft="12" paddingRight="12" paddingTop="12" paddingBottom="12" horizontalGap="16" verticalGap="9"/>
+				</e:layout>
+
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group y="613" horizontalCenter="0">
+			<e:Label id="lbDesc" text="Purchase now to get xxx" y="0" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" x="0"/>
+			<e:Image y="941" touchEnabled="false" source="zycs_320030" x="486"/>
+			<e:Label text="Not count into the daily limit" y="0" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" x="0"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbDesc2" text="The top-up can be counted into Total Top-up and SVIP" y="729" size="20" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="lbQianZhi" text="Buy the last pack first" y="679" size="28" fontFamily="Times" textColor="0xE3D7BE" textAlign="center" horizontalCenter="0"/>
+		<e:Button id="btnRecharge" label="Top Up" y="644" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_16" x="255"/>
+		<e:Button id="btnGetAward" label="Claim Rewards" y="644" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnMin1_16" x="255"/>
+		<e:Image id="imgYlq" touchEnabled="false" source="fl_zycs_ylq" y="647" x="299"/>
+		<e:TabBar id="tabList" y="770" itemRendererSkinName="MrzgWinTabEUI" horizontalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout gap="11"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+		<e:Group id="groupPower" y="558" x="50">
+			<e:Image fillMode="scale" source="mrzg_zycs_zl"/>
+			<e:BitmapLabel id="bmpPower" text="200000" letterSpacing="-18" font="mrzg_fnt"/>
+			<e:Image fillMode="scale" source="mrzg_zycs_tubiao"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="-13"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

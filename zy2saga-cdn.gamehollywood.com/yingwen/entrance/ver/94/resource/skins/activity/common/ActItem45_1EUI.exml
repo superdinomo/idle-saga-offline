@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem45_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="83" height="87">
+	<w:Config id="1586bd49103"/>
+	<e:Image id="imgBg" x="0" y="0" scale9Grid="20,19,1,1" source="tzmg_zycs_ptd"/>
+	<e:Image id="imgStart" scale9Grid="20,19,1,1" source="tzmg_zycs_qd" x="4" y="25"/>
+	<e:Group id="group" width="83" height="85">
+		<e:Component id="item" skinName="ItemSkin" touchEnabled="true" scaleX="0.9" scaleY="0.9" visible="false"/>
+		<e:Image id="imgIcon" scale9Grid="20,19,1,1" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:Label id="lbNum" y="57" text="9" fontFamily="Times" size="20" lineSpacing="10" textColor="0xCDC8BE" right="8"/>
+	</e:Group>
+</e:Skin>

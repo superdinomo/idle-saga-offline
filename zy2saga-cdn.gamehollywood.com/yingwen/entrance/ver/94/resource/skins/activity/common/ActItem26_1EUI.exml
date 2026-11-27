@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActItem26_1EUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="336" height="205" >
+	<w:Config id="1586bdedfef"/>
+	<e:Image x="0" y="0" source="sc_zycs_gmd"/>
+	<e:Image x="1" y="2" source="hddt_zycs_tqtap"/>
+	<e:Label id="lbName" text="Gear Name Gear Name Gear Name" y="156" size="20" fontFamily="Times" height="39" width="160" textAlign="center" horizontalCenter="-76"/>
+	<e:CheckBox id="checkBoxTiXing" x="185" y="12" skinName="CheckBoxEUI" label="Red Dot"/>
+	<e:Component id="itemIcon" x="41" skinName="ItemSkin" y="60"/>
+
+	<e:Group x="1" y="2">
+		<e:Image source="hddt_zycs_tqtap" left="0" height="42" y="0"/>
+		<e:Label id="labelDesc" text="Available to Exchange：3" fontFamily="Times" size="18" x="6" textColor="0xe3d7be" width="166" y="3"/>
+	</e:Group>
+	<e:Group y="78" horizontalCenter="76">
+		<e:Image id="imgConsume" x="0" y="0" source="zycs_340036"/>
+		<e:Label id="lbConsumeCount" text="0" y="16" fontFamily="Times" size="24" textAlign="left" textColor="0xAF9B73" x="11"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Button id="btnDuiHuan" label="Exchange" y="116" scaleX="1" scaleY="1" x="184" skinName="BtnMin1_2mid"/>
+	<e:Label id="labelMax" text="Maxed out" y="130" fontFamily="Times" size="20" horizontalCenter="76" textColor="0xF01414"/>
+	<e:Image id="redPoint" anchorOffsetX="0" anchorOffsetY="0" x="316" y="-2" source="mainui_zycs_hongdian"/> 
+</e:Skin>

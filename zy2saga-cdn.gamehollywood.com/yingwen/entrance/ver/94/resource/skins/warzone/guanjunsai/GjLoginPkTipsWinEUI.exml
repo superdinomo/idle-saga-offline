@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjLoginPkTipsWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="553" height="586">
+		<e:Image x="0" y="0" touchEnabled="false" source="gjs_zycs_bg13_jpg"/>
+
+		<e:Image id="imgTitle" y="13" horizontalCenter="0.5" source="btz_gjs_zdfz_png"/>
+		<e:Button id="closeBtn" label="" skinName="Btn0Skin" icon="public_zycs_quxiao" y="-4" x="470"/>
+
+
+
+
+		<e:Label id="lbDec" text="Team grouping will start at 18:00 tonight" fontFamily="Times" size="20" textAlign="center" y="402" horizontalCenter="0.5" textColor="0xe3d7be"/>
+		<e:Button id="btnSend" label="Got it" y="462" horizontalCenter="0" skinName="BtnMin1_1"/>
+	</e:Group>
+</e:Skin>

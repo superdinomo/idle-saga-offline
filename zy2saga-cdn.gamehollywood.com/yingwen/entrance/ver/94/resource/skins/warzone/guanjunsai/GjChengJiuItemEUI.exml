@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjChengJiuItemEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="668" height="164">
+	<e:Image x="0" y="0" source="hddt_zycs_cblcbg1_jpg"/>
+
+	<e:Label id="lbName" text="Kill 1 player" size="24" fontFamily="Times" x="5" y="18" textColor="0xcdc8be"/>
+
+	<e:Label id="lbCount" text="1/10" size="24" fontFamily="Times" y="18" textColor="0x13ee22" horizontalCenter="237"/>
+	<e:List id="list" itemRendererSkinName="ItemSkin" y="48" x="16">
+		<e:layout>
+		<e:HorizontalLayout gap="18" paddingLeft="12" paddingTop="12" paddingRight="12" paddingBottom="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object />
+				<e:Object />
+				<e:Object />
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Image id="imgYlq" y="62" source="fl_zycs_ylq" x="511"/>
+	<e:Button id="btnSend" label="Claim" y="79" x="513" skinName="BtnMin1_2mid"/>
+
+
+
+
+</e:Skin>

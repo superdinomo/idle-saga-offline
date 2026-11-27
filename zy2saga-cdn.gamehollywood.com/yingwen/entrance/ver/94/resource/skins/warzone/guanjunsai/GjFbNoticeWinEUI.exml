@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GjFbNoticeWinEUI" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="1280" width="720">
+	<w:Config id="1586b1383e3" />
+	<e:Group id="group" horizontalCenter="0" width="560" height="112" y="768">
+		<e:Image id="imgBg" x="0" y="0"  source="gjs_tips"/>
+		<e:Group id="groupMC" y="0" width="0" height="0" horizontalCenter="0">
+		</e:Group>
+
+
+
+
+
+		<e:Group horizontalCenter="0" verticalCenter="22">
+			<e:Image id="imgTeam" y="0" source="gjs_bs_1" x="-27"/>
+			<e:Label id="lbDec" text="Gratitude: 99" size="22" textAlign="center" fontFamily="Times" lineSpacing="5" textColor="0xe3d7be" x="30" y="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>
