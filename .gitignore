@@ -1,0 +1,11 @@
+# OS / runtime / editor artifacts
+node_modules/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets / environment
+.env
+.env.*

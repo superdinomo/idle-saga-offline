@@ -1,0 +1,10 @@
+{
+  "name": "idle-saga-offline",
+  "version": "1.0.0",
+  "description": "Self-contained offline HTTP + binary WebSocket emulator server for Idle Saga",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}

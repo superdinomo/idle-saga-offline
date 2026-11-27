@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SettingsWinEUI" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Group horizontalCenter="0" verticalCenter="-34" width="553">
+		<e:Image bottom="0" top="0" source="setting_zycs_bg1_jpg" scale9Grid="27,54,503,656"/>
+		<e:Group>
+			<e:Group x="0" y="0" height="1070">
+				<e:Image y="16" source="mianui_zycs_sz" horizontalCenter="0"/>
+				<e:Button id="closeBtn" label="" x="470" y="0" skinName="Btn0Skin" icon="public_zycs_quxiao"/>
+				<e:Group x="35" y="82">
+					<e:Group x="0" y="0">
+						<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_title"/>
+						<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="42" text="Block Settings" y="6" textColor="0xba904d"/>
+						<e:Image y="0" x="4" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_mute"/>
+					</e:Group>
+					<e:CheckBox id="checkBoxHideOtherEff" x="26" y="50" skinName="CheckBoxEUI" label="Block other players' skill effect"/>
+					<e:CheckBox id="checkBoxHideHit" x="26" y="105" skinName="CheckBoxEUI" label="Block Normal Damage Floating Text"/>
+					<e:CheckBox id="checkBoxHideOtherWing" x="26" y="159" skinName="CheckBoxEUI" label="Block other players' wings"/>
+					<e:CheckBox id="checkBoxHideHuDun" x="26" y="209" skinName="CheckBoxEUI" label="Block Protection's effect"/>
+				</e:Group>
+				<e:Group x="35" y="339">
+					<e:Group x="0" y="0">
+						<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_title"/>
+						<e:Image y="0" x="4" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_sound"/>
+						<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="42" text="Sound Settings" y="5" textColor="0xBA904D"/>
+						<e:ToggleSwitch id="checkBoxHideSound" label="" x="401" y="3">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="setting_zycs_off" source.down="setting_zycs_on"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+						</e:ToggleSwitch>
+					</e:Group>
+					<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="27" text="BGM" y="56" textColor="0xCDC8B1"/>
+					<e:HSlider id="sliderYinyue" skinName="SettingHSliderEUI" x="78" y="48" width="360" maximum="10" value="3"/>
+					<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="27" text="Sound" y="107" textColor="0xCDC8B1"/>
+					<e:HSlider id="sliderYinxiao" x="75" y="99" width="360" maximum="10" skinName="SettingHSliderEUI" value="0"/>
+				</e:Group>
+				<e:Group y="489" width="479" horizontalCenter="0">
+					<e:Group y="0" horizontalCenter="0">
+						<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_title"/>
+						<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="42" text="Graphic Settings" y="6" textColor="0xBA904D"/>
+						<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="209" text="(Re-login to apply settings)" y="5" textColor="0xcdc8b1"/>
+						<e:Image y="0" x="4" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_hd"/>
+					</e:Group>
+					<e:RadioButton id="radioButtonHigh" label="" y="38" selected="true" left="113">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="setting_zycs_h2" source.down="setting_zycs_h1"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+					<e:RadioButton id="radioButtonLow" label="" y="38" right="113">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="setting_zycs_l2" source.down="setting_zycs_l1"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+					<e:Label text="(To avoid lagging or crashes, you can switch to the low quality mode)" y="128" size="20" fontFamily="Times" textColor="0xcdc8b1" horizontalCenter="0" width="419" textAlign="center"/>
+				</e:Group>
+				<e:Group y="661" horizontalCenter="0" height="140">
+					<e:Group x="0" y="0">
+					<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_title"/>
+					<e:Image y="0" x="4" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_hd"/>
+					<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="42" text="Cache Settings" y="5" textColor="0xBA904D"/>
+						<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="125" text="(Re-login to apply settings)" y="5" textColor="0xCDC8B1" scaleX="1" scaleY="1" visible="false"/>
+					</e:Group>
+					<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="10" text="Cache (M)" y="63" textColor="0xCDC8B1"/>
+					<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" text="(Turn higher to improve gaming experience, turn lower to reduce crashes)" y="92" textColor="0xCDC8B1" horizontalCenter="0.5" width="432"/>
+					<e:Label id="lbCache0" size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="101" text="500" y="35" textColor="0xCDC8B1"/>
+					<e:Label id="lbCache1" size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="170" text="600" y="35" textColor="0xCDC8B1"/>
+					<e:Label id="lbCache2" size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="232" text="700" y="35" textColor="0xCDC8B1"/>
+					<e:Label id="lbCache3" size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="298" text="800" y="35" textColor="0xCDC8B1"/>
+					<e:Label id="lbCache4" size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="361" text="900" y="36" textColor="0xCDC8B1"/>
+					<e:Label id="lbCache5" size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="420" text="1000" y="37" textColor="0xCDC8B1"/>
+					<e:HSlider id="sliderCache" skinName="SettingHSliderEUI" x="97" y="56" width="360" maximum="5" value="2"/>
+				</e:Group>
+				<e:Group y="802" horizontalCenter="0">
+					<e:Group x="0" y="0">
+					<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_title"/>
+					<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="42" text="Screen Settings" y="6" textColor="0xBA904D"/>
+					<e:Image y="0" x="4" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_hd"/>
+					</e:Group>
+					<e:CheckBox id="checkBoxLiuhai" x="13" y="44" skinName="CheckBoxEUI" label="Notch"/>
+					<e:CheckBox id="checkBoxYuandi" x="143" y="44" skinName="CheckBoxEUI" label="Round Bottom"/>
+				</e:Group>
+				<e:Group y="886" horizontalCenter="0">
+					<e:Group x="0" y="0">
+						<e:Image y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_title"/>
+						<e:Label size="20" textAlign="center" verticalAlign="middle" fontFamily="Times" x="42" text="Server Info" y="6" textColor="0xBA904D"/>
+						<e:Image y="0" x="4" anchorOffsetX="0" anchorOffsetY="0" source="setting_zycs_fwxx"/>
+						<e:Button id="btnAllowBackground" label="Allow BG" x="356" y="1" anchorOffsetX="0" width="112" anchorOffsetY="0" height="31" skinName="BtnMin1_2small" visible="false"/>
+					</e:Group>
+					<e:Label id="lbServerName" text="Server: Zone 1" y="39" size="20" fontFamily="Times" textColor="0x13EE22" horizontalCenter="0"/>
+					<e:Label id="lbOpenDay" text="Server Opening Days: 9999 Days" y="65" size="20" fontFamily="Times" textColor="0x13ee22" horizontalCenter="0"/>
+					<e:Label id="lbServerTime" text="Server Opening Days: 9999 Days" y="89" size="20" fontFamily="Times" textColor="0x13EE22" horizontalCenter="0"/>
+				</e:Group>
+				<e:Group id="groupYszc" y="1000" horizontalCenter="0">
+					<e:Label id="lbYhfwxyDec" text="User Agreement" y="0" size="20" fontFamily="Times" textColor="0x13EE22" x="0"/>
+					<e:Label id="lbZhanwei" text="          " y="10" size="20" fontFamily="Times" textColor="0x13EE22" x="10"/>
+					<e:Label id="lbYszcDec" text="Privacy Policy" y="0" size="20" fontFamily="Times" textColor="0x13EE22" x="130"/>
+					<e:layout>
+						<e:HorizontalLayout gap="0"/>
+					</e:layout>
+			</e:Group>
+				<e:Group id="groupSagaCID" y="1032" horizontalCenter="0.5">
+					<e:Label id="lbSageCID" text="Cid:123456789" y="0" size="20" fontFamily="Times" textColor="0x13EE22" x="0"/>
+					<e:Label id="lbZhanwei0" text="    " y="10" size="20" fontFamily="Times" textColor="0x13EE22" x="10"/>
+					<e:Label id="lbSagaCopyCID" text="Copy" y="0" size="20" fontFamily="Times" textColor="0x13EE22" x="130"/>
+					<e:layout>
+					<e:HorizontalLayout gap="0"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupQHZH" width="550" height="40" x="0" y="427" visible="false">
+				<e:Button id="btnQHZH" label="Switch Account" skinName="BtnMin1_1"  x="201"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+</e:Group>
+</e:Skin>

@@ -1,0 +1,117 @@
+{
+  "elapsedSec": "1078.4",
+  "totals": {
+    "ok": 50492,
+    "skipped": 38,
+    "notFound": 761,
+    "err": 0,
+    "bytes": 2502448957
+  },
+  "stats": {
+    "545_desktop": {
+      "ok": 17141,
+      "skipped": 7,
+      "notFound": 42,
+      "err": 0,
+      "bytes": 2003116190
+    },
+    "res_a_hi": {
+      "ok": 5458,
+      "skipped": 0,
+      "notFound": 55,
+      "err": 0,
+      "bytes": 130386419
+    },
+    "default_res": {
+      "ok": 4332,
+      "skipped": 1,
+      "notFound": 8,
+      "err": 0,
+      "bytes": 108253239
+    },
+    "res_cfg": {
+      "ok": 1,
+      "skipped": 0,
+      "notFound": 0,
+      "err": 0,
+      "bytes": 5727
+    },
+    "item_cfg": {
+      "ok": 2476,
+      "skipped": 0,
+      "notFound": 21,
+      "err": 0,
+      "bytes": 10852546
+    },
+    "skill_cfg": {
+      "ok": 38,
+      "skipped": 0,
+      "notFound": 112,
+      "err": 0,
+      "bytes": 117229
+    },
+    "monhead_cfg": {
+      "ok": 102,
+      "skipped": 0,
+      "notFound": 0,
+      "err": 0,
+      "bytes": 491946
+    },
+    "buff_cfg": {
+      "ok": 0,
+      "skipped": 0,
+      "notFound": 43,
+      "err": 0,
+      "bytes": 0
+    },
+    "map_meta": {
+      "ok": 172,
+      "skipped": 0,
+      "notFound": 0,
+      "err": 0,
+      "bytes": 1080694
+    },
+    "map_tiles": {
+      "ok": 19233,
+      "skipped": 0,
+      "notFound": 0,
+      "err": 0,
+      "bytes": 80725078
+    },
+    "icon": {
+      "ok": 47,
+      "skipped": 2,
+      "notFound": 3,
+      "err": 0,
+      "bytes": 2193760
+    },
+    "eff_extra_json": {
+      "ok": 218,
+      "skipped": 0,
+      "notFound": 5,
+      "err": 0,
+      "bytes": 274300
+    },
+    "skilleff_extra_json": {
+      "ok": 542,
+      "skipped": 0,
+      "notFound": 472,
+      "err": 0,
+      "bytes": 510582
+    },
+    "eff_extra_png": {
+      "ok": 210,
+      "skipped": 8,
+      "notFound": 0,
+      "err": 0,
+      "bytes": 28672670
+    },
+    "skilleff_extra_png": {
+      "ok": 522,
+      "skipped": 20,
+      "notFound": 0,
+      "err": 0,
+      "bytes": 135768577
+    }
+  }
+}
